@@ -77,3 +77,4 @@ theme: tranquilpeak
 deploy:
   type: git
   repo: git@github.com:h404bi/notes.git
+  branch: gh-pages

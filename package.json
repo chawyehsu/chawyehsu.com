@@ -1,12 +1,13 @@
 {
-  "name": "hexo-site",
-  "version": "0.0.0",
+  "name": "notes.h404bi.com",
+  "version": "0.0.1",
   "private": true,
   "hexo": {
     "version": "3.0.1"
   },
   "dependencies": {
     "hexo": "^3.0.0",
+    "hexo-deployer-git": "^0.0.4",
     "hexo-generator-archive": "^0.1.0",
     "hexo-generator-category": "^0.1.0",
     "hexo-generator-feed": "^1.0.1",
