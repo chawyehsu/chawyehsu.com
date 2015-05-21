@@ -1,0 +1,51 @@
+language: node_js
+
+node_js:
+  - "0.12"
+
+# Handle git submodules yourself
+git:
+  submodules: false
+
+before_install:
+  # Decrypt the private key
+  - openssl aes-256-cbc -K $encrypted_fa20db24504d_key -iv $encrypted_fa20db24504d_iv -in .travis/deploy_key.enc -out ~/.ssh/id_rsa -d
+  # Set the permission of the key
+  - chmod 600 ~/.ssh/id_rsa
+  # Start SSH agent
+  - eval $(ssh-agent)
+  # Add the private key to the system
+  - ssh-add ~/.ssh/id_rsa
+  # Copy SSH config
+  - cp .travis/ssh_config ~/.ssh/config
+  # Set Git config
+  - git config --global user.name "h404bi"
+  - git config --global user.email "h404bi@gmail.com"
+  # Clone the source repository
+  - git clone https://github.com/h404bi/notes.git notes_git
+  - cd notes_git
+  # Use sed to replace the SSH URL with the public URL, then initialize submodules
+  - sed -i 's/git@github.com:/https:\/\/github.com\//' .gitmodules
+  - git submodule update --init --recursive
+
+install:
+  # Install Hexo
+  - npm install hexo-cli -g
+  # Install Hexo dependencies
+  - npm install --no-optional
+  # Install theme dependencies
+  - cd themes/tranquilpeak
+  - npm install
+  - bower install
+
+script:
+  # Build theme
+  - grunt buildProd
+  # Test Hexo
+  - hexo -v
+  - hexo generate
+
+branch:
+  only:
+    - master
+
