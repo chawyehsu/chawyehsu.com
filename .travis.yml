@@ -31,6 +31,8 @@ before_install:
 install:
   # Install Hexo
   - npm install hexo-cli -g
+  # Install Grunt
+  - npm install grunt-cli -g
   # Install Hexo dependencies
   - npm install --no-optional
   # Install theme dependencies
