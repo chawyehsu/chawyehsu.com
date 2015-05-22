@@ -47,6 +47,6 @@ script:
   - hexo clean
   - hexo generate --deploy
 
-branch:
+branches:
   only:
     - master
