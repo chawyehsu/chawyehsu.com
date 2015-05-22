@@ -44,8 +44,8 @@ script:
   # Build theme
   - grunt buildProd
   # Test Hexo
-  - hexo -v
-  - hexo generate
+  - hexo clean
+  - hexo generate --deploy
 
 branch:
   only:
