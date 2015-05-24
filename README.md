@@ -31,7 +31,7 @@ $ grunt buildProd
 
 ###### Generate and run server:
 ``` bash
-$ cd ..
+$ cd ../..
 $ hexo generate
 $ hexo server
 ```
