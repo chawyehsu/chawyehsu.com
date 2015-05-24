@@ -26,6 +26,8 @@ before_install:
   # Clone the source repository
   - git clone https://github.com/h404bi/notes.git notes_git
   - cd notes_git
+  # Clone the deploy repository
+  - git clone -b pages git@github.com:h404bi/notes.git .deploy_git
   # Use sed to replace the SSH URL with the public URL, then initialize submodules
   - sed -i 's/git@github.com:/https:\/\/github.com\//' .gitmodules
   - git submodule update --init --recursive
@@ -45,7 +47,7 @@ install:
 script:
   # Build theme
   - grunt buildProd
-  # Test Hexo
+  # Generate and deploy
   - hexo clean
   - hexo generate --deploy
 
