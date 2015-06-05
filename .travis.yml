@@ -27,7 +27,7 @@ before_install:
   - git clone https://github.com/h404bi/notes.git notes_git
   - cd notes_git
   # Clone the deploy repository
-  - git clone -b pages git@github.com:h404bi/notes.git .deploy_git
+  - git clone -b pages https://github.com/h404bi/notes.git .deploy_git
   # Use sed to replace the SSH URL with the public URL, then initialize submodules
   - sed -i 's/git@github.com:/https:\/\/github.com\//' .gitmodules
   - git submodule update --init --recursive
@@ -39,9 +39,11 @@ install:
   - npm install grunt-cli -g
   # Install Hexo dependencies
   - npm install --no-optional
+  # Manually update deployer.js before hexo-deployer-git updates
+  - wget -qO node_modules/hexo-deployer-git/lib/deployer.js https://raw.githubusercontent.com/hexojs/hexo-deployer-git/master/lib/deployer.js
   # Install theme dependencies
   - cd themes/tranquilpeak
-  - npm install
+  - npm install --no-optional
   - bower install
 
 script:
