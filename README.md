@@ -38,4 +38,4 @@ $ hexo server
 
 ## License
 
-Unless otherwise noted, [CC BY-NC-SA 3.0](https://creativecommons.org/licenses/by-nc-sa/3.0/).
+Unless otherwise noted, [CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/).
