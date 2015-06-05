@@ -14,7 +14,7 @@ timezone:
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
 url: //notes.h404bi.com
 root: /
-permalink: :year/:month/:day/:title/
+permalink: archives/:title/
 permalink_defaults:
 
 # Directory
