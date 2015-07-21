@@ -76,5 +76,7 @@ theme: tranquilpeak
 ## Docs: http://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: git@github.com:h404bi/notes.git
-  branch: pages
+  repo:
+    github: git@github.com:h404bi/notes.git,pages
+    gitcafe: git@gitcafe.com:hanabi/notes.git,gitcafe-pages
+
