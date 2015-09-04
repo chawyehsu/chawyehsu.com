@@ -1,4 +1,4 @@
 [submodule "themes/tranquilpeak"]
 	path = themes/tranquilpeak
-	url = git@github.com:h404bi/tranquilpeak-hexo-theme.git
+	url = https://github.com/h404bi/tranquilpeak-hexo-theme.git
 	branch = h404bi-dev

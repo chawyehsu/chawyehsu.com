@@ -3,16 +3,15 @@ language: node_js
 node_js:
   - "0.12"
 
-# Handle git submodules yourself
+# Handle git submodules manually
 git:
   submodules: false
 
 before_install:
   # Correct timezone
   - export TZ=Asia/Shanghai
-  # Decrypt the private keys (GitHub & GitCafe)
+  # Decrypt the private key
   - openssl aes-256-cbc -K $encrypted_fa20db24504d_key -iv $encrypted_fa20db24504d_iv -in .travis/github_deploy_key.enc -out ~/.ssh/github_deploy.pri -d
-  - openssl aes-256-cbc -K $encrypted_26b4962af0e7_key -iv $encrypted_26b4962af0e7_iv -in .travis/gitcafe_deploy_key.enc -out ~/.ssh/gitcafe_deploy.pri -d
   # Set the permission of the key
   - chmod 600 ~/.ssh/*.pri
   # Start SSH agent
@@ -24,13 +23,13 @@ before_install:
   # Set Git config
   - git config --global user.name "h404bi"
   - git config --global user.email "h404bi@gmail.com"
-  # Clone the source repository
+  # Clone the source
   - git clone https://github.com/h404bi/notes.git notes_git
   - cd notes_git
-  # Clone the deploy repository
-  - git clone -b pages https://github.com/h404bi/notes.git .deploy_git
+  # Clone deploy history
+  # - git clone -b pages https://github.com/h404bi/notes.git .deploy_git
   # Use sed to replace the SSH URL with the public URL, then initialize submodules
-  - sed -i 's/git@github.com:/https:\/\/github.com\//' .gitmodules
+  # - sed -i 's/git@github.com:/https:\/\/github.com\//' .gitmodules
   - git submodule update --init --recursive
 
 install:

@@ -3,8 +3,3 @@ Host github.com
   StrictHostKeyChecking no
   IdentityFile ~/.ssh/github_deploy.pri
   IdentitiesOnly yes
-Host gitcafe.com
-  User git
-  StrictHostKeyChecking no
-  IdentityFile ~/.ssh/gitcafe_deploy.pri
-  IdentitiesOnly yes
