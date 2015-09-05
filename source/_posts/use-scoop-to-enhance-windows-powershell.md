@@ -7,7 +7,7 @@ coverImage: 2015-08-23-powershell-banner.png
 coverMeta: out
 ---
 #### 一本道
-软件包管理工具想必大家已经很清楚并且使用过。Debian/ Ubuntu 的 apt-get，Arch Linux 的 Pacman，就连本身并无自带包管理工具的 Mac 都有了 Macports 和及其好用的 Homebrew。至于 Windows 下，Geek 们也生产出各式各样的工具以贴合他们的 \*nix 使用习惯。其中软件包管理工具中比较出名的就是 **[chocolatey](https://chocolatey.org/)** 了。
+软件包管理工具想必大家已经很清楚并且使用过。Debian/ Ubuntu 的 apt-get，Arch Linux 的 Pacman，就连本身并无自带包管理工具的 Mac 都有了 Macports 和极其好用的 Homebrew。至于 Windows 下，Geek 们也生产出各式各样的工具以贴合他们的 \*nix 使用习惯。其中软件包管理工具中比较出名的就是 **[chocolatey](https://chocolatey.org/)** 了。
 <!-- more -->
 然而本文并不细谈 chocolatey，而谈的是一个叫做 **[Scoop](http://scoop.sh/)** 工具。官网上的描述是“A command-line installer for Windows”，其实说白了，就是和 chocolatey 同属一种东西，也就是 Windows 下的软件包管理工具，但其并没有 chocolatey 出名与强大。
 
