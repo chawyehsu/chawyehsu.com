@@ -27,7 +27,7 @@ before_install:
   - git clone https://github.com/h404bi/notes.git notes_git
   - cd notes_git
   # Clone deploy history
-  # - git clone -b pages https://github.com/h404bi/notes.git .deploy_git
+  - git clone -b gh-pages https://github.com/h404bi/notes.git .deploy_git
   # Use sed to replace the SSH URL with the public URL, then initialize submodules
   # - sed -i 's/git@github.com:/https:\/\/github.com\//' .gitmodules
   - git submodule update --init --recursive
