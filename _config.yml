@@ -1,7 +1,7 @@
 # Site
 title: H404bi's Notes
-subtitle:
-description: There will still be love in this world
+subtitle: There will still be love in this world
+description: 煙花已逝深紅犹存
 author: h404bi
 language: zh-cn
 timezone: Asia/Shanghai
@@ -52,6 +52,20 @@ feed:
     type: atom
     path: atom.xml
     limit: 20
+# Markdown-it config
+## Docs: https://github.com/celsomiranda/hexo-renderer-markdown-it/wiki
+markdown:
+  render:
+    html: true
+    xhtmlOut: false
+    breaks: true
+    linkify: true
+    typographer: true
+  plugins:
+    - markdown-it-footnote
+    - markdown-it-sup
+    - markdown-it-sub
+    - markdown-it-abbr
 
 ## Themes
 theme: tranquilpeak
