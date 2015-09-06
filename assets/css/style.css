@@ -4409,3 +4409,32 @@ a.tag--small,
     width: 100%;
     height: 100%;
     margin-top: 0; }
+
+.links > ul li {
+  width: 115px;
+  white-space: nowrap;
+  float: left;
+  margin: 10px;
+  border-left: 3px solid #C48F33;
+  display: block;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  transition: all 0.5s; }
+  .links > ul li:nth-child(4n + 1) {
+    border-left-color: rgba(32, 78, 200, 0.65); }
+  .links > ul li:nth-child(4n + 2) {
+    border-left-color: rgba(112, 162, 96, 0.65); }
+  .links > ul li:nth-child(4n + 3) {
+    border-left-color: rgba(208, 231, 70, 0.65); }
+  .links > ul li:hover {
+    background-image: -webkit-linear-gradient(left, #fcfcfc, #f2f2f2);
+    background-image: -moz-linear-gradient(left, #fcfcfc, #f2f2f2);
+    background-image: -ms-linear-gradient(left, #fcfcfc, #f2f2f2);
+    background-image: -o-linear-gradient(left, #fcfcfc, #f2f2f2);
+    background-image: linear-gradient(left, #fcfcfc, #f2f2f2);
+    background-position: 45px 0; }
+  .links > ul li a {
+    display: block;
+    color: #666;
+    border-bottom: none;
+    text-align: center; }
