@@ -2198,7 +2198,7 @@ p,
 ul,
 ol,
 dl {
-  margin: 0 0 1.75em 0; }
+  margin: 0; }
 
 a,
 a:hover,
@@ -2250,7 +2250,8 @@ abbr {
 
 blockquote {
   border-left: 2px solid #d1dced;
-  padding: 10px 20px; }
+  padding: 10px 20px;
+  margin: 0; }
   blockquote cite:before {
     content: ' — ';
     padding: 0 0.3em; }
