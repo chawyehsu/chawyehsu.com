@@ -2146,7 +2146,7 @@ body {
   padding: 0;
   background: white;
   font-family: "SF UI Display", ".PingFang SC", "PingFang SC", "Neue Haas Grotesk Text Pro", "Arial Nova", "Segoe UI", "Microsoft YaHei", "Microsoft JhengHei", "Helvetica Neue", "Source Han Sans SC", "Noto Sans CJK SC", "Source Han Sans CN", "Noto Sans SC", "Source Han Sans TC", "Noto Sans CJK TC", "Hiragino Sans GB", "Open Sans", sans-serif;
-  font-size: 1.5rem;
+  font-size: 1.8rem;
   line-height: 2em;
   letter-spacing: 0.01em;
   -webkit-font-smoothing: subpixel-antialiased;
@@ -2258,7 +2258,7 @@ blockquote {
 
 @media only screen and (max-width: 767px) {
   body {
-    font-size: 1.4rem; }
+    font-size: 1.7rem; }
   h1 {
     font-size: 2.6rem; }
   h2 {
@@ -2274,7 +2274,7 @@ blockquote {
 
 @media only screen and (min-width: 768px) and (max-width: 1023px) {
   body {
-    font-size: 1.45rem; }
+    font-size: 1.75rem; }
   h1 {
     font-size: 2.65rem; }
   h2 {
@@ -2336,7 +2336,7 @@ blockquote {
     #about #about-card #about-card-job,
     #about #about-card #about-card-location,
     #about #about-card #about-card-bio {
-      font-size: 1.5rem;
+      font-size: 1.8rem;
       line-height: 2em;
       font-weight: 400;
       color: #5d686f; }
@@ -2469,7 +2469,7 @@ blockquote {
 
 #footer {
   color: #9eabb3;
-  font-size: 1.4rem;
+  font-size: 1.6rem;
   text-align: center;
   margin-top: 70px;
   height: auto;
@@ -2514,7 +2514,7 @@ blockquote {
     color: #88909a; }
   #header .header-title {
     text-align: center;
-    font-size: 1.5rem;
+    font-size: 1.8rem;
     line-height: 55px;
     margin: 0; }
     #header .header-title .header-title-link {
@@ -2689,7 +2689,7 @@ blockquote {
           width: auto;
           height: 35px;
           line-height: 35px;
-          font-size: 1.4rem;
+          font-size: 1.6rem;
           letter-spacing: 0.3px;
           vertical-align: middle; }
     #sidebar[data-behavior="1"].pushed, #sidebar[data-behavior="3"].pushed {
@@ -2798,7 +2798,7 @@ blockquote {
           width: auto;
           height: 35px;
           line-height: 35px;
-          font-size: 1.4rem;
+          font-size: 1.6rem;
           letter-spacing: 0.3px;
           vertical-align: middle; }
     #sidebar[data-behavior="3"].pushed {
@@ -2869,7 +2869,7 @@ blockquote {
           width: auto;
           height: 35px;
           line-height: 35px;
-          font-size: 1.4rem;
+          font-size: 1.6rem;
           letter-spacing: 0.3px;
           vertical-align: middle; }
     #sidebar[data-behavior="1"].pushed {
@@ -2938,7 +2938,7 @@ blockquote {
           width: auto;
           height: 35px;
           line-height: 35px;
-          font-size: 1.4rem;
+          font-size: 1.6rem;
           letter-spacing: 0.3px;
           vertical-align: middle; }
     #sidebar[data-behavior="3"].pushed {
@@ -2987,7 +2987,7 @@ blockquote {
 .archive .archive-posts {
   list-style: none; }
   .archive .archive-posts .archive-post {
-    font-size: 1.4rem; }
+    font-size: 1.6rem; }
     .archive .archive-posts .archive-post .archive-post-title {
       margin-left: 10px;
       color: #5d686f; }
@@ -2998,7 +2998,7 @@ blockquote {
     .archive .archive-posts .archive-post::before {
       font-family: 'FontAwesome';
       content: '\f0da';
-      font-size: 1.25rem; }
+      font-size: 1.4rem; }
 
 .boxes {
   margin-top: 20px; }
@@ -3016,7 +3016,7 @@ blockquote {
   padding: 8px 15px;
   margin: 0;
   letter-spacing: 0.01em;
-  font-size: 1.5rem;
+  font-size: 1.8rem;
   cursor: pointer; }
   .btn:hover,
   .btn:focus,
@@ -3059,17 +3059,17 @@ blockquote {
     border: 1px solid #bd1908; }
 
 .btn--medium {
-  font-size: 1.4rem;
+  font-size: 1.6rem;
   padding: 8px 15px; }
 
 .btn--small {
-  font-size: 1.25rem;
+  font-size: 1.4rem;
   padding: 8px 15px; }
 
 .caption {
   display: block;
   font-family: "SF UI Display", ".PingFang SC", "PingFang SC", "Neue Haas Grotesk Text Pro", "Arial Nova", "Segoe UI", "Microsoft YaHei", "Microsoft JhengHei", "Helvetica Neue", "Source Han Sans SC", "Noto Sans CJK SC", "Source Han Sans CN", "Noto Sans SC", "Source Han Sans TC", "Noto Sans CJK TC", "Hiragino Sans GB", "Open Sans", sans-serif;
-  font-size: 1.25rem;
+  font-size: 1.4rem;
   color: #81929d;
   text-align: center;
   font-style: italic;
@@ -3129,12 +3129,12 @@ a.category--danger,
 
 a.category--default,
 .category--default {
-  font-size: 1.25rem;
+  font-size: 1.4rem;
   padding: 4.5px 15px; }
 
 a.category--small,
 .category--small {
-  font-size: 1.25rem;
+  font-size: 1.4rem;
   padding: 2px 10px; }
 
 .figure.clear {
@@ -3649,7 +3649,7 @@ figure.highlight {
     font-family: "SF UI Display", ".PingFang SC", "PingFang SC", "Neue Haas Grotesk Text Pro", "Arial Nova", "Segoe UI", "Microsoft YaHei", "Microsoft JhengHei", "Helvetica Neue", "Source Han Sans SC", "Noto Sans CJK SC", "Source Han Sans CN", "Noto Sans SC", "Source Han Sans TC", "Noto Sans CJK TC", "Hiragino Sans GB", "Open Sans", sans-serif;
     font-style: italic;
     background: rgba(0, 0, 0, 0.75);
-    font-size: 1.25rem;
+    font-size: 1.4rem;
     color: white;
     padding: 0.5em 1.5em;
     z-index: 1; }
@@ -3761,7 +3761,7 @@ a.link-unstyled a.link:active {
       margin-right: 10px; }
     .pagination-bar .pagination .pagination-number {
       float: right;
-      font-size: 1.25rem;
+      font-size: 1.4rem;
       color: #9eabb3; }
 
 .post {
@@ -3778,7 +3778,7 @@ a.link-unstyled a.link:active {
   .post .post-meta {
     line-height: 1.5em;
     font-family: "SF UI Display", ".PingFang SC", "PingFang SC", "Neue Haas Grotesk Text Pro", "Arial Nova", "Segoe UI", "Microsoft YaHei", "Microsoft JhengHei", "Helvetica Neue", "Source Han Sans SC", "Noto Sans CJK SC", "Source Han Sans CN", "Noto Sans SC", "Source Han Sans TC", "Noto Sans CJK TC", "Hiragino Sans GB", "Open Sans", sans-serif;
-    font-size: 1.25rem;
+    font-size: 1.4rem;
     font-weight: 400;
     color: #9eabb3; }
     .post .post-meta a {
@@ -3846,10 +3846,7 @@ a.link-unstyled a.link:active {
   .post-actions-wrap ul.post-action-nav {
     width: 25%; }
   .post-actions-wrap ul.post-action-share {
-    width: 75%; }
-  .load-disqus-btn {
-    margin: 0 auto;
-    display: inherit; } }
+    width: 75%; } }
 
 @media only screen and (max-width: 479px) {
   .post-actions-wrap ul.post-action-nav {
@@ -3904,7 +3901,7 @@ a.link-unstyled a.link:active {
     .post-header-cover .post-header .post-meta {
       max-width: 750px;
       font-family: "SF UI Display", ".PingFang SC", "PingFang SC", "Neue Haas Grotesk Text Pro", "Arial Nova", "Segoe UI", "Microsoft YaHei", "Microsoft JhengHei", "Helvetica Neue", "Source Han Sans SC", "Noto Sans CJK SC", "Source Han Sans CN", "Noto Sans SC", "Source Han Sans TC", "Noto Sans CJK TC", "Hiragino Sans GB", "Open Sans", sans-serif;
-      font-size: 1.5rem;
+      font-size: 1.8rem;
       color: white !important;
       font-weight: 400;
       letter-spacing: 0.05em;
@@ -4015,7 +4012,7 @@ a.link-unstyled a.link:active {
   .postShorten .postShorten-readingtime,
   .postShorten .postShorten-excerpt_link {
     font-family: "SF UI Display", ".PingFang SC", "PingFang SC", "Neue Haas Grotesk Text Pro", "Arial Nova", "Segoe UI", "Microsoft YaHei", "Microsoft JhengHei", "Helvetica Neue", "Source Han Sans SC", "Noto Sans CJK SC", "Source Han Sans CN", "Noto Sans SC", "Source Han Sans TC", "Noto Sans CJK TC", "Hiragino Sans GB", "Open Sans", sans-serif;
-    font-size: 1.25rem;
+    font-size: 1.4rem;
     font-weight: 400; }
   .postShorten .postShorten-excerpt,
   .postShorten .postShorten-content {
@@ -4168,12 +4165,12 @@ a.tag--danger,
 
 a.tag--default,
 .tag--default {
-  font-size: 1.25rem;
+  font-size: 1.4rem;
   padding: 4.5px 15px; }
 
 a.tag--small,
 .tag--small {
-  font-size: 1.25rem;
+  font-size: 1.4rem;
   padding: 2px 10px; }
 
 .text-left {
@@ -4201,22 +4198,22 @@ a.tag--small,
   text-transform: capitalize !important; }
 
 .text-xsmall {
-  font-size: 1rem !important; }
+  font-size: 1.2rem !important; }
 
 .text-small {
-  font-size: 1.25rem !important; }
-
-.text-medium {
   font-size: 1.4rem !important; }
 
-.text-base {
-  font-size: 1.5rem !important; }
-
-.text-large {
+.text-medium {
   font-size: 1.6rem !important; }
 
+.text-base {
+  font-size: 1.8rem !important; }
+
+.text-large {
+  font-size: 2rem !important; }
+
 .text-xlarge {
-  font-size: 1.7rem !important; }
+  font-size: 2.2rem !important; }
 
 .text-strong {
   font-weight: 700 !important; }
@@ -4410,6 +4407,21 @@ a.tag--small,
     width: 100%;
     height: 100%;
     margin-top: 0; }
+
+.post-disqus-wrap {
+  width: 100%;
+  margin-top: 20px;
+  text-align: center; }
+
+hr.footnotes-sep {
+  max-width: 128px;
+  margin-top: 32px; }
+
+.footnotes {
+  color: rgba(61, 70, 77, 0.6);
+  font-size: 1.3rem; }
+  .footnotes a {
+    color: inherit; }
 
 .links > ul li {
   width: 115px;
