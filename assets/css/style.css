@@ -2146,7 +2146,7 @@ body {
   padding: 0;
   background: white;
   font-family: "SF UI Display", ".PingFang SC", "PingFang SC", "Neue Haas Grotesk Text Pro", "Arial Nova", "Segoe UI", "Microsoft YaHei", "Microsoft JhengHei", "Helvetica Neue", "Source Han Sans SC", "Noto Sans CJK SC", "Source Han Sans CN", "Noto Sans SC", "Source Han Sans TC", "Noto Sans CJK TC", "Hiragino Sans GB", "Open Sans", sans-serif;
-  font-size: 1.8rem;
+  font-size: 1.6rem;
   line-height: 2em;
   letter-spacing: 0.01em;
   -webkit-font-smoothing: subpixel-antialiased;
@@ -2258,7 +2258,7 @@ blockquote {
 
 @media only screen and (max-width: 767px) {
   body {
-    font-size: 1.7rem; }
+    font-size: 1.5rem; }
   h1 {
     font-size: 2.6rem; }
   h2 {
@@ -2274,7 +2274,7 @@ blockquote {
 
 @media only screen and (min-width: 768px) and (max-width: 1023px) {
   body {
-    font-size: 1.75rem; }
+    font-size: 1.55rem; }
   h1 {
     font-size: 2.65rem; }
   h2 {
@@ -2336,7 +2336,7 @@ blockquote {
     #about #about-card #about-card-job,
     #about #about-card #about-card-location,
     #about #about-card #about-card-bio {
-      font-size: 1.8rem;
+      font-size: 1.6rem;
       line-height: 2em;
       font-weight: 400;
       color: #5d686f; }
@@ -2514,7 +2514,7 @@ blockquote {
     color: #88909a; }
   #header .header-title {
     text-align: center;
-    font-size: 1.8rem;
+    font-size: 1.6rem;
     line-height: 55px;
     margin: 0; }
     #header .header-title .header-title-link {
@@ -3016,7 +3016,7 @@ blockquote {
   padding: 8px 15px;
   margin: 0;
   letter-spacing: 0.01em;
-  font-size: 1.8rem;
+  font-size: 1.6rem;
   cursor: pointer; }
   .btn:hover,
   .btn:focus,
@@ -3901,7 +3901,7 @@ a.link-unstyled a.link:active {
     .post-header-cover .post-header .post-meta {
       max-width: 750px;
       font-family: "SF UI Display", ".PingFang SC", "PingFang SC", "Neue Haas Grotesk Text Pro", "Arial Nova", "Segoe UI", "Microsoft YaHei", "Microsoft JhengHei", "Helvetica Neue", "Source Han Sans SC", "Noto Sans CJK SC", "Source Han Sans CN", "Noto Sans SC", "Source Han Sans TC", "Noto Sans CJK TC", "Hiragino Sans GB", "Open Sans", sans-serif;
-      font-size: 1.8rem;
+      font-size: 1.6rem;
       color: white !important;
       font-weight: 400;
       letter-spacing: 0.05em;
@@ -4207,7 +4207,7 @@ a.tag--small,
   font-size: 1.6rem !important; }
 
 .text-base {
-  font-size: 1.8rem !important; }
+  font-size: 1.6rem !important; }
 
 .text-large {
   font-size: 2rem !important; }
