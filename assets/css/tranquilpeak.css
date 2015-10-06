@@ -67,7 +67,7 @@ p,
 ul,
 ol,
 dl {
-  margin: 1.25em 0; }
+  margin: 0 0 1.6em; }
 
 a,
 a:hover,
@@ -2276,6 +2276,12 @@ a.tag--small,
     width: 100%;
     height: 100%;
     margin-top: 0; }
+
+@media only screen and (max-width: 767px) {
+  .post-content .figure[class*="fig-"] {
+    width: calc(100% - 4px); }
+    .post-content .figure[class*="fig-"] .fig-img {
+      margin: 2px auto; } }
 
 .post-disqus-wrap {
   width: 100%;
