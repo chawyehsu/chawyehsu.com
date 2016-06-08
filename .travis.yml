@@ -34,13 +34,11 @@ before_install:
 
 install:
   # Install Hexo
-  - npm install hexo-cli -g
+  - npm install hexo-cli -g --no-optional
   # Install Grunt
   - npm install grunt-cli -g
   # Install Hexo dependencies
   - npm install --no-optional
-  # Manually update deployer.js before hexo-deployer-git updates
-  - wget -qO node_modules/hexo-deployer-git/lib/deployer.js https://raw.githubusercontent.com/hexojs/hexo-deployer-git/master/lib/deployer.js
   # Install theme dependencies
   - cd themes/tranquilpeak
   - npm install --no-optional
