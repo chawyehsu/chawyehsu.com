@@ -17,23 +17,28 @@ $ git submodule update --init --recursive
 ###### Install dependencies:
 
 ``` bash
-$ npm install
+# Install Hexo
+$ npm install hexo-cli -g --no-optional
+# Install Grunt
+$ npm install grunt-cli -g
+# Install Hexo dependencies
+$ npm install --no-optional
+# Install theme dependencies
 $ cd themes/tranquilpeak
-$ npm install
+$ npm install --no-optional
 $ bower install
 ```
 
 ###### Build the theme:
 
 ``` bash
-$ grunt buildProd
+$ grunt build
 ```
 
-###### Generate and run server:
+###### Run server and dev:
 
 ``` bash
 $ cd ../..
-$ hexo generate
 $ hexo server
 ```
 

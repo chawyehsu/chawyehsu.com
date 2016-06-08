@@ -48,6 +48,7 @@ script:
   # Build theme
   - grunt buildProd
   # Generate and deploy
+  - cd ../..
   - hexo clean
   - hexo generate --deploy
 
