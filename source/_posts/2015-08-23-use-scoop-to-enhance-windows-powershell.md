@@ -2,22 +2,33 @@ title: 用 Scoop 改善 Windows Powershell
 date: 2015-08-23 23:19:11
 updated: 2015-09-04 17:19:38
 tags: [windows, superuser]
-metaAlignment: center
-coverImage: 2015-08-23-powershell-banner.png
-coverMeta: out
 ---
-#### 一本道
-软件包管理工具想必大家已经很清楚并且使用过。Debian/ Ubuntu 的 apt-get，Arch Linux 的 Pacman，就连本身并无自带包管理工具的 Mac 都有了 Macports 和极其好用的 Homebrew。至于 Windows 下，Geek 们也生产出各式各样的工具以贴合他们的 \*nix 使用习惯。其中软件包管理工具中比较出名的就是 **[chocolatey](https://chocolatey.org/)** 了。
-<!-- more -->
-然而本文并不细谈 chocolatey，而谈的是一个叫做 **[Scoop](http://scoop.sh/)** 工具。官网上的描述是“A command-line installer for Windows”，其实说白了，就是和 chocolatey 同属一种东西，也就是 Windows 下的软件包管理工具，但其并没有 chocolatey 出名与强大。
 
-那我为什么要用 Scoop 而不是 chocolatey？一正是 chocolatey 够强大，但其实我一开始并没打算折腾 Powershell，因为已经在用 Git Bash / MSYS2，所以我无需使用太过庞大的工具；二是 scoop 有吸引我的地方，它能把 Powershell 弄得看起来像 Linux shell 的样子，这也是为什么我要折腾 PS 的促因。
+## 一本道
+软件包管理工具想必大家已经很清楚并且使用过。Debian/ Ubuntu 的 apt-get，Arch Linux 的 
+Pacman，就连本身并无自带包管理工具的 Mac 都有了 Macports 和极其好用的 Homebrew。至于 
+Windows 下，Geek 们也生产出各式各样的工具以贴合他们的 \*nix 
+使用习惯。其中软件包管理工具中比较出名的就是 **[chocolatey](https://chocolatey.org/)** 了。
 
-看 Scoop 主页的 Demo 视频，你会发现视频里的 PS 用起来很简约，而又是更方便了，不仅能安装运行各种 GNU 工具（`curl`、`vim` 等），而且 `$PS1` 看起来像是 Linux 下的终端，还能显示 git 仓库的分支信息，简直 Geek 范十足。虽说已有 MSYS2 这种更集成的 \*nix 环境，但既然看到了 Scoop 又挺不错的于是就折腾下呗。毕竟是 Windows 内置的嘛，还能 Win + R powershell 快速打开，有时候打下指令（`ipconfig`、`nslookup` 什么的）还是会用到的呢。
+然而本文并不细谈 chocolatey，而谈的是一个叫做 **[Scoop](http://scoop.sh/)** 
+工具。官网上的描述是“A command-line installer for Windows”，其实说白了，就是和 
+chocolatey 同属一种东西，也就是 Windows 下的软件包管理工具，但其并没有 chocolatey 出名与强大。
 
-{% image center clear nocaption 2015-08-23-powershell.png %}
+那我为什么要用 Scoop 而不是 chocolatey？一正是 chocolatey 
+够强大，但其实我一开始并没打算折腾 Powershell，因为已经在用 
+Git Bash / MSYS2，所以我无需使用太过庞大的工具；二是 scoop 
+有吸引我的地方，它能把 Powershell 弄得看起来像 Linux shell 
+的样子，这也是为什么我要折腾 PS 的促因。
 
-#### 正题
+看 Scoop 主页的 Demo 视频，你会发现视频里的 PS 用起来很简约，而又是更方便了，不仅能安装运行各种 
+GNU 工具（`curl`、`vim` 等），而且 `$PS1` 看起来像是 Linux 下的终端，还能显示 git 
+仓库的分支信息，简直 Geek 范十足。虽说已有 MSYS2 这种更集成的 \*nix 环境，但既然看到了 
+Scoop 又挺不错的于是就折腾下呗。毕竟是 Windows 内置的嘛，还能 Win + R powershell 
+快速打开，有时候打下指令（`ipconfig`、`nslookup` 什么的）还是会用到的呢。
+
+{% figure left /uploads/2015-08-23-powershell.png "配置 Scoop 后的样子" %}
+
+## 正题
 1. 确保你已安装 Powershell 3（其实 Windows7+ 应该都已经集成了），然后 WIn + R 输入 powershell 打开 PS，一句命令安装 scoop：
    ``` ps
    iex (new-object net.webclient).downloadstring('https://get.scoop.sh')
@@ -45,5 +56,3 @@ coverMeta: out
 至于更详尽的使用方法请 `scoop help` 或访问 [Scoop Wiki](https://github.com/lukesampson/scoop/wiki) 咯。
 
 总结：所以说这种人就只能为他们的这种“如此难以伺候”而不断地折腾自己的电脑，折腾自己。这就是所谓“生命不息，折腾不止”吧哈哈哈。。。卒
-
-(EOF)

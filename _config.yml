@@ -1,5 +1,5 @@
 # Site
-title: H404bi's Notes
+title: h404bi
 subtitle: There will still be love in this world
 description: 煙花已逝深紅犹存
 author: h404bi
@@ -7,58 +7,38 @@ language: zh-cn
 timezone: Asia/Shanghai
 
 # URL
-url: //notes.h404bi.com
+url: https://h404bi.com
 root: /
-permalink: posts/:title/
+permalink: blog/:year/:month/:day/:title.html
 
 # Directory
-source_dir: source
-public_dir: public
-tag_dir: tags
-archive_dir: archives
-category_dir: categories
-code_dir: downloads/code
-i18n_dir: :lang
-skip_render: 404.html
+skip_render:
+- index.html
+- 404.html
 
 # Writing
-new_post_name: :title.md
-default_layout: post
-titlecase: false
-external_link: true
-filename_case: 0
-render_drafts: false
-post_asset_folder: true
-relative_link: false
-future: true
+new_post_name: :year-:month-:day-:title.md
+filename_case: 1
 highlight:
   enable: true
-  line_number: true
-  tab_replace:
+  line_number: false
+  auto_detect: false
 
-# Category & Tag
-default_category: uncategorized
-
-# Date / Time format
-date_format: YYYY-MM-DD
-time_format: HH:mm:ss
-
-# Pagination
-per_page: 10
-pagination_dir: page
-
-# Extensions
+# Plugins
 feed:
-    type: atom
-    path: atom.xml
-    limit: 20
-# Markdown-it config
-## Docs: https://github.com/celsomiranda/hexo-renderer-markdown-it/wiki
+  type: atom
+  path: blog/atom.xml
+  limit: 20
+
+toc:
+  maxDepth: 1
+
+## docs: https://github.com/celsomiranda/hexo-renderer-markdown-it/wiki
 markdown:
   render:
     html: true
     xhtmlOut: false
-    breaks: true
+    breaks: false
     linkify: true
     typographer: true
   plugins:
@@ -67,8 +47,8 @@ markdown:
     - markdown-it-sub
     - markdown-it-abbr
 
-## Themes
-theme: tranquilpeak
+# Themes
+theme: type
 
 # Deployment
 deploy:
