@@ -33,6 +33,15 @@ feed:
 toc:
   maxDepth: 1
 
+html_minifier:
+  exclude:
+  minifyJS: true
+  minifyCSS: true
+  removeComments: false
+  collapseWhitespace: true
+  removeScriptTypeAttributes: true
+  removeStyleLinkTypeAttributes: true
+
 ## docs: https://github.com/celsomiranda/hexo-renderer-markdown-it/wiki
 markdown:
   render:
@@ -50,8 +59,10 @@ markdown:
 # Themes
 theme: type
 
+disqus_shortname: h404bi
+
 # Deployment
 deploy:
   type: git
   repo:
-    github: git@github.com:h404bi/notes.git,gh-pages
+    github: git@github.com:h404bi/h404bi.com.git,gh-pages

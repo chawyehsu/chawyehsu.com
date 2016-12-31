@@ -1,6 +1,5 @@
 layout: page
 title: "Links"
-update: 2016-12-31 18:22:56
 comments: false
 ---
 
