@@ -1,45 +1,40 @@
 # Hello World!
 
-[![Build Status](https://travis-ci.org/h404bi/notes.svg?branch=master)](https://travis-ci.org/h404bi/notes)
+This repo contains all the source code of my [site](https://h404bi.com). 
+You can also see the generated files at [gh-pages](https://github.com/h404bi/h404bi.com/tree/gh-pages) branch.
 
-This repo contains all the source code of my [blog](https://notes.h404bi.com). You can also see the generated files at [gh-pages](https://github.com/h404bi/notes/tree/gh-pages) branch.
+## Playground
 
-## Deployment
-
-###### Clone the source code:
+### Clone the source code:
 
 ``` bash
-$ git clone https://github.com/h404bi/notes.git notes
-$ cd notes
+$ git clone https://github.com/h404bi/h404bi.com.git
+$ cd h404bi.com
 $ git submodule update --init --recursive
 ```
 
-###### Install dependencies:
+### Prepare to build:
 
 ``` bash
-# Install Hexo
-$ npm install hexo-cli -g --no-optional
-# Install Grunt
-$ npm install grunt-cli -g
+$ npm install hexo-cli gulp -g --no-optional
 # Install Hexo dependencies
 $ npm install --no-optional
 # Install theme dependencies
-$ cd themes/tranquilpeak
+$ cd themes/type
 $ npm install --no-optional
-$ bower install
 ```
 
-###### Build the theme:
+### Build the theme:
 
 ``` bash
-$ grunt build
+$ gulp
 ```
 
-###### Run server and dev:
+### Run and play:
 
 ``` bash
 $ cd ../..
-$ hexo server
+$ npm start
 ```
 
 ## License
