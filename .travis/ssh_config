@@ -1,5 +1,5 @@
 Host github.com
   User git
   StrictHostKeyChecking no
-  IdentityFile ~/.ssh/github_deploy.pri
+  IdentityFile ~/.ssh/deploy_key.pri
   IdentitiesOnly yes

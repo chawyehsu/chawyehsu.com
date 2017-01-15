@@ -1,56 +1,52 @@
 language: node_js
 
-node_js:
-  - "0.12"
+node_js: "6.9.2"
 
-# Handle git submodules manually
+cache: yarn
+
 git:
   submodules: false
 
 before_install:
   # Correct timezone
   - export TZ=Asia/Shanghai
-  # Decrypt the private key
-  - openssl aes-256-cbc -K $encrypted_fa20db24504d_key -iv $encrypted_fa20db24504d_iv -in .travis/github_deploy_key.enc -out ~/.ssh/github_deploy.pri -d
+  # Decrypt the deploy key
+  - openssl aes-256-cbc -K $encrypted_6ede49e80280_key -iv $encrypted_6ede49e80280_iv -in .travis/deploy_key.enc -out ~/.ssh/deploy_key.pri -d
   # Set the permission of the key
-  - chmod 600 ~/.ssh/*.pri
+  - chmod 600 ~/.ssh/deploy_key.pri
   # Start SSH agent
   - eval $(ssh-agent)
   # Add the private key to the system
-  - ssh-add ~/.ssh/*.pri
+  - ssh-add ~/.ssh/deploy_key.pri
   # Copy SSH config
   - cp .travis/ssh_config ~/.ssh/config
   # Set Git config
   - git config --global user.name "h404bi"
   - git config --global user.email "h404bi@gmail.com"
   # Clone the source
-  - git clone https://github.com/h404bi/notes.git notes_git
-  - cd notes_git
-  # Clone deploy history
-  - git clone -b gh-pages https://github.com/h404bi/notes.git .deploy_git
-  # Use sed to replace the SSH URL with the public URL, then initialize submodules
-  # - sed -i 's/git@github.com:/https:\/\/github.com\//' .gitmodules
+  - git clone https://github.com/h404bi/h404bi.com.git work
+  - cd work
+  # Clone deploy history (this step can let us keep build commits)
+  - git clone -b gh-pages https://github.com/h404bi/h404bi.com.git .deploy_git
+  # Handle submodules
   - git submodule update --init --recursive
 
 install:
-  # Install Hexo
-  - npm install hexo-cli -g --no-optional
-  # Install Grunt
-  - npm install grunt-cli -g
+  # Install cli tools
+  - npm install hexo-cli gulp -g --no-optional
   # Install Hexo dependencies
   - npm install --no-optional
   # Install theme dependencies
-  - cd themes/tranquilpeak
+  - cd themes/type
   - npm install --no-optional
-  - bower install
+  # Build theme
+  - gulp
 
 script:
-  # Build theme
-  - grunt buildProd
   # Generate and deploy
   - cd ../..
   - hexo clean
-  - hexo generate --deploy
+  - hexo generate
 
 branches:
   only:
