@@ -19,10 +19,9 @@ $ git submodule update --init --recursive
 ``` bash
 $ npm install hexo-cli gulp -g --no-optional
 # Install Hexo dependencies
-$ npm install --no-optional
+$ yarn
 # Install theme dependencies
-$ cd themes/type
-$ npm install --no-optional
+$ cd themes/type && yarn
 ```
 
 ### Build the theme:
