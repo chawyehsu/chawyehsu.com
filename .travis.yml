@@ -14,13 +14,13 @@ before_install:
   - export TZ=Asia/Shanghai
   # Decrypt the deploy key
   - openssl aes-256-cbc -K $encrypted_6ede49e80280_key -iv $encrypted_6ede49e80280_iv -in .travis/secrets.tar.enc -out .travis/secrets.tar -d
-  - tar xvf .travis/secrets.tar -C ~/.ssh/
+  - tar xvf .travis/secrets.tar -C ~/.ssh/ >/dev/null
   # Set the permission of the key
   - chmod 600 ~/.ssh/*.pri
   # Start SSH agent
   - eval $(ssh-agent)
   # Add the key to SSH agent
-  - ssh-add ~/.ssh/*.pri
+  - ssh-add ~/.ssh/access_key.pri
   # Set git config
   - git config --global user.name "h404bi"
   - git config --global user.email "h404bi@gmail.com"
@@ -35,6 +35,8 @@ before_install:
   - npm install hexo-cli gulp -g --no-optional
 
 script:
+  # Reset key usage
+  - ssh-add -D && ssh-add ~/.ssh/deploy_key.pri
   # Build theme
   - cd themes/type
   - yarn && gulp
