@@ -1,8 +1,10 @@
+sudo: false
 language: node_js
-
-node_js: "6.9.2"
-
+node_js: "node"
 cache: yarn
+branches:
+  only:
+    - master
 
 git:
   submodules: false
@@ -11,16 +13,15 @@ before_install:
   # Correct timezone
   - export TZ=Asia/Shanghai
   # Decrypt the deploy key
-  - openssl aes-256-cbc -K $encrypted_6ede49e80280_key -iv $encrypted_6ede49e80280_iv -in .travis/deploy_key.enc -out ~/.ssh/deploy_key.pri -d
+  - openssl aes-256-cbc -K $encrypted_6ede49e80280_key -iv $encrypted_6ede49e80280_iv -in .travis/secrets.tar.enc -out .travis/secrets.tar -d
+  - tar xvf .travis/secrets.tar -C ~/.ssh/
   # Set the permission of the key
-  - chmod 600 ~/.ssh/deploy_key.pri
+  - chmod 600 ~/.ssh/*.pri
   # Start SSH agent
   - eval $(ssh-agent)
-  # Add the private key to the system
-  - ssh-add ~/.ssh/deploy_key.pri
-  # Copy SSH config
-  - cp .travis/ssh_config ~/.ssh/config
-  # Set Git config
+  # Add the key to SSH agent
+  - ssh-add ~/.ssh/*.pri
+  # Set git config
   - git config --global user.name "h404bi"
   - git config --global user.email "h404bi@gmail.com"
   # Clone the source
@@ -28,26 +29,16 @@ before_install:
   - cd work
   # Clone deploy history (this step can let us keep build commits)
   - git clone -b gh-pages https://github.com/h404bi/h404bi.com.git .deploy_git
-  # Handle submodules
+  # Clone theme submodules manually
   - git submodule update --init --recursive
-
-install:
-  # Install cli tools
+  # Install global cli tools
   - npm install hexo-cli gulp -g --no-optional
-  # Install Hexo dependencies
-  - npm install --no-optional
-  # Install theme dependencies
-  - cd themes/type
-  - npm install --no-optional
-  # Build theme
-  - gulp
 
 script:
+  # Build theme
+  - cd themes/type
+  - yarn && gulp
   # Generate and deploy
   - cd ../..
   - hexo clean
-  - hexo generate
-
-branches:
-  only:
-    - master
+  - hexo generate --deploy
