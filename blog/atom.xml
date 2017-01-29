@@ -5,7 +5,7 @@
   <link href="/blog/atom.xml" rel="self"/>
   
   <link href="https://h404bi.com/"/>
-  <updated>2017-01-16T14:25:51.013Z</updated>
+  <updated>2017-01-29T16:00:00.000Z</updated>
   <id>https://h404bi.com/</id>
   
   <author>
@@ -16,17 +16,17 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>又是新的一年</title>
-    <link href="https://h404bi.com/blog/2017/01/01/yet-a-new-year.html"/>
-    <id>https://h404bi.com/blog/2017/01/01/yet-a-new-year.html</id>
+    <title>2016。2017，</title>
+    <link href="https://h404bi.com/blog/2017/01/01/2016-2017.html"/>
+    <id>https://h404bi.com/blog/2017/01/01/2016-2017.html</id>
     <published>2016-12-31T16:50:25.000Z</published>
-    <updated>2017-01-16T14:25:51.013Z</updated>
+    <updated>2017-01-29T16:00:00.000Z</updated>
     
-    <content type="html"><![CDATA[<p>新的一年，发现又是荒废了近一年多博客。</p><p>今年是本命年诶。然而下笔此时时间也不早了，只能先开这个“new post”占个坑。</p><p>// TODO: // 2016 年总结;</p>]]></content>
+    <content type="html"><![CDATA[<p>新的一年，还是捡捡（又？）荒废了近一年小站吧。改改主题，写写回顾，看看过去一年自己都经历了些什么。</p><p>1月：实习结束。也是无法想象能作为半个月 Python 新鸟入职，然后接坑微信开发。。。跟着 JS-SDK 走了一遍，入门了 Flask。因为想花点时间搞搞毕设，提前离了职。</p><p>2月：问答系统，自然语言处理方向的毕设课题，完全下不了手，还是先过年吧。港澳通行证 get。</p><p>3月：恶补毕设课题知识。</p><p>4月：完成了毕设程序<sup class="footnote-ref"><a href="#fn1" id="fnref1">[1]</a></sup>，用了实习学到的 Flask，现学现用 scikit-learn、Word2Vec、LTP。整个系统最初设计是我负责问题分类，队友负责问题解答，但最终还是没有和队友的程序组合到一起。没有被选上答辩（队友上了 lol）。</p><figure class="center"><img src="/uploads/201701300001.jpg"></figure><p>5月：毕业游，桂林。找工找房。</p><p>6月：Offer 到手，一毕业就“转行”。Hong Kong 游一日（天气不好，鲜虾云吞真大粒）。离校。眼科中心验光，发现大学搞了四年电脑近视没变化。</p><p>7月：转正。观《大鱼海棠》。《Pokermon GO》“昙花一现”。</p><p>8月：才确定新窝的网络，发现有公网 IP，不过没什么卵用，压根儿没上行。</p><p>9月：入手第一台相机 EOS M3。微单，还不是索尼大法？。</p><p>10月：去了趟漫展，见识到拉拉人的可怕（梦回十月三.jpg）。</p><p>11月：又拔了智齿，至此 4 个仅剩 1 个了。花时间做好了想整理想了一年的歌单<sup class="footnote-ref"><a href="#fn2" id="fnref2">[2]</a></sup>。</p><p>12月：观《你的名字》。STEAM 圣诞特惠居然没剁手（才怪，剁在升等级了，果然上班后咸鱼了）。</p><p>毕业年确实有太多的改变，2016 我的年度文字应该当属<strong>变</strong>字吧。</p><hr class="footnotes-sep"><section class="footnotes"><ol class="footnotes-list"><li id="fn1" class="footnote-item"><p><a href="https://github.com/h404bi/wende" target="_blank" rel="external">Wende</a> <a href="#fnref1" class="footnote-backref">↩</a></p></li><li id="fn2" class="footnote-item"><p><a href="http://music.163.com/#/playlist?id=512604865" target="_blank" rel="external">Monty Hancock’s Emotional</a> <a href="#fnref2" class="footnote-backref">↩</a></p></li></ol></section>]]></content>
     
     <summary type="html">
     
-      &lt;p&gt;新的一年，发现又是荒废了近一年多博客。&lt;/p&gt;&lt;p&gt;今年是本命年诶。然而下笔此时时间也不早了，只能先开这个“new post”占个坑。&lt;/p&gt;&lt;p&gt;// TODO: // 2016 年总结;&lt;/p&gt;
+      &lt;p&gt;新的一年，还是捡捡（又？）荒废了近一年小站吧。改改主题，写写回顾，看看过去一年自己都经历了些什么。&lt;/p&gt;&lt;p&gt;1月：实习结束。也是无法想象能作为半个月 Python 新鸟入职，然后接坑微信开发。。。跟着 JS-SDK 走了一遍，入门了 Flask。因为想花点时间搞搞毕设，
     
     </summary>
     
@@ -34,17 +34,17 @@
   </entry>
   
   <entry>
-    <title>自己买的域名哭着也要续费</title>
+    <title>.im 域名续费一记</title>
     <link href="https://h404bi.com/blog/2015/10/02/dot-im-domain-renewal.html"/>
     <id>https://h404bi.com/blog/2015/10/02/dot-im-domain-renewal.html</id>
     <published>2015-10-02T14:07:48.000Z</published>
     <updated>2015-10-05T06:30:54.000Z</updated>
     
-    <content type="html"><![CDATA[<p>两种事，人活着一定会做的：一是做些爽的事，二是为爽后擦屁股。</p><p>去年十月，也不知道是哪根经出错了，剁了个 .im 域名。在域名怪兽买入的，当时 checkout 时才知道仅支持 CC 及 CC through Paypal 付款。</p><p>学生狗没有 CC，域名很想买，又要省钱。于是就用了很多人都想到或用过的 VCC。那时错过了财付通的运通卡，了解了各种 VCC 后就选了全球付。扣了不少转换费手续费后买下了域名。</p><p>然后今年续费的麻烦事来了，爽后擦屁股。</p><p>八月份就开始想着怎么续费。因为全球付不实名账户最低充值 100 元，我没实名。于是为了尽量一次用完充入的钱，我就想着能不能一次续几年。然后发 ticket 询问被告知只能续一年。而且续费间隔被限制在到期前六个月。</p><figure><img src="/uploads/renewal-restriction.png" title="到期续费提醒"><figcaption><p>到期续费提醒</p></figcaption></figure><p>我不是很清楚域名注册的相关规定，但是据我所知某些后缀的域名是可以一次购买或续费好几年，又或者通过多次续费（没有续费间隔限制）延长时间的。.me 好像就是吧，之前了解到有人多次续费弄了好几年，好像有优惠什么的。</p><figure class="right"><img src="/uploads/price-dot-im-domain.png" title="各大域名商 .im 价格"><figcaption><p>各大域名商 .im 价格</p></figcaption></figure><p>既然不行那就看看其它注册商。.im 最便宜无疑是域名怪兽家（9 刀），不然我也不会在那买。<code>name.com</code> 家的话是 13 刀，好像可以 Paypal 确认支付，其实还可以接收。但发现在它家 .im 不能开隐私保护，这在域名怪兽那可是免费的（对，就是免费的，文末再介绍一下），于是就犹豫了。至于其它注册商全然没看，太贵无视（普遍 20 刀）。</p><p>回到域名怪兽家，既然不能续多年，那问问还有没有其他支付手段吧，尽量避免用全球付。跟客服来来回回十几封邮件，最终被告知除了网站标出的方式，最多只能用银行转帐（bank transfer）方式付款，还要等数天确认。期间还被建议先往 Paypal 里充值再下单，天知道在天朝不能充值 PP。（无奈脸</p><figure><img src="/uploads/ticket-screenshot.png"></figure><p>我想想这比全球付还麻烦，就硬着头皮往全球付打了钱，然后续了费。发现全球付收费规则改了，算算也没多扣多少，不过钱放里面总觉得哪天悄悄给你扣钱，找机会赶紧用掉。</p><p>然后就没有然后了。</p><p>说到域名，不知道从何时开始，各种后缀的域名如雨后春笋般涌出，什么 .website .xxx .xyz <s>.xxoo 这个好像没有</s>，眼花缭乱。大公司有钱任性，购买各种后缀的域名来保护产品没得说。但有时候觉得个人注册这些五花八门后缀的域名，真的是交学费吧。什么 .photography 的，真拿来做站也没什么人愿意好好地往浏览器里键入域名吧，而且又容易打错。其实也就图个个性，自己想注册的域名要有 .com 后缀，谁还愿意折腾其它后缀呢？</p><p>最后再说说域名怪兽，就是 <a href="http://Domainmonster.com" target="_blank" rel="external">Domainmonster.com</a> 了，英国服务商（所以 .im 才会那么便宜吧…）。在这家能注册的后缀非常多，有多少我就不数了。而且提供多种 <a href="http://www.domainmonster.com/domain-name/" target="_blank" rel="external">Domain Services</a>，其中最值的是免费的隐私保护，无论是新老域名。</p><figure><img src="/uploads/domainmonster-free-whois-privacy.png"></figure><p>付款方式前面已说，目前仅支持 CC 及 CC through Paypal 付款，所以没 CC 会比较麻烦。跟客服通邮件时已经建议其考虑下支持支付宝，至于后面到底如何，不报任何希望哈哈。</p>]]></content>
+    <content type="html"><![CDATA[<p>去年十月，也不知道是哪根经出错了，剁了个 .im 域名。在域名怪兽买入的，当时 checkout 时才知道仅支持 CC 及 CC through Paypal 付款。</p><p>学生狗没有 CC，域名很想买，又要省钱。于是就用了很多人都想到或用过的 VCC。那时错过了财付通的运通卡，了解了各种 VCC 后就选了全球付。扣了不少转换费手续费后买下了域名。</p><p>然后今年续费的麻烦事来了，爽后擦屁股。</p><p>八月份就开始想着怎么续费。因为全球付不实名账户最低充值 100 元，我没实名。于是为了尽量一次用完充入的钱，我就想着能不能一次续几年。然后发 ticket 询问被告知只能续一年。而且续费间隔被限制在到期前六个月。</p><figure><img src="/uploads/renewal-restriction.png" title="到期续费提醒"><figcaption><p>到期续费提醒</p></figcaption></figure><p>我不是很清楚域名注册的相关规定，但是据我所知某些后缀的域名是可以一次购买或续费好几年，又或者通过多次续费（没有续费间隔限制）延长时间的。.me 好像就是吧，之前了解到有人多次续费弄了好几年，好像有优惠什么的。</p><figure class="right"><img src="/uploads/price-dot-im-domain.png" title="各大域名商 .im 价格"><figcaption><p>各大域名商 .im 价格</p></figcaption></figure><p>既然不行那就看看其它注册商。.im 最便宜无疑是域名怪兽家（9 刀），不然我也不会在那买。<code>name.com</code> 家的话是 13 刀，好像可以 Paypal 确认支付，其实还可以接收。但发现在它家 .im 不能开隐私保护，这在域名怪兽那可是免费的（对，就是免费的，文末再介绍一下），于是就犹豫了。至于其它注册商全然没看，太贵无视（普遍 20 刀）。</p><p>回到域名怪兽家，既然不能续多年，那问问还有没有其他支付手段吧，尽量避免用全球付。跟客服来来回回十几封邮件，最终被告知除了网站标出的方式，最多只能用银行转帐（bank transfer）方式付款，还要等数天确认。期间还被建议先往 Paypal 里充值再下单，天知道在天朝不能充值 PP。（无奈脸</p><figure><img src="/uploads/ticket-screenshot.png"></figure><p>我想想这比全球付还麻烦，就硬着头皮往全球付打了钱，然后续了费。发现全球付收费规则改了，算算也没多扣多少，不过钱放里面总觉得哪天悄悄给你扣钱，找机会赶紧用掉。</p><p>然后就没有然后了。</p><p>说到域名，不知道从何时开始，各种后缀的域名如雨后春笋般涌出，什么 .website .xxx .xyz <s>.xxoo 这个好像没有</s>，眼花缭乱。大公司有钱任性，购买各种后缀的域名来保护产品没得说。但有时候觉得个人注册这些五花八门后缀的域名，真的是交学费吧。什么 .photography 的，真拿来做站也没什么人愿意好好地往浏览器里键入域名吧，而且又容易打错。其实也就图个个性，自己想注册的域名要有 .com 后缀，谁还愿意折腾其它后缀呢？</p><p>最后再说说域名怪兽，就是 <a href="http://Domainmonster.com" target="_blank" rel="external">Domainmonster.com</a> 了，英国服务商（所以 .im 才会那么便宜吧…）。在这家能注册的后缀非常多，有多少我就不数了。而且提供多种 <a href="http://www.domainmonster.com/domain-name/" target="_blank" rel="external">Domain Services</a>，其中最值的是免费的隐私保护，无论是新老域名。</p><figure><img src="/uploads/domainmonster-free-whois-privacy.png"></figure><p>付款方式前面已说，目前仅支持 CC 及 CC through Paypal 付款，所以没 CC 会比较麻烦。跟客服通邮件时已经建议其考虑下支持支付宝，至于后面到底如何，不报任何希望哈哈。</p>]]></content>
     
     <summary type="html">
     
-      &lt;p&gt;两种事，人活着一定会做的：一是做些爽的事，二是为爽后擦屁股。&lt;/p&gt;&lt;p&gt;去年十月，也不知道是哪根经出错了，剁了个 .im 域名。在域名怪兽买入的，当时 checkout 时才知道仅支持 CC 及 CC through Paypal 付款。&lt;/p&gt;&lt;p&gt;学生狗没有 CC，域
+      &lt;p&gt;去年十月，也不知道是哪根经出错了，剁了个 .im 域名。在域名怪兽买入的，当时 checkout 时才知道仅支持 CC 及 CC through Paypal 付款。&lt;/p&gt;&lt;p&gt;学生狗没有 CC，域名很想买，又要省钱。于是就用了很多人都想到或用过的 VCC。那时错过了财付
     
     </summary>
     
@@ -56,7 +56,7 @@
     <link href="https://h404bi.com/blog/2015/09/20/new-mac-env-bootstrap.html"/>
     <id>https://h404bi.com/blog/2015/09/20/new-mac-env-bootstrap.html</id>
     <published>2015-09-20T09:28:19.000Z</published>
-    <updated>2017-01-16T14:25:51.013Z</updated>
+    <updated>2017-01-29T17:05:58.895Z</updated>
     
     <content type="html"><![CDATA[<p>入坑 Mac OS X，写点 note (nonsense) 以备玩坏系统重装时翻查。</p><h2 id="command-line-tools-for-xcode">Command Line Tools for Xcode</h2><p>OS X 系统不像 Ubuntu 等发行版，系统默认是不包含编译工具链的（因为不是每位用户都需要吧，人性化？）。所以在使用时如果执行到含有诸如 gcc、make 等命令时，就会出现以下情况：</p><figure class="right"><img src="/uploads/20150810021812.png" title="提示需要命令行工具"><figcaption><p>提示需要命令行工具</p></figcaption></figure><p>这时就需要安装苹果提供的命令行工具包（Command Line Tools，下称 CLT）了。安装 CLT 有几种方法：</p><h3 id="1-通过-xcode-安装">1. 通过 Xcode 安装</h3><p><code>for Xcode</code> 嘛，当然能通过 Xcode 安装了，只不过没有安装 Xcode 亦可使用。所以如果你有安装 Xcode 的话，直接通过 Xcode 安装就好了。（我自己并没有安装 Xcode，因为暂无打算学习 Mac 相关的开发，所以私以为没必要耗费几个 G 的硬盘空间塞下 Xcode 吧， MacBook 的硬盘寸寸金啊。。。）。</p><h3 id="2-通过终端安装">2. 通过终端安装</h3><figure class="highlight sh"><table><tr><td class="code"><pre><div class="line">$ xcode-select install</div></pre></td></tr></table></figure><p>或者输入 gcc 触发前文所提到的情况（见前文图）亦可。</p><h3 id="3-通过离线安装包安装">3. 通过离线安装包安装</h3><p>如果用前面的方法安装不成功的话，可到 Apple 下载中心获取离线安装包进行安装。（认准苹果官网）</p><blockquote><p><a href="https://developer.apple.com/downloads" target="_blank" rel="external">https://developer.apple.com/downloads</a> （需要使用 AppleID 登录）</p></blockquote><p>安装 CLT 后就可以使用工具链编译安装软件了，这是 Bootstrap A New Mac 的第一步。</p><h2 id="where-is-the-package-manager-of-os-x">Where is the package manager of OS X?</h2><p>用 Mac 之前我还真没想过 OS X 有没有包管理工具。初次用了一会儿后，总觉得好像少了些什么，又说不出来。后在 Win 机上 Xshell 管理 VPS 时，才猛然想起：OS X 下用什么管理软件包？！Where is the package manager of OS X? 检索后才知道 OS X 不止默认不带 toolchains，还没有 package manager。带着使用 Linux 发行版心态的我不免有点失望。</p><h3 id="homebrew">Homebrew</h3><p>官方没有社区有。强大的 Mac 社区造就了各种易用的工具。软件包管理工具就各式各样。其中最出名的两个是 <strong><a href="https://www.macports.org" target="_blank" rel="external">Macport</a></strong> 和 <strong><a href="http://brew.sh" target="_blank" rel="external">Homebrew</a></strong>。二者有着截然不同的理念，并且越来越多用户选择了 Homebrew。下面进行 Bootstrap A New Mac 的第二步。</p><figure class="highlight sh"><table><tr><td class="code"><pre><div class="line">$ ruby <span class="_">-e</span> <span class="string">"<span class="variable">$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)</span>"</span></div></pre></td></tr></table></figure><p><small>OS X 自带 ruby，难怪 ruby 社区一股 Macbook 风气。</small></p><p>然后就可以像用 <code>apt-get install/update</code> 那样 <code>brew install/update</code> 了，更多用法参见 <a href="https://github.com/Homebrew/homebrew/tree/master/share/doc/homebrew#readme" target="_blank" rel="external">Doc</a>。</p><h3 id="homebrew-cask">Homebrew-Cask</h3><p>介绍了 Homebrew 就不得不说 <strong><a href="http://caskroom.io/" target="_blank" rel="external">Caskroom</a></strong> 了。Homebrew 掌管了各种 CLI 软件包的管理，App Store 提供各种 GUI 应用，这 Cask 又是什么？Cask 其实是 Homebrew 的一个扩展，能让 brew 支持安装和管理 GUI 应用。能在 App Store 获取到的应用当然最好在上面下载安装了，但有些应用程序是没有上架 App Store 的（比如 IntelliJ IDEA），得去程序的官网各种点击下载安装。于是不甘这样的 Mac 社区 Geek 们搞了个 Homebrew-Cask，然后就能打开终端一句指令愉快地安装 GUI 应用了，比如：<code>brew cask install intellij-idea-ce</code>。安装 Cask 只需：</p><figure class="highlight sh"><table><tr><td class="code"><pre><div class="line">$ brew install caskroom/cask/brew-cask</div></pre></td></tr></table></figure><p><em>题外话：Cask 开发者们最近在 GitHub 上热论着一场改革<sup class="footnote-ref"><a href="#fn1" id="fnref1">[1]</a></sup>，说是要改变 Cask 目前的行为，以更贴合 regular usage，不过不能完美过渡的话会不会让用户感觉混乱。。</em></p><hr class="footnotes-sep"><section class="footnotes"><ol class="footnotes-list"><li id="fn1" class="footnote-item"><p><a href="https://github.com/caskroom/homebrew-cask/issues/13201" target="_blank" rel="external">Homebrew-Cask issue #13201</a> <a href="#fnref1" class="footnote-backref">↩</a></p></li></ol></section>]]></content>
     
