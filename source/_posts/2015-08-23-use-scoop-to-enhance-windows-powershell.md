@@ -26,7 +26,7 @@ GNU 工具（`curl`、`vim` 等），而且 `$PS1` 看起来像是 Linux 下的�
 Scoop 又挺不错的于是就折腾下呗。毕竟是 Windows 内置的嘛，还能 Win + R powershell 
 快速打开，有时候打下指令（`ipconfig`、`nslookup` 什么的）还是会用到的呢。
 
-{% figure right /uploads/2015-08-23-powershell.png "配置 Scoop 后的样子" %}
+{% figure right /uploads/20150823002.png "配置 Scoop 后的样子" %}
 
 ## 正题
 1. 确保你已安装 Powershell 3（其实 Windows7+ 应该都已经集成了），然后 WIn + R 输入 powershell 打开 PS，一句命令安装 scoop：

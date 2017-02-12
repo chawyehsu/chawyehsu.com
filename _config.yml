@@ -48,7 +48,7 @@ markdown:
     html: true
     xhtmlOut: false
     breaks: false
-    linkify: true
+    linkify: false
     typographer: true
   plugins:
     - markdown-it-footnote

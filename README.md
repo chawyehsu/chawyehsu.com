@@ -17,7 +17,7 @@ $ git submodule update --init --recursive
 ### Prepare to build:
 
 ``` bash
-$ npm install hexo-cli gulp -g --no-optional
+$ npm install yarn hexo-cli gulp -g --no-optional
 # Install Hexo dependencies
 $ yarn
 # Install theme dependencies
@@ -28,13 +28,15 @@ $ cd themes/type && yarn
 
 ``` bash
 $ gulp
+# or gulp dev
 ```
 
 ### Run and play:
 
 ``` bash
 $ cd ../..
-$ npm start
+$ yarn start
+# listen 0.0.0.0:4001
 ```
 
 ## License
