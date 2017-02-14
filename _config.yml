@@ -60,6 +60,7 @@ markdown:
 theme: type
 
 disqus_shortname: h404bi
+google_analytics_id: UA-91882040-1
 
 # Deployment
 deploy:
