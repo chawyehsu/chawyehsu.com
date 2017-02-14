@@ -36,6 +36,7 @@
 <script>
 $(document).ready(function(){var delay=1;var DELAY_STEP=200;var animationOptions={opacity:1,top:0};$('h1').animate(animationOptions).promise().pipe(animateMain).pipe(animateLocationIcon);function animateMain(){var dfd=$.Deferred();var els=$('.animate-init');var size=els.size();els.each(function(index,el){delay++;$(el).delay(index*DELAY_STEP).animate(animationOptions);(size-1===index)&&dfd.resolve()});return dfd.promise()}function animateLocationIcon(){$('.location-icon').delay(delay*DELAY_STEP).animate({opacity:1,top:0}).promise().done(animationQuote)}function animationQuote(){}});
 </script>
+<script>(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');ga('create','UA-91882040-1','auto');ga('send','pageview');</script>
 <!-- hanabi: code copy from iissnan, yeah copycat, https://github.com/iissnan/iissnan.github.com -->
 </body>
 </html>
