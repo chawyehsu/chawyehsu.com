@@ -20,7 +20,8 @@ comments: false
  - [Phoenix's island](https://blog.phoenixlzx.com)[^7]
  - [ustc-zzzz's blog](http://blog.ustc-zzzz.net)[^6]
  - [白翼运维博客](https://holywhite.com)[^8]
- - [Jimmy Cai](https://jimmehcai.com/)[^9]
+ - [Jimmy Cai](https://jimmehcai.com)[^9]
+ - [pre-sence](http://pre-sence.com)[^10]
 
 <div style="text-align:right"><small>
 ——不分先后。如有介意者请告知<br/>2017.2
@@ -36,3 +37,4 @@ comments: false
 [^7]: 知名的凤凰卷啊。不过这边主要是 Minecraft/V2EX 圈子
 [^8]: Typecho 时期，以及 4 总的 PC426.com 上
 [^9]: 最早从白翼的友链中浏览到，印象是“博客程序换得勤”，Disqus 按钮加载来自此
+[^10]: 由一篇绝赞的 Roguelike 科普文章了解到
