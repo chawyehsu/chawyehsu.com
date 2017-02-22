@@ -10,7 +10,7 @@ updated: 2017-02-22 13:22:19
 
 This article is a zh_CN translation of the Minecraft article "A Brief History of Minecraft Modding", which was originally published on PacktPub at June 03rd, 2015, the original author is Aaron Mills.
 
-挺早前就看过这篇文章，作者作为一位过来人为我们不简略地叙述了一遍 Minecraft Modding 的已有“简史”。至少这是目前网络上为数不多的，能让像我这样的一些在 Minecraft 非早期就加入社区的玩家，相对清晰地了解至今整个 Minecraft Modding 历程的文章了。很是喜欢，当时就有翻译下来的打算，现在填坑了。文原的发布时间是 2015 年年中，时间节点也就到这个点，所以社区其后的发展，比如 Spigot、Sponge 的活跃等就没有提及。译文对比原文，加入了一些可能有助于内容理解的链接引用。
+挺早前就看过这篇文章，作者作为一位过来人为我们不简略地叙述了一遍 Minecraft Modding 的已有“简史”。至少这是目前网络上为数不多的，能让像我这样的一些在 Minecraft 非早期就加入社区的玩家，相对清晰地了解至今整个 Minecraft Modding 历程的文章了。很是喜欢，当时就有翻译下来的打算，现在填坑了。原文发布于 2015 年年中，时间节点也就到这个点。所以社区其后的发展，比如 Spigot、Sponge 的活跃等就没有提及。译文对比原文，加入了一些可能有助于内容理解的链接引用。
 
 ## 正文
 
