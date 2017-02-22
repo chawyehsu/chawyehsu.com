@@ -17,6 +17,7 @@
     "hexo-html-minifier": "^0.0.1",
     "hexo-renderer-markdown-it": "^3.4.0",
     "hexo-server": "^0.1.2",
-    "hexo-tag-figure": "^0.2.0"
+    "hexo-tag-figure": "^0.2.0",
+    "hexo-tag-ruby": "^1.0.0"
   }
 }

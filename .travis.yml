@@ -35,11 +35,11 @@ before_install:
   - npm install hexo-cli gulp -g --no-optional
 
 script:
-  # Reset key usage
-  - ssh-add -D && ssh-add ~/.ssh/deploy_key.pri
-  # Build theme
+  # Install theme dependencies and build theme
   - cd themes/type
   - yarn && gulp
+  # Reset key usage
+  - ssh-add -D && ssh-add ~/.ssh/deploy_key.pri
   # Generate and deploy
   - cd ../..
   - hexo clean
