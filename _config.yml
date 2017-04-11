@@ -30,6 +30,10 @@ feed:
   path: blog/atom.xml
   limit: 20
 
+sitemap:
+    path: sitemap.xml
+    template: sitemap_template.xml
+
 toc:
   maxDepth: 1
 
