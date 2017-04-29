@@ -6,6 +6,8 @@ You can also see the generated files at [gh-pages](https://github.com/h404bi/h40
 
 ## Playground
 
+**Note: Currently, the theme files is privated and can't be cloned.**
+
 ### Clone the source code:
 
 ``` bash
@@ -41,4 +43,4 @@ $ yarn start
 
 ## License
 
-Unless otherwise noted, [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/).
+Unless otherwise noted, MIT(Code) & [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)(other contents).
