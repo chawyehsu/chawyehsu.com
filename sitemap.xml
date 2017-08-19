@@ -1,9 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"><url>
-    <loc>https://h404bi.com/blog/2017/02/12/henet-6in4-ipv6-tunnel-on-openwrt.html</loc>
-    <lastmod>2017-08-19</lastmod>
-    </url>
-  <url>
     <loc>https://h404bi.com/links/index.html</loc>
     <lastmod>2017-08-19</lastmod>
     </url>
@@ -12,19 +8,23 @@
     <lastmod>2017-08-19</lastmod>
     </url>
   <url>
-    <loc>https://h404bi.com/blog/index.html</loc>
-    <lastmod>2017-08-19</lastmod>
-    </url>
-  <url>
-    <loc>https://h404bi.com/about/index.html</loc>
-    <lastmod>2017-08-19</lastmod>
-    </url>
-  <url>
     <loc>https://h404bi.com/archive/index.html</loc>
     <lastmod>2017-08-19</lastmod>
     </url>
   <url>
     <loc>https://h404bi.com/blog/2015/09/20/new-mac-env-bootstrap.html</loc>
+    <lastmod>2017-08-19</lastmod>
+    </url>
+  <url>
+    <loc>https://h404bi.com/blog/2017/02/12/henet-6in4-ipv6-tunnel-on-openwrt.html</loc>
+    <lastmod>2017-08-19</lastmod>
+    </url>
+  <url>
+    <loc>https://h404bi.com/blog/index.html</loc>
+    <lastmod>2017-08-19</lastmod>
+    </url>
+  <url>
+    <loc>https://h404bi.com/about/index.html</loc>
     <lastmod>2017-08-19</lastmod>
     </url>
   <url>
