@@ -3,16 +3,14 @@
   "version": "2.0.17",
   "private": true,
   "hexo": {
-    "version": "3.3.1"
+    "version": "3.3.9"
   },
   "scripts": {
-    "start": "hexo s --debug -p 4001"
+    "dev": "hexo clean && hexo s --debug -p 4001"
   },
   "dependencies": {
     "hexo": "^3.2.2",
-    "hexo-browsersync": "^0.2.0",
     "hexo-deployer-git": "^0.1.0",
-    "hexo-filter-toc": "^1.0.5",
     "hexo-generator-category": "^0.1.3",
     "hexo-generator-feed": "^1.0.1",
     "hexo-generator-sitemap": "github:hexojs/hexo-generator-sitemap",
@@ -20,6 +18,6 @@
     "hexo-renderer-markdown-it": "^3.4.0",
     "hexo-server": "^0.1.2",
     "hexo-tag-figure": "^0.2.0",
-    "hexo-tag-ruby": "^1.0.1"
+    "hexo-tag-ruby": "^1.0.2"
   }
 }

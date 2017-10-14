@@ -32,15 +32,14 @@ before_install:
   # Clone theme submodules manually
   - git submodule update --init --recursive
   # Install global cli tools
-  - npm install hexo-cli gulp -g --no-optional
+  - npm install hexo-cli -g --no-optional
 
 script:
   # Install theme dependencies and build theme
-  - cd themes/type
-  - yarn && gulp
+  # - cd themes/type && yarn && yarn build
+  # - cd ../..
   # Reset key usage
   - ssh-add -D && ssh-add ~/.ssh/deploy_key.pri
   # Generate and deploy
-  - cd ../..
   - hexo clean
   - hexo generate --deploy

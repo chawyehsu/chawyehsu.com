@@ -1,4 +1,4 @@
 [submodule "themes/type"]
 	path = themes/type
 	url = git@github.com:h404bi/hexo-theme-type.git
-	branch = private
+	branch = master
