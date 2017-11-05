@@ -32,7 +32,6 @@ feed:
 sitemap:
   path: sitemap.xml
   template: sitemap_template.xml
-
 html_minifier:
   exclude:
   minifyJS: true
@@ -41,7 +40,6 @@ html_minifier:
   collapseWhitespace: true
   removeScriptTypeAttributes: true
   removeStyleLinkTypeAttributes: true
-
 ## docs: https://github.com/celsomiranda/hexo-renderer-markdown-it/wiki
 markdown:
   render:
@@ -59,6 +57,7 @@ markdown:
 # Themes
 theme: type
 
+# Misc
 disqus_shortname: h404bi
 google_analytics_id: UA-91882040-1
 
