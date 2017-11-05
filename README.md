@@ -1,6 +1,6 @@
 # Hello World!
 
-[![Travis](https://img.shields.io/travis/h404bi/h404bi.com.svg?style=flat-square)](https://travis-ci.org/h404bi/h404bi.com)
+[![Travis](https://img.shields.io/travis/h404bi/h404bi.com.svg?style=flat-square)](https://travis-ci.org/h404bi/h404bi.com) [![Powered by Hexo](https://img.shields.io/badge/Powered%20by-Hexo-blue.svg?style=flat-square)](https://hexo.io)
 
 This repo contains all the source code of my [website](https://h404bi.com).
 
@@ -21,5 +21,5 @@ $ git submodule update --init --recursive
 ``` sh
 # Install Hexo dependencies and run
 $ yarn && yarn dev
-# listen 0.0.0.0:4001
+# Listening 0.0.0.0:4001
 ```
