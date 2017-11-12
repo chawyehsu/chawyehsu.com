@@ -997,9 +997,9 @@ hexo-server@^0.1.2:
     opn "^3.0.3"
     serve-static "^1.10.0"
 
-hexo-tag-figure@^0.2.0:
-  version "0.2.0"
-  resolved "https://registry.yarnpkg.com/hexo-tag-figure/-/hexo-tag-figure-0.2.0.tgz#2cd53c11310ae343a37c8b2b276a705d57a55c5b"
+hexo-tag-figure@^0.3.0:
+  version "0.3.0"
+  resolved "https://registry.yarnpkg.com/hexo-tag-figure/-/hexo-tag-figure-0.3.0.tgz#5a2c76bdd2f726578682793455cbd372ae2d8b10"
 
 hexo-tag-ruby@^1.0.2:
   version "1.0.2"
