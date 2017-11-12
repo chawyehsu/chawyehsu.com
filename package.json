@@ -1,13 +1,17 @@
 {
   "name": "h404bi.com",
-  "version": "2.0.17",
+  "version": "20171113.0.0",
+  "description": "This is h40bi's website.",
   "private": true,
   "hexo": {
     "version": "3.3.9"
   },
   "scripts": {
+    "build": "hexo clean && hexo g",
     "dev": "hexo clean && hexo s --debug -p 4001"
   },
+  "repository": "git@github.com:h404bi/h404hi.com.git",
+  "author": "h404bi <h404bi@gmail.com>",
   "dependencies": {
     "hexo": "^3.2.2",
     "hexo-deployer-git": "^0.1.0",
