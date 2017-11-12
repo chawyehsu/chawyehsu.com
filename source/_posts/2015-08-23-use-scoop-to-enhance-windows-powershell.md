@@ -1,7 +1,7 @@
+---
 title: 用 Scoop 改善 Windows Powershell
 date: 2015-08-23 23:19:11
 updated: 2015-09-04 17:19:38
-tags: [windows, superuser]
 ---
 
 ## 一本道

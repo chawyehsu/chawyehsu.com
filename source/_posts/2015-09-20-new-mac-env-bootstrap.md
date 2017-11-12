@@ -1,6 +1,7 @@
+---
 title: Newbie Mac Bootstrap
 date: 2015-09-20 17:28:19
-tags: [mac]
+updated: 2015-09-20 17:28:19
 ---
 入坑 Mac OS X，写点 note (nonsense) 以备玩坏系统重装时翻查。
 

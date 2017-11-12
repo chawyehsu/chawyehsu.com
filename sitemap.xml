@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="/sitemap.xsl"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  {%- for post in posts %}
+  <url>
+    <loc>{{ post.permalink | uriencode }}</loc>
+    {% if post.updated -%}
+    <lastmod>{{ post.updated.format('YYYY-MM-DD') }}</lastmod>
+    {% set post_updated = post.updated -%}
+    {% if post_updated.add(15, 'd').isAfter(moment) -%}
+    <priority>1</priority>
+    {% elif post_updated.add(30, 'd').isAfter(moment) -%}
+    <priority>0.8</priority>
+    {% else -%}
+    <priority>0.5</priority>
+    {% endif -%}
+    {% elif post.date -%}
+    <lastmod>{{ post.date.format('YYYY-MM-DD') }}</lastmod>
+    {% set post_date = post.date -%}
+    {% if post_date.add(15, 'd').isAfter(moment) -%}
+    <priority>1</priority>
+    {% elif post_date.add(30, 'd').isAfter(moment) -%}
+    <priority>0.8</priority>
+    {% else -%}
+    <priority>0.5</priority>
+    {% endif -%}
+    {% endif -%}
+    <changefreq>always</changefreq>
+  </url>
+  {% endfor %}
+</urlset>

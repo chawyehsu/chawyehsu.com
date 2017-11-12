@@ -2,6 +2,7 @@
 title: Chawye Hsu, h404bi
 subtitle: There will still be love in this world
 author: h404bi
+email: h404bi@gmail.com
 language: zh-cn
 timezone: Asia/Shanghai
 
@@ -31,7 +32,7 @@ feed:
   limit: 20
 sitemap:
   path: sitemap.xml
-  template: sitemap_template.xml
+  template: sitemap.xml
 html_minifier:
   exclude:
   minifyJS: true
