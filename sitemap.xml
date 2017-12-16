@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <?xml-stylesheet type="text/xsl" href="/sitemap.xsl"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"><url>
+    <loc>https://h404bi.com/blog/2017/12/15/nintendo-switch-unboxing-and-simple-review.html</loc>
+    <lastmod>2017-12-16</lastmod>
+    <priority>1</priority>
+    <changefreq>always</changefreq>
+  </url>
+  <url>
     <loc>https://h404bi.com/blog/2017/02/21/a-brief-history-of-minecraft-modding.html</loc>
     <lastmod>2017-02-22</lastmod>
     <priority>0.5</priority>
