@@ -3,6 +3,8 @@ layout: post
 title: Minecraft Modding 简史
 date: 2017-02-21 00:02:45
 updated: 2017-02-22 13:22:19
+keywords: Minecraft,Modding,简史,历史
+description: 这是目前网络上为数不多的,能让一些在 Minecraft 非早期就加入社区的玩家,相对清晰地了解至今整个 Minecraft Modding 历程的文章
 ---
 
 ## 前言
