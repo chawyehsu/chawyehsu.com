@@ -10,7 +10,7 @@ lazyload: true
 
 ## 前言
 
-自 Notch 出售了 Minecraft，出售了 Mojang 公司后，他在 Minecraft 方面的消息也随着 Minecraft 逐年下降的热度而下降。因此也有人跟我说，微软收购 Minecraft 的那一刻是 Minecraft 的巅峰，Notch 退出得很及时。卖掉 Minecraft 之后的 Notch 经历了怎样的一段过渡期；为何在《Minecraft: The Story of Mojang》纪录片[^0]中还是在 Minecon 与粉丝见面时给人的感觉都是平易近人的他，在推特上却常常出言惊人；Notch 是否还有在做些什么游戏；以及他平时有喜欢玩什么游戏。也许你也会有一些这样的疑惑。
+自 Notch 出售了 Minecraft，出售了 Mojang 公司后，他在 Minecraft 方面的消息也随着 Minecraft 逐年下降的热度而减少。因此也有人跟我说，微软收购 Minecraft 的那一刻是 Minecraft 的巅峰，Notch 退出得很及时。卖掉 Minecraft 之后的 Notch 经历了怎样的一段过渡期；为何在《Minecraft: The Story of Mojang》纪录片[^0]中还是在 Minecon 与粉丝见面时给人的感觉都是平易近人的他，在推特上却常常出言惊人；Notch 是否还有在做些什么游戏；以及他平时有喜欢玩什么游戏。也许你也会有一些这样的疑惑。
 
 本文是人物访谈 The Tao of Notch - Beyond Twitter 的译文版本，原文作者 Brad Glasgow，原文于 2016 年 8 月 4 日发布在 The Escapist 网站上。[^1]由本人进行翻译，断断续续耗时近 5 个月，文中涉及大量需要翻查各类资料（甚至观看电影）后才能理解的游戏相关或非游戏相关的内容，如詹代法则、游戏门事件与女权、楚门的世界、以及各种美国俚语、游戏梗等等。译者翻译能力有限，如果你在阅读期间遇到难以理解的部分，可以与英语原文进行对照阅读。同时如果你有更好的理解与翻译或者有纠错，欢迎向本文的源代码提交你的意见，感谢。（浏览器 F12 即可查看本文托管的 GitHub 仓库地址）。鉴于翻译可能有改动，为保持内容一致性，本文未经本人允许不得转载。
 
@@ -478,7 +478,7 @@ __佩尔松：__ 非常谢谢你！非常有趣，真的。
 [^12]: [【中字】这个视频会让你生气This Video Will Make You Angry@阿尔法小分队（A站）](http://www.acfun.cn/v/ac1802245)
 [^13]: [跨性别恐惧症（维基百科 中文）](https://zh.wikipedia.org/wiki/%E8%B7%A8%E6%80%A7%E5%88%A5%E6%81%90%E6%87%BC%E7%97%87)
 [^14]: [Kotaku: 美国一家游戏博客媒体（维基百科 中文）](https://zh.wikipedia.org/wiki/Kotaku)
-[^16]: [国内有 Gamergate 事件的消息吗？（知乎）](https://www.zhihu.com/question/25284626)
+[^15]: [国内有 Gamergate 事件的消息吗？（知乎）](https://www.zhihu.com/question/25284626)
 [^16]: [Rock Paper Shotgun: 美国一家电脑游戏新闻网站（维基百科 中文）](https://zh.wikipedia.org/wiki/Rock,_Paper,_Shotgun)
 [^17]: [Polygon 不懂得如何玩 DOOM 的原视频（Youtube 英语）](https://www.youtube.com/watch?v=9yYp8ZeQ-I8)
 [^18]: [Danny Baranowsky 创作的游戏音乐（网易云音乐）](https://music.163.com/#/artist?id=31460)
