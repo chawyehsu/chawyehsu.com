@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <?xml-stylesheet type="text/xsl" href="/sitemap.xsl"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"><url>
+    <loc>https://h404bi.com/blog/2018/01/01/the-tao-of-notch-beyond-twitter.html</loc>
+    <lastmod>2018-01-01</lastmod>
+    <priority>1</priority>
+    <changefreq>always</changefreq>
+  </url>
+  <url>
     <loc>https://h404bi.com/blog/2017/12/15/nintendo-switch-unboxing-and-simple-review.html</loc>
     <lastmod>2017-12-16</lastmod>
     <priority>0.8</priority>
