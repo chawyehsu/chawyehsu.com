@@ -1,0 +1,15 @@
+# Menu
+menu:
+  Blog: /blog
+  Links: /blog/links.html
+  Guestbook: /blog/guestbook.html
+
+force_serif: true
+night_mode:
+  auto: true
+  force: false
+
+# Third-party services
+baidu_push: true
+disqus_shortname:
+google_analytics_id:

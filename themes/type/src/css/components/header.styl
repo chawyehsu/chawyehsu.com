@@ -1,0 +1,27 @@
+.site-header
+  align-items: center
+  border-bottom: 1px solid $text-color
+  display: flex
+  justify-content: space-between
+  margin-bottom: $gap-m
+  padding: $gap-m 0 0
+
+  // Site Navigation
+  .site-nav
+    ul
+      list-style: none
+      margin-bottom: 0
+      padding-left: 0
+
+      li
+        display: inline-block
+
+        &+li
+          margin-left: $gap-m
+
+        a
+          color: $meta-color
+          text-decoration: none
+
+          &.active
+            color: $text-color

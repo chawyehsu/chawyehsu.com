@@ -1,0 +1,67 @@
+html
+  @media (min-width: $mid-wrap-wdith)
+    font-size: $font-size-base-m
+
+  @media (min-width: $max-wrap-wdith)
+    font-size: $font-size-base-l
+
+
+
+.site-wrapper
+  @media (min-width: $mid-wrap-wdith)
+    padding: 0 $gap-l
+
+.site-header
+  @media (min-width: $mid-wrap-wdith)
+    padding: $gap-l 0 0
+  @media (min-width: $max-wrap-wdith)
+    margin-bottom: $gap-l
+
+.post-list
+  .post-list-item
+    a
+      @media (min-width: $max-wrap-wdith)
+        display: flex
+        justify-content: space-between
+
+.page-header
+  @media (min-width: $mid-wrap-wdith)
+    margin-bottom: $gap-l
+  @media (min-width: $max-wrap-wdith)
+    margin-bottom: $gap-xl
+
+.page-content
+
+  ol, ul
+    @media (min-width: $mid-wrap-wdith)
+      margin-bottom: $gap-l
+      padding-left: $gap-l
+
+  hr
+    @media (min-width: $mid-wrap-wdith)
+      margin: 0 auto $gap-l + $gap-m
+      padding-top: $gap-l
+
+  figure
+    // figure tag images
+    @media (min-width: $mid-wrap-wdith)
+      &.left, &.right
+        max-width: 40%
+
+      &.left
+        float: left
+        margin-right: $gap-l
+
+      &.right
+        float: right
+        margin-left: $gap-l
+
+    @media (min-width: 60rem)
+      &.left, &.right
+        max-width: 50%
+
+      &.left
+        margin-left: -25%
+
+      &.right
+        margin-right: -25%

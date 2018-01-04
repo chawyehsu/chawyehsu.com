@@ -1,0 +1,145 @@
+// Content title
+.page-header
+  margin-bottom: $gap-m
+  text-align: center
+
+  h1
+    margin-bottom: 0
+
+  .post-meta
+    color: $meta-color
+
+// Content body
+.page-content
+  margin-bottom: $gap-xl
+
+  a:not([id^=fnref])
+    border-bottom: 1px dashed $meta-color
+
+  & > table
+    border-collapse: collapse
+    border-spacing: 0
+    display: block
+    overflow: auto
+    width: 100%
+
+    tr
+      &:nth-child(2n)
+        background-color: $tertiary-color
+
+      th, td
+        border: 1px solid $tertiary-color
+        padding: $gap-s $gap-m
+
+  blockquote
+    border-left: 2px solid $highlight-color
+    font-style: italic
+    padding-left: $gap-m
+
+  ol, ul
+    margin-bottom: $gap-m
+    padding-left: $gap-m * 1.5 /* fix list-style overflow */
+
+    p
+      margin-bottom: 0
+
+  ul
+    list-style-type: square
+
+  li
+    ul, ol
+      margin-bottom: 0
+
+  pre, code
+    font-family: $font-family-mono
+    font-size: $font-size-code
+
+  pre
+    line-height: $line-height-code
+
+  .highlight
+    background: $tertiary-color
+    overflow: auto
+
+    table
+      border-spacing: 0
+      margin: 0
+
+    pre
+      margin: $gap-m
+      overflow: visible
+
+  code
+    background: $tertiary-color
+    padding: .1rem .2rem
+
+  s, del
+    color: $meta-color
+
+  hr
+    border: 0
+    border-bottom: 2px solid $meta-color
+    margin: 0 auto $gap-l
+    opacity: .5
+    padding-top: $gap-m
+    width: 6rem
+
+    &.footnotes-sep
+      margin-top: $gap-m
+
+  sub, sup
+    font-size: $font-size-sub-sup
+
+    a
+      color: $highlight-color
+
+  // All type of images shouldn't overflow
+  img
+    max-width: 100%
+
+  // Normal Markdown images
+  p
+    img
+      display: block
+      margin: 0 auto
+
+  // Add margin-bottom for images without p tag warp (html tag images)
+  & > img
+    margin-bottom: $gap-m
+
+  figure
+    text-align: center
+
+    figcaption
+      color: $meta-color
+      font-size: $font-size-small
+      text-align: center
+
+      p
+        margin: 0
+
+    // blockquote inside figure should align left
+    blockquote
+      text-align: left
+
+  // Footnotes
+  .footnotes
+    color: $meta-color
+    font-size: $font-size-footnotes
+
+    p
+      margin-bottom: $gap-m
+
+      a
+        border: 0
+
+        &.footnote-backref
+          text-decoration: underline
+
+// Content comments
+.page-comments
+  margin-bottom: $gap-l
+
+  #load-disqus
+    color: $meta-color
+    text-align: center

@@ -20,7 +20,7 @@ before_install:
   # Start SSH agent
   - eval $(ssh-agent)
   # Add the key to SSH agent
-  - ssh-add ~/.ssh/access_key.pri
+  - ssh-add ~/.ssh/deploy_key.pri
   # Set git config
   - git config --global user.name "h404bi"
   - git config --global user.email "h404bi@gmail.com"
@@ -29,14 +29,10 @@ before_install:
   - cd work
   # Clone deploy history (this step can let us keep build commits)
   - git clone -b gh-pages https://github.com/h404bi/h404bi.com.git .deploy_git
-  # Clone theme submodules manually
-  - git submodule update --init --recursive
   # Install global cli tools
   - yarn global add hexo-cli
 
 script:
-  # Reset key usage
-  - ssh-add -D && ssh-add ~/.ssh/deploy_key.pri
   # Generate and deploy
   - hexo clean
   - hexo generate --deploy
