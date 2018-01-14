@@ -23,7 +23,9 @@ $ cd h404bi.com
 ### Run and play:
 
 ``` sh
-# Install Hexo dependencies and run
+# Install global hexo-cli
+$ yarn global add hexo-cli
+# Install Hexo dependencies and run dev
 $ yarn && yarn dev
 # Listening 0.0.0.0:4001
 ```
