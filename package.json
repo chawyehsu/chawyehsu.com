@@ -5,15 +5,15 @@
   "author": "h404bi <h404bi@gmail.com>",
   "private": true,
   "hexo": {
-    "version": "3.4.4"
+    "version": "3.5.0"
   },
   "scripts": {
     "build": "hexo clean && hexo g",
     "dev": "hexo clean && hexo s --debug -p 4001"
   },
   "dependencies": {
-    "hexo": "^3.2.2",
-    "hexo-deployer-git": "^0.3.1",
+    "hexo": "^3.5.0",
+    "hexo-deployer-git": "github:hexojs/hexo-deployer-git",
     "hexo-generator-feed": "^1.2.2",
     "hexo-generator-sitemap": "github:hexojs/hexo-generator-sitemap",
     "hexo-html-minifier": "github:hexojs/hexo-html-minifier",
