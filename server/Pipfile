@@ -12,6 +12,7 @@ flask = "*"
 
 [dev-packages]
 
+pylint = "*"
 
 
 [requires]

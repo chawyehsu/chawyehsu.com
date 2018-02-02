@@ -1,0 +1,5 @@
+{
+    "python.terminal.activateEnvironments": false,
+    "python.venvPath": "${workspaceFolder}/server",
+    "python.pythonPath": "${workspaceFolder}\\server\\.venv\\Scripts\\python.exe"
+}
