@@ -25,13 +25,13 @@
     <changefreq>always</changefreq>
   </url>
   <url>
-    <loc>https://h404bi.com/blog/guestbook.html</loc>
+    <loc>https://h404bi.com/guestbook.html</loc>
     <lastmod>2017-02-12</lastmod>
     <priority>0.5</priority>
     <changefreq>always</changefreq>
   </url>
   <url>
-    <loc>https://h404bi.com/blog/links.html</loc>
+    <loc>https://h404bi.com/links.html</loc>
     <lastmod>2017-02-12</lastmod>
     <priority>0.5</priority>
     <changefreq>always</changefreq>
@@ -43,13 +43,13 @@
     <changefreq>always</changefreq>
   </url>
   <url>
-    <loc>https://h404bi.com/blog/archives.html</loc>
+    <loc>https://h404bi.com/blog/index.html</loc>
     <lastmod>2017-01-01</lastmod>
     <priority>0.5</priority>
     <changefreq>always</changefreq>
   </url>
   <url>
-    <loc>https://h404bi.com/blog/index.html</loc>
+    <loc>https://h404bi.com/blog/archives.html</loc>
     <lastmod>2017-01-01</lastmod>
     <priority>0.5</priority>
     <changefreq>always</changefreq>
@@ -79,7 +79,7 @@
     <changefreq>always</changefreq>
   </url>
   <url>
-    <loc>https://h404bi.com/blog/about.html</loc>
+    <loc>https://h404bi.com/about.html</loc>
     <lastmod>2015-05-18</lastmod>
     <priority>0.5</priority>
     <changefreq>always</changefreq>
