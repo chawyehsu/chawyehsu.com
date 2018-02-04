@@ -1,6 +1,6 @@
 # Hello World!
 
-[![Dev with vscode](https://img.shields.io/badge/dev%20with-vscode-blue.svg?style=flat-square)](https://code.visualstudio.com) [![Travis](https://img.shields.io/travis/h404bi/h404bi.com.svg?style=flat-square)](https://travis-ci.org/h404bi/h404bi.com) [![Powered by Hexo](https://img.shields.io/badge/Powered%20by-Hexo-blue.svg?style=flat-square)](https://hexo.io)
+[![Dev with vscode](https://img.shields.io/badge/dev%20with-vscode-blue.svg?style=flat-square)](https://code.visualstudio.com) [![Travis](https://img.shields.io/travis/h404bi/h404bi.com.svg?style=flat-square)](https://travis-ci.org/h404bi/h404bi.com) [![Powered by Hexo](https://img.shields.io/badge/Powered%20by-Hexo-blue.svg?style=flat-square)](https://hexo.io) ![Repo size](https://img.shields.io/github/repo-size/h404bi/h404bi.com.svg?style=flat-square)
 
 This repo contains all the source code of h404bi's frigidity [website](https://h404bi.com).
 
