@@ -1092,15 +1092,19 @@ hexo-log@^0.2.0:
     chalk "^1.1.1"
     hexo-bunyan "^1.0.0"
 
-"hexo-renderer-markdown-it@github:hexojs/hexo-renderer-markdown-it":
+"hexo-renderer-markdown-it@github:h404bi/hexo-renderer-markdown-it":
   version "3.4.2"
-  resolved "https://codeload.github.com/hexojs/hexo-renderer-markdown-it/tar.gz/7d09d25958d3c618b4f049f1995962038d2b829d"
+  resolved "https://codeload.github.com/h404bi/hexo-renderer-markdown-it/tar.gz/5ef0751f61eb8016a78f8ead93431073281c7e7a"
   dependencies:
     lodash.assign "^4.2.0"
-    markdown-it "^8.3.1"
-    markdown-it-abbr "^1.0.0"
+    markdown-it "^8.4.0"
+    markdown-it-abbr "^1.0.4"
+    markdown-it-container "^2.0.0"
+    markdown-it-deflist "^2.0.3"
+    markdown-it-emoji "^1.4.0"
     markdown-it-footnote "^3.0.1"
     markdown-it-ins "^2.0.0"
+    markdown-it-mark "^2.0.0"
     markdown-it-sub "^1.0.0"
     markdown-it-sup "^1.0.0"
     sluggo "^0.2.0"
@@ -1521,9 +1525,21 @@ lru-cache@^4.0.1:
     pseudomap "^1.0.2"
     yallist "^2.1.2"
 
-markdown-it-abbr@^1.0.0:
+markdown-it-abbr@^1.0.4:
   version "1.0.4"
   resolved "https://registry.yarnpkg.com/markdown-it-abbr/-/markdown-it-abbr-1.0.4.tgz#d66b5364521cbb3dd8aa59dadfba2fb6865c8fd8"
+
+markdown-it-container@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/markdown-it-container/-/markdown-it-container-2.0.0.tgz#0019b43fd02eefece2f1960a2895fba81a404695"
+
+markdown-it-deflist@^2.0.3:
+  version "2.0.3"
+  resolved "https://registry.yarnpkg.com/markdown-it-deflist/-/markdown-it-deflist-2.0.3.tgz#5727db04184d3cb2bc6ee4a9641e3a1091d5fd6f"
+
+markdown-it-emoji@^1.4.0:
+  version "1.4.0"
+  resolved "https://registry.yarnpkg.com/markdown-it-emoji/-/markdown-it-emoji-1.4.0.tgz#9bee0e9a990a963ba96df6980c4fddb05dfb4dcc"
 
 markdown-it-footnote@^3.0.1:
   version "3.0.1"
@@ -1533,6 +1549,10 @@ markdown-it-ins@^2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/markdown-it-ins/-/markdown-it-ins-2.0.0.tgz#a5aa6a30f1e2f71e9497567cfdff40f1fde67483"
 
+markdown-it-mark@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/markdown-it-mark/-/markdown-it-mark-2.0.0.tgz#46a1aa947105aed8188978e0a016179e404f42c7"
+
 markdown-it-sub@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/markdown-it-sub/-/markdown-it-sub-1.0.0.tgz#375fd6026eae7ddcb012497f6411195ea1e3afe8"
@@ -1541,7 +1561,7 @@ markdown-it-sup@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/markdown-it-sup/-/markdown-it-sup-1.0.0.tgz#cb9c9ff91a5255ac08f3fd3d63286e15df0a1fc3"
 
-markdown-it@^8.3.1:
+markdown-it@^8.4.0:
   version "8.4.0"
   resolved "https://registry.yarnpkg.com/markdown-it/-/markdown-it-8.4.0.tgz#e2400881bf171f7018ed1bd9da441dac8af6306d"
   dependencies:

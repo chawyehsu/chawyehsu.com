@@ -50,10 +50,14 @@ markdown:
     linkify: false
     typographer: true
   plugins:
+    - markdown-it-abbr
+    - markdown-it-deflist
+    - markdown-it-emoji
     - markdown-it-footnote
+    - markdown-it-ins
+    - markdown-it-mark
     - markdown-it-sup
     - markdown-it-sub
-    - markdown-it-abbr
 
 # Themes
 theme: type

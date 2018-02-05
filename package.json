@@ -17,7 +17,7 @@
     "hexo-generator-feed": "^1.2.2",
     "hexo-generator-sitemap": "github:hexojs/hexo-generator-sitemap",
     "hexo-html-minifier": "github:hexojs/hexo-html-minifier",
-    "hexo-renderer-markdown-it": "github:hexojs/hexo-renderer-markdown-it",
+    "hexo-renderer-markdown-it": "github:h404bi/hexo-renderer-markdown-it",
     "hexo-server": "^0.3.0",
     "hexo-tag-figure": "^0.4.1",
     "hexo-tag-ruby": "^1.0.2"
