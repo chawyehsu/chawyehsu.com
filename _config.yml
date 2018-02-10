@@ -41,7 +41,7 @@ html_minifier:
   collapseWhitespace: true
   removeScriptTypeAttributes: true
   removeStyleLinkTypeAttributes: true
-## docs: https://github.com/celsomiranda/hexo-renderer-markdown-it/wiki
+# docs: https://github.com/hexo/hexo-renderer-markdown-it/wiki
 markdown:
   render:
     html: true
