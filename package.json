@@ -1,6 +1,6 @@
 {
   "name": "h404bi.com",
-  "version": "20171230.0.0",
+  "version": "0.0.0",
   "description": "This is h404bi's website.",
   "author": "h404bi <h404bi@gmail.com>",
   "private": true,
@@ -8,8 +8,8 @@
     "version": "3.5.0"
   },
   "scripts": {
-    "build": "hexo clean && hexo g",
-    "dev": "hexo clean && hexo s --debug -p 4001"
+    "build": "./node_modules/.bin/hexo clean && ./node_modules/.bin/hexo g",
+    "dev": "./node_modules/.bin/hexo clean && ./node_modules/.bin/hexo s --debug -p 4001"
   },
   "dependencies": {
     "hexo": "^3.5.0",
