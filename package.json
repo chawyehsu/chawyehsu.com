@@ -3,6 +3,10 @@
   "version": "0.0.0",
   "description": "This is h404bi's website.",
   "author": "h404bi <h404bi@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/h404bi/h404bi.com.git"
+  },
   "private": true,
   "hexo": {
     "version": "3.5.0"
@@ -21,5 +25,8 @@
     "hexo-server": "^0.3.0",
     "hexo-tag-figure": "^0.4.1",
     "hexo-tag-ruby": "^1.0.2"
+  },
+  "engines": {
+    "node": ">=6.9.0"
   }
 }
