@@ -17,6 +17,6 @@ fi
 
 # Pour out supervisor config
 if [[ -d /etc/supervisor/conf.d ]]; then
-  sudo cp ../supervisor.conf /etc/supervisor/conf.d/h404bi.com.server.conf
+  sudo cp ./supervisor.conf /etc/supervisor/conf.d/h404bi.com.server.conf
   echo "Execute 'supervisorctl reload' to retart supervisor."
 fi
