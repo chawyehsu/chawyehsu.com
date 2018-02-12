@@ -20,7 +20,7 @@ comments: false
  - [pre-sence](http://pre-sence.com)[^5]
 
 <div style="text-align:right"><small>
-——如有介意者请告知<br/>2017.2
+——2017.2
 </small></div>
 
 
