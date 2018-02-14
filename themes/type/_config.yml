@@ -12,4 +12,5 @@ night_mode:
 # Third-party services
 baidu_push: true
 disqus_shortname:
+baidu_analytics_id:
 google_analytics_id:
