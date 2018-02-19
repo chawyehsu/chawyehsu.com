@@ -6,7 +6,7 @@ menu:
 
 force_serif: true
 night_mode:
-  auto: true
+  auto: false
   force: false
 
 # Third-party services
