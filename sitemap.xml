@@ -9,7 +9,7 @@
   <url>
     <loc>https://h404bi.com/blog/2018/01/01/the-tao-of-notch-beyond-twitter.html</loc>
     <lastmod>2018-01-01</lastmod>
-    <priority>0.8</priority>
+    <priority>0.5</priority>
     <changefreq>always</changefreq>
   </url>
   <url>
@@ -49,13 +49,13 @@
     <changefreq>always</changefreq>
   </url>
   <url>
-    <loc>https://h404bi.com/blog/archives.html</loc>
+    <loc>https://h404bi.com/blog/index.html</loc>
     <lastmod>2017-01-01</lastmod>
     <priority>0.5</priority>
     <changefreq>always</changefreq>
   </url>
   <url>
-    <loc>https://h404bi.com/blog/index.html</loc>
+    <loc>https://h404bi.com/blog/archives.html</loc>
     <lastmod>2017-01-01</lastmod>
     <priority>0.5</priority>
     <changefreq>always</changefreq>
