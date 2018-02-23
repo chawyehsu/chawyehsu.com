@@ -8,6 +8,8 @@ You can also see the generated files at [gh-pages](https://github.com/h404bi/h40
 
 No LICENSE means All Rights Reserved.
 
+A seperated theme repository can be found at [h404bi/hexo-theme-type](https://github.com/h404bi/hexo-theme-type).
+
 ## Playground
 
 **Prerequirements:**  
@@ -23,9 +25,9 @@ $ cd h404bi.com
 ### Run and play:
 
 ``` sh
-# Install global hexo-cli
+# Install global hexo-cli (Optional)
 $ yarn global add hexo-cli
 # Install Hexo dependencies and run dev
 $ yarn && yarn dev
-# Listening 0.0.0.0:4001
+# Listening 0.0.0.0:4000
 ```
