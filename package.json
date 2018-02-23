@@ -13,7 +13,7 @@
   },
   "scripts": {
     "build": "./node_modules/.bin/hexo clean && ./node_modules/.bin/hexo g",
-    "dev": "./node_modules/.bin/hexo clean && ./node_modules/.bin/hexo s --debug -p 4001"
+    "dev": "./node_modules/.bin/hexo clean && ./node_modules/.bin/hexo s --debug"
   },
   "dependencies": {
     "hexo": "^3.5.0",
