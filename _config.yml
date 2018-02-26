@@ -51,6 +51,7 @@ markdown:
     typographer: true
   plugins:
     - markdown-it-abbr
+    - markdown-it-cjk-breaks
     - markdown-it-deflist
     - markdown-it-emoji
     - markdown-it-footnote
