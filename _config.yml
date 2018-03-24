@@ -14,8 +14,7 @@ permalink: blog/:year/:month/:day/:title.html
 
 # Directory
 skip_render:
-- index.html
-- 404.html
+  - '**/*.html'
 
 # Writing
 new_post_name: :year-:month-:day-:title.md
