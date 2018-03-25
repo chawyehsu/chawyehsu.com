@@ -7,7 +7,7 @@ description: >-
   Office 的自定义安装方法
 lazyload: true
 date: 2018-03-24 03:33:27
-updated: 2018-03-24 03:33:27
+updated: 2018-03-25 13:00:00
 ---
 
 ![Microsoft Office](/uploads/20180324001.jpg)
@@ -57,7 +57,9 @@ setup.exe 的话，那就来与我一起“卸了又装”。
 **第三步：** 修改 Deployment Tool 配置。编辑 `configuration.xml` 文件，
 设定安装版本，更新频道，**排除不想安装的应用**。以下是我的配置文件，
 安装 64 位专业中文版（对应 `cn_office_professional_plus`），仅保留了 Word、
-Excel、Powerpoint 以及 Outlook，其它全部排除。具体的设置项可以看配置文档的注释。
+Excel、Powerpoint 以及 Outlook，其它全部排除。如果想把 Outlook 也排除的话，
+可以在此配置基础上再加上 `<ExcludeApp ID="Outlook" />` 即可。
+具体配置说明可以看配置文件里面的注释。
 
 <script src="https://gist.github.com/h404bi/62f65347d5784b37c8535aa371c59720.js"></script>
 
