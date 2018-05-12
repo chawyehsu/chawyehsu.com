@@ -32,7 +32,7 @@ comments: false
 
 ### 关于网站
 
-当前本站主要基于 Hexo 运作，如果你想了解本站的结构，可前往以下链接查看本站所有源码：
+当前本站主要基于 Hexo 进行自动构建，如果你想了解本站的结构，可前往以下链接查看本站所有源码：
 
 - [h404bi.com on GitHub](https://github.com/h404bi/h404bi.com)
 
