@@ -1,9 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <?xml-stylesheet type="text/xsl" href="/sitemap.xsl"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"><url>
+    <loc>https://h404bi.com/blog/2018/05/12/talk-about-scoop-the-package-manager-for-windows-again.html</loc>
+    <lastmod>2018-05-12</lastmod>
+    <priority>1</priority>
+    <changefreq>always</changefreq>
+  </url>
+  <url>
     <loc>https://h404bi.com/blog/2018/03/24/office-2016-custom-installation-guide.html</loc>
     <lastmod>2018-03-25</lastmod>
-    <priority>0.8</priority>
+    <priority>0.5</priority>
     <changefreq>always</changefreq>
   </url>
   <url>
@@ -55,13 +61,13 @@
     <changefreq>always</changefreq>
   </url>
   <url>
-    <loc>https://h404bi.com/blog/index.html</loc>
+    <loc>https://h404bi.com/blog/archives.html</loc>
     <lastmod>2017-01-01</lastmod>
     <priority>0.5</priority>
     <changefreq>always</changefreq>
   </url>
   <url>
-    <loc>https://h404bi.com/blog/archives.html</loc>
+    <loc>https://h404bi.com/blog/index.html</loc>
     <lastmod>2017-01-01</lastmod>
     <priority>0.5</priority>
     <changefreq>always</changefreq>
