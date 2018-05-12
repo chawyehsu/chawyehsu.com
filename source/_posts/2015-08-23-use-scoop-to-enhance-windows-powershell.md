@@ -4,6 +4,11 @@ date: 2015-08-23 23:19:11
 updated: 2015-09-04 17:19:38
 ---
 
+<p style="text-align:center">
+<a href="/blog/2018/05/12/talk-about-scoop-the-package-manager-for-windows-again.html">
+<strong>关于 Scoop 的新文章</strong></a>
+</p>
+
 ## 一本道
 软件包管理工具想必大家已经很清楚并且使用过。Debian/ Ubuntu 的 apt-get，
 Arch Linux 的 Pacman，就连本身并无自带包管理工具的 Mac 都有了 Macports
