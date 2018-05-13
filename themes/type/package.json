@@ -1,6 +1,6 @@
 {
   "name": "hexo-theme-type",
-  "version": "1.3.2",
+  "version": "1.3.3",
   "description": "A concise Hexo theme, focus on typography, heavily inspired by Daniel Eden's website.",
   "scripts": {
     "build": "./node_modules/.bin/webpack -p",
