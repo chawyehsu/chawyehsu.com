@@ -16,7 +16,7 @@
     "dev": "./node_modules/.bin/hexo clean && ./node_modules/.bin/hexo s --draft --debug"
   },
   "dependencies": {
-    "hexo": "^3.5.0",
+    "hexo": "^3.7.1",
     "hexo-deployer-git": "github:hexojs/hexo-deployer-git",
     "hexo-generator-feed": "^1.2.2",
     "hexo-generator-sitemap": "github:hexojs/hexo-generator-sitemap",
