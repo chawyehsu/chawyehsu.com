@@ -21,7 +21,7 @@ module.exports = {
               options: {
                 plugins: (loader) => [
                   require('postcss-import')(),
-                  require('autoprefixer')({browsers: ['> 1%', 'last 2 versions']}),
+                  require('autoprefixer')({browsers: ['>0.5%', 'not op_mini all']}),
                   require('cssnano')()
                 ]
               }
