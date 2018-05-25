@@ -8,7 +8,7 @@ description: >-
   同时想用命令行管理部分软件包，并且以此构建一个相对轻量的命令行环境的话，
   不妨可以尝试一下 PowerShell + Scoop + Cmder 这套组合。
 date: 2018-05-12 21:44:39
-updated: 2018-05-13 12:43:35
+updated: 2018-05-25 23:54:12
 ---
 
 {% figure center /uploads/20180512001.gif "Let us Scoop it!" %}
@@ -29,7 +29,7 @@ updated: 2018-05-13 12:43:35
 
 ## 软件包管理器
 
-> [http://scoop.sh/](http://scoop.sh/)
+> [https://scoop.sh/](https://scoop.sh/)
 
 这是 Scoop 的官网首页。网站正中央醒目的 Slogan 已表明了它的定位，
 一个 Windows 下的命令行式的（软件）安装工具。
