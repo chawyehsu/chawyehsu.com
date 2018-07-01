@@ -17,7 +17,7 @@ This article is a zh_CN translation of the Minecraft article "A Brief History of
 
 ## 正文
 
-{% figure center /uploads/20170222001.png "cover from PacktPub" %}
+{% figure center /uploads/2017/02/20170222001.png "cover from PacktPub" %}
 
 几乎从 Minecraft 诞生以来，modding 就一直在进行着。在过去的那段时间里，Minecraft modding 已经经过了数次变革，或者说，走过了数个“时代”。那些早期的日子以及早期的 mods，与现在比起来，有着巨大的区别。我初次涉足 modding 社区是在 Minecraft 的 Beta 中期阶段，所以在这之前发生的所有事情都是第二手的见闻。不过正如接下来我们将探讨的那样，虽然在时间的流沙中，大量的印记已经丢失，但是沿途重要的驿站却被记住了。
 

@@ -8,7 +8,7 @@ updated: 2015-09-20 17:28:19
 ## Command Line Tools for Xcode
 OS X 系统不像 Ubuntu 等发行版，系统默认是不包含编译工具链的（因为不是每位用户都需要吧，人性化？）。所以在使用时如果执行到含有诸如 gcc、make 等命令时，就会出现以下情况：
 
-{% figure center /uploads/20150810001.png "提示需要命令行工具" %}
+{% figure center /uploads/2015/08/20150810001.png "提示需要命令行工具" %}
 
 这时就需要安装苹果提供的命令行工具包（Command Line Tools，下称 CLT）了。安装 CLT 有几种方法：
  ### 1. 通过 Xcode 安装
