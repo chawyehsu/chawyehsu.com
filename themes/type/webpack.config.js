@@ -6,7 +6,7 @@ module.exports = {
   output: {
     path: __dirname + "/source/static",
     publicPath: "",
-    filename: "type.css"
+    filename: "style.css"
   },
   module: {
     rules: [
@@ -42,6 +42,6 @@ module.exports = {
 
   plugins: [
     new CleanWebpackPlugin("./source/static"),
-    new ExtractTextPlugin("type.css")
+    new ExtractTextPlugin("style.css")
   ]
 }
