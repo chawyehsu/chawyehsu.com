@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <?xml-stylesheet type="text/xsl" href="/sitemap.xsl"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"><url>
+    <loc>https://h404bi.com/guestbook.html</loc>
+    <lastmod>2018-08-31</lastmod>
+    <priority>1</priority>
+    <changefreq>always</changefreq>
+  </url>
+  <url>
     <loc>https://h404bi.com/blog/2018/05/12/talk-about-scoop-the-package-manager-for-windows-again.html</loc>
     <lastmod>2018-05-25</lastmod>
     <priority>0.5</priority>
@@ -38,12 +44,6 @@
   </url>
   <url>
     <loc>https://h404bi.com/blog/2017/02/12/henet-6in4-ipv6-tunnel-on-openwrt.html</loc>
-    <lastmod>2017-02-12</lastmod>
-    <priority>0.5</priority>
-    <changefreq>always</changefreq>
-  </url>
-  <url>
-    <loc>https://h404bi.com/guestbook.html</loc>
     <lastmod>2017-02-12</lastmod>
     <priority>0.5</priority>
     <changefreq>always</changefreq>
