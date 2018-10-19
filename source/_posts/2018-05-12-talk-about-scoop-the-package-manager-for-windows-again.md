@@ -9,6 +9,7 @@ description: >-
   不妨可以尝试一下 PowerShell + Scoop + Cmder 这套组合。
 date: 2018-05-12 21:44:39
 updated: 2018-05-25 23:54:12
+cover: /uploads/2018/05/20180510001.png
 ---
 
 {% figure center /uploads/2018/05/20180512001.gif "Let us Scoop it!" %}

@@ -2,6 +2,7 @@
 title: 用 Scoop 改善 Windows Powershell
 date: 2015-08-23 23:19:11
 updated: 2015-09-04 17:19:38
+cover: /uploads/2015/08/20150823002.png
 ---
 
 <p style="text-align:center">

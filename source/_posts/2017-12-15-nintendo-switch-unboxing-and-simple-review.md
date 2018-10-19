@@ -6,6 +6,7 @@ updated: 2017-12-16 18:04:00
 keywords: Nintendo,Switch,Review,开箱,简评
 description: Nintendo Switch 开箱与简评
 lazyload: true
+cover: /uploads/2017/12/20171215002.jpg
 ---
 
 恭喜任家的 Switch 销量突破千万！在任天堂宣布 Switch 历时九个月全球销量突破 1000 万的双十二当天，我咬咬牙，也成了千万分之一员。友人说我充值了信仰，其实我大概也不是 Nintendo 的热衷粉丝，不然估计早早就收入囊中。只是今年 NS 确实是够火热，这不其独占的《塞尔达传说：荒野之息》才拿下了 TGA 年度最佳游戏。

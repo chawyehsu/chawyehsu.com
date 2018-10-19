@@ -2,6 +2,8 @@
 title: Hello World
 date: 2015-05-20 20:28:19
 updated: 2015-09-09 21:32:27
+hidden: true
+cover: /uploads/2015/05/20150520001.png
 ---
 
 ~~欢迎回到地球。~~
