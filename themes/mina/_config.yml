@@ -1,0 +1,32 @@
+# Configuration
+header:
+  logo_url: /blog
+  nav:
+    Home: /
+    About: /about.html
+
+footer:
+  nav:
+    Home: /
+    About: /about.html
+    Guestbook: /guestbook.html
+    Links: /links.html
+    RSS: /blog/atom.xml
+  social_network:
+    logo-twitter: https://twitter.com/h404bi
+    logo-instagram: https://www.instagram.com/chawyehsu/
+    logo-github: https://github.com/h404bi
+    logo-game-controller-b: https://steamcommunity.com/id/h404bi/
+    ios-musical-notes: https://music.163.com/#/user/home?id=35631431
+
+force_serif: true
+head_comment:
+  'You know, rather than reading the source like a chump,'
+  'you can see it all on GitHub like a champ:'
+  'https://github.com/h404bi/h404bi.com'
+
+# Third-party services
+baidu_push: true
+disqus_shortname:
+baidu_analytics_id:
+google_analytics_id:

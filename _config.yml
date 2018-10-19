@@ -60,7 +60,7 @@ markdown:
     - markdown-it-sub
 
 # Themes
-theme: type
+theme: mina
 
 # Misc
 disqus_shortname: h404bi

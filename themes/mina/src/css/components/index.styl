@@ -1,0 +1,53 @@
+// Index list
+.post-list
+  display flex
+  flex-wrap wrap
+  padding: 0
+
+  .post-card-wrap.column
+    padding $gap-s
+
+  .post-card-wrap
+    display: flex
+  .post-card
+    width: 100%
+    border-bottom 1px solid #ededed
+    background #fefefe
+    .post-card__image
+      max-height: 600px;
+      width: 100%;
+      background-color: #ecf0f1;
+      background-position: 50%;
+      background-repeat: no-repeat;
+      background-size: cover;
+      &:before
+        content: "";
+        display: block;
+        width: 100%;
+    .post-card__info
+      padding $gap-m
+      text-align center
+
+  .post-list-item
+    list-style: none
+
+    .post-title
+      display: block
+      margin: 0
+
+    .post-meta
+      color: $meta-color
+      display: block
+      font-family: $font-family-serif
+      font-size $font-size-small
+      font-style: italic
+
+// Index pagination
+.pagination
+  display: flex
+  justify-content: center
+  margin-bottom: $gap-l
+
+  a
+    display: block
+    padding: 0 $gap-l
