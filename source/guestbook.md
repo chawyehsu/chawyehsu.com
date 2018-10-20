@@ -7,4 +7,3 @@ tags:
 ---
 
 ![](/uploads/2017/02/20170212001.png)
-<div style="text-align: center;"><a href="/about.html">About me</a></div>
