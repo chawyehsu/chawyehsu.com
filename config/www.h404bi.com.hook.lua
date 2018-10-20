@@ -18,6 +18,6 @@ if not str.to_hex(digest) == t["sha1"] then
 end
 
 -- Perform update
-local rv = io.popen("/bin/bash /data/scripts/h404bi.com.pull.sh")
+local rv = io.popen("/bin/bash /data/scripts/www.h404bi.com.pull.sh")
 ngx.say(rv:read("*all"))
 ngx.exit(200)

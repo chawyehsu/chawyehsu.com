@@ -1,6 +1,6 @@
 #! /bin/bash
 
-wwwdir=/data/wwwroot/h404bi.com
+wwwdir=/data/wwwroot/www.h404bi.com
 git=/usr/bin/git
 branch=gh-pages
 

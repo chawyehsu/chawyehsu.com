@@ -1,8 +1,8 @@
 {
-  "name": "h404bi.com",
+  "name": "www.h404bi.com",
   "version": "0.0.0",
   "description": "This is h404bi's website.",
-  "author": "h404bi <h404bi@gmail.com>",
+  "author": "Chawye Hsu <h404bi@gmail.com>",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/h404bi/h404bi.com.git"
@@ -27,6 +27,6 @@
     "hexo-tag-ruby": "^1.0.2"
   },
   "engines": {
-    "node": ">=6.9.0"
+    "node": ">=8.10.0"
   }
 }
