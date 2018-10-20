@@ -34,7 +34,7 @@ comments: false
 
 当前本站主要基于 Hexo 进行自动构建，如果你想了解本站的结构，可前往以下链接查看本站所有源码：
 
-- [h404bi.com on GitHub](https://github.com/h404bi/h404bi.com)
+- [h404bi.com on GitHub](https://github.com/h404bi/www.h404bi.com)
 
 如无特殊说明，本站内容默认保留所有权。有转载等相关事宜需先联系我，我通常都会允许。这么做只是想知道内容被分发到哪里去了，同时希望保持内容一致性。
 
