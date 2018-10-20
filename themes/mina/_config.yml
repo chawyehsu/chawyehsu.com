@@ -19,6 +19,7 @@ footer:
     logo-game-controller-b: https://steamcommunity.com/id/h404bi/
     ios-musical-notes: https://music.163.com/#/user/home?id=35631431
 
+index_subdirectory: true
 index_pagination: true
 
 force_serif: true
