@@ -1,6 +1,6 @@
 # Hello World!
 
-[![Powered by Hexo](https://img.shields.io/badge/Powered%20by-Hexo-blue.svg?style=flat-square)](https://hexo.io) [![Travis](https://img.shields.io/travis/h404bi/h404bi.com.svg?style=flat-square)](https://travis-ci.org/h404bi/h404bi.com) [![build with vscode](https://img.shields.io/badge/build%20with-vscode-blue.svg?style=flat-square)](https://code.visualstudio.com) [![David](https://img.shields.io/david/h404bi/www.h404bi.com.svg?style=flat-square)](https://github.com/h404bi/www.h404bi.com)
+[![Powered by Hexo](https://img.shields.io/badge/Powered%20by-Hexo-blue.svg?style=flat-square)](https://hexo.io) [![Travis](https://img.shields.io/travis/h404bi/www.h404bi.com.svg?style=flat-square)](https://travis-ci.org/h404bi/www.h404bi.com) [![build with vscode](https://img.shields.io/badge/build%20with-vscode-blue.svg?style=flat-square)](https://code.visualstudio.com) [![David](https://img.shields.io/david/h404bi/www.h404bi.com.svg?style=flat-square)](https://github.com/h404bi/www.h404bi.com)
  ![Repo size](https://img.shields.io/github/repo-size/h404bi/www.h404bi.com.svg?style=flat-square&colorB=328657)
 
 This repo contains all the source code of h404bi's frigidity [website](https://www.h404bi.com).
@@ -19,15 +19,13 @@ Git, Nodejs, Yarn
 ### Clone the source:
 
 ``` sh
-$ git clone https://github.com/h404bi/h404bi.com.git
-$ cd h404bi.com
+$ git clone https://github.com/h404bi/www.h404bi.com.git
+$ cd www.h404bi.com
 ```
 
 ### Run and play:
 
 ``` sh
-# Install global hexo-cli (Optional)
-$ yarn global add hexo-cli
 # Install Hexo dependencies and run dev
 $ yarn && yarn dev
 # Listening 0.0.0.0:4000

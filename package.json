@@ -5,7 +5,7 @@
   "author": "Chawye Hsu <h404bi@gmail.com>",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/h404bi/h404bi.com.git"
+    "url": "git+https://github.com/h404bi/www.h404bi.com.git"
   },
   "private": true,
   "hexo": {

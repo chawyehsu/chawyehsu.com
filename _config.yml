@@ -71,4 +71,4 @@ google_analytics_id: UA-91882040-1
 deploy:
   type: git
   repo:
-    github: git@github.com:h404bi/h404bi.com.git,gh-pages
+    github: git@github.com:h404bi/www.h404bi.com.git,gh-pages
