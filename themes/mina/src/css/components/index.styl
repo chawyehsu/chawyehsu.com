@@ -44,10 +44,16 @@
 
 // Index pagination
 .pagination
-  display: flex
-  justify-content: center
-  margin-bottom: $gap-l
-
+  .prev-wrap
+    display: flex
+    justify-content: flex-start
+  .next-wrap
+    display: flex
+    justify-content flex-end
   a
-    display: block
-    padding: 0 $gap-l
+    display: flex
+    align-items: center
+    .icon
+      padding-top 2px
+    .text
+      margin 0 $gap-s
