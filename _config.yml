@@ -44,7 +44,8 @@ tag_map:
 
 # Plugins
 index_generator:
-  path: 'blog/'
+  # https://github.com/hexojs/hexo-generator-index/pull/7
+  path: 'blog'
   per_page: 9
   order_by: -date
   post_filter: hidden
