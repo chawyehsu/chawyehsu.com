@@ -26,7 +26,7 @@ before_install:
   - git config --global user.email "h404bi@gmail.com"
   # Clone the source
   - git clone https://github.com/h404bi/www.h404bi.com.git
-  - cd h404bi.com
+  - cd www.h404bi.com
   # Clone deploy history (keep build commits)
   - git clone -b gh-pages https://github.com/h404bi/www.h404bi.com.git .deploy_git
 
