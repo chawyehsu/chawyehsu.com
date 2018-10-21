@@ -27,8 +27,8 @@ comments: false
 
 当然你可以通过上面的 SNS 找到并联系我。我每天会看电子邮箱，所以更好的方法是通过邮件联系
 
-> **major:** chawyehsu->gmail/hotmail;  
-> <span class="meta">**minor:** h404bi->gmail;</span>
+> **major:** chawyehsu->hotmail/gmail;  
+> <span class="meta">**minor:** h404bi->outlook;</span>
 
 ### 关于网站
 

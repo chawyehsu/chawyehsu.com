@@ -7,10 +7,6 @@ This repo contains all the source code of h404bi's frigidity [website](https://w
 
 You can also see the generated files at [gh-pages](https://github.com/h404bi/www.h404bi.com/tree/gh-pages) branch.
 
-**No LICENSE means All Rights Reserved.**
-
-A seperated theme repository can be found at [h404bi/hexo-theme-type](https://github.com/h404bi/hexo-theme-type).
-
 ## Playground
 
 **Prerequisites:**  
@@ -30,3 +26,20 @@ $ cd www.h404bi.com
 $ yarn && yarn dev
 # Listening 0.0.0.0:4000
 ```
+
+### Theme:
+
+The theme is pre-build to use, if you want to change something, launch the dev version of it.
+
+``` sh
+$ cd themes/mina
+# Install Theme dependencies and launch dev version
+$ yarn && yarn dev
+# Actually launch webpack watch
+```
+
+A seperated `type` theme repository can be found at [h404bi/hexo-theme-type](https://github.com/h404bi/hexo-theme-type).
+
+## License
+
+Content @ [Chawye Hsu](https://www.h404bi.com), All Rights Reserved.
