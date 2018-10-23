@@ -3,27 +3,27 @@
   "version": "0.0.0",
   "description": "This is h404bi's website.",
   "author": "Chawye Hsu <h404bi@gmail.com>",
+  "private": true,
   "repository": {
     "type": "git",
     "url": "git+https://github.com/h404bi/www.h404bi.com.git"
   },
-  "private": true,
   "hexo": {
-    "version": "3.7.1"
+    "version": "3.8.0"
   },
   "scripts": {
     "build": "./node_modules/.bin/hexo clean && ./node_modules/.bin/hexo g",
     "dev": "./node_modules/.bin/hexo clean && ./node_modules/.bin/hexo s --draft --debug"
   },
   "dependencies": {
-    "hexo": "^3.7.1",
-    "hexo-deployer-git": "github:hexojs/hexo-deployer-git",
+    "hexo": "^3.8.0",
+    "hexo-deployer-git": "hexojs/hexo-deployer-git.git",
     "hexo-generator-feed": "^1.2.2",
     "hexo-generator-index": "github:h404bi/hexo-generator-index",
     "hexo-generator-sitemap": "github:hexojs/hexo-generator-sitemap",
     "hexo-html-minifier": "github:h404bi/hexo-html-minifier",
     "hexo-renderer-markdown-it": "github:h404bi/hexo-renderer-markdown-it",
-    "hexo-server": "^0.3.0",
+    "hexo-server": "^0.3.3",
     "hexo-tag-figure": "^0.4.1",
     "hexo-tag-ruby": "^1.0.2"
   },
