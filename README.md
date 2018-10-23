@@ -7,6 +7,10 @@ This repo contains all the source code of h404bi's frigidity [website](https://w
 
 You can also see the generated files at [gh-pages](https://github.com/h404bi/www.h404bi.com/tree/gh-pages) branch.
 
+## Architecture
+
+![architecture](media/current-architecture.jpg)
+
 ## Playground
 
 **Prerequisites:**  
