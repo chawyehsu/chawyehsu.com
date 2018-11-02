@@ -16,5 +16,8 @@
   <title>{% if theme.index_subdirectory && is_home() %}Blog · {% elseif page.title %}{{ page.title }} · {% endif %}{{ config.title }}</title>
   <link rel="dns-prefetch" href="https://fonts.gstatic.com">
   <link rel="icon" type="image/x-icon" href="{{ url_for('favicon.ico') }}">
+  {% if config.feed %}
+  <link rel="alternate" type="application/atom+xml" title="{{ config.title }} ATOM 1.0" href="{{ url_for(config.feed.path) }}">
+  {% endif %}
   {{ css('static/mina.css?version=' + theme_version()) }}
 </head>

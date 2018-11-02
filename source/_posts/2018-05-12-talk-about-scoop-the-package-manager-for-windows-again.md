@@ -1,6 +1,8 @@
 ---
 title: 再谈谈 Scoop 这个 Windows 下的软件包管理器
-keywords: 'Windows软件包管理器,windows package manager,Chocolatey,Scoop,Chocolatey vs Scoop'
+keywords: >-
+  'Windows软件包管理器,windows package manager,
+  Chocolatey,Scoop,Chocolatey vs Scoop'
 description: >-
   如果你是偏重度的用户，想尽量多的软件可以用命令行管理，又不在乎我前文说的
   Chocolatey 的软件包描述文件相对复杂等缺点的话，其实可以去试试使用
@@ -8,7 +10,7 @@ description: >-
   同时想用命令行管理部分软件包，并且以此构建一个相对轻量的命令行环境的话，
   不妨可以尝试一下 PowerShell + Scoop + Cmder 这套组合。
 date: 2018-05-12 21:44:39
-updated: 2018-05-25 23:54:12
+updated: 2018-11-03 00:46:50
 cover: /uploads/2018/05/20180510001.png
 ---
 
@@ -86,7 +88,9 @@ Windowsbrew/Winbrew 呢哈哈……）
 ## Why Scoop
 
 <p style="position:relative;padding-bottom:56.25%;">
-<iframe style="position:absolute;width:100%;height:100%" src="https://www.youtube.com/embed/a85QLUJ0Wbs" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></p>
+<iframe style="position:absolute;width:100%;height:100%" 
+src="https://www.youtube.com/embed/a85QLUJ0Wbs" frameborder="0" 
+allow="autoplay; encrypted-media" allowfullscreen></iframe></p>
 
 上方是 Scoop 刚发布时（我想也是唯一）的介绍视频，观看要能访问 Youtube。
 
@@ -200,7 +204,7 @@ Binaries:
 提交请求（Scoop 维护者一般也不能马上处理你的请求）。我维护着自己的桶，
 所以自己的软件包需求随时可以进行自定义：
 
-> https://github.com/h404bi/dorado
+> [https://github.com/h404bi/dorado](https://github.com/h404bi/dorado)
 
 比如 Scoop 的 main bucket 中的 nvm-windows 使用时会有 UAC 提权，我自己编译了一份
 没有 UAC 弹窗的 nvm-windows，放到了自己的桶里面。另外要说一下的是，Scoop 的自定义桶
@@ -266,7 +270,7 @@ Scoop 目前的设计是很直接的，核心功能组件跟 main bucket 揉在�
 前者是 brew 的核心功能代码，后者是默认的软件包仓库。brew 核心会打 release 包，
 用户在更新时会检查 brew 有没有新版本，如果没有则不会更新 brew 本身，只更新软件包仓库。
 
-```sh
+```bash
 $ brew -v
 Homebrew 1.6.3
 Homebrew/homebrew-core (git revision bdb1ff; last commit 2018-05-03)
