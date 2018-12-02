@@ -1,14 +1,13 @@
 ---
 title: 再谈谈 Scoop 这个 Windows 下的软件包管理器
 keywords: >-
-  'Windows软件包管理器,windows package manager,
-  Chocolatey,Scoop,Chocolatey vs Scoop'
+  'Windows 包管理器,windows package manager,Scoop Chocolatey,
+  Scoop 安装,Windows 包管理工具,Chocolatey vs Scoop'
 description: >-
-  如果你是偏重度的用户，想尽量多的软件可以用命令行管理，又不在乎我前文说的
-  Chocolatey 的软件包描述文件相对复杂等缺点的话，其实可以去试试使用
-  Chocolatey。而如果你没那么强烈的需求，只是像我一样有一点点“绿色软件洁癖”，
-  同时想用命令行管理部分软件包，并且以此构建一个相对轻量的命令行环境的话，
-  不妨可以尝试一下 PowerShell + Scoop + Cmder 这套组合。
+  与 Chocolatey Windows 包管理工具（Package Manager）相比，
+  Scoop 是一款更为轻量的 Windows 包管理器。本文将对比 Chocolatey Scoop
+  这两款工具的区别，介绍一下 Scoop 安装使用体验，如果你没有重度的包管理需求，
+  不妨可以尝试一下 Scoop PowerShell Concfg 这套组合。
 date: 2018-05-12 21:44:39
 updated: 2018-11-03 00:46:50
 cover: /uploads/2018/05/20180510001.png
