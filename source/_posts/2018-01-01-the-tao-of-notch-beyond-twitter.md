@@ -3,8 +3,13 @@ layout: post
 title: 推特背后的 Notch 之道
 date: 2018-01-01 01:26:18
 updated: 2018-01-01 12:40:34
-keywords: 推特,Twitter,Mojang,Notch,Minecraft,采访,interview
-description: 公众最近已较少听到著名游戏 Minecraft 的创造者“马库斯·佩尔松”相关的消息。在出售了 Mojang 与购买 7000 万美元贝弗利山庄巨型豪宅之后，他曾接受过一些采访，但自那以后他一直都很沉默
+keywords: >-
+  '我的世界作者,我的世界 notch,Mojang,Notch,Minecraft,notch 为什么离开'
+description: >-
+  公众最近已较少听到我的世界作者 notch 相关的消息。
+  在出售 Mojang 与购买豪宅之后，他曾接受过一些采访，
+  但自那以后他一直都很沉默。本文是一篇访谈，
+  试图了解 notch 为什么离开等内容。
 lazyload: true
 cover: /uploads/2017/12/20171231001.jpg
 ---
