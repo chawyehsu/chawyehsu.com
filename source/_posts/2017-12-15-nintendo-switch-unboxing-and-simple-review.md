@@ -3,8 +3,10 @@ layout: post
 title: Nintendo Switch 开箱与简评
 date: 2017-12-15 22:28:04
 updated: 2017-12-16 18:04:00
-keywords: Nintendo,Switch,Review,开箱,简评
-description: Nintendo Switch 开箱与简评
+keywords: 'Nintendo Switch,任天堂 Switch,Switch 港版,NS 开箱,马里奥奥德赛'
+description: >-
+  在双十二这天，我咬咬牙买下了任天堂 Switch 和马里奥奥德赛。在进行 NS 开箱后写下这边文章作为记录，
+  记录一下 Switch 港版开箱含哪些配件等信息，简述一下 Switch 到底值不值得买。
 lazyload: true
 cover: /uploads/2017/12/20171215002.jpg
 ---
