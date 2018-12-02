@@ -3,8 +3,11 @@ layout: post
 title: "Openwrt 配置 he.net IPv6 隧道"
 date: 2017-02-12 20:44:53
 updated: 2017-02-12 20:44:53
-keywords: Openwrt,IPv6,隧道,he.net
-description: 利用 he.net 在 Openwrt 上配置 IPv6 隧道
+keywords: 'OpenWrt IPv6,IPv6 隧道,Openwrt 6in4,he.net'
+description: >-
+  本文将介绍关于 OpenWrt IPv6 He.net 相关的内容，记录如何利用 he.net 
+  在 Openwrt 配置 IPv6 隧道，以及配置完成后进行 ipv6 测试验证，
+  确定 Openwrt 6in4 的可用性。 
 cover: /uploads/2017/02/20170212005.png
 ---
 
