@@ -1,2 +1,3 @@
+Sitemap: https://www.h404bi.com/sitemap.xml
 User-agent: Googlebot-Image
 Disallow: /
