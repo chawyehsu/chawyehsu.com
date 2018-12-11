@@ -1,6 +1,6 @@
 .post-content
-  margin 0 auto
-  max-width $post-wrap-width
+  margin: 0 auto
+  max-width: $post-wrap-width
   .post-header
     margin-bottom: $gap-m
     text-align: center
@@ -16,8 +16,8 @@
 
     a:not([id^=fnref])
       border-bottom: 1px dashed $meta-color
-      // overflow-wrap: break-word
-      word-break:break-all
+      word-wrap: break-word
+      word-break: break-all
 
     & > table
       border-collapse: collapse
@@ -40,8 +40,10 @@
       border-left: 2px solid $highlight-color
       font-style: italic
       padding-left: $gap-m
+      word-wrap: break-word
+      word-break: break-all
       p:last-child
-        margin 0
+        margin: 0
 
     ol, ul
       margin-bottom: $gap-m
