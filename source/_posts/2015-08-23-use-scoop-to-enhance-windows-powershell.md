@@ -6,7 +6,7 @@ cover: /uploads/2015/08/20150823002.png
 ---
 
 <p style="text-align:center">
-<a href="/blog/2018/05/12/talk-about-scoop-the-package-manager-for-windows-again.html">
+<a href="https://www.h404bi.com/blog/2018/05/12/talk-about-scoop-the-package-manager-for-windows-again.html">
 <strong>关于 Scoop 的新文章</strong></a>
 </p>
 
