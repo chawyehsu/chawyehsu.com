@@ -15,7 +15,7 @@ cover: /uploads/2018/05/20180510001.png
 
 {% figure center /uploads/2018/05/20180512001.gif "Let us Scoop it!" %}
 
-在 2015 年的《用 Scoop 改善 Windows Powershell》博文中，
+在 2015 年的《[用 Scoop 改善 Windows Powershell](https://www.h404bi.com/blog/2015/08/23/use-scoop-to-enhance-windows-powershell.html)》博文中，
 我曾经介绍过这个令我眼前一亮的 Windows 软件包管理器。
 那是我刚开始使用上 Scoop 的时候，回看过去对它的介绍，
 也确像是一见钟情后的入坑纪实。简单，直接。
