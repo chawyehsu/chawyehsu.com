@@ -1,21 +1,19 @@
 ---
 title: 我都在用些什么 Chrome 扩展程序
-keywords: >-
-  'Chrome 扩展,Chrome 插件,Chrome extension'
+keywords: 'Chrome 扩展,Chrome 插件,Chrome extension'
 description: >-
   Chrome 好用的一大原因是拥有各种各样数不清的扩展程序，丰富的扩展资源能给用户
   带来许多方便的增强功能。其实扩展的使用跟个人平时日常生活的使用习惯是有很大
-  关联的，喜欢浏览些什么网站、使用什么服务、以及从事什么工作等等。
-draft: true
-hidden: true
-comments: false
+  关联的，比如喜欢浏览些什么网站、使用什么服务、以及从事什么工作等等。
+date: 2018-12-21 11:00:17
+updated: 2018-12-21 11:00:17
 cover: /uploads/2018/12/20181216029.png
 ---
 
 想不到在 Microsoft Edge 正式发布后的第三年，微软官方宣布了 Edge 将放弃自家的
 内核引擎，转而去拥抱在当前浏览器生态中占据统治地位的 Google Chromium。继 Opera
 之后，“Chromium 家族”又将迎来新的成员。这无疑是一个重磅消息，对于用户而言，
-对于微软自己而言，带来的影响是巨大的。
+对于微软自己而言，带来的影响都是巨大的。
 
 内核统一后，可以预见的是，前端开发者们花在浏览器兼容上的时间应该会再减少。
 同时微软在宣布这个消息时，也确认了 Edge 将能无缝支持 Chrome 的全部扩展，
@@ -53,7 +51,7 @@ Adobe 官方宣布 2020 年停止更新 Flash，Flash 时代的终结终于定�
 
 无需打开 Gmail 或 Inbox，即可收到桌面邮件通知，方便地查看、收听或删除邮件，
 并且支持多账户。用过这个之后，你就不会再想起 Google 自家提供的很久没有更新的
-Google Mail Checker 扩展了。伟大的邮箱，伟大的软件，伟大的公司，敌不过伟大的墙。
+Google Mail Checker 扩展了。伟大的邮箱，伟大的软件，伟大的公司，敌不过更伟大的墙。
 如今还在坚持用 Gmail 的同学，一定不是真爱就是历史数据迁移太麻烦！迫于 Google
 全家桶的问题，我还是保持着 Gmail 的轻微使用。更多的，还是走 Outlook 了……
 
