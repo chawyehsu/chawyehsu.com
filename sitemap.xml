@@ -2,115 +2,111 @@
 <?xml-stylesheet type="text/xsl" href="/sitemap.xsl"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://www.h404bi.com/blog/index.html</loc>
+    <lastmod>2018-12-21</lastmod>
+    <priority>1</priority>
+    <changefreq>always</changefreq>
+  </url>
+  <url>
     <loc>https://www.h404bi.com/blog/2018/12/21/chrome-extensions-that-i-am-using.html</loc>
     <lastmod>2018-12-21</lastmod>
     <priority>1</priority>
     <changefreq>always</changefreq>
   </url>
-  
   <url>
     <loc>https://www.h404bi.com/blog/2018/05/12/talk-about-scoop-the-package-manager-for-windows-again.html</loc>
     <lastmod>2018-11-03</lastmod>
     <priority>0.5</priority>
     <changefreq>always</changefreq>
   </url>
-  
   <url>
     <loc>https://www.h404bi.com/guestbook.html</loc>
     <lastmod>2018-08-31</lastmod>
     <priority>0.5</priority>
     <changefreq>always</changefreq>
   </url>
-  
   <url>
     <loc>https://www.h404bi.com/blog/2018/03/24/office-2016-custom-installation-guide.html</loc>
     <lastmod>2018-03-25</lastmod>
     <priority>0.5</priority>
     <changefreq>always</changefreq>
   </url>
-  
   <url>
     <loc>https://www.h404bi.com/about.html</loc>
     <lastmod>2018-02-04</lastmod>
     <priority>0.5</priority>
     <changefreq>always</changefreq>
   </url>
-  
   <url>
     <loc>https://www.h404bi.com/blog/2018/01/01/the-tao-of-notch-beyond-twitter.html</loc>
     <lastmod>2018-01-01</lastmod>
     <priority>0.5</priority>
     <changefreq>always</changefreq>
   </url>
-  
   <url>
     <loc>https://www.h404bi.com/blog/2017/12/15/nintendo-switch-unboxing-and-simple-review.html</loc>
     <lastmod>2017-12-16</lastmod>
     <priority>0.5</priority>
     <changefreq>always</changefreq>
   </url>
-  
   <url>
     <loc>https://www.h404bi.com/blog/2017/02/21/a-brief-history-of-minecraft-modding.html</loc>
     <lastmod>2017-02-22</lastmod>
     <priority>0.5</priority>
     <changefreq>always</changefreq>
   </url>
-  
   <url>
     <loc>https://www.h404bi.com/blog/2017/02/12/henet-6in4-ipv6-tunnel-on-openwrt.html</loc>
     <lastmod>2017-02-12</lastmod>
     <priority>0.5</priority>
     <changefreq>always</changefreq>
   </url>
-  
   <url>
     <loc>https://www.h404bi.com/links.html</loc>
     <lastmod>2017-02-12</lastmod>
     <priority>0.5</priority>
     <changefreq>always</changefreq>
   </url>
-  
   <url>
     <loc>https://www.h404bi.com/blog/2017/01/01/2016-2017.html</loc>
     <lastmod>2017-01-30</lastmod>
     <priority>0.5</priority>
     <changefreq>always</changefreq>
   </url>
-  
   <url>
     <loc>https://www.h404bi.com/blog/archives.html</loc>
     <lastmod>2017-01-01</lastmod>
     <priority>0.5</priority>
     <changefreq>always</changefreq>
   </url>
-  
   <url>
     <loc>https://www.h404bi.com/blog/2015/10/02/dot-im-domain-renewal.html</loc>
     <lastmod>2015-10-05</lastmod>
     <priority>0.5</priority>
     <changefreq>always</changefreq>
   </url>
-  
   <url>
     <loc>https://www.h404bi.com/blog/2015/09/20/new-mac-env-bootstrap.html</loc>
     <lastmod>2015-09-20</lastmod>
     <priority>0.5</priority>
     <changefreq>always</changefreq>
   </url>
-  
   <url>
     <loc>https://www.h404bi.com/blog/2015/05/20/hello-world.html</loc>
     <lastmod>2015-09-09</lastmod>
     <priority>0.5</priority>
     <changefreq>always</changefreq>
   </url>
-  
   <url>
     <loc>https://www.h404bi.com/blog/2015/08/23/use-scoop-to-enhance-windows-powershell.html</loc>
     <lastmod>2015-09-04</lastmod>
     <priority>0.5</priority>
     <changefreq>always</changefreq>
   </url>
-  
+  <url>
+    <loc>https://www.h404bi.com/index.html</loc>
+    <lastmod>2018-12-21</lastmod>
+    <priority>0.5</priority>
+    <changefreq>always</changefreq>
+  </url>
 </urlset>
