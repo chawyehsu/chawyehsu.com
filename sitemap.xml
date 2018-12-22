@@ -2,7 +2,6 @@
 <?xml-stylesheet type="text/xsl" href="/sitemap.xsl"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   {%- for post in posts %}
-  {%- if post.hidden != true -%}
   <url>
     <loc>{{ post.permalink | uriencode }}</loc>
     {% if post.updated -%}
@@ -28,6 +27,5 @@
     {% endif -%}
     <changefreq>always</changefreq>
   </url>
-  {% endif -%}
   {% endfor %}
 </urlset>
