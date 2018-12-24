@@ -1,5 +1,5 @@
 {%- if page.total > 1 -%}
-  <nav class="pagination columns is-mobile is-gapless" role="pagination">
+  <nav class="pagination columns is-mobile is-gapless">
     <div class="prev-wrap column is-6">
       {%- if page.prev -%}
       <a class="prev" href="{{ url_for(page.prev_link) }}">
