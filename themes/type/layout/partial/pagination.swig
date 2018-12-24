@@ -1,6 +1,6 @@
 {# Never used #}
 {%- if page.total > 1 -%}
-  <nav class="pagination" role="pagination">
+  <nav class="pagination">
     {%- if page.prev -%}
     <a class="prev" href="{{ url_for(page.prev_link) }}">
       <span class="text">Prev</span>
