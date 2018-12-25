@@ -10,7 +10,7 @@ description: >-
   不妨可以尝试一下 Scoop PowerShell Concfg 这套组合。
 date: 2018-05-12 21:44:39
 updated: 2018-11-03 00:46:50
-cover: /uploads/2018/05/20180510001.png
+cover: /uploads/2018/12/20181225004.png
 ---
 
 {% figure center /uploads/2018/05/20180512001.gif "Let us Scoop it!" %}

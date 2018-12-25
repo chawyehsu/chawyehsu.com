@@ -7,7 +7,8 @@ description: >-
 lazyload: true
 date: 2018-03-24 03:33:27
 updated: 2018-03-25 13:00:00
-cover: /uploads/2018/03/20180324001.jpg
+# cover: /uploads/2018/03/20180324001.jpg
+cover: /uploads/2018/12/20181225005.png
 ---
 
 ![Microsoft Office](/uploads/2018/03/20180324001.jpg)

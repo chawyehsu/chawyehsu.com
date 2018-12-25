@@ -2,7 +2,7 @@
 title: ".im 域名续费一记"
 date: 2015-10-02 22:07:48
 updated: 2015-10-05 14:30:54
-cover: /uploads/2015/10/20151002004.png
+cover: /uploads/2018/12/20181225011.png
 ---
 
 去年十月，也不知道是哪根经出错了，剁了个 .im 域名。在域名怪兽买入的，当时 checkout 时才知道仅支持 CC 及 CC through Paypal 付款。

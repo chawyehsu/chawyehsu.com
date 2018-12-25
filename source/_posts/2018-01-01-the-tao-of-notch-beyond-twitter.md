@@ -11,7 +11,7 @@ description: >-
   但自那以后他一直都很沉默。本文是一篇访谈，
   试图了解 notch 为什么离开等内容。
 lazyload: true
-cover: /uploads/2017/12/20171231001.jpg
+cover: /uploads/2018/12/20181225006.png
 ---
 
 ## 前言
