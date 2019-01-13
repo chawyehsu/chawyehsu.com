@@ -10,7 +10,7 @@
   <url>
     <loc>https://www.h404bi.com/blog/2018/12/21/chrome-extensions-that-i-am-using.html</loc>
     <lastmod>2018-12-21</lastmod>
-    <priority>1</priority>
+    <priority>0.8</priority>
     <changefreq>always</changefreq>
   </url>
   <url>
@@ -82,18 +82,6 @@
   <url>
     <loc>https://www.h404bi.com/blog/2015/10/02/dot-im-domain-renewal.html</loc>
     <lastmod>2015-10-05</lastmod>
-    <priority>0.5</priority>
-    <changefreq>always</changefreq>
-  </url>
-  <url>
-    <loc>https://www.h404bi.com/blog/2015/09/20/new-mac-env-bootstrap.html</loc>
-    <lastmod>2015-09-20</lastmod>
-    <priority>0.5</priority>
-    <changefreq>always</changefreq>
-  </url>
-  <url>
-    <loc>https://www.h404bi.com/blog/2015/05/20/hello-world.html</loc>
-    <lastmod>2015-09-09</lastmod>
     <priority>0.5</priority>
     <changefreq>always</changefreq>
   </url>

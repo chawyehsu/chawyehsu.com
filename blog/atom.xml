@@ -185,27 +185,6 @@
   </entry>
   
   <entry>
-    <title>Newbie Mac Bootstrap</title>
-    <link href="https://www.h404bi.com/blog/2015/09/20/new-mac-env-bootstrap.html"/>
-    <id>https://www.h404bi.com/blog/2015/09/20/new-mac-env-bootstrap.html</id>
-    <published>2015-09-20T09:28:19.000Z</published>
-    <updated>2015-09-20T09:28:19.000Z</updated>
-    
-    <content type="html"><![CDATA[<p>入坑 Mac OS X，写点 note (nonsense) 以备玩坏系统重装时翻查。</p><h2>Command Line Tools for Xcode</h2><p>OS X 系统不像 Ubuntu 等发行版，系统默认是不包含编译工具链的（因为不是每位用户都需要吧，人性化？）。所以在使用时如果执行到含有诸如 gcc、make 等命令时，就会出现以下情况：</p><figure class="center"><img src="/uploads/2015/08/20150810001.png" title="提示需要命令行工具"><figcaption><p>提示需要命令行工具</p></figcaption></figure><p>这时就需要安装苹果提供的命令行工具包（Command Line Tools，下称 CLT）了。安装 CLT 有几种方法：</p><h3>1. 通过 Xcode 安装</h3><p><code>for Xcode</code> 嘛，当然能通过 Xcode 安装了，只不过没有安装 Xcode 亦可使用。所以如果你有安装 Xcode 的话，直接通过 Xcode 安装就好了。（我自己并没有安装 Xcode，因为暂无打算学习 Mac 相关的开发，所以私以为没必要耗费几个 G 的硬盘空间塞下 Xcode 吧， MacBook 的硬盘寸寸金啊。。。）。</p><h3>2. 通过终端安装</h3><figure class="highlight sh"><table><tr><td class="code"><pre><span class="line">$ xcode-select install</span><br></pre></td></tr></table></figure><p>或者输入 gcc 触发前文所提到的情况（见前文图）亦可。</p><h3>3. 通过离线安装包安装</h3><p>如果用前面的方法安装不成功的话，可到 Apple 下载中心获取离线安装包进行安装。（认准苹果官网）</p><blockquote><p><a href="https://developer.apple.com/downloads" target="_blank" rel="noopener">https://developer.apple.com/downloads</a> （需要使用 AppleID 登录）</p></blockquote><p>安装 CLT 后就可以使用工具链编译安装软件了，这是 Bootstrap A New Mac 的第一步。</p><h2>Where is the package manager of OS X?</h2><p>用 Mac 之前我还真没想过 OS X 有没有包管理工具。初次用了一会儿后，总觉得好像少了些什么，又说不出来。后在 Win 机上 Xshell 管理 VPS 时，才猛然想起：OS X 下用什么管理软件包？！Where is the package manager of OS X? 检索后才知道 OS X 不止默认不带 toolchains，还没有 package manager。带着使用 Linux 发行版心态的我不免有点失望。</p><h3>Homebrew</h3><p>官方没有社区有。强大的 Mac 社区造就了各种易用的工具。软件包管理工具就各式各样。其中最出名的两个是 <strong><a href="https://www.macports.org" target="_blank" rel="noopener">Macport</a></strong> 和 <strong><a href="http://brew.sh" target="_blank" rel="noopener">Homebrew</a></strong>。二者有着截然不同的理念，并且越来越多用户选择了 Homebrew。下面进行 Bootstrap A New Mac 的第二步。</p><figure class="highlight sh"><table><tr><td class="code"><pre><span class="line">$ ruby -e <span class="string">"<span class="variable">$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)</span>"</span></span><br></pre></td></tr></table></figure><p><small>OS X 自带 ruby，难怪 ruby 社区一股 Macbook 风气。</small></p><p>然后就可以像用 <code>apt-get install/update</code> 那样 <code>brew install/update</code> 了，更多用法参见 <a href="https://github.com/Homebrew/homebrew/tree/master/share/doc/homebrew#readme" target="_blank" rel="noopener">Doc</a>。</p><h3>Homebrew-Cask</h3><p>介绍了 Homebrew 就不得不说 <strong><a href="http://caskroom.io/" target="_blank" rel="noopener">Caskroom</a></strong> 了。Homebrew 掌管了各种 CLI 软件包的管理，App Store 提供各种 GUI 应用，这 Cask 又是什么？Cask 其实是 Homebrew 的一个扩展，能让 brew 支持安装和管理 GUI 应用。能在 App Store 获取到的应用当然最好在上面下载安装了，但有些应用程序是没有上架 App Store 的（比如 IntelliJ IDEA），得去程序的官网各种点击下载安装。于是不甘这样的 Mac 社区 Geek 们搞了个 Homebrew-Cask，然后就能打开终端一句指令愉快地安装 GUI 应用了，比如：<code>brew cask install intellij-idea-ce</code>。安装 Cask 只需：</p><figure class="highlight sh"><table><tr><td class="code"><pre><span class="line">$ brew install caskroom/cask/brew-cask</span><br></pre></td></tr></table></figure><p><em>题外话：Cask 开发者们最近在 GitHub 上热论着一场改革<sup class="footnote-ref"><a href="#fn1" id="fnref1">[1]</a></sup>，说是要改变 Cask 目前的行为，以更贴合 regular usage，不过不能完美过渡的话会不会让用户感觉混乱。。</em></p><hr class="footnotes-sep"><section class="footnotes"><ol class="footnotes-list"><li id="fn1" class="footnote-item"><p><a href="https://github.com/caskroom/homebrew-cask/issues/13201" target="_blank" rel="noopener">Homebrew-Cask issue #13201</a> <a href="#fnref1" class="footnote-backref">↩︎</a></p></li></ol></section>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;p&gt;入坑 Mac OS X，写点 note (nonsense) 以备玩坏系统重装时翻查。&lt;/p&gt;&lt;h2&gt;Command Line Tools for Xcode&lt;/h2&gt;&lt;p&gt;OS X 系统不像 Ubuntu 等发行版，系统默认是不包含编译工具链的（因为不是每位用户都需要吧，
-      
-    
-    </summary>
-    
-    
-  </entry>
-  
-  <entry>
     <title>用 Scoop 改善 Windows Powershell</title>
     <link href="https://www.h404bi.com/blog/2015/08/23/use-scoop-to-enhance-windows-powershell.html"/>
     <id>https://www.h404bi.com/blog/2015/08/23/use-scoop-to-enhance-windows-powershell.html</id>
@@ -219,27 +198,6 @@
       
       
         &lt;p style=&quot;text-align:center&quot;&gt;&lt;a href=&quot;https://www.h404bi.com/blog/2018/05/12/talk-about-scoop-the-package-manager-for-windows-again.html&quot;&gt;&lt;s
-      
-    
-    </summary>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>Hello World</title>
-    <link href="https://www.h404bi.com/blog/2015/05/20/hello-world.html"/>
-    <id>https://www.h404bi.com/blog/2015/05/20/hello-world.html</id>
-    <published>2015-05-20T12:28:19.000Z</published>
-    <updated>2015-09-09T13:32:27.000Z</updated>
-    
-    <content type="html"><![CDATA[<p><s>欢迎回到地球。</s></p><p>每次在硬盘找旧文件时，总会经意或不经意地点进放有旧博客备份的目录。然后心里想什么时候再处理下这些博文数据呢？等到终于解压博客档案，导入 SQL 后，发现也没什么值得转换的。既然都打开了，还是截些图纪念一下吧。以后应该就不会再打开了，当然数据还会留档。</p><figure><img src="/uploads/2015/05/20150520001.png"></figure><p>自建博客以来见过不少次 Hello World 了，说不定现在的这里又会是未来哪个时候嘴里说的“黑历史”呢，哈哈！…</p>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;p&gt;&lt;s&gt;欢迎回到地球。&lt;/s&gt;&lt;/p&gt;&lt;p&gt;每次在硬盘找旧文件时，总会经意或不经意地点进放有旧博客备份的目录。然后心里想什么时候再处理下这些博文数据呢？等到终于解压博客档案，导入 SQL 后，发现也没什么值得转换的。既然都打开了，还是截些图纪念一下吧。以后应该就不会再打开了，
       
     
     </summary>
