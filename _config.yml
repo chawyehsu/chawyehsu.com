@@ -43,12 +43,13 @@ category_map:
 tag_map:
 
 # Plugins
+sage_posts:
+  filter: hidden
 index_generator:
   # https://github.com/hexojs/hexo-generator-index/pull/7
   path: 'blog'
   per_page: 9
   order_by: -date
-  post_filter: hidden
 feed:
   type: atom
   path: blog/atom.xml

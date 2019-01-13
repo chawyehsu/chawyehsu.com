@@ -1,6 +1,6 @@
   <div class="post-list columns is-gapless">
   {#- All posts despite hidden -#}
-  {%- for post in site.posts.sort('date', 'desc') -%}
+  {%- for post in site.all_posts.sort('date', 'desc') -%}
     <article class="post-card-wrap column is-4-desktop is-6-tablet is-6-mobile">
       <div class="post-card post-list-item">
         <a href="{{ url_for(post.path) }}">
