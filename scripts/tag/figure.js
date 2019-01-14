@@ -15,7 +15,7 @@ const rSize = /^\d+(?:|\.\d+)(?:%)?$/;
 
 function buildHtmlTag (tag, attrs, text) {
   let start = `<${tag}`;
-  let end = text === null ? '/>' : `>${text}</${tag}>`;
+  let end = !text ? '/>' : `>${text}</${tag}>`;
 
   for (let i in attrs) {
     if (attrs[i]) {
@@ -78,8 +78,6 @@ function getFigureTag (args) {
     title: title,
     alt: alt
   };
-
-  console.log(imgAttrs)
 
   if (classes) {
     figHtml += ` class="${classes}"`;
