@@ -35,7 +35,7 @@ Chrome 以来积累到的一些扩展程序和信息，做这么一个盘点，�
 
 ## AcFun HTML5 Player
 
-{% figure center lazyload /uploads/2018/12/20181216002.png "'AcFun HTML5 Player' 'AcFun HTML5 Player'" %}
+{% figure "center,lazyload" /uploads/2018/12/20181216002.png "AcFun HTML5 Player" %}
 
 Adobe 官方宣布 2020 年停止更新 Flash，Flash 时代的终结终于定上了日程。
 即使没有官宣，从那些日子使用《妈妈再也不用担心我的 MacBook 发热了计划》
@@ -47,7 +47,7 @@ Adobe 官方宣布 2020 年停止更新 Flash，Flash 时代的终结终于定�
 
 ## Checker Plus for Gmail™
 
-{% figure center lazyload /uploads/2018/12/20181216003.jpg "'Checker Plus for Gmail™' 'Checker Plus for Gmail™'" %}
+{% figure "center,lazyload" /uploads/2018/12/20181216003.jpg "Checker Plus for Gmail™" %}
 
 无需打开 Gmail 或 Inbox，即可收到桌面邮件通知，方便地查看、收听或删除邮件，
 并且支持多账户。用过这个之后，你就不会再想起 Google 自家提供的很久没有更新的
@@ -59,7 +59,7 @@ Google Mail Checker 扩展了。伟大的邮箱，伟大的软件，伟大的公
 
 ## Cowlevel Steam 增强小能手
 
-{% figure center lazyload /uploads/2018/12/20181216004.jpg "'Cowlevel Steam 增强小能手' 'Cowlevel Steam 增强小能手'" %}
+{% figure "center,lazyload" /uploads/2018/12/20181216004.jpg "Cowlevel Steam 增强小能手" %}
 
 > 研发辛苦了，对奶牛关的与steam的结缔有很大的帮助qwq。—— bulong dou
 
@@ -73,7 +73,7 @@ Google Mail Checker 扩展了。伟大的邮箱，伟大的软件，伟大的公
 
 ## Enhanced Steam
 
-{% figure center lazyload /uploads/2018/12/20181216005.jpg "'Enhanced Steam' 'Enhanced Steam'" %}
+{% figure "center,lazyload" /uploads/2018/12/20181216005.jpg "Enhanced Steam" %}
 
 第二款跟 Steam 相关的扩展。Chrome 与 Steam 重叠用户的话，这款扩展基本上算是
 “装机必装”的了。这款免费的扩展，为 Steam 网站做了非常多的增强，添加了很多功能，
@@ -95,7 +95,7 @@ Google Mail Checker 扩展了。伟大的邮箱，伟大的软件，伟大的公
 
 ## Feedly Notifier
 
-{% figure center lazyload /uploads/2018/12/20181216006.jpg "'Feedly Notifier' 'Feedly Notifier'" %}
+{% figure "center,lazyload" /uploads/2018/12/20181216006.jpg "Feedly Notifier" %}
 
 > RSS 已死，Web2.0 已是过去式
 
@@ -119,7 +119,7 @@ Google Mail Checker 扩展了。伟大的邮箱，伟大的软件，伟大的公
 
 ## Free Download Manager
 
-{% figure center lazyload /uploads/2018/12/20181216007.jpg "'Free Download Manager' 'Free Download Manager'" %}
+{% figure "center,lazyload" /uploads/2018/12/20181216007.jpg "Free Download Manager" %}
 
 IDM（全称“Internet Download Manager”）确实更胜一筹吧。但胜在 FDM 是免费软件。
 其实很忏愧在日常生活中自己实在做不到完全去盗版化，使用 IDM 大概也有两三年时间，
@@ -133,7 +133,7 @@ IDM（全称“Internet Download Manager”）确实更胜一筹吧。但胜在 
 
 ## Full Page Screen Capture
 
-{% figure center lazyload /uploads/2018/12/20181216008.jpg "'Full Page Screen Capture' 'Full Page Screen Capture'" %}
+{% figure "center,lazyload" /uploads/2018/12/20181216008.jpg "Full Page Screen Capture" %}
 
 用过好几个全网页截图工具，还是觉得这个来的顺手。不过这个只支持一键截全网页，
 没有截局部的功能。截局部的话，有太多替代软件了，Windows 自带的 Snipping Tool、
@@ -143,7 +143,7 @@ QQ 的截图等等。Full Page Screen Capture 是开源的，源码托管在 Git
 
 ## Holmes
 
-{% figure center lazyload /uploads/2018/12/20181216009.png "'Holmes' 'Holmes'" %}
+{% figure "center,lazyload" /uploads/2018/12/20181216009.png "Holmes" %}
 
 觉得 Holmes 大概是从前文说到这里，第一款相对来说很实用但是却又比较不出名的扩展。
 这个小而美的扩展程序，只提供了一个非常提升效率的功能：在地址栏快速搜索书签。
@@ -155,7 +155,7 @@ QQ 的截图等等。Full Page Screen Capture 是开源的，源码托管在 Git
 
 ## HTTPS Everywhere
 
-{% figure center lazyload /uploads/2018/12/20181216010.png "'HTTPS Everywhere' 'HTTPS Everywhere'" %}
+{% figure "center,lazyload" /uploads/2018/12/20181216010.png "HTTPS Everywhere" %}
 
 从 Chrome 之前的给使用 HTTPS 的网站加上绿色安全小绿锁，到现在把使用 HTTPS
 的网站当作正常网站，并把使用 HTTP 的网站标为不安全网站可以看出，Google 正在
@@ -167,7 +167,7 @@ HTTPS Everywhere，能 HTTPS 的全都给我 HTTPS！当然，在“HTTPS 不发
 
 ## Imagus
 
-{% figure center lazyload /uploads/2018/12/20181216020.png "'Imagus' 'Imagus'" %}
+{% figure "center,lazyload" /uploads/2018/12/20181216020.png "Imagus" %}
 
 这大概是 Chrome 上最好用的辅助看图扩展程序了。只需要将鼠标悬停在缩略图上，
 就能放大显示缩略图背后的原始图片。拥有对接近 300 个网站的筛选规则支持，
@@ -178,7 +178,7 @@ HTTPS Everywhere，能 HTTPS 的全都给我 HTTPS！当然，在“HTTPS 不发
 
 ## JavaScript and CSS Code Beautifier
 
-{% figure center lazyload /uploads/2018/12/20181216011.png "'JavaScript and CSS Code Beautifier' 'JavaScript and CSS Code Beautifier'" %}
+{% figure "center,lazyload" /uploads/2018/12/20181216011.png "JavaScript and CSS Code Beautifier" %}
 
 在 Chrome 上直接访问混淆压缩的 JS、CSS 文件时，能对代码进行格式化并且高亮。
 能更好地查看代码逻辑，在理解网站前端逻辑、样式设计时比较有用。特别有利于扒皮党（雾）。
@@ -187,7 +187,7 @@ HTTPS Everywhere，能 HTTPS 的全都给我 HTTPS！当然，在“HTTPS 不发
 
 ## JSON Formatter
 
-{% figure center lazyload /uploads/2018/12/20181216012.png "'JSON Formatter' 'JSON Formatter'" %}
+{% figure "center,lazyload" /uploads/2018/12/20181216012.png "JSON Formatter" %}
 
 > Makes JSON easy to read. Open source.
 
@@ -197,7 +197,7 @@ HTTPS Everywhere，能 HTTPS 的全都给我 HTTPS！当然，在“HTTPS 不发
 
 ## minerBlock
 
-{% figure center lazyload /uploads/2018/12/20181216013.jpg "'minerBlock' 'minerBlock'" %}
+{% figure "center,lazyload" /uploads/2018/12/20181216013.jpg "minerBlock" %}
 
 加密货币近些年来真的是火热得不行，特别是去年比特币一路高歌猛进的时候。
 在网站上挂 JS 利用访问用户的计算机资源进行挖矿，究其本身其实是比较难评判的。
@@ -210,7 +210,7 @@ HTTPS Everywhere，能 HTTPS 的全都给我 HTTPS！当然，在“HTTPS 不发
 
 ## Minimal New Tab Clock
 
-{% figure center lazyload /uploads/2018/12/20181216014.png "'Minimal New Tab Clock' 'Minimal New Tab Clock'" %}
+{% figure "center,lazyload" /uploads/2018/12/20181216014.png "Minimal New Tab Clock" %}
 
 > 十位 Chrome 用户中有八位用 Infinity 新标签，一位用 Chrome 自带新标签，
 > 剩下一位用 Minimal New Tab Clock —— 胡说八道
@@ -226,7 +226,7 @@ HTTPS Everywhere，能 HTTPS 的全都给我 HTTPS！当然，在“HTTPS 不发
 
 ## OctoLinker
 
-{% figure center lazyload /uploads/2018/12/20181216015.jpg "'OctoLinker' 'OctoLinker'" %}
+{% figure "center,lazyload" /uploads/2018/12/20181216015.jpg "OctoLinker" %}
 
 一款 GitHub 增强扩展，可以提高在 GitHub 上浏览查阅代码的效率。功能就是能
 为指定语言的模块加载语句（比如 `include`、`require` 与 `import`）加入跳转链接，
@@ -236,7 +236,7 @@ HTTPS Everywhere，能 HTTPS 的全都给我 HTTPS！当然，在“HTTPS 不发
 
 ## Octotree
 
-{% figure center lazyload /uploads/2018/12/20181216016.png "'Octotree' 'Octotree'" %}
+{% figure "center,lazyload" /uploads/2018/12/20181216016.png "Octotree" %}
 
 这个扩展我想只要是常访问 GitHub 的都会有使用的，因为它实在是太能提升效率了。
 将仓库以目录树的形式展示出来，比起 GitHub 原本的形式，在目录之间切换浏览真的
@@ -248,7 +248,7 @@ OctoLinker 不会对从 Octotree 的目录树中点击打开的文件进行识�
 
 ## Proxy SwitchyOmega
 
-{% figure center lazyload /uploads/2018/12/20181216017.png "'Proxy SwitchyOmega' 'Proxy SwitchyOmega'" %}
+{% figure "center,lazyload" /uploads/2018/12/20181216017.png "Proxy SwitchyOmega" %}
 
 这个基本上人手一份的知名扩展，就不多做说明了吧。
 
@@ -256,7 +256,7 @@ OctoLinker 不会对从 Octotree 的目录树中点击打开的文件进行识�
 
 ## Save to Pocket
 
-{% figure center lazyload /uploads/2018/12/20181216018.jpg "'Save to Pocket' 'Save to Pocket'" %}
+{% figure "center,lazyload" /uploads/2018/12/20181216018.jpg "Save to Pocket" %}
 
 将来不及阅读或者暂时不想阅读的网页内容，一键保存到 [Pocket](https://getpocket.com/)
 上云同步，然后可以在其它不同的设备上继续阅读。不过因为感觉访问不太稳定的样子，平时使用比较少。
@@ -265,7 +265,7 @@ OctoLinker 不会对从 Octotree 的目录树中点击打开的文件进行识�
 
 ## Steam Database
 
-{% figure center lazyload /uploads/2018/12/20181216019.jpg "'Steam Database' 'Steam Database'" %}
+{% figure "center,lazyload" /uploads/2018/12/20181216019.jpg "Steam Database" %}
 
 这是我安装使用的跟 Steam 有关的第三个也是最后一个扩展。主要是在 Steam 
 页面上增加了一些跟 [SteamDB.info](https://steamdb.info/) 网站有关的扩展功能。
@@ -276,7 +276,7 @@ OctoLinker 不会对从 Octotree 的目录树中点击打开的文件进行识�
 
 ## Stylus
 
-{% figure center lazyload /uploads/2018/12/20181216021.png "'Stylus' 'Stylus'" %}
+{% figure "center,lazyload" /uploads/2018/12/20181216021.png "Stylus" %}
 
 此前一直用着 Stylish，后面爆出该扩展偷偷窃取上传用户的浏览历史，而且被 Chrome
 下架。虽然感觉自己不少信息被卖过了，但是对于这种偷偷摸摸的不干净行为还是反感的。
@@ -290,7 +290,7 @@ OctoLinker 不会对从 Octotree 的目录树中点击打开的文件进行识�
 
 ## Tampermonkey
 
-{% figure center lazyload /uploads/2018/12/20181216022.png "'Tampermonkey' 'Tampermonkey'" %}
+{% figure "center,lazyload" /uploads/2018/12/20181216022.png "Tampermonkey" %}
 
 「油猴」扩展本身就不多介绍了，知名扩展。说说我安装在用几个脚本吧。
 
@@ -306,7 +306,7 @@ OctoLinker 不会对从 Octotree 的目录树中点击打开的文件进行识�
 
 ## Text Mode
 
-{% figure center lazyload /uploads/2018/12/20181216023.jpg "'Text Mode' 'Text Mode'" %}
+{% figure "center,lazyload" /uploads/2018/12/20181216023.jpg "Text Mode" %}
 
 无图模式！而且是真的无图，启用扩展后，会直接将网页中的图片加载直接 Block 掉，
 不是图片加载了才用色块填充。这样就有个使用场景，如果应急情况笔记本电脑连上了
@@ -321,7 +321,7 @@ OctoLinker 不会对从 Octotree 的目录树中点击打开的文件进行识�
 
 ## uBlock Origin
 
-{% figure center lazyload /uploads/2018/12/20181216024.jpg "'uBlock Origin' 'uBlock Origin'" %}
+{% figure "center,lazyload" /uploads/2018/12/20181216024.jpg "uBlock Origin" %}
 
 我以前也是 AdBlock/AdBlock Plus 的用户，后来切换成了 uBlock Origin。切换的原因
 并不只是 uBlock Origin 比起其它广告过滤扩展在性能上面有优势[^2]，而且其实我也没
@@ -338,7 +338,7 @@ CJX 的「去自我推广列表规则」：[CJX's Annoyance List]
 
 ## v2ex plus
 
-{% figure center lazyload /uploads/2018/12/20181216025.jpg "'v2ex plus' 'v2ex plus'" %}
+{% figure "center,lazyload" /uploads/2018/12/20181216025.jpg "v2ex plus" %}
 
 V 站还是一个很不错的地方的，日常逛逛摸摸鱼。发现好几个朋友同事都有浏览 V2EX……
 v2ex plus 确实是一款很好用的 V2EX 扩展，对话详情、插入表情图片等都是很好的功能。
@@ -347,7 +347,7 @@ v2ex plus 确实是一款很好用的 V2EX 扩展，对话详情、插入表情�
 
 ## Vue.js devtools
 
-{% figure center lazyload /uploads/2018/12/20181216026.jpg "'Vue.js devtools' 'Vue.js devtools'" %}
+{% figure "center,lazyload" /uploads/2018/12/20181216026.jpg "Vue.js devtools" %}
 
 Vue.js 开发调试神器，就这样。React 暂时没啃下，还得靠 Vue 活着。不比较，都重要。
 
@@ -355,7 +355,7 @@ Vue.js 开发调试神器，就这样。React 暂时没啃下，还得靠 Vue �
 
 ## Wappalyzer
 
-{% figure center lazyload /uploads/2018/12/20181216027.jpg "'Wappalyzer' 'Wappalyzer'" %}
+{% figure "center,lazyload" /uploads/2018/12/20181216027.jpg "Wappalyzer" %}
 
 这是我安装的这么多个扩展程序中，使用率比较高一个。Wappalyzer 是一款非常实用的
 网站技术分析扩展，通过它可以识别一个网站是以什么架构的，所用到的前后端技术栈等信息。
@@ -382,7 +382,7 @@ Hexo 的 after generator 钩子在页面生成时将特征（不只是 meta 一�
 
 ## 划词翻译
 
-{% figure center lazyload /uploads/2018/12/20181216028.jpg "'划词翻译' '划词翻译'" %}
+{% figure "center,lazyload" /uploads/2018/12/20181216028.jpg "划词翻译" %}
 
 后悔大学时期没把英语往深里去学，只得半桶水。现在接触越多，才会发现语言愈加重要，
 亏我还是外语大学毕业的。「划词翻译」是我使用时间比较久的一款扩展。到如今 Chrome
@@ -392,7 +392,7 @@ Hexo 的 after generator 钩子在页面生成时将特征（不只是 meta 一�
 
 ## 哔哩哔哩助手：bilibili.com 综合辅助扩展
 
-{% figure center lazyload /uploads/2018/12/20181216029.png "'哔哩哔哩助手：bilibili.com 综合辅助扩展' '哔哩哔哩助手：bilibili.com 综合辅助扩展'" %}
+{% figure "center,lazyload" /uploads/2018/12/20181216029.png "哔哩哔哩助手：bilibili.com 综合辅助扩展" %}
 
 B 站增强扩展，有这款就够了。好用！啾咕咕www 牛掰。AB 站双修，缺 B 乐还在就好。
 
@@ -400,7 +400,7 @@ B 站增强扩展，有这款就够了。好用！啾咕咕www 牛掰。AB 站�
 
 ## 眼不见心不烦（新浪微博）
 
-{% figure center lazyload /uploads/2018/12/20181216030.png "'眼不见心不烦（新浪微博）' '眼不见心不烦（新浪微博）'" %}
+{% figure "center,lazyload" /uploads/2018/12/20181216030.png "眼不见心不烦（新浪微博）" %}
 
 用了很久的一款扩展了。看了下虽然扩展有近一年没有更新过了，但是已有的功能还是都
 能用。屏蔽掉一些不想看到的信息、模块，偶尔打开微博看看关注的人发的内容还是挺愉快的。

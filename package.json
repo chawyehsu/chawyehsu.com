@@ -24,9 +24,7 @@
     "hexo-html-minifier": "github:h404bi/hexo-html-minifier",
     "hexo-renderer-markdown-it": "github:h404bi/hexo-renderer-markdown-it",
     "hexo-sage-posts": "github:h404bi/hexo-sage-posts",
-    "hexo-server": "^0.3.3",
-    "hexo-tag-figure": "^0.4.1",
-    "hexo-tag-ruby": "^1.0.2"
+    "hexo-server": "^0.3.3"
   },
   "engines": {
     "node": ">=8.10.0"

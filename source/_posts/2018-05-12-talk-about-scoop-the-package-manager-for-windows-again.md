@@ -10,10 +10,11 @@ description: >-
   不妨可以尝试一下 Scoop PowerShell Concfg 这套组合。
 date: 2018-05-12 21:44:39
 updated: 2018-11-03 00:46:50
+lazyload: true
 cover: /uploads/2018/12/20181225004.png
 ---
 
-{% figure center /uploads/2018/05/20180512001.gif "Let us Scoop it!" %}
+{% figure "center,lazyload" /uploads/2018/05/20180512001.gif "Let us Scoop it!" %}
 
 在 2015 年的《[用 Scoop 改善 Windows Powershell](https://www.h404bi.com/blog/2015/08/23/use-scoop-to-enhance-windows-powershell.html)》博文中，
 我曾经介绍过这个令我眼前一亮的 Windows 软件包管理器。
@@ -59,7 +60,7 @@ Scoop 只是一个安装工具（installer），不应该被称为包管理器�
 [https://www.python.org/](https://www.python.org/downloads/)
 网页，找到并下载安装包，双击安装程序。而是直接一句命令，然后等完成就行了。
 
-{% figure right /uploads/2018/02/20180213002.png "Homebrew" %}
+{% figure "right,lazyload" /uploads/2018/02/20180213002.png "Homebrew" %}
 
 作为一个以桌面环境专长的系统，Windows 自然不会有像 Arch Linux 亦或者 Debian
 等以命令行环境起家的 Linux 系统那样，内置有这样的工具。不过，苹果家的 macOS
@@ -109,7 +110,7 @@ Scoop 的安装说明真的很直截了当，有且仅有那一行命令，没�
 而 Scoop 默认仅需普通用户权限，安装路径是 `%USERPROFILE%\scoop` 则显得比较清新，
 不过这都是可以根据需求修改的了。
 
-{% figure left /uploads/2018/05/20180506001.png "Want some Chocolatey?" %}
+{% figure "left,lazyload" /uploads/2018/05/20180506001.png "Want some Chocolatey?" %}
 
 关于 Chocolatey 默认管理员权限安装的原因，应该是比较明显的：
 Chocolatey 需要能处理安装更多的软件包，比如 Flash Player Plugin，
@@ -155,7 +156,7 @@ set-executionpolicy remotesigned -s currentuser
 iex (new-object net.webclient).downloadstring('https://get.scoop.sh')
 ```
 
-{% figure center /uploads/2018/05/20180510001.png "我这里已经安装过了" %}
+{% figure "center,lazyload" /uploads/2018/05/20180510001.png "我这里已经安装过了" %}
 
 由于 Scoop 的安装脚本托管在 GitHub 的仓库里，所以对于无法正常访问 GitHub
 的用户来说，安装的时候可能需要加一层全局代理后再进行安装[^5]。
@@ -184,7 +185,7 @@ Binaries:
 就像介绍视频里说的那样，Scoop 默认不会污染用户的 PATH 环境变量（除非软件包
 有修改环境变量的定义），而是使用垫片（shims）来进行统一管理调用执行文件。
 
-{% figure right /uploads/2018/05/20180510002.png "嗯，Bucket" %}
+{% figure "right,lazyload" /uploads/2018/05/20180510002.png "嗯，Bucket" %}
 
 当你通过 `scoop search <app>` 搜不到需要的软件包的时候，这时候便是你开始
 进阶使用 Scoop 的时候了。Scoop 管存放软件包描述文件的地方叫做桶（Bucket），
@@ -248,7 +249,7 @@ Scoop 是一个从个人项目开始，发展到现在由社区维护的开源�
 所以也就没有所谓稳定版本。只要 Scoop 的 GitHub 仓库有新的 commits，
 用户通过 `scoop update` 命令就会拉取所有的 commits 更新。
 
-{% figure right /uploads/2018/05/20180512004.png "图来源于网络" %}
+{% figure "right,lazyload" /uploads/2018/05/20180512004.png "图来源于网络" %}
 
 如此的滚动更新，对于一个社区维护的开源软件来说，会很容易产生问题。
 没有 tags，没有 releases，如果维护者或者贡献者在 commit 时不小心手抖
@@ -290,7 +291,7 @@ Scoop 本身的仓库维护其核心功能代码，并打上 tags，发布 relea
 稳定前进，加加子命令完善体验之类的，虽然 Scoop 似乎是被越来越多人发现，
 当然越来越多人用意味着会有越来越多的新需求和新问题（所以我才觉得得有稳定版本）。
 
-{% figure center /uploads/2018/05/20180512003.png "Scoop 的 GitHub Stars 指数" %}
+{% figure "center,lazyload" /uploads/2018/05/20180512003.png "Scoop 的 GitHub Stars 指数" %}
 
 不过没有大改动的同时，Scoop 的一些存在设计不足的核心功能，也照样是稳稳
 定定没有优化。这里我就说几个在使用 Scoop 时一定会遇到的情况：
