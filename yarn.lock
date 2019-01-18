@@ -947,9 +947,9 @@ fs.realpath@^1.0.0:
   integrity sha1-FQStJSMVjKpA20onh8sBQRmU6k8=
 
 fsevents@^1.0.0, fsevents@^1.2.2:
-  version "1.2.4"
-  resolved "https://registry.yarnpkg.com/fsevents/-/fsevents-1.2.4.tgz#f41dcb1af2582af3692da36fc55cbd8e1041c426"
-  integrity sha512-z8H8/diyk76B7q5wg+Ud0+CqzcAF3mBBI/bA5ne5zrRUUIvNkJY//D3BqyH571KuAC4Nr7Rw7CjWX4r0y9DvNg==
+  version "1.2.7"
+  resolved "https://registry.yarnpkg.com/fsevents/-/fsevents-1.2.7.tgz#4851b664a3783e52003b3c66eb0eee1074933aa4"
+  integrity sha512-Pxm6sI2MeBD7RdD12RYsqaP0nMiwx8eZBXCa6z2L+mRHm2DYrOYwihmhjpkdjUHwQhslWQjRpEgNq4XvBmaAuw==
   dependencies:
     nan "^2.9.2"
     node-pre-gyp "^0.10.0"
@@ -1156,12 +1156,6 @@ hexo-generator-feed@^1.2.2:
     nunjucks "^3.0.0"
     object-assign "^4.1.1"
 
-"hexo-generator-index@github:h404bi/hexo-generator-index":
-  version "0.2.1"
-  resolved "https://codeload.github.com/h404bi/hexo-generator-index/tar.gz/fc411c127ea0cc85af9012f7caeab9e280bcc607"
-  dependencies:
-    hexo-pagination "0.1.0"
-
 "hexo-generator-sitemap@github:h404bi/hexo-generator-sitemap":
   version "1.2.0"
   resolved "https://codeload.github.com/h404bi/hexo-generator-sitemap/tar.gz/40968d2d531a206c3263294a0cb9fffbd91f61ea"
@@ -1191,13 +1185,6 @@ hexo-log@^0.2.0:
     chalk "^1.1.1"
     hexo-bunyan "^1.0.0"
 
-hexo-pagination@0.1.0:
-  version "0.1.0"
-  resolved "https://registry.yarnpkg.com/hexo-pagination/-/hexo-pagination-0.1.0.tgz#54f0be12e6ae51d1c0a6f0023674ba77ac514ce3"
-  integrity sha1-VPC+EuauUdHApvACNnS6d6xRTOM=
-  dependencies:
-    object-assign "^4.1.0"
-
 "hexo-renderer-markdown-it@github:h404bi/hexo-renderer-markdown-it":
   version "3.4.2"
   resolved "https://codeload.github.com/h404bi/hexo-renderer-markdown-it/tar.gz/9ddac6b36335f56e395bc0a2c7f9c02024945f4c"
@@ -1215,10 +1202,6 @@ hexo-pagination@0.1.0:
     markdown-it-sub "^1.0.0"
     markdown-it-sup "^1.0.0"
     sluggo "^0.2.0"
-
-"hexo-sage-posts@github:h404bi/hexo-sage-posts":
-  version "0.0.1"
-  resolved "https://codeload.github.com/h404bi/hexo-sage-posts/tar.gz/7b76cd8aebd523e35dbee98aa59cd0717c002fb2"
 
 hexo-server@^0.3.3:
   version "0.3.3"
@@ -1797,9 +1780,9 @@ markdown@~0.5.0:
     nopt "~2.1.1"
 
 math-random@^1.0.1:
-  version "1.0.2"
-  resolved "https://registry.yarnpkg.com/math-random/-/math-random-1.0.2.tgz#8ab7f026363816c1e00b774d87dee67f61e37ad6"
-  integrity sha512-Bp2Bx2wFaUymE7pWi0bbldiheIXMvyzC3hRkT5YAv2qiqqJO5VB8KafgYgZmGCxkTmloLuAx3Jv2OmJ66990mg==
+  version "1.0.4"
+  resolved "https://registry.yarnpkg.com/math-random/-/math-random-1.0.4.tgz#5dd6943c938548267016d4e34f057583080c514c"
+  integrity sha512-rUxjysqif/BZQH2yhd5Aaq7vXMSx9NdEsQcyA07uEzIvxgI7zIr33gGsh+RU0/XjmQpCW7RsVof1vlkvQVCK5A==
 
 mdurl@^1.0.1:
   version "1.0.1"

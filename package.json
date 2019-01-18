@@ -19,11 +19,9 @@
     "hexo": "^3.8.0",
     "hexo-deployer-git": "^1.0.0",
     "hexo-generator-feed": "^1.2.2",
-    "hexo-generator-index": "github:h404bi/hexo-generator-index",
     "hexo-generator-sitemap": "github:h404bi/hexo-generator-sitemap",
     "hexo-html-minifier": "github:h404bi/hexo-html-minifier",
     "hexo-renderer-markdown-it": "github:h404bi/hexo-renderer-markdown-it",
-    "hexo-sage-posts": "github:h404bi/hexo-sage-posts",
     "hexo-server": "^0.3.3"
   },
   "engines": {

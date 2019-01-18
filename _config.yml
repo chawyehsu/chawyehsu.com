@@ -45,18 +45,21 @@ tag_map:
 # Plugins
 sage_posts:
   filter: hidden
+# https://github.com/hexojs/hexo-generator-index
 index_generator:
-  # https://github.com/hexojs/hexo-generator-index/pull/7
   path: 'blog'
   per_page: 9
   order_by: -date
+# https://github.com/hexojs/hexo-generator-feed
 feed:
   type: atom
   path: blog/atom.xml
   limit: 20
+# https://github.com/hexojs/hexo-generator-sitemap
 sitemap:
   path: sitemap.xml
   template: sitemap.xml
+# https://github.com/hexojs/hexo-html-minifier
 html_minifier:
   exclude:
   minifyJS: true
@@ -65,7 +68,7 @@ html_minifier:
   collapseWhitespace: true
   removeScriptTypeAttributes: true
   removeStyleLinkTypeAttributes: true
-# docs: https://github.com/hexojs/hexo-renderer-markdown-it/wiki
+# https://github.com/hexojs/hexo-renderer-markdown-it
 markdown:
   render:
     html: true
