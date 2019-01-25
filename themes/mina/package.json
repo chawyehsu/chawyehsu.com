@@ -1,6 +1,6 @@
 {
   "name": "hexo-theme-mina",
-  "version": "0.2.6",
+  "version": "0.2.7",
   "description": "A concise Hexo theme, evolution from hexo-theme-type",
   "author": "Chawye Hsu <h404bi@outlook.com>",
   "license": "MIT",
@@ -13,6 +13,7 @@
   },
   "devDependencies": {
     "@babel/core": "^7.1.2",
+    "@babel/polyfill": "^7.2.5",
     "@babel/preset-env": "^7.1.0",
     "autoprefixer": "^9.2.1",
     "babel-loader": "^8.0.4",
@@ -36,8 +37,8 @@
   "dependencies": {
     "headroom.js": "^0.9.4",
     "ionicons": "^4.4.6",
-    "lazyload": "^2.0.0-beta.2",
-    "normalize.css": "^8.0.0",
+    "lozad": "^1.7.0",
+    "normalize.css": "^8.0.1",
     "suitcss-components-flex-embed": "^2.0.4"
   }
 }

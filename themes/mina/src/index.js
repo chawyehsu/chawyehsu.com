@@ -7,10 +7,10 @@
 import 'ionicons/dist/css/ionicons.min.css'
 import './css/main.styl'
 
-import lazyload from 'lazyload'
+import lozad from 'lozad'
 import Headroom from 'headroom.js'
 
-const mina = (function mina () {
+const mina = (function () {
 
   const header = () => {
     const el = document.querySelector('.site-header')
@@ -27,7 +27,7 @@ const mina = (function mina () {
   }
 
   const lazyloader = () => {
-    new lazyload(document.querySelectorAll('.lazyload img'))
+    lozad(document.querySelectorAll('.lazyload img')).observe()
   }
 
   return {

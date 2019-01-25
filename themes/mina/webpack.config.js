@@ -18,9 +18,19 @@ module.exports = {
     rules: [
       {
         test: /\.js$/,
-        loader: "babel-loader",
-        include: [path.resolve(__dirname, 'src')]
-        // exclude: /node_modules/
+        include: [path.resolve(__dirname, 'src')],
+        exclude: /node_modules/,
+        use: {
+          loader: 'babel-loader',
+          options: {
+            presets: [
+              ['@babel/preset-env', {
+                // 'debug': true,
+                'useBuiltIns': 'usage'
+              }]
+            ]
+          }
+        }
       },
       {
         test: /\.styl|\.css$/,
