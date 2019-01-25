@@ -8,6 +8,12 @@
     <changefreq>always</changefreq>
   </url>
   <url>
+    <loc>https://www.h404bi.com/links.html</loc>
+    <lastmod>2019-01-25</lastmod>
+    <priority>1</priority>
+    <changefreq>always</changefreq>
+  </url>
+  <url>
     <loc>https://www.h404bi.com/blog/2019/01/15/the-2018-hacktoberfest-shirt-arrived.html</loc>
     <lastmod>2019-01-15</lastmod>
     <priority>1</priority>
@@ -63,12 +69,6 @@
   </url>
   <url>
     <loc>https://www.h404bi.com/blog/2017/02/12/henet-6in4-ipv6-tunnel-on-openwrt.html</loc>
-    <lastmod>2017-02-12</lastmod>
-    <priority>0.5</priority>
-    <changefreq>always</changefreq>
-  </url>
-  <url>
-    <loc>https://www.h404bi.com/links.html</loc>
     <lastmod>2017-02-12</lastmod>
     <priority>0.5</priority>
     <changefreq>always</changefreq>
