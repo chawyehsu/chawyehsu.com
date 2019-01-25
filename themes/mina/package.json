@@ -1,6 +1,6 @@
 {
   "name": "hexo-theme-mina",
-  "version": "0.2.7",
+  "version": "0.3.0",
   "description": "A concise Hexo theme, evolution from hexo-theme-type",
   "author": "Chawye Hsu <h404bi@outlook.com>",
   "license": "MIT",
@@ -36,6 +36,7 @@
   },
   "dependencies": {
     "headroom.js": "^0.9.4",
+    "intersection-observer": "^0.5.1",
     "ionicons": "^4.4.6",
     "lozad": "^1.7.0",
     "normalize.css": "^8.0.1",

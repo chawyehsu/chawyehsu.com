@@ -9,6 +9,11 @@ import './css/main.styl'
 
 import lozad from 'lozad'
 import Headroom from 'headroom.js'
+/**
+ * IntersectionObserver polyfill for lozad.js:
+ *   https://github.com/ApoorvSaxena/lozad.js#browser-support
+ */
+import 'intersection-observer'
 
 const mina = (function () {
 
