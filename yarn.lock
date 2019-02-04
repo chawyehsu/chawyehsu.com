@@ -1187,12 +1187,13 @@ hexo-log@^0.2.0:
 
 "hexo-renderer-markdown-it@github:h404bi/hexo-renderer-markdown-it":
   version "3.4.2"
-  resolved "https://codeload.github.com/h404bi/hexo-renderer-markdown-it/tar.gz/9ddac6b36335f56e395bc0a2c7f9c02024945f4c"
+  uid f0f8aa17f051636cd0e80224ea08573b64454f10
+  resolved "https://codeload.github.com/h404bi/hexo-renderer-markdown-it/tar.gz/f0f8aa17f051636cd0e80224ea08573b64454f10"
   dependencies:
     lodash.assign "^4.2.0"
-    markdown-it "^8.4.2"
+    markdown-it "^8.4.1"
     markdown-it-abbr "^1.0.4"
-    markdown-it-cjk-breaks "^1.1.2"
+    markdown-it-cjk-breaks "^1.1.0"
     markdown-it-container "^2.0.0"
     markdown-it-deflist "^2.0.3"
     markdown-it-emoji "^1.4.0"
@@ -1714,10 +1715,10 @@ markdown-it-abbr@^1.0.4:
   resolved "https://registry.yarnpkg.com/markdown-it-abbr/-/markdown-it-abbr-1.0.4.tgz#d66b5364521cbb3dd8aa59dadfba2fb6865c8fd8"
   integrity sha1-1mtTZFIcuz3Yqlna37ovtoZcj9g=
 
-markdown-it-cjk-breaks@^1.1.2:
-  version "1.1.2"
-  resolved "https://registry.yarnpkg.com/markdown-it-cjk-breaks/-/markdown-it-cjk-breaks-1.1.2.tgz#dc2868c6a5f0315f4f39c42e14a182bcd405d0d6"
-  integrity sha512-WLzYHvu67D/gfc1j9wz0/77cBUj0Lp7JOPLc10KyvVJELJRFX9guLpnKFstf/hhOGg1Y531nl6ozE+sCE+ZXzQ==
+markdown-it-cjk-breaks@^1.1.0:
+  version "1.1.3"
+  resolved "https://registry.yarnpkg.com/markdown-it-cjk-breaks/-/markdown-it-cjk-breaks-1.1.3.tgz#11cf76ab271f68b5ae0c6747747f404631b73545"
+  integrity sha512-/gX3LueMp+5FdUkqcFPK5nHI6t85uq1rMv8yhrmCOZhU90XqybQj8OT1hVrxrdseajaHLPBK43xLzEKPosgTDA==
   dependencies:
     eastasianwidth "~0.2.0"
 
@@ -1761,7 +1762,7 @@ markdown-it-sup@^1.0.0:
   resolved "https://registry.yarnpkg.com/markdown-it-sup/-/markdown-it-sup-1.0.0.tgz#cb9c9ff91a5255ac08f3fd3d63286e15df0a1fc3"
   integrity sha1-y5yf+RpSVawI8/09YyhuFd8KH8M=
 
-markdown-it@^8.4.2:
+markdown-it@^8.4.1:
   version "8.4.2"
   resolved "https://registry.yarnpkg.com/markdown-it/-/markdown-it-8.4.2.tgz#386f98998dc15a37722aa7722084f4020bdd9b54"
   integrity sha512-GcRz3AWTqSUphY3vsUqQSFMbgR38a4Lh3GWlHRh/7MRwz8mcu9n2IO7HOh+bXHrR9kOPDl5RNCaEsrneb+xhHQ==
