@@ -20,7 +20,7 @@
     "hexo-deployer-git": "^1.0.0",
     "hexo-generator-feed": "^1.2.2",
     "hexo-generator-sitemap": "github:h404bi/hexo-generator-sitemap",
-    "hexo-html-minifier": "github:h404bi/hexo-html-minifier",
+    "hexo-html-minifier": "github:hexojs/hexo-html-minifier",
     "hexo-renderer-markdown-it": "github:h404bi/hexo-renderer-markdown-it",
     "hexo-server": "^0.3.3"
   },
