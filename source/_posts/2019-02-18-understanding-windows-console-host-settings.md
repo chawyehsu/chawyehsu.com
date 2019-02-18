@@ -5,9 +5,9 @@ description: >-
   Windows Console Host（即 conhost.exe）中的设置（如命令行字体等）可能有点
   难以理解，主要是因为在过去几十年中这个设置系统不断发展。根据 ConHost 如何
   被调用，这些设置项会存储在不同的位置。
-draft: true
-hidden: true
-comments: false
+date: 2019-02-18 22:02:03
+updated: 2019-02-18 22:02:03
+cover: /uploads/2019/02/20190218005.png
 ---
 
 Windows Console Host（即 `conhost.exe`，下称“ConHost”[^1]）中的设置可能有点难
@@ -112,7 +112,7 @@ Windows 的默认值。
 
 ## 后记
 
-本文为译文，原文见 [Understanding Windows Console Host Settings]，有删改。
+本文为译文，原文见 [Understanding Windows Console Host Settings]，有些许删改。
 
 [Understanding Windows Console Host Settings]: https://blogs.msdn.microsoft.com/commandline/2017/06/20/understanding-windows-console-host-settings/
 
