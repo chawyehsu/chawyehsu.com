@@ -6,7 +6,7 @@ cover: /uploads/2018/12/20181225013.png
 ---
 
 <p style="text-align:center">
-<a href="https://www.h404bi.com/blog/2018/05/12/talk-about-scoop-the-package-manager-for-windows-again.html">
+<a href="/blog/2018/05/12/talk-about-scoop-the-package-manager-for-windows-again.html">
 <strong>关于 Scoop 的新文章</strong></a>
 </p>
 
@@ -15,7 +15,7 @@ cover: /uploads/2018/12/20181225013.png
 Arch Linux 的 Pacman，就连本身并无自带包管理工具的 Mac 都有了 Macports
 和极其好用的 Homebrew。至于 Windows 下，
 Geek 们也生产出各式各样的工具以贴合他们的 \*nix 使用习惯。
-其中软件包管理工具中比较出名的就是 **[chocolatey]()** 了。
+其中软件包管理工具中比较出名的就是 **[chocolatey]** 了。
 
 然而本文并不细谈 chocolatey，而谈的是一个叫做 **[Scoop](http://scoop.sh/)** 
 工具。官网上的描述是“A command-line installer for Windows”，其实说白了，
@@ -61,21 +61,21 @@ Geek 们也生产出各式各样的工具以贴合他们的 \*nix 使用习惯�
 4. 开始美化控制台显示样式（★）
    首先 `scoop install concfg` 安装 `concfg`，
    然后导入 Solarized 主题`concfg import solarized small`
-   （concfg 支持多种主题，详见 [concfg/presets]()），
+   （concfg 支持多种主题，详见 [concfg/presets]），
    期间会提示你替换了哪些控制台（其实也就 `CMD` 和 `PS`）的样式。
    然后 `scoop install pshazz` 安装 `pshazz`，
    当安装完后马上就能看到 shell prompt 发生变化了，
    而且 cd 到一个 git 仓库还能看到分支信息，还支持 git auto-completion 呢。
 
 5. 然后还可以安装使用 `touch`、`curl`、`vim` 等更多的 GNU 命令行工具。
-scoop 官方的 Packages 是 [bucket]()，
-如果里面没有你想安装的工具你还可以[自定义 bucket]() 或 [创建一个 package]()。
+scoop 官方的 Packages 是 [bucket]，
+如果里面没有你想安装的工具你还可以[自定义 bucket] 或 [创建一个 package]。
 
-6. 最后还能用 scoop 进行开发语言环境的[多版本控制]()呢，
+6. 最后还能用 scoop 进行开发语言环境的[多版本控制]呢，
 比如 `scoop install python27 python` 同时安装 Py2.7 和 Py3，
 然后 `scoop reset python27` 选择 Py2.7，`scoop reset python` 则设置为 Py3。
 
-至于更详尽的使用方法请 `scoop help` 或访问 [Scoop Wiki]() 咯。
+至于更详尽的使用方法请 `scoop help` 或访问 [Scoop Wiki] 咯。
 
 总结：所以说这种人就只能为他们的这种“如此难以伺候”而不断地折腾自己的电脑，
 折腾自己。这就是所谓“生命不息，折腾不止”吧哈哈哈。。。卒
