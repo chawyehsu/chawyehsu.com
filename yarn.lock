@@ -1159,7 +1159,8 @@ hexo-generator-feed@^1.2.2:
 
 "hexo-html-minifier@github:hexojs/hexo-html-minifier":
   version "0.1.0"
-  resolved "https://codeload.github.com/hexojs/hexo-html-minifier/tar.gz/e237a161c26c0dd116a2105c25a520dc862f3d42"
+  uid f9de32efbb0656fe023e347be9cb721eafcceb2d
+  resolved "https://codeload.github.com/hexojs/hexo-html-minifier/tar.gz/f9de32efbb0656fe023e347be9cb721eafcceb2d"
   dependencies:
     html-minifier "^3.5.21"
     minimatch "^3.0.4"
