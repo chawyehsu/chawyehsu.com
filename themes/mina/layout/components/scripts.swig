@@ -1,6 +1,6 @@
 {{ js('static/mina.js?version=' + theme_version()) }}
 
-{%- if (config.disqus_shortname || theme.disqus_shortname) && page.comments -%}
+{% if (config.disqus_shortname || theme.disqus_shortname) && page.comments %}
 <script>
   var disqus = {
     load: function disqus () {
@@ -20,9 +20,9 @@
     }
   }
 </script>
-{%- endif -%}
+{% endif %}
 
-{%- if config.baidu_analytics_id || theme.baidu_analytics_id -%}
+{% if config.baidu_analytics_id || theme.baidu_analytics_id %}
 <script>
 var _hmt = _hmt || [];
 (function() {
@@ -32,9 +32,9 @@ var _hmt = _hmt || [];
   s.parentNode.insertBefore(hm, s);
 })();
 </script>
-{%- endif -%}
+{% endif %}
 
-{%- if theme.baidu_push -%}
+{% if theme.baidu_push %}
 <script>
 (function () {
   var bp = document.createElement('script');
@@ -51,11 +51,11 @@ var _hmt = _hmt || [];
 </script>
 {% endif %}
 
-{%- if config.google_analytics_id || theme.google_analytics_id -%}
+{% if config.google_analytics_id || theme.google_analytics_id %}
 <script>
   window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
   ga('create', '{{ config.google_analytics_id || theme.google_analytics_id }}', 'auto');
   ga('send', 'pageview');
 </script>
 <script async src='https://www.google-analytics.com/analytics.js'></script>
-{%- endif -%}
+{% endif %}

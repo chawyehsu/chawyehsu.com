@@ -5,22 +5,22 @@
         {{ config.domain or config.title }}
       </a>
     </div>
-    {%- if theme.header.nav -%}
+    {% if theme.header.nav %}
     <div class="topbar-nav-wrap column is-9-desktop">
       <nav class="topbar-nav">
         <ul>
-        {%- for name, path in theme.header.nav -%}
+        {% for name, path in theme.header.nav %}
           <li>
-          {%- if url_for(page.path)|replace('/index.html', '') === url_for(path) -%}
+          {% if url_for(page.path)|replace('/index.html', '') === url_for(path) %}
             <a class="active" href="{{ url_for(path) }}">{{ name }}</a>
-          {%- else -%}
+          {% else %}
             <a href="{{ url_for(path) }}">{{ name }}</a>
-          {%- endif -%}
+          {% endif %}
           </li>
-        {%- endfor -%}
+        {% endfor %}
         </ul>
       </nav>
     </div>
-    {%- endif -%}
+    {% endif %}
   </div>
 </header>

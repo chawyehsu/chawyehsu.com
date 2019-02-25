@@ -1,3 +1,6 @@
+{% extends "_layout.swig" %}
+
+{% block content %}
   <div id="post" class="post-content">
     <article itemscope itemtype="http://schema.org/Article">
       <header class="post-header">
@@ -10,3 +13,4 @@
       <footer class="post-footer"></footer>
     </article>
   </div>
+{% endblock %}
