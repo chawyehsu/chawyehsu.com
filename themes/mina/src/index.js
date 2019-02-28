@@ -5,10 +5,12 @@
  *
  */
 import 'ionicons/dist/css/ionicons.min.css'
+import 'disqusjs/dist/disqusjs.css'
 import './css/main.styl'
 
 import lozad from 'lozad'
 import Headroom from 'headroom.js'
+import DisqusJS from 'disqusjs'
 /**
  * IntersectionObserver polyfill for lozad.js:
  *   https://github.com/ApoorvSaxena/lozad.js#browser-support
@@ -35,10 +37,15 @@ const mina = (function () {
     lozad(document.querySelectorAll('.lazyload img')).observe()
   }
 
+  const disqusjs = () => {
+    window.DisqusJS = DisqusJS
+  }
+
   return {
     init: () => {
       header()
       lazyloader()
+      disqusjs()
     }
   }
 }())
