@@ -6,15 +6,15 @@
     load: function () {
       // Remove load button after loading.
       document.getElementById('load-disqus').outerHTML = '';
-      // get DisqusJS instance
+      // Get DisqusJS instance
       new DisqusJS({
-        shortname: '{{ config.disqus_shortname || theme.disqus_shortname }}',
-        siteName: "Chawye Hsu's Blog",
-        identifier: '{{ page.path }}',
-        url: '{{ page.permalink }}',
-        apikey: 'Hg3FyAX4IodvgGm8OAIpuplfZW5APk2DYcuVk9DEEDSBijKPdPdooKBX7683fo6u',
-        admin: 'h404bi',
-        adminLabel: 'Mod'
+        shortname: "{{ config.disqus_shortname || theme.disqus_shortname }}",
+        siteName: "{{ config.disqusjs.site_name || theme.disqusjs.site_name }}",
+        identifier: "{{ page.path }}",
+        url: "{{ page.permalink }}",
+        apikey: "{{ config.disqusjs.api_key || theme.disqusjs.api_key }}",
+        admin: "{{ config.disqusjs.admin || theme.disqusjs.admin }}",
+        adminLabel: "{{ config.disqusjs.admin_label || theme.disqusjs.admin_label }}"
       });
     }
   }

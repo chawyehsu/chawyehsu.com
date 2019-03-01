@@ -94,6 +94,11 @@ theme: mina
 disqus_shortname: h404bi
 baidu_analytics_id: 25da54bb9d300c118148dcad780da73b
 google_analytics_id: UA-91882040-1
+disqusjs:
+  site_name: Chawye Hsu's Blog
+  api_key: Hg3FyAX4IodvgGm8OAIpuplfZW5APk2DYcuVk9DEEDSBijKPdPdooKBX7683fo6u
+  admin: h404bi
+  admin_label: Mod
 
 # Deployment
 deploy:
