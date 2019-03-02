@@ -9,7 +9,7 @@
       <section class="post-body">
         {{ page.content }}
       </section>
-      {{ partial('components/comment') }}
+      {{ partial('_partial/comment') }}
       <footer class="post-footer"></footer>
     </article>
   </div>

@@ -2,15 +2,15 @@
 <html
   lang="{{ page.language || config.language }}"
   class="{% if page.serif || theme.force_serif %} serif{% endif %}">
-{{ partial('components/head') }}
+{{ partial('_partial/head') }}
 <body>
 <div id="app" class="stie-container">
-  {{ partial('components/header') }}
+  {{ partial('_partial/header') }}
   <main id="site-main" class="mina-wrapper">
     {% block content %}{% endblock %}
   </main>
-  {{ partial('components/footer') }}
+  {{ partial('_partial/footer') }}
 </div>
-{{ partial('components/scripts') }}
+{{ partial('_partial/scripts') }}
 </body>
 </html>

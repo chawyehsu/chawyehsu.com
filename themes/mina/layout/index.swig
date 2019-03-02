@@ -28,5 +28,5 @@
     {% endif %}
   {% endfor %}
   </div>
-  {{ partial('components/pagination') }}
+  {{ partial('_partial/pagination') }}
 {% endblock %}
