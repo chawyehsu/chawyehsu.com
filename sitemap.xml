@@ -8,6 +8,12 @@
     <changefreq>always</changefreq>
   </url>
   <url>
+    <loc>https://www.h404bi.com/guestbook.html</loc>
+    <lastmod>2019-03-02</lastmod>
+    <priority>1</priority>
+    <changefreq>always</changefreq>
+  </url>
+  <url>
     <loc>https://www.h404bi.com/blog/2019/02/18/understanding-windows-console-host-settings.html</loc>
     <lastmod>2019-02-18</lastmod>
     <priority>1</priority>
@@ -34,12 +40,6 @@
   <url>
     <loc>https://www.h404bi.com/blog/2018/05/12/talk-about-scoop-the-package-manager-for-windows-again.html</loc>
     <lastmod>2018-11-03</lastmod>
-    <priority>0.5</priority>
-    <changefreq>always</changefreq>
-  </url>
-  <url>
-    <loc>https://www.h404bi.com/guestbook.html</loc>
-    <lastmod>2018-08-31</lastmod>
     <priority>0.5</priority>
     <changefreq>always</changefreq>
   </url>
