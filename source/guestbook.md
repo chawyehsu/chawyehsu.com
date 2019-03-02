@@ -2,8 +2,7 @@
 layout: page
 title: Guestbook
 date: 2017-02-12 17:53:04
-updated: 2018-08-31 23:38:41
-tags:
+updated: 2019-03-02 15:38:28
 ---
 
-![](/uploads/2017/02/20170212001.png)
+{% figure "center" /uploads/2019/03/20190302001.jpg "Kenting, Taiwan. 10 Jun 2018" %}
