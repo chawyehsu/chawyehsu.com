@@ -24,7 +24,20 @@
     {% endif %}
     <div class="footer__section">
       <div class="copy-right">
-        &copy; {{ date(Date.now(), 'YYYY') }} {{ config.author }}
+        {% set current = date(Date.now(), "YYYY") %}
+        &copy;
+        {% if theme.since and theme.since != current %}
+          {{ theme.since }} -
+        {% endif %}
+        {{ current }}
+        {{ config.author }}
+        {# busuanzi #}
+        {% if theme.busuanzi %}
+          <script async src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+          <span id="busuanzi_container_site_pv">
+            , <span id="busuanzi_value_site_pv"></span> hits
+          </span>
+        {% endif %}
       </div>
     </div>
   </div>

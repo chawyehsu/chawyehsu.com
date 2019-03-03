@@ -1,4 +1,6 @@
 # Configuration
+since: 2015
+
 header:
   logo_url: /blog
   nav:
@@ -27,6 +29,7 @@ head_comment: 'You know, rather than reading the source like a chump,
   you can see it all on GitHub like a champ: https://github.com/h404bi/www.h404bi.com'
 
 # Third-party services
+busuanzi: false
 baidu_push: true
 disqus_shortname:
 baidu_analytics_id:
