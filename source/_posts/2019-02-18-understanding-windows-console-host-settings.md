@@ -6,7 +6,7 @@ description: >-
   难以理解，主要是因为在过去几十年中这个设置系统不断发展。根据 ConHost 如何
   被调用，这些设置项会存储在不同的位置。
 date: 2019-02-18 22:02:03
-updated: 2019-02-18 22:02:03
+updated: 2019-03-06 23:15:20
 cover: /uploads/2019/02/20190218005.png
 ---
 
@@ -112,7 +112,10 @@ Windows 的默认值。
 
 ## 后记
 
-本文为译文，原文见 [Understanding Windows Console Host Settings]，有些许删改。
+我一直在使用 [concfg](https://github.com/lukesampson/concfg) 作为我管理我的
+Windows 控制台设置的工具，近期成为了该项目的协作者进行项目维护，便开始稍微深入
+地了解 Windows 控制台相关知识。本文是微软官方 Windows Console & WSL 团队的一篇
+博文的译文，原文见 [Understanding Windows Console Host Settings]，有些许删改。
 
 [Understanding Windows Console Host Settings]: https://blogs.msdn.microsoft.com/commandline/2017/06/20/understanding-windows-console-host-settings/
 
