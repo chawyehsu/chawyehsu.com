@@ -8,21 +8,21 @@
     <changefreq>always</changefreq>
   </url>
   <url>
-    <loc>https://www.h404bi.com/guestbook.html</loc>
-    <lastmod>2019-03-02</lastmod>
-    <priority>1</priority>
-    <changefreq>always</changefreq>
-  </url>
-  <url>
     <loc>https://www.h404bi.com/blog/2019/02/18/understanding-windows-console-host-settings.html</loc>
-    <lastmod>2019-02-18</lastmod>
+    <lastmod>2019-03-06</lastmod>
     <priority>1</priority>
     <changefreq>always</changefreq>
   </url>
   <url>
     <loc>https://www.h404bi.com/links.html</loc>
-    <lastmod>2019-01-25</lastmod>
-    <priority>0.8</priority>
+    <lastmod>2019-03-06</lastmod>
+    <priority>1</priority>
+    <changefreq>always</changefreq>
+  </url>
+  <url>
+    <loc>https://www.h404bi.com/guestbook.html</loc>
+    <lastmod>2019-03-02</lastmod>
+    <priority>1</priority>
     <changefreq>always</changefreq>
   </url>
   <url>
