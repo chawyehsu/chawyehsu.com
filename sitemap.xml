@@ -3,41 +3,42 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://www.h404bi.com/blog/index.html</loc>
-    <lastmod>2018-12-21</lastmod>
+    <lastmod>2019-03-06T15:15:20.000Z</lastmod>
     <priority>1</priority>
     <changefreq>always</changefreq>
   </url>
-  {%- for post in posts %}
-  <url>
-    <loc>{{ post.permalink | uriencode }}</loc>
-    {% if post.updated -%}
-    <lastmod>{{ post.updated.format('YYYY-MM-DD') }}</lastmod>
-    {% set post_updated = post.updated -%}
-    {% if post_updated.add(15, 'd').isAfter(moment) -%}
-    <priority>1</priority>
-    {% elif post_updated.add(30, 'd').isAfter(moment) -%}
-    <priority>0.8</priority>
-    {% else -%}
-    <priority>0.5</priority>
-    {% endif -%}
-    {% elif post.date -%}
-    <lastmod>{{ post.date.format('YYYY-MM-DD') }}</lastmod>
-    {% set post_date = post.date -%}
-    {% if post_date.add(15, 'd').isAfter(moment) -%}
-    <priority>1</priority>
-    {% elif post_date.add(30, 'd').isAfter(moment) -%}
-    <priority>0.8</priority>
-    {% else -%}
-    <priority>0.5</priority>
-    {% endif -%}
-    {% endif -%}
-    <changefreq>always</changefreq>
-  </url>
-  {%- endfor %}
   <url>
     <loc>https://www.h404bi.com/index.html</loc>
-    <lastmod>2018-12-21</lastmod>
-    <priority>0.5</priority>
+    <lastmod>2019-03-06T15:15:20.000Z</lastmod>
+    <priority>0.8</priority>
     <changefreq>always</changefreq>
   </url>
+  {% for post in posts %}
+    {% if not post.categories %}
+    <url>
+      <loc>{{ post.permalink | uriencode }}</loc>
+      {% if post.updated %}
+      <lastmod>{{ post.updated.toISOString() }}</lastmod>
+      {% elif post.date %}
+      <lastmod>{{ post.date.toISOString() }}</lastmod>
+      {% endif %}
+      <priority>0.8</priority>
+      <changefreq>always</changefreq>
+    </url>
+    {% endif %}
+  {% endfor %}
+  {% for post in posts %}
+    {% if post.categories %}
+    <url>
+      <loc>{{ post.permalink | uriencode }}</loc>
+      {% if post.updated %}
+      <lastmod>{{ post.updated.toISOString() }}</lastmod>
+      {% elif post.date %}
+      <lastmod>{{ post.date.toISOString() }}</lastmod>
+      {% endif %}
+      <priority>0.6</priority>
+      <changefreq>always</changefreq>
+    </url>
+    {% endif %}
+  {% endfor %}
 </urlset>
