@@ -2,7 +2,7 @@
   <div class="wrap columns is-gapless is-mobile">
     <div class="column is-3-desktop">
       <a class="site-title" href="{{ theme.header.logo_url }}">
-        {{ config.domain or config.title }}
+        {{ theme.title or config.title }}
       </a>
     </div>
     {% if theme.header.nav %}

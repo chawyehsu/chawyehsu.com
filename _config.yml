@@ -8,7 +8,6 @@ language: zh-cn
 timezone: Asia/Shanghai
 
 # URL
-domain: h404bi.com
 url: https://www.h404bi.com
 root: /
 permalink: blog/:year/:month/:day/:title.html
