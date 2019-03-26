@@ -16,8 +16,11 @@
 
     a:not([id^=fnref])
       border-bottom: 1px dashed $meta-color
-      word-wrap: break-word
+      overflow-wrap: break-word
       word-break: break-all
+
+    > p
+      text-align: justify
 
     & > table
       border-collapse: collapse
@@ -40,7 +43,7 @@
       border-left: 2px solid $highlight-color
       font-style: italic
       padding-left: $gap-m
-      word-wrap: break-word
+      overflow-wrap: break-word
       word-break: break-all
       p:last-child
         margin: 0
