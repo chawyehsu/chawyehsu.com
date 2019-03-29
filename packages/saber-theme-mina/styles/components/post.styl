@@ -22,7 +22,7 @@
     > p
       text-align: justify
 
-    & > table
+    > table
       border-collapse: collapse
       border-spacing: 0
       display: block
@@ -62,6 +62,7 @@
       ul, ol
         margin-bottom: 0
 
+    // common code blocks
     pre, code
       font-family: $font-family-mono
       font-size: $font-size-code
@@ -69,21 +70,34 @@
     pre
       line-height: $line-height-code
 
-    > .highlight
-      background: $tertiary-color
-      overflow: auto
-
-      table
-        border-spacing: 0
-        margin: 0
-
-      pre
-        margin: $gap-m
-        overflow: visible
-
     code
       background: $tertiary-color
-      padding: .1rem .2rem
+      padding: $gap-s * 0.25 $gap-s * 0.5 // really small gap
+
+    // syntax highlighting code blocks
+    .saber-highlight
+      margin: 0
+      margin-bottom: $gap-m
+      overflow: hidden
+      background: $tertiary-color
+      border-radius: 0
+      box-shadow: none
+
+      &:before
+        content: attr(data-lang)
+        position: absolute
+        right: $gap-s
+        top: $gap-s * 0.5 // really small gap
+        font-size: $font-size-sub-sup
+        color: $meta-color
+
+      pre
+        padding: $gap-m !important
+        overflow: auto
+
+      code
+        background: none
+        padding: 0
 
     s, del, .meta
       color: $meta-color
@@ -105,17 +119,17 @@
       a
         color: $highlight-color
 
-    // All type of images shouldn't overflow
+    // all type of images shouldn't overflow
     img
       max-width: 100%
 
-    // Normal Markdown images
+    // normal Markdown images
     p
       img
         display: block
         margin: 0 auto
 
-    // Add margin-bottom for images without p tag warp (html tag images)
+    // add margin-bottom for images without p tag warp (html tag images)
     & > img
       margin-bottom: $gap-m
 
@@ -137,7 +151,7 @@
     figure.highlight
       text-align: left
 
-    // Footnotes
+    // footnotes
     .footnotes
       color: $meta-color
       font-size: $font-size-footnotes
@@ -151,7 +165,7 @@
           &.footnote-backref
             text-decoration: underline
 
-  // Content comments
+  // content comments
   .post-comments
     margin-bottom: $gap-l
 
