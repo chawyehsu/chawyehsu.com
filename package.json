@@ -1,30 +1,31 @@
 {
   "name": "www.h404bi.com",
   "version": "0.0.0",
-  "description": "This is h404bi's website.",
+  "description": "This is Chawye Hsu's website.",
   "author": "Chawye Hsu <h404bi@gmail.com>",
   "private": true,
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/h404bi/www.h404bi.com.git"
-  },
-  "hexo": {
-    "version": "3.8.0"
-  },
   "scripts": {
-    "build": "./node_modules/.bin/hexo clean && ./node_modules/.bin/hexo g",
-    "dev": "./node_modules/.bin/hexo clean && ./node_modules/.bin/hexo s --draft --debug"
+    "dev": "saber",
+    "generate": "saber generate"
+  },
+  "devDependencies": {
+    "saber": "latest",
+    "saber-plugin-generate-feed": "latest",
+    "saber-plugin-google-analytics": "latest",
+    "saber-plugin-query-posts": "latest",
+    "stylus": "^0.54.5",
+    "stylus-loader": "^3.0.2"
   },
   "dependencies": {
-    "hexo": "^3.8.0",
-    "hexo-deployer-git": "^1.0.0",
-    "hexo-generator-feed": "^1.2.2",
-    "hexo-generator-sitemap": "github:h404bi/hexo-generator-sitemap",
-    "hexo-html-minifier": "github:hexojs/hexo-html-minifier",
-    "hexo-renderer-markdown-it": "github:h404bi/hexo-renderer-markdown-it",
-    "hexo-server": "^0.3.3"
-  },
-  "engines": {
-    "node": ">=8.10.0"
+    "disqusjs": "^1.2.3",
+    "headroom.js": "^0.9.4",
+    "intersection-observer": "^0.5.1",
+    "ionicons": "^4.5.5",
+    "lozad": "^1.9.0",
+    "markdown-it-cjk-breaks": "^1.1.3",
+    "markdown-it-footnote": "^3.0.1",
+    "normalize.css": "^8.0.1",
+    "suitcss-components-flex-embed": "^2.0.4",
+    "tinytime": "^0.2.6"
   }
 }
