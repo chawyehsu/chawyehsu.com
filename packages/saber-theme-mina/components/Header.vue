@@ -10,8 +10,8 @@
         <nav class="topbar-nav">
           <ul>
             <li v-for="(item, index) in $themeConfig.header.nav" :key="index">
-              <a v-if="item.path === '/'" :href="item.path">{{ item.name }}</a>
-              <saber-link v-else :to="item.path">{{ item.name }}</saber-link>
+              <!-- <a v-if="item.path === '/'" :href="item.path">{{ item.name }}</a> -->
+              <saber-link :to="item.path">{{ item.name }}</saber-link>
             </li>
           </ul>
         </nav>

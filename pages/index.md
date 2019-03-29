@@ -1,5 +1,3 @@
 ---
-layout: index
-title: Blog
-permalink: /blog
+layout: home
 ---

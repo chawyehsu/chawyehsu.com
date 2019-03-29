@@ -5,6 +5,7 @@ module.exports = {
     description: 'Personal Website of Chawye Hsu.',
     url: 'https://www.h404bi.com',
     author: 'h404bi',
+    avatar: '/static/img/avatar.png',
     disqusjs: {
       shortname: 'h404bi',
       sitename: "Chawye Hsu's Blog",
@@ -102,6 +103,7 @@ module.exports = {
     {
       resolve: 'saber-plugin-query-posts',
       options: {
+        injectPostsTo: '/blog',
         perPage: 9
       }
     }
