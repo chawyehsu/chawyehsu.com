@@ -1,5 +1,5 @@
 /*!
- * Hexo Theme Mina
+ * Saber Theme Mina
  *
  * Copyright (c) 2018-present Chawye Hsu, licensed under the MIT license.
  *
@@ -7,47 +7,30 @@
 import 'normalize.css'
 import 'ionicons/dist/css/ionicons.min.css'
 import 'suitcss-components-flex-embed/lib/flex-embed.css'
-import '#theme/styles/main.styl'
+import './styles/main.styl'
 
 import lozad from 'lozad'
-import Headroom from 'headroom.js'
-/**
- * IntersectionObserver polyfill for lozad.js:
- *   https://github.com/ApoorvSaxena/lozad.js#browser-support
- */
+// IntersectionObserver polyfill for lozad.js
 import 'intersection-observer'
 
-// const mina = (function () {
+export default ({ rootOptions }) => {
+  if (process.browser) {
+    lozad(document.querySelectorAll('.lazyload img')).observe()
+  }
 
-//   const header = () => {
-//     const el = document.querySelector('.site-header')
-//     const options = {
-//       tolerance: 5,
-//       offset: 155,
-//       classes: {
-//         initial: 'animated',
-//         pinned: 'slideDown',
-//         unpinned: 'slideUp'
-//       }
-//     }
-//     new Headroom(el, options).init()
-//   }
-
-//   const lazyloader = () => {
-//     lozad(document.querySelectorAll('.lazyload img')).observe()
-//   }
-
-//   const disqusjs = () => {
-//     window.DisqusJS = DisqusJS
-//   }
-
-//   return {
-//     init: () => {
-//       header()
-//       lazyloader()
-//       disqusjs()
-//     }
-//   }
-// }())
-
-// mina.init()
+  rootOptions.head = () => {
+    return {
+      htmlAttrs: {
+        lang: 'zh-CN',
+        class: 'serif'
+      },
+      meta: [
+        {
+          // Fake Hexo meta generator
+          name: 'generator',
+          content: 'Hexo'
+        }
+      ]
+    }
+  }
+}

@@ -23,11 +23,7 @@
         </div>
       </div>
       <div class="footer__section">
-        <div class="copy-right">
-          &copy;
-          {{ date(Date.now(), '{YYYY}') }}
-          {{ $siteConfig.author }}
-        </div>
+        <div class="copy-right" v-text="`© ${siteDate} ${$siteConfig.author}`"></div>
       </div>
     </div>
   </footer>
@@ -37,6 +33,18 @@
 import { date } from '../utils'
 
 export default {
+  computed: {
+    siteDate () {
+      const since = this.$themeConfig.since
+      const now = date(Date.now(), '{YYYY}')
+
+      if (since) {
+        return new Date(since) === now ? now : `${since}-${now}`
+      } else {
+        return now
+      }
+    }
+  },
   methods: {
     date
   }

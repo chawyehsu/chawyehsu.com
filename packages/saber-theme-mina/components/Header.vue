@@ -21,8 +21,24 @@
 </template>
 
 <script>
+import Headroom from 'headroom.js'
 
 export default {
-
+  mounted () {
+    const header = () => {
+      const el = document.querySelector('.site-header')
+      const options = {
+        tolerance: 5,
+        offset: 155,
+        classes: {
+          initial: 'animated',
+          pinned: 'slideDown',
+          unpinned: 'slideUp'
+        }
+      }
+      new Headroom(el, options).init()
+    }
+    header()
+  }
 }
 </script>
