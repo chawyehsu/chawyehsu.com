@@ -24,7 +24,7 @@
           </div>
         </article>
       </div>
-      <!-- {{ partial('_partial/pagination') }} -->
+      <Pagination :page="page" v-if="page.pagination && (page.pagination.hasNext || page.pagination.hasPrev)" />
     </main>
     <Footer />
   </div>
@@ -33,13 +33,15 @@
 <script>
 import Header from '../components/Header.vue'
 import Footer from '../components/Footer.vue'
+import Pagination from '../components/Pagination.vue'
 import { date } from '../utils'
 
 export default {
   props: ['page'],
   components: {
     Header,
-    Footer
+    Footer,
+    Pagination
   },
   methods: {
     date

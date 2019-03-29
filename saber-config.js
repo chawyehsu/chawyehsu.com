@@ -100,7 +100,10 @@ module.exports = {
       resolve: 'saber-plugin-generate-feed'
     },
     {
-      resolve: 'saber-plugin-query-posts'
+      resolve: 'saber-plugin-query-posts',
+      options: {
+        perPage: 9
+      }
     }
   ]
 }
