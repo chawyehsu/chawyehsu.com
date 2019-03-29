@@ -9,7 +9,7 @@ You can also see the generated files at [gh-pages](https://github.com/h404bi/www
 
 ## Architecture
 
-![architecture](media/current-architecture.jpg)
+![architecture](resources/media/architecture.jpg)
 
 ## Playground
 

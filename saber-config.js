@@ -1,5 +1,5 @@
 module.exports = {
-  theme: "./themes/mina",
+  theme: "./packages/saber-theme-mina",
   siteConfig: {
     title: 'Chawye Hsu, H404bi',
     description: 'Personal Website of Chawye Hsu.',
