@@ -20,6 +20,8 @@
 </template>
 
 <script>
+import lozad from 'lozad'
+import 'intersection-observer' // IntersectionObserver polyfill for lozad.js
 import Header from '../components/Header.vue'
 import Footer from '../components/Footer.vue'
 import Disqus from '../components/Disqus.vue'
@@ -30,6 +32,9 @@ export default {
     Header,
     Footer,
     Disqus
+  },
+  mounted () {
+    lozad(document.querySelectorAll('.post-content img')).observe()
   },
   head() {
     return {
