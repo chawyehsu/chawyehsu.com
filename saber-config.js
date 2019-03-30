@@ -92,6 +92,12 @@ module.exports = {
   },
   plugins: [
     {
+      resolve: './packages/saber-plugin-baidu-analytics',
+      options: {
+        trackId: '25da54bb9d300c118148dcad780da73b'
+      }
+    },
+    {
       resolve: 'saber-plugin-google-analytics',
       options: {
         trackId: 'UA-91882040-1'

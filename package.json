@@ -6,7 +6,7 @@
   "private": true,
   "scripts": {
     "dev": "saber",
-    "generate": "saber generate"
+    "build": "saber generate"
   },
   "devDependencies": {
     "saber": "latest",
