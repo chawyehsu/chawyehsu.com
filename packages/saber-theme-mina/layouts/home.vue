@@ -2,7 +2,7 @@
   <div class="frontpage">
     <div class="frontpage-content">
       <saber-link :to="'/about.html'" class="avatar" >
-        <img src="/static/img/avatar.png" alt="avatar" />
+        <img :src="$siteConfig.avatar" alt="avatar" />
       </saber-link>
       <h1 class="name" title="Chawye Hsu">h404bi</h1>
       <div class="slogan" title="Thank you GARNET CROW since 2009">
