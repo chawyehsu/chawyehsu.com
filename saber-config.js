@@ -104,7 +104,13 @@ module.exports = {
       }
     },
     {
-      resolve: 'saber-plugin-generate-feed'
+      resolve: './packages/saber-plugin-generate-feed',
+      options: {
+        feeds: {
+          json: '/feed.json',
+          atom: '/blog/atom.xml'
+        }
+      }
     },
     {
       resolve: 'saber-plugin-query-posts',
