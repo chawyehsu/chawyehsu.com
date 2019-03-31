@@ -50,6 +50,6 @@ after_success:
   # Publish new commit to gh-pages
   - git add -A .
   - COMMITDATE=`date '+%Y-%m-%d %H:%M:%S'`
-  - git commit -m "Site updated: $COMMITDATE"
+  - git commit -m "Site updated at $COMMITDATE"
   - git branch -m gh-pages
   - git push -q -u origin gh-pages
