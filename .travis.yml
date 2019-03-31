@@ -41,7 +41,7 @@ script:
 
 after_success:
   # Clone deploy history (keep build commits)
-  - git clone --depth 1 --branch gh-pages https://github.com/h404bi/www.h404bi.com.git .deploy_git
+  - git clone --depth 1 --branch gh-pages git@github.com:h404bi/www.h404bi.com.git .deploy_git
   - cd .deploy_git
   # Clear old files
   - rm -rf ./*
