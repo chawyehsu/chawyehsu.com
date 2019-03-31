@@ -109,12 +109,15 @@ module.exports = {
     {
       resolve: 'saber-plugin-query-posts',
       options: {
-        injectPostsTo: '/blog',
+        injectPostsTo: ['/blog'],
         perPage: 9
       }
     },
     {
-      resolve: './packages/saber-plugin-generate-sitemap'
+      resolve: './packages/saber-plugin-generate-sitemap',
+      options: {
+        template: './sitemap.xml'
+      }
     }
   ]
 }
