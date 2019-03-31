@@ -8,7 +8,7 @@ export default function (ctx) {
       window._hmt = window._hmt || []
       var hm = document.createElement('script')
       hm.async = 1
-      hm.src = 'https://hm.baidu.com/hm.js?' + __GA_TRACK_ID__
+      hm.src = 'https://hm.baidu.com/hm.js?' + __BA_TRACK_ID__
       var s = document.getElementsByTagName('script')[0]
       s.parentNode.insertBefore(hm, s)
     })()
