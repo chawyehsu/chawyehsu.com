@@ -1,44 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <?xml-stylesheet type="text/xsl" href="/sitemap.xsl"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <% posts.forEach(function (post) { -%>
   <url>
-    <loc>https://www.h404bi.com/blog/index.html</loc>
-    <lastmod>2019-03-06T15:15:20.000Z</lastmod>
+    <loc><%- encodeURI(post.url) %></loc>
+    <lastmod><%= post.lastmod.toISOString() %></lastmod>
+    <% if (post.type === 'index') { -%>
     <priority>1</priority>
-    <changefreq>always</changefreq>
-  </url>
-  <url>
-    <loc>https://www.h404bi.com/index.html</loc>
-    <lastmod>2019-03-06T15:15:20.000Z</lastmod>
+    <% } else if (post.type === 'page') { -%>
     <priority>0.8</priority>
+    <% } else if (post.type === 'post') { -%>
+    <priority>0.6</priority>
+    <% } -%>
     <changefreq>always</changefreq>
   </url>
-  {% for post in posts %}
-    {% if not post.categories %}
-    <url>
-      <loc>{{ post.permalink | uriencode }}</loc>
-      {% if post.updated %}
-      <lastmod>{{ post.updated.toISOString() }}</lastmod>
-      {% elif post.date %}
-      <lastmod>{{ post.date.toISOString() }}</lastmod>
-      {% endif %}
-      <priority>0.8</priority>
-      <changefreq>always</changefreq>
-    </url>
-    {% endif %}
-  {% endfor %}
-  {% for post in posts %}
-    {% if post.categories %}
-    <url>
-      <loc>{{ post.permalink | uriencode }}</loc>
-      {% if post.updated %}
-      <lastmod>{{ post.updated.toISOString() }}</lastmod>
-      {% elif post.date %}
-      <lastmod>{{ post.date.toISOString() }}</lastmod>
-      {% endif %}
-      <priority>0.6</priority>
-      <changefreq>always</changefreq>
-    </url>
-    {% endif %}
-  {% endfor %}
+  <% }) -%>
 </urlset>

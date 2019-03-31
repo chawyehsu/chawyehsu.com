@@ -1,0 +1,13 @@
+{
+  "name": "saber-plugin-baidu-analytics",
+  "version": "0.0.0",
+  "description": "Baidu Analytics plugin for Saber",
+  "author": "Chawye Hsu <h404bi@outlook.com>",
+  "license": "MIT",
+  "private": true,
+  "main": "index.js",
+  "files": [
+    "index.js",
+    "saber-browser.js"
+  ]
+}

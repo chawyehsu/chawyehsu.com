@@ -1,0 +1,14 @@
+{
+  "name": "saber-plugin-generate-sitemap",
+  "version": "0.0.1",
+  "description": "Sitemap generator plugin for Saber",
+  "author": "Chawye Hsu <h404bi@outlook.com>",
+  "license": "MIT",
+  "main": "lib/index.js",
+  "files": [
+    "lib"
+  ],
+  "dependencies": {
+    "ejs": "^2.6.1"
+  }
+}
