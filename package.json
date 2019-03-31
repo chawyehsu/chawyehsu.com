@@ -9,10 +9,10 @@
     "build": "saber generate"
   },
   "devDependencies": {
-    "saber": "latest",
-    "saber-plugin-generate-feed": "latest",
-    "saber-plugin-google-analytics": "latest",
-    "saber-plugin-query-posts": "latest",
+    "saber": "0.3.3",
+    "saber-plugin-generate-feed": "0.0.4",
+    "saber-plugin-google-analytics": "0.0.3",
+    "saber-plugin-query-posts": "0.0.7",
     "stylus": "^0.54.5",
     "stylus-loader": "^3.0.2"
   },

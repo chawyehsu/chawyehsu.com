@@ -4199,9 +4199,9 @@ p-locate@^3.0.0:
     p-limit "^2.0.0"
 
 p-try@^2.0.0:
-  version "2.1.0"
-  resolved "https://registry.yarnpkg.com/p-try/-/p-try-2.1.0.tgz#c1a0f1030e97de018bb2c718929d2af59463e505"
-  integrity sha512-H2RyIJ7+A3rjkwKC2l5GGtU4H1vkxKCAGsWasNVd0Set+6i4znxbWy6/j16YDPJDWxhsgZiKAstMEP8wCdSpjA==
+  version "2.2.0"
+  resolved "https://registry.yarnpkg.com/p-try/-/p-try-2.2.0.tgz#cb2868540e313d61de58fafbe35ce9004d5540e6"
+  integrity sha512-R4nPAVTAU0B9D35/Gk3uJf/7XYbQcyohSKdvAxIRSNghFl4e71hVoGnBNQz9cWaXxO2I10KTC+3jMdvvoKw6dQ==
 
 pako@~1.0.5:
   version "1.0.10"
@@ -5153,17 +5153,17 @@ saber-markdown@^0.0.3:
   resolved "https://registry.yarnpkg.com/saber-markdown/-/saber-markdown-0.0.3.tgz#342a905040178cdd17766841c855c5152d120a2f"
   integrity sha512-Eu9vom2KqDY9a4/7gyU3QUG2QfLpu0+Yt48TZ5OZqW3ER77xutu7VKOJvjmIpo9ma9rgeKCpEQjYHAlpKC+bGw==
 
-saber-plugin-generate-feed@latest:
+saber-plugin-generate-feed@0.0.4:
   version "0.0.4"
   resolved "https://registry.yarnpkg.com/saber-plugin-generate-feed/-/saber-plugin-generate-feed-0.0.4.tgz#de8ff7531046924979a2fb9970f34c7bbe047e23"
   integrity sha512-fg7J0S0Ff1FWLd5K/+ETHQW/2NjN7Mcxdo9ZLacSWKxrXU5gbBgSX6QABc6bfUEJ9r69vdya27TjPCSJY7aO2Q==
 
-saber-plugin-google-analytics@latest:
+saber-plugin-google-analytics@0.0.3:
   version "0.0.3"
   resolved "https://registry.yarnpkg.com/saber-plugin-google-analytics/-/saber-plugin-google-analytics-0.0.3.tgz#173dc9e7501cbfbc46e577422492038e0a189f1e"
   integrity sha512-wqXIQPbx6KJzzUvJ2pfoRp7+cqIe3FsLlq05e6NP+wtKhOMvuY2/v6mGxJ/BpRikJSv0Q8ln9r0fRqFJicvubg==
 
-saber-plugin-query-posts@latest:
+saber-plugin-query-posts@0.0.7:
   version "0.0.7"
   resolved "https://registry.yarnpkg.com/saber-plugin-query-posts/-/saber-plugin-query-posts-0.0.7.tgz#8c2cfaae1025c63c1ad9a720d1cb13943715a622"
   integrity sha512-o1cOyBOR2TnLaQFNjRT2wDZHbjWReZRlRs7Pu4CsBK8fn5RpoZqDvgQ6GKgWz4jbj335dBYIqAF9XKaxrgG5Hw==
@@ -5175,7 +5175,7 @@ saber-utils@^0.0.4:
   resolved "https://registry.yarnpkg.com/saber-utils/-/saber-utils-0.0.4.tgz#15b5e3458445a2ef097cc2505dc3bbcbbdf32c9a"
   integrity sha512-U3srXEi7pSj15TgJn60qkY5wsgLoTFT/8oW0iJdZUe7DAybZRZrBK9I0WLWAz0DVx0FdigBd0zQjNmvq5KfGiQ==
 
-saber@latest:
+saber@0.3.3:
   version "0.3.3"
   resolved "https://registry.yarnpkg.com/saber/-/saber-0.3.3.tgz#55fb29606d2253d31f3fa880e75e435cf88f132b"
   integrity sha512-Nf175xsEDtDBV4IlS7KaoJv5FwjyIwV9iB/mkhXu5orDsS1lKbi3ntH78+JG10Qg3qij6SeEHtOqUOZqGVPYsw==
