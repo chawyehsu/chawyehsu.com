@@ -1,44 +1,32 @@
 <template>
-  <header id="site-header" class="site-header header__fixed">
-    <div class="wrap columns is-gapless is-mobile">
-      <div class="column is-3-desktop">
-        <saber-link class="site-title" :to="$themeConfig.header.logo_url">
-          {{ $themeConfig.title || $siteConfig.title }}
-        </saber-link>
+  <headroom class="site-header-room" :offset="155">
+    <header id="site-header" class="site-header">
+      <div class="wrap columns is-gapless is-mobile">
+        <div class="column is-3-desktop">
+          <saber-link class="site-title" :to="$themeConfig.header.logo_url">
+            {{ $themeConfig.title || $siteConfig.title }}
+          </saber-link>
+        </div>
+        <div v-if="$themeConfig.header.nav" class="topbar-nav-wrap column is-9-desktop">
+          <nav class="topbar-nav">
+            <ul>
+              <li v-for="(item, index) in $themeConfig.header.nav" :key="index">
+                <saber-link :to="item.path">{{ item.name }}</saber-link>
+              </li>
+            </ul>
+          </nav>
+        </div>
       </div>
-      <div v-if="$themeConfig.header.nav" class="topbar-nav-wrap column is-9-desktop">
-        <nav class="topbar-nav">
-          <ul>
-            <li v-for="(item, index) in $themeConfig.header.nav" :key="index">
-              <!-- <a v-if="item.path === '/'" :href="item.path">{{ item.name }}</a> -->
-              <saber-link :to="item.path">{{ item.name }}</saber-link>
-            </li>
-          </ul>
-        </nav>
-      </div>
-    </div>
-  </header>
+    </header>
+  </headroom>
 </template>
 
 <script>
-import Headroom from 'headroom.js'
+import { headroom } from 'vue-headroom'
 
 export default {
-  mounted () {
-    const header = () => {
-      const el = document.querySelector('.site-header')
-      const options = {
-        tolerance: 5,
-        offset: 155,
-        classes: {
-          initial: 'animated',
-          pinned: 'slideDown',
-          unpinned: 'slideUp'
-        }
-      }
-      new Headroom(el, options).init()
-    }
-    header()
+  components: {
+    headroom
   }
 }
 </script>

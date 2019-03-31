@@ -10,6 +10,11 @@ import 'suitcss-components-flex-embed/lib/flex-embed.css'
 import './styles/main.styl'
 
 export default ({ rootOptions }) => {
+  if (process.browser) {
+    // IntersectionObserver polyfill for lozad.js
+    require('intersection-observer')
+  }
+
   rootOptions.head = () => {
     return {
       htmlAttrs: {

@@ -20,11 +20,10 @@
 </template>
 
 <script>
-import lozad from 'lozad'
-import 'intersection-observer' // IntersectionObserver polyfill for lozad.js
 import Header from '../components/Header.vue'
 import Footer from '../components/Footer.vue'
 import Disqus from '../components/Disqus.vue'
+import lozad from 'lozad'
 
 export default {
   props: ['page'],
@@ -43,7 +42,3 @@ export default {
   }
 }
 </script>
-
-<style>
-
-</style>
