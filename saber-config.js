@@ -112,6 +112,9 @@ module.exports = {
         injectPostsTo: '/blog',
         perPage: 9
       }
+    },
+    {
+      resolve: './packages/saber-plugin-generate-sitemap'
     }
   ]
 }
