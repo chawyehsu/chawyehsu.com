@@ -5,7 +5,11 @@
         <nav class="footer-nav">
           <ul>
             <li v-for="(item, index) in $themeConfig.footer.nav" :key="index">
-              <saber-link :to="item.path">
+              <a
+                v-if="item.name.toLocaleLowerCase() === 'rss'"
+                :href="item.path"
+                target="_blank">{{ item.name }}</a>
+              <saber-link v-else :to="item.path">
                 <a :href="item.path">{{ item.name }}</a>
               </saber-link>
             </li>
