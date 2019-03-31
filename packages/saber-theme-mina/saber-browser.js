@@ -5,7 +5,6 @@
  *
  */
 import 'normalize.css'
-import 'ionicons/dist/css/ionicons.min.css'
 import 'suitcss-components-flex-embed/lib/flex-embed.css'
 import './styles/main.styl'
 
@@ -26,6 +25,12 @@ export default ({ rootOptions }) => {
           // Fake Hexo meta generator
           name: 'generator',
           content: 'Hexo'
+        }
+      ],
+      link: [
+        {
+          href: 'https://unpkg.com/ionicons@4.5.5/dist/css/ionicons.min.css',
+          rel: 'stylesheet'
         }
       ]
     }
