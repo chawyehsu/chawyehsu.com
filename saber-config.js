@@ -109,7 +109,6 @@ module.exports = {
     {
       resolve: 'saber-plugin-query-posts',
       options: {
-        injectPostsTo: ['/blog'],
         perPage: 9
       }
     },
