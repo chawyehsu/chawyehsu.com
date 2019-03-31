@@ -36,7 +36,7 @@ Chrome 以来积累到的一些扩展程序和信息，做这么一个盘点，�
 
 ## AcFun HTML5 Player
 
-<figure class="center,lazyload">
+<figure class="center">
   <img
     data-src="/uploads/2018/12/20181216002.png"
     src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs="
@@ -55,7 +55,7 @@ Adobe 官方宣布 2020 年停止更新 Flash，Flash 时代的终结终于定�
 
 ## Checker Plus for Gmail™
 
-<figure class="center,lazyload">
+<figure class="center">
   <img
     data-src="/uploads/2018/12/20181216003.jpg"
     src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs="
@@ -74,7 +74,7 @@ Google Mail Checker 扩展了。伟大的邮箱，伟大的软件，伟大的公
 
 ## Cowlevel Steam 增强小能手
 
-<figure class="center,lazyload">
+<figure class="center">
   <img
     data-src="/uploads/2018/12/20181216004.jpg"
     src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs="
@@ -95,7 +95,7 @@ Google Mail Checker 扩展了。伟大的邮箱，伟大的软件，伟大的公
 
 ## Enhanced Steam
 
-<figure class="center,lazyload">
+<figure class="center">
   <img
     data-src="/uploads/2018/12/20181216005.jpg"
     src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs="
@@ -124,7 +124,7 @@ Google Mail Checker 扩展了。伟大的邮箱，伟大的软件，伟大的公
 
 ## Feedly Notifier
 
-<figure class="center,lazyload">
+<figure class="center">
   <img
     data-src="/uploads/2018/12/20181216006.jpg"
     src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs="
@@ -155,7 +155,7 @@ Google Mail Checker 扩展了。伟大的邮箱，伟大的软件，伟大的公
 
 ## Free Download Manager
 
-<figure class="center,lazyload">
+<figure class="center">
   <img
     data-src="/uploads/2018/12/20181216007.jpg"
     src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs="
@@ -176,7 +176,7 @@ IDM（全称“Internet Download Manager”）确实更胜一筹吧。但胜在 
 
 ## Full Page Screen Capture
 
-<figure class="center,lazyload">
+<figure class="center">
   <img
     data-src="/uploads/2018/12/20181216008.jpg"
     src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs="
@@ -193,7 +193,7 @@ QQ 的截图等等。Full Page Screen Capture 是开源的，源码托管在 Git
 
 ## Holmes
 
-<figure class="center,lazyload">
+<figure class="center">
   <img
     data-src="/uploads/2018/12/20181216009.png"
     src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs="
@@ -212,7 +212,7 @@ QQ 的截图等等。Full Page Screen Capture 是开源的，源码托管在 Git
 
 ## HTTPS Everywhere
 
-<figure class="center,lazyload">
+<figure class="center">
   <img
     data-src="/uploads/2018/12/20181216010.png"
     src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs="
@@ -231,7 +231,7 @@ HTTPS Everywhere，能 HTTPS 的全都给我 HTTPS！当然，在“HTTPS 不发
 
 ## Imagus
 
-<figure class="center,lazyload">
+<figure class="center">
   <img
     data-src="/uploads/2018/12/20181216020.png"
     src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs="
@@ -249,7 +249,7 @@ HTTPS Everywhere，能 HTTPS 的全都给我 HTTPS！当然，在“HTTPS 不发
 
 ## JavaScript and CSS Code Beautifier
 
-<figure class="center,lazyload">
+<figure class="center">
   <img
     data-src="/uploads/2018/12/20181216011.png"
     src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs="
@@ -265,7 +265,7 @@ HTTPS Everywhere，能 HTTPS 的全都给我 HTTPS！当然，在“HTTPS 不发
 
 ## JSON Formatter
 
-<figure class="center,lazyload">
+<figure class="center">
   <img
     data-src="/uploads/2018/12/20181216012.png"
     src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs="
@@ -282,7 +282,7 @@ HTTPS Everywhere，能 HTTPS 的全都给我 HTTPS！当然，在“HTTPS 不发
 
 ## minerBlock
 
-<figure class="center,lazyload">
+<figure class="center">
   <img
     data-src="/uploads/2018/12/20181216013.jpg"
     src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs="
@@ -302,7 +302,7 @@ HTTPS Everywhere，能 HTTPS 的全都给我 HTTPS！当然，在“HTTPS 不发
 
 ## Minimal New Tab Clock
 
-<figure class="center,lazyload">
+<figure class="center">
   <img
     data-src="/uploads/2018/12/20181216014.png"
     src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs="
@@ -325,7 +325,7 @@ HTTPS Everywhere，能 HTTPS 的全都给我 HTTPS！当然，在“HTTPS 不发
 
 ## OctoLinker
 
-<figure class="center,lazyload">
+<figure class="center">
   <img
     data-src="/uploads/2018/12/20181216015.jpg"
     src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs="
@@ -342,7 +342,7 @@ HTTPS Everywhere，能 HTTPS 的全都给我 HTTPS！当然，在“HTTPS 不发
 
 ## Octotree
 
-<figure class="center,lazyload">
+<figure class="center">
   <img
     data-src="/uploads/2018/12/20181216016.png"
     src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs="
@@ -361,7 +361,7 @@ OctoLinker 不会对从 Octotree 的目录树中点击打开的文件进行识�
 
 ## Proxy SwitchyOmega
 
-<figure class="center,lazyload">
+<figure class="center">
   <img
     data-src="/uploads/2018/12/20181216017.png"
     src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs="
@@ -376,7 +376,7 @@ OctoLinker 不会对从 Octotree 的目录树中点击打开的文件进行识�
 
 ## Save to Pocket
 
-<figure class="center,lazyload">
+<figure class="center">
   <img
     data-src="/uploads/2018/12/20181216018.jpg"
     src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs="
@@ -392,7 +392,7 @@ OctoLinker 不会对从 Octotree 的目录树中点击打开的文件进行识�
 
 ## Steam Database
 
-<figure class="center,lazyload">
+<figure class="center">
   <img
     data-src="/uploads/2018/12/20181216019.jpg"
     src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs="
@@ -410,7 +410,7 @@ OctoLinker 不会对从 Octotree 的目录树中点击打开的文件进行识�
 
 ## Stylus
 
-<figure class="center,lazyload">
+<figure class="center">
   <img
     data-src="/uploads/2018/12/20181216021.png"
     src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs="
@@ -431,7 +431,7 @@ OctoLinker 不会对从 Octotree 的目录树中点击打开的文件进行识�
 
 ## Tampermonkey
 
-<figure class="center,lazyload">
+<figure class="center">
   <img
     data-src="/uploads/2018/12/20181216022.png"
     src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs="
@@ -454,7 +454,7 @@ OctoLinker 不会对从 Octotree 的目录树中点击打开的文件进行识�
 
 ## Text Mode
 
-<figure class="center,lazyload">
+<figure class="center">
   <img
     data-src="/uploads/2018/12/20181216023.jpg"
     src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs="
@@ -476,7 +476,7 @@ OctoLinker 不会对从 Octotree 的目录树中点击打开的文件进行识�
 
 ## uBlock Origin
 
-<figure class="center,lazyload">
+<figure class="center">
   <img
     data-src="/uploads/2018/12/20181216024.jpg"
     src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs="
@@ -500,7 +500,7 @@ CJX 的「去自我推广列表规则」：[CJX's Annoyance List]
 
 ## v2ex plus
 
-<figure class="center,lazyload">
+<figure class="center">
   <img
     data-src="/uploads/2018/12/20181216025.jpg"
     src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs="
@@ -516,7 +516,7 @@ v2ex plus 确实是一款很好用的 V2EX 扩展，对话详情、插入表情�
 
 ## Vue.js devtools
 
-<figure class="center,lazyload">
+<figure class="center">
   <img
     data-src="/uploads/2018/12/20181216026.jpg"
     src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs="
@@ -531,7 +531,7 @@ Vue.js 开发调试神器，就这样。React 暂时没啃下，还得靠 Vue �
 
 ## Wappalyzer
 
-<figure class="center,lazyload">
+<figure class="center">
   <img
     data-src="/uploads/2018/12/20181216027.jpg"
     src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs="
@@ -565,7 +565,7 @@ Hexo 的 after generator 钩子在页面生成时将特征（不只是 meta 一�
 
 ## 划词翻译
 
-<figure class="center,lazyload">
+<figure class="center">
   <img
     data-src="/uploads/2018/12/20181216028.jpg"
     src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs="
@@ -582,7 +582,7 @@ Hexo 的 after generator 钩子在页面生成时将特征（不只是 meta 一�
 
 ## 哔哩哔哩助手：bilibili.com 综合辅助扩展
 
-<figure class="center,lazyload">
+<figure class="center">
   <img
     data-src="/uploads/2018/12/20181216029.png"
     src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs="
@@ -597,7 +597,7 @@ B 站增强扩展，有这款就够了。好用！啾咕咕www 牛掰。AB 站�
 
 ## 眼不见心不烦（新浪微博）
 
-<figure class="center,lazyload">
+<figure class="center">
   <img
     data-src="/uploads/2018/12/20181216030.png"
     src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs="

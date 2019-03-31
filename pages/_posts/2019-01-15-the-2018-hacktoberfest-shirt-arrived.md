@@ -12,7 +12,7 @@ updated: 2019-01-15 02:19:44
 cover: /uploads/2019/01/20190114001.png
 ---
 
-<figure class="center,lazyload">
+<figure class="center">
   <img
     data-src="/uploads/2019/01/20190114002.jpg"
     src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs="
@@ -30,7 +30,7 @@ cover: /uploads/2019/01/20190114001.png
 在活动期间内在 GitHub 上发出并且被合并 5 次 Pull-Request，
 就能登记领取文化 T 恤。挺好的。
 
-<figure class="center,lazyload">
+<figure class="center">
   <img
     data-src="/uploads/2019/01/20190114003.png"
     src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs="
@@ -49,7 +49,7 @@ cover: /uploads/2019/01/20190114001.png
 
 邮政晚上 9 点下班关门，赶着时间提前溜去了目的地拿到了包裹。
 
-<figure class="center,lazyload">
+<figure class="center">
   <img
     data-src="/uploads/2019/01/20190114004.jpg"
     src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs="
@@ -74,7 +74,7 @@ cover: /uploads/2019/01/20190114001.png
 
 接下来算是“开箱”。
 
-<figure class="center,lazyload">
+<figure class="center">
   <img
     data-src="/uploads/2019/01/20190114005.jpg"
     src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs="
@@ -89,7 +89,7 @@ cover: /uploads/2019/01/20190114001.png
 整件衣服就是稍微浅色一点的酒红色。挑了最小号的，感觉刚刚好。正面一个大号
 Hacktoberfest LOGO，右侧衣袖印了活动主办方的产品 LOGO，这样你穿出去就是“移动广告”啦。
 
-<figure class="center,lazyload">
+<figure class="center">
   <img
     data-src="/uploads/2019/01/20190114006.jpg"
     src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs=">
@@ -97,7 +97,7 @@ Hacktoberfest LOGO，右侧衣袖印了活动主办方的产品 LOGO，这样你
 
 DigitalOcean、GitHub 以及不认识的 Twilio。
 
-<figure class="center,lazyload">
+<figure class="center">
   <img
     data-src="/uploads/2019/01/20190114007.jpg"
     src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs="
@@ -106,7 +106,7 @@ DigitalOcean、GitHub 以及不认识的 Twilio。
    <figcaption><p>Hacktoberfest 2018 LOGO</p></figcaption>
 </figure>
 
-<figure class="center,lazyload">
+<figure class="center">
   <img
     data-src="/uploads/2019/01/20190114008.jpg"
     src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs="
@@ -115,7 +115,7 @@ DigitalOcean、GitHub 以及不认识的 Twilio。
    <figcaption><p>整件衣服所有能找到的图案</p></figcaption>
 </figure>
 
-<figure class="center,lazyload">
+<figure class="center">
   <img
     data-src="/uploads/2019/01/20190114009.jpg"
     src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs="
@@ -126,7 +126,7 @@ DigitalOcean、GitHub 以及不认识的 Twilio。
 
 哈哈哈，我看得这个“VERY IMPORTANT TEE”的时候真的笑了。这衣服牌子起的名字真有意思。
 
-<figure class="center,lazyload">
+<figure class="center">
   <img
     data-src="/uploads/2019/01/20190114010.jpg"
     src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs="
@@ -138,7 +138,7 @@ DigitalOcean、GitHub 以及不认识的 Twilio。
 一半棉一半涤纶……倒是摸得出来棉量一般。产地 Honduras 洪都拉斯，拉丁美洲国家……
 所以这件衣服有飞了快一圈地球了吗？
 
-<figure class="center,lazyload">
+<figure class="center">
   <img
     data-src="/uploads/2019/01/20190114011.jpg"
     src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs="
@@ -147,7 +147,7 @@ DigitalOcean、GitHub 以及不认识的 Twilio。
    <figcaption><p>Hacktoberfest 2018 LOGO 细节</p></figcaption>
 </figure>
 
-<figure class="center,lazyload">
+<figure class="center">
   <img
     data-src="/uploads/2019/01/20190114002.jpg"
     src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs="
@@ -156,7 +156,7 @@ DigitalOcean、GitHub 以及不认识的 Twilio。
    <figcaption><p>Hacktoberfest 2018 LOGO 细节</p></figcaption>
 </figure>
 
-<figure class="center,lazyload">
+<figure class="center">
   <img
     data-src="/uploads/2019/01/20190114012.jpg"
     src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs="
@@ -169,7 +169,7 @@ DigitalOcean、GitHub 以及不认识的 Twilio。
 这种衣服，放洗衣机里拉扯几次，估计印花就烂的差不多了。所以这些文化广告 T 呢，
 很多情况下要么穿的话就手洗，要么就……不愿做移动广告，供起来做收藏咯哈哈哈……
 
-<figure class="center,lazyload">
+<figure class="center">
   <img
     data-src="/uploads/2019/01/20190114013.jpg"
     src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs="
@@ -181,7 +181,7 @@ DigitalOcean、GitHub 以及不认识的 Twilio。
 四张贴纸，分别对应 GitHub 章鱼猫、DigitalOcean 鲨鱼、Hacktoberfest LOGO 以及
 不认识的 Twilio。剩下那个大概是马克杯垫。贴纸是真的小惊喜了，章鱼猫挺好的。
 
-<figure class="center,lazyload">
+<figure class="center">
   <img
     data-src="/uploads/2019/01/20190114014.jpg"
     src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs="
@@ -194,7 +194,7 @@ DigitalOcean、GitHub 以及不认识的 Twilio。
 发推分享 2333。我在推上搜索看到有不少分享了，并且才知道除了这一款 DigitalOcean
 联名的酒红色 T 恤外，还有微软款等其它款的！我觉得还更好看，有点羡慕……
 
-<figure class="center,lazyload">
+<figure class="center">
   <img
     data-src="/uploads/2019/01/20190114015.jpg"
     src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs="

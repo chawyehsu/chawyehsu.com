@@ -11,11 +11,10 @@ description: >-
   不妨可以尝试一下 Scoop PowerShell Concfg 这套组合。
 date: 2018-05-12 21:44:39
 updated: 2018-11-03 00:46:50
-lazyload: true
 cover: /uploads/2018/12/20181225004.png
 ---
 
-<figure class="center,lazyload">
+<figure class="center">
   <img
     data-src="/uploads/2018/05/20180512001.gif"
     src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs="
@@ -68,7 +67,7 @@ Scoop 只是一个安装工具（installer），不应该被称为包管理器�
 [https://www.python.org/](https://www.python.org/downloads/)
 网页，找到并下载安装包，双击安装程序。而是直接一句命令，然后等完成就行了。
 
-<figure class="right,lazyload">
+<figure class="right">
   <img
     data-src="/uploads/2018/02/20180213002.png"
     src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs="
@@ -125,7 +124,7 @@ Scoop 的安装说明真的很直截了当，有且仅有那一行命令，没�
 而 Scoop 默认仅需普通用户权限，安装路径是 `%USERPROFILE%\scoop` 则显得比较清新，
 不过这都是可以根据需求修改的了。
 
-<figure class="left,lazyload">
+<figure class="left">
   <img
     data-src="/uploads/2018/05/20180506001.png"
     src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs="
@@ -178,7 +177,7 @@ set-executionpolicy remotesigned -s currentuser
 iex (new-object net.webclient).downloadstring('https://get.scoop.sh')
 ```
 
-<figure class="center,lazyload">
+<figure class="center">
   <img
     data-src="/uploads/2018/05/20180510001.png"
     src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs="
@@ -214,7 +213,7 @@ Binaries:
 就像介绍视频里说的那样，Scoop 默认不会污染用户的 PATH 环境变量（除非软件包
 有修改环境变量的定义），而是使用垫片（shims）来进行统一管理调用执行文件。
 
-<figure class="right,lazyload">
+<figure class="right">
   <img
     data-src="/uploads/2018/05/20180510002.png"
     src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs="
@@ -285,7 +284,7 @@ Scoop 是一个从个人项目开始，发展到现在由社区维护的开源�
 所以也就没有所谓稳定版本。只要 Scoop 的 GitHub 仓库有新的 commits，
 用户通过 `scoop update` 命令就会拉取所有的 commits 更新。
 
-<figure class="right,lazyload">
+<figure class="right">
   <img
     data-src="/uploads/2018/05/20180512004.png"
     src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs="
@@ -334,7 +333,7 @@ Scoop 本身的仓库维护其核心功能代码，并打上 tags，发布 relea
 稳定前进，加加子命令完善体验之类的，虽然 Scoop 似乎是被越来越多人发现，
 当然越来越多人用意味着会有越来越多的新需求和新问题（所以我才觉得得有稳定版本）。
 
-<figure class="center,lazyload">
+<figure class="center">
   <img
     data-src="/uploads/2018/05/20180512003.png"
     src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs="
