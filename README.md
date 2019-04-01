@@ -26,8 +26,10 @@ $ cd www.h404bi.com
 ### Run and play:
 
 ``` sh
-# Install dependencies and start dev server
-$ yarn && yarn dev
+# Bootstrap, install dependencies
+$ yarn bootstrap
+# Start dev server
+$ yarn dev
 # Listening 127.0.0.1:3000
 ```
 
