@@ -2,12 +2,18 @@
   "name": "saber-plugin-generate-sitemap",
   "version": "0.0.1",
   "description": "Sitemap generator plugin for Saber",
-  "author": "Chawye Hsu <h404bi@outlook.com>",
+  "author": "Chawye Hsu <h404bi@gmail.com>",
+  "homepage": "https://github.com/h404bi/www.h404bi.com#readme",
   "license": "MIT",
   "main": "lib/index.js",
   "files": [
     "lib"
   ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/h404bi/www.h404bi.com.git",
+    "directory": "packages/saber-plugin-generate-sitemap"
+  },
   "dependencies": {
     "ejs": "^2.6.1"
   }

@@ -1,4 +1,3 @@
-/* eslint-disable */
 const url = require('url')
 const path = require('path')
 const ejs = require('ejs')

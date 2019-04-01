@@ -1,8 +1,18 @@
 {
   "name": "saber-theme-mina",
   "version": "0.0.1",
-  "description": "A concise Saber theme, port from hexo-theme-mina",
-  "author": "Chawye Hsu <h404bi@outlook.com>",
+  "description": "A concise Saber theme, ported from hexo-theme-mina",
+  "author": "Chawye Hsu <h404bi@gmail.com>",
+  "homepage": "https://github.com/h404bi/www.h404bi.com#readme",
   "license": "MIT",
-  "private": true
+  "private": true,
+  "dependencies": {
+    "disqusjs": "^1.2.3",
+    "intersection-observer": "^0.5.1",
+    "lozad": "^1.9.0",
+    "normalize.css": "^8.0.1",
+    "suitcss-components-flex-embed": "^2.0.4",
+    "tinytime": "^0.2.6",
+    "vue-headroom": "^0.9.0"
+  }
 }

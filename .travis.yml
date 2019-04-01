@@ -29,13 +29,8 @@ before_install:
   - cd www.h404bi.com
 
 script:
-  # Install plugin dependencies
-  - cd ./packages/saber-plugin-generate-feed/
-  - yarn
-  - cd ..
-  - cd ./saber-plugin-generate-sitemap/
-  - yarn
-  - cd ../..
+  # Install dependencies
+  - yarn bootstrap
   # Compile and generate to site
   - yarn build
 
