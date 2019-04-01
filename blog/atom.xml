@@ -2,13 +2,14 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://www.h404bi.com</id>
     <title>Chawye Hsu, H404bi</title>
-    <updated>2019-04-01T06:47:28.397Z</updated>
-    <generator>Feed for Saberjs</generator>
+    <updated>2019-04-01T11:55:21.152Z</updated>
+    <generator>Saber.js</generator>
     <author>
         <name>h404bi</name>
+        <uri>https://www.h404bi.com</uri>
     </author>
     <link rel="alternate" href="https://www.h404bi.com"/>
-    <link rel="self" href="/blog/atom.xml"/>
+    <link rel="self" href="https://www.h404bi.com/blog/atom.xml"/>
     <subtitle>Personal Website of Chawye Hsu.</subtitle>
     <rights>All rights reserved</rights>
     <entry>
@@ -17,7 +18,8 @@
         <link href="https://www.h404bi.com/blog/2019/02/18/understanding-windows-console-host-settings.html">
         </link>
         <updated>2019-03-06T15:15:20.000Z</updated>
-        <summary type="html"><![CDATA[Windows Console Host（即 conhost.exe）中的设置（如命令行字体等）可能有点 难以理解，主要是因为在过去几十年中这个设置系统不断发展。根据 ConHost 如何 被调用，这些设置项会存储在不同的位置。]]></summary>
+        <summary type="html"><![CDATA[Windows Console Host（即 conhost.exe，下称“ConHost”[1]）中的设置可能有点难以理解，主要是因为在过去几十年中这个设置系统不断发展。根据 ConHost 如何被调用，这些设置项会存储在不同的位置。
+]]></summary>
         <content type="html"><![CDATA[<p>Windows Console Host（即 <code v-pre="">conhost.exe</code>，下称“ConHost”<sup class="footnote-ref"><a href="#fn1" id="fnref1">[1]</a></sup>）中的设置可能有点难以理解，主要是因为在过去几十年中这个设置系统不断发展。根据 ConHost 如何被调用，这些设置项会存储在不同的位置。</p>
 <p><img src="/uploads/2019/02/20190218001.png" alt="控制台设置"></p>
 <h2 id="%E8%AE%BE%E7%BD%AE%E5%8A%A0%E8%BD%BD%E7%9A%84%E5%B1%82%E7%BA%A7">设置加载的层级</h2>
@@ -237,7 +239,8 @@ Windows 控制台设置的工具，近期成为了该项目的协作者进行项
         <link href="https://www.h404bi.com/blog/2019/01/15/the-2018-hacktoberfest-shirt-arrived.html">
         </link>
         <updated>2019-01-14T18:19:44.000Z</updated>
-        <summary type="html"><![CDATA[历经数月，GitHub 章鱼猫寄来的 T 恤竟然寄到了，而且还有小惊喜。起因是 去年参加了由 GitHub 和 DigitalOcean 联合举办的 Hacktoberfest 2018 活动。 据说已经是第五届了，活动目的就是鼓励更多的人对开源社区做出贡献，支持开源项目。 活动期间内在 GitHub 上发出且被合并 5 次拉取请求，就能登记领取文化 T 恤。]]></summary>
+        <summary type="html"><![CDATA[竟然寄到了，而且还有小惊喜。
+]]></summary>
         <content type="html"><![CDATA[<figure class="center">
   <img
     data-src="/uploads/2019/01/20190114002.jpg"
@@ -388,7 +391,9 @@ Hacktoberfest LOGO，右侧衣袖印了活动主办方的产品 LOGO，这样你
         <link href="https://www.h404bi.com/blog/2018/12/21/chrome-extensions-that-i-am-using.html">
         </link>
         <updated>2018-12-21T03:00:17.000Z</updated>
-        <summary type="html"><![CDATA[Chrome 好用的一大原因是拥有各种各样数不清的扩展程序，丰富的扩展资源能给用户 带来许多方便的增强功能。其实扩展的使用跟个人平时日常生活的使用习惯是有很大 关联的，比如喜欢浏览些什么网站、使用什么服务、以及从事什么工作等等。]]></summary>
+        <summary type="html"><![CDATA[想不到在 Microsoft Edge 正式发布后的第三年，微软官方宣布了 Edge 将放弃自家的内核引擎，转而去拥抱在当前浏览器生态中占据统治地位的 Google Chromium。继 Opera
+之后，“Chromium 家族”又将迎来新的成员。这无疑是一个重磅消息，对于用户而言，对于微软自己而言，带来的影响都是巨大的。
+]]></summary>
         <content type="html"><![CDATA[<p>想不到在 Microsoft Edge 正式发布后的第三年，微软官方宣布了 Edge 将放弃自家的内核引擎，转而去拥抱在当前浏览器生态中占据统治地位的 Google Chromium。继 Opera
 之后，“Chromium 家族”又将迎来新的成员。这无疑是一个重磅消息，对于用户而言，对于微软自己而言，带来的影响都是巨大的。</p>
 <p>内核统一后，可以预见的是，前端开发者们花在浏览器兼容上的时间应该会再减少。同时微软在宣布这个消息时，也确认了 Edge 将能无缝支持 Chrome 的全部扩展，这对于开发者和用户而言肯定是有好处的。要知道，Chrome 好用的一大原因是拥有各种各样数不清的扩展程序，丰富的扩展资源能给用户带来许多方便的增强功能。</p>
@@ -798,7 +803,8 @@ Hexo 的 after generator 钩子在页面生成时将特征（不只是 meta 一�
         <link href="https://www.h404bi.com/blog/2018/05/12/talk-about-scoop-the-package-manager-for-windows-again.html">
         </link>
         <updated>2018-11-02T16:46:50.000Z</updated>
-        <summary type="html"><![CDATA[与 Chocolatey Windows 包管理工具（Package Manager）相比， Scoop 是一款更为轻量的 Windows 包管理器。本文将对比 Chocolatey Scoop 这两款工具的区别，介绍一下 Scoop 安装使用体验，如果你没有重度的包管理需求， 不妨可以尝试一下 Scoop PowerShell Concfg 这套组合。]]></summary>
+        <summary type="html"><![CDATA[在 2015 年的《用 Scoop 改善 Windows Powershell》博文中，我曾经介绍过这个令我眼前一亮的 Windows 软件包管理器。那是我刚开始使用上 Scoop 的时候，回看过去对它的介绍，也确像是一见钟情后的入坑纪实。简单，直接。
+]]></summary>
         <content type="html"><![CDATA[<figure class="center">
   <img
     data-src="/uploads/2018/05/20180512001.gif"
@@ -1082,7 +1088,8 @@ Scoop 本身的仓库维护其核心功能代码，并打上 tags，发布 relea
         <link href="https://www.h404bi.com/blog/2018/03/24/office-2016-custom-installation-guide.html">
         </link>
         <updated>2018-03-25T05:00:00.000Z</updated>
-        <summary type="html"><![CDATA[本文将简要说明一下 Office 2016 自定义安装的方法，以及提供 Outlook 关闭时不退出， Outlook 关闭时最小化到托盘的小技巧，适合想 Office 只安装 Word、Excel 的同学。]]></summary>
+        <summary type="html"><![CDATA[
+]]></summary>
         <content type="html"><![CDATA[<p><img src="/uploads/2018/03/20180324001.jpg" alt="Microsoft Office"></p>
 <p>作为宇宙第一 IDE Visual Studio 的兄弟，宇宙第一办公套件 Office 在 Windows
 系统下更加常见。新安装的系统，即使刚开始不愿安装，等到要查看编辑 docx pptx
@@ -1159,7 +1166,8 @@ Excel、Powerpoint 以及 Outlook，其它全部排除。如果想把 Outlook �
         <link href="https://www.h404bi.com/blog/2018/01/01/the-tao-of-notch-beyond-twitter.html">
         </link>
         <updated>2018-01-01T04:40:34.000Z</updated>
-        <summary type="html"><![CDATA[公众最近已较少听到我的世界作者 notch 相关的消息。 在出售 Mojang 与购买豪宅之后，他曾接受过一些采访， 但自那以后他一直都很沉默。本文是一篇访谈， 试图了解 notch 为什么离开等内容。]]></summary>
+        <summary type="html"><![CDATA[自 Notch 出售了 Minecraft，出售了 Mojang 公司后，他在 Minecraft 方面的消息也随着 Minecraft 逐年下降的热度而减少。因此也有人跟我说，微软收购 Minecraft 的那一刻是 Minecraft 的巅峰，Notch 退出得很及时。卖掉 Minecraft 之后的 Notch 经历了怎样的一段过渡期；为何在《Minecraft: The Story of Mojang》纪录片[1]中还是在 Minecon 与粉丝见面时给人的感觉都是平易近人的他，在推特上却常常出言惊人；Notch 是否还有在做些什么游戏；以及他平时有喜欢玩什么游戏。也许你也会有一些这样的疑惑。
+]]></summary>
         <content type="html"><![CDATA[<h2 id="%E5%89%8D%E8%A8%80">前言</h2>
 <p>自 Notch 出售了 Minecraft，出售了 Mojang 公司后，他在 Minecraft 方面的消息也随着 Minecraft 逐年下降的热度而减少。因此也有人跟我说，微软收购 Minecraft 的那一刻是 Minecraft 的巅峰，Notch 退出得很及时。卖掉 Minecraft 之后的 Notch 经历了怎样的一段过渡期；为何在《Minecraft: The Story of Mojang》纪录片<sup class="footnote-ref"><a href="#fn1" id="fnref1">[1]</a></sup>中还是在 Minecon 与粉丝见面时给人的感觉都是平易近人的他，在推特上却常常出言惊人；Notch 是否还有在做些什么游戏；以及他平时有喜欢玩什么游戏。也许你也会有一些这样的疑惑。</p>
 <p>本文是人物访谈 The Tao of Notch - Beyond Twitter 的译文版本，原文作者 Brad Glasgow，原文于 2016 年 8 月 4 日发布在 The Escapist 网站上。<sup class="footnote-ref"><a href="#fn2" id="fnref2">[2]</a></sup>由本人进行翻译，断断续续耗时近 5 个月，文中涉及大量需要翻查各类资料（甚至观看电影）后才能理解的游戏相关或非游戏相关的内容，如詹代法则、游戏门事件与女权、楚门的世界、以及各种美国俚语、游戏梗等等。译者翻译能力有限，如果你在阅读期间遇到难以理解的部分，可以与英语原文进行对照阅读。同时如果你有更好的理解与翻译或者有纠错，欢迎向本文的源代码提交你的意见，感谢。（浏览器 F12 即可查看本文托管的 GitHub 仓库地址）。鉴于翻译可能有改动，为保持内容一致性，本文未经本人允许不得转载。</p>
@@ -1611,7 +1619,8 @@ Excel、Powerpoint 以及 Outlook，其它全部排除。如果想把 Outlook �
         <link href="https://www.h404bi.com/blog/2017/12/15/nintendo-switch-unboxing-and-simple-review.html">
         </link>
         <updated>2017-12-16T10:04:00.000Z</updated>
-        <summary type="html"><![CDATA[在双十二这天，我咬咬牙买下了任天堂 Switch 和马里奥奥德赛。在进行 NS 开箱后写下这边文章作为记录， 记录一下 Switch 港版开箱含哪些配件等信息，简述一下 Switch 到底值不值得买。]]></summary>
+        <summary type="html"><![CDATA[恭喜任家的 Switch 销量突破千万！在任天堂宣布 Switch 历时九个月全球销量突破 1000 万的双十二当天，我咬咬牙，也成了千万分之一员。友人说我充值了信仰，其实我大概也不是 Nintendo 的热衷粉丝，不然估计早早就收入囊中。只是今年 NS 确实是够火热，这不其独占的《塞尔达传说：荒野之息》才拿下了 TGA 年度最佳游戏。
+]]></summary>
         <content type="html"><![CDATA[<p>恭喜任家的 Switch 销量突破千万！在任天堂宣布 Switch 历时九个月全球销量突破 1000 万的双十二当天，我咬咬牙，也成了千万分之一员。友人说我充值了信仰，其实我大概也不是 Nintendo 的热衷粉丝，不然估计早早就收入囊中。只是今年 NS 确实是够火热，这不其独占的《塞尔达传说：荒野之息》才拿下了 TGA 年度最佳游戏。</p>
 <p>而我又对其中的数款独占游戏颇有想游玩一番的意思。于是便拿着“根据游戏选平台”的思路，入手了人生的第二台掌上游戏机（第一台？GameBoy，也是老任家的，巧了）。继而写下这么一个记录与分（shai）享（dan），来一份多图的常规开箱，再附一个简单的短评。</p>
 <blockquote>
@@ -1989,7 +1998,8 @@ Excel、Powerpoint 以及 Outlook，其它全部排除。如果想把 Outlook �
         <link href="https://www.h404bi.com/blog/2017/02/21/a-brief-history-of-minecraft-modding.html">
         </link>
         <updated>2017-02-22T05:22:19.000Z</updated>
-        <summary type="html"><![CDATA[这是目前网络上为数不多的,能让一些在 Minecraft 非早期就加入社区的玩家,相对清晰地了解至今整个 Minecraft Modding 历程的文章]]></summary>
+        <summary type="html"><![CDATA[本文是 Minecraft 文章 A Brief History of Minecraft Modding 的译文版本，原文作者 Aaron Mills，原文于 2015 年 6 月 3 日发布在 Packt 出版社网站 PacktPub 上。[1]
+]]></summary>
         <content type="html"><![CDATA[<h2 id="%E5%89%8D%E8%A8%80">前言</h2>
 <p>本文是 Minecraft 文章 A Brief History of Minecraft Modding 的译文版本，原文作者 Aaron Mills，原文于 2015 年 6 月 3 日发布在 Packt 出版社网站 PacktPub 上。<sup class="footnote-ref"><a href="#fn1" id="fnref1">[1]</a></sup></p>
 <p>This article is a zh_CN translation of the Minecraft article &quot;A Brief History of Minecraft Modding&quot;, which was originally published on PacktPub at June 03rd, 2015, the original author is Aaron Mills.</p>
@@ -2063,7 +2073,8 @@ Excel、Powerpoint 以及 Outlook，其它全部排除。如果想把 Outlook �
         <link href="https://www.h404bi.com/blog/2017/02/12/henet-6in4-ipv6-tunnel-on-openwrt.html">
         </link>
         <updated>2017-02-12T12:44:53.000Z</updated>
-        <summary type="html"><![CDATA[本文将介绍关于 OpenWrt IPv6 He.net 相关的内容，记录如何利用 he.net  在 Openwrt 配置 IPv6 隧道，以及配置完成后进行 ipv6 测试验证， 确定 Openwrt 6in4 的可用性。 ]]></summary>
+        <summary type="html"><![CDATA[之前还在大学时，除开锐捷，由于内网的原因，要玩 IPv6 的话就只能用六飞之类的工具。工作后，发现在住所报装的网络，居然给（是的，长这么大第一次在家用宽带得到）了公网 IP。刚开始时想过利用这个公网 IP 来搞个 Minecraft“家庭服”，对小伙伴们开放。但折腾下来发现上传太可怜了，还是不祸害小伙伴了。
+]]></summary>
         <content type="html"><![CDATA[<p>之前还在大学时，除开锐捷，由于内网的原因，要玩 IPv6 的话就只能用六飞之类的工具。工作后，发现在住所报装的网络，居然给（是的，长这么大第一次在家用宽带得到）了公网 IP。刚开始时想过利用这个公网 IP 来搞个 Minecraft“家庭服”，对小伙伴们开放。但折腾下来发现上传太可怜了，还是不祸害小伙伴了。</p>
 <p>就这样过了许久。突然心血来潮，看能不能试试在校时想搞的 <a href="http://he.net" target="_blank" rel="noopener noreferrer">he.net</a> 6in4 隧道，发现配置下来还挺简单的。因为这个玩法其实已经有好多人实践过了<sup class="footnote-ref"><a href="#fn1" id="fnref1">[1]</a></sup><sup class="footnote-ref"><a href="#fn2" id="fnref2">[2]</a></sup><sup class="footnote-ref"><a href="#fn3" id="fnref3">[3]</a></sup><sup class="footnote-ref"><a href="#fn4" id="fnref4">[4]</a></sup>，我也就是搜搜折腾记录下。</p>
 <h2 id="%E5%88%9B%E5%BB%BA-he-6in4-%E9%9A%A7%E9%81%93">创建 HE 6in4 隧道</h2>
@@ -2102,6 +2113,8 @@ Excel、Powerpoint 以及 Outlook，其它全部排除。如果想把 Outlook �
         <link href="https://www.h404bi.com/blog/2017/01/01/2016-2017.html">
         </link>
         <updated>2017-01-30T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[新的一年，还是捡捡（又？）荒废了近一年小站吧。改改主题，写写回顾，看看过去一年自己都经历了些什么。
+]]></summary>
         <content type="html"><![CDATA[<p>新的一年，还是捡捡（又？）荒废了近一年小站吧。改改主题，写写回顾，看看过去一年自己都经历了些什么。</p>
 <p>1月：实习结束。也是无法想象能作为半个月 Python 新鸟入职，然后接坑微信开发。。。跟着 JS-SDK 走了一遍，入门了 Flask。因为想花点时间搞搞毕设，提前离了职。</p>
 <p>2月：问答系统，自然语言处理方向的毕设课题，完全下不了手，还是先过年吧。港澳通行证 get。</p>
@@ -2135,6 +2148,8 @@ Excel、Powerpoint 以及 Outlook，其它全部排除。如果想把 Outlook �
         <link href="https://www.h404bi.com/blog/2015/10/02/dot-im-domain-renewal.html">
         </link>
         <updated>2015-10-05T06:30:54.000Z</updated>
+        <summary type="html"><![CDATA[去年十月，也不知道是哪根经出错了，剁了个 .im 域名。在域名怪兽买入的，当时 checkout 时才知道仅支持 CC 及 CC through Paypal 付款。
+]]></summary>
         <content type="html"><![CDATA[<p>去年十月，也不知道是哪根经出错了，剁了个 .im 域名。在域名怪兽买入的，当时 checkout 时才知道仅支持 CC 及 CC through Paypal 付款。</p>
 <p>学生狗没有 CC，域名很想买，又要省钱。于是就用了很多人都想到或用过的 VCC。那时错过了财付通的运通卡，了解了各种 VCC 后就选了全球付。扣了不少转换费手续费后买下了域名。</p>
 <p>然后今年续费的麻烦事来了，爽后擦屁股。</p>
@@ -2184,6 +2199,8 @@ Excel、Powerpoint 以及 Outlook，其它全部排除。如果想把 Outlook �
         <link href="https://www.h404bi.com/blog/2015/09/20/new-mac-env-bootstrap.html">
         </link>
         <updated>2015-09-20T09:28:19.000Z</updated>
+        <summary type="html"><![CDATA[入坑 Mac OS X，写点 note (nonsense) 以备玩坏系统重装时翻查。
+]]></summary>
         <content type="html"><![CDATA[<p>入坑 Mac OS X，写点 note (nonsense) 以备玩坏系统重装时翻查。</p>
 <h2 id="command-line-tools-for-xcode">Command Line Tools for Xcode</h2>
 <p>OS X 系统不像 Ubuntu 等发行版，系统默认是不包含编译工具链的（因为不是每位用户都需要吧，人性化？）。所以在使用时如果执行到含有诸如 gcc、make 等命令时，就会出现以下情况：</p>
@@ -2231,6 +2248,11 @@ Excel、Powerpoint 以及 Outlook，其它全部排除。如果想把 Outlook �
         <link href="https://www.h404bi.com/blog/2015/08/23/use-scoop-to-enhance-windows-powershell.html">
         </link>
         <updated>2015-09-04T09:19:38.000Z</updated>
+        <summary type="html"><![CDATA[软件包管理工具想必大家已经很清楚并且使用过。Debian/ Ubuntu 的 apt-get，
+Arch Linux 的 Pacman，就连本身并无自带包管理工具的 Mac 都有了 Macports
+和极其好用的 Homebrew。至于 Windows 下，
+Geek 们也生产出各式各样的工具以贴合他们的 *nix 使用习惯。其中软件包管理工具中比较出名的就是 chocolatey 了。
+]]></summary>
         <content type="html"><![CDATA[<p style="text-align:center">
 <a href="/blog/2018/05/12/talk-about-scoop-the-package-manager-for-windows-again.html">
 <strong>关于 Scoop 的新文章</strong></a>
@@ -2287,6 +2309,8 @@ scoop 官方的 Packages 是 <a href="https://github.com/lukesampson/scoop/tree/
         <link href="https://www.h404bi.com/blog/2015/05/20/hello-world.html">
         </link>
         <updated>2015-09-09T13:32:27.000Z</updated>
+        <summary type="html"><![CDATA[欢迎回到地球。
+]]></summary>
         <content type="html"><![CDATA[<p><s>欢迎回到地球。</s></p>
 <p>每次在硬盘找旧文件时，总会经意或不经意地点进放有旧博客备份的目录。然后心里想什么时候再处理下这些博文数据呢？等到终于解压博客档案，导入 SQL 后，发现也没什么值得转换的。既然都打开了，还是截些图纪念一下吧。以后应该就不会再打开了，当然数据还会留档。</p>
 <figure class="center">
