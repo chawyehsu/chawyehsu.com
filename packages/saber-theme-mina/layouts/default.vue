@@ -36,9 +36,26 @@ export default {
     lozad(document.querySelectorAll('.post-content img')).observe()
   },
   head() {
-    return {
-      title: `${this.page.attributes.title} - ${this.$siteConfig.title}`
+    const head = {
+      title: `${this.page.attributes.title} - ${this.$siteConfig.title}`,
+      meta: []
     }
+
+    if (this.page.attributes.keywords) {
+      head.meta.push({
+        name: 'keywords',
+        content: `${this.page.attributes.keywords}`
+      })
+    }
+
+    if (this.page.attributes.description) {
+      head.meta.push({
+        name: 'description',
+        content: `${this.page.attributes.description}`
+      })
+    }
+
+    return head
   }
 }
 </script>
