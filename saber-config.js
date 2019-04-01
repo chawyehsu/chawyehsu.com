@@ -104,12 +104,9 @@ module.exports = {
       }
     },
     {
-      resolve: './packages/saber-plugin-generate-feed',
+      resolve: 'saber-plugin-generate-feed',
       options: {
-        feeds: {
-          json: '/feed.json',
-          atom: '/blog/atom.xml'
-        }
+        atomFeed: '/blog/atom.xml'
       }
     },
     {
