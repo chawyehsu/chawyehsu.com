@@ -24,7 +24,13 @@
 export default {
   head() {
     return {
-      title: `${this.$siteConfig.title}`
+      title: this.$siteConfig.title
+      meta: [
+        {
+          name: 'description',
+          content: this.$siteConfig.description
+        }
+      ]
     }
   }
 }
