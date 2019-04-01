@@ -1,6 +1,6 @@
 # Hello World!
 
-[![Powered by Saber](https://img.shields.io/badge/Powered%20by-Saber-FF8AD8.svg?style=flat-square)](https://saberjs.org/) [![Travis](https://img.shields.io/travis/h404bi/www.h404bi.com.svg?style=flat-square)](https://travis-ci.org/h404bi/www.h404bi.com) [![Website Status](https://img.shields.io/website-up-down-green-red/https/h404bi.com.svg?style=flat-square)](https://www.h404bi.com) [![build with vscode](https://img.shields.io/badge/build%20with-vscode-blue.svg?style=flat-square)](https://code.visualstudio.com) [![David](https://img.shields.io/david/h404bi/www.h404bi.com.svg?style=flat-square)](https://github.com/h404bi/www.h404bi.com)
+[![Powered by Saber](https://img.shields.io/badge/Powered%20by-Saber-FF8AD8.svg?style=flat-square)](https://saberjs.org/) [![Travis](https://img.shields.io/travis/com/h404bi/www.h404bi.com/master.svg?style=flat-square)](https://www.travis-ci.com/h404bi/www.h404bi.com) [![Website Status](https://img.shields.io/website-up-down-green-red/https/h404bi.com.svg?style=flat-square)](https://www.h404bi.com) [![build with vscode](https://img.shields.io/badge/build%20with-vscode-blue.svg?style=flat-square)](https://code.visualstudio.com) [![David](https://img.shields.io/david/h404bi/www.h404bi.com.svg?style=flat-square)](https://github.com/h404bi/www.h404bi.com)
  ![Repo size](https://img.shields.io/github/repo-size/h404bi/www.h404bi.com.svg?style=flat-square&colorB=328657)
 
 This repo contains all the source code of h404bi's frigidity [website](https://www.h404bi.com).
