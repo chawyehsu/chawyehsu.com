@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://www.h404bi.com</id>
     <title>Chawye Hsu, H404bi</title>
-    <updated>2019-04-02T04:47:39.239Z</updated>
+    <updated>2019-04-02T06:54:21.782Z</updated>
     <generator>Saber.js</generator>
     <author>
         <name>h404bi</name>
@@ -14,8 +14,8 @@
     <rights>All rights reserved</rights>
     <entry>
         <title type="html"><![CDATA[彻底搞懂 Windows 控制台的设置]]></title>
-        <id>/blog/2019/02/18/understanding-windows-console-host-settings.html</id>
-        <link href="https://www.h404bi.com/blog/2019/02/18/understanding-windows-console-host-settings.html">
+        <id>/blog/2019/02/understanding-windows-console-host-settings</id>
+        <link href="https://www.h404bi.com/blog/2019/02/understanding-windows-console-host-settings">
         </link>
         <updated>2019-03-06T15:15:20.000Z</updated>
         <summary type="html"><![CDATA[Windows Console Host（即 conhost.exe，下称“ConHost”[1]）中的设置可能有点难以理解，主要是因为在过去几十年中这个设置系统不断发展。根据 ConHost 如何被调用，这些设置项会存储在不同的位置。
@@ -235,8 +235,8 @@ Windows 控制台设置的工具，近期成为了该项目的协作者进行项
     </entry>
     <entry>
         <title type="html"><![CDATA[历经数月，GitHub 章鱼猫寄来的 T 恤竟然……]]></title>
-        <id>/blog/2019/01/15/the-2018-hacktoberfest-shirt-arrived.html</id>
-        <link href="https://www.h404bi.com/blog/2019/01/15/the-2018-hacktoberfest-shirt-arrived.html">
+        <id>/blog/2019/01/the-2018-hacktoberfest-shirt-arrived</id>
+        <link href="https://www.h404bi.com/blog/2019/01/the-2018-hacktoberfest-shirt-arrived">
         </link>
         <updated>2019-01-14T18:19:44.000Z</updated>
         <summary type="html"><![CDATA[竟然寄到了，而且还有小惊喜。
@@ -387,8 +387,8 @@ Hacktoberfest LOGO，右侧衣袖印了活动主办方的产品 LOGO，这样你
     </entry>
     <entry>
         <title type="html"><![CDATA[我都在用些什么 Chrome 扩展程序]]></title>
-        <id>/blog/2018/12/21/chrome-extensions-that-i-am-using.html</id>
-        <link href="https://www.h404bi.com/blog/2018/12/21/chrome-extensions-that-i-am-using.html">
+        <id>/blog/2018/12/chrome-extensions-that-i-am-using</id>
+        <link href="https://www.h404bi.com/blog/2018/12/chrome-extensions-that-i-am-using">
         </link>
         <updated>2018-12-21T03:00:17.000Z</updated>
         <summary type="html"><![CDATA[想不到在 Microsoft Edge 正式发布后的第三年，微软官方宣布了 Edge 将放弃自家的内核引擎，转而去拥抱在当前浏览器生态中占据统治地位的 Google Chromium。继 Opera
@@ -799,8 +799,8 @@ Hexo 的 after generator 钩子在页面生成时将特征（不只是 meta 一�
     </entry>
     <entry>
         <title type="html"><![CDATA[再谈谈 Scoop 这个 Windows 下的软件包管理器]]></title>
-        <id>/blog/2018/05/12/talk-about-scoop-the-package-manager-for-windows-again.html</id>
-        <link href="https://www.h404bi.com/blog/2018/05/12/talk-about-scoop-the-package-manager-for-windows-again.html">
+        <id>/blog/2018/05/talk-about-scoop-the-package-manager-for-windows-again</id>
+        <link href="https://www.h404bi.com/blog/2018/05/talk-about-scoop-the-package-manager-for-windows-again">
         </link>
         <updated>2018-11-02T16:46:50.000Z</updated>
         <summary type="html"><![CDATA[在 2015 年的《用 Scoop 改善 Windows Powershell》博文中，我曾经介绍过这个令我眼前一亮的 Windows 软件包管理器。那是我刚开始使用上 Scoop 的时候，回看过去对它的介绍，也确像是一见钟情后的入坑纪实。简单，直接。
@@ -813,7 +813,7 @@ Hexo 的 after generator 钩子在页面生成时将特征（不只是 meta 一�
     title="Let us Scoop it!">
    <figcaption><p>Let us Scoop it!</p></figcaption>
 </figure>
-<p>在 2015 年的《<saber-link to="/blog/2015/08/23/use-scoop-to-enhance-windows-powershell.html">用 Scoop 改善 Windows Powershell</saber-link>》博文中，我曾经介绍过这个令我眼前一亮的 Windows 软件包管理器。那是我刚开始使用上 Scoop 的时候，回看过去对它的介绍，也确像是一见钟情后的入坑纪实。简单，直接。</p>
+<p>在 2015 年的《<saber-link to="/blog/2015/08/use-scoop-to-enhance-windows-powershell">用 Scoop 改善 Windows Powershell</saber-link>》博文中，我曾经介绍过这个令我眼前一亮的 Windows 软件包管理器。那是我刚开始使用上 Scoop 的时候，回看过去对它的介绍，也确像是一见钟情后的入坑纪实。简单，直接。</p>
 <p>那会我很快适应了 Scoop，并一直使用至今。经过这两年多的使用，我渐渐地更加依赖 Scoop 来管理一些软件。在我日常的 Windows 使用中，它带给我的便利，已不再仅仅是那时所言的“改善 Windows Powershell”。其实感觉就现在的 Scoop 而言，它确实还是挺小众的。只是最近我发现有些人通过搜索引擎浏览了我的那篇旧文，我觉得那篇文章太旧且简单了。于是挖下这么一个坑，写下这篇新文章更新下对 Scoop 的介绍与体会。</p>
 <hr>
 <h2 id="%E8%BD%AF%E4%BB%B6%E5%8C%85%E7%AE%A1%E7%90%86%E5%99%A8">软件包管理器</h2>
@@ -1084,8 +1084,8 @@ Scoop 本身的仓库维护其核心功能代码，并打上 tags，发布 relea
     </entry>
     <entry>
         <title type="html"><![CDATA[Microsoft Office 2016 自定义安装]]></title>
-        <id>/blog/2018/03/24/office-2016-custom-installation-guide.html</id>
-        <link href="https://www.h404bi.com/blog/2018/03/24/office-2016-custom-installation-guide.html">
+        <id>/blog/2018/03/office-2016-custom-installation-guide</id>
+        <link href="https://www.h404bi.com/blog/2018/03/office-2016-custom-installation-guide">
         </link>
         <updated>2018-03-25T05:00:00.000Z</updated>
         <summary type="html"><![CDATA[
@@ -1162,8 +1162,8 @@ Excel、Powerpoint 以及 Outlook，其它全部排除。如果想把 Outlook �
     </entry>
     <entry>
         <title type="html"><![CDATA[推特背后的 Notch 之道]]></title>
-        <id>/blog/2018/01/01/the-tao-of-notch-beyond-twitter.html</id>
-        <link href="https://www.h404bi.com/blog/2018/01/01/the-tao-of-notch-beyond-twitter.html">
+        <id>/blog/2018/01/the-tao-of-notch-beyond-twitter</id>
+        <link href="https://www.h404bi.com/blog/2018/01/the-tao-of-notch-beyond-twitter">
         </link>
         <updated>2018-01-01T04:40:34.000Z</updated>
         <summary type="html"><![CDATA[自 Notch 出售了 Minecraft，出售了 Mojang 公司后，他在 Minecraft 方面的消息也随着 Minecraft 逐年下降的热度而减少。因此也有人跟我说，微软收购 Minecraft 的那一刻是 Minecraft 的巅峰，Notch 退出得很及时。卖掉 Minecraft 之后的 Notch 经历了怎样的一段过渡期；为何在《Minecraft: The Story of Mojang》纪录片[1]中还是在 Minecon 与粉丝见面时给人的感觉都是平易近人的他，在推特上却常常出言惊人；Notch 是否还有在做些什么游戏；以及他平时有喜欢玩什么游戏。也许你也会有一些这样的疑惑。
@@ -1615,8 +1615,8 @@ Excel、Powerpoint 以及 Outlook，其它全部排除。如果想把 Outlook �
     </entry>
     <entry>
         <title type="html"><![CDATA[Nintendo Switch 开箱与简评]]></title>
-        <id>/blog/2017/12/15/nintendo-switch-unboxing-and-simple-review.html</id>
-        <link href="https://www.h404bi.com/blog/2017/12/15/nintendo-switch-unboxing-and-simple-review.html">
+        <id>/blog/2017/12/nintendo-switch-unboxing-and-simple-review</id>
+        <link href="https://www.h404bi.com/blog/2017/12/nintendo-switch-unboxing-and-simple-review">
         </link>
         <updated>2017-12-16T10:04:00.000Z</updated>
         <summary type="html"><![CDATA[恭喜任家的 Switch 销量突破千万！在任天堂宣布 Switch 历时九个月全球销量突破 1000 万的双十二当天，我咬咬牙，也成了千万分之一员。友人说我充值了信仰，其实我大概也不是 Nintendo 的热衷粉丝，不然估计早早就收入囊中。只是今年 NS 确实是够火热，这不其独占的《塞尔达传说：荒野之息》才拿下了 TGA 年度最佳游戏。
@@ -1994,8 +1994,8 @@ Excel、Powerpoint 以及 Outlook，其它全部排除。如果想把 Outlook �
     </entry>
     <entry>
         <title type="html"><![CDATA[Minecraft Modding 简史]]></title>
-        <id>/blog/2017/02/21/a-brief-history-of-minecraft-modding.html</id>
-        <link href="https://www.h404bi.com/blog/2017/02/21/a-brief-history-of-minecraft-modding.html">
+        <id>/blog/2017/02/a-brief-history-of-minecraft-modding</id>
+        <link href="https://www.h404bi.com/blog/2017/02/a-brief-history-of-minecraft-modding">
         </link>
         <updated>2017-02-22T05:22:19.000Z</updated>
         <summary type="html"><![CDATA[本文是 Minecraft 文章 A Brief History of Minecraft Modding 的译文版本，原文作者 Aaron Mills，原文于 2015 年 6 月 3 日发布在 Packt 出版社网站 PacktPub 上。[1]
@@ -2069,8 +2069,8 @@ Excel、Powerpoint 以及 Outlook，其它全部排除。如果想把 Outlook �
     </entry>
     <entry>
         <title type="html"><![CDATA[Openwrt 配置 he.net IPv6 隧道]]></title>
-        <id>/blog/2017/02/12/henet-6in4-ipv6-tunnel-on-openwrt.html</id>
-        <link href="https://www.h404bi.com/blog/2017/02/12/henet-6in4-ipv6-tunnel-on-openwrt.html">
+        <id>/blog/2017/02/henet-6in4-ipv6-tunnel-on-openwrt</id>
+        <link href="https://www.h404bi.com/blog/2017/02/henet-6in4-ipv6-tunnel-on-openwrt">
         </link>
         <updated>2017-02-12T12:44:53.000Z</updated>
         <summary type="html"><![CDATA[之前还在大学时，除开锐捷，由于内网的原因，要玩 IPv6 的话就只能用六飞之类的工具。工作后，发现在住所报装的网络，居然给（是的，长这么大第一次在家用宽带得到）了公网 IP。刚开始时想过利用这个公网 IP 来搞个 Minecraft“家庭服”，对小伙伴们开放。但折腾下来发现上传太可怜了，还是不祸害小伙伴了。
@@ -2109,8 +2109,8 @@ Excel、Powerpoint 以及 Outlook，其它全部排除。如果想把 Outlook �
     </entry>
     <entry>
         <title type="html"><![CDATA[2016。2017，]]></title>
-        <id>/blog/2017/01/01/2016-2017.html</id>
-        <link href="https://www.h404bi.com/blog/2017/01/01/2016-2017.html">
+        <id>/blog/2017/01/2016-2017</id>
+        <link href="https://www.h404bi.com/blog/2017/01/2016-2017">
         </link>
         <updated>2017-01-30T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[新的一年，还是捡捡（又？）荒废了近一年小站吧。改改主题，写写回顾，看看过去一年自己都经历了些什么。
@@ -2144,8 +2144,8 @@ Excel、Powerpoint 以及 Outlook，其它全部排除。如果想把 Outlook �
     </entry>
     <entry>
         <title type="html"><![CDATA[.im 域名续费一记]]></title>
-        <id>/blog/2015/10/02/dot-im-domain-renewal.html</id>
-        <link href="https://www.h404bi.com/blog/2015/10/02/dot-im-domain-renewal.html">
+        <id>/blog/2015/10/dot-im-domain-renewal</id>
+        <link href="https://www.h404bi.com/blog/2015/10/dot-im-domain-renewal">
         </link>
         <updated>2015-10-05T06:30:54.000Z</updated>
         <summary type="html"><![CDATA[去年十月，也不知道是哪根经出错了，剁了个 .im 域名。在域名怪兽买入的，当时 checkout 时才知道仅支持 CC 及 CC through Paypal 付款。
@@ -2195,8 +2195,8 @@ Excel、Powerpoint 以及 Outlook，其它全部排除。如果想把 Outlook �
     </entry>
     <entry>
         <title type="html"><![CDATA[Newbie Mac Bootstrap]]></title>
-        <id>/blog/2015/09/20/new-mac-env-bootstrap.html</id>
-        <link href="https://www.h404bi.com/blog/2015/09/20/new-mac-env-bootstrap.html">
+        <id>/blog/2015/09/new-mac-env-bootstrap</id>
+        <link href="https://www.h404bi.com/blog/2015/09/new-mac-env-bootstrap">
         </link>
         <updated>2015-09-20T09:28:19.000Z</updated>
         <summary type="html"><![CDATA[入坑 Mac OS X，写点 note (nonsense) 以备玩坏系统重装时翻查。
@@ -2244,8 +2244,8 @@ Excel、Powerpoint 以及 Outlook，其它全部排除。如果想把 Outlook �
     </entry>
     <entry>
         <title type="html"><![CDATA[用 Scoop 改善 Windows Powershell]]></title>
-        <id>/blog/2015/08/23/use-scoop-to-enhance-windows-powershell.html</id>
-        <link href="https://www.h404bi.com/blog/2015/08/23/use-scoop-to-enhance-windows-powershell.html">
+        <id>/blog/2015/08/use-scoop-to-enhance-windows-powershell</id>
+        <link href="https://www.h404bi.com/blog/2015/08/use-scoop-to-enhance-windows-powershell">
         </link>
         <updated>2015-09-04T09:19:38.000Z</updated>
         <summary type="html"><![CDATA[软件包管理工具想必大家已经很清楚并且使用过。Debian/ Ubuntu 的 apt-get，
@@ -2254,7 +2254,7 @@ Arch Linux 的 Pacman，就连本身并无自带包管理工具的 Mac 都有了
 Geek 们也生产出各式各样的工具以贴合他们的 *nix 使用习惯。其中软件包管理工具中比较出名的就是 chocolatey 了。
 ]]></summary>
         <content type="html"><![CDATA[<p style="text-align:center">
-<a href="/blog/2018/05/12/talk-about-scoop-the-package-manager-for-windows-again.html">
+<a href="/blog/2018/05/talk-about-scoop-the-package-manager-for-windows-again">
 <strong>关于 Scoop 的新文章</strong></a>
 </p>
 <h2 id="%E4%B8%80%E6%9C%AC%E9%81%93">一本道</h2>
@@ -2305,8 +2305,8 @@ scoop 官方的 Packages 是 <a href="https://github.com/lukesampson/scoop/tree/
     </entry>
     <entry>
         <title type="html"><![CDATA[Hello World]]></title>
-        <id>/blog/2015/05/20/hello-world.html</id>
-        <link href="https://www.h404bi.com/blog/2015/05/20/hello-world.html">
+        <id>/blog/2015/05/hello-world</id>
+        <link href="https://www.h404bi.com/blog/2015/05/hello-world">
         </link>
         <updated>2015-09-09T13:32:27.000Z</updated>
         <summary type="html"><![CDATA[欢迎回到地球。
