@@ -1,7 +1,7 @@
 {
   "name": "saber-plugin-baidu-analytics",
   "version": "0.0.1",
-  "description": "Baidu Analytics plugin for Saber",
+  "description": "Baidu Analytics plugin for Saber.js",
   "author": "Chawye Hsu <h404bi@gmail.com>",
   "homepage": "https://github.com/h404bi/www.h404bi.com#readme",
   "license": "MIT",
@@ -14,5 +14,12 @@
     "type": "git",
     "url": "git+https://github.com/h404bi/www.h404bi.com.git",
     "directory": "packages/saber-plugin-baidu-analytics"
-  }
+  },
+  "keywords": [
+    "saber.js",
+    "seo",
+    "plugin",
+    "vue",
+    "static-site-generator"
+  ]
 }

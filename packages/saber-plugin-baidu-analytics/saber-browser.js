@@ -1,5 +1,3 @@
-/* eslint-disable */
-// Baidu analytics integration for Vue.js renderer
 export default function (ctx) {
   var router = ctx.router
   if (process.browser && process.env.NODE_ENV === 'production' && __BA_TRACK_ID__) {
