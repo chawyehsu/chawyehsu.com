@@ -2,4 +2,4 @@
 https://h404bi.netlify.com/* https://www.h404bi.com/:splat 301!
 
 # Redirect old permalinks to new permalinks (post)
-/blog/:year/:month/:day/:slug.html /blog/:year/:month/:slug 301!
+/blog/:year/:month/:day/:slug /blog/:year/:month/:slug 301!
