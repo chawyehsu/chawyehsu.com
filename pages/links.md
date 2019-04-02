@@ -1,12 +1,12 @@
 ---
 layout: page
 title: "Links"
-updated: 2019-03-06
+updated: 2019-04-02
 comments: false
 ---
 
 我收纳的一些博客。有单链所以不能算是友链，默认不接受申请。不过如果你实在有意愿，
-倒是可以前往我的博客的[源码仓库]，编辑 [`source/links.md`] 文件增加你的链接，
+倒是可以前往我的博客的[源码仓库]，编辑 [`pages/links.md`] 文件增加你的链接，
 然后发个拉取请求，我会视情况是否合并添加。
 
  - [Kai](https://kclu.net) - KaiKai，真是怀念那会儿咱们做字幕组的时光呀
@@ -21,4 +21,4 @@ comments: false
 </small></div>
 
 [源码仓库]: https://github.com/h404bi/www.h404bi.com
-[`source/links.md`]: https://github.com/h404bi/www.h404bi.com/blob/master/source/links.md
+[`pages/links.md`]: https://github.com/h404bi/www.h404bi.com/blob/master/pages/links.md
