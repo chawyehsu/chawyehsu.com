@@ -1303,11 +1303,12 @@
     universal-user-agent "^2.0.1"
 
 "@octokit/rest@^16.16.0":
-  version "16.22.0"
-  resolved "https://registry.yarnpkg.com/@octokit/rest/-/rest-16.22.0.tgz#461770ae6f8b5a50a85f7d1b2752645c3e01ba6a"
-  integrity sha512-1PGUwDxLuG7AZsiKaIdxJr918jcZ1FtPX0kGqxoUlssn+fIzzlwQY623gnM8vY9c9jfASD+QUQmflHh3FwBthw==
+  version "16.23.1"
+  resolved "https://registry.yarnpkg.com/@octokit/rest/-/rest-16.23.1.tgz#cbc0bbd78f3990580a64be29309eb3f709d3c762"
+  integrity sha512-Kwjt6Ue6lgRcc6enQ2O6QLkDtK1yTDJgfjrfyGar5R+fsESVomOTl1D9iq9NNSQMPaDctcpUD8C/HudjYAeoWw==
   dependencies:
     "@octokit/request" "2.4.2"
+    atob-lite "^2.0.0"
     before-after-hook "^1.4.0"
     btoa-lite "^1.0.0"
     deprecation "^1.0.1"
@@ -1741,6 +1742,11 @@ asynckit@^0.4.0:
   version "0.4.0"
   resolved "https://registry.yarnpkg.com/asynckit/-/asynckit-0.4.0.tgz#c79ed97f7f34cb8f2ba1bc9790bcc366474b4b79"
   integrity sha1-x57Zf380y48robyXkLzDZkdLS3k=
+
+atob-lite@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/atob-lite/-/atob-lite-2.0.0.tgz#0fef5ad46f1bd7a8502c65727f0367d5ee43d696"
+  integrity sha1-D+9a1G8b16hQLGVyfwNn1e5D1pY=
 
 atob@^2.1.1:
   version "2.1.2"
@@ -3024,6 +3030,11 @@ ee-first@1.1.1:
   version "1.1.1"
   resolved "https://registry.yarnpkg.com/ee-first/-/ee-first-1.1.1.tgz#590c61156b0ae2f4f0255732a158b266bc56b21d"
   integrity sha1-WQxhFWsK4vTwJVcyoViyZrxWsh0=
+
+ejs@^2.6.1:
+  version "2.6.1"
+  resolved "https://registry.yarnpkg.com/ejs/-/ejs-2.6.1.tgz#498ec0d495655abc6f23cd61868d926464071aa0"
+  integrity sha512-0xy4A/twfrRCnkhfk8ErDi5DqdAsAqeGxht4xkCUrsvhhbQNs7E+4jV0CN7+NKIY0aHE72+XvqtBIXzD31ZbXQ==
 
 electron-to-chromium@^1.3.122:
   version "1.3.122"
@@ -6593,12 +6604,29 @@ saber-markdown@^0.0.3:
   resolved "https://registry.yarnpkg.com/saber-markdown/-/saber-markdown-0.0.3.tgz#342a905040178cdd17766841c855c5152d120a2f"
   integrity sha512-Eu9vom2KqDY9a4/7gyU3QUG2QfLpu0+Yt48TZ5OZqW3ER77xutu7VKOJvjmIpo9ma9rgeKCpEQjYHAlpKC+bGw==
 
+saber-plugin-baidu-analytics@^0.0.1:
+  version "0.0.1"
+  resolved "https://registry.yarnpkg.com/saber-plugin-baidu-analytics/-/saber-plugin-baidu-analytics-0.0.1.tgz#87b4c497555c8ef57faf1dd90143def984bb378b"
+  integrity sha512-eU9oqMowKsGIeT2X8gD2NPMJuMqC3KyPMX/p/L8dzCQTy0mQZ9jKZZPWiEhzaWEkub+8CPZVL/Oq8zKTxFmheg==
+
+saber-plugin-baidu-push@^0.0.1:
+  version "0.0.1"
+  resolved "https://registry.yarnpkg.com/saber-plugin-baidu-push/-/saber-plugin-baidu-push-0.0.1.tgz#873a36638e9eddfd55dcf3f5ba405b7fbbf9c7ef"
+  integrity sha512-rH+1LxAOUvyrcOTeFJaxOisf28FB+07qBST7NFeThsp6BqfPYeaxpMMJ4OcPg48Rx69Ng3vEkdidlB0omGdstg==
+
 saber-plugin-generate-feed@0.1.2:
   version "0.1.2"
   resolved "https://registry.yarnpkg.com/saber-plugin-generate-feed/-/saber-plugin-generate-feed-0.1.2.tgz#cecdb3279b719408751f0028c7a2857b7f5e43c7"
   integrity sha512-OUeBJgAjk89L+5E1rYNuXYit8O8Wiu4yv84JUCm0MDnJD6fmfQ1Kv9L76LHM1bRtcOev8n/BztXXOu5whAWucA==
   dependencies:
     feed "^2.0.4"
+
+saber-plugin-generate-sitemap@^0.0.1:
+  version "0.0.1"
+  resolved "https://registry.yarnpkg.com/saber-plugin-generate-sitemap/-/saber-plugin-generate-sitemap-0.0.1.tgz#47d3b5782ef85823d60ab5fb9ea129912aecd813"
+  integrity sha512-PipMfoZhQyb7HTJxcNujnB4y1ReRHBpjJ6KqHXqMiDdzF4ncuHvLl4iHmJJEYbpkxOVbmdWvp3Zh2FAs47AT2g==
+  dependencies:
+    ejs "^2.6.1"
 
 saber-plugin-google-analytics@0.0.3:
   version "0.0.3"
@@ -7453,9 +7481,9 @@ typedarray@^0.0.6:
   integrity sha1-hnrHTjhkGHsdPUfZlqeOxciDB3c=
 
 uglify-js@^3.1.4:
-  version "3.5.2"
-  resolved "https://registry.yarnpkg.com/uglify-js/-/uglify-js-3.5.2.tgz#dc0c7ac2da0a4b7d15e84266818ff30e82529474"
-  integrity sha512-imog1WIsi9Yb56yRt5TfYVxGmnWs3WSGU73ieSOlMVFwhJCA9W8fqFFMMj4kgDqiS/80LGdsYnWL7O9UcjEBlg==
+  version "3.5.3"
+  resolved "https://registry.yarnpkg.com/uglify-js/-/uglify-js-3.5.3.tgz#d490bb5347f23025f0c1bc0dee901d98e4d6b063"
+  integrity sha512-rIQPT2UMDnk4jRX+w4WO84/pebU2jiLsjgIyrCktYgSvx28enOE3iYQMr+BD1rHiitWnDmpu0cY/LfIEpKcjcw==
   dependencies:
     commander "~2.19.0"
     source-map "~0.6.1"

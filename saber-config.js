@@ -92,7 +92,10 @@ module.exports = {
   },
   plugins: [
     {
-      resolve: './packages/saber-plugin-baidu-analytics',
+      resolve: 'saber-plugin-baidu-push'
+    },
+    {
+      resolve: 'saber-plugin-baidu-analytics',
       options: {
         trackId: '25da54bb9d300c118148dcad780da73b'
       }
@@ -116,7 +119,7 @@ module.exports = {
       }
     },
     {
-      resolve: './packages/saber-plugin-generate-sitemap',
+      resolve: 'saber-plugin-generate-sitemap',
       options: {
         template: './sitemap.xml'
       }
