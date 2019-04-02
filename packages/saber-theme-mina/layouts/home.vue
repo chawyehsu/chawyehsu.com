@@ -1,7 +1,7 @@
 <template>
   <div class="frontpage">
     <div class="frontpage-content">
-      <saber-link :to="'/about.html'" class="avatar" >
+      <saber-link to="/about" class="avatar" >
         <img :src="$siteConfig.avatar" alt="avatar" />
       </saber-link>
       <h1 class="name" title="Chawye Hsu">h404bi</h1>
@@ -10,7 +10,7 @@
       </div>
       <hr>
       <div class="menu">
-        <saber-link :to="'/blog'" title="Bloggin'">Blog</saber-link>
+        <saber-link to="/blog" title="Bloggin'">Blog</saber-link>
         <a href="https://github.com/h404bi" title="Coding..." target="_blank">GitHub</a>
         <a href="https://steamcommunity.com/id/h404bi" title="Gaming..." target="_blank">Steam</a>
         <a href="http://music.163.com/#/user/home?id=35631431" title="besides GC, EDM" target="_blank">Music</a>

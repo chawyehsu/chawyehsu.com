@@ -25,7 +25,7 @@ module.exports = {
         },
         {
           name: 'About',
-          path: '/about.html'
+          path: '/about'
         }
       ]
     },
@@ -37,15 +37,15 @@ module.exports = {
         },
         {
           name: 'About',
-          path: '/about.html'
+          path: '/about'
         },
         {
           name: 'Guestbook',
-          path: '/guestbook.html'
+          path: '/guestbook'
         },
         {
           name: 'Links',
-          path: '/links.html'
+          path: '/links'
         },
         {
           name: 'RSS',
@@ -87,8 +87,8 @@ module.exports = {
     ]
   },
   permalinks: {
-    post: '/blog/:year/:month/:day/:slug.html',
-    page: '/:slug.html'
+    post: '/blog/:year/:month/:slug',
+    page: '/:slug'
   },
   plugins: [
     {

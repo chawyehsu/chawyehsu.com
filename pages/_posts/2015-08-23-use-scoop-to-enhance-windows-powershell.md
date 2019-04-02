@@ -7,7 +7,7 @@ cover: /uploads/2018/12/20181225013.png
 ---
 
 <p style="text-align:center">
-<a href="/blog/2018/05/12/talk-about-scoop-the-package-manager-for-windows-again.html">
+<a href="/blog/2018/05/talk-about-scoop-the-package-manager-for-windows-again">
 <strong>关于 Scoop 的新文章</strong></a>
 </p>
 
