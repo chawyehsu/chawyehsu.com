@@ -1,0 +1,2 @@
+# Redirect default Netlify subdomain to primary domain
+https://h404bi.netlify.com/* https://www.h404bi.com/:splat 301!
