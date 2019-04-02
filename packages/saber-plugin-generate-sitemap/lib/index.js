@@ -18,7 +18,7 @@ exports.apply = (api, options = {}) => {
     throw new Error('siteConfig.url is required for saber-plugin-generate-sitemap')
   }
 
-  const sitemapURL = url.resolve(siteConfig.url, options.path)
+  const sitemapLink = url.resolve(siteConfig.url, options.path)
 
   api.hooks.afterGenerate.tapPromise(ID, async () => {
     const items = []
@@ -29,9 +29,9 @@ exports.apply = (api, options = {}) => {
         items.push({
           type: page.attributes.type,
           url: url.resolve(siteConfig.url, page.attributes.permalink),
-          lastmod: new Date(page.attributes.updatedAt),
-          date: new Date(page.attributes.createdAt),
-          updated: new Date(page.attributes.updatedAt)
+          lastmod: page.attributes.updatedAt,
+          date: page.attributes.createdAt,
+          updated: page.attributes.updatedAt
         })
       }
     }
@@ -59,7 +59,7 @@ exports.apply = (api, options = {}) => {
   api.hooks.defineVariables.tap(ID, variables => {
     return Object.assign(variables, {
       sitemap: true,
-      sitemapURL: sitemapURL
+      sitemapLink: sitemapLink
     })
   })
 }
