@@ -13,6 +13,6 @@
     "normalize.css": "^8.0.1",
     "suitcss-components-flex-embed": "^2.0.4",
     "tinytime": "^0.2.6",
-    "vue-headroom": "^0.9.0"
+    "vue-headroom": "^0.10.1"
   }
 }
