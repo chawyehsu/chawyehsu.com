@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://www.h404bi.com</id>
     <title>Chawye Hsu, H404bi</title>
-    <updated>2019-04-03T16:43:28.567Z</updated>
+    <updated>2019-04-04T08:31:55.563Z</updated>
     <generator>Saber.js</generator>
     <author>
         <name>h404bi</name>
@@ -21,7 +21,7 @@
         <summary type="html"><![CDATA[Windows Console Host（即 conhost.exe，下称“ConHost”[1]）中的设置可能有点难以理解，主要是因为在过去几十年中这个设置系统不断发展。根据 ConHost 如何被调用，这些设置项会存储在不同的位置。
 ]]></summary>
         <content type="html"><![CDATA[<p>Windows Console Host（即 <code v-pre="">conhost.exe</code>，下称“ConHost”<sup class="footnote-ref"><a href="#fn1" id="fnref1">[1]</a></sup>）中的设置可能有点难以理解，主要是因为在过去几十年中这个设置系统不断发展。根据 ConHost 如何被调用，这些设置项会存储在不同的位置。</p>
-<p><img src="/uploads/2019/02/20190218001.png" alt="控制台设置"></p>
+<p><img src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs=" alt="控制台设置" data-src="/uploads/2019/02/20190218001.png"></p>
 <h2 id="%E8%AE%BE%E7%BD%AE%E5%8A%A0%E8%BD%BD%E7%9A%84%E5%B1%82%E7%BA%A7">设置加载的层级</h2>
 <p>决定一个控制台设置的加载与存储是基于以下层级进行的：</p>
 <ol>
@@ -35,18 +35,18 @@
 </li>
 <li>Windows 快捷方式（.lnk）中的设置</li>
 </ol>
-<p><img src="/uploads/2019/02/20190218003.png" alt="注册表中的控制台设置键值"></p>
+<p><img src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs=" alt="注册表中的控制台设置键值" data-src="/uploads/2019/02/20190218003.png"></p>
 <p>当一个控制台应用程序被启动后，ConHost 会依据加载情况决定使用哪些设置，同时会按照前述的层级先后对一些进行覆盖。每一个设置项将取其最后加载的值，也就是说在第 4 级（Windows 快捷方式）中的值会覆盖掉第 2 级（用户定义的默认设置）中的值。</p>
 <p>这样一个层级设计解释了为什么在每个控制台实例窗口的标题菜单中，都会有一个“默认值”
 选项以及一个“属性”选项。</p>
-<p><img src="/uploads/2019/02/20190218002.png" alt="控制台窗口标题菜单"></p>
+<p><img src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs=" alt="控制台窗口标题菜单" data-src="/uploads/2019/02/20190218002.png"></p>
 <p>修改“默认值”时，改动会存储到注册表 <code v-pre="">HKCU\Console</code> 中，写入用户定义默认设置（即前述层级中的第 2 级）。</p>
 <p>修改“属性”时，改动会存储到注册表中的控制台应用程序单独设置或者 Windows 快捷方式中：</p>
 <ul>
 <li>如果这个控制台应用程序是被直接（比如是从 Win+R，Windows 运行对话中）启动的，则改动会存储到前述的控制台应用程序单独存储位置（层级中的第 3 级）中。</li>
 <li>如果这个控制台应用程序是通过 Windows 快捷方式被启动的，则改动会直接存储到这个快捷方式 .lnk 文件中（层级中的第 4 级）。你可以右键这个控制台应用程序的快捷方式，选择“属性”查看其设置。</li>
 </ul>
-<p><img src="/uploads/2019/02/20190218004.png" alt="快捷方式中的设置"></p>
+<p><img src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs=" alt="快捷方式中的设置" data-src="/uploads/2019/02/20190218004.png"></p>
 <p>当一个控制台应用程序被启动后，ConHost 会根据前述的层级，从第 1 级写死的默认设置开始覆盖设置，最后确定使用哪些设置。这意味着在 Windows 快捷方式中的设置会覆盖掉注册表中的控制台应用程序单独设置以及默认设置。</p>
 <p>值得注意的是在注册表中的设置是“稀疏”的，意味着如果某个设置项为空，则不会修改正在使用的值。这允许用户在所有控制台应用程序之间共享部分设置项的同时指定其它一些特定设置项。</p>
 <p>而快捷方式文件则会将每个设置项都存储其中，不管是否有默认设置。这些设置会以不透明的数据块存储在快捷方式中。</p>
@@ -412,7 +412,7 @@ Chrome 以来积累到的一些扩展程序和信息，做这么一个盘点，�
    <figcaption><p>AcFun HTML5 Player</p></figcaption>
 </figure>
 <p>Adobe 官方宣布 2020 年停止更新 Flash，Flash 时代的终结终于定上了日程。即使没有官宣，从那些日子使用《妈妈再也不用担心我的 MacBook 发热了计划》养成了“刁钻习惯”，在浏览视频类网站的时候，能用 HTML5 的话，我都会尽量使用。不过，很庆幸 Adobe 能做出这个大好的决策。有些东西，到了被淘汰的时候，也就那样了。就如，哪天 A 站原生支持了 HTML5 播放器，这个扩展的寿命也许就……</p>
-<p><a href="https://chrome.google.com/webstore/detail/acfun-html5-player/onjihgccojkcmlmlbjmgkcnehdbpbhcf" target="_blank" rel="noopener noreferrer"><img src="/uploads/2018/12/20181216001.png" alt="Available in the Chrome Web Store"></a></p>
+<p><a href="https://chrome.google.com/webstore/detail/acfun-html5-player/onjihgccojkcmlmlbjmgkcnehdbpbhcf" target="_blank" rel="noopener noreferrer"><img src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs=" alt="Available in the Chrome Web Store" data-src="/uploads/2018/12/20181216001.png"></a></p>
 <h2 id="checker-plus-for-gmail%E2%84%A2">Checker Plus for Gmail™</h2>
 <figure class="center">
   <img
@@ -425,7 +425,7 @@ Chrome 以来积累到的一些扩展程序和信息，做这么一个盘点，�
 <p>无需打开 Gmail 或 Inbox，即可收到桌面邮件通知，方便地查看、收听或删除邮件，并且支持多账户。用过这个之后，你就不会再想起 Google 自家提供的很久没有更新的
 Google Mail Checker 扩展了。伟大的邮箱，伟大的软件，伟大的公司，敌不过更伟大的墙。如今还在坚持用 Gmail 的同学，一定不是真爱就是历史数据迁移太麻烦！迫于 Google
 全家桶的问题，我还是保持着 Gmail 的轻微使用。更多的，还是走 Outlook 了……</p>
-<p><a href="https://chrome.google.com/webstore/detail/checker-plus-for-gmail/oeopbcgkkoapgobdbedcemjljbihmemj" target="_blank" rel="noopener noreferrer"><img src="/uploads/2018/12/20181216001.png" alt="Available in the Chrome Web Store"></a></p>
+<p><a href="https://chrome.google.com/webstore/detail/checker-plus-for-gmail/oeopbcgkkoapgobdbedcemjljbihmemj" target="_blank" rel="noopener noreferrer"><img src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs=" alt="Available in the Chrome Web Store" data-src="/uploads/2018/12/20181216001.png"></a></p>
 <h2 id="cowlevel-steam-%E5%A2%9E%E5%BC%BA%E5%B0%8F%E8%83%BD%E6%89%8B">Cowlevel Steam 增强小能手</h2>
 <figure class="center">
   <img
@@ -439,7 +439,7 @@ Google Mail Checker 扩展了。伟大的邮箱，伟大的软件，伟大的公
 <p>研发辛苦了，对奶牛关的与steam的结缔有很大的帮助qwq。—— bulong dou</p>
 </blockquote>
 <p>奶牛关在 Steam 上的增强扩展。在浏览 Steam 商店页面等的时候，可以查看到来自奶牛关玩家的综合评分与游戏相关问答讨论、相关文章、精选评测等内容。当然，如果你并不知道奶牛关是什么的话，可以查看一下《<a href="https://cowlevel.net/about" target="_blank" rel="noopener noreferrer">关于我们 - 奶牛关</a>》，一句话描述就是“游戏狂热者的分享问答社区”。一个类似知乎但只专注游戏的，更垂直的社区。社区里面有不少硬核玩家、游戏从业者，欢迎来找我玩耍：<a href="https://cowlevel.net/people/h404bi" target="_blank" rel="noopener noreferrer">h404bi - 个人主页 - 奶牛关</a>。</p>
-<p><a href="https://chrome.google.com/webstore/detail/cowlevel-steam-%E5%A2%9E%E5%BC%BA%E5%B0%8F%E8%83%BD%E6%89%8B/ccngopikhladacgddbdeegepaenkfkkm" target="_blank" rel="noopener noreferrer"><img src="/uploads/2018/12/20181216001.png" alt="Available in the Chrome Web Store"></a></p>
+<p><a href="https://chrome.google.com/webstore/detail/cowlevel-steam-%E5%A2%9E%E5%BC%BA%E5%B0%8F%E8%83%BD%E6%89%8B/ccngopikhladacgddbdeegepaenkfkkm" target="_blank" rel="noopener noreferrer"><img src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs=" alt="Available in the Chrome Web Store" data-src="/uploads/2018/12/20181216001.png"></a></p>
 <h2 id="enhanced-steam">Enhanced Steam</h2>
 <figure class="center">
   <img
@@ -461,7 +461,7 @@ Google Mail Checker 扩展了。伟大的邮箱，伟大的软件，伟大的公
 </ul>
 <p>上面是扩展商店页介绍的主要功能。其它大大小小的功能点，如显示 SteamGifts
 等网站链接，商店跨区警告，商店页面用 HTML5 播放视频等等，就不一一列举了。一旦习惯了这个扩展的话，没有扩展支持的情况下打开 Steam 商店页面，就会觉得少了很多东西。有 Enhanced Steam 的 Steam 商店页面，才是真正的页面。</p>
-<p><a href="https://chrome.google.com/webstore/detail/enhanced-steam/okadibdjfemgnhjiembecghcbfknbfhg" target="_blank" rel="noopener noreferrer"><img src="/uploads/2018/12/20181216001.png" alt="Available in the Chrome Web Store"></a></p>
+<p><a href="https://chrome.google.com/webstore/detail/enhanced-steam/okadibdjfemgnhjiembecghcbfknbfhg" target="_blank" rel="noopener noreferrer"><img src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs=" alt="Available in the Chrome Web Store" data-src="/uploads/2018/12/20181216001.png"></a></p>
 <h2 id="feedly-notifier">Feedly Notifier</h2>
 <figure class="center">
   <img
@@ -476,7 +476,7 @@ Google Mail Checker 扩展了。伟大的邮箱，伟大的软件，伟大的公
 </blockquote>
 <p>即使有大批用户表示不舍，Google 还是在 2013 年彻底关闭了 Google Reader。我虽然没认真用过 Google Reader，但是对于同样离不开关闭命运的“鲜果阅读器”，我却有过一段稍长的使用经历。那种感觉确实挺难受的。就像 Flash 那样，有些东西终究会随着无情的时间慢慢消逝，只是 RSS 没有 Flash 那么让人不爱罢了。字节跳动带着它的头条系产品崛起成为了新独角兽，足以证明，大数据与算法、个性化推荐比起难用的 RSS 还是更“懂用户”，更适合绝大多数人。但就是在有数不清的各种 APP 肆意撕裂、抢占你的个人时间，到处充斥着信息焦虑的今天，仍然会有那么一小撮人，选择使用 RSS 来管控自己的信息源，只因为它能让这些人在信息爆炸的环境下，仍能专注与高效地从中汲取自己想要的信息。这就是我保有对 RSS 的使用的原因，只是这个载体是 Feedly 而已。Feedly Notifier 作为 Feedly 在 Chrome 上的一个辅助扩展程序，已经够用了。</p>
 <p>时至今日，关于 RSS 的话题其实还是会时有出现，就像一颗石子扔入水中，泛起一阵涟漪。这里我非常推荐读者能去阅读 Platy Hsu 写的两篇关于 RSS 的文章：《<a href="https://type.cyhsu.xyz/2018/04/on-the-so-called-revival-of-rss/" target="_blank" rel="noopener noreferrer">论 RSS 的「复兴」</a>》与《<a href="https://type.cyhsu.xyz/2018/05/rss-aggregators-review-2018/" target="_blank" rel="noopener noreferrer">RSS 服务对比评测</a>》。特别是前一篇，很有深度。</p>
-<p><a href="https://chrome.google.com/webstore/detail/feedly-notifier/egikgfbhipinieabdmcpigejkaomgjgb" target="_blank" rel="noopener noreferrer"><img src="/uploads/2018/12/20181216001.png" alt="Available in the Chrome Web Store"></a></p>
+<p><a href="https://chrome.google.com/webstore/detail/feedly-notifier/egikgfbhipinieabdmcpigejkaomgjgb" target="_blank" rel="noopener noreferrer"><img src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs=" alt="Available in the Chrome Web Store" data-src="/uploads/2018/12/20181216001.png"></a></p>
 <h2 id="free-download-manager">Free Download Manager</h2>
 <figure class="center">
   <img
@@ -488,7 +488,7 @@ Google Mail Checker 扩展了。伟大的邮箱，伟大的软件，伟大的公
 </figure>
 <p>IDM（全称“Internet Download Manager”）确实更胜一筹吧。但胜在 FDM 是免费软件。其实很忏愧在日常生活中自己实在做不到完全去盗版化，使用 IDM 大概也有两三年时间，羞愧之心还是要有。在版权意识越来越被重视的时代，如果有满足需求的可替代产品，能去盗版化的话，就尽量去盗版化了。</p>
 <p>而且，FDM 支持 WIndows 与 macOS 双平台，这也是另一个优点。由于需要监听浏览器的下载事件，所以要安装这个扩展程序，跟 IDM 一样。</p>
-<p><a href="https://chrome.google.com/webstore/detail/free-download-manager/ahmpjcflkgiildlgicmcieglgoilbfdp" target="_blank" rel="noopener noreferrer"><img src="/uploads/2018/12/20181216001.png" alt="Available in the Chrome Web Store"></a></p>
+<p><a href="https://chrome.google.com/webstore/detail/free-download-manager/ahmpjcflkgiildlgicmcieglgoilbfdp" target="_blank" rel="noopener noreferrer"><img src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs=" alt="Available in the Chrome Web Store" data-src="/uploads/2018/12/20181216001.png"></a></p>
 <h2 id="full-page-screen-capture">Full Page Screen Capture</h2>
 <figure class="center">
   <img
@@ -500,7 +500,7 @@ Google Mail Checker 扩展了。伟大的邮箱，伟大的软件，伟大的公
 </figure>
 <p>用过好几个全网页截图工具，还是觉得这个来的顺手。不过这个只支持一键截全网页，没有截局部的功能。截局部的话，有太多替代软件了，Windows 自带的 Snipping Tool、
 QQ 的截图等等。Full Page Screen Capture 是开源的，源码托管在 GitHub 上。</p>
-<p><a href="https://chrome.google.com/webstore/detail/full-page-screen-capture/fdpohaocaechififmbbbbbknoalclacl" target="_blank" rel="noopener noreferrer"><img src="/uploads/2018/12/20181216001.png" alt="Available in the Chrome Web Store"></a></p>
+<p><a href="https://chrome.google.com/webstore/detail/full-page-screen-capture/fdpohaocaechififmbbbbbknoalclacl" target="_blank" rel="noopener noreferrer"><img src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs=" alt="Available in the Chrome Web Store" data-src="/uploads/2018/12/20181216001.png"></a></p>
 <h2 id="holmes">Holmes</h2>
 <figure class="center">
   <img
@@ -511,7 +511,7 @@ QQ 的截图等等。Full Page Screen Capture 是开源的，源码托管在 Git
    <figcaption><p>Holmes</p></figcaption>
 </figure>
 <p>觉得 Holmes 大概是从前文说到这里，第一款相对来说很实用但是却又比较不出名的扩展。这个小而美的扩展程序，只提供了一个非常提升效率的功能：在地址栏快速搜索书签。只需要在地址栏输入一个星号（<code v-pre="">*</code>），然后按下 Tab 即可进入 Holmes 搜索书签模式，利用模糊搜索功能可以从整个 Chrome Bookmark 中快速找出你想要的书签并按下回车打开。美中不足的地方是不支持对中文搜索，众所周知的中文分词问题，外国人开发的扩展在所难免。</p>
-<p><a href="https://chrome.google.com/webstore/detail/holmes/gokficnebmomagijbakglkcmhdbchbhn" target="_blank" rel="noopener noreferrer"><img src="/uploads/2018/12/20181216001.png" alt="Available in the Chrome Web Store"></a></p>
+<p><a href="https://chrome.google.com/webstore/detail/holmes/gokficnebmomagijbakglkcmhdbchbhn" target="_blank" rel="noopener noreferrer"><img src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs=" alt="Available in the Chrome Web Store" data-src="/uploads/2018/12/20181216001.png"></a></p>
 <h2 id="https-everywhere">HTTPS Everywhere</h2>
 <figure class="center">
   <img
@@ -524,7 +524,7 @@ QQ 的截图等等。Full Page Screen Capture 是开源的，源码托管在 Git
 <p>从 Chrome 之前的给使用 HTTPS 的网站加上绿色安全小绿锁，到现在把使用 HTTPS
 的网站当作正常网站，并把使用 HTTP 的网站标为不安全网站可以看出，Google 正在不遗余力地推进 HTTPS 的普及使用。作为一名“激进的用户”，自然而然地安装上了
 HTTPS Everywhere，能 HTTPS 的全都给我 HTTPS！当然，在“HTTPS 不发达的国内”，强制 HTTPS 总会时不时遇到各种毛病，如某段时期微博登录页的无限重定向 HTTP 云云。</p>
-<p><a href="https://chrome.google.com/webstore/detail/https-everywhere/gcbommkclmclpchllfjekcdonpmejbdp" target="_blank" rel="noopener noreferrer"><img src="/uploads/2018/12/20181216001.png" alt="Available in the Chrome Web Store"></a></p>
+<p><a href="https://chrome.google.com/webstore/detail/https-everywhere/gcbommkclmclpchllfjekcdonpmejbdp" target="_blank" rel="noopener noreferrer"><img src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs=" alt="Available in the Chrome Web Store" data-src="/uploads/2018/12/20181216001.png"></a></p>
 <h2 id="imagus">Imagus</h2>
 <figure class="center">
   <img
@@ -535,7 +535,7 @@ HTTPS Everywhere，能 HTTPS 的全都给我 HTTPS！当然，在“HTTPS 不发
    <figcaption><p>Imagus</p></figcaption>
 </figure>
 <p>这大概是 Chrome 上最好用的辅助看图扩展程序了。只需要将鼠标悬停在缩略图上，就能放大显示缩略图背后的原始图片。拥有对接近 300 个网站的筛选规则支持，而且即使像本人博客这样没有预设规则的站点，常见的缩略图形式也是能识别到的。装上这个扩展后，渐渐就会越来越少地右键审查元素翻代码找原始图片了。</p>
-<p><a href="https://chrome.google.com/webstore/detail/imagus/immpkjjlgappgfkkfieppnmlhakdmaab" target="_blank" rel="noopener noreferrer"><img src="/uploads/2018/12/20181216001.png" alt="Available in the Chrome Web Store"></a></p>
+<p><a href="https://chrome.google.com/webstore/detail/imagus/immpkjjlgappgfkkfieppnmlhakdmaab" target="_blank" rel="noopener noreferrer"><img src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs=" alt="Available in the Chrome Web Store" data-src="/uploads/2018/12/20181216001.png"></a></p>
 <h2 id="javascript-and-css-code-beautifier">JavaScript and CSS Code Beautifier</h2>
 <figure class="center">
   <img
@@ -546,7 +546,7 @@ HTTPS Everywhere，能 HTTPS 的全都给我 HTTPS！当然，在“HTTPS 不发
    <figcaption><p>JavaScript and CSS Code Beautifier</p></figcaption>
 </figure>
 <p>在 Chrome 上直接访问混淆压缩的 JS、CSS 文件时，能对代码进行格式化并且高亮。能更好地查看代码逻辑，在理解网站前端逻辑、样式设计时比较有用。特别有利于扒皮党（雾）。</p>
-<p><a href="https://chrome.google.com/webstore/detail/javascript-and-css-code-b/iiglodndmmefofehaibmaignglbpdald" target="_blank" rel="noopener noreferrer"><img src="/uploads/2018/12/20181216001.png" alt="Available in the Chrome Web Store"></a></p>
+<p><a href="https://chrome.google.com/webstore/detail/javascript-and-css-code-b/iiglodndmmefofehaibmaignglbpdald" target="_blank" rel="noopener noreferrer"><img src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs=" alt="Available in the Chrome Web Store" data-src="/uploads/2018/12/20181216001.png"></a></p>
 <h2 id="json-formatter">JSON Formatter</h2>
 <figure class="center">
   <img
@@ -560,7 +560,7 @@ HTTPS Everywhere，能 HTTPS 的全都给我 HTTPS！当然，在“HTTPS 不发
 <p>Makes JSON easy to read. Open source.</p>
 </blockquote>
 <p>打开 JSON API 或者 JSON 文件时可以更方便阅读，支持格式化切换、折叠、链接跳转。</p>
-<p><a href="https://chrome.google.com/webstore/detail/json-formatter/bcjindcccaagfpapjjmafapmmgkkhgoa" target="_blank" rel="noopener noreferrer"><img src="/uploads/2018/12/20181216001.png" alt="Available in the Chrome Web Store"></a></p>
+<p><a href="https://chrome.google.com/webstore/detail/json-formatter/bcjindcccaagfpapjjmafapmmgkkhgoa" target="_blank" rel="noopener noreferrer"><img src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs=" alt="Available in the Chrome Web Store" data-src="/uploads/2018/12/20181216001.png"></a></p>
 <h2 id="minerblock">minerBlock</h2>
 <figure class="center">
   <img
@@ -571,7 +571,7 @@ HTTPS Everywhere，能 HTTPS 的全都给我 HTTPS！当然，在“HTTPS 不发
    <figcaption><p>minerBlock</p></figcaption>
 </figure>
 <p>加密货币近些年来真的是火热得不行，特别是去年比特币一路高歌猛进的时候。在网站上挂 JS 利用访问用户的计算机资源进行挖矿，究其本身其实是比较难评判的。如果是站长自己的行为，并且显著位置告知了访问用户的话，这个看不同人的看法。但如果是特意埋藏得很深，或是被“挂马”了，用户不知情的情况下这么做，确实难以让人接受。这个扩展也就是防这一类的情况吧，防不胜防最为致命。另外该扩展本身是开源的，大概也是免除监守自盗的情况。</p>
-<p><a href="https://chrome.google.com/webstore/detail/minerblock/emikbbbebcdfohonlaifafnoanocnebl" target="_blank" rel="noopener noreferrer"><img src="/uploads/2018/12/20181216001.png" alt="Available in the Chrome Web Store"></a></p>
+<p><a href="https://chrome.google.com/webstore/detail/minerblock/emikbbbebcdfohonlaifafnoanocnebl" target="_blank" rel="noopener noreferrer"><img src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs=" alt="Available in the Chrome Web Store" data-src="/uploads/2018/12/20181216001.png"></a></p>
 <h2 id="minimal-new-tab-clock">Minimal New Tab Clock</h2>
 <figure class="center">
   <img
@@ -585,7 +585,7 @@ HTTPS Everywhere，能 HTTPS 的全都给我 HTTPS！当然，在“HTTPS 不发
 <p>十位 Chrome 用户中有八位用 Infinity 新标签，一位用 Chrome 自带新标签，剩下一位用 Minimal New Tab Clock —— 胡说八道</p>
 </blockquote>
 <p>不得不承认，Infinity 新标签确实是很多很多很多人在用、推荐吧。可是我这人，偏偏选上了极简风。于是就一直在用着 Minimal New Tab Clock，再搭配用了很久很久的一款纯白主题，弄得整个 Chrome 都死白死白的，毫无色彩美感可言。倒是有不少人见过我这个死白的 Chrome 截屏问我用的是什么新标签，这里再介绍一遍：「Minimal New Tab Clock」。只有一个功能，在新标签显示当前时间。只能换背景色，不能换图片背景，没有云同步，除了显示时间啥都没有。</p>
-<p><a href="https://chrome.google.com/webstore/detail/minimal-new-tab-clock/impmanfocmgfodfbnhbmkkonnpcogfak" target="_blank" rel="noopener noreferrer"><img src="/uploads/2018/12/20181216001.png" alt="Available in the Chrome Web Store"></a></p>
+<p><a href="https://chrome.google.com/webstore/detail/minimal-new-tab-clock/impmanfocmgfodfbnhbmkkonnpcogfak" target="_blank" rel="noopener noreferrer"><img src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs=" alt="Available in the Chrome Web Store" data-src="/uploads/2018/12/20181216001.png"></a></p>
 <h2 id="octolinker">OctoLinker</h2>
 <figure class="center">
   <img
@@ -596,7 +596,7 @@ HTTPS Everywhere，能 HTTPS 的全都给我 HTTPS！当然，在“HTTPS 不发
    <figcaption><p>OctoLinker</p></figcaption>
 </figure>
 <p>一款 GitHub 增强扩展，可以提高在 GitHub 上浏览查阅代码的效率。功能就是能为指定语言的模块加载语句（比如 <code v-pre="">include</code>、<code v-pre="">require</code> 与 <code v-pre="">import</code>）加入跳转链接，点击链接可以跳转到引用的文件、依赖文件的仓库或者外部网站。</p>
-<p><a href="https://chrome.google.com/webstore/detail/octolinker/jlmafbaeoofdegohdhinkhilhclaklkp" target="_blank" rel="noopener noreferrer"><img src="/uploads/2018/12/20181216001.png" alt="Available in the Chrome Web Store"></a></p>
+<p><a href="https://chrome.google.com/webstore/detail/octolinker/jlmafbaeoofdegohdhinkhilhclaklkp" target="_blank" rel="noopener noreferrer"><img src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs=" alt="Available in the Chrome Web Store" data-src="/uploads/2018/12/20181216001.png"></a></p>
 <h2 id="octotree">Octotree</h2>
 <figure class="center">
   <img
@@ -608,7 +608,7 @@ HTTPS Everywhere，能 HTTPS 的全都给我 HTTPS！当然，在“HTTPS 不发
 </figure>
 <p>这个扩展我想只要是常访问 GitHub 的都会有使用的，因为它实在是太能提升效率了。将仓库以目录树的形式展示出来，比起 GitHub 原本的形式，在目录之间切换浏览真的来得方便快捷多很多。不过与上面的 OctoLinker 一起使用的话，有个不小的问题：
 OctoLinker 不会对从 Octotree 的目录树中点击打开的文件进行识别，不会为模块加载语句添加跳转链接。</p>
-<p><a href="https://chrome.google.com/webstore/detail/octotree/bkhaagjahfmjljalopjnoealnfndnagc" target="_blank" rel="noopener noreferrer"><img src="/uploads/2018/12/20181216001.png" alt="Available in the Chrome Web Store"></a></p>
+<p><a href="https://chrome.google.com/webstore/detail/octotree/bkhaagjahfmjljalopjnoealnfndnagc" target="_blank" rel="noopener noreferrer"><img src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs=" alt="Available in the Chrome Web Store" data-src="/uploads/2018/12/20181216001.png"></a></p>
 <h2 id="proxy-switchyomega">Proxy SwitchyOmega</h2>
 <figure class="center">
   <img
@@ -619,7 +619,7 @@ OctoLinker 不会对从 Octotree 的目录树中点击打开的文件进行识�
    <figcaption><p>Proxy SwitchyOmega</p></figcaption>
 </figure>
 <p>这个基本上人手一份的知名扩展，就不多做说明了吧。</p>
-<p><a href="https://chrome.google.com/webstore/detail/proxy-switchyomega/padekgcemlokbadohgkifijomclgjgif" target="_blank" rel="noopener noreferrer"><img src="/uploads/2018/12/20181216001.png" alt="Available in the Chrome Web Store"></a></p>
+<p><a href="https://chrome.google.com/webstore/detail/proxy-switchyomega/padekgcemlokbadohgkifijomclgjgif" target="_blank" rel="noopener noreferrer"><img src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs=" alt="Available in the Chrome Web Store" data-src="/uploads/2018/12/20181216001.png"></a></p>
 <h2 id="save-to-pocket">Save to Pocket</h2>
 <figure class="center">
   <img
@@ -631,7 +631,7 @@ OctoLinker 不会对从 Octotree 的目录树中点击打开的文件进行识�
 </figure>
 <p>将来不及阅读或者暂时不想阅读的网页内容，一键保存到 <a href="https://getpocket.com/" target="_blank" rel="noopener noreferrer">Pocket</a>
 上云同步，然后可以在其它不同的设备上继续阅读。不过因为感觉访问不太稳定的样子，平时使用比较少。</p>
-<p><a href="https://chrome.google.com/webstore/detail/save-to-pocket/niloccemoadcdkdjlinkgdfekeahmflj" target="_blank" rel="noopener noreferrer"><img src="/uploads/2018/12/20181216001.png" alt="Available in the Chrome Web Store"></a></p>
+<p><a href="https://chrome.google.com/webstore/detail/save-to-pocket/niloccemoadcdkdjlinkgdfekeahmflj" target="_blank" rel="noopener noreferrer"><img src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs=" alt="Available in the Chrome Web Store" data-src="/uploads/2018/12/20181216001.png"></a></p>
 <h2 id="steam-database">Steam Database</h2>
 <figure class="center">
   <img
@@ -644,7 +644,7 @@ OctoLinker 不会对从 Octotree 的目录树中点击打开的文件进行识�
 <p>这是我安装使用的跟 Steam 有关的第三个也是最后一个扩展。主要是在 Steam
 页面上增加了一些跟 <a href="https://steamdb.info/" target="_blank" rel="noopener noreferrer">SteamDB.info</a> 网站有关的扩展功能。可以快速查看游戏对应的 SubID、历史价格变动、游戏最近更新时间等等，还在 Steam
 的库存页增加了快速出售的按钮。都是一些比较实用的扩展功能，让你更方便更自信地剁手。</p>
-<p><a href="https://chrome.google.com/webstore/detail/steam-database/kdbmhfkmnlmbkgbabkdealhhbfhlmmon" target="_blank" rel="noopener noreferrer"><img src="/uploads/2018/12/20181216001.png" alt="Available in the Chrome Web Store"></a></p>
+<p><a href="https://chrome.google.com/webstore/detail/steam-database/kdbmhfkmnlmbkgbabkdealhhbfhlmmon" target="_blank" rel="noopener noreferrer"><img src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs=" alt="Available in the Chrome Web Store" data-src="/uploads/2018/12/20181216001.png"></a></p>
 <h2 id="stylus">Stylus</h2>
 <figure class="center">
   <img
@@ -656,7 +656,7 @@ OctoLinker 不会对从 Octotree 的目录树中点击打开的文件进行识�
 </figure>
 <p>此前一直用着 Stylish，后面爆出该扩展偷偷窃取上传用户的浏览历史，而且被 Chrome
 下架。虽然感觉自己不少信息被卖过了，但是对于这种偷偷摸摸的不干净行为还是反感的。于是就转战 Stylus 了，跟前者使用上也没什么大区别。其实我只安装了一个自定义样式「<a href="https://github.com/synthtech/github-mod" target="_blank" rel="noopener noreferrer">GitHub Mod</a>」，将 GitHub 的样式拍扁变成扁平化设计，并且修改字体为 Open Sans。这是我唯一安装的一个样式，但是因为严重依赖这个样式，所以样式管理扩展还是得安装一个使用。扁平化后确实很好看，看前面 Octotree 的实际截图就知道了，私家珍藏强烈推荐。</p>
-<p><a href="https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne" target="_blank" rel="noopener noreferrer"><img src="/uploads/2018/12/20181216001.png" alt="Available in the Chrome Web Store"></a></p>
+<p><a href="https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne" target="_blank" rel="noopener noreferrer"><img src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs=" alt="Available in the Chrome Web Store" data-src="/uploads/2018/12/20181216001.png"></a></p>
 <h2 id="tampermonkey">Tampermonkey</h2>
 <figure class="center">
   <img
@@ -672,7 +672,7 @@ OctoLinker 不会对从 Octotree 的目录树中点击打开的文件进行识�
 <li><a href="https://greasyfork.org/zh-CN/scripts/39504-%E7%99%BE%E5%BA%A6%E7%BD%91%E7%9B%98%E7%9B%B4%E6%8E%A5%E4%B8%8B%E8%BD%BD%E5%8A%A9%E6%89%8B-%E7%9B%B4%E9%93%BE%E5%8A%A0%E9%80%9F%E7%89%88" target="_blank" rel="noopener noreferrer">百度网盘直接下载助手</a>：有时候下载不大的文件不想打开百度网盘客户端，但是最近貌似不太有用了，还是得乖乖用客户端。</li>
 <li><a href="https://greasyfork.org/zh-CN/scripts/25718-%E8%A7%A3%E9%99%A4b%E7%AB%99%E5%8C%BA%E5%9F%9F%E9%99%90%E5%88%B6" target="_blank" rel="noopener noreferrer">解除B站区域限制</a>：之前切过去港澳台地区看国家队《DARLING in the FRANKXX》时用的，之后感觉对我没什么用了。平时很少追番，国家队大好开头最后只剩下 XX:me 的两张 CD<sup class="footnote-ref"><a href="#fn1" id="fnref1">[1]</a></sup> 还能让我常常听一听。</li>
 </ul>
-<p><a href="https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo" target="_blank" rel="noopener noreferrer"><img src="/uploads/2018/12/20181216001.png" alt="Available in the Chrome Web Store"></a></p>
+<p><a href="https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo" target="_blank" rel="noopener noreferrer"><img src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs=" alt="Available in the Chrome Web Store" data-src="/uploads/2018/12/20181216001.png"></a></p>
 <h2 id="text-mode">Text Mode</h2>
 <figure class="center">
   <img
@@ -683,7 +683,7 @@ OctoLinker 不会对从 Octotree 的目录树中点击打开的文件进行识�
    <figcaption><p>Text Mode</p></figcaption>
 </figure>
 <p>无图模式！而且是真的无图，启用扩展后，会直接将网页中的图片加载直接 Block 掉，不是图片加载了才用色块填充。这样就有个使用场景，如果应急情况笔记本电脑连上了手机的热点，这样打开网页时就能省下很多流量，虽然现在手机卡无限流量也不太昂贵了。另外一个使用场景就是阅读专注，把无关图片屏蔽掉了，剩下文字让阅读更专注。不过偶尔会觉得在这个使用场景下有点鸡肋，一个是图片位置填充的都是灰色色块，有时眼睛会被色块占据，觉得疲劳。另一个是做不到像 Safari 阅读器视图那样，保留正文的图片。有这方便更深的需求的话，据说国产扩展「简悦」会是一个不错的选择，有机会找个时间我也试试看。</p>
-<p><a href="https://chrome.google.com/webstore/detail/text-mode/adelhekhakakocomdfejiipdnaadiiib" target="_blank" rel="noopener noreferrer"><img src="/uploads/2018/12/20181216001.png" alt="Available in the Chrome Web Store"></a></p>
+<p><a href="https://chrome.google.com/webstore/detail/text-mode/adelhekhakakocomdfejiipdnaadiiib" target="_blank" rel="noopener noreferrer"><img src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs=" alt="Available in the Chrome Web Store" data-src="/uploads/2018/12/20181216001.png"></a></p>
 <h2 id="ublock-origin">uBlock Origin</h2>
 <figure class="center">
   <img
@@ -701,7 +701,7 @@ Origin 安装后会默认开启 EasyPrivacy 等一系列可以屏蔽跟踪、分
 </blockquote>
 <p>除了 uBlock Origin 为我默认开启的一系列规则列表外，我只多增加了一个自定义规则，
 CJX 的「去自我推广列表规则」：<a href="https://raw.githubusercontent.com/cjx82630/cjxlist/master/cjx-annoyance.txt" target="_blank" rel="noopener noreferrer">CJX's Annoyance List</a></p>
-<p><a href="https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm" target="_blank" rel="noopener noreferrer"><img src="/uploads/2018/12/20181216001.png" alt="Available in the Chrome Web Store"></a></p>
+<p><a href="https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm" target="_blank" rel="noopener noreferrer"><img src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs=" alt="Available in the Chrome Web Store" data-src="/uploads/2018/12/20181216001.png"></a></p>
 <h2 id="v2ex-plus">v2ex plus</h2>
 <figure class="center">
   <img
@@ -713,7 +713,7 @@ CJX 的「去自我推广列表规则」：<a href="https://raw.githubuserconten
 </figure>
 <p>V 站还是一个很不错的地方的，日常逛逛摸摸鱼。发现好几个朋友同事都有浏览 V2EX……
 v2ex plus 确实是一款很好用的 V2EX 扩展，对话详情、插入表情图片等都是很好的功能。</p>
-<p><a href="https://chrome.google.com/webstore/detail/v2ex-plus/daeclijmnojoemooblcbfeeceopnkolo" target="_blank" rel="noopener noreferrer"><img src="/uploads/2018/12/20181216001.png" alt="Available in the Chrome Web Store"></a></p>
+<p><a href="https://chrome.google.com/webstore/detail/v2ex-plus/daeclijmnojoemooblcbfeeceopnkolo" target="_blank" rel="noopener noreferrer"><img src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs=" alt="Available in the Chrome Web Store" data-src="/uploads/2018/12/20181216001.png"></a></p>
 <h2 id="vue.js-devtools">Vue.js devtools</h2>
 <figure class="center">
   <img
@@ -724,7 +724,7 @@ v2ex plus 确实是一款很好用的 V2EX 扩展，对话详情、插入表情�
    <figcaption><p>Vue.js devtools</p></figcaption>
 </figure>
 <p>Vue.js 开发调试神器，就这样。React 暂时没啃下，还得靠 Vue 活着。不比较，都重要。</p>
-<p><a href="https://chrome.google.com/webstore/detail/vuejs-devtools/nhdogjmejiglipccpnnnanhbledajbpd" target="_blank" rel="noopener noreferrer"><img src="/uploads/2018/12/20181216001.png" alt="Available in the Chrome Web Store"></a></p>
+<p><a href="https://chrome.google.com/webstore/detail/vuejs-devtools/nhdogjmejiglipccpnnnanhbledajbpd" target="_blank" rel="noopener noreferrer"><img src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs=" alt="Available in the Chrome Web Store" data-src="/uploads/2018/12/20181216001.png"></a></p>
 <h2 id="wappalyzer">Wappalyzer</h2>
 <figure class="center">
   <img
@@ -742,7 +742,7 @@ v2ex plus 确实是一款很好用的 V2EX 扩展，对话详情、插入表情�
 </blockquote>
 <p>这其实跟隐私保护有点对立了。所以如果你也是用 Hexo，却不想被判断出来，则可以通过
 Hexo 的 after generator 钩子在页面生成时将特征（不只是 meta 一个特征）去掉，这样就不会被判断到了。</p>
-<p><a href="https://chrome.google.com/webstore/detail/wappalyzer/gppongmhjkpfnbhagpmjfkannfbllamg" target="_blank" rel="noopener noreferrer"><img src="/uploads/2018/12/20181216001.png" alt="Available in the Chrome Web Store"></a></p>
+<p><a href="https://chrome.google.com/webstore/detail/wappalyzer/gppongmhjkpfnbhagpmjfkannfbllamg" target="_blank" rel="noopener noreferrer"><img src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs=" alt="Available in the Chrome Web Store" data-src="/uploads/2018/12/20181216001.png"></a></p>
 <h2 id="%E5%88%92%E8%AF%8D%E7%BF%BB%E8%AF%91">划词翻译</h2>
 <figure class="center">
   <img
@@ -754,7 +754,7 @@ Hexo 的 after generator 钩子在页面生成时将特征（不只是 meta 一�
 </figure>
 <p>后悔大学时期没把英语往深里去学，只得半桶水。现在接触越多，才会发现语言愈加重要，亏我还是外语大学毕业的。「划词翻译」是我使用时间比较久的一款扩展。到如今 Chrome
 与 Firefox 双修的我，还是对在 Firefox 上没有一款能与划词翻译媲美的扩展而感到难受。</p>
-<p><a href="https://chrome.google.com/webstore/detail/%E5%88%92%E8%AF%8D%E7%BF%BB%E8%AF%91/ikhdkkncnoglghljlkmcimlnlhkeamad" target="_blank" rel="noopener noreferrer"><img src="/uploads/2018/12/20181216001.png" alt="Available in the Chrome Web Store"></a></p>
+<p><a href="https://chrome.google.com/webstore/detail/%E5%88%92%E8%AF%8D%E7%BF%BB%E8%AF%91/ikhdkkncnoglghljlkmcimlnlhkeamad" target="_blank" rel="noopener noreferrer"><img src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs=" alt="Available in the Chrome Web Store" data-src="/uploads/2018/12/20181216001.png"></a></p>
 <h2 id="%E5%93%94%E5%93%A9%E5%93%94%E5%93%A9%E5%8A%A9%E6%89%8B%EF%BC%9Abilibili.com-%E7%BB%BC%E5%90%88%E8%BE%85%E5%8A%A9%E6%89%A9%E5%B1%95">哔哩哔哩助手：<a href="http://bilibili.com" target="_blank" rel="noopener noreferrer">bilibili.com</a> 综合辅助扩展</h2>
 <figure class="center">
   <img
@@ -765,7 +765,7 @@ Hexo 的 after generator 钩子在页面生成时将特征（不只是 meta 一�
    <figcaption><p>哔哩哔哩助手：bilibili.com 综合辅助扩展</p></figcaption>
 </figure>
 <p>B 站增强扩展，有这款就够了。好用！啾咕咕www 牛掰。AB 站双修，缺 B 乐还在就好。</p>
-<p><a href="https://chrome.google.com/webstore/detail/%E5%93%94%E5%93%A9%E5%93%94%E5%93%A9%E5%8A%A9%E6%89%8B%EF%BC%9Abilibilicom-%E7%BB%BC%E5%90%88%E8%BE%85%E5%8A%A9%E6%89%A9%E5%B1%95/kpbnombpnpcffllnianjibmpadjolanh" target="_blank" rel="noopener noreferrer"><img src="/uploads/2018/12/20181216001.png" alt="Available in the Chrome Web Store"></a></p>
+<p><a href="https://chrome.google.com/webstore/detail/%E5%93%94%E5%93%A9%E5%93%94%E5%93%A9%E5%8A%A9%E6%89%8B%EF%BC%9Abilibilicom-%E7%BB%BC%E5%90%88%E8%BE%85%E5%8A%A9%E6%89%A9%E5%B1%95/kpbnombpnpcffllnianjibmpadjolanh" target="_blank" rel="noopener noreferrer"><img src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs=" alt="Available in the Chrome Web Store" data-src="/uploads/2018/12/20181216001.png"></a></p>
 <h2 id="%E7%9C%BC%E4%B8%8D%E8%A7%81%E5%BF%83%E4%B8%8D%E7%83%A6%EF%BC%88%E6%96%B0%E6%B5%AA%E5%BE%AE%E5%8D%9A%EF%BC%89">眼不见心不烦（新浪微博）</h2>
 <figure class="center">
   <img
@@ -778,7 +778,7 @@ Hexo 的 after generator 钩子在页面生成时将特征（不只是 meta 一�
 <p>用了很久的一款扩展了。看了下虽然扩展有近一年没有更新过了，但是已有的功能还是都能用。屏蔽掉一些不想看到的信息、模块，偶尔打开微博看看关注的人发的内容还是挺愉快的。</p>
 <p>此前听一同事说了一个关于微博的有意思的点，说到微博是唯一一个不太被其他应用、平台屏蔽分享的产品。像今日头条与腾讯微信互掐、网易部分产品禁止腾讯 QQ、腾讯屏蔽淘宝天猫等等，都是怕自家产品被往外导流量，却很少见微博被拒绝，被屏蔽。我想了下也确实好像是这样，不少平台应用都允许发布微博信息，比如关注微博什么的。</p>
 <p>微博已经是一个成熟型的平台，纵使有感觉到周边的人对比以前都不太使用微博，它也是一款经历了十年风雨的、稳定的产品吧。一些人还是会偶尔上去逛逛的。</p>
-<p><a href="https://chrome.google.com/webstore/detail/%E7%9C%BC%E4%B8%8D%E8%A7%81%E5%BF%83%E4%B8%8D%E7%83%A6%EF%BC%88%E6%96%B0%E6%B5%AA%E5%BE%AE%E5%8D%9A%EF%BC%89/aognaapdfnnldnjglanfbbklaakbpejm" target="_blank" rel="noopener noreferrer"><img src="/uploads/2018/12/20181216001.png" alt="Available in the Chrome Web Store"></a></p>
+<p><a href="https://chrome.google.com/webstore/detail/%E7%9C%BC%E4%B8%8D%E8%A7%81%E5%BF%83%E4%B8%8D%E7%83%A6%EF%BC%88%E6%96%B0%E6%B5%AA%E5%BE%AE%E5%8D%9A%EF%BC%89/aognaapdfnnldnjglanfbbklaakbpejm" target="_blank" rel="noopener noreferrer"><img src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs=" alt="Available in the Chrome Web Store" data-src="/uploads/2018/12/20181216001.png"></a></p>
 <h2 id="%E7%BB%93%E8%AF%AD">结语</h2>
 <p>以上就是本人在这些年使用 Chrome 积攒下来的一些主要的扩展程序。其实目前我的浏览器里还有安装一些其他的扩展程序，但大多数都是处于停用的状态，也就是保留着但基本上不再去使用了，可能偶尔打开用一下的样子。而以上盘点的扩展，都是在用而且比较常用的。阅读到这里的你，不知道有没有发现感兴趣或是合适的扩展呢。不管怎样，每一款优秀扩展的诞生，都是为了能让用户更好地使用浏览器，更好地从互联网上汲取信息，更好地生活和工作。愿你有个更好的使用体验，感谢阅读。</p>
 <hr class="footnotes-sep">
@@ -985,7 +985,7 @@ Binaries:
 <p><a href="https://github.com/h404bi/dorado" target="_blank" rel="noopener noreferrer">https://github.com/h404bi/dorado</a></p>
 </blockquote>
 <p>比如 Scoop 的 main bucket 中的 nvm-windows 使用时会有 UAC 提权，我自己编译了一份没有 UAC 弹窗的 nvm-windows，放到了自己的桶里面。另外要说一下的是，Scoop 的自定义桶不一定要求存放到 GitHub 的公开仓库上的，所以完全可以在本地创建一个 git 仓库，做成一个不公开的私有桶，用于存放一些不宜公开的软件包。</p>
-<p><img src="/uploads/2018/05/20180512002.gif" alt="Add a scoop bucket"></p>
+<p><img src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs=" alt="Add a scoop bucket" data-src="/uploads/2018/05/20180512002.gif"></p>
 <p>Scoop 还自带一个切换软件包版本的功能，可以让你在不同的软件包版本中进行自由切换。这个我想在上文的视频中你已经有看到了。这在你同时需要几个版本的软件包时会比较有用，比如 Python2 和 Python3（虽然 Python2 即将退役）。</p>
 <div class="saber-highlight" v-pre="" data-lang="powershell"><pre class="saber-highlight-code language-powershell"><code class="language-powershell">$ scoop install python27 python
 $ python --version        # -&gt; Python 3.6.x
@@ -1090,7 +1090,7 @@ Scoop 本身的仓库维护其核心功能代码，并打上 tags，发布 relea
         <updated>2018-03-25T05:00:00.000Z</updated>
         <summary type="html"><![CDATA[
 ]]></summary>
-        <content type="html"><![CDATA[<p><img src="/uploads/2018/03/20180324001.jpg" alt="Microsoft Office"></p>
+        <content type="html"><![CDATA[<p><img src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs=" alt="Microsoft Office" data-src="/uploads/2018/03/20180324001.jpg"></p>
 <p>作为宇宙第一 IDE Visual Studio 的兄弟，宇宙第一办公套件 Office 在 Windows
 系统下更加常见。新安装的系统，即使刚开始不愿安装，等到要查看编辑 docx pptx
 文档时，还是会乖乖就擒。只是没想到，Office 2016 这个 2.41GB 的安装镜像，居然是一个 Click-to-Run。</p>
@@ -2079,18 +2079,18 @@ Excel、Powerpoint 以及 Outlook，其它全部排除。如果想把 Outlook �
 <p>就这样过了许久。突然心血来潮，看能不能试试在校时想搞的 <a href="http://he.net" target="_blank" rel="noopener noreferrer">he.net</a> 6in4 隧道，发现配置下来还挺简单的。因为这个玩法其实已经有好多人实践过了<sup class="footnote-ref"><a href="#fn1" id="fnref1">[1]</a></sup><sup class="footnote-ref"><a href="#fn2" id="fnref2">[2]</a></sup><sup class="footnote-ref"><a href="#fn3" id="fnref3">[3]</a></sup><sup class="footnote-ref"><a href="#fn4" id="fnref4">[4]</a></sup>，我也就是搜搜折腾记录下。</p>
 <h2 id="%E5%88%9B%E5%BB%BA-he-6in4-%E9%9A%A7%E9%81%93">创建 HE 6in4 隧道</h2>
 <p>支持 IPv6 以及 6in4 的 Openwrt 路由器是前提了。到 <a href="https://tunnelbroker.net/" target="_blank" rel="noopener noreferrer">https://tunnelbroker.net/</a> 注册一个新帐号。登录后，点击左侧的 User Functions 中的 Create Regular Tunnel 创建新的隧道。</p>
-<p><img src="/uploads/2017/02/20170212002.png" alt=""></p>
+<p><img src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs=" alt="" data-src="/uploads/2017/02/20170212002.png"></p>
 <p>在 Ipv4 Endpoint 中填入路由器 wan 口的公网 IP。然后在下面的 Available Tunnel Servers 选择一个 he 的 6in4 隧道服务器。列表有显示地区和服务器的 IPv4，可选择一个连接速度较快延迟较低的（提示：并不是亚洲区就最快，建议本机 ping 一下看看，我选的就不是亚洲区）。最后点击 Create Tunnel 便创建了一个 6in4 隧道。</p>
-<p><img src="/uploads/2017/02/20170212003.png" alt=""></p>
+<p><img src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs=" alt="" data-src="/uploads/2017/02/20170212003.png"></p>
 <p>其中 IPv6 Tunnel Endpoints 部分是这个 6in4 隧道两端的 IPv4 和 IPv6 地址。Server 是 HE 的隧道服务器，Client 是我们的路由器或计算机。下方的 Routed IPv6 Prefixes 是该隧道可用于分配的 IPv6 地址段，可为路由器背后的内网机器都分配上唯一的 IPv6 地址。</p>
 <h2 id="openwrt-%E9%85%8D%E7%BD%AE-he-6in4">Openwrt 配置 HE 6in4</h2>
 <p>在 Luci 界面中，依次点击“网络”-“接口”-“添加新接口”创建新接口。接口名称随意，这里为方便辨认以 HENET 为例，协议选择 IPv6-in-IPv4 (RFC4213)，然后提交。</p>
-<p><img src="/uploads/2017/02/20170212004.png" alt=""></p>
+<p><img src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs=" alt="" data-src="/uploads/2017/02/20170212004.png"></p>
 <p>接着“基本配置”。“本地IPv4地址”留空，“远程IPv4地址”填写上面创建的 HE 6in4 隧道中的“Server IPv4 Address”，“本地IPv6地址”填写隧道中的“Client IPv6 Address”，“IPv6 routed prefix”填写隧道中的“Routed /64”。</p>
 <p>然后勾选“启用HE.net动态终端更新”，填写相应的“隧道ID”，“HE.net用户ID”，“HE.net密码”。这里注意“HE.net用户ID”提示说“这是32 byte hex编码的用户ID，不是登录名”，也即不是注册时的用户名，这个值可以点击左侧的 Main Page 中找到。</p>
-<p><img src="/uploads/2017/02/20170212005.png" alt=""></p>
+<p><img src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs=" alt="" data-src="/uploads/2017/02/20170212005.png"></p>
 <p>接着在防火墙设置页中，确保防火墙区域跟 wan 的相同。最后保存应用，到此配置就完成了。剩下的就是测试了。看下网卡能否正常获得 IPv6 地址，到 <a href="http://ipv6-test.com/" target="_blank" rel="noopener noreferrer">http://ipv6-test.com/</a> 检查一下 IPv6 状态。访问 <a href="https://ipv6.google.com/" target="_blank" rel="noopener noreferrer">https://ipv6.google.com/</a> 试试，可用！聊胜于无，哈~</p>
-<p><img src="/uploads/2017/02/20170212006.png" alt=""></p>
+<p><img src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs=" alt="" data-src="/uploads/2017/02/20170212006.png"></p>
 <hr class="footnotes-sep">
 <section class="footnotes">
 <ol class="footnotes-list">
@@ -2120,7 +2120,7 @@ Excel、Powerpoint 以及 Outlook，其它全部排除。如果想把 Outlook �
 <p>2月：问答系统，自然语言处理方向的毕设课题，完全下不了手，还是先过年吧。港澳通行证 get。</p>
 <p>3月：恶补毕设课题知识。</p>
 <p>4月：完成了毕设程序<sup class="footnote-ref"><a href="#fn1" id="fnref1">[1]</a></sup>，用了实习学到的 Flask，现学现用 scikit-learn、Word2Vec、LTP。整个系统最初设计是我负责问题分类，队友负责问题解答，但最终还是没有和队友的程序组合到一起。没有被选上答辩（队友上了 lol）。</p>
-<p><img src="/uploads/2017/01/20170130001.jpg" alt="桂林西站" title="桂林西站"></p>
+<p><img src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs=" alt="桂林西站" title="桂林西站" data-src="/uploads/2017/01/20170130001.jpg"></p>
 <p>5月：毕业游，桂林。找工找房。</p>
 <p>6月：Offer 到手，一毕业就“转行”。Hong Kong 游一日（天气不好，鲜虾云吞真大粒）。离校。眼科中心验光，发现大学搞了四年电脑近视没变化。</p>
 <p>7月：转正。观《大鱼海棠》。《Pokermon GO》“昙花一现”。</p>
