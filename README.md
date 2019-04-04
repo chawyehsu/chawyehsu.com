@@ -1,11 +1,32 @@
-# Hello World!
+<p align="center">
+  <h1 align="center">Hello World!</h1>
+</p>
+<hr>
+<p align="center">
+  <a href="https://saberjs.org/">
+    <img src="https://img.shields.io/badge/Powered%20by-Saber-FF8AD8.svg?style=flat-square" alt="Powered by Saber" />
+  </a>
+  <a href="https://www.travis-ci.com/h404bi/www.h404bi.com">
+    <img src="https://img.shields.io/travis/com/h404bi/www.h404bi.com/master.svg?style=flat-square" alt="Travis" />
+  </a>
+  <a href="https://www.h404bi.com">
+    <img src="https://img.shields.io/website-up-down-green-red/https/h404bi.com.svg?style=flat-square" alt="Website Status" />
+  </a>
+  <a href="https://code.visualstudio.com">
+    <img src="https://img.shields.io/badge/build%20with-vscode-blue.svg?style=flat-square" alt="build with vscode" />
+  </a>
+  <a href="https://github.com/h404bi/www.h404bi.com">
+    <img src="https://img.shields.io/david/h404bi/www.h404bi.com.svg?style=flat-square" alt="David" />
+  </a>
+  <a href="https://github.com/h404bi/www.h404bi.com">
+    <img src="https://img.shields.io/github/repo-size/h404bi/www.h404bi.com.svg?style=flat-square&colorB=328657" alt="Repo size" />
+  </a>
+</p>
 
-[![Powered by Saber](https://img.shields.io/badge/Powered%20by-Saber-FF8AD8.svg?style=flat-square)](https://saberjs.org/) [![Travis](https://img.shields.io/travis/com/h404bi/www.h404bi.com/master.svg?style=flat-square)](https://www.travis-ci.com/h404bi/www.h404bi.com) [![Website Status](https://img.shields.io/website-up-down-green-red/https/h404bi.com.svg?style=flat-square)](https://www.h404bi.com) [![build with vscode](https://img.shields.io/badge/build%20with-vscode-blue.svg?style=flat-square)](https://code.visualstudio.com) [![David](https://img.shields.io/david/h404bi/www.h404bi.com.svg?style=flat-square)](https://github.com/h404bi/www.h404bi.com)
- ![Repo size](https://img.shields.io/github/repo-size/h404bi/www.h404bi.com.svg?style=flat-square&colorB=328657)
-
-This repo contains all the source code of h404bi's frigidity [website](https://www.h404bi.com).
-
-You can also see the generated files at [gh-pages](https://github.com/h404bi/www.h404bi.com/tree/gh-pages) branch.
+<p align="center">
+  This repository contains all the source code of h404bi's personal <a href="https://www.h404bi.com">website</a>.<br/>
+  <small>You can also see the auto-generated deployable files at <a href="https://github.com/h404bi/www.h404bi.com/tree/gh-pages">gh-pages</a> branch.</small>
+</p>
 
 ## Architecture
 
