@@ -4740,6 +4740,11 @@ markdown-it-footnote@^3.0.1:
   resolved "https://registry.yarnpkg.com/markdown-it-footnote/-/markdown-it-footnote-3.0.1.tgz#7f3730747cacc86e2fe0bf8a17a710f34791517a"
   integrity sha1-fzcwdHysyG4v4L+KF6cQ80eRUXo=
 
+markdown-it-lazy-image@^0.0.1:
+  version "0.0.1"
+  resolved "https://registry.yarnpkg.com/markdown-it-lazy-image/-/markdown-it-lazy-image-0.0.1.tgz#11a6f7601121d1567ea6c55c4528a3d99deffaa3"
+  integrity sha512-yQzlPDDmoWBQqoR4xevK73xMoE68DtL/GaxpAwFoz3nTIu1W7aP5n89Q1xE5e0U62r5N3Bv1KIJqwweOndyF/g==
+
 matchit@^1.0.0:
   version "1.0.7"
   resolved "https://registry.yarnpkg.com/matchit/-/matchit-1.0.7.tgz#6fec56cd0eee7dc11fb5624ed4cd70d40b2ac949"

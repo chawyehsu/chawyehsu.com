@@ -83,6 +83,9 @@ module.exports = {
       },
       {
         resolve: "markdown-it-cjk-breaks"
+      },
+      {
+        resolve: "markdown-it-lazy-image"
       }
     ]
   },
