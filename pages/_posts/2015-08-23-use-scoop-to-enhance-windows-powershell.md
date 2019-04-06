@@ -6,10 +6,7 @@ updated: 2015-09-04 17:19:38
 cover: /uploads/2018/12/20181225013.png
 ---
 
-<p style="text-align:center">
-<a href="/blog/2018/05/talk-about-scoop-the-package-manager-for-windows-again">
-<strong>关于 Scoop 的新文章</strong></a>
-</p>
+**[关于 Scoop 的新文章](/blog/2018/05/talk-about-scoop-the-package-manager-for-windows-again)** {style="text-align:center"}
 
 ## 一本道
 软件包管理工具想必大家已经很清楚并且使用过。Debian/ Ubuntu 的 apt-get，
@@ -36,14 +33,7 @@ Geek 们也生产出各式各样的工具以贴合他们的 \*nix 使用习惯�
 毕竟是 Windows 内置的嘛，还能 Win + R powershell 快速打开，
 有时候打下指令（`ipconfig`、`nslookup` 什么的）还是会用到的呢。
 
-<figure class="center">
-  <img
-    data-src="/uploads/2015/08/20150823002.png"
-    src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs="
-    alt="配置 Scoop 后的样子"
-    title="配置 Scoop 后的样子">
-  <figcaption><p>配置 Scoop 后的样子</p></figcaption>
-</figure>
+![配置 Scoop 后的样子](/uploads/2015/08/20150823002.png "配置 Scoop 后的样子")
 
 ## 正题
 1. 确保你已安装 Powershell 3（其实 Windows7+ 应该都已经集成了），

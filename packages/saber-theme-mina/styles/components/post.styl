@@ -14,10 +14,20 @@
   .post-body
     margin-bottom: $gap-xl
 
-    a:not([id^=fnref])
+    p a
       border-bottom: 1px dashed $meta-color
       overflow-wrap: break-word
       word-break: break-all
+
+    h1, h2, h3,
+    h4, h5, h6
+      &:hover
+        .header-anchor
+          visibility: visible
+
+    .header-anchor
+      margin-left: $gap-m * -1.4333
+      visibility: hidden
 
     > p
       text-align: justify

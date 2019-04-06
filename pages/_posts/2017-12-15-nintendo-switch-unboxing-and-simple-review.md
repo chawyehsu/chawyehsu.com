@@ -16,14 +16,7 @@ cover: /uploads/2018/12/20181225007.png
 
 > "There are many unboxing and review articles, but this is mine."
 
-<figure class="center">
-  <img
-    data-src="/uploads/2017/12/20171215002.jpg"
-    src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs="
-    alt="本图来源于网络"
-    title="本图来源于网络">
-  <figcaption><p>本图来源于网络</p></figcaption>
-</figure>
+![本图来源于网络](/uploads/2017/12/20171215002.jpg "本图来源于网络")
 
 ---
 
@@ -31,322 +24,113 @@ cover: /uploads/2018/12/20181225007.png
 
 购于某宝，顺丰同城次日达，双十二也没便宜多少。拿到后其实先开了看了几遍，后又封了箱，下班回家才仔细研究了下，所以算是个伪开箱。
 
-<figure class="center">
-  <img
-    data-src="/uploads/2017/12/20171215003.jpg"
-    src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs=">
-</figure>
+![](/uploads/2017/12/20171215003.jpg)
 
 收到的快递箱子比预想中的要大一些，两掌长，掌半宽高。预计实物也会比预想大一点。
 
-<figure class="center">
-  <img
-    data-src="/uploads/2017/12/20171215004.jpg"
-    src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs=">
-</figure>
+![](/uploads/2017/12/20171215004.jpg)
 
 买的是标准的红蓝手柄款，预期先入手一款游戏，配了《超级马里奥：奥德赛》。配机买一个游戏的话，估计不少人会在绿帽子塞尔达与红帽子马里奥之间选一个吧。既然塞尔达能拿下 TGA 年度最佳游戏，说明还是更热门一筹的。但我似乎没还玩过塞尔达系列的其它游戏（听过但真的没玩过），便选了更为熟悉的“8-4关”红帽子。除外则是店家送的赠品。
 
 **图集：**
 
-<figure class="center">
-  <img
-    data-src="/uploads/2017/12/20171215005.jpg"
-    src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs="
-    alt="盒子正面"
-    title="盒子正面">
-  <figcaption><p>盒子正面</p></figcaption>
-</figure>
+![盒子正面](/uploads/2017/12/20171215005.jpg "盒子正面")
 
-<figure class="center">
-  <img
-    data-src="/uploads/2017/12/20171215006.jpg"
-    src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs="
-    alt="盒子背面"
-    title="盒子背面">
-  <figcaption><p>盒子背面</p></figcaption>
-</figure>
+![盒子背面](/uploads/2017/12/20171215006.jpg "盒子背面")
 
-<figure class="center">
-  <img
-    data-src="/uploads/2017/12/20171215007.jpg"
-    src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs="
-    alt="盒子侧面"
-    title="盒子侧面">
-  <figcaption><p>盒子侧面</p></figcaption>
-</figure>
+![盒子侧面](/uploads/2017/12/20171215007.jpg "盒子侧面")
 
-<figure class="center">
-  <img
-    data-src="/uploads/2017/12/20171215008.jpg"
-    src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs="
-    alt="盒子前面说明"
-    title="盒子前面说明">
-  <figcaption><p>盒子前面说明</p></figcaption>
-</figure>
+![盒子前面说明](/uploads/2017/12/20171215008.jpg "盒子前面说明")
 
 都有些什么基本上是一目了然了。
 
-<figure class="center">
-  <img
-    data-src="/uploads/2017/12/20171215009.jpg"
-    src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs="
-    alt="盒子后面说明"
-    title="盒子后面说明">
-  <figcaption><p>盒子后面说明</p></figcaption>
-</figure>
+![盒子后面说明](/uploads/2017/12/20171215009.jpg "盒子后面说明")
 
 没有国行，我买的是港版。Switch 没有锁区，数字版游戏可以随意切换区域购买，所以选哪个版本大概是看个人喜好了。
 
-<figure class="center">
-  <img
-    data-src="/uploads/2017/12/20171215010.jpg"
-    src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs=">
-</figure>
+![](/uploads/2017/12/20171215010.jpg)
 
 打开上盖后，盒内正前方还有醒目的说明提示，有点意思。第一层就是两个有多种使用方法的 Joy-Con 手柄与掌机本体。
 
-<figure class="center">
-  <img
-    data-src="/uploads/2017/12/20171215011.jpg"
-    src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs="
-    alt="底层是配件、保修证及说明书"
-    title="底层是配件、保修证及说明书">
-  <figcaption><p>底层是配件、保修证及说明书</p></figcaption>
-</figure>
+![底层是配件、保修证及说明书](/uploads/2017/12/20171215011.jpg "底层是配件、保修证及说明书")
 
 盒子为各种配件做了刚好适配的槽位，给人一种包装扎实的感觉。
 
-<figure class="center">
-  <img
-    data-src="/uploads/2017/12/20171215033.jpg"
-    src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs="
-    alt="港版保修证及英文说明书"
-    title="港版保修证及英文说明书">
-  <figcaption><p>港版保修证及英文说明书</p></figcaption>
-</figure>
+![港版保修证及英文说明书](/uploads/2017/12/20171215033.jpg "港版保修证及英文说明书")
 
-<figure class="center">
-  <img
-    data-src="/uploads/2017/12/20171215014.jpg"
-    src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs=">
-</figure>
+![](/uploads/2017/12/20171215014.jpg)
 
 拿开包装。最原始的样子，两个手柄与主机分离。（刚收到打开把玩时先贴了店家送的硬贴膜）
 
-<figure class="center">
-  <img
-    data-src="/uploads/2017/12/20171215015.jpg"
-    src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs="
-    alt="主机背面"
-    title="主机背面">
-  <figcaption><p>主机背面</p></figcaption>
-</figure>
+![主机背面](/uploads/2017/12/20171215015.jpg "主机背面")
 
 背面正中央大 LOGO，下方左右两个扬声器，左侧是支架，打开可以立起主机，里面藏有 SD 卡槽，可用于存储扩展。（有看到 MADE IN CHINA 字样嘛 :D）
 
-<figure class="center">
-  <img
-    data-src="/uploads/2017/12/20171215016.jpg"
-    src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs="
-    alt="立起来的样子"
-    title="立起来的样子">
-  <figcaption><p>立起来的样子</p></figcaption>
-</figure>
+![立起来的样子](/uploads/2017/12/20171215016.jpg "立起来的样子")
 
 感觉背后的支架打开还是有一点虚呀，估计用久了就会松动。
 
-<figure class="center">
-  <img
-    data-src="/uploads/2017/12/20171215017.jpg"
-    src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs="
-    alt="顶部右侧 GAME CARD"
-    title="顶部右侧 GAME CARD">
-  <figcaption><p>顶部右侧 GAME CARD</p></figcaption>
-</figure>
+![顶部右侧 GAME CARD](/uploads/2017/12/20171215017.jpg "顶部右侧 GAME CARD")
 
 主机顶部右侧是卡带插槽、耳机插孔及散热孔，左侧是电源开关与音量调节按钮。
 
-<figure class="center">
-  <img
-    data-src="/uploads/2017/12/20171215018.jpg"
-    src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs="
-    alt="主机底部，Type-C 快充"
-    title="主机底部，Type-C 快充">
-  <figcaption><p>主机底部，Type-C 快充</p></figcaption>
-</figure>
+![主机底部，Type-C 快充](/uploads/2017/12/20171215018.jpg "主机底部，Type-C 快充")
 
-<figure class="center">
-  <img
-    data-src="/uploads/2017/12/20171215029.jpg"
-    src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs="
-    alt="两个 Joy-Con 手柄"
-    title="两个 Joy-Con 手柄">
-  <figcaption><p>两个 Joy-Con 手柄</p></figcaption>
-</figure>
+![两个 Joy-Con 手柄](/uploads/2017/12/20171215029.jpg "两个 Joy-Con 手柄")
 
 手柄颜色上，红蓝款是标准款，除此外还有全黑的、奥德赛捆绑的全红、DIY 全蓝的等等。摘下来拿在手上的握感很不错。对比常见的手柄的话，醒目的是在下方左手有一个截图键，右手则有一个 HOME 键。按下一些按键时侧边会有跑马灯提示，手柄的几种使用模式下都会有这个提示。
 
-<figure class="center">
-  <img
-    data-src="/uploads/2017/12/20171215012.jpg"
-    src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs=">
-</figure>
+![](/uploads/2017/12/20171215012.jpg)
 
 配件：充电器、HDMI 数据线、拓展坞底座、手柄握把以及手柄手绳。
 
-<figure class="center">
-  <img
-    data-src="/uploads/2017/12/20171215013.jpg"
-    src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs="
-    alt="突然想起《Plug & Play》游戏..."
-    title="突然想起《Plug & Play》游戏...">
-  <figcaption><p>突然想起《Plug & Play》游戏...</p></figcaption>
-</figure>
+![突然想起《Plug & Play》游戏...](/uploads/2017/12/20171215013.jpg "突然想起《Plug & Play》游戏...")
 
 港版的充电器是欧标的插头，需要转接，用过港版电子产品的应该都不会陌生，如港版 Macbook 也这样。
 
-<figure class="center">
-  <img
-    data-src="/uploads/2017/12/20171215019.jpg"
-    src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs="
-    alt="Nitendo HDMI"
-    title="Nitendo HDMI">
-  <figcaption><p>Nitendo HDMI</p></figcaption>
-</figure>
+![Nitendo HDMI](/uploads/2017/12/20171215019.jpg "Nitendo HDMI")
 
-<figure class="center">
-  <img
-    data-src="/uploads/2017/12/20171215020.jpg"
-    src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs="
-    alt="底座正面，左下角提示灯"
-    title="底座正面，左下角提示灯">
-  <figcaption><p>底座正面，左下角提示灯</p></figcaption>
-</figure>
+![底座正面，左下角提示灯](/uploads/2017/12/20171215020.jpg "底座正面，左下角提示灯")
 
 这底座还挺沉的……
 
-<figure class="center">
-  <img
-    data-src="/uploads/2017/12/20171215021.jpg"
-    src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs="
-    alt="底座侧面"
-    title="底座侧面">
-  <figcaption><p>底座侧面</p></figcaption>
-</figure>
+![底座侧面](/uploads/2017/12/20171215021.jpg "底座侧面")
 
 侧面有两个 USB 接口，唔还没想到外接什么用途。
 
-<figure class="center">
-  <img
-    data-src="/uploads/2017/12/20171215022.jpg"
-    src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs="
-    alt="底座背面"
-    title="底座背面">
-  <figcaption><p>底座背面</p></figcaption>
-</figure>
+![底座背面](/uploads/2017/12/20171215022.jpg "底座背面")
 
-<figure class="center">
-  <img
-    data-src="/uploads/2017/12/20171215023.jpg"
-    src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs="
-    alt="可打开后盖"
-    title="可打开后盖">
-  <figcaption><p>可打开后盖</p></figcaption>
-</figure>
+![可打开后盖](/uploads/2017/12/20171215023.jpg "可打开后盖")
 
-<figure class="center">
-  <img
-    data-src="/uploads/2017/12/20171215024.jpg"
-    src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs="
-    alt="底座背部接口"
-    title="底座背部接口">
-  <figcaption><p>底座背部接口</p></figcaption>
-</figure>
+![底座背部接口](/uploads/2017/12/20171215024.jpg "底座背部接口")
 
 背部有三个接口，分别是一个 Type-C 电源接口，一个 USB3.0 以及一个 HDMI 输出。
 
-<figure class="center">
-  <img
-    data-src="/uploads/2017/12/20171215025.jpg"
-    src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs="
-    alt="底座中部"
-    title="底座中部">
-  <figcaption><p>底座中部</p></figcaption>
-</figure>
+![底座中部](/uploads/2017/12/20171215025.jpg "底座中部")
 
 中部一个 Type-C 接口，对应主机底部的口。哈哈，像一个表情……
 
-<figure class="center">
-  <img
-    data-src="/uploads/2017/12/20171215026.jpg"
-    src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs="
-    alt="组装起来静放"
-    title="组装起来静放">
-  <figcaption><p>组装起来静放</p></figcaption>
-</figure>
+![组装起来静放](/uploads/2017/12/20171215026.jpg "组装起来静放")
 
 据网上的其他评测与玩家体验，说底座的设计有些拙计，放入主机时容易磨花屏幕，不利于散热等等。于是衍生出 Type-C 延长线用法，各种第三方的底座等。感觉掌机的话，还是拿在手里的时间更多些吧，当然家里有大电视可能不一样……
 
-<figure class="center">
-  <img
-    data-src="/uploads/2017/12/20171215027.jpg"
-    src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs="
-    alt="组装手柄握把"
-    title="组装手柄握把">
-  <figcaption><p>组装手柄握把</p></figcaption>
-</figure>
+![组装手柄握把](/uploads/2017/12/20171215027.jpg "组装手柄握把")
 
-<figure class="center">
-  <img
-    data-src="/uploads/2017/12/20171215028.jpg"
-    src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs="
-    alt="手柄握把背面"
-    title="手柄握把背面">
-  <figcaption><p>手柄握把背面</p></figcaption>
-</figure>
+![手柄握把背面](/uploads/2017/12/20171215028.jpg "手柄握把背面")
 
 组装起来后成功变成一个“常规的手柄”，受限于本身的两个 Joy-Con 手柄，造型上有点奇怪。似乎短小了一些，握起来手大的话可能感觉会缺点什么，但我感觉还行。
 
-<figure class="center">
-  <img
-    data-src="/uploads/2017/12/20171215030.jpg"
-    src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs="
-    alt="手柄手绳模式"
-    title="手柄手绳模式">
-  <figcaption><p>手柄手绳模式</p></figcaption>
-</figure>
+![手柄手绳模式](/uploads/2017/12/20171215030.jpg "手柄手绳模式")
 
 两个手柄配两个手绳。手绳是没有左右之分的，可以将任意一个手绳用在左手柄或者右手柄上。
 
-<figure class="center">
-  <img
-    data-src="/uploads/2017/12/20171215031.jpg"
-    src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs="
-    alt="手绳模式下的提示灯"
-    title="手绳模式下的提示灯">
-  <figcaption><p>手绳模式下的提示灯</p></figcaption>
-</figure>
+![手绳模式下的提示灯](/uploads/2017/12/20171215031.jpg "手绳模式下的提示灯")
 
-<figure class="center">
-  <img
-    data-src="/uploads/2017/12/20171215032.jpg"
-    src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs="
-    alt="手绳 LOCK 开关"
-    title="手绳 LOCK 开关">
-  <figcaption><p>手绳 LOCK 开关</p></figcaption>
-</figure>
+![手绳 LOCK 开关](/uploads/2017/12/20171215032.jpg "手绳 LOCK 开关")
 
 需要注意的是，手绳的底部有一个防滑出锁定开关，除了按住手柄背部的释放按钮外，还要先打开开关才能拆下手绳。我第一次操作时没看到，差点就暴力乱来了……
 
-<figure class="center">
-  <img
-    data-src="/uploads/2017/12/20171215034.jpg"
-    src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs="
-    alt="开机看看"
-    title="开机看看">
-  <figcaption><p>开机看看</p></figcaption>
-</figure>
+![开机看看](/uploads/2017/12/20171215034.jpg "开机看看")
 
 运行后，从散热口出来的热风，会带着一股不知道怎么解释的味道。“新电子产品的硬件味道？”，这也太浓了吧……虽然有点奇怪，但感觉有点沉迷无法自拔……
 
@@ -354,105 +138,41 @@ cover: /uploads/2018/12/20181225007.png
 
 Switch 本体部分看完了，接下来是游戏。
 
-<figure class="center">
-  <img
-    data-src="/uploads/2017/12/20171215035.jpg"
-    src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs="
-    alt="《超级马里奥：奥德赛》正背两面"
-    title="《超级马里奥：奥德赛》正背两面">
-  <figcaption><p>《超级马里奥：奥德赛》正背两面</p></figcaption>
-</figure>
+![《超级马里奥：奥德赛》正背两面](/uploads/2017/12/20171215035.jpg "《超级马里奥：奥德赛》正背两面")
 
-<figure class="center">
-  <img
-    data-src="/uploads/2017/12/20171215036.jpg"
-    src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs="
-    alt="背部外层贴纸的香港总代说明"
-    title="背部外层贴纸的香港总代说明">
-  <figcaption><p>背部外层贴纸的香港总代说明</p></figcaption>
-</figure>
+![背部外层贴纸的香港总代说明](/uploads/2017/12/20171215036.jpg "背部外层贴纸的香港总代说明")
 
-<figure class="center">
-  <img
-    data-src="/uploads/2017/12/20171215037.jpg"
-    src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs=">
-</figure>
+![](/uploads/2017/12/20171215037.jpg)
 
 普通版打开里面就是一个卡带了，没有什么其它东西。
 
-<figure class="center">
-  <img
-    data-src="/uploads/2017/12/20171215038.jpg"
-    src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs="
-    alt="卡带，Odyssey, ya see!"
-    title="卡带，Odyssey, ya see!">
-  <figcaption><p>卡带，Odyssey, ya see!</p></figcaption>
-</figure>
+![卡带，Odyssey, ya see!](/uploads/2017/12/20171215038.jpg "卡带，Odyssey, ya see!")
 
-<figure class="center">
-  <img
-    data-src="/uploads/2017/12/20171215039.jpg"
-    src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs="
-    alt="金手指"
-    title="金手指">
-  <figcaption><p>金手指</p></figcaption>
-</figure>
+![金手指](/uploads/2017/12/20171215039.jpg "金手指")
 
 好像真有人舔金手指，然后说苦的，哈哈哈……咱们还是别了。
 
-<figure class="center">
-  <img
-    data-src="/uploads/2017/12/20171215040.jpg"
-    src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs="
-    alt="卡带上机"
-    title="卡带上机">
-  <figcaption><p>卡带上机</p></figcaption>
-</figure>
+![卡带上机](/uploads/2017/12/20171215040.jpg "卡带上机")
 
 除了实体卡带版本外，还能在 Nintendo 的 eShop 上购买数字版的游戏。不过实体卡带版本大概会更多人选择，因为除了有实物感外，玩通了还可以二转手。但有一些游戏像 Minecraft 的 Switch 版，只有数字版没有出实体卡带版，就只能在 eShop 上购买下载了。
 
-<figure class="center">
-  <img
-    data-src="/uploads/2017/12/20171215041.jpg"
-    src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs="
-    alt="开机联网就要升级系统.."
-    title="开机联网就要升级系统..">
-  <figcaption><p>开机联网就要升级系统..</p></figcaption>
-</figure>
+![开机联网就要升级系统..](/uploads/2017/12/20171215041.jpg "开机联网就要升级系统..")
 
 作为掌机，整机的大小比起我预期是大了一些，但还能接受，外出带上的话是会有一点点难受。
 
-<figure class="center">
-  <img
-    data-src="/uploads/2017/12/20171215042.jpg"
-    src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs=">
-</figure>
+![](/uploads/2017/12/20171215042.jpg)
 
 好了，开箱大概就是这样。
 
 ---
 
-<figure class="center">
-  <img
-    data-src="/uploads/2017/12/20171215001.jpg"
-    src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs="
-    alt="奥德赛的抓拍截图"
-    title="奥德赛的抓拍截图">
-  <figcaption><p>奥德赛的抓拍截图</p></figcaption>
-</figure>
+![奥德赛的抓拍截图](/uploads/2017/12/20171215001.jpg "奥德赛的抓拍截图")
 
 **关于简评：**
 
 纯用来玩游戏的游戏机，到入手 Switch 这个阶段，我只真正拥有过 3 款。第一个是小时候的《小霸王学习机》，说是学习机，当然是用来~~学习~~玩游戏啦。长大后才知道是山寨 FC 的，那是童年，也就那样吧。第二个则是本文开头说的 GameBoy，最初用的是“砖头机”，后面换了个透明壳的，电池用了不少。那时有《口袋妖怪》、《牧场物语》、《洛克人》等游戏玩，真的是太棒了。然后就是 Switch 了。当然期间多少有接触下 PS1、PSV 等产品，不过那都是“接触”过。
 
-<figure class="center">
-  <img
-    data-src="/uploads/2017/12/20171215043.jpg"
-    src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs="
-    alt="本图来源于网络"
-    title="本图来源于网络">
-  <figcaption><p>本图来源于网络</p></figcaption>
-</figure>
+![本图来源于网络](/uploads/2017/12/20171215043.jpg "本图来源于网络")
 
 这次之所以选择 Switch，有两个原因。
 

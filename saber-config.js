@@ -78,14 +78,36 @@ module.exports = {
   },
   markdown: {
     plugins: [
+      // {
+      //   resolve: 'markdown-it-anchor',
+      //   options: {
+      //     permalink: true,
+      //     permalinkClass: 'header-anchor icon ion-md-link',
+      //     permalinkSymbol: '',
+      //     permalinkBefore: true
+      //   }
+      // },
       {
-        resolve: "markdown-it-footnote"
+        resolve: 'markdown-it-emoji'
       },
       {
-        resolve: "markdown-it-cjk-breaks"
+        resolve: 'markdown-it-footnote'
       },
       {
-        resolve: "markdown-it-lazy-image"
+        resolve: 'markdown-it-cjk-breaks'
+      },
+      {
+        resolve: 'markdown-it-lazy-image'
+      },
+      {
+        resolve: 'markdown-it-attrs'
+      },
+      {
+        resolve: 'markdown-it-implicit-figures',
+        options: {
+          dataType: true,
+          figcaption: true
+        }
       }
     ]
   },
