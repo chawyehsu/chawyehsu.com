@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://www.h404bi.com</id>
     <title>Chawye Hsu, H404bi</title>
-    <updated>2019-04-04T08:31:55.563Z</updated>
+    <updated>2019-04-06T14:42:05.388Z</updated>
     <generator>Saber.js</generator>
     <author>
         <name>h404bi</name>
@@ -1165,13 +1165,13 @@ Excel、Powerpoint 以及 Outlook，其它全部排除。如果想把 Outlook �
         <id>/blog/2018/01/the-tao-of-notch-beyond-twitter</id>
         <link href="https://www.h404bi.com/blog/2018/01/the-tao-of-notch-beyond-twitter">
         </link>
-        <updated>2018-01-01T04:40:34.000Z</updated>
-        <summary type="html"><![CDATA[自 Notch 出售了 Minecraft，出售了 Mojang 公司后，他在 Minecraft 方面的消息也随着 Minecraft 逐年下降的热度而减少。因此也有人跟我说，微软收购 Minecraft 的那一刻是 Minecraft 的巅峰，Notch 退出得很及时。卖掉 Minecraft 之后的 Notch 经历了怎样的一段过渡期；为何在《Minecraft: The Story of Mojang》纪录片[1]中还是在 Minecon 与粉丝见面时给人的感觉都是平易近人的他，在推特上却常常出言惊人；Notch 是否还有在做些什么游戏；以及他平时有喜欢玩什么游戏。也许你也会有一些这样的疑惑。
+        <updated>2019-04-06T14:34:56.000Z</updated>
+        <summary type="html"><![CDATA[自 Notch 出售了 Minecraft，出售了 Mojang 公司后，他在 Minecraft 方面的消息也随着 Minecraft 逐年下降的热度而减少。因此也有人跟我说，微软收购 Minecraft 的那一刻是 Minecraft 的巅峰，Notch 退出得很及时。卖掉 Minecraft 之后的 Notch 经历了怎样的一段过渡期；为何在《Minecraft: The Story of Mojang》纪录片[1]中还是在 Minecon 与粉丝见面时给人的感觉都是平易近人的他，在推特上却常常出言惊人；Notch 是否还有在做些什么游戏；以及他平时有喜欢玩什么游戏。也许你也会与我一样有一些这样的疑惑。
 ]]></summary>
-        <content type="html"><![CDATA[<h2 id="%E5%89%8D%E8%A8%80">前言</h2>
-<p>自 Notch 出售了 Minecraft，出售了 Mojang 公司后，他在 Minecraft 方面的消息也随着 Minecraft 逐年下降的热度而减少。因此也有人跟我说，微软收购 Minecraft 的那一刻是 Minecraft 的巅峰，Notch 退出得很及时。卖掉 Minecraft 之后的 Notch 经历了怎样的一段过渡期；为何在《Minecraft: The Story of Mojang》纪录片<sup class="footnote-ref"><a href="#fn1" id="fnref1">[1]</a></sup>中还是在 Minecon 与粉丝见面时给人的感觉都是平易近人的他，在推特上却常常出言惊人；Notch 是否还有在做些什么游戏；以及他平时有喜欢玩什么游戏。也许你也会有一些这样的疑惑。</p>
-<p>本文是人物访谈 The Tao of Notch - Beyond Twitter 的译文版本，原文作者 Brad Glasgow，原文于 2016 年 8 月 4 日发布在 The Escapist 网站上。<sup class="footnote-ref"><a href="#fn2" id="fnref2">[2]</a></sup>由本人进行翻译，断断续续耗时近 5 个月，文中涉及大量需要翻查各类资料（甚至观看电影）后才能理解的游戏相关或非游戏相关的内容，如詹代法则、游戏门事件与女权、楚门的世界、以及各种美国俚语、游戏梗等等。译者翻译能力有限，如果你在阅读期间遇到难以理解的部分，可以与英语原文进行对照阅读。同时如果你有更好的理解与翻译或者有纠错，欢迎向本文的源代码提交你的意见，感谢。（浏览器 F12 即可查看本文托管的 GitHub 仓库地址）。鉴于翻译可能有改动，为保持内容一致性，本文未经本人允许不得转载。</p>
-<p>全文总计 36667 字符，15000+ 汉字，图片 25 张。建议阅读时间至少 30 分钟。</p>
+        <content type="html"><![CDATA[<h2 id="%E8%AF%91%E8%80%85%E5%BA%8F">译者序</h2>
+<p>自 Notch 出售了 Minecraft，出售了 Mojang 公司后，他在 Minecraft 方面的消息也随着 Minecraft 逐年下降的热度而减少。因此也有人跟我说，微软收购 Minecraft 的那一刻是 Minecraft 的巅峰，Notch 退出得很及时。卖掉 Minecraft 之后的 Notch 经历了怎样的一段过渡期；为何在《Minecraft: The Story of Mojang》纪录片<sup class="footnote-ref"><a href="#fn1" id="fnref1">[1]</a></sup>中还是在 Minecon 与粉丝见面时给人的感觉都是平易近人的他，在推特上却常常出言惊人；Notch 是否还有在做些什么游戏；以及他平时有喜欢玩什么游戏。也许你也会与我一样有一些这样的疑惑。</p>
+<p>本文是人物访谈《The Tao of Notch - Beyond Twitter》的译文版本，原文作者 Brad Glasgow，于 2016 年 8 月 4 日发布在 The Escapist 网站上。<sup class="footnote-ref"><a href="#fn2" id="fnref2">[2]</a></sup>本人对此进行了翻译，断断续续耗时近 5 个月，文中涉及大量需要翻查各类资料后才能理解的游戏相关或非游戏相关的内容，比如詹代法则、游戏门事件与女权主义、瑞典文化、楚门的世界、以及各种美国俚语、游戏梗等等。译者翻译能力有限，如果你在阅读期间遇到难以理解的部分，可以参考英语原文进行对照阅读。同时如果你有更好的理解与翻译或者有纠错，非常欢迎（在 <a href="https://github.com/h404bi/www.h404bi.com" target="_blank" rel="noopener noreferrer">GitHub 仓库中</a>）向本译文提交你的意见，感谢。鉴于翻译随时可能有改动，为保持内容一致性，本文未经本人允许不得转载。</p>
+<p>全文总计 35000+ 字符，15000+ 汉字，图片 20+ 张。建议阅读时间至少 30 分钟。</p>
 <h2 id="%E6%AD%A3%E6%96%87">正文</h2>
 <p>公众最近已较少听到著名游戏 Minecraft 的创造者“马库斯·佩尔松”相关的消息。在出售了 Mojang 与购买 7000 万美元贝弗利山庄巨型豪宅之后，他曾接受过一些采访，但自那以后他一直都很沉默…… 除了在推特上。</p>
 <p>推特上的马库斯·佩尔松一直是多个论战的中心，不仅引起过一大批与他意见不一的人的愤怒，也造成过在游戏媒体中出现过多篇因为他的观点而抨击他的社论。每当他在推特上发表一个观点，一个新的社论似乎就诞生了。这些愤怒被整整齐齐地装进了网络文化大战的弹药当中。</p>
