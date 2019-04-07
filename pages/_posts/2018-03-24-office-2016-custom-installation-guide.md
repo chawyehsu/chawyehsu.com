@@ -61,7 +61,8 @@ Excel、Powerpoint 以及 Outlook，其它全部排除。如果想把 Outlook �
 可以在此配置基础上再加上 `<ExcludeApp ID="Outlook" />` 即可。
 具体配置说明可以看配置文件里面的注释。
 
-<component is="script" async src="https://gist.github.com/h404bi/62f65347d5784b37c8535aa371c59720.js"></component>
+<!-- Gist -->
+<div v-if="gist" v-html="gist"></div>
 
 **第四步：** 载入配置文件进行自定义安装。在镜像解压目录下，按住
 <kbd>Shift</kbd> + 鼠标右键，在当前目录打开命令行。键入
@@ -87,3 +88,27 @@ UAC 弹窗确认后开始自动安装。不过这次可以很明显的看到不�
 [Office 2016 Deployment Tool]: https://www.microsoft.com/en-us/download/details.aspx?id=49117
 [小插件]: https://jocent.me/2017/06/20/outlook-close-minimize.html
 [gist.github.com/h404bi/62f65347d5784b37c8535aa371c59720]: https://gist.github.com/h404bi/62f65347d5784b37c8535aa371c59720
+
+<!-- Vue -->
+<script>
+export default {
+  data () {
+    return {
+      gist: ''
+    }
+  },
+  mounted () {
+    window['gist_callback_62f65347d5784b37c8535aa371c59720'] = gist => {
+      const link = document.createElement('link')
+      link.href = gist.stylesheet
+      link.rel = 'stylesheet'
+      document.head.appendChild(link)
+      this.gist = gist.div
+    }
+    const script = document.createElement('script')
+    script.async = 1
+    script.src = 'https://gist.github.com/h404bi/62f65347d5784b37c8535aa371c59720.json?callback=gist_callback_62f65347d5784b37c8535aa371c59720'
+    document.head.appendChild(script)
+  }
+}
+</script>
