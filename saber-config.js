@@ -140,7 +140,7 @@ module.exports = {
     {
       resolve: 'saber-plugin-query-posts',
       options: {
-        perPage: 9
+        perPage: 12
       }
     },
     {

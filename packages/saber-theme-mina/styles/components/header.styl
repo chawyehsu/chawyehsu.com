@@ -1,7 +1,8 @@
 .site-header
   align-items: center
-  background-color: #fafafa
-  box-shadow: 0 0 2px rgba(0, 0, 0, .15)
+  background-color: $background
+  color: $text-color
+  box-shadow: 0 0 35px 0 rgba(2, 2, 2, .08)
   display: flex
   justify-content: center
   padding: $gap-m 0
@@ -24,3 +25,12 @@
 
         &+li
           margin-left: $gap-m
+
+.headroom--unpinned
+  .site-header
+    box-shadow: none
+
+html.black-header
+  .site-header
+    background-color: $background-invert
+    color: $text-color-invert

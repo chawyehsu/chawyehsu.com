@@ -13,19 +13,22 @@
     width: 100%
     background #fefefe
     .post-card__image
-      max-height: 600px;
-      width: 100%;
-      background-color: #ecf0f1;
-      background-position: 50%;
-      background-repeat: no-repeat;
-      background-size: cover;
+      max-height: 600px
+      width: 100%
+      background-color: #ecf0f1
+      background-position: 50%
+      background-repeat: no-repeat
+      background-size: cover
       &:before
-        content: "";
-        display: block;
-        width: 100%;
+        content: ""
+        display: block
+        width: 100%
     .post-card__info
-      padding $gap-m
-      text-align center
+      padding $gap-s
+      word-break: break-all
+      text-align: justify
+      .post-title
+        font-size: $font-size-h6
 
   .post-list-item
     list-style: none
