@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://www.h404bi.com</id>
     <title>Chawye Hsu, H404bi</title>
-    <updated>2019-04-06T17:54:28.479Z</updated>
+    <updated>2019-04-07T13:46:57.384Z</updated>
     <generator>Saber.js</generator>
     <author>
         <name>h404bi</name>
@@ -765,7 +765,8 @@ setup.exe 的话，那就来与我一起“卸了又装”。</p>
 <figure data-type="image"><img src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs=" alt="" data-src="/uploads/2018/03/20180324005.jpg"></figure>
 <p><strong>第三步：</strong> 修改 Deployment Tool 配置。编辑 <code v-pre="">configuration.xml</code> 文件，设定安装版本，更新频道，<strong>排除不想安装的应用</strong>。以下是我的配置文件，安装 64 位专业中文版（对应 <code v-pre="">cn_office_professional_plus</code>），仅保留了 Word、
 Excel、Powerpoint 以及 Outlook，其它全部排除。如果想把 Outlook 也排除的话，可以在此配置基础上再加上 <code v-pre="">&lt;ExcludeApp ID=&quot;Outlook&quot; /&gt;</code> 即可。具体配置说明可以看配置文件里面的注释。</p>
-<p><component is="script" async src="https://gist.github.com/h404bi/62f65347d5784b37c8535aa371c59720.js"></component></p>
+<!-- Gist -->
+<div v-if="gist" v-html="gist"></div>
 <p><strong>第四步：</strong> 载入配置文件进行自定义安装。在镜像解压目录下，按住
 <kbd>Shift</kbd> + 鼠标右键，在当前目录打开命令行。键入
 <code v-pre="">./setup.exe /configure configuration.xml</code> 并执行。</p>
@@ -778,6 +779,7 @@ Excel、Powerpoint 以及 Outlook，其它全部排除。如果想把 Outlook �
 <li>Outlook 默认下很奇怪的是，启动后你点最小化，它实际上并不会最小化到托盘，在任务栏上还是会有 Outlook 的图标。而如果你选择点关闭，则整个 Outlook 都会关掉。通常比较多的可能是误点关了 Outlook，而退出后的 Outlook 是不接收邮件的。这时可以使用一个<a href="https://jocent.me/2017/06/20/outlook-close-minimize.html" target="_blank" rel="noopener noreferrer">小插件</a>实现 Outlook 点关闭时最小化到托盘，解决这个问题。</li>
 </ol>
 <p>完整的 gist 归档：<a href="https://gist.github.com/h404bi/62f65347d5784b37c8535aa371c59720" target="_blank" rel="noopener noreferrer">gist.github.com/h404bi/62f65347d5784b37c8535aa371c59720</a></p>
+<!-- Vue -->
 ]]></content>
         <published>2018-03-23T19:33:27.000Z</published>
     </entry>
