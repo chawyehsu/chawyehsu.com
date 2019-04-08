@@ -20,7 +20,9 @@
         <div class="social-network">
           <ul>
             <li v-for="(item, index) in $themeConfig.footer.social_network" :key="index">
-              <a :class="`icon ion-${item.icon}`" :href="item.path" target="_blank"></a>
+              <a :href="item.path" target="_blank">
+                <ion-icon class="icon" :name="`${item.icon}`"/>
+              </a>
             </li>
           </ul>
         </div>
