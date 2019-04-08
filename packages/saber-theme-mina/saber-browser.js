@@ -18,7 +18,7 @@ export default ({ rootOptions }) => {
     return {
       htmlAttrs: {
         lang: 'zh-CN',
-        class: 'serif'
+        class: 'serif black-footer'
       },
       meta: [
         {
