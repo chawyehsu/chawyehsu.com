@@ -6,7 +6,6 @@
  */
 import Vue from 'vue'
 import 'normalize.css'
-import 'suitcss-components-flex-embed/lib/flex-embed.css'
 import './styles/main.styl'
 
 // Ignore ionicons web components in Vue
