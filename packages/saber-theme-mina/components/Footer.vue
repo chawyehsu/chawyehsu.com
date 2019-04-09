@@ -8,7 +8,7 @@
               <a
                 v-if="item.name.toLocaleLowerCase() === 'rss'"
                 :href="item.path"
-                target="_blank">{{ item.name }}</a>
+                target="_blank" rel="noopener">{{ item.name }}</a>
               <saber-link v-else :to="item.path">
                 <a :href="item.path">{{ item.name }}</a>
               </saber-link>
@@ -20,7 +20,7 @@
         <div class="social-network">
           <ul>
             <li v-for="(item, index) in $themeConfig.footer.social_network" :key="index">
-              <a :class="`icon ion-${item.icon}`" :href="item.path" target="_blank"></a>
+              <a :class="`icon ion-${item.icon}`" :href="item.path" target="_blank" rel="noopener"></a>
             </li>
           </ul>
         </div>

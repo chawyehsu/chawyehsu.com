@@ -6,14 +6,14 @@
       </saber-link>
       <h1 class="name" title="Chawye Hsu">h404bi</h1>
       <div class="slogan" title="Thank you GARNET CROW since 2009">
-        <a href="https://www.bilibili.com/video/av1021686/" target="_blank">There will still be love in this world</a>
+        <a href="https://www.bilibili.com/video/av1021686/" target="_blank" rel="noopener">There will still be love in this world</a>
       </div>
       <hr>
       <div class="menu">
         <saber-link to="/blog" title="Bloggin'">Blog</saber-link>
-        <a href="https://github.com/h404bi" title="Coding..." target="_blank">GitHub</a>
-        <a href="https://steamcommunity.com/id/h404bi" title="Gaming..." target="_blank">Steam</a>
-        <a href="http://music.163.com/#/user/home?id=35631431" title="besides GC, EDM" target="_blank">Music</a>
+        <a href="https://github.com/h404bi" title="Coding..." target="_blank" rel="noopener">GitHub</a>
+        <a href="https://steamcommunity.com/id/h404bi" title="Gaming..." target="_blank" rel="noopener">Steam</a>
+        <a href="http://music.163.com/#/user/home?id=35631431" title="besides GC, EDM" target="_blank" rel="noopener">Music</a>
       </div>
       <div class="location">Guangzhou, China</div>
     </div>
