@@ -6634,11 +6634,6 @@ saber-plugin-baidu-analytics@^0.0.1:
   resolved "https://registry.yarnpkg.com/saber-plugin-baidu-analytics/-/saber-plugin-baidu-analytics-0.0.1.tgz#87b4c497555c8ef57faf1dd90143def984bb378b"
   integrity sha512-eU9oqMowKsGIeT2X8gD2NPMJuMqC3KyPMX/p/L8dzCQTy0mQZ9jKZZPWiEhzaWEkub+8CPZVL/Oq8zKTxFmheg==
 
-saber-plugin-baidu-push@^0.0.1:
-  version "0.0.1"
-  resolved "https://registry.yarnpkg.com/saber-plugin-baidu-push/-/saber-plugin-baidu-push-0.0.1.tgz#873a36638e9eddfd55dcf3f5ba405b7fbbf9c7ef"
-  integrity sha512-rH+1LxAOUvyrcOTeFJaxOisf28FB+07qBST7NFeThsp6BqfPYeaxpMMJ4OcPg48Rx69Ng3vEkdidlB0omGdstg==
-
 saber-plugin-generate-feed@0.1.2:
   version "0.1.2"
   resolved "https://registry.yarnpkg.com/saber-plugin-generate-feed/-/saber-plugin-generate-feed-0.1.2.tgz#cecdb3279b719408751f0028c7a2857b7f5e43c7"
@@ -6652,11 +6647,6 @@ saber-plugin-generate-sitemap@^0.0.1:
   integrity sha512-PipMfoZhQyb7HTJxcNujnB4y1ReRHBpjJ6KqHXqMiDdzF4ncuHvLl4iHmJJEYbpkxOVbmdWvp3Zh2FAs47AT2g==
   dependencies:
     ejs "^2.6.1"
-
-saber-plugin-google-analytics@0.0.3:
-  version "0.0.3"
-  resolved "https://registry.yarnpkg.com/saber-plugin-google-analytics/-/saber-plugin-google-analytics-0.0.3.tgz#173dc9e7501cbfbc46e577422492038e0a189f1e"
-  integrity sha512-wqXIQPbx6KJzzUvJ2pfoRp7+cqIe3FsLlq05e6NP+wtKhOMvuY2/v6mGxJ/BpRikJSv0Q8ln9r0fRqFJicvubg==
 
 saber-plugin-query-posts@0.0.7:
   version "0.0.7"

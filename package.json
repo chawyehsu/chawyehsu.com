@@ -26,7 +26,6 @@
     "saber-plugin-baidu-analytics": "^0.0.1",
     "saber-plugin-generate-feed": "0.1.2",
     "saber-plugin-generate-sitemap": "^0.0.1",
-    "saber-plugin-google-analytics": "0.0.3",
     "saber-plugin-query-posts": "0.0.7",
     "stylus": "^0.54.5",
     "stylus-loader": "^3.0.2"

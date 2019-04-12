@@ -33,7 +33,12 @@ export default ({ rootOptions }) => {
           crossorigin: true
         },
         {
-          href: 'https://unpkg.com/ionicons@4.5.5/dist/css/ionicons.min.css',
+          href: 'https://cdn.jsdelivr.net/',
+          rel: 'preconnect',
+          crossorigin: true
+        },
+        {
+          href: 'https://cdn.jsdelivr.net/npm/ionicons@4.5.5/dist/css/ionicons.min.css',
           rel: 'stylesheet'
         }
       ]

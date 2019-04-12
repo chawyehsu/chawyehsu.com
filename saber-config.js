@@ -154,7 +154,7 @@ module.exports = {
       }
     },
     {
-      resolve: 'saber-plugin-google-analytics',
+      resolve: './packages/saber-plugin-ga-lite',
       options: {
         trackId: 'UA-91882040-1'
       }
