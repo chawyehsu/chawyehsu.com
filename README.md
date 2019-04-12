@@ -55,4 +55,9 @@ $ yarn dev
 
 ## License
 
-Content @ [Chawye Hsu](https://www.h404bi.com), All Rights Reserved.
+Unless otherwise noted:
+
+All content/documents in [`pages`](pages) are licensed under the [CC0](https://creativecommons.org/publicdomain/zero/1.0/) license, and given to [Public Domain](https://en.wikipedia.org/wiki/Public_domain).  
+All content/assets in [`public/uploads`](public/uploads) are licensed under the [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) license.  
+All other content/codes are licensed under the [MIT](https://opensource.org/licenses/MIT) license.  
+Please contact h404bi@outlook.com if you have any questions about the license.
