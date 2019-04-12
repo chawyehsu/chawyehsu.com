@@ -5,7 +5,6 @@ module.exports = {
     description: 'Personal Website of Chawye Hsu.',
     url: 'https://www.h404bi.com',
     author: 'h404bi',
-    avatar: '/static/img/avatar.png',
     disqusjs: {
       shortname: 'h404bi',
       sitename: "Chawye Hsu's Blog",
@@ -16,6 +15,38 @@ module.exports = {
   themeConfig: {
     title: "Chawye Hsu's Blog",
     since: '2015',
+    home: {
+      avatar: '/static/img/avatar.png',
+      avatarLink: '/about',
+      slogan: {
+        name: 'There will still be love in this world',
+        path: 'https://www.bilibili.com/video/av1021686/',
+        title: 'Thank you GARNET CROW since 2009'
+      },
+      menu: [
+        {
+          name: 'Blog',
+          path: '/blog',
+          title: 'Bloggin'
+        },
+        {
+          name: 'GitHub',
+          path: 'https://github.com/h404bi',
+          title: 'Coding...'
+        },
+        {
+          name: 'Steam',
+          path: 'https://steamcommunity.com/id/h404bi',
+          title: 'Gaming...'
+        },
+        {
+          name: 'Music',
+          path: 'https://music.163.com/#/user/home?id=35631431',
+          title: 'Besides GC, EDM'
+        }
+      ],
+      location: 'Guangzhou, China'
+    },
     header: {
       logo_url: '/blog',
       nav: [

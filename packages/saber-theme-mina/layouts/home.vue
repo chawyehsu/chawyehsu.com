@@ -1,28 +1,43 @@
 <template>
   <div class="frontpage">
     <div class="frontpage-content">
-      <saber-link to="/about" class="avatar" >
-        <img :src="$siteConfig.avatar" alt="avatar" />
+      <saber-link class="avatar"
+        v-if="$themeConfig.home.avatarLink"
+        :to="$themeConfig.home.avatarLink">
+        <img :src="$themeConfig.home.avatar" alt="avatar"/>
       </saber-link>
-      <h1 class="name" title="Chawye Hsu">h404bi</h1>
-      <div class="slogan" title="Thank you GARNET CROW since 2009">
-        <a href="https://www.bilibili.com/video/av1021686/" target="_blank" rel="noopener">There will still be love in this world</a>
+      <div v-else class="avatar">
+        <img :src="$themeConfig.home.avatar" alt="avatar"/>
+      </div>
+      <h1 class="name">{{ $siteConfig.author }}</h1>
+      <div class="slogan" :title="$themeConfig.home.slogan.title">
+        <a
+          v-if="$themeConfig.home.slogan.path"
+          :href="$themeConfig.home.slogan.path" target="_blank" rel="noopener">
+          {{ $themeConfig.home.slogan.name }}
+        </a>
+        <span v-else>{{ $themeConfig.home.slogan.name }}</span>
       </div>
       <hr>
-      <div class="menu">
-        <saber-link to="/blog" title="Bloggin'">Blog</saber-link>
-        <a href="https://github.com/h404bi" title="Coding..." target="_blank" rel="noopener">GitHub</a>
-        <a href="https://steamcommunity.com/id/h404bi" title="Gaming..." target="_blank" rel="noopener">Steam</a>
-        <a href="http://music.163.com/#/user/home?id=35631431" title="besides GC, EDM" target="_blank" rel="noopener">Music</a>
-      </div>
-      <div class="location">Guangzhou, China</div>
+      <ul class="menu">
+        <li v-for="(item, index) in $themeConfig.home.menu" :key="index">
+          <saber-link v-if="item.path.indexOf('/') === 0" :to="item.path">
+            <a :href="item.path" :title="item.title">{{ item.name }}</a>
+          </saber-link>
+          <a v-else
+            :href="item.path"
+            :title="item.title"
+            target="_blank" rel="noopener">{{ item.name }}</a>
+        </li>
+      </ul>
+      <div class="location">{{ $themeConfig.home.location }}</div>
     </div>
   </div>
 </template>
 
 <script>
 export default {
-  head() {
+  head () {
     return {
       title: this.$siteConfig.title,
       meta: [
@@ -41,9 +56,9 @@ export default {
 	font-family: 'Covered By Your Grace';
   font-style: normal;
   font-weight: 400;
-  src: local('Covered By Your Grace'), local('CoveredByYourGrace'),
-    url(https://fonts.gstatic.com/s/coveredbyyourgrace/v6/6ozZp4BPlrbDRWPe3EBGAwKD8TGKVoQOpaI5rf69M8iglnMp3_3A8V8Ai8YosRtX.woff2) format('woff2');
+  src: local('Covered By Your Grace'), local('CoveredByYourGrace'), url(https://fonts.gstatic.com/s/coveredbyyourgrace/v6/6ozZp4BPlrbDRWPe3EBGAwKD8TGKVoQOpaI5rf69M8iglnMp3_3A8V8Ai8YosRtX.woff2) format('woff2');
     unicode-range: U+0000-00FF,U+0131,U+0152-0153,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2212,U+2215;
+    font-display: swap;
 }
 
 .frontpage {
@@ -87,12 +102,15 @@ hr {
 }
 
 .menu {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
 	font-size: 14px;
 	margin: 16px 0;
 }
 
-.menu a+a {
-	margin-left: 8px;
+.menu li {
+	margin: 0 4px;
 }
 
 .location {

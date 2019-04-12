@@ -28,6 +28,11 @@ export default ({ rootOptions }) => {
       ],
       link: [
         {
+          href: 'https://fonts.gstatic.com/',
+          rel: 'preconnect',
+          crossorigin: true
+        },
+        {
           href: 'https://unpkg.com/ionicons@4.5.5/dist/css/ionicons.min.css',
           rel: 'stylesheet'
         }
