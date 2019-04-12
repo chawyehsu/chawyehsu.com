@@ -22,7 +22,7 @@
       <ul class="menu">
         <li v-for="(item, index) in $themeConfig.home.menu" :key="index">
           <saber-link v-if="item.path.indexOf('/') === 0" :to="item.path">
-            <a :href="item.path" :title="item.title">{{ item.name }}</a>
+            {{ item.name }}
           </saber-link>
           <a v-else
             :href="item.path"

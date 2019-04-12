@@ -9,9 +9,7 @@
                 v-if="item.name.toLocaleLowerCase() === 'rss'"
                 :href="item.path"
                 target="_blank" rel="noopener">{{ item.name }}</a>
-              <saber-link v-else :to="item.path">
-                <a :href="item.path">{{ item.name }}</a>
-              </saber-link>
+              <saber-link v-else :to="item.path">{{ item.name }}</saber-link>
             </li>
           </ul>
         </nav>
