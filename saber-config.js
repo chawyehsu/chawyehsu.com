@@ -148,9 +148,6 @@ module.exports = {
   },
   plugins: [
     {
-      resolve: 'saber-plugin-baidu-push'
-    },
-    {
       resolve: 'saber-plugin-baidu-analytics',
       options: {
         trackId: '25da54bb9d300c118148dcad780da73b'
