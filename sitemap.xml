@@ -2,26 +2,26 @@
 <?xml-stylesheet type="text/xsl" href="/sitemap.xsl"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-    <loc>https://www.h404bi.com/blog/page/2</loc>
-    <lastmod>2019-04-12T17:23:50.153Z</lastmod>
-        <priority>0.8</priority>
-        <changefreq>always</changefreq>
-  </url>
-    <url>
     <loc>https://www.h404bi.com/links</loc>
     <lastmod>2019-04-02T00:00:00.000Z</lastmod>
         <priority>0.8</priority>
         <changefreq>always</changefreq>
   </url>
     <url>
+    <loc>https://www.h404bi.com/blog/page/2</loc>
+    <lastmod>2019-04-13T13:15:47.098Z</lastmod>
+        <priority>0.8</priority>
+        <changefreq>always</changefreq>
+  </url>
+    <url>
     <loc>https://www.h404bi.com/</loc>
-    <lastmod>2019-04-12T17:23:50.153Z</lastmod>
+    <lastmod>2019-04-13T13:15:47.098Z</lastmod>
         <priority>0.8</priority>
         <changefreq>always</changefreq>
   </url>
     <url>
     <loc>https://www.h404bi.com/blog</loc>
-    <lastmod>2019-04-12T17:23:50.153Z</lastmod>
+    <lastmod>2019-04-13T13:15:47.098Z</lastmod>
         <priority>0.8</priority>
         <changefreq>always</changefreq>
   </url>
