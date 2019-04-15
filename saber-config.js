@@ -168,7 +168,11 @@ module.exports = {
     {
       resolve: 'saber-plugin-query-posts',
       options: {
-        perPage: 12
+        perPage: 12,
+        permalinks: {
+          category: '/blog/category/:name',
+          tag: '/blog/tag/:name'
+        }
       }
     },
     {

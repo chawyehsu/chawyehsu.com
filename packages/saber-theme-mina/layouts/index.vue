@@ -16,7 +16,9 @@
             </div>
             <div class="post-card-info">
               <div class="post-meta">
-                <time :datetime="post.attributes.createdAt">{{ date(post.attributes.createdAt, '{DD} {MMMM} {YYYY}') }}</time>
+                <time :datetime="post.attributes.createdAt">
+                  {{ date(post.attributes.createdAt, '{DD} {MMMM} {YYYY}') }}
+                </time>
               </div>
               <div class="post-title">
                 <saber-link :to="post.attributes.permalink" :title="post.attributes.title">
@@ -53,7 +55,7 @@ export default {
   methods: {
     date
   },
-  head() {
+  head () {
     return {
       title: `${this.page.attributes.title} - ${this.$siteConfig.title}`
     }

@@ -1,0 +1,21 @@
+/**
+ * Overrides DisqusJS Style
+ */
+
+html {
+  #dsqjs * {
+    font-family: inheirt;
+  }
+  &:lang(en), &.serif {
+    #dsqjs * {
+      font-family: $font-family-serif;
+    }
+  }
+}
+
+#dsqjs a {
+  color: inherit;
+  &:hover {
+    color: $highlight-color;
+  }
+}

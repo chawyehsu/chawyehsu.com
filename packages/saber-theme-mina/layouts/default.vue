@@ -6,6 +6,7 @@
         <article itemscope itemtype="http://schema.org/Article">
           <header class="post-header">
             <h1 class="page-title">{{ page.attributes.title }}</h1>
+            <div class="page-meta">{{ page.attributes.tags }}</div>
           </header>
           <section class="post-body">
             <slot name="default" />
@@ -35,7 +36,7 @@ export default {
   mounted () {
     lozad(document.querySelectorAll('.post-content img')).observe()
   },
-  head() {
+  head () {
     const head = {
       title: `${this.page.attributes.title} - ${this.$siteConfig.title}`,
       meta: []

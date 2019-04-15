@@ -1,11 +1,5 @@
-/*!
- * Saber Theme Mina
- *
- * Copyright (c) 2018-present Chawye Hsu, licensed under the MIT license.
- *
- */
 import 'normalize.css'
-import './styles/main.styl'
+import './styles/main.scss'
 
 export default ({ rootOptions }) => {
   if (process.browser) {

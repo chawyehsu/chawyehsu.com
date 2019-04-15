@@ -1,7 +1,7 @@
 <template>
   <footer id="site-footer" class="site-footer">
     <div class="wrap">
-      <div class="footer__section" v-if="$themeConfig.footer.nav">
+      <section class="section" v-if="$themeConfig.footer.nav">
         <nav class="footer-nav">
           <ul>
             <li v-for="(item, index) in $themeConfig.footer.nav" :key="index">
@@ -13,8 +13,8 @@
             </li>
           </ul>
         </nav>
-      </div>
-      <div class="footer__section" v-if="$themeConfig.footer.social_network">
+      </section>
+      <section class="section" v-if="$themeConfig.footer.social_network">
         <div class="social-network">
           <ul>
             <li v-for="(item, index) in $themeConfig.footer.social_network" :key="index">
@@ -22,10 +22,10 @@
             </li>
           </ul>
         </div>
-      </div>
-      <div class="footer__section">
-        <div class="copy-right" v-text="`© ${siteDate} ${$siteConfig.author}`"></div>
-      </div>
+      </section>
+      <section class="section">
+        <div class="copyright" v-text="`© ${siteDate} ${$siteConfig.author}`"></div>
+      </section>
     </div>
   </footer>
 </template>
