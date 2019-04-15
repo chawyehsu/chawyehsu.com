@@ -1976,7 +1976,7 @@ byte-size@^4.0.3:
   resolved "https://registry.yarnpkg.com/byte-size/-/byte-size-4.0.4.tgz#29d381709f41aae0d89c631f1c81aec88cd40b23"
   integrity sha512-82RPeneC6nqCdSwCX2hZUz3JPOvN5at/nTEw/CMf05Smu3Hrpo9Psb7LjN+k+XndNArG1EY8L4+BM3aTM4BCvw==
 
-cac@^6.4.3:
+cac@^6.5.1:
   version "6.5.1"
   resolved "https://registry.yarnpkg.com/cac/-/cac-6.5.1.tgz#c5685ebc20a8448558191d70a2a76636640308a0"
   integrity sha512-mqKv0Ub/nXSoqlACRvrso3k7+nCdzUNimdh+3l0ywDNt27d/x5s/zEg2Ubf1MrsV5Q/DncxtXhNJLrJN6zq1jQ==
@@ -5297,7 +5297,7 @@ oauth-sign@~0.9.0:
   resolved "https://registry.yarnpkg.com/oauth-sign/-/oauth-sign-0.9.0.tgz#47a7b016baa68b5fa0ecf3dee08a85c679ac6455"
   integrity sha512-fexhUFFPTGV8ybAtSIGbV6gOkSv8UtRbDBnAyLQw4QPKkgNlsH2ByPGtMUqdWkos6YCRmAqViwgZrJc/mRDzZQ==
 
-object-assign@^4.0.1, object-assign@^4.1.0:
+object-assign@^4.0.1, object-assign@^4.1.0, object-assign@^4.1.1:
   version "4.1.1"
   resolved "https://registry.yarnpkg.com/object-assign/-/object-assign-4.1.1.tgz#2109adc7965887cfc05cbbd442cac8bfbb360863"
   integrity sha1-IQmtx5ZYh8/AXLvUQsrIv7s2CGM=
@@ -6644,10 +6644,10 @@ saber-utils@^0.1.0:
   resolved "https://registry.yarnpkg.com/saber-utils/-/saber-utils-0.1.0.tgz#4a9b114aad02aa9fab3ec2daeb2b7f5e9f9dff2e"
   integrity sha512-7doIJMmdWG41BlpeC36WbtLzZw/B/Vt2Cds4geIZCPWCyTg4nOKWsVgfQ+502CNqJkOPnz8D+joHb+UcmjaxRg==
 
-saber@0.4.2:
-  version "0.4.2"
-  resolved "https://registry.yarnpkg.com/saber/-/saber-0.4.2.tgz#826a8390299fcdb95533406026ef4dcf0a8a5dcc"
-  integrity sha512-7hvQS0eN+u311VVNWz2ncKo0LeDhQrTyrmZjftceo5cTJbrvp+6aDPNtYZimgaQuDpn6Y3ObQoxep1oS3ogTIw==
+saber@0.4.3:
+  version "0.4.3"
+  resolved "https://registry.yarnpkg.com/saber/-/saber-0.4.3.tgz#c26481783eaa76e3341390cf1cfd9398923cf220"
+  integrity sha512-yQQ0m9090qhaNZFmcUHSYsa9F1aodk4cYVYNW7nRQQljJ/0z3RSY4t3sZvQ7RB9l7G9zMRU9cMMI1Q1sEwhZZw==
   dependencies:
     "@babel/core" "^7.2.2"
     "@babel/plugin-proposal-object-rest-spread" "^7.2.0"
@@ -6658,7 +6658,7 @@ saber@0.4.2:
     "@egoist/postcss-loader" "^3.0.2"
     "@intervolga/optimize-cssnano-plugin" "^1.0.6"
     babel-loader "^8.0.5"
-    cac "^6.4.3"
+    cac "^6.5.1"
     chokidar "^2.0.4"
     css-loader "^2.1.0"
     cssnano "^4.1.8"
@@ -6668,6 +6668,7 @@ saber@0.4.2:
     joycon "^2.2.4"
     lodash.merge "^4.6.1"
     mini-css-extract-plugin "^0.5.0"
+    object-assign "^4.1.1"
     ora "^3.2.0"
     polka "^0.5.1"
     pretty-ms "^4.0.0"
