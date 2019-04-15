@@ -24,7 +24,7 @@
     "markdown-it-lazy-image": "^0.0.1",
     "saber": "0.3.7",
     "saber-plugin-baidu-analytics": "^0.0.1",
-    "saber-plugin-generate-feed": "0.1.2",
+    "saber-plugin-generate-feed": "0.2.0",
     "saber-plugin-generate-sitemap": "^0.0.1",
     "saber-plugin-query-posts": "0.0.7",
     "stylus": "^0.54.5",
