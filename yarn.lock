@@ -6648,11 +6648,12 @@ saber-plugin-generate-sitemap@^0.0.1:
   dependencies:
     ejs "^2.6.1"
 
-saber-plugin-query-posts@0.0.7:
-  version "0.0.7"
-  resolved "https://registry.yarnpkg.com/saber-plugin-query-posts/-/saber-plugin-query-posts-0.0.7.tgz#8c2cfaae1025c63c1ad9a720d1cb13943715a622"
-  integrity sha512-o1cOyBOR2TnLaQFNjRT2wDZHbjWReZRlRs7Pu4CsBK8fn5RpoZqDvgQ6GKgWz4jbj335dBYIqAF9XKaxrgG5Hw==
+saber-plugin-query-posts@0.1.1:
+  version "0.1.1"
+  resolved "https://registry.yarnpkg.com/saber-plugin-query-posts/-/saber-plugin-query-posts-0.1.1.tgz#066d561861b0c1bd49aceaeecaccda6cea8d037b"
+  integrity sha512-Q1oy8SpCemHwO5auFvJOmYZRuddC1dptt2w8rN42vrt4Zv/1oFZHqRmZjRdmXouD6zP8JaOU4m9GwQ6Jpfm3Wg==
   dependencies:
+    slugo "^0.2.3"
     url-join "^4.0.0"
 
 saber-utils@^0.0.4:
@@ -6871,6 +6872,11 @@ slide@^1.1.6:
   version "1.1.6"
   resolved "https://registry.yarnpkg.com/slide/-/slide-1.1.6.tgz#56eb027d65b4d2dce6cb2e2d32c4d4afc9e1d707"
   integrity sha1-VusCfWW00tzmyy4tMsTUr8nh1wc=
+
+slugo@^0.2.3:
+  version "0.2.3"
+  resolved "https://registry.yarnpkg.com/slugo/-/slugo-0.2.3.tgz#2c602fe1e76d5fa3c6f75223537fbd80ae33929c"
+  integrity sha512-4nav6mk321IWKaWxgvygjp2JB0d5sNGgkPUJ+EGQZmmcvuXS+4DwdhhPa9L8WBg6fVQDID3PO+t6wYM1NqVbkA==
 
 smart-buffer@4.0.2:
   version "4.0.2"
