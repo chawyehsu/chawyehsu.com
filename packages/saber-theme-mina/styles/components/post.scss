@@ -90,6 +90,7 @@
         margin-bottom: 0;
       }
     }
+
     pre, code {
       font-family: $font-family-mono;
       font-size: $font-size-code;
@@ -103,6 +104,7 @@
       background: $tertiary-color;
       padding: $gap-s * 0.25, $gap-s * 0.5;
     }
+
     .saber-highlight {
       margin: 0;
       margin-bottom: $gap-m;
@@ -155,21 +157,28 @@
         color: $highlight-color;
       }
     }
+
     img {
       max-width: 100%;
     }
+
     p {
       img {
         display: block;
         margin: 0 auto;
       }
     }
-    & > img {
+
+    > img {
       margin-bottom: $gap-m;
     }
 
     figure {
       text-align: center;
+
+      > a {
+        border: 0 !important;
+      }
 
       figcaption {
         color: $meta-color;
@@ -188,6 +197,7 @@
     figure.highlight {
       text-align: left;
     }
+
     .footnotes {
       color: $meta-color;
       font-size: $font-size-footnotes;
@@ -205,6 +215,7 @@
       }
     }
   }
+
   .post-comments {
     margin-bottom: $gap-l;
 
