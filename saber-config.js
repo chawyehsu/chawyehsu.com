@@ -128,7 +128,10 @@ module.exports = {
         resolve: 'markdown-it-cjk-breaks'
       },
       {
-        resolve: 'markdown-it-lazy-image'
+        resolve: 'markdown-it-lazy-image',
+        options: {
+          placeholder: '/static/img/loading.gif'
+        }
       },
       {
         resolve: 'markdown-it-attrs'
