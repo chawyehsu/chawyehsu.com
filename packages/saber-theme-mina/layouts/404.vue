@@ -22,41 +22,7 @@ export default {
   },
   head () {
     return {
-      title: `404 File Not Found - ${this.$siteConfig.title}`,
-      meta: [
-        {
-          name: 'description',
-          content: this.page.attributes.description
-        },
-        {
-          name: 'keywords',
-          content: this.page.attributes.keywords
-        },
-        {
-          property: 'og:title',
-          content: this.page.attributes.title
-        },
-        {
-          property: 'og:description',
-          content: this.page.attributes.description
-        },
-        {
-          property: 'og:type',
-          content: 'website'
-        },
-        {
-          name: 'twitter:card',
-          content: 'summary'
-        },
-        {
-          name: 'twitter:creator',
-          content: this.$siteConfig.author
-        },
-        {
-          name: 'twitter:title',
-          content: this.page.attributes.title
-        }
-      ]
+      title: `404 File Not Found - ${this.$siteConfig.title}`
     }
   }
 }
