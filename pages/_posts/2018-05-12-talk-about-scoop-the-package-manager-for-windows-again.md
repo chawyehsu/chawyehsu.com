@@ -2,8 +2,8 @@
 layout: post
 title: 再谈谈 Scoop 这个 Windows 下的软件包管理器
 keywords: >-
-  'Windows 包管理器,windows package manager,Scoop Chocolatey,
-  Scoop 安装,Windows 包管理工具,Chocolatey vs Scoop'
+  Windows 包管理器,windows package manager,Scoop Chocolatey,
+  Scoop 安装,Windows 包管理工具,Chocolatey vs Scoop
 description: >-
   与 Chocolatey Windows 包管理工具（Package Manager）相比，
   Scoop 是一款更为轻量的 Windows 包管理器。本文将对比 Chocolatey Scoop

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 我都在用些什么 Chrome 扩展程序
-keywords: 'Chrome 扩展,Chrome 插件,Chrome 扩展程序推荐'
+keywords: Chrome 扩展,Chrome 插件,Chrome 扩展程序推荐
 description: >-
   Chrome 好用的一大原因是拥有各种各样数不清的扩展程序，丰富的扩展资源能给用户
   带来许多方便的增强功能。可以说这可能是一篇 Chrome 扩展程序推荐文，但其实扩

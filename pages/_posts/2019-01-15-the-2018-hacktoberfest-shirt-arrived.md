@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 历经数月，GitHub 章鱼猫寄来的 T 恤竟然……
-keywords: 'GitHub T 恤,Hacktoberfest 2018'
+keywords: GitHub T 恤,Hacktoberfest 2018
 description: >-
   历经数月，GitHub 章鱼猫寄来的 T 恤竟然寄到了，而且还有小惊喜。起因是
   去年参加了由 GitHub 和 DigitalOcean 联合举办的 Hacktoberfest 2018 活动。

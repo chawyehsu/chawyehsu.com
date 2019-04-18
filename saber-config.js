@@ -1,9 +1,10 @@
 module.exports = {
   theme: "./packages/saber-theme-mina",
   siteConfig: {
+    url: 'https://www.h404bi.com',
     title: 'The Art of Chawye Hsu',
     description: 'Personal Website of Chawye Hsu.',
-    url: 'https://www.h404bi.com',
+    keywords: 'h404bi,chawye hsu,blog,static site generator',
     author: 'h404bi',
     disqusjs: {
       shortname: 'h404bi',

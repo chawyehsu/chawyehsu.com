@@ -37,26 +37,51 @@ export default {
     lozad(document.querySelectorAll('.post-content img')).observe()
   },
   head () {
-    const head = {
+    return {
       title: `${this.page.attributes.title} - ${this.$siteConfig.title}`,
-      meta: []
+      meta: [
+        {
+          name: 'description',
+          content: this.page.attributes.description
+        },
+        {
+          name: 'keywords',
+          content: this.page.attributes.keywords
+        },
+        {
+          property: 'og:title',
+          content: this.page.attributes.title
+        },
+        {
+          property: 'og:description',
+          content: this.page.attributes.description
+        },
+        {
+          property: 'og:image',
+          content: `${this.$siteConfig.url}${this.page.attributes.cover}`
+        },
+        {
+          property: 'og:type',
+          content: 'website'
+        },
+        {
+          name: 'twitter:card',
+          content: 'summary'
+        },
+        {
+          name: 'twitter:creator',
+          content: this.$siteConfig.author
+        },
+        {
+          name: 'twitter:title',
+          content: this.page.attributes.title
+        },
+        {
+          property: 'twitter:image:src',
+          content: `${this.$siteConfig.url}${this.page.attributes.cover}`
+        }
+      ]
     }
-
-    if (this.page.attributes.keywords) {
-      head.meta.push({
-        name: 'keywords',
-        content: `${this.page.attributes.keywords}`
-      })
-    }
-
-    if (this.page.attributes.description) {
-      head.meta.push({
-        name: 'description',
-        content: `${this.page.attributes.description}`
-      })
-    }
-
-    return head
   }
 }
 </script>
