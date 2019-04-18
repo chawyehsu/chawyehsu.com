@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 彻底搞懂 Windows 控制台的设置
-keywords: 'Windows控制台,ConHost.exe,Windows控制台设置,Windows10控制台'
+keywords: Windows控制台,ConHost.exe,Windows控制台设置,Windows10控制台
 description: >-
   Windows Console Host（即 conhost.exe）中的设置（如命令行字体等）可能有点
   难以理解，主要是因为在过去几十年中这个设置系统不断发展。根据 ConHost 如何

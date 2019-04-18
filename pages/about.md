@@ -1,6 +1,8 @@
 ---
 layout: page
-title: "About"
+title: About
+keywords: about
+description: About page of Chawye Hsu's Blog
 date: 2015-05-18
 updated: 2019-04-04
 comments: false
