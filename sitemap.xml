@@ -3,25 +3,19 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
     <loc>https://www.h404bi.com/blog/page/2</loc>
-    <lastmod>2019-04-17T15:07:57.441Z</lastmod>
-        <priority>0.8</priority>
-        <changefreq>always</changefreq>
-  </url>
-    <url>
-    <loc>https://www.h404bi.com/links</loc>
-    <lastmod>2019-04-02T00:00:00.000Z</lastmod>
+    <lastmod>2019-04-18T07:40:41.842Z</lastmod>
         <priority>0.8</priority>
         <changefreq>always</changefreq>
   </url>
     <url>
     <loc>https://www.h404bi.com/</loc>
-    <lastmod>2019-04-17T15:07:57.441Z</lastmod>
+    <lastmod>2019-04-18T07:40:41.842Z</lastmod>
         <priority>0.8</priority>
         <changefreq>always</changefreq>
   </url>
     <url>
     <loc>https://www.h404bi.com/blog</loc>
-    <lastmod>2019-04-17T15:07:57.441Z</lastmod>
+    <lastmod>2019-04-18T07:40:41.842Z</lastmod>
         <priority>0.8</priority>
         <changefreq>always</changefreq>
   </url>
@@ -113,6 +107,12 @@
     <loc>https://www.h404bi.com/blog/2015/05/hello-world</loc>
     <lastmod>2015-09-09T13:32:27.000Z</lastmod>
         <priority>0.6</priority>
+        <changefreq>always</changefreq>
+  </url>
+    <url>
+    <loc>https://www.h404bi.com/links</loc>
+    <lastmod>2019-04-18T00:00:00.000Z</lastmod>
+        <priority>0.8</priority>
         <changefreq>always</changefreq>
   </url>
     <url>
