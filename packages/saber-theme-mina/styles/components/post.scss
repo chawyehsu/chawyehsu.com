@@ -9,9 +9,18 @@
       margin-bottom: 0;
     }
 
-    .post-meta {
+    .page-meta {
+      font-size: $font-size-small;
       color: $meta-color;
     }
+  }
+
+  .post-alert {
+    margin-bottom: $gap-m;
+    background-color: $tertiary-color;
+    padding: $gap-m;
+    font-size: $font-size-small;
+    border-radius: 0;
   }
 
   .post-body {
@@ -102,7 +111,7 @@
 
     code {
       background: $tertiary-color;
-      padding: $gap-s * 0.25, $gap-s * 0.5;
+      padding: $gap-s * 0.25 $gap-s * 0.5;
     }
 
     .saber-highlight {

@@ -6,8 +6,18 @@
         <article itemscope itemtype="http://schema.org/Article">
           <header class="post-header">
             <h1 class="page-title">{{ page.attributes.title }}</h1>
-            <div class="page-meta">{{ page.attributes.tags }}</div>
+            <!-- <div class="page-meta">
+              <div v-if="page.attributes.tags">
+                <i class="icon ion-md-pricetags"></i>
+                <span v-for="(item, index) in page.attributes.tags" :key="index">
+                  {{ item }}
+                </span>
+              </div>
+            </div> -->
           </header>
+          <section v-if="isPostOutdated" class="post-alert outdated-alert notification">
+            本文最后更新于 {{ days }} 天前（{{ humanDate }}），其中的信息可能已经有所发展或者不再适合现阶段。
+          </section>
           <section class="post-body">
             <slot name="default" />
           </section>
@@ -25,6 +35,7 @@ import Header from '../components/Header.vue'
 import Footer from '../components/Footer.vue'
 import Disqus from '../components/Disqus.vue'
 import lozad from 'lozad'
+import { date } from '../utils'
 
 export default {
   props: ['page'],
@@ -35,6 +46,22 @@ export default {
   },
   mounted () {
     lozad(document.querySelectorAll('.post-content img')).observe()
+  },
+  methods: {
+    date
+  },
+  computed: {
+    days () {
+      const nowDate = new Date()
+      const postDate = new Date(this.page.attributes.updatedAt || this.page.attributes.createdAt)
+      return Math.floor((nowDate - postDate) / 86400000)
+    },
+    humanDate () {
+      return date(this.page.attributes.updatedAt || this.page.attributes.createdAt, '{YYYY}-{MM}-{DD}')
+    },
+    isPostOutdated () {
+      return this.days > 365
+    }
   },
   head () {
     return {
