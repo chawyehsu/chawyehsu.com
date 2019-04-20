@@ -1,5 +1,6 @@
 module.exports = {
-  theme: "./packages/saber-theme-mina",
+  // Using develop version of theme
+  theme: "./packages/saber-theme-aimer/src",
   siteConfig: {
     url: 'https://www.h404bi.com',
     title: 'The Art of Chawye Hsu',
