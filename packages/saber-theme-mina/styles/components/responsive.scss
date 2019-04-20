@@ -5,6 +5,10 @@
     font-size: $font-size-base-m;
   }
 
+  .mina-wrapper {
+    padding: $gap-l $gap-l 0;
+  }
+
   .site-header .columns {
     padding: 0 $gap-l;
   }
@@ -33,10 +37,6 @@
   // 18px (112.5%)
   html {
     font-size: $font-size-base-l;
-  }
-
-  .mina-wrapper {
-    padding: $gap-xl $gap-l 0;
   }
 
   .post-list .post-card-wrap.column {
