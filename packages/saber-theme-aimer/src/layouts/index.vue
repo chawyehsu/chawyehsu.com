@@ -1,6 +1,7 @@
 <template>
   <div class="stie-container">
     <Header />
+    <SubHeader :page="page" v-if="page.pagination && (page.pagination.current === 1)" />
     <List :page="page" />
     <Footer />
   </div>
@@ -10,13 +11,15 @@
 import Header from '../components/Header.vue'
 import Footer from '../components/Footer.vue'
 import List from '../components/List.vue'
+import SubHeader from '../components/SubHeader.vue'
 
 export default {
   props: ['page'],
   components: {
     Header,
     Footer,
-    List
+    List,
+    SubHeader
   },
   head () {
     return {
