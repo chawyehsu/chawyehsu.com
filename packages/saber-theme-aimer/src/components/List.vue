@@ -1,5 +1,5 @@
 <template>
-  <main id="site-main" class="mina-wrapper">
+  <main class="site-wrapper">
     <div class="post-list columns">
       <article
         v-for="post in page.posts"

@@ -1,7 +1,7 @@
 <template>
   <div class="stie-container">
     <Header />
-    <main id="site-main" class="mina-wrapper">
+    <main class="site-wrapper">
       <div id="post" class="post-content">
         <article itemscope itemtype="http://schema.org/Article">
           <header class="post-header">

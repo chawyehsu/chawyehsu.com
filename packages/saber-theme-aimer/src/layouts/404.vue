@@ -1,7 +1,7 @@
 <template>
   <div class="stie-container">
     <Header/>
-    <main id="site-main" class="mina-wrapper">
+    <main class="site-wrapper">
       <div class="error">
         <img class="mascot" src="../assets/whoops.png"/>
         <span class="overlay"></span>
