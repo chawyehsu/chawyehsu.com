@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://www.h404bi.com</id>
     <title>The Art of Chawye Hsu</title>
-    <updated>2019-04-20T18:01:08.018Z</updated>
+    <updated>2019-04-21T10:09:06.829Z</updated>
     <generator>Saber</generator>
     <author>
         <name>h404bi</name>
@@ -12,6 +12,76 @@
     <link rel="self" href="https://www.h404bi.com/blog/atom.xml"/>
     <subtitle>Personal Website of Chawye Hsu.</subtitle>
     <rights>All rights reserved</rights>
+    <entry>
+        <title type="html"><![CDATA[总结下博客最近的调整]]></title>
+        <id>/blog/2019/04/recent-changes-of-my-site</id>
+        <link href="https://www.h404bi.com/blog/2019/04/recent-changes-of-my-site">
+        </link>
+        <updated>2019-04-21T10:08:28.089Z</updated>
+        <summary type="html"><![CDATA[我建博客始于 2013 年，时间也不长。那会儿也不过是一个从 WordPress 加免费空间入坑的新手，免费空间关了就买了个域名和虚拟空间继续折腾。啊对，也改成了 Typecho 一段时间，仿过几个主题。之后便是在流行之下，一个 commit 换成了静态博客 Hexo。于是开始在这个“自留地/实验室”里摆弄各种新玩意，做做小试验。没写过几篇文章，却也一直延续至今。
+]]></summary>
+        <content type="html"><![CDATA[<h2 id="old-days">Old Days</h2>
+<p>我建博客始于 2013 年，时间也不长。那会儿也不过是一个从 WordPress 加免费空间入坑的新手，免费空间关了就买了个域名和虚拟空间继续折腾。啊对，也改成了 Typecho 一段时间，仿过几个主题。之后便是在流行之下，一个 <a href="https://github.com/h404bi/www.h404bi.com/commit/88362f79adfea93151ecc9f19f8647cd28562c2c" target="_blank" rel="noopener noreferrer">commit</a> 换成了静态博客 Hexo。于是开始在这个“自留地/实验室”里摆弄各种新玩意，做做小试验。没写过几篇文章，却也一直延续至今。</p>
+<h2 id="changes">Changes</h2>
+<p><strong>A. 核心系统</strong></p>
+<p>将使用了近 4 年的 Hexo 换下是博客最近最大的改变，换上的是基于 Vue、Webpack 等当前主流技术的 <a href="https://github.com/egoist/saber" target="_blank" rel="noopener noreferrer">Saber</a> 静态博客系统。</p>
+<figure data-type="image"><img src="/static/img/loading.gif" alt="" data-src="/uploads/2019/04/20190421002.png"></figure>
+<p>以 React、Vue、Webpack 等当代主流前端技术为基础的静态网站生成器系统持续出现并开始崭露头角，Gatsby、Nuxt、VuePress<sup class="footnote-ref"><a href="#fn1" id="fnref1">[1]</a></sup>，势必会抢占 Jekyll、Hexo 等以字符串模版为主的“更加静态<sup class="footnote-ref"><a href="#fn2" id="fnref2">[2]</a></sup>”的旧式静态博客系统，我相信这也是这个社群中的趋势。</p>
+<p>在最初规划迭代的时候，预期是更换至 Gatsby 这个基于 React 技术栈的系统，其中的原因是受到 Daniel Eden（知名 CSS 动画框架 animate.css<sup class="footnote-ref"><a href="#fn3" id="fnref3">[3]</a></sup> 的作者）的博客改版影响。他在稍早的一段时间将他的博客 —— <a href="https://github.com/daneden/daneden.me" target="_blank" rel="noopener noreferrer">daneden.me</a> 从 Jekyll 换成了 Gatsby。我的博客受其影响很大，即使到目前为止，在我博客中你仍然能够找到一些来源于他的博客的设计元素。最明显的是在文章图文排版上的借鉴，在大屏幕下，你可以在如《<saber-link to="/blog/2018/01/the-tao-of-notch-beyond-twitter">推特背后的 Notch 之道</saber-link>》等文章中看到左右溢出的插图。这个我非常喜欢的排版设计，便源于：「<a href="https://daneden.me/2014/06/28/design-elitism/" target="_blank" rel="noopener noreferrer">Design Elitism</a>」，我博客的整个排版系统很大程度上受他影响，只是彼此经过多次迭代，已不太能找出相似点了。</p>
+<figure data-type="image"><img src="/static/img/loading.gif" alt="Gatsby" data-src="/uploads/2019/04/20190421005.png"><figcaption>Gatsby</figcaption></figure>
+<p>没有选择 Gatsby 是因为在我对 React 生态的还不了解，头疼一连串硬啃 React、GraphQL
+等技术的时候，VuePress 出世了，我还是更倾向于相对比较熟悉的 Vue。</p>
+<figure class="right" data-type="image"><img src="/static/img/loading.gif" alt="VuePress" data-src="/uploads/2019/04/20190421003.png"><figcaption>VuePress</figcaption></figure>
+<p>然而，在我尝试 VuePress 后，其更加面向于项目文档的设计，让我感觉从 Hexo 迁移显得力不从心。对比 Gatsby 这或许是因为还是刚起步阶段，生态还不完善吧，截至目前其博客方面的支持还在陆续开发中<sup class="footnote-ref"><a href="#fn4" id="fnref4">[4]</a></sup>。</p>
+<p>于是我便在等待/寻找一款能让我更加平滑地进行迁移的系统。然后 <a href="https://github.com/upash/peco" target="_blank" rel="noopener noreferrer">Peco</a> 出现了，并在后来被现在的 <a href="https://github.com/egoist/saber" target="_blank" rel="noopener noreferrer">Saber</a> 所替代。我不想在此大谈如何迁移至 Saber 的，真要这样或许会另起一篇文章写这个。只想说，非常感谢 EGOIST 的开源工作，让大家能够用上前沿的技术。</p>
+<p><strong>B. 主题外观</strong></p>
+<p>得益于 Saber 的系统设计，将我的原有 Hexo 自用主题迁移至新系统并没有感觉到费力。迁移后整体上我还是使用此前的主题，只是在原有的基础上完成了一些更加细致的迭代，使其更符合我的现存观感。除了调整了列表的布局变得紧凑些、完善响应式文字排版设计外，最大的一点是从以前一直使用的 CSS 预处理器 Stylus 切换成了 SASS，并用上了原版 Bulma 框架。在生态上，果然还是 SASS 更胜一筹。</p>
+<figure data-type="image"><img src="/static/img/loading.gif" alt="Bulma.io" data-src="/uploads/2019/04/20190421004.png"><figcaption><a href="http://Bulma.io" target="_blank" rel="noopener noreferrer">Bulma.io</a></figcaption></figure>
+<p>期间学会了几个以前不了解、不常用的 CSS 属性，并应用到了主题中。</p>
+<ul>
+<li><code v-pre="">text-align: justify;</code> —— 文字两端对齐，在单栏布局中排版差异尤为明显<sup class="footnote-ref"><a href="#fn5" id="fnref5">[5]</a></sup></li>
+<li><code v-pre="">font-display: swap;</code> —— 修改 Web 字体加载显示逻辑，可避免字体下载过程中闪白<sup class="footnote-ref"><a href="#fn6" id="fnref6">[6]</a></sup></li>
+</ul>
+<p>不过整个主题目前还是有缺陷，只能后续随着时间推移再慢慢优化。</p>
+<p><strong>C. 部署架构</strong></p>
+<p>在我刚开始使用 Hexo 或者说刚入坑静态博客系统的时候，我就已经在使用持续集成工具来帮助我进行构建和部署工作，一直在使用 <a href="https://github.com/h404bi/www.h404bi.com/commits/master/.travis.yml" target="_blank" rel="noopener noreferrer">Travis CI</a> 的社区版。静态博客系统通过使用持续集成做自动构建部署，真的能省下不少重复劳动。</p>
+<figure data-type="image"><img src="/static/img/loading.gif" alt="旧部署架构" data-src="/uploads/2019/04/20190421005.jpg"><figcaption>旧部署架构</figcaption></figure>
+<p>旧架构如此的原因是以前部署到 GitHub Pages 上觉得速度不行，同时又不支持自定义域名使用 HTTPS，我也有一台闲置的香港 VPS，于是就通过 Webhook 触发 VPS 同步 GitHub Pages
+的内容，然后在 VPS 上使用 Nginx 提供服务，这样能解决前述的两个问题。后来因为域名的
+SSL 证书过期（那时还没用 Let's Encrypt）和 VPS 不稳定的原因，就加了层 CloudFlare。然后就没管了，一直这样。</p>
+<figure data-type="image"><img src="/static/img/loading.gif" alt="新部署架构" data-src="/uploads/2019/04/20190421006.jpg"><figcaption>新部署架构</figcaption></figure>
+<p>调整后实际上就是将提供服务的后端从 VPS 迁移到了 <a href="https://www.netlify.com" target="_blank" rel="noopener noreferrer">Netlify</a>。其一是图方便，Netlify
+自动申请 Let's Encrypt 不用自己麻烦在 VPS 上设置，其二是 Netlify 自带 CDN，速度还不错，最后是因为我需要调整整个博客各页面的固定链接，同时希望旧有的链接能重定向到新的固定链接上，保留可用性。而刚好 Netlify 原生支持重定向服务 —— <a href="https://www.netlify.com/docs/redirects/" target="_blank" rel="noopener noreferrer">Netlify Redirect</a>，这样就不用因为 CloudFlare 免费版只有 3 个 Page Rules 而显得拘谨。</p>
+<p>构建文件依然推送到 GitHub Pages 分支上后再同步到 Netlify 的原因是，我希望保留能够在 GitHub 仓库中查看构建后的文件的功能，构建后直接推送到 Netlify 上我就看不到构建文件和历史变更了。</p>
+<figure data-type="image"><img src="/static/img/loading.gif" alt="Wappalyzer 检查" data-src="/uploads/2019/04/20190421007.png"><figcaption>Wappalyzer 检查</figcaption></figure>
+<p>故意加了个假的 Hexo Generator 的 Meta 标签，所以被检测出用 Hexo（大雾）。关于这个扩展程序，可以看我之前写的文章《<saber-link to="/blog/2018/12/chrome-extensions-that-i-am-using">我都在用些什么 Chrome 扩展程序</saber-link>》里有介绍。</p>
+<p><strong>D. 其它变化</strong></p>
+<p>整个核心架构变化，于是现在托管仓库的项目架构也有所调整，改成了 Monorepo 并用 Lerna
+进行管理<sup class="footnote-ref"><a href="#fn7" id="fnref7">[7]</a></sup>。</p>
+<p>修改了内容授权协议，具体可见 About 页面。因为细想了一下，真有人取走内容的话大概也不会在意你的协议，于是干脆放飞自我。</p>
+<p>完整的迁移记录可见仓库 <a href="https://github.com/h404bi/www.h404bi.com/compare/v2019.3.29-mina...592c99" target="_blank" rel="noopener noreferrer">Commit Log</a>。</p>
+<hr class="footnotes-sep">
+<section class="footnotes">
+<ol class="footnotes-list">
+<li id="fn1" class="footnote-item"><p><a href="https://www.staticgen.com/" target="_blank" rel="noopener noreferrer">https://www.staticgen.com/</a> <a href="#fnref1" class="footnote-backref">↩︎</a></p>
+</li>
+<li id="fn2" class="footnote-item"><p><a href="https://vuepress.vuejs.org/zh/guide/#hexo" target="_blank" rel="noopener noreferrer">https://vuepress.vuejs.org/zh/guide/#hexo</a> <a href="#fnref2" class="footnote-backref">↩︎</a></p>
+</li>
+<li id="fn3" class="footnote-item"><p><a href="https://daneden.github.io/animate.css/" target="_blank" rel="noopener noreferrer">https://daneden.github.io/animate.css/</a> <a href="#fnref3" class="footnote-backref">↩︎</a></p>
+</li>
+<li id="fn4" class="footnote-item"><p><a href="https://github.com/vuejs/vuepress/issues/36" target="_blank" rel="noopener noreferrer">https://github.com/vuejs/vuepress/issues/36</a> <a href="#fnref4" class="footnote-backref">↩︎</a></p>
+</li>
+<li id="fn5" class="footnote-item"><p><a href="https://developer.mozilla.org/zh-CN/docs/Web/CSS/text-align#Justify" target="_blank" rel="noopener noreferrer">https://developer.mozilla.org/zh-CN/docs/Web/CSS/text-align#Justify</a> <a href="#fnref5" class="footnote-backref">↩︎</a></p>
+</li>
+<li id="fn6" class="footnote-item"><p><a href="https://developer.mozilla.org/zh-CN/docs/Web/CSS/@font-face/font-display" target="_blank" rel="noopener noreferrer">https://developer.mozilla.org/zh-CN/docs/Web/CSS/@font-face/font-display</a> <a href="#fnref6" class="footnote-backref">↩︎</a></p>
+</li>
+<li id="fn7" class="footnote-item"><p><a href="https://github.com/h404bi/www.h404bi.com/tree/592c99120e8452a816d51fbec6fb7eabf3f15448" target="_blank" rel="noopener noreferrer">https://github.com/h404bi/www.h404bi.com/tree/592c99120e8452a816d51fbec6fb7eabf3f15448</a> <a href="#fnref7" class="footnote-backref">↩︎</a></p>
+</li>
+</ol>
+</section>
+]]></content>
+        <published>2019-04-21T10:07:40.000Z</published>
+    </entry>
     <entry>
         <title type="html"><![CDATA[彻底搞懂 Windows 控制台的设置]]></title>
         <id>/blog/2019/02/understanding-windows-console-host-settings</id>
