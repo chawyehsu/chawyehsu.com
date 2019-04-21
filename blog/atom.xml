@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://www.h404bi.com</id>
     <title>The Art of Chawye Hsu</title>
-    <updated>2019-04-21T10:09:06.829Z</updated>
+    <updated>2019-04-21T10:09:36.091Z</updated>
     <generator>Saber</generator>
     <author>
         <name>h404bi</name>
@@ -17,7 +17,7 @@
         <id>/blog/2019/04/recent-changes-of-my-site</id>
         <link href="https://www.h404bi.com/blog/2019/04/recent-changes-of-my-site">
         </link>
-        <updated>2019-04-21T10:08:28.089Z</updated>
+        <updated>2019-04-21T10:08:59.668Z</updated>
         <summary type="html"><![CDATA[我建博客始于 2013 年，时间也不长。那会儿也不过是一个从 WordPress 加免费空间入坑的新手，免费空间关了就买了个域名和虚拟空间继续折腾。啊对，也改成了 Typecho 一段时间，仿过几个主题。之后便是在流行之下，一个 commit 换成了静态博客 Hexo。于是开始在这个“自留地/实验室”里摆弄各种新玩意，做做小试验。没写过几篇文章，却也一直延续至今。
 ]]></summary>
         <content type="html"><![CDATA[<h2 id="old-days">Old Days</h2>
