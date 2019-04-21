@@ -7,7 +7,7 @@ description: >-
   的新手，免费空间关了就买了个域名和虚拟空间继续折腾。啊对，也改成了 Typecho 一段
   时间，仿过几个主题。之后便是在流行之下换成了静态博客 Hexo。
 date: 2019-04-21 18:07:40
-updated: 2019-04-21 18:37:30
+updated: 2019-04-21 19:21:20
 cover: /uploads/2019/04/20190421008.png
 ---
 
@@ -112,9 +112,9 @@ SSL 证书过期（那时还没用 Let's Encrypt）和 VPS 不稳定的原因，
 会在意你的协议，于是干脆放飞自我。
 
 **RSS Feed 调整，增加 [JSON Feed] 的支持，路径 [`/feed/index.json`]，同时原有的
-Atom Feed 的路径会从 `/blog/atom.xml` 调整为 `/feed/atom.xml`。因为这个是一个
-Breaking Change，于是我着重了一下。希望有订阅我博客的朋友看到这篇文章后能知道这个
-变化。我大概会在 5 月劳动节期间进行更新，调整 Atom Feed。**
+Atom Feed 的路径会从 [`/blog/atom.xml`] 调整为 [`/feed/atom.xml`]，原有路径会重定
+向至新路径。因为这个是一个 Breaking Change，于是我着重了一下。希望有订阅我博客的朋
+友看到这篇文章后能知道这个变化。**
 
 完整的迁移记录可见仓库 [Commit Log]。
 
@@ -138,4 +138,6 @@ Breaking Change，于是我着重了一下。希望有订阅我博客的朋友�
 [我都在用些什么 Chrome 扩展程序]: /blog/2018/12/chrome-extensions-that-i-am-using
 [JSON Feed]: https://jsonfeed.org/
 [`/feed/index.json`]: /feed/index.json
+[`/blog/atom.xml`]: /blog/atom.xml
+[`/feed/atom.xml`]: /feed/atom.xml
 [Commit Log]: https://github.com/h404bi/www.h404bi.com/compare/v2019.3.29-mina...592c99

@@ -82,7 +82,7 @@ module.exports = {
         },
         {
           name: 'RSS',
-          path: '/blog/atom.xml'
+          path: '/feed/atom.xml'
         }
       ],
       social_network: [
@@ -167,7 +167,7 @@ module.exports = {
     {
       resolve: 'saber-plugin-generate-feed',
       options: {
-        atomFeed: '/blog/atom.xml',
+        atomFeed: '/feed/atom.xml',
         jsonFeed: '/feed/index.json'
       }
     },
