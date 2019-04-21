@@ -167,7 +167,8 @@ module.exports = {
     {
       resolve: 'saber-plugin-generate-feed',
       options: {
-        atomFeed: '/blog/atom.xml'
+        atomFeed: '/blog/atom.xml',
+        jsonFeed: '/feed/index.json'
       }
     },
     {
