@@ -31,7 +31,9 @@ exports.apply = (api, options = {}) => {
           url: url.resolve(siteConfig.url, page.attributes.permalink),
           lastmod: page.attributes.updatedAt,
           date: page.attributes.createdAt,
-          updated: page.attributes.updatedAt
+          updated: page.attributes.updatedAt,
+          // Also expose original page attributes
+          attributes: page.attributes
         })
       }
     }
