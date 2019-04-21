@@ -5,11 +5,11 @@
   <url>
     <loc><%- encodeURI(post.url) %></loc>
     <lastmod><%= post.lastmod.toISOString() %></lastmod>
-    <% if (post.type === 'index') { -%>
+    <% if (post.attributes.injectAllPosts) { -%>
     <priority>1</priority>
-    <% } else if (post.type === 'page') { -%>
+    <% } else if (post.attributes.type === 'page') { -%>
     <priority>0.8</priority>
-    <% } else if (post.type === 'post') { -%>
+    <% } else if (post.attributes.type === 'post') { -%>
     <priority>0.6</priority>
     <% } -%>
     <changefreq>always</changefreq>

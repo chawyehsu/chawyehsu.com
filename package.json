@@ -25,7 +25,7 @@
     "saber": "0.4.3",
     "saber-plugin-baidu-analytics": "^0.0.1",
     "saber-plugin-generate-feed": "0.2.0",
-    "saber-plugin-generate-sitemap": "^0.0.1",
+    "saber-plugin-generate-sitemap": "^0.1.0",
     "saber-plugin-query-posts": "0.1.1",
     "sass": "^1.18.0",
     "sass-loader": "^7.1.0"
