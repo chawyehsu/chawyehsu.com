@@ -37,12 +37,12 @@ comments: false
 
 这里给出两个demo：
 
-- ① [官网的DEMO](http://larsjung.de/h5ai/sample/)
+- ① [官网的DEMO](https://larsjung.de/h5ai/sample/)
 - ② [博主搭建的DEMO](http://demo.ihanabi.com/h5ai/)
 
 ### 安装快捷简单
 
-h5ai的官网是 [http://larsjung.de/h5ai/](http://larsjung.de/h5ai/)，可前往下载最新
+h5ai的官网是 [https://larsjung.de/h5ai/](https://larsjung.de/h5ai/)，可前往下载最新
 版本使用。它需要`PHP5.2.1`以上的版本，安装起来非常简单。只需把下载的压缩包解压出来
 `_h5ai`文件夹，放到你的WEB服务器根目录下，并做一点点配置就可以访问使用了。（其实
 h5ai并不要求Server开启目录可浏览，像Nginx不开autoindex也是可以用的）

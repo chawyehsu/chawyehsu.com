@@ -8,8 +8,8 @@ hidden: true
 comments: false
 ---
 
-测试一下新发现的&quot;世界最小的MP3播放器&quot;：1bit-audio-player，还真是迷你，
-文件总共只有3个，两个js一个swf，一共15kb多一点。
+测试一下新发现的“世界最小的 MP3 播放器”：1bit-audio-player，还真是迷你，
+文件总共只有 3 个，两个 js 一个 swf，一共 15kb 多一点。
 
 <!--more-->
 
