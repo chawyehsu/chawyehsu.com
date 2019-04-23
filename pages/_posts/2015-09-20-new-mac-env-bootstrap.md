@@ -3,7 +3,6 @@ layout: post
 title: Newbie Mac Bootstrap
 date: 2015-09-20 17:28:19
 updated: 2015-09-20 17:28:19
-hidden: true
 cover: /uploads/2018/12/20181225012.png
 ---
 入坑 Mac OS X，写点 note (nonsense) 以备玩坏系统重装时翻查。

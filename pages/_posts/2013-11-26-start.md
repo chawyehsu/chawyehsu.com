@@ -1,0 +1,11 @@
+---
+layout: post
+title: 欢迎使用 Typecho
+date: 2013-11-26 19:12:00
+updated: 2013-11-26 19:12:00
+draft: true
+hidden: true
+comments: false
+---
+
+如果您看到这篇文章,表示您的 blog 已经安装成功.
