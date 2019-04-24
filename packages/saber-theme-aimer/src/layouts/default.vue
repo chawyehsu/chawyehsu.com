@@ -2,9 +2,9 @@
   <div class="stie-container">
     <Header />
     <main class="site-wrapper">
-      <div id="post" class="post-content">
-        <article itemscope itemtype="http://schema.org/Article">
-          <header class="post-header">
+      <div class="page-content">
+        <article itemscope itemtype="https://schema.org/Article">
+          <header class="page-header">
             <h1 class="page-title">{{ page.attributes.title }}</h1>
             <!-- <div class="page-meta">
               <div v-if="page.attributes.tags">
@@ -15,14 +15,14 @@
               </div>
             </div> -->
           </header>
-          <section v-if="isPostOutdated" class="post-alert outdated-alert notification">
+          <section v-if="isPostOutdated" class="page-alert outdated-alert notification">
             本文最后更新于 {{ days }} 天前（{{ humanDate }}），其中的信息可能已经有所发展或者不再适合现阶段。
           </section>
-          <section class="post-body">
+          <section class="page-body">
             <slot name="default" />
           </section>
           <Disqus v-if="page.attributes.comments !== false && $siteConfig.disqusjs" :page="page" />
-          <footer class="post-footer"></footer>
+          <footer class="page-footer"></footer>
         </article>
       </div>
     </main>

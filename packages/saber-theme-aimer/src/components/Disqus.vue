@@ -1,5 +1,5 @@
 <template>
-  <section class="post-comments">
+  <section class="page-comments">
     <div v-show="!disqusLoaded" id="load-disqus">
       <a @click="disqus.load()" title="Load Disqus">Leave a comment</a>
     </div>

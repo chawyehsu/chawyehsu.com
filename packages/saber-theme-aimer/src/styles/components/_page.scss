@@ -1,11 +1,12 @@
-.post-content {
+.page-content {
   margin: 0 auto;
   max-width: $page-wrap;
-  .post-header {
+  .page-header {
     margin-bottom: $gap-m;
+    padding: $gap-m 0;
     text-align: center;
 
-    h1 {
+    .page-title {
       margin-bottom: 0;
     }
 
@@ -15,7 +16,7 @@
     }
   }
 
-  .post-alert {
+  .page-alert {
     margin-bottom: $gap-m;
     background-color: $tertiary-color;
     padding: $gap-m;
@@ -23,7 +24,7 @@
     border-radius: 0;
   }
 
-  .post-body {
+  .page-body {
     margin-bottom: $gap-xl;
 
     a:not([id^=fnref]) {
@@ -225,7 +226,7 @@
     }
   }
 
-  .post-comments {
+  .page-comments {
     margin-bottom: $gap-l;
 
     #load-disqus {
