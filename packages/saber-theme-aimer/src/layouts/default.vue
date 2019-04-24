@@ -45,7 +45,7 @@ export default {
     Disqus
   },
   mounted () {
-    lozad(document.querySelectorAll('.post-content img')).observe()
+    lozad(document.querySelectorAll('.page-content img')).observe()
   },
   methods: {
     date
