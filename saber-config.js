@@ -5,7 +5,7 @@ module.exports = {
     url: 'https://www.h404bi.com',
     title: 'The Art of Chawye Hsu',
     description: 'Personal Website of Chawye Hsu.',
-    keywords: 'h404bi,chawye hsu,blog,static site generator',
+    keywords: 'h404bi,blog,blogger,个人博客',
     author: 'h404bi',
     disqusjs: {
       shortname: 'h404bi',
