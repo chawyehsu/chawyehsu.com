@@ -127,12 +127,11 @@
     }
 
     .saber-highlight {
-      margin: 0;
-      margin-bottom: $gap-m;
+      position: relative;
       overflow: hidden;
+      margin: 0 0 $gap-m 0;
       background: $tertiary-color;
       border-radius: 0;
-      box-shadow: none;
 
       &:before {
         content: attr(data-lang);
@@ -143,13 +142,14 @@
         color: $meta-color;
       }
 
-      pre {
-        padding: $gap-m !important;
+      pre.saber-highlight-code {
+        margin: 0;
+        padding: $gap-m;
         overflow: auto;
       }
 
       code {
-        background: none;
+        background: transparent;
         padding: 0;
       }
     }
