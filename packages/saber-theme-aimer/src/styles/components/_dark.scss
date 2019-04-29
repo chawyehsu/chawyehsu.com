@@ -1,0 +1,100 @@
+// Using dark mode in CSS with MacOS Mojave
+// https://paulmillr.com/posts/using-dark-mode-in-css/
+@media (prefers-color-scheme: dark) {
+  html {
+    color: $text-color-invert;
+
+    .site-header {
+      background-color: $background-invert;
+      color: $text-color-invert;
+    }
+  }
+
+  body {
+    background: $background-invert;
+  }
+
+  // header
+  .site-header {
+    background-color: $background-invert;
+    color: $text-color-invert;
+    box-shadow: 0 0 35px 0 rgba(170, 170, 170, 0.08);
+  }
+
+  // index
+  .post-list {
+    .post-card-image {
+      .overlay {
+        background: rgba(0, 0, 0, 0.55);
+      }
+    }
+
+    .post-list-item {
+      .post-meta {
+        color: $meta-color-invert;
+      }
+    }
+  }
+
+  // page
+  .page-content {
+    .page-header {
+      .page-meta {
+        color: $meta-color-invert;
+      }
+    }
+
+    .page-alert {
+      background-color: $tertiary-color-invert;
+    }
+
+    .page-body {
+      > table {
+        tr {
+          &:nth-child(2n) {
+            background-color: $tertiary-color-invert;
+          }
+
+          th, td {
+            border: 1px solid $tertiary-color-invert;
+          }
+        }
+      }
+
+      code {
+        background: $tertiary-color-invert;
+      }
+
+      .saber-highlight {
+        background: $tertiary-color-invert;
+      }
+
+      hr {
+        border-bottom: 2px solid $meta-color-invert;
+      }
+
+      figure {
+        figcaption {
+          color: $meta-color-invert;
+        }
+      }
+
+      .footnotes {
+        color: $meta-color-invert;
+      }
+    }
+
+    .page-comments {
+      #load-disqus {
+        color: $meta-color-invert;
+      }
+    }
+  }
+
+  // footer
+  .site-footer {
+    background-color: $background-invert;
+    color: $text-color-invert;
+  }
+
+}
