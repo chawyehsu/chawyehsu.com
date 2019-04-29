@@ -6683,10 +6683,10 @@ saber-plugin-generate-sitemap@^0.1.0:
   dependencies:
     ejs "^2.6.1"
 
-saber-plugin-query-posts@0.1.1:
-  version "0.1.1"
-  resolved "https://registry.yarnpkg.com/saber-plugin-query-posts/-/saber-plugin-query-posts-0.1.1.tgz#066d561861b0c1bd49aceaeecaccda6cea8d037b"
-  integrity sha512-Q1oy8SpCemHwO5auFvJOmYZRuddC1dptt2w8rN42vrt4Zv/1oFZHqRmZjRdmXouD6zP8JaOU4m9GwQ6Jpfm3Wg==
+saber-plugin-query-posts@0.1.2:
+  version "0.1.2"
+  resolved "https://registry.yarnpkg.com/saber-plugin-query-posts/-/saber-plugin-query-posts-0.1.2.tgz#8bca7481869dd9237501a8770ff620111312ca53"
+  integrity sha512-RSf//mgfM3PCWBUh8tSxdl0VX3VP913GJFmY9HQ+MzStGfcrYLfOu7IrFTc1h+ruLO3amIRkNq+M7cMIP56qpQ==
   dependencies:
     slugo "^0.2.3"
     url-join "^4.0.0"
