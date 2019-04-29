@@ -6,22 +6,37 @@
         <article itemscope itemtype="https://schema.org/Article">
           <header class="page-header">
             <h1 class="page-title">{{ page.attributes.title }}</h1>
-            <!-- <div class="page-meta">
-              <div v-if="page.attributes.tags">
-                <i class="icon ion-md-pricetags"></i>
-                <span v-for="(item, index) in page.attributes.tags" :key="index">
-                  {{ item }}
+            <div class="page-meta" v-if="page.attributes.type === 'post'">
+              <section class="page-datetime">
+                <time
+                  class="published"
+                  :datetime="page.attributes.createdAt.toISOString()">
+                  {{ date(page.attributes.createdAt, '{YYYY} {MMMM} {DD}') }}
+                </time>
+              </section>
+              <section class="page-categories" v-if="page.categories">
+                <span v-for="(item, index) in page.categories" :key="index">
+                  <span v-if="index > 0">, </span>
+                  <saber-link
+                    class="category"
+                    :to="item.permalink">
+                    {{ item.name }}
+                  </saber-link>
                 </span>
-              </div>
-            </div> -->
+              </section>
+            </div>
           </header>
-          <section v-if="isPostOutdated" class="page-alert outdated-alert notification">
+          <section
+            v-if="isPostOutdated"
+            class="page-alert outdated-alert notification">
             本文最后更新于 {{ days }} 天前（{{ humanDate }}），其中的信息可能已经有所发展或者不再适合现阶段。
           </section>
           <section class="page-body">
             <slot name="default" />
           </section>
-          <Disqus v-if="page.attributes.comments !== false && $siteConfig.disqusjs" :page="page" />
+          <Disqus
+            v-if="page.attributes.comments !== false && $siteConfig.disqusjs"
+            :page="page" />
           <footer class="page-footer"></footer>
         </article>
       </div>
