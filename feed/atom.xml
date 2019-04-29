@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://www.h404bi.com</id>
     <title>The Art of Chawye Hsu</title>
-    <updated>2019-04-29T15:59:22.163Z</updated>
+    <updated>2019-04-29T16:00:23.891Z</updated>
     <generator>Saber</generator>
     <author>
         <name>h404bi</name>
@@ -59,8 +59,8 @@ SSL 证书过期（那时还没用 Let's Encrypt）和 VPS 不稳定的原因，
 <p>整个核心架构变化，于是现在托管仓库的项目架构也有所调整，改成了 Monorepo 并用 Lerna
 进行管理<sup class="footnote-ref"><a href="#fn7" id="fnref7">[7]</a></sup>。</p>
 <p>修改了内容授权协议，具体可见 About 页面。因为细想了一下，真有人取走内容的话大概也不会在意你的协议，于是干脆放飞自我。</p>
-<p><strong>RSS Feed 调整，增加 <a href="https://jsonfeed.org/" target="_blank" rel="noopener noreferrer">JSON Feed</a> 的支持，路径 <saber-link to="/feed/index.json"><code v-pre="">/feed/index.json</code></saber-link>，同时原有的
-Atom Feed 的路径会从 <saber-link to="/blog/atom.xml"><code v-pre="">/blog/atom.xml</code></saber-link> 调整为 <saber-link to="/feed/atom.xml"><code v-pre="">/feed/atom.xml</code></saber-link>，原有路径会重定向至新路径。因为这个是一个 Breaking Change，于是我着重了一下。希望有订阅我博客的朋友看到这篇文章后能知道这个变化。</strong></p>
+<p>RSS Feed 调整，增加 <a href="https://jsonfeed.org/" target="_blank" rel="noopener noreferrer">JSON Feed</a> 的支持，路径 <saber-link to="/feed/index.json"><code v-pre="">/feed/index.json</code></saber-link>，同时原有的
+Atom Feed 的路径会从 <saber-link to="/blog/atom.xml"><code v-pre="">/blog/atom.xml</code></saber-link> 调整为 <saber-link to="/feed/atom.xml"><code v-pre="">/feed/atom.xml</code></saber-link>，原有路径会重定向至新路径。</p>
 <p>完整的迁移记录可见仓库 <a href="https://github.com/h404bi/www.h404bi.com/compare/v2019.3.29-mina...592c99" target="_blank" rel="noopener noreferrer">Commit Log</a>。</p>
 <hr class="footnotes-sep">
 <section class="footnotes">
