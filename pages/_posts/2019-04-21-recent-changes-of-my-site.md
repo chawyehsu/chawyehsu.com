@@ -111,10 +111,9 @@ SSL 证书过期（那时还没用 Let's Encrypt）和 VPS 不稳定的原因，
 修改了内容授权协议，具体可见 About 页面。因为细想了一下，真有人取走内容的话大概也不
 会在意你的协议，于是干脆放飞自我。
 
-**RSS Feed 调整，增加 [JSON Feed] 的支持，路径 [`/feed/index.json`]，同时原有的
+RSS Feed 调整，增加 [JSON Feed] 的支持，路径 [`/feed/index.json`]，同时原有的
 Atom Feed 的路径会从 [`/blog/atom.xml`] 调整为 [`/feed/atom.xml`]，原有路径会重定
-向至新路径。因为这个是一个 Breaking Change，于是我着重了一下。希望有订阅我博客的朋
-友看到这篇文章后能知道这个变化。**
+向至新路径。
 
 完整的迁移记录可见仓库 [Commit Log]。
 
