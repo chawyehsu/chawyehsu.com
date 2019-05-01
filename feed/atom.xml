@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://www.h404bi.com</id>
     <title>The Art of Chawye Hsu</title>
-    <updated>2019-05-01T10:20:40.625Z</updated>
+    <updated>2019-05-01T10:31:25.862Z</updated>
     <generator>Saber</generator>
     <author>
         <name>h404bi</name>
@@ -13,7 +13,7 @@
     <subtitle>Personal Website of Chawye Hsu.</subtitle>
     <rights>All rights reserved</rights>
     <entry>
-        <title type="html"><![CDATA[利用 CSS 媒体查询让网页跟随 macOS 深色模式]]></title>
+        <title type="html"><![CDATA[利用 CSS 媒体查询让网页配色跟随 macOS 深色模式]]></title>
         <id>/blog/2019/05/macos-mojave-dark-mode-in-css</id>
         <link href="https://www.h404bi.com/blog/2019/05/macos-mojave-dark-mode-in-css">
         </link>
