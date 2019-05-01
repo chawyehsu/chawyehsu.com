@@ -209,7 +209,12 @@
         p {
           margin: 0;
         }
+
+        code {
+          font-size: $font-size-small;
+        }
       }
+
       blockquote {
         text-align: left;
       }
