@@ -3,20 +3,26 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
     <loc>https://www.h404bi.com/blog/page/2</loc>
-    <lastmod>2019-04-30T15:50:38.776Z</lastmod>
+    <lastmod>2019-05-01T10:19:56.101Z</lastmod>
         <priority>1</priority>
         <changefreq>always</changefreq>
   </url>
     <url>
     <loc>https://www.h404bi.com/</loc>
-    <lastmod>2019-04-30T15:50:38.776Z</lastmod>
+    <lastmod>2019-05-01T10:19:56.101Z</lastmod>
         <priority>0.8</priority>
         <changefreq>always</changefreq>
   </url>
     <url>
     <loc>https://www.h404bi.com/blog</loc>
-    <lastmod>2019-04-30T15:50:38.776Z</lastmod>
+    <lastmod>2019-05-01T10:19:56.101Z</lastmod>
         <priority>1</priority>
+        <changefreq>always</changefreq>
+  </url>
+    <url>
+    <loc>https://www.h404bi.com/blog/2019/05/macos-mojave-dark-mode-in-css</loc>
+    <lastmod>2019-05-01T10:14:40.000Z</lastmod>
+        <priority>0.6</priority>
         <changefreq>always</changefreq>
   </url>
     <url>
