@@ -10,7 +10,7 @@
     "type": "git"
   },
   "scripts": {
-    "bootstrap": "yarn lerna bootstrap",
+    "bootstrap": "yarn && yarn lerna bootstrap",
     "dev": "saber",
     "build": "saber build"
   },

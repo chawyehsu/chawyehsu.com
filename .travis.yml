@@ -31,7 +31,7 @@ before_install:
 
 script:
   # Install dependencies
-  - yarn
+  - yarn bootstrap
   # Compile and generate to site
   - yarn build
 

@@ -46,9 +46,7 @@ $ cd www.h404bi.com
 ### Run and play:
 
 ``` sh
-# Install dependencies
-$ yarn
-# Bootstrap packages (Optional, for package development)
+# Bootstrap, install dependencies
 $ yarn bootstrap
 # Start localhost web server
 $ yarn dev
