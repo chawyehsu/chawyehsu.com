@@ -42,7 +42,7 @@ after_success:
   # Clear old files
   - rm -rf ./*
   # Copy new files
-  - cp -r ../.saber/public/* .
+  - cp -r ../public/* .
   # Publish new commit to gh-pages
   - git add -A .
   - COMMITDATE=`date '+%Y-%m-%d %H:%M:%S'`
