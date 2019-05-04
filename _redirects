@@ -1,0 +1,8 @@
+# Redirect default Netlify subdomain to primary domain
+https://h404bi.netlify.com/* https://www.h404bi.com/:splat 301!
+
+# Redirect old permalinks to new format
+/blog/:year/:month/:day/:slug /blog/:year/:month/:slug 301!
+
+# Redirect old atom feed to the new one
+/blog/atom.xml /feed/atom.xml 301!
