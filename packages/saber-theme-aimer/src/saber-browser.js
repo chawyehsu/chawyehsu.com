@@ -1,13 +1,14 @@
 import 'normalize.css'
 import './styles/main.scss'
+import variables from 'saber/variables'
 
-export default ({ rootOptions }) => {
+export default ({ setHead }) => {
   if (process.browser) {
     // IntersectionObserver polyfill for lozad.js
     require('intersection-observer')
   }
 
-  rootOptions.head = () => {
+  setHead(function () {
     return {
       htmlAttrs: {
         lang: 'zh-CN',
@@ -21,6 +22,12 @@ export default ({ rootOptions }) => {
         }
       ],
       link: [
+        {
+          rel: 'alternate',
+          title: `${this.$siteConfig.title} - Feed`,
+          type: 'application/atom+xml',
+          href: `${variables.feedLink}`
+        },
         {
           href: 'https://fonts.gstatic.com/',
           rel: 'preconnect',
@@ -37,5 +44,5 @@ export default ({ rootOptions }) => {
         }
       ]
     }
-  }
+  })
 }
