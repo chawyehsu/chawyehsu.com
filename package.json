@@ -10,7 +10,7 @@
     "type": "git"
   },
   "scripts": {
-    "bootstrap": "yarn && yarn lerna bootstrap",
+    "bootstrap": "yarn lerna bootstrap",
     "dev": "saber",
     "build": "saber build"
   },
@@ -24,6 +24,7 @@
     "markdown-it-lazy-image": "^0.0.1",
     "saber": "0.4.10",
     "saber-plugin-baidu-analytics": "^0.0.1",
+    "saber-plugin-ga-lite": "^0.1.0",
     "saber-plugin-generate-feed": "0.2.4",
     "saber-plugin-generate-sitemap": "^0.1.0",
     "saber-plugin-query-posts": "0.1.4",

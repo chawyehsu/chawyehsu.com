@@ -6772,6 +6772,11 @@ saber-plugin-baidu-analytics@^0.0.1:
   resolved "https://registry.yarnpkg.com/saber-plugin-baidu-analytics/-/saber-plugin-baidu-analytics-0.0.1.tgz#87b4c497555c8ef57faf1dd90143def984bb378b"
   integrity sha512-eU9oqMowKsGIeT2X8gD2NPMJuMqC3KyPMX/p/L8dzCQTy0mQZ9jKZZPWiEhzaWEkub+8CPZVL/Oq8zKTxFmheg==
 
+saber-plugin-ga-lite@^0.1.0:
+  version "0.1.0"
+  resolved "https://registry.yarnpkg.com/saber-plugin-ga-lite/-/saber-plugin-ga-lite-0.1.0.tgz#bda5b005a2d40f4516c7d412e5f95a68bbe50d00"
+  integrity sha512-SuvDnzfZ1b5AM0I2+nC1+bGloBtDjN4INek6P8EnwZFCJXixclrUmgmmeQvUxnXHRLIOa0S6w009swVAt5Py+Q==
+
 saber-plugin-generate-feed@0.2.4:
   version "0.2.4"
   resolved "https://registry.yarnpkg.com/saber-plugin-generate-feed/-/saber-plugin-generate-feed-0.2.4.tgz#6391915c9241a9263d8ab9054d1210a8f68ca63e"
