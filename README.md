@@ -14,6 +14,9 @@
   <a href="https://code.visualstudio.com">
     <img src="https://img.shields.io/badge/build%20with-vscode-blue.svg?style=flat-square" alt="build with vscode" />
   </a>
+  <a href="https://www.webpagetest.org/result/190412_1P_2dd2d27be7a11015b817357a2028b0bb/">
+    <img src="https://img.shields.io/badge/WebPageTest-A-44CC11.svg?style=flat-square" alt="WebPageTest Test Result" />
+  </a>
   <a href="https://github.com/h404bi/www.h404bi.com">
     <img src="https://img.shields.io/david/h404bi/www.h404bi.com.svg?style=flat-square" alt="David" />
   </a>
