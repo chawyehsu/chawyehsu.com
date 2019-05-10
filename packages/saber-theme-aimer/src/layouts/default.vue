@@ -10,7 +10,7 @@
               <section class="page-datetime">
                 <time
                   class="published"
-                  :datetime="page.attributes.createdAt.toISOString()">
+                  :datetime="new Date(page.attributes.createdAt).toISOString()">
                   {{ date(page.attributes.createdAt, '{YYYY} {MMMM} {DD}') }}
                 </time>
               </section>

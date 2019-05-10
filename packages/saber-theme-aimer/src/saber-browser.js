@@ -1,6 +1,5 @@
 import 'normalize.css'
 import './styles/main.scss'
-import variables from 'saber/variables'
 
 export default ({ setHead }) => {
   if (process.browser) {
@@ -26,7 +25,7 @@ export default ({ setHead }) => {
           rel: 'alternate',
           title: `${this.$siteConfig.title} - Feed`,
           type: 'application/atom+xml',
-          href: `${variables.feedLink}`
+          href: `${this.$feed}`
         },
         {
           href: 'https://fonts.gstatic.com/',

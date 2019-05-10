@@ -165,7 +165,7 @@ module.exports = {
       }
     },
     {
-      resolve: 'saber-plugin-generate-feed',
+      resolve: 'saber-plugin-feed',
       options: {
         atomFeed: '/feed/atom.xml',
         jsonFeed: '/feed/index.json'
@@ -182,7 +182,7 @@ module.exports = {
       }
     },
     {
-      resolve: 'saber-plugin-generate-sitemap',
+      resolve: 'saber-plugin-sitemap',
       options: {
         template: './sitemap.xml'
       }
