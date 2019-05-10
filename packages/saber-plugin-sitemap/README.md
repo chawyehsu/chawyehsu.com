@@ -1,11 +1,11 @@
-# saber-plugin-generate-sitemap
+# saber-plugin-sitemap
 
-Sitemap generator plugin for [Saber.js](https://saberjs.org/).
+Sitemap generator plugin for [Saber.js](https://saber.land/).
 
 ## Install
 
 ```bash
-yarn add saber-plugin-generate-sitemap
+yarn add saber-plugin-sitemap
 ```
 
 ## Usage
@@ -14,7 +14,7 @@ In your `saber-config.yml`:
 
 ```yml
 plugins:
-  - resolve: saber-plugin-generate-sitemap
+  - resolve: saber-plugin-sitemap
     options:
       # The output path of the sitemap (optional)
       path: '/sitemap.xml'

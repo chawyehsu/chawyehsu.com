@@ -15,7 +15,7 @@ exports.apply = (api, options = {}) => {
 
   const { siteConfig } = api.config
   if (!siteConfig.url) {
-    throw new Error('siteConfig.url is required for saber-plugin-generate-sitemap')
+    throw new Error('siteConfig.url is required for saber-plugin-sitemap')
   }
 
   const sitemapLink = url.resolve(siteConfig.url, options.path)
