@@ -24,8 +24,12 @@ export default ({ setHead }) => {
         {
           rel: 'alternate',
           title: `${this.$siteConfig.title} - Feed`,
-          type: 'application/atom+xml',
-          href: `${this.$feed}`
+          href: this.$feed.permalink,
+          type: this.$feed.type === 'atom'
+            ? 'application/atom+xml'
+            : this.$feed.type === 'rss2'
+              ? 'application/rss+xml'
+              : 'application/json'
         },
         {
           href: 'https://fonts.gstatic.com/',
