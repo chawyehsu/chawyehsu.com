@@ -2,14 +2,13 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://www.h404bi.com</id>
     <title>The Art of Chawye Hsu</title>
-    <updated>2019-05-10T05:55:08.861Z</updated>
+    <updated>2019-05-10T06:24:03.727Z</updated>
     <generator>Saber</generator>
     <author>
         <name>h404bi</name>
         <uri>https://www.h404bi.com</uri>
     </author>
     <link rel="alternate" href="https://www.h404bi.com"/>
-    <link rel="self" href="https://www.h404bi.com/feed/atom.xml"/>
     <subtitle>Personal Website of Chawye Hsu.</subtitle>
     <rights>All rights reserved</rights>
     <entry>
@@ -140,7 +139,7 @@ Atom Feed 的路径会从 <saber-link to="/blog/atom.xml"><code v-pre="">/blog/a
 ]]></summary>
         <content type="html"><![CDATA[<p>Windows Console Host（即 <code v-pre="">conhost.exe</code>，下称“ConHost”<sup class="footnote-ref"><a href="#fn1" id="fnref1">[1]</a></sup>）中的设置可能有点难以理解，主要是因为在过去几十年中这个设置系统不断发展。根据 ConHost 如何被调用，这些设置项会存储在不同的位置。</p>
 <figure data-type="image"><img src="/static/img/loading.gif" alt="控制台设置" data-src="/uploads/2019/02/20190218001.png"><figcaption>控制台设置</figcaption></figure>
-<h2 id="%E8%AE%BE%E7%BD%AE%E5%8A%A0%E8%BD%BD%E7%9A%84%E5%B1%82%E7%BA%A7">设置加载的层级</h2>
+<h2 id="设置加载的层级">设置加载的层级</h2>
 <p>决定一个控制台设置的加载与存储是基于以下层级进行的：</p>
 <ol>
 <li>写死在 conhostv2.dll 里面的设置</li>
@@ -331,12 +330,12 @@ Atom Feed 的路径会从 <saber-link to="/blog/atom.xml"><code v-pre="">/blog/a
 </tbody>
 </table>
 <p>*仅在新版控制台中有效</p>
-<h2 id="%E5%B7%B2%E7%9F%A5%E9%97%AE%E9%A2%98">已知问题</h2>
+<h2 id="已知问题">已知问题</h2>
 <p>与大多数复杂的事物一样，有一些问题需要注意：</p>
-<h3 id="%E7%B3%BB%E7%BB%9F%E6%9B%B4%E6%96%B0%E4%BC%9A%E5%AF%BC%E8%87%B4%E8%AE%BE%E7%BD%AE%E8%A2%AB%E9%87%8D%E7%BD%AE">系统更新会导致设置被重置</h3>
+<h3 id="系统更新会导致设置被重置">系统更新会导致设置被重置</h3>
 <p>每当你升级到新版本的 Windows 时，系统级的快捷方式以及“「开始」菜单”中的设置会被重置为默认值。这意味着如果你升级了系统，你自定义的字体、颜色等设置将会全部重置为
 Windows 的默认值。</p>
-<h2 id="%E5%90%8E%E8%AE%B0">后记</h2>
+<h2 id="后记">后记</h2>
 <p>我一直在使用 <a href="https://github.com/lukesampson/concfg" target="_blank" rel="noopener noreferrer">concfg</a> 作为我管理我的
 Windows 控制台设置的工具，近期成为了该项目的协作者进行项目维护，便开始稍微深入地了解 Windows 控制台相关知识。本文是微软官方 Windows Console &amp; WSL 团队的一篇博文的译文，原文见 <a href="https://blogs.msdn.microsoft.com/commandline/2017/06/20/understanding-windows-console-host-settings/" target="_blank" rel="noopener noreferrer">Understanding Windows Console Host Settings</a>，有些许删改。</p>
 <hr class="footnotes-sep">
@@ -422,13 +421,13 @@ Chrome 以来积累到的一些扩展程序和信息，做这么一个盘点，�
 <figure data-type="image"><img src="/static/img/loading.gif" alt="AcFun HTML5 Player" title="AcFun HTML5 Player" data-src="/uploads/2018/12/20181216002.png"><figcaption>AcFun HTML5 Player</figcaption></figure>
 <p>Adobe 官方宣布 2020 年停止更新 Flash，Flash 时代的终结终于定上了日程。即使没有官宣，从那些日子使用《妈妈再也不用担心我的 MacBook 发热了计划》养成了“刁钻习惯”，在浏览视频类网站的时候，能用 HTML5 的话，我都会尽量使用。不过，很庆幸 Adobe 能做出这个大好的决策。有些东西，到了被淘汰的时候，也就那样了。就如，哪天 A 站原生支持了 HTML5 播放器，这个扩展的寿命也许就……</p>
 <figure data-type="image"><a href="https://chrome.google.com/webstore/detail/acfun-html5-player/onjihgccojkcmlmlbjmgkcnehdbpbhcf" target="_blank" rel="noopener noreferrer"><img src="/static/img/loading.gif" alt="" data-src="/uploads/2018/12/20181216001.png"></a></figure>
-<h2 id="checker-plus-for-gmail%E2%84%A2">Checker Plus for Gmail™</h2>
+<h2 id="checker-plus-for-gmail™">Checker Plus for Gmail™</h2>
 <figure data-type="image"><img src="/static/img/loading.gif" alt="Checker Plus for Gmail™" title="Checker Plus for Gmail™" data-src="/uploads/2018/12/20181216003.jpg"><figcaption>Checker Plus for Gmail™</figcaption></figure>
 <p>无需打开 Gmail 或 Inbox，即可收到桌面邮件通知，方便地查看、收听或删除邮件，并且支持多账户。用过这个之后，你就不会再想起 Google 自家提供的很久没有更新的
 Google Mail Checker 扩展了。伟大的邮箱，伟大的软件，伟大的公司，敌不过更伟大的墙。如今还在坚持用 Gmail 的同学，一定不是真爱就是历史数据迁移太麻烦！迫于 Google
 全家桶的问题，我还是保持着 Gmail 的轻微使用。更多的，还是走 Outlook 了……</p>
 <figure data-type="image"><a href="https://chrome.google.com/webstore/detail/checker-plus-for-gmail/oeopbcgkkoapgobdbedcemjljbihmemj" target="_blank" rel="noopener noreferrer"><img src="/static/img/loading.gif" alt="" data-src="/uploads/2018/12/20181216001.png"></a></figure>
-<h2 id="cowlevel-steam-%E5%A2%9E%E5%BC%BA%E5%B0%8F%E8%83%BD%E6%89%8B">Cowlevel Steam 增强小能手</h2>
+<h2 id="cowlevel-steam-增强小能手">Cowlevel Steam 增强小能手</h2>
 <figure data-type="image"><img src="/static/img/loading.gif" alt="Cowlevel Steam 增强小能手" title="Cowlevel Steam 增强小能手" data-src="/uploads/2018/12/20181216004.jpg"><figcaption>Cowlevel Steam 增强小能手</figcaption></figure>
 <blockquote>
 <p>研发辛苦了，对奶牛关的与steam的结缔有很大的帮助qwq。—— bulong dou</p>
@@ -562,7 +561,7 @@ CJX 的「去自我推广列表规则」：<a href="https://raw.githubuserconten
 <p>V 站还是一个很不错的地方的，日常逛逛摸摸鱼。发现好几个朋友同事都有浏览 V2EX……
 v2ex plus 确实是一款很好用的 V2EX 扩展，对话详情、插入表情图片等都是很好的功能。</p>
 <figure data-type="image"><a href="https://chrome.google.com/webstore/detail/v2ex-plus/daeclijmnojoemooblcbfeeceopnkolo" target="_blank" rel="noopener noreferrer"><img src="/static/img/loading.gif" alt="" data-src="/uploads/2018/12/20181216001.png"></a></figure>
-<h2 id="vue.js-devtools">Vue.js devtools</h2>
+<h2 id="vue-js-devtools">Vue.js devtools</h2>
 <figure data-type="image"><img src="/static/img/loading.gif" alt="Vue.js devtools" title="Vue.js devtools" data-src="/uploads/2018/12/20181216026.jpg"><figcaption>Vue.js devtools</figcaption></figure>
 <p>Vue.js 开发调试神器，就这样。React 暂时没啃下，还得靠 Vue 活着。不比较，都重要。</p>
 <figure data-type="image"><a href="https://chrome.google.com/webstore/detail/vuejs-devtools/nhdogjmejiglipccpnnnanhbledajbpd" target="_blank" rel="noopener noreferrer"><img src="/static/img/loading.gif" alt="" data-src="/uploads/2018/12/20181216001.png"></a></figure>
@@ -577,22 +576,22 @@ v2ex plus 确实是一款很好用的 V2EX 扩展，对话详情、插入表情�
 <p>这其实跟隐私保护有点对立了。所以如果你也是用 Hexo，却不想被判断出来，则可以通过
 Hexo 的 after generator 钩子在页面生成时将特征（不只是 meta 一个特征）去掉，这样就不会被判断到了。</p>
 <figure data-type="image"><a href="https://chrome.google.com/webstore/detail/wappalyzer/gppongmhjkpfnbhagpmjfkannfbllamg" target="_blank" rel="noopener noreferrer"><img src="/static/img/loading.gif" alt="" data-src="/uploads/2018/12/20181216001.png"></a></figure>
-<h2 id="%E5%88%92%E8%AF%8D%E7%BF%BB%E8%AF%91">划词翻译</h2>
+<h2 id="划词翻译">划词翻译</h2>
 <figure data-type="image"><img src="/static/img/loading.gif" alt="划词翻译" title="划词翻译" data-src="/uploads/2018/12/20181216028.jpg"><figcaption>划词翻译</figcaption></figure>
 <p>后悔大学时期没把英语往深里去学，只得半桶水。现在接触越多，才会发现语言愈加重要，亏我还是外语大学毕业的。「划词翻译」是我使用时间比较久的一款扩展。到如今 Chrome
 与 Firefox 双修的我，还是对在 Firefox 上没有一款能与划词翻译媲美的扩展而感到难受。</p>
 <figure data-type="image"><a href="https://chrome.google.com/webstore/detail/%E5%88%92%E8%AF%8D%E7%BF%BB%E8%AF%91/ikhdkkncnoglghljlkmcimlnlhkeamad" target="_blank" rel="noopener noreferrer"><img src="/static/img/loading.gif" alt="" data-src="/uploads/2018/12/20181216001.png"></a></figure>
-<h2 id="%E5%93%94%E5%93%A9%E5%93%94%E5%93%A9%E5%8A%A9%E6%89%8B%EF%BC%9Abilibili.com-%E7%BB%BC%E5%90%88%E8%BE%85%E5%8A%A9%E6%89%A9%E5%B1%95">哔哩哔哩助手：<a href="http://bilibili.com" target="_blank" rel="noopener noreferrer">bilibili.com</a> 综合辅助扩展</h2>
+<h2 id="哔哩哔哩助手：bilibili-com-综合辅助扩展">哔哩哔哩助手：<a href="http://bilibili.com" target="_blank" rel="noopener noreferrer">bilibili.com</a> 综合辅助扩展</h2>
 <figure data-type="image"><img src="/static/img/loading.gif" alt="哔哩哔哩助手：bilibili.com 综合辅助扩展" title="哔哩哔哩助手：bilibili.com 综合辅助扩展" data-src="/uploads/2018/12/20181216029.png"><figcaption>哔哩哔哩助手：<a href="http://bilibili.com" target="_blank" rel="noopener noreferrer">bilibili.com</a> 综合辅助扩展</figcaption></figure>
 <p>B 站增强扩展，有这款就够了。好用！啾咕咕www 牛掰。AB 站双修，缺 B 乐还在就好。</p>
 <figure data-type="image"><a href="https://chrome.google.com/webstore/detail/%E5%93%94%E5%93%A9%E5%93%94%E5%93%A9%E5%8A%A9%E6%89%8B%EF%BC%9Abilibilicom-%E7%BB%BC%E5%90%88%E8%BE%85%E5%8A%A9%E6%89%A9%E5%B1%95/kpbnombpnpcffllnianjibmpadjolanh" target="_blank" rel="noopener noreferrer"><img src="/static/img/loading.gif" alt="" data-src="/uploads/2018/12/20181216001.png"></a></figure>
-<h2 id="%E7%9C%BC%E4%B8%8D%E8%A7%81%E5%BF%83%E4%B8%8D%E7%83%A6%EF%BC%88%E6%96%B0%E6%B5%AA%E5%BE%AE%E5%8D%9A%EF%BC%89">眼不见心不烦（新浪微博）</h2>
+<h2 id="眼不见心不烦（新浪微博）">眼不见心不烦（新浪微博）</h2>
 <figure data-type="image"><img src="/static/img/loading.gif" alt="眼不见心不烦（新浪微博）" title="眼不见心不烦（新浪微博）" data-src="/uploads/2018/12/20181216030.png"><figcaption>眼不见心不烦（新浪微博）</figcaption></figure>
 <p>用了很久的一款扩展了。看了下虽然扩展有近一年没有更新过了，但是已有的功能还是都能用。屏蔽掉一些不想看到的信息、模块，偶尔打开微博看看关注的人发的内容还是挺愉快的。</p>
 <p>此前听一同事说了一个关于微博的有意思的点，说到微博是唯一一个不太被其他应用、平台屏蔽分享的产品。像今日头条与腾讯微信互掐、网易部分产品禁止腾讯 QQ、腾讯屏蔽淘宝天猫等等，都是怕自家产品被往外导流量，却很少见微博被拒绝，被屏蔽。我想了下也确实好像是这样，不少平台应用都允许发布微博信息，比如关注微博什么的。</p>
 <p>微博已经是一个成熟型的平台，纵使有感觉到周边的人对比以前都不太使用微博，它也是一款经历了十年风雨的、稳定的产品吧。一些人还是会偶尔上去逛逛的。</p>
 <figure data-type="image"><a href="https://chrome.google.com/webstore/detail/%E7%9C%BC%E4%B8%8D%E8%A7%81%E5%BF%83%E4%B8%8D%E7%83%A6%EF%BC%88%E6%96%B0%E6%B5%AA%E5%BE%AE%E5%8D%9A%EF%BC%89/aognaapdfnnldnjglanfbbklaakbpejm" target="_blank" rel="noopener noreferrer"><img src="/static/img/loading.gif" alt="" data-src="/uploads/2018/12/20181216001.png"></a></figure>
-<h2 id="%E7%BB%93%E8%AF%AD">结语</h2>
+<h2 id="结语">结语</h2>
 <p>以上就是本人在这些年使用 Chrome 积攒下来的一些主要的扩展程序。其实目前我的浏览器里还有安装一些其他的扩展程序，但大多数都是处于停用的状态，也就是保留着但基本上不再去使用了，可能偶尔打开用一下的样子。而以上盘点的扩展，都是在用而且比较常用的。阅读到这里的你，不知道有没有发现感兴趣或是合适的扩展呢。不管怎样，每一款优秀扩展的诞生，都是为了能让用户更好地使用浏览器，更好地从互联网上汲取信息，更好地生活和工作。愿你有个更好的使用体验，感谢阅读。</p>
 <hr class="footnotes-sep">
 <section class="footnotes">
@@ -622,7 +621,7 @@ Hexo 的 after generator 钩子在页面生成时将特征（不只是 meta 一�
 <p>在 2015 年的《<saber-link to="/blog/2015/08/use-scoop-to-enhance-windows-powershell">用 Scoop 改善 Windows Powershell</saber-link>》博文中，我曾经介绍过这个令我眼前一亮的 Windows 软件包管理器。那是我刚开始使用上 Scoop 的时候，回看过去对它的介绍，也确像是一见钟情后的入坑纪实。简单，直接。</p>
 <p>那会我很快适应了 Scoop，并一直使用至今。经过这两年多的使用，我渐渐地更加依赖 Scoop 来管理一些软件。在我日常的 Windows 使用中，它带给我的便利，已不再仅仅是那时所言的“改善 Windows Powershell”。其实感觉就现在的 Scoop 而言，它确实还是挺小众的。只是最近我发现有些人通过搜索引擎浏览了我的那篇旧文，我觉得那篇文章太旧且简单了。于是挖下这么一个坑，写下这篇新文章更新下对 Scoop 的介绍与体会。</p>
 <hr>
-<h2 id="%E8%BD%AF%E4%BB%B6%E5%8C%85%E7%AE%A1%E7%90%86%E5%99%A8">软件包管理器</h2>
+<h2 id="软件包管理器">软件包管理器</h2>
 <blockquote>
 <p><a href="https://scoop.sh/" target="_blank" rel="noopener noreferrer">https://scoop.sh/</a></p>
 </blockquote>
@@ -773,10 +772,10 @@ $ python --version        # -&gt; Python 2.7.x
 
 $ scoop reset python
 $ python --version        # -&gt; Python 3.6.x</code></pre></div><p>我看到网络上有不少使用 Chocolatey 的人吐槽其下载安装软件包的时候奇慢，有的甚至因此而放弃继续使用 Chocolatey。通过 Scoop 本地自定义桶的话，拉取软件包描述文件的时候可以说是毫秒级的。然后还可以在描述文件里，自行修改软件包的下载链接，比如改成适合自己的 CDN 下载或者是私有软件源等。这样安装软件时会特别快速。这一切都得益于 Scoop 比 Chocolatey 更利落的软件包描述文件设计以及桶设计，用户自定义软件包所需的学习成本更低。</p>
-<h2 id="%E4%BD%86-scoop-%E8%BF%98%E6%9C%89%E9%97%AE%E9%A2%98">但 Scoop 还有问题</h2>
+<h2 id="但-scoop-还有问题">但 Scoop 还有问题</h2>
 <p>Scoop 是一个从个人项目开始，发展到现在由社区维护的开源项目。Scoop 不像 Chocolatey
 那样已经成立公司，并推出商业版，它仍然是一个“个人”项目，只是目前靠着社区在维护。所以它的活跃度与维护情况肯定是不如 Chocolatey 的，一些缺点还是有的。这里我只说一下几点我认为的 Scoop 应该要在后续发展中优先考虑处理的问题。</p>
-<h3 id="%E6%B2%A1%E6%9C%89%E7%A8%B3%E5%AE%9A%E7%89%88">没有稳定版</h3>
+<h3 id="没有稳定版">没有稳定版</h3>
 <p>目前的 Scoop 本身的核心功能是“滚动更新”的，它没有版本号的概念，不像 Chocolatey<sup class="footnote-ref"><a href="#fn8" id="fnref8">[8]</a></sup> 和 Homebrew<sup class="footnote-ref"><a href="#fn9" id="fnref9">[9]</a></sup> 那样有 Releases，所以也就没有所谓稳定版本。只要 Scoop 的 GitHub 仓库有新的 commits，用户通过 <code v-pre="">scoop update</code> 命令就会拉取所有的 commits 更新。</p>
 <figure class="right" data-type="image"><img src="/static/img/loading.gif" alt="图来源于网络" data-src="/uploads/2018/05/20180512004.png"><figcaption>图来源于网络</figcaption></figure>
 <p>如此的滚动更新，对于一个社区维护的开源软件来说，会很容易产生问题。没有 tags，没有 releases，如果维护者或者贡献者在 commit 时不小心手抖加入或者修改了一些代码，造成了 BUG，并且 commit 的人还并不知情。这个 BUG 将很快地传到最终用户那里，因为用户更新时是立刻拉取最新 commit 的。这时遇到问题的用户，需要到 GitHub 上开 issue 反馈，或者开 Pull-Request。但有权限处理合并的协作者也就那么几位（创始人 Luke 不怎么活跃了<sup class="footnote-ref"><a href="#fn10" id="fnref10">[10]</a></sup>，除了目前的 commit 数最多那位主要维护者外，其他几位协作者也是最近才加的），按以往的情况来看多数得半天以上时间才完成修复。</p>
@@ -792,7 +791,7 @@ $ python --version        # -&gt; Python 3.6.x</code></pre></div><p>我看到网
 Homebrew 1.6.3
 Homebrew/homebrew-core (git revision bdb1ff; last commit 2018-05-03)</code></pre></div><p>我觉得 brew 这个新设计 Scoop 是需要跟进的。将 main bucket 从 Scoop 主仓库中分离出来，
 Scoop 本身的仓库维护其核心功能代码，并打上 tags，发布 release 包，给 Scoop 一个版本号，定期更新稳定可用的版本。所有用户安装 Scoop 时，默认使用最新的稳定版，并克隆 main bucket 的最新 commit。而 Scoop 主仓库继续向前推进开发，开发者及少数激进的用户可以通过修改 <code v-pre="">channel</code> 设置使用 nightly/insider 版本的 Scoop。这样即时新功能出 BUG 了，也不会马上传播到所有的 Scoop 用户，因为大部分用户用着稳定版。</p>
-<h3 id="%E4%BB%8D%E9%9C%80%E4%BC%98%E5%8C%96%E7%9A%84%E6%A0%B8%E5%BF%83%E5%8A%9F%E8%83%BD">仍需优化的核心功能</h3>
+<h3 id="仍需优化的核心功能">仍需优化的核心功能</h3>
 <p>在我使用的这近三年里，除了一次默认安装路径的变动之外<sup class="footnote-ref"><a href="#fn11" id="fnref11">[11]</a></sup>，在使用上其实并没有感受到 Scoop 有什么巨大的改动。它并没有什么 Breaking Changes，一直是平平淡淡稳定前进，加加子命令完善体验之类的，虽然 Scoop 似乎是被越来越多人发现，当然越来越多人用意味着会有越来越多的新需求和新问题（所以我才觉得得有稳定版本）。</p>
 <figure data-type="image"><img src="/static/img/loading.gif" alt="Scoop 的 GitHub Stars 指数" data-src="/uploads/2018/05/20180512003.png"><figcaption>Scoop 的 GitHub Stars 指数</figcaption></figure>
 <p>不过没有大改动的同时，Scoop 的一些存在设计不足的核心功能，也照样是稳稳定定没有优化。这里我就说几个在使用 Scoop 时一定会遇到的情况：</p>
@@ -804,7 +803,7 @@ Scoop 本身的仓库维护其核心功能代码，并打上 tags，发布 relea
 <p>第三个。<code v-pre="">scoop cleanup &lt;app&gt;</code> 清理旧版本软件包的命令。这个命令有跟上面的卸载命令有类似的问题。用 Scoop 更新了软件后，当前运行着的其实还是旧版本的软件，然后清理会把旧版本的清理掉，这时会跟卸载命令一样，删到一些不能删的文件了，才会提示文件正在使用不能清理，让旧版本软件变成一个“没卸载干净又不再可用”的状态。</p>
 <p>第四个。<code v-pre="">scoop update &lt;app&gt;</code> 更新软件包的命令。Scoop 的更新命令的逻辑是这样的，当执行更新一个软件包时，它会先卸载旧的版本（清理 shims、shortcuts 等），给新版本预创建目录，然后下载新版本并检查安装包的哈希值。当哈希值正确时，才进行安装。那如果下载软件包过程中断线了呢？或者哈希值不对呢？于是问题来了，恰恰是这样的逻辑，会导致一个大概会是你用 Scoop 时最经常遇到的问题——软件实际上没更新成功，但 Scoop 却给你显示软件已经是最新的版本，并且旧版本无法使用<sup class="footnote-ref"><a href="#fn14" id="fnref14">[14]</a></sup><sup class="footnote-ref"><a href="#fn15" id="fnref15">[15]</a></sup>。你不得不执行 uninstall 命令并重新安装软件，或者 reset 命令重置软件。这个问题我相信只要是 Scoop 用户，都会经历过。</p>
 <p>回头看一下你会发现，我所讲的这几点基本上覆盖了 Scoop 最常用的几个命令：安装、卸载、更新、清理，这几个都是 Scoop 最最核心的功能。自我开始用 Scoop 到现在，这几个毛病就一直存在着。所以我才说，Scoop 的一些核心功能仍然存在不足需要改进。到目前还没有优化，也许是没有很好的解决方案吧。</p>
-<h2 id="%E7%BB%93%E8%AF%AD">结语</h2>
+<h2 id="结语">结语</h2>
 <p>回看全文下来，我觉得文章算了符合了我原本想写成的，以我的角度更新对 Scoop
 的介绍与体会的形式。对比、优点、缺点都稍微讲到了，应该不会有强烈的安利感觉。我看到访问记录有人从搜索引擎搜 Chocolatey 和 Scoop 的对比，找到了我原来那篇文章。想必也是想做个选择。其实如果你是偏重度的用户，想尽量多的软件可以用命令行管理，又不在乎我前文说的 Chocolatey 的软件包描述文件相对复杂等缺点的话，其实可以去试试使用 Chocolatey。而如果你没那么强烈的需求，只是像我一样有一点点
 “绿色软件洁癖”，同时想用命令行管理部分软件包，并且以此构建一个相对轻量的命令行环境的话，不妨可以尝试一下 PowerShell + Scoop + Cmder 这套组合。或者，Chocolatey 和 Scoop 二者一起用也是可以的。</p>
@@ -869,14 +868,14 @@ SIZE 2.41GB</p>
 <figure data-type="image"><img src="/static/img/loading.gif" alt="" data-src="/uploads/2018/03/20180324002.jpg"></figure>
 <p>对于日常只使用 Word、Excel、Powerpoint，最多再加一个 Outlook 的人来讲，全家桶的 Access、Onedrive for Business、Publisher、Skype 等必然是多余的，装上了基本不会用到。如果你想干掉这些没用处的部分应用，又或者像我一样，此前已经知道过 Click-to-Run 的厉害，但新装系统后手抖直接点下了镜像的
 setup.exe 的话，那就来与我一起“卸了又装”。</p>
-<h2 id="%E5%8D%B8%E8%BD%BD%E5%B7%B2%E5%AE%89%E8%A3%85%E7%9A%84-office">卸载已安装的 Office</h2>
+<h2 id="卸载已安装的-office">卸载已安装的 Office</h2>
 <p>在<a href="https://support.office.com/en-us/article/9dd49b83-264a-477a-8fcc-2fdf5dbf61d8" target="_blank" rel="noopener noreferrer">Office 官方文档库</a>里，选择第 2 种方法：</p>
 <blockquote>
 <p>Option 2 - Completely uninstall Office 2016 with the easy fix tool</p>
 </blockquote>
 <p>下载 easy fix tool: <code v-pre="">o15-ctrremove.diagcab</code>，双击执行一路到底后重启计算机。</p>
 <figure data-type="image"><img src="/static/img/loading.gif" alt="" data-src="/uploads/2018/03/20180324003.jpg"></figure>
-<h2 id="%E9%87%8D%E6%96%B0%E8%87%AA%E5%AE%9A%E4%B9%89%E5%AE%89%E8%A3%85-office">重新自定义安装 Office</h2>
+<h2 id="重新自定义安装-office">重新自定义安装 Office</h2>
 <p><strong>第一步：</strong> 解压安装镜像。因为待会要替换文件，直接挂载 iso 的话无法进行替换。</p>
 <figure data-type="image"><img src="/static/img/loading.gif" alt="安装镜像解压后" title="安装镜像解压后" data-src="/uploads/2018/03/20180324004.jpg"><figcaption>安装镜像解压后</figcaption></figure>
 <p><strong>第二步：</strong> 下载 <a href="https://www.microsoft.com/en-us/download/details.aspx?id=49117" target="_blank" rel="noopener noreferrer">Office 2016 Deployment Tool</a>。执行后会解压出两个文件，一个是 <code v-pre="">configuration.xml</code>，另一个是 <code v-pre="">setup.exe</code>。将两个文件覆盖到刚刚解压的镜像文件夹内（也可以改名备份原来的 setup.exe）。</p>
@@ -891,7 +890,7 @@ Excel、Powerpoint 以及 Outlook，其它全部排除。如果想把 Outlook �
 <figure data-type="image"><img src="/static/img/loading.gif" alt="" data-src="/uploads/2018/03/20180324006.png"></figure>
 <p>UAC 弹窗确认后开始自动安装。不过这次可以很明显的看到不再是全家桶都给你安装上了。</p>
 <figure data-type="image"><img src="/static/img/loading.gif" alt="" data-src="/uploads/2018/03/20180324007.png"></figure>
-<h2 id="%E7%BB%93%E5%B0%BE%E5%B0%8F-tips">结尾小 Tips</h2>
+<h2 id="结尾小-tips">结尾小 Tips</h2>
 <ol>
 <li>Outlook 添加两步验证的帐号时，要使用 App Password 而不是帐号主密码。</li>
 <li>Outlook 默认下很奇怪的是，启动后你点最小化，它实际上并不会最小化到托盘，在任务栏上还是会有 Outlook 的图标。而如果你选择点关闭，则整个 Outlook 都会关掉。通常比较多的可能是误点关了 Outlook，而退出后的 Outlook 是不接收邮件的。这时可以使用一个<a href="https://jocent.me/2017/06/20/outlook-close-minimize.html" target="_blank" rel="noopener noreferrer">小插件</a>实现 Outlook 点关闭时最小化到托盘，解决这个问题。</li>
@@ -909,11 +908,11 @@ Excel、Powerpoint 以及 Outlook，其它全部排除。如果想把 Outlook �
         <updated>2019-04-06T14:34:56.000Z</updated>
         <summary type="html"><![CDATA[自 Notch 出售了 Minecraft，出售了 Mojang 公司后，他在 Minecraft 方面的消息也随着 Minecraft 逐年下降的热度而减少。因此也有人跟我说，微软收购 Minecraft 的那一刻是 Minecraft 的巅峰，Notch 退出得很及时。卖掉 Minecraft 之后的 Notch 经历了怎样的一段过渡期；为何在《Minecraft: The Story of Mojang》纪录片[1]中还是在 Minecon 与粉丝见面时给人的感觉都是平易近人的他，在推特上却常常出言惊人；Notch 是否还有在做些什么游戏；以及他平时有喜欢玩什么游戏。也许你也会与我一样有一些这样的疑惑。
 ]]></summary>
-        <content type="html"><![CDATA[<h2 id="%E8%AF%91%E8%80%85%E5%BA%8F">译者序</h2>
+        <content type="html"><![CDATA[<h2 id="译者序">译者序</h2>
 <p>自 Notch 出售了 Minecraft，出售了 Mojang 公司后，他在 Minecraft 方面的消息也随着 Minecraft 逐年下降的热度而减少。因此也有人跟我说，微软收购 Minecraft 的那一刻是 Minecraft 的巅峰，Notch 退出得很及时。卖掉 Minecraft 之后的 Notch 经历了怎样的一段过渡期；为何在《Minecraft: The Story of Mojang》纪录片<sup class="footnote-ref"><a href="#fn1" id="fnref1">[1]</a></sup>中还是在 Minecon 与粉丝见面时给人的感觉都是平易近人的他，在推特上却常常出言惊人；Notch 是否还有在做些什么游戏；以及他平时有喜欢玩什么游戏。也许你也会与我一样有一些这样的疑惑。</p>
 <p>本文是人物访谈《The Tao of Notch - Beyond Twitter》的译文版本，原文作者 Brad Glasgow，于 2016 年 8 月 4 日发布在 The Escapist 网站上。<sup class="footnote-ref"><a href="#fn2" id="fnref2">[2]</a></sup>本人对此进行了翻译，断断续续耗时近 5 个月，文中涉及大量需要翻查各类资料后才能理解的游戏相关或非游戏相关的内容，比如詹代法则、游戏门事件与女权主义、瑞典文化、楚门的世界、以及各种美国俚语、游戏梗等等。译者翻译能力有限，如果你在阅读期间遇到难以理解的部分，可以参考英语原文进行对照阅读。同时如果你有更好的理解与翻译或者有纠错，非常欢迎（在 <a href="https://github.com/h404bi/www.h404bi.com" target="_blank" rel="noopener noreferrer">GitHub 仓库中</a>）向本译文提交你的意见，感谢。鉴于翻译随时可能有改动，为保持内容一致性，本文未经本人允许不得转载。</p>
 <p>全文总计 35000+ 字符，15000+ 汉字，图片 20+ 张。建议阅读时间至少 30 分钟。</p>
-<h2 id="%E6%AD%A3%E6%96%87">正文</h2>
+<h2 id="正文">正文</h2>
 <p>公众最近已较少听到著名游戏 Minecraft 的创造者“马库斯·佩尔松”相关的消息。在出售了 Mojang 与购买 7000 万美元贝弗利山庄巨型豪宅之后，他曾接受过一些采访，但自那以后他一直都很沉默…… 除了在推特上。</p>
 <p>推特上的马库斯·佩尔松一直是多个论战的中心，不仅引起过一大批与他意见不一的人的愤怒，也造成过在游戏媒体中出现过多篇因为他的观点而抨击他的社论。每当他在推特上发表一个观点，一个新的社论似乎就诞生了。这些愤怒被整整齐齐地装进了网络文化大战的弹药当中。</p>
 <figure data-type="image"><img src="/static/img/loading.gif" alt="" data-src="/uploads/2017/07/20170715001.jpg"></figure>
@@ -1215,7 +1214,7 @@ Excel、Powerpoint 以及 Outlook，其它全部排除。如果想把 Outlook �
 </blockquote>
 <figure data-type="image"><img src="/static/img/loading.gif" alt="本图来源于网络" title="本图来源于网络" data-src="/uploads/2017/12/20171215002.jpg"><figcaption>本图来源于网络</figcaption></figure>
 <hr>
-<h2 id="%E5%BC%80%E7%AE%B1">开箱</h2>
+<h2 id="开箱">开箱</h2>
 <p>购于某宝，顺丰同城次日达，双十二也没便宜多少。拿到后其实先开了看了几遍，后又封了箱，下班回家才仔细研究了下，所以算是个伪开箱。</p>
 <figure data-type="image"><img src="/static/img/loading.gif" alt="" data-src="/uploads/2017/12/20171215003.jpg"></figure>
 <p>收到的快递箱子比预想中的要大一些，两掌长，掌半宽高。预计实物也会比预想大一点。</p>
@@ -1307,11 +1306,11 @@ Excel、Powerpoint 以及 Outlook，其它全部排除。如果想把 Outlook �
         <updated>2017-02-22T05:22:19.000Z</updated>
         <summary type="html"><![CDATA[本文是 Minecraft 文章 A Brief History of Minecraft Modding 的译文版本，原文作者 Aaron Mills，原文于 2015 年 6 月 3 日发布在 Packt 出版社网站 PacktPub 上。[1]
 ]]></summary>
-        <content type="html"><![CDATA[<h2 id="%E5%89%8D%E8%A8%80">前言</h2>
+        <content type="html"><![CDATA[<h2 id="前言">前言</h2>
 <p>本文是 Minecraft 文章 A Brief History of Minecraft Modding 的译文版本，原文作者 Aaron Mills，原文于 2015 年 6 月 3 日发布在 Packt 出版社网站 PacktPub 上。<sup class="footnote-ref"><a href="#fn1" id="fnref1">[1]</a></sup></p>
 <p>This article is a zh_CN translation of the Minecraft article &quot;A Brief History of Minecraft Modding&quot;, which was originally published on PacktPub at June 03rd, 2015, the original author is Aaron Mills.</p>
 <p>挺早前就看过这篇文章，作者作为一位过来人为我们不简略地叙述了一遍 Minecraft Modding 的已有“简史”。至少这是目前网络上为数不多的，能让像我这样的一些在 Minecraft 非早期就加入社区的玩家，相对清晰地了解至今整个 Minecraft Modding 历程的文章了。很是喜欢，当时就有翻译下来的打算，现在填坑了。原文发布于 2015 年年中，时间节点也就到这个点。所以社区其后的发展，比如 Spigot、Sponge 的活跃等就没有提及。译文对比原文，加入了一些可能有助于内容理解的链接引用。</p>
-<h2 id="%E6%AD%A3%E6%96%87">正文</h2>
+<h2 id="正文">正文</h2>
 <figure data-type="image"><img src="/static/img/loading.gif" alt="cover from PacktPub" data-src="/uploads/2017/02/20170222001.png"><figcaption>cover from PacktPub</figcaption></figure>
 <p>几乎从 Minecraft 诞生以来，modding 就一直在进行着。在过去的那段时间里，Minecraft modding 已经经过了数次变革，或者说，走过了数个“时代”。那些早期的日子以及早期的 mods，与现在比起来，有着巨大的区别。我初次涉足 modding 社区是在 Minecraft 的 Beta 中期阶段，所以在这之前发生的所有事情都是第二手的见闻。不过正如接下来我们将探讨的那样，虽然在时间的流沙中，大量的印记已经丢失，但是沿途重要的驿站却被记住了。</p>
 <p>这些年来，Minecraft 经历了数个发展阶段<sup class="footnote-ref"><a href="#fn2" id="fnref2">[2]</a></sup>。有趣的是，Minecraft Modding 的各个“时代”也正正对应着这些发展阶段。在 Classic 阶段，Minecraft 生存模式以生存测试（Survival Test）的形式首次出现，接着再次出现在了 Indev 阶段，随后到了 Infdev 阶段，在经过 Alpha 和 Beta 阶段后才到达正式版本。而这一切便从 Classic 开始。</p>
@@ -1325,7 +1324,7 @@ Excel、Powerpoint 以及 Outlook，其它全部排除。如果想把 Outlook �
 <p>预示着 Minecraft“官方”正式版本的 Minecraft 1.0 在 2011 年 11 月发布。与此同时，客户端 modding 正经历着转变。包括整个 Forge 团队在内，许多著名的开发者开始转去做其它事情去了。大部分他们的 mods 在没有作者维护的情况下“生存”着，而部分则有。举个例子，Redpower 在 2012 年末停止了所有的开发。Eloraam，SpaceToad 和 Flowerchild 则将 Forge 的接力棒交给了在当时还相对不出名的 LexManos。“黄金时代”告一段落，但是取而代之的是新 mods 的爆发，modding 变得比以往更加受欢迎。主要包括 LexManos 和 cpw 在内的新 Forge 团队，为 modding 带来了许多创新。最终他们甚至开发出了 Risugami 的 ModLoader 的替代品 ForgeModLoader<sup class="footnote-ref"><a href="#fn15" id="fnref15">[15]</a></sup>，并整合进了 Forge 中。用户安装 mods 时不再需要徘徊游荡在 Minecraft 的内部。创新一直持续到今天，Minecraft mods 也已数不胜数。</p>
 <p>然而，服务端 mods 的情况却没有那么乐观。长期占据支配地位的服务端 mod Bukkit，在 2014 年遭受了致命打击。原作者与维护者之间发生了许可冲突（licensing conflicts），基本上是围绕着在主要维护者离开后，谁“拥有”这个项目的问题。最终，一位最多产的维护者利用一个技术手段作废了 Bukkit 项目使用他贡献的代码的权利<sup class="footnote-ref"><a href="#fn16" id="fnref16">[16]</a></sup>，有效地杀死了整个项目。替代品还没被开发出来，只留下整个服务端社区在日渐过时的代码中蹒跚前行。不过，不必对未来太过担心。过去也曾有挑战，但几乎每有一个项目死去，很快就会被更好的东西取代。</p>
 <p>Minecraft 有着一个有史以来最大、最有活力、最主流的 modding 社区。它有着悠久的历史，而这些只不过是 Minecraft 文化沧海中的一粟。还有更多的，是大大小小的帮助塑造了整个社区的事件。愿 Minecraft 的未来依旧那么得有趣。</p>
-<h2 id="%E5%85%B3%E4%BA%8E%E4%BD%9C%E8%80%85">关于作者</h2>
+<h2 id="关于作者">关于作者</h2>
 <p>Aaron Mills 出生于 1983 年，生活在太平洋西北地区，一个知识、树木与雨水富饶的地方。他在温哥华华盛顿州立大学学习并获得计算机科学学士学位。他最著名的是他在 Minecraft mod Railcraft 上的工作，但同时也对 Forestry 和 Buildcraft 两个 Minecraft mod 有着突出的贡献，同时也为 Minecraft Forge 项目做出了部分功勋。</p>
 <hr class="footnotes-sep">
 <section class="footnotes">
@@ -1377,13 +1376,13 @@ Excel、Powerpoint 以及 Outlook，其它全部排除。如果想把 Outlook �
 ]]></summary>
         <content type="html"><![CDATA[<p>之前还在大学时，除开锐捷，由于内网的原因，要玩 IPv6 的话就只能用六飞之类的工具。工作后，发现在住所报装的网络，居然给（是的，长这么大第一次在家用宽带得到）了公网 IP。刚开始时想过利用这个公网 IP 来搞个 Minecraft“家庭服”，对小伙伴们开放。但折腾下来发现上传太可怜了，还是不祸害小伙伴了。</p>
 <p>就这样过了许久。突然心血来潮，看能不能试试在校时想搞的 <a href="http://he.net" target="_blank" rel="noopener noreferrer">he.net</a> 6in4 隧道，发现配置下来还挺简单的。因为这个玩法其实已经有好多人实践过了<sup class="footnote-ref"><a href="#fn1" id="fnref1">[1]</a></sup><sup class="footnote-ref"><a href="#fn2" id="fnref2">[2]</a></sup><sup class="footnote-ref"><a href="#fn3" id="fnref3">[3]</a></sup><sup class="footnote-ref"><a href="#fn4" id="fnref4">[4]</a></sup>，我也就是搜搜折腾记录下。</p>
-<h2 id="%E5%88%9B%E5%BB%BA-he-6in4-%E9%9A%A7%E9%81%93">创建 HE 6in4 隧道</h2>
+<h2 id="创建-he-6in4-隧道">创建 HE 6in4 隧道</h2>
 <p>支持 IPv6 以及 6in4 的 Openwrt 路由器是前提了。到 <a href="https://tunnelbroker.net/" target="_blank" rel="noopener noreferrer">https://tunnelbroker.net/</a> 注册一个新帐号。登录后，点击左侧的 User Functions 中的 Create Regular Tunnel 创建新的隧道。</p>
 <figure data-type="image"><img src="/static/img/loading.gif" alt="" data-src="/uploads/2017/02/20170212002.png"></figure>
 <p>在 Ipv4 Endpoint 中填入路由器 wan 口的公网 IP。然后在下面的 Available Tunnel Servers 选择一个 he 的 6in4 隧道服务器。列表有显示地区和服务器的 IPv4，可选择一个连接速度较快延迟较低的（提示：并不是亚洲区就最快，建议本机 ping 一下看看，我选的就不是亚洲区）。最后点击 Create Tunnel 便创建了一个 6in4 隧道。</p>
 <figure data-type="image"><img src="/static/img/loading.gif" alt="" data-src="/uploads/2017/02/20170212003.png"></figure>
 <p>其中 IPv6 Tunnel Endpoints 部分是这个 6in4 隧道两端的 IPv4 和 IPv6 地址。Server 是 HE 的隧道服务器，Client 是我们的路由器或计算机。下方的 Routed IPv6 Prefixes 是该隧道可用于分配的 IPv6 地址段，可为路由器背后的内网机器都分配上唯一的 IPv6 地址。</p>
-<h2 id="openwrt-%E9%85%8D%E7%BD%AE-he-6in4">Openwrt 配置 HE 6in4</h2>
+<h2 id="openwrt-配置-he-6in4">Openwrt 配置 HE 6in4</h2>
 <p>在 Luci 界面中，依次点击“网络”-“接口”-“添加新接口”创建新接口。接口名称随意，这里为方便辨认以 HENET 为例，协议选择 IPv6-in-IPv4 (RFC4213)，然后提交。</p>
 <figure data-type="image"><img src="/static/img/loading.gif" alt="" data-src="/uploads/2017/02/20170212004.png"></figure>
 <p>接着“基本配置”。“本地IPv4地址”留空，“远程IPv4地址”填写上面创建的 HE 6in4 隧道中的“Server IPv4 Address”，“本地IPv6地址”填写隧道中的“Client IPv6 Address”，“IPv6 routed prefix”填写隧道中的“Routed /64”。</p>
@@ -1482,17 +1481,17 @@ Excel、Powerpoint 以及 Outlook，其它全部排除。如果想把 Outlook �
 <p>OS X 系统不像 Ubuntu 等发行版，系统默认是不包含编译工具链的（因为不是每位用户都需要吧，人性化？）。所以在使用时如果执行到含有诸如 gcc、make 等命令时，就会出现以下情况：</p>
 <figure data-type="image"><img src="/static/img/loading.gif" alt="提示需要命令行工具" title="提示需要命令行工具" data-src="/uploads/2015/08/20150810001.png"><figcaption>提示需要命令行工具</figcaption></figure>
 <p>这时就需要安装苹果提供的命令行工具包（Command Line Tools，下称 CLT）了。安装 CLT 有几种方法：</p>
-<h3 id="1.-%E9%80%9A%E8%BF%87-xcode-%E5%AE%89%E8%A3%85">1. 通过 Xcode 安装</h3>
+<h3 id="1--通过-xcode-安装">1. 通过 Xcode 安装</h3>
 <p><code v-pre="">for Xcode</code> 嘛，当然能通过 Xcode 安装了，只不过没有安装 Xcode 亦可使用。所以如果你有安装 Xcode 的话，直接通过 Xcode 安装就好了。（我自己并没有安装 Xcode，因为暂无打算学习 Mac 相关的开发，所以私以为没必要耗费几个 G 的硬盘空间塞下 Xcode 吧， MacBook 的硬盘寸寸金啊。。。）。</p>
-<h3 id="2.-%E9%80%9A%E8%BF%87%E7%BB%88%E7%AB%AF%E5%AE%89%E8%A3%85">2. 通过终端安装</h3>
+<h3 id="2--通过终端安装">2. 通过终端安装</h3>
 <div class="saber-highlight" v-pre="" data-lang="bash"><pre class="saber-highlight-code language-bash"><code class="language-bash">$ xcode-select install</code></pre></div><p>或者输入 gcc 触发前文所提到的情况（见前文图）亦可。</p>
-<h3 id="3.-%E9%80%9A%E8%BF%87%E7%A6%BB%E7%BA%BF%E5%AE%89%E8%A3%85%E5%8C%85%E5%AE%89%E8%A3%85">3. 通过离线安装包安装</h3>
+<h3 id="3--通过离线安装包安装">3. 通过离线安装包安装</h3>
 <p>如果用前面的方法安装不成功的话，可到 Apple 下载中心获取离线安装包进行安装。（认准苹果官网）</p>
 <blockquote>
 <p><a href="https://developer.apple.com/downloads" target="_blank" rel="noopener noreferrer">https://developer.apple.com/downloads</a> （需要使用 AppleID 登录）</p>
 </blockquote>
 <p>安装 CLT 后就可以使用工具链编译安装软件了，这是 Bootstrap A New Mac 的第一步。</p>
-<h2 id="where-is-the-package-manager-of-os-x%3F">Where is the package manager of OS X?</h2>
+<h2 id="where-is-the-package-manager-of-os-x">Where is the package manager of OS X?</h2>
 <p>用 Mac 之前我还真没想过 OS X 有没有包管理工具。初次用了一会儿后，总觉得好像少了些什么，又说不出来。后在 Win 机上 Xshell 管理 VPS 时，才猛然想起：OS X 下用什么管理软件包？！Where is the package manager of OS X? 检索后才知道 OS X 不止默认不带 toolchains，还没有 package manager。带着使用 Linux 发行版心态的我不免有点失望。</p>
 <h3 id="homebrew">Homebrew</h3>
 <p>官方没有社区有。强大的 Mac 社区造就了各种易用的工具。软件包管理工具就各式各样。其中最出名的两个是 <strong><a href="https://www.macports.org" target="_blank" rel="noopener noreferrer">Macport</a></strong> 和 <strong><a href="http://brew.sh" target="_blank" rel="noopener noreferrer">Homebrew</a></strong>。二者有着截然不同的理念，并且越来越多用户选择了 Homebrew。下面进行 Bootstrap A New Mac 的第二步。</p>
@@ -1520,7 +1519,7 @@ Excel、Powerpoint 以及 Outlook，其它全部排除。如果想把 Outlook �
         <summary type="html"><![CDATA[关于 Scoop 的新文章
 ]]></summary>
         <content type="html"><![CDATA[<p style="text-align:center"><strong><saber-link to="/blog/2018/05/talk-about-scoop-the-package-manager-for-windows-again">关于 Scoop 的新文章</saber-link></strong></p>
-<h2 id="%E4%B8%80%E6%9C%AC%E9%81%93">一本道</h2>
+<h2 id="一本道">一本道</h2>
 <p>软件包管理工具想必大家已经很清楚并且使用过。Debian/ Ubuntu 的 apt-get，
 Arch Linux 的 Pacman，就连本身并无自带包管理工具的 Mac 都有了 Macports
 和极其好用的 Homebrew。至于 Windows 下，
@@ -1531,7 +1530,7 @@ Geek 们也生产出各式各样的工具以贴合他们的 *nix 使用习惯。
 弄得看起来像 Linux shell 的样子，这也是为什么我要折腾 PS 的促因。</p>
 <p>看 Scoop 主页的 Demo 视频，你会发现视频里的 PS 用起来很简约，而又是更方便了，不仅能安装运行各种 GNU 工具（<code v-pre="">curl</code>、<code v-pre="">vim</code> 等），而且 <code v-pre="">$PS1</code> 看起来像是 Linux 下的终端，还能显示 git 仓库的分支信息，简直 Geek 范十足。虽说已有 MSYS2 这种更集成的 *nix 环境，但既然看到了 Scoop 又挺不错的于是就折腾下呗。毕竟是 Windows 内置的嘛，还能 Win + R powershell 快速打开，有时候打下指令（<code v-pre="">ipconfig</code>、<code v-pre="">nslookup</code> 什么的）还是会用到的呢。</p>
 <figure data-type="image"><img src="/static/img/loading.gif" alt="配置 Scoop 后的样子" title="配置 Scoop 后的样子" data-src="/uploads/2015/08/20150823002.png"><figcaption>配置 Scoop 后的样子</figcaption></figure>
-<h2 id="%E6%AD%A3%E9%A2%98">正题</h2>
+<h2 id="正题">正题</h2>
 <ol>
 <li>
 <p>确保你已安装 Powershell 3（其实 Windows7+ 应该都已经集成了），然后 WIn + R 输入 powershell 打开 PS，一句命令安装 scoop：</p>
