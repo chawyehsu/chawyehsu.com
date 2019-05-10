@@ -51,7 +51,7 @@ exports.apply = (api, options = {}) => {
         posts: posts
       })
       await fs.outputFile(
-        api.resolveCwd(path.join('.saber/public/', options.path)),
+        path.resolve(api.resolveOutDir(), options.path),
         xml,
         'utf8'
       )
