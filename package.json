@@ -27,7 +27,7 @@
     "saber-plugin-ga-lite": "^0.1.0",
     "saber-plugin-feed": "0.3.0",
     "saber-plugin-sitemap": "^0.2.0",
-    "saber-plugin-query-posts": "0.2.0",
+    "saber-plugin-query-posts": "0.3.0",
     "sass": "^1.18.0",
     "sass-loader": "^7.1.0"
   },

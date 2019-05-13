@@ -6779,10 +6779,10 @@ saber-plugin-ga-lite@^0.1.0:
   resolved "https://registry.yarnpkg.com/saber-plugin-ga-lite/-/saber-plugin-ga-lite-0.1.0.tgz#bda5b005a2d40f4516c7d412e5f95a68bbe50d00"
   integrity sha512-SuvDnzfZ1b5AM0I2+nC1+bGloBtDjN4INek6P8EnwZFCJXixclrUmgmmeQvUxnXHRLIOa0S6w009swVAt5Py+Q==
 
-saber-plugin-query-posts@0.2.0:
-  version "0.2.0"
-  resolved "https://registry.yarnpkg.com/saber-plugin-query-posts/-/saber-plugin-query-posts-0.2.0.tgz#6f9376b5dd1a951cdc013e1662fb16df76eca64b"
-  integrity sha512-EsxdhmzH+Vied739eEqU6Vnqa0EXgoYAcwV6FHqqe+Wtlo14zMPZcAGen2Sq6+KtO9JWPj8YECDxH8i4xyB8uQ==
+saber-plugin-query-posts@0.3.0:
+  version "0.3.0"
+  resolved "https://registry.yarnpkg.com/saber-plugin-query-posts/-/saber-plugin-query-posts-0.3.0.tgz#eff9836e3a314437d8a7d1dfc89df0f62e2fd429"
+  integrity sha512-q+6Jm0ksVvxhH9IuxhlRnOlqBzjOatrODA2M/WMYoQUOMxsiDNG7dV/B9Gajl6YFR81i7/+bEOZIyo5o0jOtKQ==
   dependencies:
     slugo "^0.2.3"
     url-join "^4.0.0"
