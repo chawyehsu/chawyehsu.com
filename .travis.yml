@@ -11,6 +11,8 @@ branches:
     - master
 
 before_install:
+  # Workspace
+  - WORKINGDIR=$(pwd)
   # Correct Buildbot timezone
   - export TZ=Asia/Shanghai
 
@@ -24,5 +26,5 @@ after_success:
   # Only trigger deployment when it's on master branch and not a pull-request
   - |
     if [ "$TRAVIS_PULL_REQUEST" == "false" -a "$TRAVIS_BRANCH" == "master" ]; then
-      bash $HOME/website/.travis/deploy-ci.sh;
+      bash $WORKINGDIR/.travis/deploy-ci.sh;
     fi
