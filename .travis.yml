@@ -11,13 +11,8 @@ branches:
     - master
 
 before_install:
-  # Make sure under HOME
-  - cd $HOME
   # Correct Buildbot timezone
   - export TZ=Asia/Shanghai
-  # Clone the source
-  - git clone --depth=1 https://github.com/h404bi/www.h404bi.com.git website
-  - cd website
 
 script:
   # Install dependencies

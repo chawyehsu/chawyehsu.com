@@ -2,7 +2,6 @@
 
 # Make sure under the workspace
 WORKINGDIR=$HOME/website
-cd $WORKINGDIR
 # Decrypt the deploy key
 openssl aes-256-cbc -K $encrypted_e40f4962dafa_key -iv $encrypted_e40f4962dafa_iv -in $WORKINGDIR/.travis/secrets.tar.enc -out $WORKINGDIR/.travis/secrets.tar -d
 tar xvf $WORKINGDIR/.travis/secrets.tar -C $HOME/.ssh/ >/dev/null
