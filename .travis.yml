@@ -26,5 +26,5 @@ script:
   - yarn build
 
 after_success:
-  # Trigger deployment
-  - '[ $TRAVIS_BRANCH == "master" && $TRAVIS_PULL_REQUEST == "false" ] && ./.travis/deploy-ci.sh'
+  # Only trigger deployment when it's on master branch and not a pull-request
+  - if [ "$TRAVIS_PULL_REQUEST" == "false" -a "$TRAVIS_BRANCH" == "master" ]; then ./.travis/deploy-ci.sh; fi
