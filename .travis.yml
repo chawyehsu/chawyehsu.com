@@ -22,7 +22,4 @@ script:
 
 after_success:
   # Only trigger deployment when it's on master branch and not a pull-request
-  - |
-    if [ "$TRAVIS_PULL_REQUEST" == "false" -a "$TRAVIS_BRANCH" == "master" ]; then
-      bash .travis/deploy-ci.sh;
-    fi
+  - if [ "$TRAVIS_PULL_REQUEST" == "false" -a "$TRAVIS_BRANCH" == "master" ]; then bash .travis/deploy-ci.sh; fi
