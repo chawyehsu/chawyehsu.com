@@ -12,7 +12,11 @@ module.exports = {
       sitename: "The Art of Chawye Hsu",
       apikey: 'Hg3FyAX4IodvgGm8OAIpuplfZW5APk2DYcuVk9DEEDSBijKPdPdooKBX7683fo6u',
       admin: 'h404bi'
-    }
+    },
+    pwaFirstTimeInstallMessage: '本站可以离线访问',
+    pwaUpdateReadyMessage: '本站内容有更新',
+    pwaUpdateButtonMessage: '刷新',
+    pwaDismissMessage: '忽略'
   },
   themeConfig: {
     title: "Chawye Hsu's Blog",
@@ -185,6 +189,23 @@ module.exports = {
       resolve: 'saber-plugin-sitemap',
       options: {
         template: './sitemap.xml'
+      }
+    },
+    {
+      resolve: 'saber-plugin-pwa',
+      options: {
+        generateSWOptions: {
+          runtimeCaching: [
+            {
+              urlPattern: /^https:\/\/fonts\.gstatic\.com\//,
+              handler: 'StaleWhileRevalidate'
+            },
+            {
+              urlPattern: /^https:\/\/cdn\.jsdelivr\.net\//,
+              handler: 'StaleWhileRevalidate'
+            }
+          ]
+        }
       }
     }
   ]
