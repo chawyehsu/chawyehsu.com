@@ -31,8 +31,8 @@ self.__precacheManifest = [
     "revision": "d47aea2a6d1727e295ec60b86f2895c2"
   },
   {
-    "url": "_saber/js/client.5c3694c1.js",
-    "revision": "43a94c019e4dde046dd7b63257676376"
+    "url": "_saber/js/client.3b098c10.js",
+    "revision": "b45406101fe68980c2e2367b424893f6"
   },
   {
     "url": "_saber/js/page--_posts-2013-11-26-start-md.6d93891f.js",
@@ -191,16 +191,16 @@ self.__precacheManifest = [
     "revision": "535f9ce668fda56844452d914edbfc30"
   },
   {
-    "url": "_saber/js/page--blog-index-md.a497bda6.js",
-    "revision": "823c995ffd8ef0bf05a7d6e5ea2f897e"
+    "url": "_saber/js/page--blog-index-md.65d1a9ed.js",
+    "revision": "eb08d43849569613d94e4dd07df26dbf"
   },
   {
     "url": "_saber/js/page--guestbook-md.e5f4fb03.js",
     "revision": "e9fe2920930a6b112fa1f5e86e6a76b3"
   },
   {
-    "url": "_saber/js/page--index-md.8456378e.js",
-    "revision": "9f40cc0285e07fbe59e9c08564148c91"
+    "url": "_saber/js/page--index-md.ca5658a3.js",
+    "revision": "2652003842e6aed9040930d7c04458b1"
   },
   {
     "url": "_saber/js/page--links-md.1f63eab2.js",
@@ -208,11 +208,11 @@ self.__precacheManifest = [
   },
   {
     "url": "404.html",
-    "revision": "f0886fdf112c52e596e9177c860e24fa"
+    "revision": "ce2d198d663e977fbb010dea88796e01"
   },
   {
     "url": "about/index.html",
-    "revision": "c2caaae22ab67892025be2e1b49b5d65"
+    "revision": "72dfc66a374b93dc2469ac035ab3ec80"
   },
   {
     "url": "admin/index.html",
@@ -220,163 +220,163 @@ self.__precacheManifest = [
   },
   {
     "url": "blog/2013/11/1bit-audio-player/index.html",
-    "revision": "f158edb6aec27b3fabaf94aaeedfbe40"
+    "revision": "4324afbe48953911afa170717ea082af"
   },
   {
     "url": "blog/2013/11/chrome-custom/index.html",
-    "revision": "32d5e07bc1c1a2e222a6d80d0b92ad03"
+    "revision": "c6ae6bf472005f670ed91f3f46695e49"
   },
   {
     "url": "blog/2013/11/chrome-one-click-to-download-from-sogou-browser/index.html",
-    "revision": "56ee915d1ee20cf28ee229e23a29be17"
+    "revision": "5da0e45dcee438b9a1d19449748b38a1"
   },
   {
     "url": "blog/2013/11/ihanabi-the-domain/index.html",
-    "revision": "e821b601ccd0f6c6dd79619e9b79c334"
+    "revision": "f8b251179fa1b731324563ef54c7be75"
   },
   {
     "url": "blog/2013/11/py-lyric-retriever/index.html",
-    "revision": "58453f99a00a93ad30e57d9389d664ad"
+    "revision": "afc71c68df0d58399fa2879a4cbcd95f"
   },
   {
     "url": "blog/2013/11/start/index.html",
-    "revision": "fbad4dd7f9af659f5e6f9caa898fcf15"
+    "revision": "7c4516173de729d0a8b605f167ab7974"
   },
   {
     "url": "blog/2013/11/typecho-url-rewrite-on-bae/index.html",
-    "revision": "8086168ea12185f1ae25e6ab1b843d3c"
+    "revision": "f74127536fe65cecda1ce7ab1bb7b511"
   },
   {
     "url": "blog/2013/12/end-of-first-sophomore-term/index.html",
-    "revision": "0a0566374aaf93273672fb55b0671482"
+    "revision": "4fe233a9c43f6130c20e962b87f9bcbd"
   },
   {
     "url": "blog/2013/12/move-out-from-bae/index.html",
-    "revision": "1e669cbd68b1930cdc3bf5a196fd545a"
+    "revision": "f2d9ee9fd7706f38bcb9c7d0d6a1179e"
   },
   {
     "url": "blog/2013/12/move-to-technetcal-and-2014/index.html",
-    "revision": "37987cfa36fa40c651bf4d022d26c7ea"
+    "revision": "dbd266c1ed3467c9b96a4d85872f4519"
   },
   {
     "url": "blog/2013/12/theme-two/index.html",
-    "revision": "a82d5c0ea089a2bccf7a08755a7d8354"
+    "revision": "2fdeded86884d5776fca8e27e7bfbc39"
   },
   {
     "url": "blog/2013/12/typecho-v0-9-release/index.html",
-    "revision": "7eef336e1d65305dabfbb692487682cd"
+    "revision": "3040f42474a8ec843e2e47a788551ad3"
   },
   {
     "url": "blog/2014/01/electronic-technology-final-exam/index.html",
-    "revision": "0705cb1b8bdbe090a0067d54effc73b9"
+    "revision": "c344297bd9a4ae3766f8f6763072eca7"
   },
   {
     "url": "blog/2014/01/emeditor-setting/index.html",
-    "revision": "0ed235e362837c2c6d71418877f33c77"
+    "revision": "a93b6a45f2886faf48e86f99167ff997"
   },
   {
     "url": "blog/2014/01/happy-horse-year/index.html",
-    "revision": "0434a7a0853ebbfbfcdd1c9e7ef1e2de"
+    "revision": "dbe6844966eae5a3bdaac5f71fab9367"
   },
   {
     "url": "blog/2014/01/programmers-healthy-problem/index.html",
-    "revision": "17d675de6e217811f6e279722c27f8ce"
+    "revision": "b173102a7ea5540e2fa5d316ce005e6b"
   },
   {
     "url": "blog/2014/03/about-parsing-ua-for-duoshuo/index.html",
-    "revision": "2b2839d515a75b7f108dc4ca381b4d1b"
+    "revision": "6b3554bdbed0e282b08b9fc0a6cff18a"
   },
   {
     "url": "blog/2014/03/flowers-photos-by-lumia/index.html",
-    "revision": "3f934f1d8c441d5e323649c30eefae72"
+    "revision": "eb5e0383334395344284e6df480cacb2"
   },
   {
     "url": "blog/2014/03/win-prizes-at-weibo/index.html",
-    "revision": "aff4c39b6bbb97d1fc961ebe9bf59345"
+    "revision": "c71b0093b4115d296ac98dbde97f7610"
   },
   {
     "url": "blog/2014/05/dual-boot-fix-virtualbox-and-hyper-v-switch-problem/index.html",
-    "revision": "e60208aa9a8af2de7ac44d55b07bad65"
+    "revision": "1130599df614d5230a1cd670dffb4d10"
   },
   {
     "url": "blog/2014/05/use-h5ai-to-beautify-your-http-web-server-index/index.html",
-    "revision": "919de31245e3f5ed0047e36dd857e916"
+    "revision": "7be6e3215893aca3888ba9dcf9e92353"
   },
   {
     "url": "blog/2014/10/syntax-for-typecho/index.html",
-    "revision": "c449e7aaa22d42190f17423c7fce3781"
+    "revision": "0720fd9feba215ad132ff604f108a5fd"
   },
   {
     "url": "blog/2015/05/hello-world/index.html",
-    "revision": "39bd2779ef30ca848fbe47af44114e72"
+    "revision": "cfb766e167daab05bc71f5b0dcda11b5"
   },
   {
     "url": "blog/2015/08/use-scoop-to-enhance-windows-powershell/index.html",
-    "revision": "d31054311c2d4b3a124cd30c225b2fdf"
+    "revision": "0ac67182bc6cc52c643a34223a477761"
   },
   {
     "url": "blog/2015/09/new-mac-env-bootstrap/index.html",
-    "revision": "00cb02d541e6dc7d50bc42c612276189"
+    "revision": "f1618852f162ec91dc980a726f0d1608"
   },
   {
     "url": "blog/2015/10/dot-im-domain-renewal/index.html",
-    "revision": "6c562845cbe0064e6331cb00f57ec683"
+    "revision": "bc76c8c844ada0788a5652afc67c91b0"
   },
   {
     "url": "blog/2017/01/2016-2017/index.html",
-    "revision": "f47276be11eab534c591463202889c1f"
+    "revision": "9c1c94a59fd06c888577b533b9d0297b"
   },
   {
     "url": "blog/2017/02/a-brief-history-of-minecraft-modding/index.html",
-    "revision": "8661379fd1fd30ac0a451190df256d43"
+    "revision": "b0f0ea1c85869360af477c741734e56c"
   },
   {
     "url": "blog/2017/02/henet-6in4-ipv6-tunnel-on-openwrt/index.html",
-    "revision": "61313ecf08933dba35d773669d5385d5"
+    "revision": "b4383076cddbb4c9e5f4c66f491c772b"
   },
   {
     "url": "blog/2017/12/nintendo-switch-unboxing-and-simple-review/index.html",
-    "revision": "75485822b3fcb51e1dc86f119888582d"
+    "revision": "232b56070c573c2d65d1ccf7f01637d9"
   },
   {
     "url": "blog/2018/01/the-tao-of-notch-beyond-twitter/index.html",
-    "revision": "e6aa351dff576860eb0a25d6b96362a7"
+    "revision": "fe7be9f03eb86b311db32259f5935d8b"
   },
   {
     "url": "blog/2018/03/office-2016-custom-installation-guide/index.html",
-    "revision": "dafbac316d0d3492e606817847100ffe"
+    "revision": "6e212c7e0a1c30f275ca1d23aa76904e"
   },
   {
     "url": "blog/2018/05/talk-about-scoop-the-package-manager-for-windows-again/index.html",
-    "revision": "6caf84e5086990bf4461ba124e646708"
+    "revision": "53b872c29028864d2e6d9fa76211a69b"
   },
   {
     "url": "blog/2018/12/chrome-extensions-that-i-am-using/index.html",
-    "revision": "c75e6dfc2b91becff603713e92c44090"
+    "revision": "6d252ec0ab80adab82f3d46d47294452"
   },
   {
     "url": "blog/2019/01/the-2018-hacktoberfest-shirt-arrived/index.html",
-    "revision": "507294b75dbad4b071c64246e6a0384e"
+    "revision": "cff344a9d8f5bd83a8676705e3186472"
   },
   {
     "url": "blog/2019/02/understanding-windows-console-host-settings/index.html",
-    "revision": "2b7940e95449ee62ec5ce2d4efbdd87c"
+    "revision": "669ee32bac2ae623a200ba740f75c732"
   },
   {
     "url": "blog/2019/04/recent-changes-of-my-site/index.html",
-    "revision": "e3084709abe8472f342894c48d6b4523"
+    "revision": "eba9cc1b1cd7a0bf1f15bca613fb4d64"
   },
   {
     "url": "blog/2019/05/macos-mojave-dark-mode-in-css/index.html",
-    "revision": "b9bdfd962c1a301bfb8d869be70dadd8"
+    "revision": "b238577a82453e0d14c4b139618d5359"
   },
   {
     "url": "blog/index.html",
-    "revision": "3149b0691601cb371265014c466d120a"
+    "revision": "12a4bc1681f6584f8a02059bdf33fd9f"
   },
   {
     "url": "blog/page/2/index.html",
-    "revision": "e265a66692f105b8557ac5f2bd5464f8"
+    "revision": "cbbe1303cbc7d55224aa394da2083dd8"
   },
   {
     "url": "google83352756ba352b4c.html",
@@ -384,15 +384,15 @@ self.__precacheManifest = [
   },
   {
     "url": "guestbook/index.html",
-    "revision": "2f000f5ce99a6089a32b79707441c51c"
+    "revision": "5627d7b4d6127b116b7d6a4e071a86c8"
   },
   {
     "url": "index.html",
-    "revision": "f7e6defcf935e549842dbc595ef1aacf"
+    "revision": "c5d2d4f5872649efb8d80c862ddd247d"
   },
   {
     "url": "links/index.html",
-    "revision": "d45f7b931dbc22a8841d36b119d44a8d"
+    "revision": "9a9a85c4f2517fc261c30d9961068e5f"
   },
   {
     "url": "static/img/avatar.png",
