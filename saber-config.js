@@ -190,23 +190,23 @@ module.exports = {
       options: {
         template: './sitemap.xml'
       }
-    },
-    {
-      resolve: 'saber-plugin-pwa',
-      options: {
-        generateSWOptions: {
-          runtimeCaching: [
-            {
-              urlPattern: /^https:\/\/fonts\.gstatic\.com\//,
-              handler: 'StaleWhileRevalidate'
-            },
-            {
-              urlPattern: /^https:\/\/cdn\.jsdelivr\.net\//,
-              handler: 'StaleWhileRevalidate'
-            }
-          ]
-        }
-      }
+    // },
+    // {
+    //   resolve: 'saber-plugin-pwa',
+    //   options: {
+    //     generateSWOptions: {
+    //       runtimeCaching: [
+    //         {
+    //           urlPattern: /^https:\/\/fonts\.gstatic\.com\//,
+    //           handler: 'StaleWhileRevalidate'
+    //         },
+    //         {
+    //           urlPattern: /^https:\/\/cdn\.jsdelivr\.net\//,
+    //           handler: 'StaleWhileRevalidate'
+    //         }
+    //       ]
+    //     }
+    //   }
     }
   ]
 }
