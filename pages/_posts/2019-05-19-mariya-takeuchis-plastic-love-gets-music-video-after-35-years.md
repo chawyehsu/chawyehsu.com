@@ -22,6 +22,8 @@ cover: /uploads/2019/05/20190519011.png
 MV[^1]。这首在 2018 年引起病毒式传播的歌曲，在发布的 35 年后，“意外地”拥有了它的官
 方 MV。
 
+<!-- more -->
+
 <p style="position:relative;padding-bottom:56.25%;">
 <iframe style="position:absolute;width:100%;height:100%" src="//player.bilibili.com/player.html?aid=52777386&cid=92355909&page=1&as_wide=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen></iframe></p>
 
@@ -145,7 +147,7 @@ Plastic Lover 商讨相关事情的情况下，只好动用侵权删除的办法
 > 连《Plastic Love》这首歌曲都能在 35 年后获得官方 MV，那么相信不管花多少时间，你
 > 都可以完成你的目标的！—— @Lumena_tan
 
-## 其实这份满是既视感的遇见，早就在某处埋下了种子
+## 这份满是既视感的遇见，其实早就在某处埋下了种子
 
 关于《Plastic Love》在 YouTube 上的故事讲完了，但其实，与《Plastic Love》相关的音
 乐故事我还想说些什么。以下都是我的个人认识与见解，君如有不苟同之处不妨当个乐子看吧。
