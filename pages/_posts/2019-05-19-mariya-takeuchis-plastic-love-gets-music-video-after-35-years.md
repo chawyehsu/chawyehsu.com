@@ -3,12 +3,12 @@ layout: post
 title: "35 年后，竹内玛莉亚的《Plastic Love》有了官方 MV"
 keywords: Jpop,City Pop,竹内玛莉亚,蒸汽波,Vaporwave,音乐,Plastic Love,日本
 description: >-
-  待补充
+  在 2018 年 YouTube 上引起广泛关注、病毒式传播的歌曲，竹内玛莉亚（竹内まりや）的
+  Plastic Love，在其发布的 35 年后，“意外地”拥有了它的官方 MV。受蒸汽波等亚文化热
+  度持续存在的影响，上世纪 80 年代的日本 City Pop 音乐正在当下焕发出新的魅力。
 date: 2019-05-19 01:02:53
-updated: 2019-05-20 01:29:36
+updated: 2019-05-20 17:28:36
 cover: /uploads/2019/05/20190519011.png
-draft: true
-comments: false
 ---
 
 ![题图（来源: [兎姫](https://www.pixiv.net/member_illust.php?mode=medium&illust_id=71029401)）](/uploads/2019/05/20190519007.png)
@@ -19,7 +19,8 @@ comments: false
 
 2019 年 5 月 16 日，日本华纳音乐（Warner Music Japan）在流媒体网站 YouTube 上传了
 竹内玛莉亚（竹内まりや）的单曲《Plastic Love（塑料爱情）》的一支先行版（Short ver.）
-MV。这首在 2018 年引起病毒式传播的歌曲，在发布的 35 年后，“意外地”拥有了它的官方 MV。
+MV[^1]。这首在 2018 年引起病毒式传播的歌曲，在发布的 35 年后，“意外地”拥有了它的官
+方 MV。
 
 <p style="position:relative;padding-bottom:56.25%;">
 <iframe style="position:absolute;width:100%;height:100%" src="//player.bilibili.com/player.html?aid=52777386&cid=92355909&page=1&as_wide=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen></iframe></p>
@@ -31,7 +32,7 @@ MV。这首在 2018 年引起病毒式传播的歌曲，在发布的 35 年后�
 
 1984 年，结婚两年后的竹内玛莉亚以专辑《Variety》复出，正式完全转型为创作歌手。对于
 这位当时还是 29 岁的音乐人而言，这张专辑的推出成为了她的一个重要转折点 ——《Variety》
-是竹内玛莉亚的第一张登顶日本公信榜 Oricon 榜的专辑。
+是竹内玛莉亚的第一张登顶日本公信榜 Oricon 榜的专辑[^2]。
 
 而《Plastic Love（プラスティック・ラブ）》，便是这张专辑中的其中一首，也是竹内玛莉
 亚在全球范围内最为知名的一首歌曲。次年的 3 月 25 日，Extended Club Mix 版本的
@@ -39,10 +40,10 @@ MV。这首在 2018 年引起病毒式传播的歌曲，在发布的 35 年后�
 
 ![《Plastic Love -Extended Club Mix-》](/uploads/2019/05/20190519009.png)
 
-竹内玛莉亚的许多歌曲都曾被翻唱过，比如陈慧娴的《岁月流声》翻唱自竹内玛莉亚的《Natalie》，
+竹内玛莉亚的许多歌曲都曾被翻唱过，比如陈慧娴的《岁月流声》翻唱自她的《Natalie》，
 草蜢的《原谅我是我》翻唱自《シソグルアゲイソ》。当然这首《Plastic Love》也不例外，
 梅艳芳就为此翻唱过两个版本 ——《找爱的人》（国语）、《寻爱》（粤语）。由此可窥见此曲
-的魅力。
+的魅力[^3]。
 
 不过，真正将《Plastic Love》这首歌曲重新带到当下人们的视线中，并引爆传播炸弹的，是
 来自 YouTube 上关于这首歌曲的奇妙事件……
@@ -50,7 +51,7 @@ MV。这首在 2018 年引起病毒式传播的歌曲，在发布的 35 年后�
 ## 这就是互联网的迷幻之处，我真的不知道为什么突然就……
 
 2017 年 7 月 5 日，YouTube 上一个名为 Plastic Lover 的不知名帐号，平常地上传了一个
-名为《Mariya Takeuchi 竹内 まりや Plastic Love》的视频，其中的音频是《Plastic Love》
+名为《[Mariya Takeuchi 竹内 まりや Plastic Love]》的视频，其中的音频是《Plastic Love》
 歌曲的 7 分钟饭制加长版本，而提供的画面是一张静止的照片。只是，这张照片并不是所想的
 《Plastic Love》单曲的封面，而是来自于竹内玛莉亚另一张单曲《Sweetest Music / Morning Glory》
 的封面。
@@ -72,7 +73,7 @@ MV。这首在 2018 年引起病毒式传播的歌曲，在发布的 35 年后�
 相当一部分人在尝试寻找为什么 YouTube 的推荐算法会有这么一个“癖好”的完美解答，以及
 一个对 J-Pop 音乐子类 City Pop 的复古~~挖坟~~热潮。
 
-![What the heck with Youtube's Algorithm](/uploads/2019/05/20190519005.png)
+![YouTube 的算法怎么了](/uploads/2019/05/20190519005.png)
 
 **故事还没结束。**
 
@@ -86,8 +87,8 @@ MV。这首在 2018 年引起病毒式传播的歌曲，在发布的 35 年后�
 ![各种同人（来源: [Know You Memes](https://knowyourmeme.com/memes/plastic-love)）](/uploads/2019/05/20190519006.png)
 
 越来越多的相关视频持续被算法推送至更多未曾了解过日本 City Pop 的用户，越来越多的二
-次作品诞生以及蔓延开来。《Plastic Love》的模因（meme）产生了，并且一发不可收拾。关
-于《Plastic Love》与竹内玛莉亚的搜索热度持续上升。
+次作品诞生以及蔓延开来。《Plastic Love》的模因（meme）[^4]产生了，并且一发不可收拾。
+关于《Plastic Love》与竹内玛莉亚的搜索热度持续上升。
 
 ![Plastic Love 的 Google 搜索指数](/uploads/2019/05/20190519001.png)
 
@@ -111,7 +112,7 @@ MV。这首在 2018 年引起病毒式传播的歌曲，在发布的 35 年后�
 > 这张既没有出现在《Variety》专辑中，也没有出现在《Plastic Love》单曲中的照片，是
 > Alan 于 1980 年在洛杉矶，为当时竹内玛莉亚准备发布的《Miss M》专辑拍摄的素材。但
 > 是后来这张照片并没有被 RCA（竹内玛莉亚当时的唱片公司）选为专辑封面，RCA 只是将
-> Alan 拍摄的其他照片随机地分散在了《Miss M》专辑的 B 面中。
+> Alan 拍摄的其他照片随机地分散在了《Miss M》专辑的 B 面中[^5]。
 
 ![《Miss M》专辑 B 面](/uploads/2019/05/20190519008.png)
 
@@ -151,7 +152,7 @@ Plastic Lover 商讨相关事情的情况下，只好动用侵权删除的办法
 
 其实，《Plastic Love》在 YouTube 上突然的火爆，原因并不全是因为所谓的 YouTube 推荐
 算法突然的“嗜好”。以《Plastic Love》为主的一大批上世纪 80 年代的日本 City Pop 歌曲
-再度受到当代部分人的喜爱追捧，跟近些年来热度还在的蒸汽波（Vaporwave）及其子类的亚文
+再度受到当代部分人的喜爱追捧，跟近些年来热度不低的蒸汽波（Vaporwave）及其子类的亚文
 化有着千丝万缕的关系。只是 YouTube 上的这次事件，让这一趟数十年轮回的复古狂欢，来得
 更猛烈持久了些。
 
@@ -160,3 +161,35 @@ Plastic Lover 商讨相关事情的情况下，只好动用侵权删除的办法
 <figcaption><p>2016 年 TATA 发行《Plastic Love (TARA Bootleg)》（类别：Future Funk）</p></figcaption>
 </figure>
 
+蒸汽波从 2010 年初出现，至今发展不过 10 年，但已经发展出不少的分支子类。其中比较有
+名和相对流行的，就是 Future Funk。这个子类的作品的采样更多地取材于上世纪 80、90 年
+代的日本 Funk 音乐、都市流行（City Pop）乐以及部分欧美同期的歌曲，同时引入了更多的
+Disco/House 音乐的元素。这些与原始 Vaporwave 的不同点让这类作品变得更抓耳和更容易
+接受。通过“future funk plastic love”作为关键词去搜索引擎里搜索的话，你会发现不少采
+样自《Plastic Love》的 Future Funk 作品，有些在很早就出来了。
+
+> 既要怀旧，又要现代。单纯听老歌，不一定能听得进去。而只取抓耳的部分，再加入舞曲节
+> 奏搅拌一下，更符合现代年轻人。
+
+但其实，一旦突破了这个自我限制去听原曲的话，你会发现一片新的天地。不过我感觉，跟我
+同辈的人，不管听蒸汽波也好，听 City Pop 也罢，应该都会有 VICE 的一篇文章里说的一个
+情况：我们这一代并没有过在那个时代的生活经历，但是为什么听这些歌时会有一种莫名的怀
+旧感？以及会感觉到或向往自己在那个时代生活的样子。
+
+我想以我对以上疑问的鄙见来结束这篇文章。作为千禧一代的我们，其实从小就受到过 City
+Pop 以及其所在年代的其它文化的影响。小时候跟着父母听的港乐，张国荣、梅艳芳，不少歌
+曲都有着与东瀛那个年代相似的感觉。以及小时候接触的还是那个年代画风的动画、游戏等，
+都给那时年少的我们带来了许多美好的记忆。
+
+进入社会后，却才发现自己的各种不是。纵使物质上逐渐满足，却无法再找回那时一样的快乐。
+只能在工作下班后，拖着疲惫的躯体通勤奔波。带上耳机，用塑料爱情所制造出来的空洞塑料
+情感，去弥补精神上的孤独与不安[^6]。
+
+[^1]: [竹内まりや「Plastic Love」Short ver.](https://www.youtube.com/watch?v=XMmUXamntPI)
+[^2]: [Mariya Takeuchi’s “Plastic Love” gets music video after 35 years](https://aramajapan.com/news/musicvideo/mariya-takeuchis-plastic-love-gets-music-video-after-35-years/98339/)
+[^3]: https://music.163.com/#/artist/desc?id=17916
+[^4]: https://knowyourmeme.com/memes/plastic-love
+[^5]: [What Happened to Plastic Love? - Tales From the Internet](https://www.youtube.com/watch?v=J9NdTD5ciVs)
+[^6]: [What is Plastic Love](https://www.youtube.com/watch?v=PlPTXR7e6As)（[中文字幕版](https://www.bilibili.com/video/av28776057)）
+
+[Mariya Takeuchi 竹内 まりや Plastic Love]: https://www.youtube.com/watch?v=3bNITQR4Uso
