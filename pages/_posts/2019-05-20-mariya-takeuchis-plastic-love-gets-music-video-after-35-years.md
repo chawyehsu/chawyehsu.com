@@ -160,7 +160,7 @@ Plastic Lover 商讨相关事情的情况下，只好动用侵权删除的办法
 
 <figure>
 <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width="100%" height="100" src="//music.163.com/outchain/player?type=2&id=408328190&auto=0&height=66"></iframe>
-<figcaption><p>2016 年 TATA 发行《Plastic Love (TARA Bootleg)》（类别：Future Funk）</p></figcaption>
+<figcaption><p>2016 年 TARA 发行《Plastic Love (TARA Bootleg)》（类别：Future Funk）</p></figcaption>
 </figure>
 
 蒸汽波从 2010 年初出现，至今发展不过 10 年，但已经发展出不少的分支子类。其中比较有
