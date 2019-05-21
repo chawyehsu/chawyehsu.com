@@ -7,7 +7,7 @@ description: >-
   Plastic Love，在其发布的 35 年后，“意外地”拥有了它的官方 MV。受蒸汽波等亚文化热
   度持续存在的影响，上世纪 80 年代的日本 City Pop 音乐正在当下焕发出新的魅力。
 date: 2019-05-20 01:02:53
-updated: 2019-05-20 17:28:36
+updated: 2019-05-21 23:07:32
 cover: /uploads/2019/05/20190519011.png
 ---
 
@@ -171,12 +171,12 @@ Disco/House 音乐的元素。这些与原始 Vaporwave 的不同点让这类作
 样自《Plastic Love》的 Future Funk 作品，有些在很早就出来了。
 
 > 既要怀旧，又要现代。单纯听老歌，不一定能听得进去。而只取抓耳的部分，再加入舞曲节
-> 奏搅拌一下，更符合现代年轻人。
+> 奏搅拌一下，更符合现代年轻人。—— [知乎@金时代]
 
 但其实，一旦突破了这个自我限制去听原曲的话，你会发现一片新的天地。不过我感觉，跟我
 同辈的人，不管听蒸汽波也好，听 City Pop 也罢，应该都会有 VICE 的一篇文章里说的一个
 情况：我们这一代并没有过在那个时代的生活经历，但是为什么听这些歌时会有一种莫名的怀
-旧感？以及会感觉到或向往自己在那个时代生活的样子。
+旧感？以及会感觉到或向往自己在那个时代生活的样子[^6]。
 
 我想以我对以上疑问的鄙见来结束这篇文章。作为千禧一代的我们，其实从小就受到过 City
 Pop 以及其所在年代的其它文化的影响。小时候跟着父母听的港乐，张国荣、梅艳芳，不少歌
@@ -185,13 +185,15 @@ Pop 以及其所在年代的其它文化的影响。小时候跟着父母听的�
 
 进入社会后，却才发现自己的各种不是。纵使物质上逐渐满足，却无法再找回那时一样的快乐。
 只能在工作下班后，拖着疲惫的躯体通勤奔波。带上耳机，用塑料爱情所制造出来的空洞塑料
-情感，去弥补精神上的孤独与不安[^6]。
+情感，去弥补精神上的孤独与不安[^7]。
 
 [^1]: [竹内まりや「Plastic Love」Short ver.](https://www.youtube.com/watch?v=XMmUXamntPI)
 [^2]: [Mariya Takeuchi’s “Plastic Love” gets music video after 35 years](https://aramajapan.com/news/musicvideo/mariya-takeuchis-plastic-love-gets-music-video-after-35-years/98339/)
 [^3]: https://music.163.com/#/artist/desc?id=17916
 [^4]: https://knowyourmeme.com/memes/plastic-love
 [^5]: [What Happened to Plastic Love? - Tales From the Internet](https://www.youtube.com/watch?v=J9NdTD5ciVs)
-[^6]: [What is Plastic Love](https://www.youtube.com/watch?v=PlPTXR7e6As)（[中文字幕版](https://www.bilibili.com/video/av28776057)）
+[^6]: [为什么我们又听起了 City-Pop？](http://i-d.vice.cn/read/why-city-pop-is-coming-back)
+[^7]: [What is Plastic Love](https://www.youtube.com/watch?v=PlPTXR7e6As)（[中文字幕版](https://www.bilibili.com/video/av28776057)）
 
 [Mariya Takeuchi 竹内 まりや Plastic Love]: https://www.youtube.com/watch?v=3bNITQR4Uso
+[知乎@金时代]: https://www.zhihu.com/question/45911422/answer/133420271
