@@ -1,5 +1,8 @@
 <template>
-  <headroom class="site-header-room" :offset="155">
+  <headroom
+    class="site-header-room"
+    :offset="155"
+    :disabled="!$themeConfig.header.headroom">
     <header id="site-header" class="site-header">
       <div class="wrap columns is-gapless is-mobile">
         <div class="column is-3-desktop">

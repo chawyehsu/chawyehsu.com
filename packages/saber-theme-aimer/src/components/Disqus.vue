@@ -18,7 +18,7 @@ export default {
       disqusLoaded: false
     }
   },
-  mounted() {
+  mounted () {
     const { page, $siteConfig } = this
     this.disqus = {
       load: () => {
