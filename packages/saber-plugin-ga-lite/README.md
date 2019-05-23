@@ -1,6 +1,6 @@
 # saber-plugin-ga-lite
 
-Litewight Google Analytics for [Saber](https://saber.land/), using [ga-lite](https://github.com/jehna/ga-lite).
+Liteweight Google Analytics for [Saber](https://saber.land/), using [ga-lite](https://github.com/jehna/ga-lite).
 
 ## Install
 
