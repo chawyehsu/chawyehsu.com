@@ -66,8 +66,10 @@ exports.apply = (api, options = {}) => {
       // Restore image src from data-src if the image is lazy loaded
       const $ = cheerio.load(page.content, {decodeEntities: false})
       $('img').each((index, elem) => {
-        if (elem.attribs['data-src']) {
-          elem.attribs['src'] = elem.attribs['data-src']
+        const datasrc = $(elem).attr('data-src')
+        if (datasrc) {
+          $(elem).attr('src', datasrc)
+          $(elem).removeAttr('data-src')
         }
       })
 
