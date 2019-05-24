@@ -66,11 +66,25 @@ exports.apply = (api, options = {}) => {
       // Restore image src from data-src if the image is lazy loaded
       const $ = cheerio.load(page.content, {decodeEntities: false})
       $('img').each((index, elem) => {
-        const datasrc = $(elem).attr('data-src')
+        const node = $(elem)
+        const datasrc = node.attr('data-src')
         if (datasrc) {
-          $(elem).attr('src', datasrc)
-          $(elem).removeAttr('data-src')
+          node.attr('src', datasrc)
+          node.removeAttr('data-src')
         }
+
+        // Resolve image src to a full URI
+        const imgSrc = node.attr('src')
+        if (imgSrc.startsWith('/') & !imgSrc.startsWith('//')) {
+          node.attr('src', resolveURL(siteConfig.url, imgSrc))
+        }
+      })
+      // Restore all internal links from saber-link element
+      $('saber-link').each((index, elem) => {
+        const node = $(elem)
+        node.attr('href', node.attr('to'))
+        node.removeAttr('to')
+        elem.tagName = 'a'
       })
 
       posts.push({
