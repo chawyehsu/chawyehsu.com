@@ -1,7 +1,17 @@
 <div align="center">
   <h1 align="center">The Art of Chawye Hsu</h1>
-  <h4 align="center"><a href="https://www.bilibili.com/video/av1021686/">There will still be love in this world</a></h4>
 </div>
+<p align="center">
+  <a href="https://www.travis-ci.com/h404bi/www.h404bi.com">
+    <img src="https://img.shields.io/travis/com/h404bi/www.h404bi.com/master.svg?style=flat-square" alt="Travis" />
+  </a>
+  <a href="https://www.h404bi.com">
+    <img src="https://img.shields.io/website-up-down-green-red/https/h404bi.com.svg?style=flat-square" alt="Website Status" />
+  </a>
+  <a href="https://www.webpagetest.org/result/190412_1P_2dd2d27be7a11015b817357a2028b0bb/">
+    <img src="https://img.shields.io/badge/WebPageTest-A-44CC11.svg?style=flat-square" alt="WebPageTest Test Result" />
+  </a>
+</p>
 <p align="center">
   <a href="https://saberjs.org/">
     <img src="https://img.shields.io/badge/Powered%20by-Saber-FF8AD8.svg?style=flat-square" alt="Powered by Saber" />
@@ -14,17 +24,6 @@
   </a>
   <a href="https://github.com/h404bi/www.h404bi.com">
     <img src="https://img.shields.io/github/repo-size/h404bi/www.h404bi.com.svg?style=flat-square&colorB=328657" alt="Repo size" />
-  </a>
-</p>
-<p align="center">
-  <a href="https://www.travis-ci.com/h404bi/www.h404bi.com">
-    <img src="https://img.shields.io/travis/com/h404bi/www.h404bi.com/master.svg?style=flat-square" alt="Travis" />
-  </a>
-  <a href="https://www.h404bi.com">
-    <img src="https://img.shields.io/website-up-down-green-red/https/h404bi.com.svg?style=flat-square" alt="Website Status" />
-  </a>
-  <a href="https://www.webpagetest.org/result/190412_1P_2dd2d27be7a11015b817357a2028b0bb/">
-    <img src="https://img.shields.io/badge/WebPageTest-A-44CC11.svg?style=flat-square" alt="WebPageTest Test Result" />
   </a>
 </p>
 <p align="center">
