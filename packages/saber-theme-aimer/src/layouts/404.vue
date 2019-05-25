@@ -1,5 +1,5 @@
 <template>
-  <div class="stie-container">
+  <div class="site-container">
     <Header/>
     <main class="site-wrapper">
       <div class="error">
@@ -29,10 +29,10 @@ export default {
 </script>
 
 <style scoped>
-.stie-container {
+.site-container {
   background-color: #f7f7f7;
 }
-.stie-container .error {
+.site-container .error {
   position: relative;
   display: flex;
   justify-content: center;
@@ -43,7 +43,7 @@ export default {
 img.mascot {
   max-width: 100%;
 }
-.stie-container .overlay {
+.site-container .overlay {
   position: absolute;
   top: 0;
   left: 0;
