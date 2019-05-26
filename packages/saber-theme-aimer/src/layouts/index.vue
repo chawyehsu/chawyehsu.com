@@ -1,5 +1,5 @@
 <template>
-  <div class="stie-container">
+  <div class="site-container">
     <Header />
     <SubHeader :page="page" v-if="page.pagination && (page.pagination.current === 1)" />
     <List :page="page" />
