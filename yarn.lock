@@ -3634,6 +3634,13 @@ get-port@^3.2.0:
   resolved "https://registry.npmjs.org/get-port/-/get-port-3.2.0.tgz#dd7ce7de187c06c8bf353796ac71e099f0980ebc"
   integrity sha1-3Xzn3hh8Bsi/NTeWrHHgmfCYDrw=
 
+get-port@^5.0.0:
+  version "5.0.0"
+  resolved "https://registry.yarnpkg.com/get-port/-/get-port-5.0.0.tgz#aa22b6b86fd926dd7884de3e23332c9f70c031a6"
+  integrity sha512-imzMU0FjsZqNa6BqOjbbW6w5BivHIuQKopjpPqcnx0AVHJQKCxK1O+Ab3OrVXhrekqfVMjwA9ZYu062R+KcIsQ==
+  dependencies:
+    type-fest "^0.3.0"
+
 get-stdin@^4.0.1:
   version "4.0.1"
   resolved "https://registry.npmjs.org/get-stdin/-/get-stdin-4.0.1.tgz#b968c6b0a04384324902e8bf1a5df32579a450fe"
@@ -6826,10 +6833,10 @@ saber-utils@^0.1.4:
   resolved "https://registry.npmjs.org/saber-utils/-/saber-utils-0.1.4.tgz#207539fc8dc4b8a19ff3930181752d760941e506"
   integrity sha512-UxqS3aK4AnRaKv+N+tVCgKps9L9+mhEnPDFM7ATwhXQDnDsiWBcAG/ldbn+tPDN6lBfWWn9nBXrvu5VsBPSmXg==
 
-saber@0.6.2:
-  version "0.6.2"
-  resolved "https://registry.npmjs.org/saber/-/saber-0.6.2.tgz#52c573d1273d1576ed041c1e8f1a1f0b5e0eeee0"
-  integrity sha512-77UMNRWAOBi7xfmUiuaBtrC2fTYZPOdqFGGdNOCpuytnM+2OaMNMScmEWohxrbtfC76PxYwJeahs3UJd61hOyg==
+saber@0.6.4:
+  version "0.6.4"
+  resolved "https://registry.yarnpkg.com/saber/-/saber-0.6.4.tgz#97ab3ee4bc0b33d12cf79cfd77a88731ec557f18"
+  integrity sha512-JVYS7yNcRUCeriDsl4VLzO0Nm1ukZr6BI1tg+RzoBDB124wemm4Df2Hs4bVgJeOcqQm6Gicemo33EVIZYOs5mA==
   dependencies:
     "@babel/core" "^7.2.2"
     "@babel/plugin-proposal-object-rest-spread" "^7.2.0"
@@ -6847,6 +6854,7 @@ saber@0.6.2:
     devalue "^1.1.0"
     fast-deep-equal "^2.0.1"
     file-loader "^3.0.1"
+    get-port "^5.0.0"
     hash-sum "^1.0.2"
     joycon "^2.2.4"
     lodash.merge "^4.6.1"
@@ -7675,6 +7683,11 @@ tweetnacl@^0.14.3, tweetnacl@~0.14.0:
   version "0.14.5"
   resolved "https://registry.npmjs.org/tweetnacl/-/tweetnacl-0.14.5.tgz#5ae68177f192d4456269d108afa93ff8743f4f64"
   integrity sha1-WuaBd/GS1EViadEIr6k/+HQ/T2Q=
+
+type-fest@^0.3.0:
+  version "0.3.1"
+  resolved "https://registry.yarnpkg.com/type-fest/-/type-fest-0.3.1.tgz#63d00d204e059474fe5e1b7c011112bbd1dc29e1"
+  integrity sha512-cUGJnCdr4STbePCgqNFbpVNCepa+kAVohJs1sLhxzdH+gnEoOd8VhbYa7pD3zZYGiURWM2xzEII3fQcRizDkYQ==
 
 typedarray@^0.0.6:
   version "0.0.6"
