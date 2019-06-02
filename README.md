@@ -1,5 +1,8 @@
 <div align="center">
-  <h1 align="center">The Art of Chawye Hsu</h1>
+  <a href="https://www.h404bi.com/">
+    <img alt="site icon" src="./resources/media/icon.png" />
+  </a>
+  <h1>The Art of Chawye Hsu</h1>
 </div>
 <p align="center">
   <a href="https://www.travis-ci.com/h404bi/www.h404bi.com">
