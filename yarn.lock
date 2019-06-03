@@ -4859,9 +4859,9 @@ markdown-it-anchor@^5.0.2:
   integrity sha512-KjEKPZNYoanmTECbh9x1bBsXGJ6dNUTxIFg5YhdBxYkx/+27LNVUzh7Ctlb7jxadgGCWMX9tt46Aaby7Af8xSg==
 
 markdown-it-attrs@^2.3.2:
-  version "2.4.0"
-  resolved "https://registry.yarnpkg.com/markdown-it-attrs/-/markdown-it-attrs-2.4.0.tgz#f4c1dac952b4464483e7c50b5830b22562049b69"
-  integrity sha512-FJZqVPKMfooN1+HwBBvtkN3XpkcQirWDsw0LsOYJxPfOTncEueWeuI5S8iSy0NSQFMJcOfNBxpcnsI+E64XCeg==
+  version "2.4.1"
+  resolved "https://registry.yarnpkg.com/markdown-it-attrs/-/markdown-it-attrs-2.4.1.tgz#4868d067b0615568afc027bb99dfa2badb7ca1bc"
+  integrity sha512-BASnIYS+JLpjlhDf7jLV8VOuccxjfDDnQcz5dLfgPsYw8OsgbASexADdIkF7tIdGn+jaQSA4qOZXM3v3W3JBCg==
 
 markdown-it-cjk-breaks@^1.1.3:
   version "1.1.3"
