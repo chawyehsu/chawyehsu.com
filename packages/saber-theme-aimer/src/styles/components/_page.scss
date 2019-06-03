@@ -6,10 +6,6 @@
     padding: $gap-m 0;
     text-align: center;
 
-    .page-title {
-      margin-bottom: 0;
-    }
-
     .page-meta {
       display: flex;
       justify-content: center;
@@ -19,9 +15,10 @@
       .page-categories {
         display: flex;
         align-items: center;
+        color: $text-color;
         &:before {
-          content: '/';
-          padding: 0 $gap-s * 0.5;
+          content: '・';
+          color: $meta-color;
         }
       }
     }

@@ -11,7 +11,7 @@
                 <time
                   class="published"
                   :datetime="new Date(page.attributes.createdAt).toISOString()">
-                  {{ date(page.attributes.createdAt, '{YYYY} {MMMM} {DD}') }}
+                  {{ date(page.attributes.createdAt, '{YYYY}-{Mo}-{DD}') }}
                 </time>
               </section>
               <section class="page-categories" v-if="page.categories">
