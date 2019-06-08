@@ -49,8 +49,7 @@
 import Header from '../components/Header.vue'
 import Footer from '../components/Footer.vue'
 import Disqus from '../components/Disqus.vue'
-import lozad from 'lozad'
-import { date } from '../utils'
+import { date, lozad } from '../utils'
 
 export default {
   props: ['page'],
