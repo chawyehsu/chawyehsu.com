@@ -26,7 +26,7 @@
     "autoprefixer": "^9.5.1",
     "sass": "^1.19.0",
     "sass-loader": "^7.1.0",
-    "vue-compile": "^0.5.3"
+    "vue-compile": "^0.6.0"
   },
   "keywords": [
     "saber",
