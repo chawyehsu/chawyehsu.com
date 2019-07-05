@@ -32,5 +32,9 @@
     "saber",
     "saber-theme",
     "theme"
+  ],
+  "browserslist": [
+    ">0.5%",
+    "not op_mini all"
   ]
 }
