@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://www.h404bi.com</id>
     <title>The Art of Chawye Hsu</title>
-    <updated>2019-07-08T01:33:11.797Z</updated>
+    <updated>2019-07-08T01:34:58.680Z</updated>
     <generator>Saber</generator>
     <author>
         <name>h404bi</name>
@@ -162,7 +162,7 @@ NVMe 硬盘时，硬盘的铭牌贴纸也要撕掉，这样导热材料才能直
 <p>首先是《无人深空》，它是出了名的 A 卡黑游戏，还好这里配的是 GTX 1060。分辨率设置为
 1920×1080，纹理细节高级，开中偏高特效。</p>
 <figure data-type="image"><img src="https://www.h404bi.com/uploads/2019/07/20190705066.jpg" alt="无人深空图像设置"><figcaption>无人深空图像设置</figcaption></figure>
-<figure data-type="image"><img src="https://www.h404bi.com/uploads/2019/07/20190705068.jpg" alt="光纤束打开"><figcaption>光纤束打开</figcaption></figure>
+<figure data-type="image"><img src="https://www.h404bi.com/uploads/2019/07/20190705068.jpg" alt="光线束打开"><figcaption>光线束打开</figcaption></figure>
 <p>《无人深空》CPU、GPU、内存都吃。实测中偏高特效从星球上到太空中，基本能达到 40-60 帧相对流畅的帧率。CPU 方面多核均有消耗，但整体占用不多。而 GPU 方面 D3D 占用虽然只有
 50%-60%，但温度已经达到 70 度上下，这张卡确实不太适合小闷罐机箱。</p>
 <figure data-type="image"><img src="https://www.h404bi.com/uploads/2019/07/20190705067.jpg" alt="游戏内滤镜拍照功能"><figcaption>游戏内滤镜拍照功能</figcaption></figure>
