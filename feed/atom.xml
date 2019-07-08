@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://www.h404bi.com</id>
     <title>The Art of Chawye Hsu</title>
-    <updated>2019-07-07T05:08:58.256Z</updated>
+    <updated>2019-07-08T01:33:11.797Z</updated>
     <generator>Saber</generator>
     <author>
         <name>h404bi</name>
@@ -16,7 +16,7 @@
         <title type="html"><![CDATA[致五年 E3 青春：AMD YES! ITX 装机作业]]></title>
         <id>/blog/2019/07/amd-itx-diy-specs-for-the-next-5-years</id>
         <link href="https://www.h404bi.com/blog/2019/07/amd-itx-diy-specs-for-the-next-5-years"/>
-        <updated>2019-07-07T05:01:00.000Z</updated>
+        <updated>2019-07-08T01:31:05.000Z</updated>
         <summary type="html"><![CDATA[哈哈哈，这次文章的标题有点假文艺。不过确实说的也是事实，在完成了这次整个平台的装 机升级后，陪伴了我 5 年多的至强 E3-1230 v2 就被替下了，为性价比正式从牙膏厂跳到 了按摩店。大学那年第一次 DIY 装机就选择了当时所谓的“一代神 U”、“卡吧标配”的 E3v2， 从此开启了我的 DIY 装机“职业生涯” 。]]></summary>
         <content type="html"><![CDATA[<html><head></head><body><figure data-type="image"><img src="https://www.h404bi.com/uploads/2019/07/20190705001.jpg" alt="头图：U1-PLUS 与 MacBook Pro 13'"><figcaption>头图：U1-PLUS 与 MacBook Pro 13'</figcaption></figure>
 <p>哈哈哈，这次文章的标题有点假文艺。不过确实说的也是事实，在完成了这次整个平台的装机升级后，陪伴了我 5 年多的至强 E3-1230 v2 就被替下了，为性价比正式从牙膏厂跳到了按摩店。大学那年第一次 DIY 装机就选择了当时所谓的“一代神 U”、“卡吧标配”的 E3v2，从此开启了我的 DIY 装机“职业生涯” —— 哈哈说笑，也就可算是懂得了倒腾配置装机云云。</p>
@@ -157,7 +157,25 @@ NVMe 硬盘时，硬盘的铭牌贴纸也要撕掉，这样导热材料才能直
 <figure data-type="image"><img src="https://www.h404bi.com/uploads/2019/07/20190705062.jpg" alt="CineBench 单核心"><figcaption>CineBench 单核心</figcaption></figure>
 <p>整机游戏性能测试方面，在 Steam 上购买下载了 3DMark ，运行 Time Spy 进行 DX12 基准测试，结果如下。其中 3.9GHz 下 CPU 分数为 6261，与网络上 4GHz 的分数相近，基本相符。</p>
 <figure data-type="image"><img src="https://www.h404bi.com/uploads/2019/07/20190705064.jpg" alt="3DMark Time Spy"><figcaption><a href="https://www.3dmark.com/3dm/37403790?" target="_blank" rel="noopener noreferrer">3DMark Time Spy</a></figcaption></figure>
-<p>实际的游戏测试还没有抽时间完成，待更新补充。最后附上娱乐大师跑分对比。前者是旧平台，后者是新平台。</p>
+<p>实际游戏测试方面，鉴于我通常玩非大型的独立游戏居多（如：以撒的结合、雨中冒险等…），所以并没有抽选三 A 大作进行测试。不过根据我玩的游戏，我仍选取了两款对图形计算性能要求比较高的游戏进行了简单的测试，看看对于我游戏库里比较吃性能的游戏，整机能达到一个怎样的效果，分别是《无人深空（No Man's Sky）》以及《我的世界（Minecraft）》。</p>
+<figure data-type="image"><img src="https://www.h404bi.com/uploads/2019/07/20190705065.jpg" alt="No Man's Sky"><figcaption>No Man's Sky</figcaption></figure>
+<p>首先是《无人深空》，它是出了名的 A 卡黑游戏，还好这里配的是 GTX 1060。分辨率设置为
+1920×1080，纹理细节高级，开中偏高特效。</p>
+<figure data-type="image"><img src="https://www.h404bi.com/uploads/2019/07/20190705066.jpg" alt="无人深空图像设置"><figcaption>无人深空图像设置</figcaption></figure>
+<figure data-type="image"><img src="https://www.h404bi.com/uploads/2019/07/20190705068.jpg" alt="光纤束打开"><figcaption>光纤束打开</figcaption></figure>
+<p>《无人深空》CPU、GPU、内存都吃。实测中偏高特效从星球上到太空中，基本能达到 40-60 帧相对流畅的帧率。CPU 方面多核均有消耗，但整体占用不多。而 GPU 方面 D3D 占用虽然只有
+50%-60%，但温度已经达到 70 度上下，这张卡确实不太适合小闷罐机箱。</p>
+<figure data-type="image"><img src="https://www.h404bi.com/uploads/2019/07/20190705067.jpg" alt="游戏内滤镜拍照功能"><figcaption>游戏内滤镜拍照功能</figcaption></figure>
+<p>接着是 Minecraft。Minecraft 是出了名的资源消耗怪（这里可以黑一下 Java），而且祖传特性吃单核性能，一核有难多核围观，特别适合 AMD 这种… 如果不是原版，打 Mod 打得多的话就再吃内存，加光影了就再吃显卡，“像素游戏没多高要求”这话是假的，不过低配能玩倒是真的。</p>
+<p>原版状态下，单核优化的特性非常明显。可以看到其中一个 CPU 线程负载已经一度达到 80%，但 CPU 整体负载却是比较低的。图形方面，D3D 占用在 50% 左右，显卡状态与测试《无人深空》时接近。多 Mod 与内存方面就不测了，我们来增加光影看看，选取了有名的 SEUS 光影（当初就是遇到了 A 卡下光影兼容性的问题，才决心从 A 卡换到了 N 卡…）。</p>
+<figure data-type="image"><img src="https://www.h404bi.com/uploads/2019/07/20190705069.jpg" alt="1080P 原版"><figcaption>1080P 原版</figcaption></figure>
+<p>打了光影 Mod 后，可以看到虽然还是吃单核，但 CPU 单核负载没那么高了。不过 GPU 的 D3D
+已经被吃满了，显卡温度也达到了前面烤机时的满载 80 度（这里风扇策略被我调整过了，虽然速度没有去到 3000+，但声音已经挺明显了）。此时，游戏的帧率在 60FPS 左右徘徊，还算是相对流畅。不过这也给了我一个提示，不建议长时间使用光影来玩，毕竟显卡满载。</p>
+<figure data-type="image"><img src="https://www.h404bi.com/uploads/2019/07/20190705070.jpg" alt="1080P SEUS v11 光影"><figcaption>1080P SEUS v11 光影</figcaption></figure>
+<p>接下来试试更高级的 SEUS PTGI 光影，使用这个光影不需要 RTX 也能有光线追踪效果。测试的结果是 —— 「勉强」。依旧是 CPU 在围观显卡满载，游戏帧率掉到了 30FPS 以内，这种状态基本说明，这个光影只能拿来偶尔打开拍拍照截截图了…</p>
+<figure data-type="image"><img src="https://www.h404bi.com/uploads/2019/07/20190705071.jpg" alt="1080P SEUS PTGI E8 光影"><figcaption>1080P SEUS PTGI E8 光影</figcaption></figure>
+<figure data-type="image"><img src="https://www.h404bi.com/uploads/2019/07/20190705072.jpg" alt="壁纸一张"><figcaption>壁纸一张</figcaption></figure>
+<p>以上就是实际游戏测试部分。最后附上娱乐大师跑分对比。前者是旧平台，后者是新平台。最大的改变当然是机箱变小了。</p>
 <figure data-type="image"><img src="https://www.h404bi.com/uploads/2019/07/20190705057.jpg" alt="鲁大师娱乐跑分"><figcaption>鲁大师娱乐跑分</figcaption></figure>
 <figure data-type="image"><img src="https://www.h404bi.com/uploads/2019/07/20190705058.jpg" alt></figure>
 <p><strong>完。</strong></p>
