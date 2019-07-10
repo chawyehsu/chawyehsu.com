@@ -19,7 +19,7 @@ comments: false
  - [ustc-zzzz's blog](http://blog.ustc-zzzz.net) - 4z 菊苣，USTC+PKU，膜拜
  - [vazkii.net](https://vazkii.net) - 著名 Mineccraft 模组「植物魔法」的作者
  - [白玉楼之梦](http://blog.hakugyokurou.net) - 我因为 FGOW 了解到的 szszss
- - [庶民样本](https://egoist.moe) - So cute EGOIST, I meant, EGOIST
+ - [庶民样本](https://egoist.moe) - So cool, EGOIST. I meant EGOIST
 
 [源码仓库]: https://github.com/h404bi/www.h404bi.com
 [`pages/links.md`]: https://github.com/h404bi/www.h404bi.com/blob/master/pages/links.md
