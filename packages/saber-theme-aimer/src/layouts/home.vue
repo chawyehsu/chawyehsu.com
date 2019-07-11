@@ -81,7 +81,7 @@ export default {
 
 <style scoped>
 @font-face {
-	font-family: 'Covered By Your Grace';
+  font-family: 'Covered By Your Grace';
   font-style: normal;
   font-weight: 400;
   src: local('Covered By Your Grace'), local('CoveredByYourGrace'), url(https://fonts.gstatic.com/s/coveredbyyourgrace/v8/QGYwz-AZahWOJJI9kykWW9mD6opopoqXSOSEEQgsiaXVIw.woff2) format('woff2');
@@ -90,58 +90,58 @@ export default {
 }
 
 .frontpage {
-	width: 100vw;
-	height: 100vh;
+  width: 100vw;
+  height: 100vh;
   display: flex;
-	align-items: center;
-	justify-content: center;
+  align-items: center;
+  justify-content: center;
   line-height: 1.15;
 }
 
 .frontpage-content {
-	text-align: center
+  text-align: center
 }
 
 .avatar img {
-	width: 100px;
-	height: 100px;
-	border-radius: 50%;
-	object-fit: cover;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
 }
 
 h1 {
-	font-size: 38px;
-	font-family: 'Covered By Your Grace' !important;
-	font-weight: 400;
-	margin: 8px 0;
+  font-size: 38px;
+  font-family: 'Covered By Your Grace' !important;
+  font-weight: 400;
+  margin: 8px 0;
 }
 
 .slogan {
-	font-size: 16px;
-	margin-bottom: 16px;
+  font-size: 16px;
+  margin-bottom: 16px;
 }
 
 hr {
-	max-width: 400px;
-	height: 1px;
-	border: none;
-	background-image: linear-gradient(0deg, transparent, #d5d5d5, transparent);
-	background-image: -webkit-linear-gradient(0deg, transparent, #d5d5d5, transparent);
+  max-width: 400px;
+  height: 1px;
+  border: none;
+  background-image: linear-gradient(0deg, transparent, #d5d5d5, transparent);
+  background-image: -webkit-linear-gradient(0deg, transparent, #d5d5d5, transparent);
 }
 
 .menu {
   display: flex;
   justify-content: center;
   list-style-type: none;
-	font-size: 14px;
-	margin: 16px 0;
+  font-size: 14px;
+  margin: 16px 0;
 }
 
 .menu li {
-	margin: 0 4px;
+  margin: 0 4px;
 }
 
 .location {
-	font-size: 12px;
+  font-size: 12px;
 }
 </style>
