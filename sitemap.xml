@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <?xml-stylesheet type="text/xsl" href="/sitemap.xsl"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <% posts.forEach(function (post) { -%>
+  <% posts.forEach(function (page) { -%>
   <url>
-    <loc><%- encodeURI(post.url) %></loc>
-    <lastmod><%= post.lastmod.toISOString() %></lastmod>
-    <% if (post.attributes.injectAllPosts) { -%>
+    <loc><%- encodeURI(page.url) %></loc>
+    <lastmod><%= page.lastmod.toISOString() %></lastmod>
+    <% if (page.attributes.injectAllPosts) { -%>
     <priority>1</priority>
-    <% } else if (post.attributes.type === 'page') { -%>
+    <% } else if (page.attributes.type === 'page' || page.attributes.isCategoryPage) { -%>
     <priority>0.8</priority>
-    <% } else if (post.attributes.type === 'post') { -%>
+    <% } else if (page.attributes.type === 'post') { -%>
     <priority>0.6</priority>
     <% } -%>
     <changefreq>always</changefreq>
