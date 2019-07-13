@@ -6,6 +6,10 @@
     padding: $gap-m 0;
     text-align: center;
 
+    .page-title {
+      margin: 0;
+    }
+
     .page-meta {
       display: flex;
       justify-content: center;
