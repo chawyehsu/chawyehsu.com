@@ -230,12 +230,13 @@
       text-align: left;
     }
 
+    // Content Block Element: Footnotes Section
     .footnotes {
       color: $meta-color;
       font-size: $font-size-footnotes;
 
       p {
-        margin-bottom: $gap-m;
+        margin-bottom: $gap-s;
 
         a {
           border: 0;
