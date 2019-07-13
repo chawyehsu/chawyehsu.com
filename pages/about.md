@@ -4,14 +4,9 @@ title: About
 keywords: about
 description: About page of Chawye Hsu
 date: 2015-05-18
-updated: 2019-05-01
+updated: 2019-07-13
 comments: false
 ---
-
-<div style="text-align:right">
-你好，我是花火<br>花火，不是火花<br>——2018 年 2 月
-</div>
-<hr>
 
 ### 关于我
 
