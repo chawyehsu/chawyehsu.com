@@ -9,6 +9,8 @@ description: >-
 date: 2019-05-01 18:14:40
 updated: 2019-05-01 18:14:40
 cover: /uploads/2019/05/20190501006.png
+categories:
+  - 技术
 ---
 
 苹果公司的操作系统 macOS 从 10.14 Mojave 版本开始，为用户提供了[深色模式]的可选外

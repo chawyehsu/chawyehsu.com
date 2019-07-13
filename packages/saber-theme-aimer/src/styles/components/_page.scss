@@ -15,10 +15,8 @@
       .page-categories {
         display: flex;
         align-items: center;
-        color: $text-color;
         &:before {
           content: '・';
-          color: $meta-color;
         }
       }
     }
@@ -33,8 +31,6 @@
   }
 
   .page-body {
-    margin-bottom: $gap-xl;
-
     a:not([id^=fnref]) {
       border-bottom: 1px dashed $meta-color;
       overflow-wrap: break-word;
@@ -249,7 +245,30 @@
     }
   }
 
+  .page-block-action {
+    margin-top: $gap-l;
+    display: flex;
+    justify-content: space-between;
+
+    .page-tags {
+      float: right;
+      color: $meta-color;
+      font-size: $font-size-small;
+
+      .tag:before {
+        content: '#';
+        opacity: 0.5;
+        margin-right: $gap-s / 5;
+      }
+
+      .tag:hover {
+        opacity: 1;
+      }
+    }
+  }
+
   .page-comments {
+    margin-top: $gap-xl;
     margin-bottom: $gap-l;
 
     #load-disqus {

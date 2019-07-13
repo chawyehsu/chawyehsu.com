@@ -12,6 +12,8 @@ description: >-
 date: 2018-05-12 21:44:39
 updated: 2018-11-03 00:46:50
 cover: /uploads/2018/12/20181225004.png
+categories:
+  - 技术
 ---
 
 ![Let us Scoop it!](/uploads/2018/05/20180512001.gif "Let us Scoop it!")

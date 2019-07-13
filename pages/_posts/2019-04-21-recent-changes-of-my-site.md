@@ -9,6 +9,8 @@ description: >-
 date: 2019-04-21 18:07:40
 updated: 2019-04-21 19:21:20
 cover: /uploads/2019/04/20190421008.png
+categories:
+  - 技术
 ---
 
 ## Old Days

@@ -9,6 +9,8 @@ description: >-
 date: 2019-02-18 22:02:03
 updated: 2019-03-06 23:15:20
 cover: /uploads/2019/02/20190218005.png
+categories:
+  - 技术
 ---
 
 Windows Console Host（即 `conhost.exe`，下称“ConHost”[^1]）中的设置可能有点难
