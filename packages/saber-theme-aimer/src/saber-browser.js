@@ -11,7 +11,7 @@ export default ({ setHead }) => {
     return {
       htmlAttrs: {
         lang: 'zh-CN',
-        class: 'black-footer'
+        // class: 'black-footer'
       },
       meta: [
         {

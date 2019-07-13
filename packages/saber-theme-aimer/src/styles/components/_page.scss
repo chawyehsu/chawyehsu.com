@@ -156,16 +156,24 @@
       color: $meta-color;
     }
 
+    // Content Block Element: Horizontal Rule
     hr {
       border: 0;
-      border-bottom: 2px solid $meta-color;
-      margin: 0 auto $gap-l;
+      height: auto;
+      margin: $gap-l auto;
+      color: $meta-color;
       opacity: 0.5;
-      padding-top: $gap-m;
-      width: 6rem;
 
-      &.footnotes-sep {
-        margin-top: $gap-m;
+      &:after {
+        line-height: 0;
+        display: block;
+        content: "* * *";
+        text-align: center;
+      }
+
+      // Footnotes: a special horizontal rule
+      &.footnotes-sep:after {
+        content: "Footnotes";
       }
     }
 
