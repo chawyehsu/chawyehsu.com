@@ -2,11 +2,6 @@ import 'normalize.css'
 import './styles/main.scss'
 
 export default ({ setHead }) => {
-  if (process.browser) {
-    // IntersectionObserver polyfill for lozad.js
-    require('intersection-observer')
-  }
-
   setHead(function () {
     return {
       htmlAttrs: {
