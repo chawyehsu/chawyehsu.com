@@ -6799,10 +6799,10 @@ saber-log@^0.2.0:
   resolved "https://registry.npmjs.org/saber-log/-/saber-log-0.2.0.tgz#6c4a803a3d8c89f243580f0d7259e396220286d6"
   integrity sha512-S0KbP6uktP0g75t+QG7sx1dkib/S1TyhOxPKFj9325eYVJOYi6ECfyeWiuYsma35MxqJTlFp4Dxw7U57JEjvSA==
 
-saber-markdown@^0.0.8:
-  version "0.0.8"
-  resolved "https://registry.yarnpkg.com/saber-markdown/-/saber-markdown-0.0.8.tgz#b7d69b0e2572caff1fe3a1d5b8adcbc209d9c669"
-  integrity sha512-GLwZf3QkNOX4EdfXcjEmyT+fpf7qvtwyvU9r+5HsaD5gNHRfKnjgzoaQuSZU+RLVkvKYzeGCFI72xq+d65tDdA==
+saber-markdown@^0.0.9:
+  version "0.0.9"
+  resolved "https://registry.yarnpkg.com/saber-markdown/-/saber-markdown-0.0.9.tgz#b4ae1019f990b23ece893a5e9bac2155f195faa3"
+  integrity sha512-Ze7sRoZZNNWNgybwEBHR1wPuCL8JwZdY/jn7fubEm3lWGfiis7g0coDeLZCymui2u+3nSbAb+AyCJF4+rn4QpA==
 
 saber-plugin-baidu-analytics@^0.0.1:
   version "0.0.1"
@@ -6829,15 +6829,15 @@ saber-plugin-sitemap@^0.2.0:
   dependencies:
     ejs "^2.6.1"
 
-saber-utils@^0.1.4:
-  version "0.1.4"
-  resolved "https://registry.npmjs.org/saber-utils/-/saber-utils-0.1.4.tgz#207539fc8dc4b8a19ff3930181752d760941e506"
-  integrity sha512-UxqS3aK4AnRaKv+N+tVCgKps9L9+mhEnPDFM7ATwhXQDnDsiWBcAG/ldbn+tPDN6lBfWWn9nBXrvu5VsBPSmXg==
+saber-utils@^0.1.5:
+  version "0.1.5"
+  resolved "https://registry.yarnpkg.com/saber-utils/-/saber-utils-0.1.5.tgz#592da40e5d72015933e953a60aedd27db1501748"
+  integrity sha512-jSc/4otaGGVyagxeFYmuWXfoIGGoADRwxw5SXrrC02ITh9N1b9qYsP20PuReeE2XvAIrzHbqp5o+m6NR3P6pzA==
 
-saber@0.6.8:
-  version "0.6.8"
-  resolved "https://registry.yarnpkg.com/saber/-/saber-0.6.8.tgz#daed4d4d13d0ad5d8cc02d13274262b0abf3d9bb"
-  integrity sha512-p47qTePEWSMaPYO7Bi6QXekFigHUZBs5Fze3nbeurGx/5BJXY/qS5vKFj/7vzlrobkgZ/GpDffjlZMykbS3KBg==
+saber@0.6.10:
+  version "0.6.10"
+  resolved "https://registry.yarnpkg.com/saber/-/saber-0.6.10.tgz#dbf40f3b13109d50cfd33a3981639bc7af5dfe24"
+  integrity sha512-SEq7VbdfJ4RbzO7CcIWqAdTg5qecyEwvodlcEzYu+i0SZMKtFt4NaQABDcRAei4LqbYN9TS/CCE6x8/n5+rIpg==
   dependencies:
     "@babel/core" "^7.2.2"
     "@babel/plugin-proposal-object-rest-spread" "^7.2.0"
@@ -6867,8 +6867,8 @@ saber@0.6.8:
     pretty-ms "^5.0.0"
     resolve-from "^5.0.0"
     saber-log "^0.2.0"
-    saber-markdown "^0.0.8"
-    saber-utils "^0.1.4"
+    saber-markdown "^0.0.9"
+    saber-utils "^0.1.5"
     serve-static "^1.13.2"
     slugo "^0.2.3"
     superstruct "^0.6.0"
