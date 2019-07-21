@@ -1,5 +1,4 @@
 import tinytime from 'tinytime'
-import lozad from 'lozad'
 
 const date = (date, format) => {
   const f = tinytime(format, {
@@ -10,6 +9,5 @@ const date = (date, format) => {
 }
 
 export {
-  date,
-  lozad
+  date
 }

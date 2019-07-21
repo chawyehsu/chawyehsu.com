@@ -3,7 +3,7 @@
     <Header/>
     <main class="site-wrapper">
       <div class="error">
-        <img class="mascot" src="../assets/whoops.png"/>
+        <saber-image class="mascot" src="../assets/whoops.png"></saber-image>
         <span class="overlay"></span>
       </div>
     </main>

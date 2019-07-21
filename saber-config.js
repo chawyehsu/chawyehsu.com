@@ -22,8 +22,6 @@ module.exports = {
     title: "Chawye Hsu's Blog",
     since: '2015',
     home: {
-      avatar: '/static/img/avatar.png',
-      avatarLink: '/about',
       slogan: {
         name: 'There will still be love in this world',
         path: 'https://www.bilibili.com/video/av1021686/',
@@ -115,15 +113,6 @@ module.exports = {
   },
   markdown: {
     plugins: [
-      // {
-      //   resolve: 'markdown-it-anchor',
-      //   options: {
-      //     permalink: true,
-      //     permalinkClass: 'header-anchor icon ion-md-link',
-      //     permalinkSymbol: '',
-      //     permalinkBefore: true
-      //   }
-      // },
       {
         resolve: 'markdown-it-emoji'
       },
@@ -132,12 +121,6 @@ module.exports = {
       },
       {
         resolve: 'markdown-it-cjk-breaks'
-      },
-      {
-        resolve: 'markdown-it-lazy-image',
-        options: {
-          placeholder: '/static/img/loading.gif'
-        }
       },
       {
         resolve: 'markdown-it-attrs'
@@ -187,6 +170,12 @@ module.exports = {
           '数码': 'digital',
           '技术': 'technology'
         }
+      }
+    },
+    {
+      resolve: './packages/saber-plugin-image',
+      options: {
+        sizes: [1200, 720, 480]
       }
     },
     {

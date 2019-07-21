@@ -2,12 +2,12 @@
   <div class="frontpage">
     <div class="frontpage-content">
       <saber-link class="avatar"
-        v-if="$themeConfig.home.avatarLink"
-        :to="$themeConfig.home.avatarLink">
-        <img :src="$themeConfig.home.avatar" alt="avatar"/>
+        v-if="page.attributes.avatarLink"
+        :to="page.attributes.avatarLink">
+        <saber-image :src="page.attributes.assets.avatar" alt="avatar"></saber-image>
       </saber-link>
       <div v-else class="avatar">
-        <img :src="$themeConfig.home.avatar" alt="avatar"/>
+        <saber-image :src="page.attributes.assets.avatar" alt="avatar"></saber-image>
       </div>
       <h1 class="name">{{ $siteConfig.author }}</h1>
       <div class="slogan" :title="$themeConfig.home.slogan.title">
@@ -37,6 +37,7 @@
 
 <script>
 export default {
+  props: ['page'],
   head () {
     return {
       title: this.$siteConfig.title,

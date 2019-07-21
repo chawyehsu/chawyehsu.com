@@ -8,10 +8,9 @@
         <div class="post-card post-list-item">
           <div class="post-card-image">
             <saber-link class="link" :to="post.attributes.permalink">
-              <img
-                src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP89R8AAvkB+0p/ESEAAAAASUVORK5CYII="
-                :data-src="post.attributes.cover"
-                :alt="post.attributes.title">
+              <saber-image
+                :src="post.attributes.assets.cover"
+                :alt="post.attributes.title" />
               <span class="overlay"></span>
             </saber-link>
           </div>
@@ -36,15 +35,12 @@
 
 <script>
 import Pagination from './Pagination.vue'
-import { date, lozad } from '../utils'
+import { date } from '../utils'
 
 export default {
   props: ['page'],
   components: {
     Pagination
-  },
-  mounted () {
-    lozad(document.querySelectorAll('.post-card-image img')).observe()
   },
   methods: {
     date

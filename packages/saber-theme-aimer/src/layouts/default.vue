@@ -62,7 +62,7 @@
 import Header from '../components/Header.vue'
 import Footer from '../components/Footer.vue'
 import Disqus from '../components/Disqus.vue'
-import { date, lozad } from '../utils'
+import { date } from '../utils'
 
 export default {
   props: ['page'],
@@ -70,9 +70,6 @@ export default {
     Header,
     Footer,
     Disqus
-  },
-  mounted () {
-    lozad(document.querySelectorAll('.page-content img')).observe()
   },
   methods: {
     date
