@@ -85,7 +85,7 @@ exports.apply = (api, options = {}) => {
       .loader(require.resolve('responsive-loader'))
       .options({
         adapter: require('responsive-loader/sharp'),
-        name: "static/img/[hash]-[width].[ext]",
+        name: "images/[name]-[hash:8].[ext]",
         ...options
       })
   })
