@@ -69,14 +69,7 @@ export default ({ Vue }) => {
             width,
             height: 'auto'
           },
-          class: { lozad, [styles.blendIn]: blendIn },
-          style: {
-            transition: `filter ${
-              blendIn
-                ? (typeof blendIn === 'number' && blendIn / 1000) || 0.5
-                : 0
-            }s`
-          }
+          class: { lozad, [styles.blendIn]: blendIn }
         })
       // lazyLoad disabled
       } else {
