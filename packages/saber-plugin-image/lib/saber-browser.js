@@ -73,7 +73,7 @@ export default ({ Vue }) => {
           style: {
             transition: `filter ${
               blendIn
-                ? (typeof blendIn === 'number' && blendIn / 1000) || 1.5
+                ? (typeof blendIn === 'number' && blendIn / 1000) || 0.5
                 : 0
             }s`
           }
