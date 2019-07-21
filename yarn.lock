@@ -4909,11 +4909,6 @@ map-visit@^1.0.0:
   dependencies:
     object-visit "^1.0.0"
 
-markdown-it-anchor@^5.0.2:
-  version "5.2.3"
-  resolved "https://registry.yarnpkg.com/markdown-it-anchor/-/markdown-it-anchor-5.2.3.tgz#76d07b5cfcf41a14cb6495522ed0f734ced337d9"
-  integrity sha512-KjEKPZNYoanmTECbh9x1bBsXGJ6dNUTxIFg5YhdBxYkx/+27LNVUzh7Ctlb7jxadgGCWMX9tt46Aaby7Af8xSg==
-
 markdown-it-attrs@^2.3.2:
   version "2.4.1"
   resolved "https://registry.yarnpkg.com/markdown-it-attrs/-/markdown-it-attrs-2.4.1.tgz#4868d067b0615568afc027bb99dfa2badb7ca1bc"
@@ -4940,11 +4935,6 @@ markdown-it-implicit-figures@^0.9.0:
   version "0.9.0"
   resolved "https://registry.npmjs.org/markdown-it-implicit-figures/-/markdown-it-implicit-figures-0.9.0.tgz#21bf562ab4fd177828febb5e24eda571cf9d1a58"
   integrity sha512-ykLQZmhy8QnNEm6NgImIrr+/QMe7gSnHgLhNAjz9GGCNdSLR7C/SLFNwGdUZq7vK3a0myWiOYE0tpaZuB0rWWw==
-
-markdown-it-lazy-image@^0.0.1:
-  version "0.0.1"
-  resolved "https://registry.npmjs.org/markdown-it-lazy-image/-/markdown-it-lazy-image-0.0.1.tgz#11a6f7601121d1567ea6c55c4528a3d99deffaa3"
-  integrity sha512-yQzlPDDmoWBQqoR4xevK73xMoE68DtL/GaxpAwFoz3nTIu1W7aP5n89Q1xE5e0U62r5N3Bv1KIJqwweOndyF/g==
 
 matchit@^1.0.0:
   version "1.0.8"
