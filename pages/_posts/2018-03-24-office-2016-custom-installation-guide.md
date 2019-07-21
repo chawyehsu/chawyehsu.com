@@ -7,10 +7,11 @@ description: >-
   Outlook 关闭时最小化到托盘的小技巧，适合想 Office 只安装 Word、Excel 的同学。
 date: 2018-03-24 03:33:27
 updated: 2018-03-25 13:00:00
-cover: /uploads/2018/12/20181225005.png
+assets:
+  cover: ../_assets/uploads/2018/12/20181225005.png
 ---
 
-![Microsoft Office](/uploads/2018/03/20180324001.jpg)
+![Microsoft Office](../_assets/uploads/2018/03/20180324001.jpg)
 
 作为宇宙第一 IDE Visual Studio 的兄弟，宇宙第一办公套件 Office 在 Windows
 系统下更加常见。新安装的系统，即使刚开始不愿安装，等到要查看编辑 docx pptx
@@ -24,7 +25,7 @@ cover: /uploads/2018/12/20181225005.png
 点一下，就全自动帮你把 Office 全家桶完整安装上了，不需要你做任何的下一步设置，
 也不给你做任何的安装设置。
 
-![](/uploads/2018/03/20180324002.jpg)
+![](../_assets/uploads/2018/03/20180324002.jpg)
 
 对于日常只使用 Word、Excel、Powerpoint，最多再加一个 Outlook 的人来讲，
 全家桶的 Access、Onedrive for Business、Publisher、Skype 等必然是多余的，
@@ -40,19 +41,19 @@ setup.exe 的话，那就来与我一起“卸了又装”。
 
 下载 easy fix tool: `o15-ctrremove.diagcab`，双击执行一路到底后重启计算机。
 
-![](/uploads/2018/03/20180324003.jpg)
+![](../_assets/uploads/2018/03/20180324003.jpg)
 
 ## 重新自定义安装 Office
 
 **第一步：** 解压安装镜像。因为待会要替换文件，直接挂载 iso 的话无法进行替换。
 
-![安装镜像解压后](/uploads/2018/03/20180324004.jpg "安装镜像解压后")
+![安装镜像解压后](../_assets/uploads/2018/03/20180324004.jpg "安装镜像解压后")
 
 **第二步：** 下载 [Office 2016 Deployment Tool]。执行后会解压出两个文件，
 一个是 `configuration.xml`，另一个是 `setup.exe`。将两个文件覆盖到刚刚解压的
 镜像文件夹内（也可以改名备份原来的 setup.exe）。
 
-![](/uploads/2018/03/20180324005.jpg)
+![](../_assets/uploads/2018/03/20180324005.jpg)
 
 **第三步：** 修改 Deployment Tool 配置。编辑 `configuration.xml` 文件，
 设定安装版本，更新频道，**排除不想安装的应用**。以下是我的配置文件，
@@ -68,11 +69,11 @@ Excel、Powerpoint 以及 Outlook，其它全部排除。如果想把 Outlook �
 <kbd>Shift</kbd> + 鼠标右键，在当前目录打开命令行。键入
 `./setup.exe /configure configuration.xml` 并执行。
 
-![](/uploads/2018/03/20180324006.png)
+![](../_assets/uploads/2018/03/20180324006.png)
 
 UAC 弹窗确认后开始自动安装。不过这次可以很明显的看到不再是全家桶都给你安装上了。
 
-![](/uploads/2018/03/20180324007.png)
+![](../_assets/uploads/2018/03/20180324007.png)
 
 ## 结尾小 Tips
 

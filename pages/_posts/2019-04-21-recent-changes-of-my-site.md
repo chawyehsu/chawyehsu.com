@@ -8,7 +8,8 @@ description: >-
   时间，仿过几个主题。之后便是在流行之下换成了静态博客 Hexo。
 date: 2019-04-21 18:07:40
 updated: 2019-04-21 19:21:20
-cover: /uploads/2019/04/20190421008.png
+assets:
+  cover: ../_assets/uploads/2019/04/20190421008.png
 categories:
   - 技术
 ---
@@ -27,7 +28,7 @@ categories:
 将使用了近 4 年的 Hexo 换下是博客最近最大的改变，换上的是基于 Vue、Webpack 等当前
 主流技术的 [Saber] 静态博客系统。
 
-![](/uploads/2019/04/20190421002.png)
+![](../_assets/uploads/2019/04/20190421002.png)
 
 以 React、Vue、Webpack 等当代主流前端技术为基础的静态网站生成器系统持续出现并开始
 崭露头角，Gatsby、Nuxt、VuePress[^1]，势必会抢占 Jekyll、Hexo 等以字符串模版为主
@@ -41,12 +42,12 @@ categories:
 等文章中看到左右溢出的插图。这个我非常喜欢的排版设计，便源于：「[Design Elitism]」，
 我博客的整个排版系统很大程度上受他影响，只是彼此经过多次迭代，已不太能找出相似点了。
 
-![Gatsby](/uploads/2019/04/20190421005.png)
+![Gatsby](../_assets/uploads/2019/04/20190421005.png)
 
 没有选择 Gatsby 是因为在我对 React 生态的还不了解，头疼一连串硬啃 React、GraphQL
 等技术的时候，VuePress 出世了，我还是更倾向于相对比较熟悉的 Vue。
 
-![VuePress](/uploads/2019/04/20190421003.png)
+![VuePress](../_assets/uploads/2019/04/20190421003.png)
 {.right}
 
 然而，在我尝试 VuePress 后，其更加面向于项目文档的设计，让我感觉从 Hexo 迁移显得力
@@ -65,7 +66,7 @@ categories:
 是从以前一直使用的 CSS 预处理器 Stylus 切换成了 SASS，并用上了原版 Bulma 框架。在
 生态上，果然还是 SASS 更胜一筹。
 
-![Bulma.io](/uploads/2019/04/20190421004.png)
+![Bulma.io](../_assets/uploads/2019/04/20190421004.png)
 
 期间学会了几个以前不了解、不常用的 CSS 属性，并应用到了主题中。
 
@@ -80,7 +81,7 @@ categories:
 助我进行构建和部署工作，一直在使用 [Travis CI] 的社区版。静态博客系统通过使用持续
 集成做自动构建部署，真的能省下不少重复劳动。
 
-![旧部署架构](/uploads/2019/04/20190421005.jpg)
+![旧部署架构](../_assets/uploads/2019/04/20190421005.jpg)
 
 旧架构如此的原因是以前部署到 GitHub Pages 上觉得速度不行，同时又不支持自定义域名使
 用 HTTPS，我也有一台闲置的香港 VPS，于是就通过 Webhook 触发 VPS 同步 GitHub Pages
@@ -88,7 +89,7 @@ categories:
 SSL 证书过期（那时还没用 Let's Encrypt）和 VPS 不稳定的原因，就加了层 CloudFlare。
 然后就没管了，一直这样。
 
-![新部署架构](/uploads/2019/04/20190421006.jpg)
+![新部署架构](../_assets/uploads/2019/04/20190421006.jpg)
 
 调整后实际上就是将提供服务的后端从 VPS 迁移到了 [Netlify]。其一是图方便，Netlify
 自动申请 Let's Encrypt 不用自己麻烦在 VPS 上设置，其二是 Netlify 自带 CDN，速度还
@@ -100,7 +101,7 @@ SSL 证书过期（那时还没用 Let's Encrypt）和 VPS 不稳定的原因，
 在 GitHub 仓库中查看构建后的文件的功能，构建后直接推送到 Netlify 上我就看不到构建
 文件和历史变更了。
 
-![Wappalyzer 检查](/uploads/2019/04/20190421007.png)
+![Wappalyzer 检查](../_assets/uploads/2019/04/20190421007.png)
 
 故意加了个假的 Hexo Generator 的 Meta 标签，所以被检测出用 Hexo（大雾）。关于这个
 扩展程序，可以看我之前写的文章《[我都在用些什么 Chrome 扩展程序]》里有介绍。 

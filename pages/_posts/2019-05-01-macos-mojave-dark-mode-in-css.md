@@ -8,7 +8,8 @@ description: >-
   媒体特征（media feature）做到让网页跟随 macOS Mojave 的黑暗模式进行配色自动切换。
 date: 2019-05-01 18:14:40
 updated: 2019-05-01 18:14:40
-cover: /uploads/2019/05/20190501006.png
+assets:
+  cover: ../_assets/uploads/2019/05/20190501006.png
 categories:
   - 技术
 ---
@@ -19,7 +20,7 @@ categories:
 
 <!-- more -->
 
-![Office 365 Dark Mode (Twitter @derek_snook)](/uploads/2019/05/20190501001.png)
+![Office 365 Dark Mode (Twitter @derek_snook)](../_assets/uploads/2019/05/20190501001.png)
 
 利用苹果公司提供的[接口]，各类原生桌面应用程序都开始陆续支持深色模式，可根据 macOS
 用户的系统设置进行换肤，比如 Google Chrome、Microsoft Office 等。
@@ -51,18 +52,18 @@ body {
 受到部分浏览器支持了。可以从 MDN 或者 [Can I Use] 上看到，Firefox 67 以及 Safari
 12.1 开始支持该媒体特征。
 
-![`prefers-color-scheme` 兼容性](/uploads/2019/05/20190501002.png)
+![`prefers-color-scheme` 兼容性](../_assets/uploads/2019/05/20190501002.png)
 
 如果你是 macOS 用户，又正巧使用的是支持该特征的浏览器的话，可以通过切换系统的外观
 色调，查看到我的博客配色跟随系统色调的变化。
 
-![配色跟随系统色调切换而变化](/uploads/2019/05/20190501003.gif)
+![配色跟随系统色调切换而变化](../_assets/uploads/2019/05/20190501003.gif)
 
 除了 Firefox 浏览器之外，也可以用 macOS 系统的 Safari 查看到效果。
 
-![浅色](/uploads/2019/05/20190501004.png)
+![浅色](../_assets/uploads/2019/05/20190501004.png)
 
-![深色](/uploads/2019/05/20190501005.png)
+![深色](../_assets/uploads/2019/05/20190501005.png)
 
 图中的文章见《[总结下博客最近的调整]》。不过其实 `prefers-color-scheme` 只是帮助做
 到随系统自动变化而已，网站的深浅配色系统本身还是要开发者预先设计好。

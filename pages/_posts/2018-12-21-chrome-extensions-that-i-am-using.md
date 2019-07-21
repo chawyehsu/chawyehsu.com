@@ -9,7 +9,8 @@ description: >-
   使用什么服务、以及从事什么工作等等。
 date: 2018-12-21 11:00:17
 updated: 2018-12-21 11:00:17
-cover: /uploads/2018/12/20181225003.png
+assets:
+  cover: ../_assets/uploads/2018/12/20181225003.png
 ---
 
 想不到在 Microsoft Edge 正式发布后的第三年，微软官方宣布了 Edge 将放弃自家的
@@ -37,7 +38,7 @@ Chrome 以来积累到的一些扩展程序和信息，做这么一个盘点，�
 
 ## AcFun HTML5 Player
 
-![AcFun HTML5 Player](/uploads/2018/12/20181216002.png "AcFun HTML5 Player")
+![AcFun HTML5 Player](../_assets/uploads/2018/12/20181216002.png "AcFun HTML5 Player")
 
 Adobe 官方宣布 2020 年停止更新 Flash，Flash 时代的终结终于定上了日程。
 即使没有官宣，从那些日子使用《妈妈再也不用担心我的 MacBook 发热了计划》
@@ -45,11 +46,11 @@ Adobe 官方宣布 2020 年停止更新 Flash，Flash 时代的终结终于定�
 不过，很庆幸 Adobe 能做出这个大好的决策。有些东西，到了被淘汰的时候，
 也就那样了。就如，哪天 A 站原生支持了 HTML5 播放器，这个扩展的寿命也许就……
 
-[![](/uploads/2018/12/20181216001.png)](https://chrome.google.com/webstore/detail/acfun-html5-player/onjihgccojkcmlmlbjmgkcnehdbpbhcf)
+[![](../_assets/uploads/2018/12/20181216001.png)](https://chrome.google.com/webstore/detail/acfun-html5-player/onjihgccojkcmlmlbjmgkcnehdbpbhcf)
 
 ## Checker Plus for Gmail™
 
-![Checker Plus for Gmail™](/uploads/2018/12/20181216003.jpg "Checker Plus for Gmail™")
+![Checker Plus for Gmail™](../_assets/uploads/2018/12/20181216003.jpg "Checker Plus for Gmail™")
 
 无需打开 Gmail 或 Inbox，即可收到桌面邮件通知，方便地查看、收听或删除邮件，
 并且支持多账户。用过这个之后，你就不会再想起 Google 自家提供的很久没有更新的
@@ -57,11 +58,11 @@ Google Mail Checker 扩展了。伟大的邮箱，伟大的软件，伟大的公
 如今还在坚持用 Gmail 的同学，一定不是真爱就是历史数据迁移太麻烦！迫于 Google
 全家桶的问题，我还是保持着 Gmail 的轻微使用。更多的，还是走 Outlook 了……
 
-[![](/uploads/2018/12/20181216001.png)](https://chrome.google.com/webstore/detail/checker-plus-for-gmail/oeopbcgkkoapgobdbedcemjljbihmemj)
+[![](../_assets/uploads/2018/12/20181216001.png)](https://chrome.google.com/webstore/detail/checker-plus-for-gmail/oeopbcgkkoapgobdbedcemjljbihmemj)
 
 ## Cowlevel Steam 增强小能手
 
-![Cowlevel Steam 增强小能手](/uploads/2018/12/20181216004.jpg "Cowlevel Steam 增强小能手")
+![Cowlevel Steam 增强小能手](../_assets/uploads/2018/12/20181216004.jpg "Cowlevel Steam 增强小能手")
 
 > 研发辛苦了，对奶牛关的与steam的结缔有很大的帮助qwq。—— bulong dou
 
@@ -71,11 +72,11 @@ Google Mail Checker 扩展了。伟大的邮箱，伟大的软件，伟大的公
 一句话描述就是“游戏狂热者的分享问答社区”。一个类似知乎但只专注游戏的，更垂直的社区。
 社区里面有不少硬核玩家、游戏从业者，欢迎来找我玩耍：[h404bi - 个人主页 - 奶牛关](https://cowlevel.net/people/h404bi)。
 
-[![](/uploads/2018/12/20181216001.png)](https://chrome.google.com/webstore/detail/cowlevel-steam-%E5%A2%9E%E5%BC%BA%E5%B0%8F%E8%83%BD%E6%89%8B/ccngopikhladacgddbdeegepaenkfkkm)
+[![](../_assets/uploads/2018/12/20181216001.png)](https://chrome.google.com/webstore/detail/cowlevel-steam-%E5%A2%9E%E5%BC%BA%E5%B0%8F%E8%83%BD%E6%89%8B/ccngopikhladacgddbdeegepaenkfkkm)
 
 ## Enhanced Steam
 
-![Enhanced Steam](/uploads/2018/12/20181216005.jpg "Enhanced Steam")
+![Enhanced Steam](../_assets/uploads/2018/12/20181216005.jpg "Enhanced Steam")
 
 第二款跟 Steam 相关的扩展。Chrome 与 Steam 重叠用户的话，这款扩展基本上算是
 “装机必装”的了。这款免费的扩展，为 Steam 网站做了非常多的增强，添加了很多功能，
@@ -93,11 +94,11 @@ Google Mail Checker 扩展了。伟大的邮箱，伟大的软件，伟大的公
 一旦习惯了这个扩展的话，没有扩展支持的情况下打开 Steam 商店页面，就会觉得
 少了很多东西。有 Enhanced Steam 的 Steam 商店页面，才是真正的页面。
 
-[![](/uploads/2018/12/20181216001.png)](https://chrome.google.com/webstore/detail/enhanced-steam/okadibdjfemgnhjiembecghcbfknbfhg)
+[![](../_assets/uploads/2018/12/20181216001.png)](https://chrome.google.com/webstore/detail/enhanced-steam/okadibdjfemgnhjiembecghcbfknbfhg)
 
 ## Feedly Notifier
 
-![Feedly Notifier](/uploads/2018/12/20181216006.jpg "Feedly Notifier")
+![Feedly Notifier](../_assets/uploads/2018/12/20181216006.jpg "Feedly Notifier")
 
 > RSS 已死，Web2.0 已是过去式
 
@@ -117,11 +118,11 @@ Google Mail Checker 扩展了。伟大的邮箱，伟大的软件，伟大的公
 这里我非常推荐读者能去阅读 Platy Hsu 写的两篇关于 RSS 的文章：《[论 RSS 的「复兴」]》
 与《[RSS 服务对比评测]》。特别是前一篇，很有深度。
 
-[![](/uploads/2018/12/20181216001.png)](https://chrome.google.com/webstore/detail/feedly-notifier/egikgfbhipinieabdmcpigejkaomgjgb)
+[![](../_assets/uploads/2018/12/20181216001.png)](https://chrome.google.com/webstore/detail/feedly-notifier/egikgfbhipinieabdmcpigejkaomgjgb)
 
 ## Free Download Manager
 
-![Free Download Manager](/uploads/2018/12/20181216007.jpg "Free Download Manager")
+![Free Download Manager](../_assets/uploads/2018/12/20181216007.jpg "Free Download Manager")
 
 IDM（全称“Internet Download Manager”）确实更胜一筹吧。但胜在 FDM 是免费软件。
 其实很忏愧在日常生活中自己实在做不到完全去盗版化，使用 IDM 大概也有两三年时间，
@@ -131,21 +132,21 @@ IDM（全称“Internet Download Manager”）确实更胜一筹吧。但胜在 
 而且，FDM 支持 WIndows 与 macOS 双平台，这也是另一个优点。由于需要监听浏览器的
 下载事件，所以要安装这个扩展程序，跟 IDM 一样。
 
-[![](/uploads/2018/12/20181216001.png)](https://chrome.google.com/webstore/detail/free-download-manager/ahmpjcflkgiildlgicmcieglgoilbfdp)
+[![](../_assets/uploads/2018/12/20181216001.png)](https://chrome.google.com/webstore/detail/free-download-manager/ahmpjcflkgiildlgicmcieglgoilbfdp)
 
 ## Full Page Screen Capture
 
-![Full Page Screen Capture](/uploads/2018/12/20181216008.jpg "Full Page Screen Capture")
+![Full Page Screen Capture](../_assets/uploads/2018/12/20181216008.jpg "Full Page Screen Capture")
 
 用过好几个全网页截图工具，还是觉得这个来的顺手。不过这个只支持一键截全网页，
 没有截局部的功能。截局部的话，有太多替代软件了，Windows 自带的 Snipping Tool、
 QQ 的截图等等。Full Page Screen Capture 是开源的，源码托管在 GitHub 上。
 
-[![](/uploads/2018/12/20181216001.png)](https://chrome.google.com/webstore/detail/full-page-screen-capture/fdpohaocaechififmbbbbbknoalclacl)
+[![](../_assets/uploads/2018/12/20181216001.png)](https://chrome.google.com/webstore/detail/full-page-screen-capture/fdpohaocaechififmbbbbbknoalclacl)
 
 ## Holmes
 
-![Holmes](/uploads/2018/12/20181216009.png "Holmes")
+![Holmes](../_assets/uploads/2018/12/20181216009.png "Holmes")
 
 觉得 Holmes 大概是从前文说到这里，第一款相对来说很实用但是却又比较不出名的扩展。
 这个小而美的扩展程序，只提供了一个非常提升效率的功能：在地址栏快速搜索书签。
@@ -153,11 +154,11 @@ QQ 的截图等等。Full Page Screen Capture 是开源的，源码托管在 Git
 利用模糊搜索功能可以从整个 Chrome Bookmark 中快速找出你想要的书签并按下回车打开。
 美中不足的地方是不支持对中文搜索，众所周知的中文分词问题，外国人开发的扩展在所难免。
 
-[![](/uploads/2018/12/20181216001.png)](https://chrome.google.com/webstore/detail/holmes/gokficnebmomagijbakglkcmhdbchbhn)
+[![](../_assets/uploads/2018/12/20181216001.png)](https://chrome.google.com/webstore/detail/holmes/gokficnebmomagijbakglkcmhdbchbhn)
 
 ## HTTPS Everywhere
 
-![HTTPS Everywhere](/uploads/2018/12/20181216010.png "HTTPS Everywhere")
+![HTTPS Everywhere](../_assets/uploads/2018/12/20181216010.png "HTTPS Everywhere")
 
 从 Chrome 之前的给使用 HTTPS 的网站加上绿色安全小绿锁，到现在把使用 HTTPS
 的网站当作正常网站，并把使用 HTTP 的网站标为不安全网站可以看出，Google 正在
@@ -165,41 +166,41 @@ QQ 的截图等等。Full Page Screen Capture 是开源的，源码托管在 Git
 HTTPS Everywhere，能 HTTPS 的全都给我 HTTPS！当然，在“HTTPS 不发达的国内”，
 强制 HTTPS 总会时不时遇到各种毛病，如某段时期微博登录页的无限重定向 HTTP 云云。
 
-[![](/uploads/2018/12/20181216001.png)](https://chrome.google.com/webstore/detail/https-everywhere/gcbommkclmclpchllfjekcdonpmejbdp)
+[![](../_assets/uploads/2018/12/20181216001.png)](https://chrome.google.com/webstore/detail/https-everywhere/gcbommkclmclpchllfjekcdonpmejbdp)
 
 ## Imagus
 
-![Imagus](/uploads/2018/12/20181216020.png "Imagus")
+![Imagus](../_assets/uploads/2018/12/20181216020.png "Imagus")
 
 这大概是 Chrome 上最好用的辅助看图扩展程序了。只需要将鼠标悬停在缩略图上，
 就能放大显示缩略图背后的原始图片。拥有对接近 300 个网站的筛选规则支持，
 而且即使像本人博客这样没有预设规则的站点，常见的缩略图形式也是能识别到的。
 装上这个扩展后，渐渐就会越来越少地右键审查元素翻代码找原始图片了。
 
-[![](/uploads/2018/12/20181216001.png)](https://chrome.google.com/webstore/detail/imagus/immpkjjlgappgfkkfieppnmlhakdmaab)
+[![](../_assets/uploads/2018/12/20181216001.png)](https://chrome.google.com/webstore/detail/imagus/immpkjjlgappgfkkfieppnmlhakdmaab)
 
 ## JavaScript and CSS Code Beautifier
 
-![JavaScript and CSS Code Beautifier](/uploads/2018/12/20181216011.png "JavaScript and CSS Code Beautifier")
+![JavaScript and CSS Code Beautifier](../_assets/uploads/2018/12/20181216011.png "JavaScript and CSS Code Beautifier")
 
 在 Chrome 上直接访问混淆压缩的 JS、CSS 文件时，能对代码进行格式化并且高亮。
 能更好地查看代码逻辑，在理解网站前端逻辑、样式设计时比较有用。特别有利于扒皮党（雾）。
 
-[![](/uploads/2018/12/20181216001.png)](https://chrome.google.com/webstore/detail/javascript-and-css-code-b/iiglodndmmefofehaibmaignglbpdald)
+[![](../_assets/uploads/2018/12/20181216001.png)](https://chrome.google.com/webstore/detail/javascript-and-css-code-b/iiglodndmmefofehaibmaignglbpdald)
 
 ## JSON Formatter
 
-![JSON Formatter](/uploads/2018/12/20181216012.png "JSON Formatter")
+![JSON Formatter](../_assets/uploads/2018/12/20181216012.png "JSON Formatter")
 
 > Makes JSON easy to read. Open source.
 
 打开 JSON API 或者 JSON 文件时可以更方便阅读，支持格式化切换、折叠、链接跳转。
 
-[![](/uploads/2018/12/20181216001.png)](https://chrome.google.com/webstore/detail/json-formatter/bcjindcccaagfpapjjmafapmmgkkhgoa)
+[![](../_assets/uploads/2018/12/20181216001.png)](https://chrome.google.com/webstore/detail/json-formatter/bcjindcccaagfpapjjmafapmmgkkhgoa)
 
 ## minerBlock
 
-![minerBlock](/uploads/2018/12/20181216013.jpg "minerBlock")
+![minerBlock](../_assets/uploads/2018/12/20181216013.jpg "minerBlock")
 
 加密货币近些年来真的是火热得不行，特别是去年比特币一路高歌猛进的时候。
 在网站上挂 JS 利用访问用户的计算机资源进行挖矿，究其本身其实是比较难评判的。
@@ -208,11 +209,11 @@ HTTPS Everywhere，能 HTTPS 的全都给我 HTTPS！当然，在“HTTPS 不发
 确实难以让人接受。这个扩展也就是防这一类的情况吧，防不胜防最为致命。
 另外该扩展本身是开源的，大概也是免除监守自盗的情况。
 
-[![](/uploads/2018/12/20181216001.png)](https://chrome.google.com/webstore/detail/minerblock/emikbbbebcdfohonlaifafnoanocnebl)
+[![](../_assets/uploads/2018/12/20181216001.png)](https://chrome.google.com/webstore/detail/minerblock/emikbbbebcdfohonlaifafnoanocnebl)
 
 ## Minimal New Tab Clock
 
-![Minimal New Tab Clock](/uploads/2018/12/20181216014.png "Minimal New Tab Clock")
+![Minimal New Tab Clock](../_assets/uploads/2018/12/20181216014.png "Minimal New Tab Clock")
 
 > 十位 Chrome 用户中有八位用 Infinity 新标签，一位用 Chrome 自带新标签，
 > 剩下一位用 Minimal New Tab Clock —— 胡说八道
@@ -224,21 +225,21 @@ HTTPS Everywhere，能 HTTPS 的全都给我 HTTPS！当然，在“HTTPS 不发
 「Minimal New Tab Clock」。只有一个功能，在新标签显示当前时间。只能换背景色，
 不能换图片背景，没有云同步，除了显示时间啥都没有。
 
-[![](/uploads/2018/12/20181216001.png)](https://chrome.google.com/webstore/detail/minimal-new-tab-clock/impmanfocmgfodfbnhbmkkonnpcogfak)
+[![](../_assets/uploads/2018/12/20181216001.png)](https://chrome.google.com/webstore/detail/minimal-new-tab-clock/impmanfocmgfodfbnhbmkkonnpcogfak)
 
 ## OctoLinker
 
-![OctoLinker](/uploads/2018/12/20181216015.jpg "OctoLinker")
+![OctoLinker](../_assets/uploads/2018/12/20181216015.jpg "OctoLinker")
 
 一款 GitHub 增强扩展，可以提高在 GitHub 上浏览查阅代码的效率。功能就是能
 为指定语言的模块加载语句（比如 `include`、`require` 与 `import`）加入跳转链接，
 点击链接可以跳转到引用的文件、依赖文件的仓库或者外部网站。
 
-[![](/uploads/2018/12/20181216001.png)](https://chrome.google.com/webstore/detail/octolinker/jlmafbaeoofdegohdhinkhilhclaklkp)
+[![](../_assets/uploads/2018/12/20181216001.png)](https://chrome.google.com/webstore/detail/octolinker/jlmafbaeoofdegohdhinkhilhclaklkp)
 
 ## Octotree
 
-![Octotree](/uploads/2018/12/20181216016.png "Octotree")
+![Octotree](../_assets/uploads/2018/12/20181216016.png "Octotree")
 
 这个扩展我想只要是常访问 GitHub 的都会有使用的，因为它实在是太能提升效率了。
 将仓库以目录树的形式展示出来，比起 GitHub 原本的形式，在目录之间切换浏览真的
@@ -246,39 +247,39 @@ HTTPS Everywhere，能 HTTPS 的全都给我 HTTPS！当然，在“HTTPS 不发
 OctoLinker 不会对从 Octotree 的目录树中点击打开的文件进行识别，
 不会为模块加载语句添加跳转链接。
 
-[![](/uploads/2018/12/20181216001.png)](https://chrome.google.com/webstore/detail/octotree/bkhaagjahfmjljalopjnoealnfndnagc)
+[![](../_assets/uploads/2018/12/20181216001.png)](https://chrome.google.com/webstore/detail/octotree/bkhaagjahfmjljalopjnoealnfndnagc)
 
 ## Proxy SwitchyOmega
 
-![Proxy SwitchyOmega](/uploads/2018/12/20181216017.png "Proxy SwitchyOmega")
+![Proxy SwitchyOmega](../_assets/uploads/2018/12/20181216017.png "Proxy SwitchyOmega")
 
 这个基本上人手一份的知名扩展，就不多做说明了吧。
 
-[![](/uploads/2018/12/20181216001.png)](https://chrome.google.com/webstore/detail/proxy-switchyomega/padekgcemlokbadohgkifijomclgjgif)
+[![](../_assets/uploads/2018/12/20181216001.png)](https://chrome.google.com/webstore/detail/proxy-switchyomega/padekgcemlokbadohgkifijomclgjgif)
 
 ## Save to Pocket
 
-![Save to Pocket](/uploads/2018/12/20181216018.jpg "Save to Pocket")
+![Save to Pocket](../_assets/uploads/2018/12/20181216018.jpg "Save to Pocket")
 
 将来不及阅读或者暂时不想阅读的网页内容，一键保存到 [Pocket](https://getpocket.com/)
 上云同步，然后可以在其它不同的设备上继续阅读。不过因为感觉访问不太稳定的样子，平时使用比较少。
 
-[![](/uploads/2018/12/20181216001.png)](https://chrome.google.com/webstore/detail/save-to-pocket/niloccemoadcdkdjlinkgdfekeahmflj)
+[![](../_assets/uploads/2018/12/20181216001.png)](https://chrome.google.com/webstore/detail/save-to-pocket/niloccemoadcdkdjlinkgdfekeahmflj)
 
 ## Steam Database
 
-![Steam Database](/uploads/2018/12/20181216019.jpg "Steam Database")
+![Steam Database](../_assets/uploads/2018/12/20181216019.jpg "Steam Database")
 
 这是我安装使用的跟 Steam 有关的第三个也是最后一个扩展。主要是在 Steam 
 页面上增加了一些跟 [SteamDB.info](https://steamdb.info/) 网站有关的扩展功能。
 可以快速查看游戏对应的 SubID、历史价格变动、游戏最近更新时间等等，还在 Steam
 的库存页增加了快速出售的按钮。都是一些比较实用的扩展功能，让你更方便更自信地剁手。
 
-[![](/uploads/2018/12/20181216001.png)](https://chrome.google.com/webstore/detail/steam-database/kdbmhfkmnlmbkgbabkdealhhbfhlmmon)
+[![](../_assets/uploads/2018/12/20181216001.png)](https://chrome.google.com/webstore/detail/steam-database/kdbmhfkmnlmbkgbabkdealhhbfhlmmon)
 
 ## Stylus
 
-![Stylus](/uploads/2018/12/20181216021.png "Stylus")
+![Stylus](../_assets/uploads/2018/12/20181216021.png "Stylus")
 
 此前一直用着 Stylish，后面爆出该扩展偷偷窃取上传用户的浏览历史，而且被 Chrome
 下架。虽然感觉自己不少信息被卖过了，但是对于这种偷偷摸摸的不干净行为还是反感的。
@@ -288,11 +289,11 @@ OctoLinker 不会对从 Octotree 的目录树中点击打开的文件进行识�
 因为严重依赖这个样式，所以样式管理扩展还是得安装一个使用。扁平化后确实很好看，
 看前面 Octotree 的实际截图就知道了，私家珍藏强烈推荐。
 
-[![](/uploads/2018/12/20181216001.png)](https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne)
+[![](../_assets/uploads/2018/12/20181216001.png)](https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne)
 
 ## Tampermonkey
 
-![Tampermonkey](/uploads/2018/12/20181216022.png "Tampermonkey")
+![Tampermonkey](../_assets/uploads/2018/12/20181216022.png "Tampermonkey")
 
 「油猴」扩展本身就不多介绍了，知名扩展。说说我安装在用几个脚本吧。
 
@@ -304,11 +305,11 @@ OctoLinker 不会对从 Octotree 的目录树中点击打开的文件进行识�
 时用的，之后感觉对我没什么用了。平时很少追番，国家队大好
 开头最后只剩下 XX:me 的两张 CD[^1] 还能让我常常听一听。
 
-[![](/uploads/2018/12/20181216001.png)](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo)
+[![](../_assets/uploads/2018/12/20181216001.png)](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo)
 
 ## Text Mode
 
-![Text Mode](/uploads/2018/12/20181216023.jpg "Text Mode")
+![Text Mode](../_assets/uploads/2018/12/20181216023.jpg "Text Mode")
 
 无图模式！而且是真的无图，启用扩展后，会直接将网页中的图片加载直接 Block 掉，
 不是图片加载了才用色块填充。这样就有个使用场景，如果应急情况笔记本电脑连上了
@@ -319,11 +320,11 @@ OctoLinker 不会对从 Octotree 的目录树中点击打开的文件进行识�
 保留正文的图片。有这方便更深的需求的话，据说国产扩展「简悦」会是一个不错的选择，
 有机会找个时间我也试试看。
 
-[![](/uploads/2018/12/20181216001.png)](https://chrome.google.com/webstore/detail/text-mode/adelhekhakakocomdfejiipdnaadiiib)
+[![](../_assets/uploads/2018/12/20181216001.png)](https://chrome.google.com/webstore/detail/text-mode/adelhekhakakocomdfejiipdnaadiiib)
 
 ## uBlock Origin
 
-![uBlock Origin](/uploads/2018/12/20181216024.jpg "uBlock Origin")
+![uBlock Origin](../_assets/uploads/2018/12/20181216024.jpg "uBlock Origin")
 
 我以前也是 AdBlock/AdBlock Plus 的用户，后来切换成了 uBlock Origin。切换的原因
 并不只是 uBlock Origin 比起其它广告过滤扩展在性能上面有优势[^2]，而且其实我也没
@@ -336,28 +337,28 @@ OctoLinker 不会对从 Octotree 的目录树中点击打开的文件进行识�
 除了 uBlock Origin 为我默认开启的一系列规则列表外，我只多增加了一个自定义规则，
 CJX 的「去自我推广列表规则」：[CJX's Annoyance List]
 
-[![](/uploads/2018/12/20181216001.png)](https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm)
+[![](../_assets/uploads/2018/12/20181216001.png)](https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm)
 
 ## v2ex plus
 
-![v2ex plus](/uploads/2018/12/20181216025.jpg "v2ex plus")
+![v2ex plus](../_assets/uploads/2018/12/20181216025.jpg "v2ex plus")
 
 V 站还是一个很不错的地方的，日常逛逛摸摸鱼。发现好几个朋友同事都有浏览 V2EX……
 v2ex plus 确实是一款很好用的 V2EX 扩展，对话详情、插入表情图片等都是很好的功能。
 
-[![](/uploads/2018/12/20181216001.png)](https://chrome.google.com/webstore/detail/v2ex-plus/daeclijmnojoemooblcbfeeceopnkolo)
+[![](../_assets/uploads/2018/12/20181216001.png)](https://chrome.google.com/webstore/detail/v2ex-plus/daeclijmnojoemooblcbfeeceopnkolo)
 
 ## Vue.js devtools
 
-![Vue.js devtools](/uploads/2018/12/20181216026.jpg "Vue.js devtools")
+![Vue.js devtools](../_assets/uploads/2018/12/20181216026.jpg "Vue.js devtools")
 
 Vue.js 开发调试神器，就这样。React 暂时没啃下，还得靠 Vue 活着。不比较，都重要。
 
-[![](/uploads/2018/12/20181216001.png)](https://chrome.google.com/webstore/detail/vuejs-devtools/nhdogjmejiglipccpnnnanhbledajbpd)
+[![](../_assets/uploads/2018/12/20181216001.png)](https://chrome.google.com/webstore/detail/vuejs-devtools/nhdogjmejiglipccpnnnanhbledajbpd)
 
 ## Wappalyzer
 
-![Wappalyzer](/uploads/2018/12/20181216027.jpg "Wappalyzer")
+![Wappalyzer](../_assets/uploads/2018/12/20181216027.jpg "Wappalyzer")
 
 这是我安装的这么多个扩展程序中，使用率比较高一个。Wappalyzer 是一款非常实用的
 网站技术分析扩展，通过它可以识别一个网站是以什么架构的，所用到的前后端技术栈等信息。
@@ -380,29 +381,29 @@ Vue.js 开发调试神器，就这样。React 暂时没啃下，还得靠 Vue �
 Hexo 的 after generator 钩子在页面生成时将特征（不只是 meta 一个特征）去掉，
 这样就不会被判断到了。
 
-[![](/uploads/2018/12/20181216001.png)](https://chrome.google.com/webstore/detail/wappalyzer/gppongmhjkpfnbhagpmjfkannfbllamg)
+[![](../_assets/uploads/2018/12/20181216001.png)](https://chrome.google.com/webstore/detail/wappalyzer/gppongmhjkpfnbhagpmjfkannfbllamg)
 
 ## 划词翻译
 
-![划词翻译](/uploads/2018/12/20181216028.jpg "划词翻译")
+![划词翻译](../_assets/uploads/2018/12/20181216028.jpg "划词翻译")
 
 后悔大学时期没把英语往深里去学，只得半桶水。现在接触越多，才会发现语言愈加重要，
 亏我还是外语大学毕业的。「划词翻译」是我使用时间比较久的一款扩展。到如今 Chrome
 与 Firefox 双修的我，还是对在 Firefox 上没有一款能与划词翻译媲美的扩展而感到难受。
 
-[![](/uploads/2018/12/20181216001.png)](https://chrome.google.com/webstore/detail/%E5%88%92%E8%AF%8D%E7%BF%BB%E8%AF%91/ikhdkkncnoglghljlkmcimlnlhkeamad)
+[![](../_assets/uploads/2018/12/20181216001.png)](https://chrome.google.com/webstore/detail/%E5%88%92%E8%AF%8D%E7%BF%BB%E8%AF%91/ikhdkkncnoglghljlkmcimlnlhkeamad)
 
 ## 哔哩哔哩助手：bilibili.com 综合辅助扩展
 
-![哔哩哔哩助手：bilibili.com 综合辅助扩展](/uploads/2018/12/20181216029.png "哔哩哔哩助手：bilibili.com 综合辅助扩展")
+![哔哩哔哩助手：bilibili.com 综合辅助扩展](../_assets/uploads/2018/12/20181216029.png "哔哩哔哩助手：bilibili.com 综合辅助扩展")
 
 B 站增强扩展，有这款就够了。好用！啾咕咕www 牛掰。AB 站双修，缺 B 乐还在就好。
 
-[![](/uploads/2018/12/20181216001.png)](https://chrome.google.com/webstore/detail/%E5%93%94%E5%93%A9%E5%93%94%E5%93%A9%E5%8A%A9%E6%89%8B%EF%BC%9Abilibilicom-%E7%BB%BC%E5%90%88%E8%BE%85%E5%8A%A9%E6%89%A9%E5%B1%95/kpbnombpnpcffllnianjibmpadjolanh)
+[![](../_assets/uploads/2018/12/20181216001.png)](https://chrome.google.com/webstore/detail/%E5%93%94%E5%93%A9%E5%93%94%E5%93%A9%E5%8A%A9%E6%89%8B%EF%BC%9Abilibilicom-%E7%BB%BC%E5%90%88%E8%BE%85%E5%8A%A9%E6%89%A9%E5%B1%95/kpbnombpnpcffllnianjibmpadjolanh)
 
 ## 眼不见心不烦（新浪微博）
 
-![眼不见心不烦（新浪微博）](/uploads/2018/12/20181216030.png "眼不见心不烦（新浪微博）")
+![眼不见心不烦（新浪微博）](../_assets/uploads/2018/12/20181216030.png "眼不见心不烦（新浪微博）")
 
 用了很久的一款扩展了。看了下虽然扩展有近一年没有更新过了，但是已有的功能还是都
 能用。屏蔽掉一些不想看到的信息、模块，偶尔打开微博看看关注的人发的内容还是挺愉快的。
@@ -415,7 +416,7 @@ B 站增强扩展，有这款就够了。好用！啾咕咕www 牛掰。AB 站�
 微博已经是一个成熟型的平台，纵使有感觉到周边的人对比以前都不太使用微博，它也是一款
 经历了十年风雨的、稳定的产品吧。一些人还是会偶尔上去逛逛的。
 
-[![](/uploads/2018/12/20181216001.png)](https://chrome.google.com/webstore/detail/%E7%9C%BC%E4%B8%8D%E8%A7%81%E5%BF%83%E4%B8%8D%E7%83%A6%EF%BC%88%E6%96%B0%E6%B5%AA%E5%BE%AE%E5%8D%9A%EF%BC%89/aognaapdfnnldnjglanfbbklaakbpejm)
+[![](../_assets/uploads/2018/12/20181216001.png)](https://chrome.google.com/webstore/detail/%E7%9C%BC%E4%B8%8D%E8%A7%81%E5%BF%83%E4%B8%8D%E7%83%A6%EF%BC%88%E6%96%B0%E6%B5%AA%E5%BE%AE%E5%8D%9A%EF%BC%89/aognaapdfnnldnjglanfbbklaakbpejm)
 
 ## 结语
 
