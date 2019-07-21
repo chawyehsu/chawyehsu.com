@@ -152,7 +152,7 @@ module.exports = {
       }
     },
     {
-      resolve: './packages/saber-plugin-feed',
+      resolve: 'saber-plugin-feed',
       options: {
         atomFeed: '/feed/atom.xml',
         jsonFeed: '/feed/index.json'
