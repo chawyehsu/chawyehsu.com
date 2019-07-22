@@ -41,24 +41,31 @@ export default ({ Vue }) => {
 
       // LazyLoad enabled
       if (getOption('lazyLoad')) {
+        // Placeholder
+        let loader = lazyOptions.placeholder ||
+                     options.placeholder ||
+                     'data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs='
+        const blendIn = getOption('blendIn')
+
         // Responsive images disabled
         if (typeof this.src === 'string') {
           return h('img', {
-            attrs: { ...$attrs, 'data-src': this.src }
+            attrs: {
+              ...$attrs,
+              src: this.src,
+              srcset: loader,
+              'data-srcset': this.src
+            },
+            class: { lozad, [styles.blendIn]: blendIn }
           })
         }
 
         // Responsive images enabled
         // See: https://github.com/herrstucki/responsive-loader#usage
         const { width, src, srcSet, placeholder } = this.src
-
-        // Placeholder
-        const loader =
-          (getOption('placeholder') && placeholder) ||
-          lazy.placeholder ||
-          options.placeholder
-
-        const blendIn = getOption('blendIn')
+        if (getOption('placeholder') && placeholder) {
+          loader = placeholder
+        }
 
         return h('img', {
           attrs: {
