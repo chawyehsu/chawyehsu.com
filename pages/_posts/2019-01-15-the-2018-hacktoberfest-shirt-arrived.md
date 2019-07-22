@@ -11,6 +11,8 @@ date: 2019-01-15 02:19:44
 updated: 2019-01-15 02:19:44
 assets:
   cover: ../_assets/uploads/2019/01/20190114001.png
+categories:
+  - 杂谈
 ---
 
 ![Get Your Pull-Request Merged!](../_assets/uploads/2019/01/20190114002.jpg "Get Your Pull-Request Merged!")

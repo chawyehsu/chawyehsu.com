@@ -11,6 +11,8 @@ date: 2018-12-21 11:00:17
 updated: 2018-12-21 11:00:17
 assets:
   cover: ../_assets/uploads/2018/12/20181225003.png
+categories:
+  - 杂谈
 ---
 
 想不到在 Microsoft Edge 正式发布后的第三年，微软官方宣布了 Edge 将放弃自家的

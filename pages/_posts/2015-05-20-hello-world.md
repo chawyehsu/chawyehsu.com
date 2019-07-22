@@ -5,6 +5,8 @@ date: 2015-05-20 20:28:19
 updated: 2015-09-09 21:32:27
 assets:
   cover: ../_assets/uploads/2018/12/20181225014.png
+categories:
+  - 杂谈
 ---
 
 ~~欢迎回到地球。~~

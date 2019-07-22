@@ -5,6 +5,8 @@ date: 2015-09-20 17:28:19
 updated: 2015-09-20 17:28:19
 assets:
   cover: ../_assets/uploads/2018/12/20181225012.png
+categories:
+  - 技术
 ---
 入坑 Mac OS X，写点 note (nonsense) 以备玩坏系统重装时翻查。
 

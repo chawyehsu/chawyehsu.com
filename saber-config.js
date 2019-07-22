@@ -168,7 +168,8 @@ module.exports = {
         },
         categoriesMap: {
           '数码': 'digital',
-          '技术': 'technology'
+          '技术': 'technology',
+          '杂谈': 'uncategorized'
         }
       }
     },

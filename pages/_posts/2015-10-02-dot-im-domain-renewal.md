@@ -5,6 +5,8 @@ date: 2015-10-02 22:07:48
 updated: 2015-10-05 14:30:54
 assets:
   cover: ../_assets/uploads/2018/12/20181225011.png
+categories:
+  - 杂谈
 ---
 
 去年十月，也不知道是哪根经出错了，剁了个 .im 域名。在域名怪兽买入的，当时 checkout 时才知道仅支持 CC 及 CC through Paypal 付款。

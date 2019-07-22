@@ -10,6 +10,8 @@ description: >-
   但自那以后他一直都很沉默。本文是一篇关于 notch 的人物访谈，试图了解 notch 为什么离开等内容。
 assets:
   cover: ../_assets/uploads/2018/12/20181225006.png
+categories:
+  - 杂谈
 ---
 
 ## 译者序
