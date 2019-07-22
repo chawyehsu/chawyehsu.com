@@ -2,32 +2,32 @@
 <?xml-stylesheet type="text/xsl" href="/sitemap.xsl"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-    <loc>https://www.h404bi.com/blog/category/digital</loc>
-    <lastmod>2019-07-21T16:27:39.250Z</lastmod>
+    <loc>https://www.h404bi.com/blog/category/technology</loc>
+    <lastmod>2019-07-22T03:16:45.472Z</lastmod>
         <priority>0.8</priority>
         <changefreq>always</changefreq>
   </url>
     <url>
-    <loc>https://www.h404bi.com/blog/category/technology</loc>
-    <lastmod>2019-07-21T16:27:39.249Z</lastmod>
+    <loc>https://www.h404bi.com/blog/category/digital</loc>
+    <lastmod>2019-07-22T03:16:45.472Z</lastmod>
         <priority>0.8</priority>
         <changefreq>always</changefreq>
   </url>
     <url>
     <loc>https://www.h404bi.com/blog</loc>
-    <lastmod>2019-07-21T16:26:55.643Z</lastmod>
+    <lastmod>2019-07-22T03:16:03.604Z</lastmod>
         <priority>1</priority>
         <changefreq>always</changefreq>
   </url>
     <url>
     <loc>https://www.h404bi.com/</loc>
-    <lastmod>2019-07-21T16:26:55.643Z</lastmod>
+    <lastmod>2019-07-22T03:16:03.604Z</lastmod>
         <priority>0.8</priority>
         <changefreq>always</changefreq>
   </url>
     <url>
     <loc>https://www.h404bi.com/blog/page/2</loc>
-    <lastmod>2019-07-21T16:26:55.643Z</lastmod>
+    <lastmod>2019-07-22T03:16:03.604Z</lastmod>
         <priority>1</priority>
         <changefreq>always</changefreq>
   </url>
