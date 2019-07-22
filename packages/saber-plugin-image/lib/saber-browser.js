@@ -41,11 +41,15 @@ export default ({ Vue }) => {
 
       // LazyLoad enabled
       if (getOption('lazyLoad')) {
-        // Placeholder
-        let loader = lazyOptions.placeholder ||
-                     options.placeholder ||
-                     'data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs='
+        // BlendIn effect
         const blendIn = getOption('blendIn')
+
+        // Default lazyload placeholder
+        let loader = 'data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs='
+
+        if (getOption('placeholder') && typeof lazyOptions.placeholder === 'string') {
+          loader = lazyOptions.placeholder
+        }
 
         // Responsive images disabled
         if (typeof this.src === 'string') {
@@ -58,26 +62,27 @@ export default ({ Vue }) => {
             },
             class: { lozad, [styles.blendIn]: blendIn }
           })
-        }
+        } else {
+          // Responsive images enabled
+          // See: https://github.com/herrstucki/responsive-loader#usage
+          const { width, src, srcSet, placeholder } = this.src
 
-        // Responsive images enabled
-        // See: https://github.com/herrstucki/responsive-loader#usage
-        const { width, src, srcSet, placeholder } = this.src
-        if (getOption('placeholder') && placeholder) {
-          loader = placeholder
-        }
+          if (getOption('placeholder') && placeholder) {
+            loader = placeholder
+          }
 
-        return h('img', {
-          attrs: {
-            ...$attrs,
-            src,
-            srcset: loader,
-            'data-srcset': srcSet,
-            width,
-            height: 'auto'
-          },
-          class: { lozad, [styles.blendIn]: blendIn }
-        })
+          return h('img', {
+            attrs: {
+              ...$attrs,
+              src,
+              srcset: loader,
+              'data-srcset': srcSet,
+              width,
+              height: 'auto'
+            },
+            class: { lozad, [styles.blendIn]: blendIn }
+          })
+        }
       // lazyLoad disabled
       } else {
         // Responsive images disabled
