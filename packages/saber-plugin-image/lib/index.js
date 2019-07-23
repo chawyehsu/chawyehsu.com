@@ -47,7 +47,7 @@ exports.apply = (api, options = {}) => {
                     qs = require('querystring').parse(qs)
                     Object.keys(qs).forEach(key => {
                       if (qs[key] === 'true' || qs[key] === 'false') {
-                        qs[key] = Boolean(qs[key])
+                        qs[key] = JSON.parse(qs[key])
                       }
                     })
                     child.attrSet('data-lazy', JSON.stringify(qs))
