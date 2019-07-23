@@ -4,13 +4,13 @@ title: Links
 keywords: links
 description: Links page of Chawye Hsu's Blog
 date: 2015-05-20
-updated: 2019-04-18
+updated: 2019-07-23
 comments: false
 ---
 
-我收纳的一些博客。有单链所以不能算是友链，所以没有接收所谓的**友链申请**。
-不过如果你实在有意愿，还是可以前往我博客的[源码仓库]，找到并编辑
-[`pages/links.md`] 文件增加你的链接，然后发个拉取请求，我会视情况是否合并添加。
+我收纳的一些博客站点。大多数是单链所以不算是友链页面，也就没有所谓的**友链申请**。
+不过如果你实在有意愿，还是可以前往我博客的[源码仓库]，找到并编辑 `pages/links.md`
+文件增加你的链接，然后发个拉取请求，我会回访后视情况是否合并添加。
 
  - [Kai](https://kclu.net) - 开开，真是怀念那会儿咱们做字幕组的时光呀
  - [O3OR](http://o3or.com) - 以前用 Technetcal 主机时的邻居
@@ -22,6 +22,6 @@ comments: false
  - [庶民样本](https://egoist.moe) - So cool, EGOIST. I meant EGOIST
  - [JUST LEPTURE](https://lepture.com)
  - [BLOG @ GIUEM](https://www.giuem.com)
+ - [Blessing Studio](https://blessing.studio) - 第三方 Minecraft 皮肤站 BSS 作者
 
 [源码仓库]: https://github.com/h404bi/www.h404bi.com
-[`pages/links.md`]: https://github.com/h404bi/www.h404bi.com/blob/master/pages/links.md
