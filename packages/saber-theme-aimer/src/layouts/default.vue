@@ -109,7 +109,7 @@ export default {
         },
         {
           property: 'og:image',
-          content: `${this.$siteConfig.url}${this.page.attributes.cover}`
+          content: `${this.$siteConfig.url}${this.page.attributes.assets.cover}`
         },
         {
           property: 'og:type',
@@ -129,7 +129,7 @@ export default {
         },
         {
           property: 'twitter:image:src',
-          content: `${this.$siteConfig.url}${this.page.attributes.cover}`
+          content: `${this.$siteConfig.url}${this.page.attributes.assets.cover}`
         }
       ]
     }
