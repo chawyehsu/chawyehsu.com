@@ -62,8 +62,9 @@ $ yarn dev
 
 ## License
 
-Unless otherwise noted:  
-1. All content/documents in [`pages`](pages) are licensed under the [CC0](https://creativecommons.org/publicdomain/zero/1.0/) license, and given to [Public Domain](https://en.wikipedia.org/wiki/Public_domain).  
-2. All content/assets in [`static/uploads`](static/uploads) are licensed under the [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) license.  
-3. All other content/codes are licensed under the [MIT](https://opensource.org/licenses/MIT) license.  
-4. Please contact h404bi@outlook.com if you have any questions about the license.
+**Unless otherwise noted**:  
+1. All my blog posts **text** content in [`pages/_posts`](_posts) are licensed under the [CC0](https://creativecommons.org/publicdomain/zero/1.0/) license, and given to [Public Domain](https://en.wikipedia.org/wiki/Public_domain).  
+2. All my blog posts **assets** content in [`pages/_assets`](pages/_assets) are licensed under the [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) license.  
+3. All other **codes** content in this repository are licensed under the [MIT](https://opensource.org/licenses/MIT) license.  
+4. Other not covered content should be copyrighted by default, do not use it without my permission.  
+5. Please contact h404bi@outlook.com if you have any questions about the license.
