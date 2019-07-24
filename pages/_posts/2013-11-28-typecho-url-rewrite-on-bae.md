@@ -18,7 +18,7 @@ app.conf肯定不行，博猪又懒得学那啥BAE的rewrite规则。
 真是喜出望外啊！！果断拿来引用！！效果很好！马上就能启用地址重写了！
 伪静态成功！Yeah~~ 附上app.conf的内容：
 
-```conf
+``` apacheconf
 handlers:
   - expire : .jpg modify 10 years
   - expire : .swf modify 10 years

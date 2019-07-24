@@ -181,6 +181,9 @@ module.exports = {
       }
     },
     {
+      resolve: 'saber-plugin-prismjs'
+    },
+    {
       resolve: 'saber-plugin-sitemap',
       options: {
         template: './sitemap.xml'

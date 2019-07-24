@@ -41,17 +41,17 @@ Geek 们也生产出各式各样的工具以贴合他们的 \*nix 使用习惯�
 ## 正题
 1. 确保你已安装 Powershell 3（其实 Windows7+ 应该都已经集成了），
 然后 WIn + R 输入 powershell 打开 PS，一句命令安装 scoop：
-   ``` ps
+   ``` powershell
    iex (new-object net.webclient).downloadstring('https://get.scoop.sh')
    ```
 
 2. 安装完成后输入 `scoop help`，如果报错则需要允许 PS 提供脚本执行权限，执行：
-   ``` ps
+   ``` powershell
    set-executionpolicy unrestricted -s cu
    ```
 
 3. 然后就可以像 apt-get 那样 `install/uninstall` 软件包了：
-   ``` ps
+   ``` powershell
    scoop install pkgname
    ```
    用 scoop 安装软件包时不会弹出 UAC 要求提权，

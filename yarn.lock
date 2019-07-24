@@ -2427,6 +2427,15 @@ cli-width@^2.0.0:
   resolved "https://registry.npmjs.org/cli-width/-/cli-width-2.2.0.tgz#ff19ede8a9a5e579324147b0c11f0fbcbabed639"
   integrity sha1-/xnt6Kml5XkyQUewwR8PvLq+1jk=
 
+clipboard@^2.0.0:
+  version "2.0.4"
+  resolved "https://registry.npmjs.org/clipboard/-/clipboard-2.0.4.tgz#836dafd66cf0fea5d71ce5d5b0bf6e958009112d"
+  integrity sha512-Vw26VSLRpJfBofiVaFb/I8PVfdI1OxKcYShe6fm0sP/DtmiWQNCjhM/okTvdCo0G+lMMm1rMYbk4IK4x1X+kgQ==
+  dependencies:
+    good-listener "^1.2.2"
+    select "^1.1.2"
+    tiny-emitter "^2.0.0"
+
 cliui@^4.0.0:
   version "4.1.0"
   resolved "https://registry.npmjs.org/cliui/-/cliui-4.1.0.tgz#348422dbe82d800b3022eef4f6ac10bf2e4d1b49"
@@ -3127,6 +3136,11 @@ delayed-stream@~1.0.0:
   version "1.0.0"
   resolved "https://registry.npmjs.org/delayed-stream/-/delayed-stream-1.0.0.tgz#df3ae199acadfb7d440aaae0b29e2272b24ec619"
   integrity sha1-3zrhmayt+31ECqrgsp4icrJOxhk=
+
+delegate@^3.1.2:
+  version "3.2.0"
+  resolved "https://registry.npmjs.org/delegate/-/delegate-3.2.0.tgz#b66b71c3158522e8ab5744f720d8ca0c2af59166"
+  integrity sha512-IofjkYBZaZivn0V8nnsMJGBr4jVLxHDheKSW88PyxS5QC4Vo9ZbZVvhzlSxY87fVq3STR6r+4cGepyHkcWOQSw==
 
 delegates@^1.0.0:
   version "1.0.0"
@@ -3908,6 +3922,13 @@ globby@^9.2.0:
     ignore "^4.0.3"
     pify "^4.0.1"
     slash "^2.0.0"
+
+good-listener@^1.2.2:
+  version "1.2.2"
+  resolved "https://registry.npmjs.org/good-listener/-/good-listener-1.2.2.tgz#d53b30cdf9313dffb7dc9a0d477096aa6d145c50"
+  integrity sha1-1TswzfkxPf+33JoNR3CWqm0UXFA=
+  dependencies:
+    delegate "^3.1.2"
 
 graceful-fs@^4.1.11, graceful-fs@^4.1.15, graceful-fs@^4.1.2, graceful-fs@^4.1.6:
   version "4.1.15"
@@ -6345,6 +6366,13 @@ pretty-ms@^5.0.0:
   dependencies:
     parse-ms "^2.1.0"
 
+prismjs@^1.17.1:
+  version "1.17.1"
+  resolved "https://registry.npmjs.org/prismjs/-/prismjs-1.17.1.tgz#e669fcbd4cdd873c35102881c33b14d0d68519be"
+  integrity sha512-PrEDJAFdUGbOP6xK/UsfkC5ghJsPJviKgnQOoxaDbBjwc8op68Quupwt1DeAFoG8GImPhiKXAvvsH7wDSLsu1Q==
+  optionalDependencies:
+    clipboard "^2.0.0"
+
 private@^0.1.6:
   version "0.1.8"
   resolved "https://registry.npmjs.org/private/-/private-0.1.8.tgz#2381edb3689f7a53d653190060fcf822d2f368ff"
@@ -6885,6 +6913,13 @@ rxjs@^6.4.0:
   dependencies:
     tslib "^1.9.0"
 
+saber-highlighter-prism@^0.3.1:
+  version "0.3.1"
+  resolved "https://registry.npmjs.org/saber-highlighter-prism/-/saber-highlighter-prism-0.3.1.tgz#05566507e0c1e7450887be0c5dc7726bd44991e0"
+  integrity sha512-ppghAz6tW496Enpfr7S43N11wEPm8eoe+35caSYY6mdm1ME1iU4kEjFufM9xbzHYOcYBQQ0aDe1fuIBrzj5qZw==
+  dependencies:
+    saber-log "^0.2.0"
+
 saber-log@^0.2.0:
   version "0.2.0"
   resolved "https://registry.npmjs.org/saber-log/-/saber-log-0.2.0.tgz#6c4a803a3d8c89f243580f0d7259e396220286d6"
@@ -6911,6 +6946,13 @@ saber-plugin-ga-lite@^0.1.0:
   version "0.1.0"
   resolved "https://registry.npmjs.org/saber-plugin-ga-lite/-/saber-plugin-ga-lite-0.1.0.tgz#bda5b005a2d40f4516c7d412e5f95a68bbe50d00"
   integrity sha512-SuvDnzfZ1b5AM0I2+nC1+bGloBtDjN4INek6P8EnwZFCJXixclrUmgmmeQvUxnXHRLIOa0S6w009swVAt5Py+Q==
+
+saber-plugin-prismjs@^0.2.1:
+  version "0.2.1"
+  resolved "https://registry.npmjs.org/saber-plugin-prismjs/-/saber-plugin-prismjs-0.2.1.tgz#678cbe3611d331a89429270a9639287941c0a1cf"
+  integrity sha512-oJA0DLxnS8RrAxy4e2CSa+kirvV7Gvi42lsme30LLTH5udbahz+e4roe572+3iu27wT/EQ3V0w8e2R5DddObZg==
+  dependencies:
+    saber-highlighter-prism "^0.3.1"
 
 saber-plugin-query-posts@0.3.2:
   version "0.3.2"
@@ -7037,6 +7079,11 @@ schema-utils@^1.0.0:
     ajv "^6.1.0"
     ajv-errors "^1.0.0"
     ajv-keywords "^3.1.0"
+
+select@^1.1.2:
+  version "1.1.2"
+  resolved "https://registry.npmjs.org/select/-/select-1.1.2.tgz#0e7350acdec80b1108528786ec1d4418d11b396d"
+  integrity sha1-DnNQrN7ICxEIUoeG7B1EGNEbOW0=
 
 "semver@2 || 3 || 4 || 5", "semver@2.x || 3.x || 4 || 5", semver@^5.3.0, semver@^5.4.1, semver@^5.5.0, semver@^5.5.1, semver@^5.6.0, semver@^5.7.0:
   version "5.7.0"
@@ -7692,6 +7739,11 @@ timsort@^0.3.0:
   version "0.3.0"
   resolved "https://registry.npmjs.org/timsort/-/timsort-0.3.0.tgz#405411a8e7e6339fe64db9a234de11dc31e02bd4"
   integrity sha1-QFQRqOfmM5/mTbmiNN4R3DHgK9Q=
+
+tiny-emitter@^2.0.0:
+  version "2.1.0"
+  resolved "https://registry.npmjs.org/tiny-emitter/-/tiny-emitter-2.1.0.tgz#1d1a56edfc51c43e863cbb5382a72330e3555423"
+  integrity sha512-NB6Dk1A9xgQPMoGqC5CVXn123gWyte215ONT5Pp5a0yt4nlEoO1ZWeCwpncaekPHXO60i47ihFnZPiRPjRMq4Q==
 
 tmp@^0.0.33:
   version "0.0.33"
