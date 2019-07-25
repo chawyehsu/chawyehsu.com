@@ -96,7 +96,7 @@ blank.gif 图片几乎没有大小，真正的图片还没有经过浏览器载�
 ``` css
 .aspect-ratio-box {
   position: relative;
-  // 根据宽高比计算设置 box 的 padding-bottom
+  /* 根据宽高比计算设置 box 的 padding-bottom */
   padding-bottom: 62.5%;
 }
 
