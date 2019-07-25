@@ -4,10 +4,10 @@
       <saber-link class="avatar"
         v-if="page.attributes.avatarLink"
         :to="page.attributes.avatarLink">
-        <saber-image :src="page.attributes.assets.avatar" alt="avatar"></saber-image>
+        <img :src="page.attributes.assets.avatar" alt="avatar" />
       </saber-link>
       <div v-else class="avatar">
-        <saber-image :src="page.attributes.assets.avatar" alt="avatar"></saber-image>
+        <img :src="page.attributes.assets.avatar" alt="avatar" />
       </div>
       <h1 class="name">{{ $siteConfig.author }}</h1>
       <div class="slogan" :title="$themeConfig.home.slogan.title">
