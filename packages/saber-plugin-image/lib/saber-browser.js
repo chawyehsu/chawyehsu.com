@@ -58,7 +58,8 @@ export default ({ Vue }) => {
               ...$attrs,
               src: this.src,
               srcset: loader,
-              'data-srcset': this.src
+              'data-srcset': this.src,
+              'data-pswp-title': $attrs.alt
             },
             class: { lozad, [styles.blendIn]: blendIn }
           })
@@ -78,7 +79,8 @@ export default ({ Vue }) => {
               srcset: loader,
               'data-srcset': srcSet,
               width,
-              height: 'auto'
+              height: 'auto',
+              'data-pswp-title': $attrs.alt
             },
             class: { lozad, [styles.blendIn]: blendIn }
           })
@@ -88,14 +90,14 @@ export default ({ Vue }) => {
         // Responsive images disabled
         if (typeof this.src === 'string') {
           return h('img', {
-            attrs: { ...$attrs, src: this.src }
+            attrs: { ...$attrs, src: this.src, 'data-pswp-title': $attrs.alt }
           })
         }
 
         // Responsive images enabled
         const { src, srcSet: srcset } = this.src
         return h('img', {
-          attrs: { ...$attrs, src, srcset }
+          attrs: { ...$attrs, src, srcset, 'data-pswp-title': $attrs.alt }
         })
       }
     }
