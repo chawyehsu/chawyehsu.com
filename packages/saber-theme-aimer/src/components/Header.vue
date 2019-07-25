@@ -2,6 +2,7 @@
   <headroom
     class="site-header-room"
     :offset="155"
+    :zIndex="99"
     :disabled="!$themeConfig.header.headroom">
     <header id="site-header" class="site-header">
       <div class="wrap columns is-gapless is-mobile">
