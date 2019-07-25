@@ -1,6 +1,4 @@
-// Using dark mode in CSS with MacOS Mojave
-// https://paulmillr.com/posts/using-dark-mode-in-css/
-@media (prefers-color-scheme: dark) {
+@mixin dark-mode {
   html {
     color: $text-color-invert;
 
@@ -49,6 +47,10 @@
     }
 
     .page-body {
+      a:not([id^=fnref]) {
+        border-bottom: 1px dashed $meta-color-invert;
+      }
+
       > table {
         tr {
           &:nth-child(2n) {
@@ -71,10 +73,9 @@
 
       .saber-highlight {
         background: $tertiary-color-invert;
-      }
-
-      hr {
-        border-bottom: 2px solid $meta-color-invert;
+        code {
+          background: transparent;
+        }
       }
 
       figure {
@@ -85,7 +86,14 @@
 
       .footnotes {
         color: $meta-color-invert;
+        p a {
+          border: 0;
+        }
       }
+    }
+
+    .page-tags {
+      color: $meta-color-invert;
     }
 
     .page-comments {
@@ -100,5 +108,21 @@
     background-color: $background-invert;
     color: $text-color-invert;
   }
+}
 
+// Using dark mode in CSS with MacOS Mojave
+// https://paulmillr.com/posts/using-dark-mode-in-css/
+@media (prefers-color-scheme: dark) {
+  @include dark-mode();
+}
+
+// Force dark mode
+html.dark-mode {
+  color: $text-color-invert;
+
+  .site-header {
+    background-color: $background-invert;
+    color: $text-color-invert;
+  }
+  @include dark-mode();
 }
