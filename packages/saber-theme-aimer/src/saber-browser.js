@@ -1,7 +1,14 @@
 import 'normalize.css'
 import './styles/main.scss'
 
-export default ({ setHead }) => {
+export default ({ Vue, setHead }) => {
+  if (process.browser) {
+    const Photoswipe = require('vue-pswipe').default
+    Vue.use(Photoswipe, {
+      shareEl: false
+    })
+  }
+
   setHead(function () {
     return {
       htmlAttrs: {

@@ -67,9 +67,6 @@ import Header from '../components/Header.vue'
 import Footer from '../components/Footer.vue'
 import Disqus from '../components/Disqus.vue'
 import { date } from '../utils'
-import Photoswipe from 'vue-pswipe'
-
-Vue.use(Photoswipe)
 
 export default {
   props: ['page'],
