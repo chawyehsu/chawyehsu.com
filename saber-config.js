@@ -21,6 +21,7 @@ module.exports = {
   themeConfig: {
     title: "Chawye Hsu's Blog",
     since: '2015',
+    pswp: true,
     home: {
       slogan: {
         name: 'There will still be love in this world',

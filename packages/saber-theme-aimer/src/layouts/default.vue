@@ -32,7 +32,10 @@
             本文最后更新于 {{ days }} 天前（{{ humanDate }}），其中的信息可能已经有所发展或者不再适合现阶段。
           </section>
           <section class="page-body">
-            <slot name="default" />
+            <Photoswipe v-if="$themeConfig.pswp" auto ref="photoswipe">
+              <slot name="default" />
+            </Photoswipe>
+            <slot v-else name="default" />
           </section>
           <section class="page-block-action" v-if="$themeConfig.share || page.tags">
             <div class="page-share"></div>
@@ -59,10 +62,14 @@
 </template>
 
 <script>
+import Vue from 'vue'
 import Header from '../components/Header.vue'
 import Footer from '../components/Footer.vue'
 import Disqus from '../components/Disqus.vue'
 import { date } from '../utils'
+import Photoswipe from 'vue-pswipe'
+
+Vue.use(Photoswipe)
 
 export default {
   props: ['page'],
