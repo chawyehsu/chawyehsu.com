@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://www.h404bi.com</id>
     <title>The Art of Chawye Hsu</title>
-    <updated>2019-07-24T08:47:28.893Z</updated>
+    <updated>2019-07-25T04:19:08.681Z</updated>
     <generator>Saber</generator>
     <author>
         <name>h404bi</name>
@@ -27,7 +27,7 @@ blank.gif 图片几乎没有大小，真正的图片还没有经过浏览器载�
   <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>img</span> <span class="token attr-name">src</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>blank.gif<span class="token punctuation">&quot;</span></span> <span class="token attr-name">data-src</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>normal.jpg<span class="token punctuation">&quot;</span></span> <span class="token punctuation">/&gt;</span></span>
 <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span></code></pre></div><div class="saber-highlight" data-lang="css"><pre class="saber-highlight-code language-css"><code class="language-css"><span class="token selector">.aspect-ratio-box</span> <span class="token punctuation">{</span>
   <span class="token property">position</span><span class="token punctuation">:</span> relative<span class="token punctuation">;</span>
-  // 根据宽高比计算设置 box 的 padding-bottom
+  <span class="token comment">/* 根据宽高比计算设置 box 的 padding-bottom */</span>
   <span class="token property">padding-bottom</span><span class="token punctuation">:</span> 62.5%<span class="token punctuation">;</span>
 <span class="token punctuation">}</span>
 
