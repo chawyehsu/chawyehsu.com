@@ -3,8 +3,8 @@ layout: post
 title: Microsoft Office 2016 自定义安装
 keywords: Office 2016 自定义安装,Outlook 关闭时不退出,Outlook 最小化
 description: >-
-  本文将简要说明一下 Office 2016 自定义安装的方法，以及提供 Outlook 关闭时不退出，
-  Outlook 关闭时最小化到托盘的小技巧，适合想 Office 只安装 Word、Excel 的同学。
+  本文将简要说明一下 Office 2016 自定义安装的方法（2019 同样适用），以及提供 Outlook
+  关闭时不退出，Outlook 关闭时最小化到托盘的小技巧，适合想 Office 只安装 Word、Excel 的同学。
 date: 2018-03-24 03:33:27
 updated: 2018-03-25 13:00:00
 assets:
