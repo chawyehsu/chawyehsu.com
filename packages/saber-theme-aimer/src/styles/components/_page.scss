@@ -55,11 +55,11 @@
       visibility: hidden;
     }
 
-    > p {
+    p {
       text-align: justify;
     }
 
-    > table {
+    table {
       border-collapse: collapse;
       border-spacing: 0;
       display: block;
@@ -188,6 +188,7 @@
 
     img {
       max-width: 100%;
+      margin-bottom: $gap-m;
     }
 
     p {
@@ -197,15 +198,15 @@
       }
     }
 
-    > img {
-      margin-bottom: $gap-m;
-    }
-
     figure {
       text-align: center;
 
       > a {
         border: 0 !important;
+      }
+      
+      img {
+        margin-bottom: 0;
       }
 
       figcaption {
