@@ -14,7 +14,13 @@ export default ({ Vue }) => {
 
     // Mount Lozad instance to Vue
     // eslint-disable-next-line no-param-reassign
-    Vue.lozad = Vue.prototype.$lozad = lozad()
+    Vue.lozad = Vue.prototype.$lozad = lozad('.lozad', {
+      loaded: function(el) {
+        el.onload = function() {
+          el.classList.add(styles.loaded)
+        }
+      }
+    })
   }
 
   // Render saber-image
