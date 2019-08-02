@@ -2,12 +2,12 @@
   <div class="frontpage">
     <div class="frontpage-content">
       <saber-link class="avatar"
-        v-if="page.attributes.avatarLink"
-        :to="page.attributes.avatarLink">
-        <img :src="page.attributes.assets.avatar" alt="avatar" />
+        v-if="page.avatarLink"
+        :to="page.avatarLink">
+        <img :src="page.assets.avatar" alt="avatar" />
       </saber-link>
       <div v-else class="avatar">
-        <img :src="page.attributes.assets.avatar" alt="avatar" />
+        <img :src="page.assets.avatar" alt="avatar" />
       </div>
       <h1 class="name">{{ $siteConfig.author }}</h1>
       <div class="slogan" :title="$themeConfig.home.slogan.title">

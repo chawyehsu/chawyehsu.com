@@ -23,23 +23,23 @@ export default {
   },
   head () {
     return {
-      title: `${this.page.attributes.title} - ${this.$siteConfig.title}`,
+      title: `${this.page.title} - ${this.$siteConfig.title}`,
       meta: [
         {
           name: 'description',
-          content: this.page.attributes.description
+          content: this.page.description
         },
         {
           name: 'keywords',
-          content: this.page.attributes.keywords
+          content: this.page.keywords
         },
         {
           property: 'og:title',
-          content: this.page.attributes.title
+          content: this.page.title
         },
         {
           property: 'og:description',
-          content: this.page.attributes.description
+          content: this.page.description
         },
         {
           property: 'og:type',
@@ -55,7 +55,7 @@ export default {
         },
         {
           name: 'twitter:title',
-          content: this.page.attributes.title
+          content: this.page.title
         }
       ]
     }

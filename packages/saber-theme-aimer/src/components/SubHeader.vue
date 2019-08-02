@@ -1,8 +1,8 @@
 <template>
   <section class="sub-header">
     <!-- TODO -->
-    <div v-if="page.attributes.hero" class="hero-image">
-      <img :src="page.attributes.hero">
+    <div v-if="page.hero" class="hero-image">
+      <img :src="page.hero">
       <span class="overlay"></span>
     </div>
   </section>
