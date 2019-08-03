@@ -12,10 +12,6 @@
   transition: filter 0.5s ease 0s;
 }
 
-.blendIn:not([data-loaded='true']) {
+.blendIn:not(.loaded) {
   filter: blur(5px);
-}
-
-.blendIn[data-loaded='true'] {
-  filter: blur(0px);
 }
