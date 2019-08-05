@@ -5026,10 +5026,10 @@ map-visit@^1.0.0:
   dependencies:
     object-visit "^1.0.0"
 
-markdown-it-attrs@^2.3.2:
-  version "2.4.1"
-  resolved "https://registry.yarnpkg.com/markdown-it-attrs/-/markdown-it-attrs-2.4.1.tgz#4868d067b0615568afc027bb99dfa2badb7ca1bc"
-  integrity sha512-BASnIYS+JLpjlhDf7jLV8VOuccxjfDDnQcz5dLfgPsYw8OsgbASexADdIkF7tIdGn+jaQSA4qOZXM3v3W3JBCg==
+markdown-it-attrs@^3.0.0:
+  version "3.0.0"
+  resolved "https://registry.npmjs.org/markdown-it-attrs/-/markdown-it-attrs-3.0.0.tgz#e4c383f9ad00f733e8e868776db4fd6dd07cf1c8"
+  integrity sha512-DTIDzAQuQ9eEqq0y8GhdWB458vt0zYMp3M1R+IBMYlsMGY+oFOlZ/Gwk5Lg74v1ffYQ0kbDULqEbIbCowerJOA==
 
 markdown-it-cjk-breaks@^1.1.3:
   version "1.1.3"
