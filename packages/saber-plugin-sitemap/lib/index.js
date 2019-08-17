@@ -25,15 +25,15 @@ exports.apply = (api, options = {}) => {
 
     for (const page of api.pages.values()) {
       // Filter draft post and sitemap skipping pages
-      if (!page.attributes.draft && page.attributes.sitemap !== false) {
+      if (!page.draft && page.sitemap !== false) {
         items.push({
-          type: page.attributes.type,
-          url: url.resolve(siteConfig.url, page.attributes.permalink),
-          lastmod: page.attributes.updatedAt,
-          date: page.attributes.createdAt,
-          updated: page.attributes.updatedAt,
+          type: page.type,
+          url: url.resolve(siteConfig.url, page.permalink),
+          lastmod: page.updatedAt,
+          date: page.createdAt,
+          updated: page.updatedAt,
           // Also expose original page attributes
-          attributes: page.attributes
+          attributes: page
         })
       }
     }

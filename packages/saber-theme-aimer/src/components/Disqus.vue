@@ -25,9 +25,9 @@ export default {
       new DisqusJS({
         shortname: shortname || author,
         siteName: sitename || title,
-        identifier: this.page.attributes.permalink,
-        url: `${url}${this.page.attributes.permalink}`,
-        title: this.page.attributes.title,
+        identifier: this.page.permalink,
+        url: `${url}${this.page.permalink}`,
+        title: this.page.title,
         api,
         apikey,
         admin: admin || author,

@@ -3,10 +3,10 @@ import Index from './index.vue'
 export default {
   extends: Index,
   head () {
-    this.page.attributes.title = this.page.attributes.title || this.page.category
+    this.page.title = this.page.title || this.page.category
 
     return {
-      title: `${this.page.attributes.title} - ${this.$siteConfig.title}`
+      title: `${this.page.title} - ${this.$siteConfig.title}`
     }
   }
 }
