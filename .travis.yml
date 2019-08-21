@@ -22,6 +22,8 @@ script:
 
 deploy:
   provider: pages
+  edge:
+    branch: sf-port-824
   skip_cleanup: true
   local_dir: public
   github_token: $GITHUB_TOKEN
