@@ -20,13 +20,16 @@ script:
   # Compile and generate to site
   - yarn build
 
-deploy:
-  provider: pages
-  edge: true
-  skip_cleanup: true
-  local_dir: public
-  github_token: $GITHUB_TOKEN
-  keep_history: true
-  commit_message: "Site updated at `date +'%Y-%m-%d %T'`"
-  on:
-    branch: master
+after_success:
+  # Only trigger deployment when it's on master branch and not a pull-request
+  - if [ "$TRAVIS_PULL_REQUEST" == "false" -a "$TRAVIS_BRANCH" == "master" ]; then bash .travis/deploy-ci.sh; fi
+
+# deploy:
+#   provider: pages
+#   skip_cleanup: true
+#   local_dir: public
+#   github_token: $GITHUB_TOKEN
+#   keep_history: true
+#   commit_message: "Site updated at `date +'%Y-%m-%d %T'`"
+#   on:
+#     branch: master
