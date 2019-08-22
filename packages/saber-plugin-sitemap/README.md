@@ -1,6 +1,6 @@
 # saber-plugin-sitemap
 
-Sitemap generator plugin for [Saber.js](https://saber.land/).
+Sitemap generator plugin for [Saber](https://saber.land/).
 
 ## Install
 
