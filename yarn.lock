@@ -7539,10 +7539,10 @@ saber-plugin-baidu-analytics@0.0.1:
   resolved "https://registry.npmjs.org/saber-plugin-baidu-analytics/-/saber-plugin-baidu-analytics-0.0.1.tgz#87b4c497555c8ef57faf1dd90143def984bb378b"
   integrity sha512-eU9oqMowKsGIeT2X8gD2NPMJuMqC3KyPMX/p/L8dzCQTy0mQZ9jKZZPWiEhzaWEkub+8CPZVL/Oq8zKTxFmheg==
 
-saber-plugin-feed@0.4.1:
-  version "0.4.1"
-  resolved "https://registry.npmjs.org/saber-plugin-feed/-/saber-plugin-feed-0.4.1.tgz#acfeae376ab1e24ba1ab73d45eafd92bdfdbb0d6"
-  integrity sha512-JpLLwdhj3LaGYOTFPUHAFlsK4d6BTbVcNaC1304UY/wodtq7/YM9QtVP9pIdGVzU/qBvfaq/Pr4kRXhxTvWWIw==
+saber-plugin-feed@0.4.2:
+  version "0.4.2"
+  resolved "https://registry.npmjs.org/saber-plugin-feed/-/saber-plugin-feed-0.4.2.tgz#e4d7044e13b0a8b9ad5d61e77d3ebf43ad05d07c"
+  integrity sha512-mKa8cse6mEtHcbpkVPGLt0c4ma+3Nd9e3ye9NyVo4NmFcFiWFQPbuL6PHOIJuoy1CgLyLTROjF8V7Kvgl7HJsw==
   dependencies:
     feed "^4.0.0"
 
