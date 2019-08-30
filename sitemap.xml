@@ -2,50 +2,50 @@
 <?xml-stylesheet type="text/xsl" href="/sitemap.xsl"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-    <loc>https://www.h404bi.com/blog/category/technology</loc>
-    <lastmod>2019-08-29T14:50:57.249Z</lastmod>
+    <loc>https://www.h404bi.com/blog/category/digital</loc>
+    <lastmod>2019-08-30T15:23:43.379Z</lastmod>
         <priority>0.8</priority>
         <changefreq>always</changefreq>
   </url>
     <url>
-    <loc>https://www.h404bi.com/blog/category/digital</loc>
-    <lastmod>2019-08-29T14:50:57.249Z</lastmod>
+    <loc>https://www.h404bi.com/blog/category/technology</loc>
+    <lastmod>2019-08-30T15:23:43.378Z</lastmod>
         <priority>0.8</priority>
         <changefreq>always</changefreq>
   </url>
     <url>
     <loc>https://www.h404bi.com/blog/tag/%E5%89%8D%E7%AB%AF%E6%80%A7%E8%83%BD%E4%BC%98%E5%8C%96</loc>
-    <lastmod>2019-08-29T14:50:57.248Z</lastmod>
+    <lastmod>2019-08-30T15:23:43.377Z</lastmod>
         <priority>0.8</priority>
         <changefreq>always</changefreq>
   </url>
     <url>
     <loc>https://www.h404bi.com/blog/category/uncategorized</loc>
-    <lastmod>2019-08-29T14:50:57.248Z</lastmod>
+    <lastmod>2019-08-30T15:23:43.377Z</lastmod>
         <priority>0.8</priority>
         <changefreq>always</changefreq>
   </url>
     <url>
     <loc>https://www.h404bi.com/blog/tag/%E5%89%8D%E7%AB%AF</loc>
-    <lastmod>2019-08-29T14:50:57.247Z</lastmod>
+    <lastmod>2019-08-30T15:23:43.376Z</lastmod>
         <priority>0.8</priority>
         <changefreq>always</changefreq>
   </url>
     <url>
     <loc>https://www.h404bi.com/blog</loc>
-    <lastmod>2019-08-29T14:50:01.157Z</lastmod>
+    <lastmod>2019-08-30T15:22:47.552Z</lastmod>
         <priority>1</priority>
         <changefreq>always</changefreq>
   </url>
     <url>
     <loc>https://www.h404bi.com/</loc>
-    <lastmod>2019-08-29T14:50:01.157Z</lastmod>
+    <lastmod>2019-08-30T15:22:47.552Z</lastmod>
         <priority>0.8</priority>
         <changefreq>always</changefreq>
   </url>
     <url>
     <loc>https://www.h404bi.com/blog/page/2</loc>
-    <lastmod>2019-08-29T14:50:01.157Z</lastmod>
+    <lastmod>2019-08-30T15:22:47.552Z</lastmod>
         <priority>1</priority>
         <changefreq>always</changefreq>
   </url>
