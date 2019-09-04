@@ -7524,20 +7524,15 @@ saber-highlighter-prism@^0.3.2:
   dependencies:
     saber-log "^0.2.1"
 
-saber-log@^0.2.0:
-  version "0.2.0"
-  resolved "https://registry.npmjs.org/saber-log/-/saber-log-0.2.0.tgz#6c4a803a3d8c89f243580f0d7259e396220286d6"
-  integrity sha512-S0KbP6uktP0g75t+QG7sx1dkib/S1TyhOxPKFj9325eYVJOYi6ECfyeWiuYsma35MxqJTlFp4Dxw7U57JEjvSA==
-
 saber-log@^0.2.1:
   version "0.2.1"
   resolved "https://registry.npmjs.org/saber-log/-/saber-log-0.2.1.tgz#66ec48a0045a986e5a24e459f6a5742cf409c0e5"
   integrity sha512-MonLvHtwy59YaB5S5VQBkkVSjcJMejoAM77yy8URElGbfwjdVkKyABWPUg+zjmsMkivx35VhtWbjiN46j/h8iw==
 
-saber-markdown@^0.1.0:
-  version "0.1.0"
-  resolved "https://registry.npmjs.org/saber-markdown/-/saber-markdown-0.1.0.tgz#97daf5e7d48f67e7cb60f3f7335c16082474b18b"
-  integrity sha512-qI02wHTH4LUXiX6guP5o5E2u08OQUjxNHBETAK5J4PxRvudQPgUzGcaEbGeg1WEI+WbpvOBLd/rZviZWCXNEDA==
+saber-markdown@^0.1.1:
+  version "0.1.1"
+  resolved "https://registry.npmjs.org/saber-markdown/-/saber-markdown-0.1.1.tgz#13e9f94dec1bd4b5719a1e4b1dafc5496478c2ed"
+  integrity sha512-pekUhzaA8dQHp1XO3uBKzeVXgcw2aLrobZ7gwBSm+vH0caG07UZimr7pW1eQJotagq8qCDKfk3vcDwDgD4RhsA==
 
 saber-plugin-baidu-analytics@0.0.1:
   version "0.0.1"
@@ -7578,15 +7573,15 @@ saber-plugin-sitemap@0.3.0:
   dependencies:
     ejs "^2.6.1"
 
-saber-utils@^0.2.0:
-  version "0.2.0"
-  resolved "https://registry.npmjs.org/saber-utils/-/saber-utils-0.2.0.tgz#5106dbf838638824a9c37c7e52a11d9154a35f2d"
-  integrity sha512-iqr95cGpaywOwUUwaAHGxJAACMgrwBa5ZXJz/MsSFz9S50XY/yWYg/9Oe+bM8fonWP6XAACUHYzzWvlOdoQouQ==
+saber-utils@^0.2.1:
+  version "0.2.1"
+  resolved "https://registry.npmjs.org/saber-utils/-/saber-utils-0.2.1.tgz#20d4942cb5a3c61b7da97119c5aaae69b5c8b356"
+  integrity sha512-hTDJk4MWg1FYlMZeK1y2SnRAJJxHLyItojrWDScc9pAWTJUOHAWat2DwgXYxDujE3yryuXxDBVXIa2VkrxN8Nw==
 
-saber@0.8.0:
-  version "0.8.0"
-  resolved "https://registry.npmjs.org/saber/-/saber-0.8.0.tgz#af1d74dd045f2fb3dc1b8c16b4434315e912ffa4"
-  integrity sha512-N5yNZc0tDuspZr3r30xS8FnxAcmAj4FfdLGM0fSiCoqCWQ2lUBJHFBdMODXX/+fboxA/y/Oj8VW8snp9NOuVvQ==
+saber@0.8.1:
+  version "0.8.1"
+  resolved "https://registry.npmjs.org/saber/-/saber-0.8.1.tgz#322d72f2ec548fdbfb512ed7ddb81fedf17502e1"
+  integrity sha512-jmir7kmRnUeGHziBcbgpKpflaF4nrhsWyGTbwY99S2fR7EfvF0JVUEKtN9KZ8h6DS9EvzGBB5l8s5ubKls/eMg==
   dependencies:
     "@babel/core" "^7.5.4"
     "@babel/plugin-proposal-object-rest-spread" "^7.5.4"
@@ -7618,9 +7613,9 @@ saber@0.8.0:
     prettier "^1.17.0"
     pretty-ms "^5.0.0"
     resolve-from "^5.0.0"
-    saber-log "^0.2.0"
-    saber-markdown "^0.1.0"
-    saber-utils "^0.2.0"
+    saber-log "^0.2.1"
+    saber-markdown "^0.1.1"
+    saber-utils "^0.2.1"
     serve-static "^1.13.2"
     slugo "^0.2.3"
     superstruct "^0.6.0"
