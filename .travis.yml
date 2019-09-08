@@ -26,6 +26,7 @@ script:
 
 deploy:
   provider: pages
+  edge: true
   skip_cleanup: true
   local_dir: public
   github_token: $GITHUB_TOKEN
