@@ -7517,17 +7517,12 @@ rxjs@^6.4.0:
   dependencies:
     tslib "^1.9.0"
 
-saber-highlighter-prism@^0.3.2:
-  version "0.3.2"
-  resolved "https://registry.npmjs.org/saber-highlighter-prism/-/saber-highlighter-prism-0.3.2.tgz#2e0cbe94f99abbbc8bacafa773a6dfb5ff03e785"
-  integrity sha512-EQMYBSV1mlsMNx2sVHKOVS8W4I/w6lrHQVryYrefTddohMEZ3oHQg6BBhYMcM0l6dbOvq8opgGWg5sOX94zIRQ==
+saber-highlighter-prism@^0.3.3:
+  version "0.3.3"
+  resolved "https://registry.npmjs.org/saber-highlighter-prism/-/saber-highlighter-prism-0.3.3.tgz#7dd275b7f76fa6d32e0fd2bf8c7c6ce1acb9f6d9"
+  integrity sha512-rG4a+pyVbSrSUW9yNDxsxs7tkfAmzgXxI256DEu5EBNUhATj/9vfDJBMfXEJeIvd85jtDq+WTjPx5ZPlzmT5cA==
   dependencies:
-    saber-log "^0.2.1"
-
-saber-log@^0.2.1:
-  version "0.2.1"
-  resolved "https://registry.npmjs.org/saber-log/-/saber-log-0.2.1.tgz#66ec48a0045a986e5a24e459f6a5742cf409c0e5"
-  integrity sha512-MonLvHtwy59YaB5S5VQBkkVSjcJMejoAM77yy8URElGbfwjdVkKyABWPUg+zjmsMkivx35VhtWbjiN46j/h8iw==
+    saber-log "^0.3.0"
 
 saber-log@^0.3.0:
   version "0.3.0"
@@ -7556,12 +7551,12 @@ saber-plugin-ga-lite@0.1.0:
   resolved "https://registry.npmjs.org/saber-plugin-ga-lite/-/saber-plugin-ga-lite-0.1.0.tgz#bda5b005a2d40f4516c7d412e5f95a68bbe50d00"
   integrity sha512-SuvDnzfZ1b5AM0I2+nC1+bGloBtDjN4INek6P8EnwZFCJXixclrUmgmmeQvUxnXHRLIOa0S6w009swVAt5Py+Q==
 
-saber-plugin-prismjs@0.2.2:
-  version "0.2.2"
-  resolved "https://registry.npmjs.org/saber-plugin-prismjs/-/saber-plugin-prismjs-0.2.2.tgz#5448c3e4fdce6df12e5632442c6d39c37ecb0acf"
-  integrity sha512-VygI+f7WVNcTglzbVe3zTtBvQ3LXrM62saI1KLhI9Rpno6pi78AiBDD8t1d3yqUftmR9fwIln67a7RcVndKhKA==
+saber-plugin-prismjs@0.2.3:
+  version "0.2.3"
+  resolved "https://registry.npmjs.org/saber-plugin-prismjs/-/saber-plugin-prismjs-0.2.3.tgz#9968a8293b5fba8c47929c8ed98d9a5e7e3b0dd6"
+  integrity sha512-1525dcS+WSliUvBUtYmZRxVKReY3GMQJreSH1Jsw/8JPXIwhWaQJenXFsdPWE/XKacfjmVZWtB3Z1bakUKYwuQ==
   dependencies:
-    saber-highlighter-prism "^0.3.2"
+    saber-highlighter-prism "^0.3.3"
 
 saber-plugin-query-posts@0.4.2:
   version "0.4.2"
