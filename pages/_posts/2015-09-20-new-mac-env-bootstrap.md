@@ -36,18 +36,15 @@ OS X 系统不像 Ubuntu 等发行版，系统默认是不包含编译工具链�
 官方没有社区有。强大的 Mac 社区造就了各种易用的工具。软件包管理工具就各式各样。其中最出名的两个是 **[Macport](https://www.macports.org)** 和 **[Homebrew](http://brew.sh)**。二者有着截然不同的理念，并且越来越多用户选择了 Homebrew。下面进行 Bootstrap A New Mac 的第二步。
 
 ```bash
-$ ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+$ /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 ```
 <small>OS X 自带 ruby，难怪 ruby 社区一股 Macbook 风气。</small>
 
 然后就可以像用 `apt-get install/update` 那样 `brew install/update` 了，更多用法参见 [Doc](https://github.com/Homebrew/homebrew/tree/master/share/doc/homebrew#readme)。
 
 ### Homebrew-Cask
-介绍了 Homebrew 就不得不说 **[Caskroom](http://caskroom.io/)** 了。Homebrew 掌管了各种 CLI 软件包的管理，App Store 提供各种 GUI 应用，这 Cask 又是什么？Cask 其实是 Homebrew 的一个扩展，能让 brew 支持安装和管理 GUI 应用。能在 App Store 获取到的应用当然最好在上面下载安装了，但有些应用程序是没有上架 App Store 的（比如 IntelliJ IDEA），得去程序的官网各种点击下载安装。于是不甘这样的 Mac 社区 Geek 们搞了个 Homebrew-Cask，然后就能打开终端一句指令愉快地安装 GUI 应用了，比如：`brew cask install intellij-idea-ce`。安装 Cask 只需：
+介绍了 Homebrew 就不得不说 **[Homebrew-Cask](https://github.com/Homebrew/homebrew-cask)** 了。Homebrew 掌管了各种 CLI 软件包的管理，App Store 提供各种 GUI 应用，这 Cask 又是什么？Cask 其实是 Homebrew 的一个扩展，能让 brew 支持安装和管理 GUI 应用。能在 App Store 获取到的应用当然最好在上面下载安装了，但有些应用程序是没有上架 App Store 的（比如 IntelliJ IDEA），得去程序的官网各种点击下载安装。于是不甘这样的 Mac 社区 Geek 们搞了个 Homebrew-Cask，然后就能打开终端一句指令愉快地安装 GUI 应用了，比如：`brew cask install intellij-idea-ce`。Cask 已经被集成在了 Homebrew 中，直接如下使用即可：
 
 ```bash
-$ brew install caskroom/cask/brew-cask
+$ brew cask install atom
 ```
-*题外话：Cask 开发者们最近在 GitHub 上热论着一场改革[^1]，说是要改变 Cask 目前的行为，以更贴合 regular usage，不过不能完美过渡的话会不会让用户感觉混乱。。*
-
-[^1]:[Homebrew-Cask issue #13201](https://github.com/caskroom/homebrew-cask/issues/13201)
