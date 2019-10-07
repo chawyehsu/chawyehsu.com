@@ -1,17 +1,9 @@
-.enter-active-class,
-.leave-active-class {
-  transition: opacity 0.5s;
-}
-
-.enter-class,
-.leave-to-class {
-  opacity: 0;
-}
-
-.blendIn {
-  transition: filter 0.5s ease 0s;
-}
-
-.blendIn:not(.loaded) {
+.blendIn[data-src],
+.blendIn[data-srcset] {
+  transition: filter 0.3s;
   filter: blur(5px);
+}
+
+.blendIn[data-lazy-loaded] {
+  filter: none;
 }
