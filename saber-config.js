@@ -1,5 +1,8 @@
 module.exports = {
-  build: { lazy: true },
+  build: {
+    extractCSS: true,
+    lazy: true
+  },
   // Using develop version of theme
   theme: "./packages/saber-theme-aimer/src",
   siteConfig: {

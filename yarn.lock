@@ -7662,10 +7662,10 @@ saber-log@^0.3.0:
   resolved "https://registry.npmjs.org/saber-log/-/saber-log-0.3.0.tgz#946b5a964e23b73aefe3fd2b86836641d2f1ad23"
   integrity sha512-zXNL8E8bJYznYvZkNKdDyIjcg1jCHbyk17aaPHR315GKK919KGAtr7aAWe6Hj6VfV+yPe/VUFKmru8YjoXJJ1A==
 
-saber-markdown@^0.1.4:
-  version "0.1.4"
-  resolved "https://registry.npmjs.org/saber-markdown/-/saber-markdown-0.1.4.tgz#f92f481941d62e735f9530dc249b76fa8d7cbed8"
-  integrity sha512-eq/dietVLJv0tsr7uPIimonYVhZ7rLa07A8ggdikp6efsCcyis00xmrTO5zD2dAEb1RkIL+ExAwgZFYj3Hld0w==
+saber-markdown@^0.1.5:
+  version "0.1.5"
+  resolved "https://registry.npmjs.org/saber-markdown/-/saber-markdown-0.1.5.tgz#94108bf245225c7758ed095cef499467cbfcac7c"
+  integrity sha512-T0Wfe1/COknxZrm9wGhqR+0XG/yt3oOK0uxyLzMZbVG6oDeBqtsHXh7xp6X+RZobd9a75z+Ehv9dpmxrwOZeiQ==
 
 saber-plugin-baidu-analytics@0.0.1:
   version "0.0.1"
@@ -7691,10 +7691,10 @@ saber-plugin-prismjs@0.2.3:
   dependencies:
     saber-highlighter-prism "^0.3.3"
 
-saber-plugin-query-posts@0.4.4:
-  version "0.4.4"
-  resolved "https://registry.npmjs.org/saber-plugin-query-posts/-/saber-plugin-query-posts-0.4.4.tgz#b39104323f5b88eb9fe20b384e83132b646cebfd"
-  integrity sha512-DxW/d1vQ7UbVULv7y8kSHTPblxPfLsVw1ACSSE7Nu6U9nVFL3/ikzIh8K+sbe/Rt5+oJFzYZ1RkKkZoORif9Zg==
+saber-plugin-query-posts@0.4.5:
+  version "0.4.5"
+  resolved "https://registry.npmjs.org/saber-plugin-query-posts/-/saber-plugin-query-posts-0.4.5.tgz#7f217f750734e257c9052604055d24560515b883"
+  integrity sha512-k5KT4bkLC5sbt8vXLNlk4H9KZ0b1N/sLDsqLFo/A7/bHLfsxmRoXPBH1MBlzRUg+BOAhTfr516CpARepkj5pMA==
   dependencies:
     slugo "^0.3.1"
     url-join "^4.0.0"
@@ -7711,10 +7711,10 @@ saber-utils@^0.2.3:
   resolved "https://registry.npmjs.org/saber-utils/-/saber-utils-0.2.3.tgz#8c7afe1e549bc1d2c7b85713ed04d7b19e3b14d8"
   integrity sha512-dACcr0CS+Cim/yBZF7QeDJb2bLGzWrWLisA7puBYfmZdQj9HrjMEPdKYk8VGMLaHmsGLf8bHMhotIhWuePrPkA==
 
-saber@0.10.2:
-  version "0.10.2"
-  resolved "https://registry.npmjs.org/saber/-/saber-0.10.2.tgz#2efa27620f68dbb5ea911f7fc4bd3aee5eef733c"
-  integrity sha512-tiDZWyXOiWUasdkCzxPnxPH92iRciax7s2575QuSHgr7KBn+Qr7IxES5/oQtx0IZ69+X/7HNL0oxFPQZK+IwyQ==
+saber@0.10.4:
+  version "0.10.4"
+  resolved "https://registry.npmjs.org/saber/-/saber-0.10.4.tgz#1bc439b20c73cee91d7cfcb61ad46441f65a3371"
+  integrity sha512-GauXmG7GWpZoJbepsvmIZclxKHxYAohUSd8oGkRTUo0x2V8WD8LkOHopHR6SW7dPUXf8IVHYXuCQwOLU+ZiRQQ==
   dependencies:
     "@babel/core" "^7.5.4"
     "@babel/plugin-proposal-object-rest-spread" "^7.5.4"
@@ -7748,7 +7748,7 @@ saber@0.10.2:
     pretty-ms "^5.0.0"
     resolve-from "^5.0.0"
     saber-log "^0.3.0"
-    saber-markdown "^0.1.4"
+    saber-markdown "^0.1.5"
     saber-utils "^0.2.3"
     serve-static "^1.13.2"
     slugo "^0.3.1"
@@ -7989,11 +7989,6 @@ slide@^1.1.6:
   version "1.1.6"
   resolved "https://registry.npmjs.org/slide/-/slide-1.1.6.tgz#56eb027d65b4d2dce6cb2e2d32c4d4afc9e1d707"
   integrity sha1-VusCfWW00tzmyy4tMsTUr8nh1wc=
-
-slugo@^0.2.3:
-  version "0.2.3"
-  resolved "https://registry.npmjs.org/slugo/-/slugo-0.2.3.tgz#2c602fe1e76d5fa3c6f75223537fbd80ae33929c"
-  integrity sha512-4nav6mk321IWKaWxgvygjp2JB0d5sNGgkPUJ+EGQZmmcvuXS+4DwdhhPa9L8WBg6fVQDID3PO+t6wYM1NqVbkA==
 
 slugo@^0.3.1:
   version "0.3.1"
