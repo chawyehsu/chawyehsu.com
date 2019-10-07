@@ -2,50 +2,50 @@
 <?xml-stylesheet type="text/xsl" href="/sitemap.xsl"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-    <loc>https://www.h404bi.com/blog/category/digital</loc>
-    <lastmod>2019-10-07T02:23:44.512Z</lastmod>
-        <priority>0.8</priority>
-        <changefreq>always</changefreq>
-  </url>
-    <url>
     <loc>https://www.h404bi.com/blog/category/technology</loc>
-    <lastmod>2019-10-07T02:23:44.511Z</lastmod>
+    <lastmod>2019-10-07T07:49:59.702Z</lastmod>
         <priority>0.8</priority>
         <changefreq>always</changefreq>
   </url>
     <url>
-    <loc>https://www.h404bi.com/blog/category/uncategorized</loc>
-    <lastmod>2019-10-07T02:23:44.510Z</lastmod>
+    <loc>https://www.h404bi.com/blog/category/digital</loc>
+    <lastmod>2019-10-07T07:49:59.702Z</lastmod>
         <priority>0.8</priority>
         <changefreq>always</changefreq>
   </url>
     <url>
     <loc>https://www.h404bi.com/blog/tag/%E5%89%8D%E7%AB%AF%E6%80%A7%E8%83%BD%E4%BC%98%E5%8C%96</loc>
-    <lastmod>2019-10-07T02:23:44.509Z</lastmod>
+    <lastmod>2019-10-07T07:49:59.701Z</lastmod>
+        <priority>0.8</priority>
+        <changefreq>always</changefreq>
+  </url>
+    <url>
+    <loc>https://www.h404bi.com/blog/category/uncategorized</loc>
+    <lastmod>2019-10-07T07:49:59.701Z</lastmod>
         <priority>0.8</priority>
         <changefreq>always</changefreq>
   </url>
     <url>
     <loc>https://www.h404bi.com/blog/tag/%E5%89%8D%E7%AB%AF</loc>
-    <lastmod>2019-10-07T02:23:44.508Z</lastmod>
+    <lastmod>2019-10-07T07:49:59.700Z</lastmod>
         <priority>0.8</priority>
         <changefreq>always</changefreq>
   </url>
     <url>
     <loc>https://www.h404bi.com/blog</loc>
-    <lastmod>2019-10-07T02:22:52.096Z</lastmod>
+    <lastmod>2019-10-07T07:49:06.089Z</lastmod>
         <priority>1</priority>
         <changefreq>always</changefreq>
   </url>
     <url>
     <loc>https://www.h404bi.com/</loc>
-    <lastmod>2019-10-07T02:22:52.096Z</lastmod>
+    <lastmod>2019-10-07T07:49:06.089Z</lastmod>
         <priority>0.8</priority>
         <changefreq>always</changefreq>
   </url>
     <url>
     <loc>https://www.h404bi.com/blog/page/2</loc>
-    <lastmod>2019-10-07T02:22:52.096Z</lastmod>
+    <lastmod>2019-10-07T07:49:06.089Z</lastmod>
         <priority>1</priority>
         <changefreq>always</changefreq>
   </url>
