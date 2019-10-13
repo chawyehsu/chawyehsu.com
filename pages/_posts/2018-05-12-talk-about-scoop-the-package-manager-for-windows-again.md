@@ -10,7 +10,7 @@ description: >-
   这两款工具的区别，介绍一下 Scoop 安装使用体验，如果你没有重度的包管理需求，
   不妨可以尝试一下 Scoop PowerShell Concfg 这套组合。
 date: 2018-05-12 21:44:39
-updated: 2018-11-03 00:46:50
+updated: 2010-10-13 23:32:50
 assets:
   cover: ../_assets/uploads/2018/12/20181225004.png
 categories:
@@ -213,9 +213,11 @@ Binaries:
 > [https://github.com/h404bi/dorado](https://github.com/h404bi/dorado)
 
 比如 Scoop 的 main bucket 中的 nvm-windows 使用时会有 UAC 提权，我自己编译了一份
-没有 UAC 弹窗的 nvm-windows，放到了自己的桶里面。另外要说一下的是，Scoop 的自定义桶
-不一定要求存放到 GitHub 的公开仓库上的，所以完全可以在本地创建一个 git 仓库，
-做成一个不公开的私有桶，用于存放一些不宜公开的软件包。
+没有 UAC 弹窗的 nvm-windows，放到了自己的桶里面。目前 dorado 这个 bucket，在目前
+已知在维护的 [Scoop bucket] 中已经是综合评分比较高的一个 bucket 了，所以欢迎 Star、
+Fork 以及订阅使用。另外要说一下的是 Scoop 的自定义桶不一定要求存放到 GitHub 的公开
+仓库上的，所以完全可以在本地创建一个 git 仓库，做成一个不公开的私有桶，用于存放一些
+不宜公开的软件包。
 
 ![Add a scoop bucket](../_assets/uploads/2018/05/20180512002.gif)
 
@@ -383,3 +385,4 @@ Scoop 本身的仓库维护其核心功能代码，并打上 tags，发布 relea
 [https://github.com/lukesampson/scoop/issues/488]: https://github.com/lukesampson/scoop/issues/488
 [https://github.com/lukesampson/scoop/issues/2220]: https://github.com/lukesampson/scoop/issues/2220
 [https://github.com/lukesampson/scoop/issues/2245]: https://github.com/lukesampson/scoop/issues/2245
+[Scoop bucket]: https://github.com/rasa/scoop-directory/blob/master/by-score.md
