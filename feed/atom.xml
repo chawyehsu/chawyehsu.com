@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://www.h404bi.com/</id>
     <title>The Art of Chawye Hsu</title>
-    <updated>2019-10-13T15:41:04.913Z</updated>
+    <updated>2019-10-13T15:41:48.845Z</updated>
     <generator>Saber</generator>
     <author>
         <name>h404bi</name>
@@ -204,7 +204,7 @@ Hexo 的 after generator 钩子在页面生成时将特征（不只是 meta 一�
         <title type="html"><![CDATA[再谈谈 Scoop 这个 Windows 下的软件包管理器]]></title>
         <id>https://www.h404bi.com/blog/2018/05/talk-about-scoop-the-package-manager-for-windows-again</id>
         <link href="https://www.h404bi.com/blog/2018/05/talk-about-scoop-the-package-manager-for-windows-again"/>
-        <updated>2010-10-13T15:32:50.000Z</updated>
+        <updated>2019-10-13T15:32:50.000Z</updated>
         <summary type="html"><![CDATA[在 2015 年的《用 Scoop 改善 Windows Powershell》博文中，我曾经介绍过这个令我眼前一亮的 Windows 软件包管理器。那是我刚开始使用上 Scoop 的时候，回看过去对它的介绍，也确像是一见钟情后的入坑纪实。简单，直接。
 ]]></summary>
         <content type="html"><![CDATA[<figure data-type="image"><img alt="Let us Scoop it!" title="Let us Scoop it!" src="/_saber/images/20180512001.93a2af8a.gif" srcset="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs=" data-srcset="/_saber/images/20180512001.93a2af8a.gif" data-pswp-title="Let us Scoop it!"><figcaption>Let us Scoop it!</figcaption></figure> <p>在 2015 年的《<a href="/blog/2015/08/use-scoop-to-enhance-windows-powershell">用 Scoop 改善 Windows Powershell</a>》博文中，我曾经介绍过这个令我眼前一亮的 Windows 软件包管理器。那是我刚开始使用上 Scoop 的时候，回看过去对它的介绍，也确像是一见钟情后的入坑纪实。简单，直接。</p> <p>那会我很快适应了 Scoop，并一直使用至今。经过这两年多的使用，我渐渐地更加依赖 Scoop 来管理一些软件。在我日常的 Windows 使用中，它带给我的便利，已不再仅仅是那时所言的“改善 Windows Powershell”。其实感觉就现在的 Scoop 而言，它确实还是挺小众的。只是最近我发现有些人通过搜索引擎浏览了我的那篇旧文，我觉得那篇文章太旧且简单了。于是挖下这么一个坑，写下这篇新文章更新下对 Scoop 的介绍与体会。</p> <hr> <h2 id="软件包管理器">软件包管理器</h2> <blockquote><p><a rel="noopener noreferrer" target="_blank" href="https://scoop.sh/">https://scoop.sh/</a></p></blockquote> <p>这是 Scoop 的官网首页。网站正中央醒目的 Slogan 已表明了它的定位，一个 Windows 下的命令行式的（软件）安装工具。</p> <blockquote><p>A command-line installer for Windows</p></blockquote> <p>虽然 Scoop 的作者在项目的 GitHub Wiki 中谈到，
