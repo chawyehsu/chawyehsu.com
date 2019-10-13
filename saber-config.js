@@ -157,6 +157,12 @@ module.exports = {
       }
     },
     {
+      resolve: 'saber-plugin-google-adsense',
+      options: {
+        adClientId: 'ca-pub-4381515676738667'
+      }
+    },
+    {
       resolve: 'saber-plugin-feed',
       options: {
         atomFeed: '/feed/atom.xml',
