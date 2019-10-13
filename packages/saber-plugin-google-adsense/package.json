@@ -1,0 +1,26 @@
+{
+  "name": "saber-plugin-google-adsense",
+  "version": "0.1.0",
+  "description": "Google Adsense plugin for Saber",
+  "author": "Chawye Hsu <h404bi@gmail.com>",
+  "homepage": "https://github.com/h404bi/www.h404bi.com#readme",
+  "license": "MIT",
+  "main": "index.js",
+  "files": [
+    "index.js",
+    "saber-browser.js"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/h404bi/www.h404bi.com.git",
+    "directory": "packages/saber-plugin-google-adsense"
+  },
+  "keywords": [
+    "saber.js",
+    "saber",
+    "seo",
+    "plugin",
+    "vue",
+    "static-site-generator"
+  ]
+}
