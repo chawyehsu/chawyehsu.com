@@ -10,7 +10,7 @@ description: >-
   这两款工具的区别，介绍一下 Scoop 安装使用体验，如果你没有重度的包管理需求，
   不妨可以尝试一下 Scoop PowerShell Concfg 这套组合。
 date: 2018-05-12 21:44:39
-updated: 2010-10-13 23:32:50
+updated: 2019-10-13 23:32:50
 assets:
   cover: ../_assets/uploads/2018/12/20181225004.png
 categories:
