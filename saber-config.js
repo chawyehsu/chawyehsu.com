@@ -187,8 +187,9 @@ module.exports = {
     {
       resolve: './packages/saber-plugin-image',
       options: {
-        polyfill: true,
-        sizes: [1200, 720, 480]
+        sizes: [1200, 720, 480],
+        placeholder: true,
+        blendIn: true
       }
     },
     {
