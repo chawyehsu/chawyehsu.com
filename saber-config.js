@@ -20,7 +20,8 @@ module.exports = {
     pwaFirstTimeInstallMessage: '本站可以离线访问',
     pwaUpdateReadyMessage: '本站内容有更新',
     pwaUpdateButtonMessage: '刷新',
-    pwaDismissMessage: '忽略'
+    pwaDismissMessage: '忽略',
+    ads: true
   },
   themeConfig: {
     title: "Chawye Hsu's Blog",

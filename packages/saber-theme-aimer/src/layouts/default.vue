@@ -50,6 +50,15 @@
                 </span>
             </div>
           </section>
+          <section class="page-block-action page-block-gads"
+            v-if="page.type === 'post' && $siteConfig.ads">
+            <ins class="adsbygoogle"
+              style="display:block"
+              data-ad-client="ca-pub-4381515676738667"
+              data-ad-slot="9071959483"
+              data-ad-format="auto"
+              data-full-width-responsive="true"></ins>
+          </section>
           <Disqus
             v-if="page.comments !== false && $siteConfig.disqusjs"
             :page="page" />
