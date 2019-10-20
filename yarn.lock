@@ -7679,10 +7679,10 @@ saber-plugin-feed@0.4.2:
   dependencies:
     feed "^4.0.0"
 
-saber-plugin-ga-lite@0.1.0:
-  version "0.1.0"
-  resolved "https://registry.npmjs.org/saber-plugin-ga-lite/-/saber-plugin-ga-lite-0.1.0.tgz#bda5b005a2d40f4516c7d412e5f95a68bbe50d00"
-  integrity sha512-SuvDnzfZ1b5AM0I2+nC1+bGloBtDjN4INek6P8EnwZFCJXixclrUmgmmeQvUxnXHRLIOa0S6w009swVAt5Py+Q==
+saber-plugin-ga-lite@0.2.0:
+  version "0.2.0"
+  resolved "https://registry.yarnpkg.com/saber-plugin-ga-lite/-/saber-plugin-ga-lite-0.2.0.tgz#f4ed97de9f600fcafa233420e3381e142a60c9eb"
+  integrity sha512-0HMGOKIxAz/6XLXMYTNWdtQokjP5Gs9n7weCqLMDksYce/aKlmVA1HLcgR0+6FlvwB86zHcD1C67KdrUwWXYNA==
 
 saber-plugin-google-adsense@^0.2.1:
   version "0.2.1"
