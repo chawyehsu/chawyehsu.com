@@ -51,7 +51,7 @@
         border-bottom: 1px dashed $meta-color-invert;
       }
 
-      > table {
+      table {
         tr {
           &:nth-child(2n) {
             background-color: $tertiary-color-invert;
