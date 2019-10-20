@@ -25,7 +25,7 @@
     "saber-plugin-baidu-analytics": "0.0.1",
     "saber-plugin-feed": "0.4.2",
     "saber-plugin-ga-lite": "0.1.0",
-    "saber-plugin-google-adsense": "^0.2.0",
+    "saber-plugin-google-adsense": "^0.2.1",
     "saber-plugin-prismjs": "0.2.3",
     "saber-plugin-query-posts": "0.4.5",
     "saber-plugin-sitemap": "0.3.0",

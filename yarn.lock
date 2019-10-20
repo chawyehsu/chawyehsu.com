@@ -7684,10 +7684,10 @@ saber-plugin-ga-lite@0.1.0:
   resolved "https://registry.npmjs.org/saber-plugin-ga-lite/-/saber-plugin-ga-lite-0.1.0.tgz#bda5b005a2d40f4516c7d412e5f95a68bbe50d00"
   integrity sha512-SuvDnzfZ1b5AM0I2+nC1+bGloBtDjN4INek6P8EnwZFCJXixclrUmgmmeQvUxnXHRLIOa0S6w009swVAt5Py+Q==
 
-saber-plugin-google-adsense@^0.2.0:
-  version "0.2.0"
-  resolved "https://registry.npmjs.org/saber-plugin-google-adsense/-/saber-plugin-google-adsense-0.2.0.tgz#b62a77006b058103b29f1cf16c8b152df3661c38"
-  integrity sha512-Xi1zG9NiJNRRVUDwVe2maT8l7yqBnWS3psQ1nNwNtMM1i+o+zGHGib9KlJ+w39Z/cwr5wI0dYSfTiUPwk61woA==
+saber-plugin-google-adsense@^0.2.1:
+  version "0.2.1"
+  resolved "https://registry.npmjs.org/saber-plugin-google-adsense/-/saber-plugin-google-adsense-0.2.1.tgz#e14514704ca8ddcdbfe10b044d26114d9851a985"
+  integrity sha512-ETQpQgDgKR6FQr/QkaMd7CvhzRbmf7tnqGprBjJ7qn5EkgnaBQhPfyx9H6s9Hqcib036HNvx3UGbxUXeTPrVpg==
 
 saber-plugin-prismjs@0.2.3:
   version "0.2.3"
