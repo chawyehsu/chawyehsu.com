@@ -89,6 +89,10 @@ Windowsbrew/Winbrew 呢哈哈……）
 我了解过但没并用过 Chocolatey，所以接下来我只能根据我对 Chocolatey 的短浅认识，
 来说一说我为什么一开始就选择用上了 Scoop。
 
+<div class="gad" style="width:100%;height:auto;">
+  <adsbygoogle ad-layout="in-article" ad-format="fluid" data-ad-slot="8422573867" />
+</div>
+
 ## Why Scoop
 
 <p style="position:relative;padding-bottom:56.25%;">
