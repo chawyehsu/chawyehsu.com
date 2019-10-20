@@ -108,6 +108,7 @@ export default function ({ Vue }) {
             'data-ad-region': this.show ? this.adRegion() : null,
             'data-ad-layout': this.adLayout || null,
             'data-ad-layout-key': this.adLayoutKey || null,
+            'data-full-width-responsive': options['fullWidthResponsive'] ? "true" : "false",
             'data-adtest': options['test'] ? 'on' : null
           },
           domProps: {

@@ -14,6 +14,7 @@ exports.apply = (api, options = {}) => {
       adsenseScriptUrl: 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js',
       adClientId: null,
       pageLevelAds: false,
+      fullWidthResponsive: false,
       test: false
     },
     options
