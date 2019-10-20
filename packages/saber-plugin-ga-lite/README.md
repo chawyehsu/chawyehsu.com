@@ -28,6 +28,10 @@ plugins:
 
 Your Google Analytics track identity.
 
+- Type: `string`
+- Default: [`https://cdn.jsdelivr.net/npm/ga-lite`](https://cdn.jsdelivr.net/npm/ga-lite)
+
+The configurable url of [ga-lite](https://github.com/jehna/ga-lite) to load.
 
 ## License
 
