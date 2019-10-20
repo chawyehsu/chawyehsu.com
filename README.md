@@ -16,8 +16,8 @@
   </a>
 </p>
 <p align="center">
-  <a href="https://saberjs.org/">
-    <img src="https://img.shields.io/badge/Powered%20by-Saber-FF8AD8.svg?style=flat-square" alt="Powered by Saber" />
+  <a href="https://saber.land/">
+    <img src="https://img.shields.io/badge/Powered%20by-Saber-00838f.svg?style=flat-square" alt="Powered by Saber" />
   </a>
   <a href="https://code.visualstudio.com">
     <img src="https://img.shields.io/badge/build%20with-vscode-blue.svg?style=flat-square" alt="build with vscode" />
