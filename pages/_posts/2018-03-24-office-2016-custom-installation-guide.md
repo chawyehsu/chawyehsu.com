@@ -35,6 +35,10 @@ categories:
 此前已经知道过 Click-to-Run 的厉害，但新装系统后手抖直接点下了镜像的
 setup.exe 的话，那就来与我一起“卸了又装”。
 
+<div class="gad">
+  <adsbygoogle ad-layout="in-article" ad-format="fluid" ad-slot="8422573867"/>
+</div>
+
 ## 卸载已安装的 Office
 
 在[Office 官方文档库]里，选择第 2 种方法：
