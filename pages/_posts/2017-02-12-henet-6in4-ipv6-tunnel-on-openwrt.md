@@ -30,6 +30,10 @@ categories:
 
 其中 IPv6 Tunnel Endpoints 部分是这个 6in4 隧道两端的 IPv4 和 IPv6 地址。Server 是 HE 的隧道服务器，Client 是我们的路由器或计算机。下方的 Routed IPv6 Prefixes 是该隧道可用于分配的 IPv6 地址段，可为路由器背后的内网机器都分配上唯一的 IPv6 地址。
 
+<div class="gad">
+  <adsbygoogle ad-layout="in-article" ad-format="fluid" ad-slot="8422573867"/>
+</div>
+
 ## Openwrt 配置 HE 6in4
 
 在 Luci 界面中，依次点击“网络”-“接口”-“添加新接口”创建新接口。接口名称随意，这里为方便辨认以 HENET 为例，协议选择 IPv6-in-IPv4 (RFC4213)，然后提交。

@@ -53,6 +53,10 @@ MV[^1]。这首在 2018 年引起病毒式传播的歌曲，在发布的 35 年�
 不过，真正将《Plastic Love》这首歌曲重新带到当下人们的视线中，并引爆传播炸弹的，是
 来自 YouTube 上关于这首歌曲的奇妙事件……
 
+<div class="gad">
+  <adsbygoogle ad-layout="in-article" ad-format="fluid" ad-slot="8422573867"/>
+</div>
+
 ## 这就是互联网的迷幻之处，我真的不知道为什么突然就……
 
 2017 年 7 月 5 日，YouTube 上一个名为 Plastic Lover 的不知名帐号，平常地上传了一个

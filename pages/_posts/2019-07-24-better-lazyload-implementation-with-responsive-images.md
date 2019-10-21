@@ -158,6 +158,10 @@ CSS-TRICKS 的文章 —— [Aspect Ratio Boxes]。布局抖动解决后样子�
 
 ---
 
+<div class="gad">
+  <adsbygoogle ad-layout="in-article" ad-format="fluid" ad-slot="8422573867"/>
+</div>
+
 ## 改进
 
 先抛出一个自我打击：如果一直从“先人”创造的最早的图片懒加载方法入手，打死我也不会想
