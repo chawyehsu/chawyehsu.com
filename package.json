@@ -10,7 +10,6 @@
     "type": "git"
   },
   "scripts": {
-    "bootstrap": "yarn && yarn lerna bootstrap",
     "dev": "saber",
     "build": "saber build"
   },
@@ -34,5 +33,8 @@
   },
   "devDependencies": {
     "lerna": "^3.13.1"
-  }
+  },
+  "workspaces": [
+    "packages/*"
+  ]
 }
