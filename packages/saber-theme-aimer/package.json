@@ -14,7 +14,7 @@
     "dev:example": "saber example"
   },
   "dependencies": {
-    "bulma": "^0.7.4",
+    "bulma": "^0.8.0",
     "disqusjs": "^1.2.3",
     "normalize.css": "^8.0.1",
     "tinytime": "^0.2.6",
