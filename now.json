@@ -5,9 +5,9 @@
   },
   "routes": [
     {
-      "src": "/blog/feed.xml",
+      "src": "/blog/atom.xml",
       "status": 301,
-      "headers": { "Location": "/feed/feed.xml" }
+      "headers": { "Location": "/feed/atom.xml" }
     },
     {
       "src": "/blog/(?<year>[\\d]{4})/(?<month>[\\d]{2})/(?<day>[\\d]{2})/(?<slug>[a-z0-9\\-]+).html",
