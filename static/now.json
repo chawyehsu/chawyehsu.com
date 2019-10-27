@@ -1,17 +1,5 @@
 {
   "github": {
-    "enabled": true
-  },
-  "routes": [
-    {
-      "src": "/blog/feed.xml",
-      "status": 301,
-      "headers": { "Location": "/feed/feed.xml" }
-    },
-    {
-      "src": "/blog/(?<year>[\\d]{4})/(?<month>[\\d]{2})/(?<day>[\\d]{2})/(?<slug>[a-z0-9\\-]+).html",
-      "status": 301,
-      "headers": { "Location": "/blog/$year/$month/$slug" }
-    }
-  ]
+    "enabled": false
+  }
 }
