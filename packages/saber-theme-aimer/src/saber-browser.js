@@ -15,13 +15,6 @@ export default ({ Vue, setHead }) => {
         lang: 'zh-CN',
         // class: 'dark-mode'
       },
-      meta: [
-        {
-          // Fake Hexo meta generator
-          name: 'generator',
-          content: 'Hexo'
-        }
-      ],
       link: [
         {
           rel: 'alternate',
