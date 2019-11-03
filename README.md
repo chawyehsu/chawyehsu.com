@@ -43,7 +43,7 @@
 **Prerequisites:**  
 Git, Nodejs, Yarn
 
-### Clone the source:
+### Get the project:
 
 ``` sh
 $ git clone https://github.com/h404bi/www.h404bi.com.git
@@ -55,10 +55,14 @@ $ cd www.h404bi.com
 ``` sh
 # Bootstrap, install dependencies
 $ yarn
-# Start localhost web server
+# Start localhost dev server
 $ yarn dev
 # Listening 127.0.0.1:3000
 ```
+
+## Credit
+
+Complete open sourcing was inspired by [daneden.me](https://github.com/daneden/daneden.me).
 
 ## License
 
