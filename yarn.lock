@@ -8885,10 +8885,10 @@ saber-markdown@^0.1.6:
   resolved "https://registry.npmjs.org/saber-markdown/-/saber-markdown-0.1.6.tgz#49aa91c98b1772607bb42fe9438ede1d2e05735a"
   integrity sha512-ilJvG0yC/9bqN1Mfv+GblJGV9sZsMFtWl7x8Lrxrx9Jx5IgY6z2rAe0e2YblyuoOCrIircWXrh2qT7dd97lHXA==
 
-saber-plugin-feed@0.4.2:
-  version "0.4.2"
-  resolved "https://registry.npmjs.org/saber-plugin-feed/-/saber-plugin-feed-0.4.2.tgz#e4d7044e13b0a8b9ad5d61e77d3ebf43ad05d07c"
-  integrity sha512-mKa8cse6mEtHcbpkVPGLt0c4ma+3Nd9e3ye9NyVo4NmFcFiWFQPbuL6PHOIJuoy1CgLyLTROjF8V7Kvgl7HJsw==
+saber-plugin-feed@0.4.3:
+  version "0.4.3"
+  resolved "https://registry.npmjs.org/saber-plugin-feed/-/saber-plugin-feed-0.4.3.tgz#fda86c3885c7f1f8f283b631534c42892c8b166e"
+  integrity sha512-JeZaIE0k9XpsJyUK3x5tPuKgdTltaqr/W3cYgGvXwmVQbym0aq48BK5+FqD++aRK5HSrYek3vNm7kj97IYZV1g==
   dependencies:
     feed "^4.0.0"
 

@@ -22,7 +22,7 @@
     "prismjs": "^1.17.1",
     "saber": "0.11.3",
     "saber-plugin-baidu-analytics": "0.0.1",
-    "saber-plugin-feed": "0.4.2",
+    "saber-plugin-feed": "0.4.3",
     "saber-plugin-ga-lite": "0.2.0",
     "saber-plugin-google-adsense": "^0.2.1",
     "saber-plugin-prismjs": "0.2.3",
