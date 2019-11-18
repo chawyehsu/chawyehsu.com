@@ -3,50 +3,56 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
     <loc>https://www.h404bi.com/blog/category/digital</loc>
-    <lastmod>2019-11-12T01:38:18.546Z</lastmod>
+    <lastmod>2019-11-18T15:01:04.921Z</lastmod>
         <priority>0.8</priority>
         <changefreq>always</changefreq>
   </url>
     <url>
     <loc>https://www.h404bi.com/blog/category/technology</loc>
-    <lastmod>2019-11-12T01:38:18.545Z</lastmod>
+    <lastmod>2019-11-18T15:01:04.920Z</lastmod>
         <priority>0.8</priority>
         <changefreq>always</changefreq>
   </url>
     <url>
     <loc>https://www.h404bi.com/blog/tag/%E5%89%8D%E7%AB%AF%E6%80%A7%E8%83%BD%E4%BC%98%E5%8C%96</loc>
-    <lastmod>2019-11-12T01:38:18.544Z</lastmod>
+    <lastmod>2019-11-18T15:01:04.918Z</lastmod>
         <priority>0.8</priority>
         <changefreq>always</changefreq>
   </url>
     <url>
     <loc>https://www.h404bi.com/blog/category/uncategorized</loc>
-    <lastmod>2019-11-12T01:38:18.544Z</lastmod>
+    <lastmod>2019-11-18T15:01:04.918Z</lastmod>
         <priority>0.8</priority>
         <changefreq>always</changefreq>
   </url>
     <url>
     <loc>https://www.h404bi.com/blog/tag/%E5%89%8D%E7%AB%AF</loc>
-    <lastmod>2019-11-12T01:38:18.543Z</lastmod>
+    <lastmod>2019-11-18T15:01:04.917Z</lastmod>
         <priority>0.8</priority>
         <changefreq>always</changefreq>
   </url>
     <url>
     <loc>https://www.h404bi.com/blog</loc>
-    <lastmod>2019-11-12T01:37:36.336Z</lastmod>
+    <lastmod>2019-11-18T15:00:25.427Z</lastmod>
         <priority>1</priority>
         <changefreq>always</changefreq>
   </url>
     <url>
     <loc>https://www.h404bi.com/</loc>
-    <lastmod>2019-11-12T01:37:36.336Z</lastmod>
+    <lastmod>2019-11-18T15:00:25.427Z</lastmod>
         <priority>0.8</priority>
         <changefreq>always</changefreq>
   </url>
     <url>
     <loc>https://www.h404bi.com/blog/page/2</loc>
-    <lastmod>2019-11-12T01:37:36.336Z</lastmod>
+    <lastmod>2019-11-18T15:00:25.427Z</lastmod>
         <priority>1</priority>
+        <changefreq>always</changefreq>
+  </url>
+    <url>
+    <loc>https://www.h404bi.com/blog/2019/11/github-universe-2019-news</loc>
+    <lastmod>2019-11-18T14:50:00.000Z</lastmod>
+        <priority>0.6</priority>
         <changefreq>always</changefreq>
   </url>
     <url>
