@@ -34,9 +34,9 @@
                       <saber-image
                       :src="post.attributes.assets.feature"
                       :alt="post.attributes.title" />
-                      <span class="overlay">
-                        {{ post.attributes.title }}
-                      </span>
+                      <span
+                        class="overlay"
+                        v-text="post.attributes.title"></span>
                     </div>
                   </saber-link>
                 </figure>

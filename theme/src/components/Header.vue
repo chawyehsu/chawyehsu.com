@@ -6,9 +6,8 @@
         <div class="column navbar-brand">
           <saber-link
             class="navbar-item site-title"
-            :to="$themeConfig.header.logo_url">
-            {{ $themeConfig.title || $siteConfig.title }}
-          </saber-link>
+            :to="$themeConfig.header.logo_url"
+            v-text="$themeConfig.title || $siteConfig.title"></saber-link>
           <span
             @click="toggleNavbarMenu()"
             ref="burger"
@@ -27,9 +26,8 @@
               class="navbar-item"
               v-for="(item, index) in $themeConfig.header.nav"
               :key="index"
-              :to="item.path">
-              {{ item.name }}
-            </saber-link>
+              :to="item.path"
+              v-text="item.name"></saber-link>
           </div>
         </div>
       </div>
