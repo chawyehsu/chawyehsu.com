@@ -1,0 +1,36 @@
+.tach-footer {
+  background-color: $tertiary-color;
+  color: $text-color;
+  padding: $gap-l 0;
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    li {
+      display: inline-block;
+
+      &+li {
+        margin-left: $gap-m;
+      }
+    }
+  }
+
+  .section {
+    margin-bottom: $gap-m;
+    text-align: center;
+    &:last-child {
+      margin: 0;
+    }
+  }
+
+  .copyright {
+    font-size: $font-size-small;
+  }
+
+  p {
+    margin: 0;
+    a {
+      text-decoration: underline;
+    }
+  }
+}

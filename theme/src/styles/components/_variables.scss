@@ -1,0 +1,78 @@
+/**
+ * Typography: Font family
+ */
+
+$font-emoji: "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+// Sans
+$font-sans-latin: "Open Sans";
+$font-sans-chinese: "Noto Sans SC", "Source Han Sans SC", "PingFang SC", "Hiragino Sans GB", "WenQuanYi Micro Hei", "Microsoft Yahei";
+$font-sans-fallback: sans-serif;
+$font-family-sans: $font-sans-latin, $font-sans-chinese, $font-sans-fallback;
+// Serif
+$font-serif-latin: "Manuale", "Times New Roman";
+$font-serif-chinese: "Noto Serif SC", "Source Han Serif SC", STFangsong, FangSong, FangSong_GB2312;
+$font-serif-fallback: serif;
+$font-family-serif: $font-serif-latin, $font-serif-chinese, $font-serif-fallback;
+// Headline
+$font-serif-chinese-headline: "Noto Serif SC", "Source Han Serif SC", "Kaiti SC", STKaiti, KaiTi, KaiTi_GB2312;
+$font-family-serif-headline: $font-serif-latin, $font-serif-chinese-headline, $font-serif-fallback;
+// Mono
+$font-family-mono: 'Inconsolata', Monaco, Consolas, 'Lucida Console', monospace;
+
+/**
+ * Typography: Fonts size
+ */
+
+$font-size-base-xs: 87.5%; // 14px
+$font-size-base-s: 100%;   // 16px
+$font-size-base-m: 112.5%; // 18px
+$font-size-base-l: 125%;   // 20px
+$font-size-base-xl: 150%;  // 24px
+
+$font-size-h1: 2rem;
+$font-size-h2: 1.5rem;
+$font-size-h3: 1.25rem;
+$font-size-h4: 1.125rem;
+$font-size-h5: 1rem;
+$font-size-h6: 0.875rem;
+
+$font-size-code: 0.875rem;
+$font-size-small: 0.8rem;
+$font-size-footnotes: 0.875rem;
+$font-size-sub-sup: 0.8rem;
+
+$line-height-base: 1.7778;
+$line-height-code: 1.5;
+
+/**
+ * Spacing system
+ */
+
+$gap-s: 0.4445rem;
+$gap-m: 0.8889rem;
+$gap-l: 1.7778rem;
+$gap-xl: 3.5556rem;
+
+/**
+ * Colors System
+ */
+
+$background: #fffffe;
+$text-color: #3d464d;
+$meta-color: #9ea3a6;
+$tertiary-color: #f5f5f5;
+
+$background-invert: #1d1f21;
+$text-color-invert: #999a9b;
+$meta-color-invert: #727375;
+$tertiary-color-invert: #2a2c2f;
+
+$highlight-color: #009688;
+
+/**
+ * Responsiveness breakpoints
+ */
+$watch: 480px;
+
+// Page body wrapper
+$max-width: 1024px;

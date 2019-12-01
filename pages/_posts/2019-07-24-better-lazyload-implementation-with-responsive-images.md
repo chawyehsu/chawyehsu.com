@@ -12,11 +12,13 @@ date: 2019-07-24 15:53:00
 updated: 2019-07-24 16:33:00
 assets:
   cover: ../_assets/uploads/2019/07/20190724000.png
+  feature: ../_assets/uploads/2019/11/20191130005.jpg
 categories:
   - 技术
 tags:
   - 前端
   - 前端性能优化
+feature: true
 ---
 
 ![头图（图源：[Unsplash@emilep]）](../_assets/uploads/2019/07/20190724005.jpg)

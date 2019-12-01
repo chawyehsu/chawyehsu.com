@@ -1,0 +1,133 @@
+@mixin dark-mode {
+  html {
+    color: $text-color-invert;
+  }
+
+  body {
+    background: $background-invert;
+  }
+
+  // header
+  nav.navbar {
+    background-color: $background-invert;
+    color: $text-color-invert;
+  }
+
+  // index
+  .post-list {
+    .post-list-item {
+      .post-meta {
+        color: $meta-color-invert;
+      }
+    }
+  }
+
+  // page
+  .page-content {
+    .page-header {
+      .page-meta {
+        color: $meta-color-invert;
+      }
+    }
+
+    .page-alert {
+      background-color: $tertiary-color-invert;
+    }
+
+    .page-body {
+      a:not([id^=fnref]) {
+        border-bottom: 1px dashed $meta-color-invert;
+      }
+
+      table {
+        tr {
+          &:nth-child(2n) {
+            background-color: lighten($tertiary-color-invert, 2%);
+          }
+
+          th, td {
+            border: 1px solid darken($tertiary-color-invert, 2%);
+          }
+        }
+      }
+
+      blockquote {
+        background: $tertiary-color-invert;
+      }
+
+      code {
+        background: $tertiary-color-invert;
+      }
+
+      .saber-highlight {
+        background: $tertiary-color-invert;
+        code {
+          background: transparent;
+        }
+      }
+
+      figure {
+        figcaption {
+          color: $meta-color-invert;
+        }
+      }
+
+      .footnotes {
+        color: $meta-color-invert;
+        p a {
+          border: 0;
+        }
+      }
+    }
+
+    .page-tags {
+      color: $meta-color-invert;
+    }
+
+    .page-comments {
+      #load-disqus {
+        color: $meta-color-invert;
+      }
+    }
+  }
+
+  // footer
+  .tach-footer {
+    background-color: $tertiary-color-invert;
+    color: $text-color-invert;
+  }
+
+  // bulma navbar
+  a.navbar-item:focus,
+  a.navbar-item:focus-within,
+  a.navbar-item:hover,
+  a.navbar-item.is-active,
+  .navbar-link:focus,
+  .navbar-link:focus-within,
+  .navbar-link:hover,
+  .navbar-link.is-active {
+    background: $tertiary-color-invert;
+  }
+
+  .navbar-brand a.navbar-item:focus,
+  .navbar-brand a.navbar-item:hover {
+    background-color: transparent;
+  }
+}
+
+// Using dark mode in CSS with MacOS Mojave
+// https://paulmillr.com/posts/using-dark-mode-in-css/
+@media (prefers-color-scheme: dark) {
+  @include dark-mode();
+}
+
+// Force dark mode
+html.dark-mode {
+  color: $text-color-invert;
+
+  .site-header {
+    background-color: $background-invert;
+    color: $text-color-invert;
+  }
+  @include dark-mode();
+}

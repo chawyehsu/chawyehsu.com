@@ -10,8 +10,10 @@ date: 2019-05-20 01:02:53
 updated: 2019-05-21 23:07:32
 assets:
   cover: ../_assets/uploads/2019/05/20190519011.png
+  feature: ../_assets/uploads/2019/11/20191130006.jpg
 categories:
   - 杂谈
+feature: true
 ---
 
 ![题图（来源: [兎姫](https://www.pixiv.net/member_illust.php?mode=medium&illust_id=71029401)）](../_assets/uploads/2019/05/20190519007.png)

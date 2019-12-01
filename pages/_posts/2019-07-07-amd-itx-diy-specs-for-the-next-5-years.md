@@ -11,8 +11,10 @@ date: 2019-07-07 01:00:00
 updated: 2019-07-08 09:31:05
 assets:
   cover: ../_assets/uploads/2019/07/20190705000.png
+  feature: ../_assets/uploads/2019/11/20191130002.jpg
 categories:
   - 数码
+feature: true
 ---
 
 ![头图：U1-PLUS 与 MacBook Pro 13'](../_assets/uploads/2019/07/20190705001.jpg)

@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Guestbook
+title: 留言板
 keywords: guestbook
 description: Guestbook of Chawye Hsu's Blog
 date: 2017-02-12

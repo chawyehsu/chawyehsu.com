@@ -13,8 +13,10 @@ date: 2018-05-12 21:44:39
 updated: 2019-10-13 23:32:50
 assets:
   cover: ../_assets/uploads/2018/12/20181225004.png
+  feature: ../_assets/uploads/2019/11/20191130003.jpg
 categories:
   - 技术
+feature: true
 ---
 
 ![Let us Scoop it!](../_assets/uploads/2018/05/20180512001.gif "Let us Scoop it!")

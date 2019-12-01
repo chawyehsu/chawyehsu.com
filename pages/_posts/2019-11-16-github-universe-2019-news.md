@@ -11,8 +11,10 @@ date: 2019-11-16 00:15:00
 updated: 2019-11-18 22:50:00
 assets:
   cover: ../_assets/uploads/2019/11/20191115001.jpg
+  feature: ../_assets/uploads/2019/11/20191130001.jpg
 categories:
   - 杂谈
+feature: true
 ---
 
 ![头图（图源：[GitHub Blog]）](../_assets/uploads/2019/11/20191115002.png)
