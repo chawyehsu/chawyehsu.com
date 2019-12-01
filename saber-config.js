@@ -103,7 +103,8 @@ module.exports = {
     {
       resolve: 'saber-plugin-ga-lite',
       options: {
-        trackId: 'UA-91882040-1'
+        trackId: 'UA-91882040-1',
+        galiteUrl: 'https://unpkg.com/ga-lite'
       }
     },
     {
