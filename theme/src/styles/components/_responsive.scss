@@ -1,0 +1,31 @@
+/* >= 480px */
+@media (min-width: $watch) {
+  html {
+    font-size: $font-size-base-m;
+  }
+  // Floating figure images
+  .page-content {
+    figure {
+      &.left,
+      &.right {
+        max-width: 40%;
+      }
+      &.left {
+        float: left;
+        margin-right: $gap-l;
+      }
+      &.right {
+        float: right;
+        margin-left: $gap-l;
+      }
+    }
+  }
+}
+
+/* >= 768px */
+@media (min-width: $tablet) {
+  html {
+    font-size: $font-size-base-l;
+  }
+}
+

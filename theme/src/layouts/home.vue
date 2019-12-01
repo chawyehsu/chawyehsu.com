@@ -1,0 +1,301 @@
+<template>
+  <div class="tach-root">
+    <Header />
+    <main class="tach-main">
+      <section
+        v-if="page.attributes.assets.hero"
+        class="tach-portfolio-hero hero">
+        <div class="hero-body">
+          <img class="img" :src="page.attributes.assets.hero"/>
+        </div>
+      </section>
+      <section class="tach-portfolio-haiku">
+        <div class="tach-wrapper">
+          <div class="container">
+            <div class="content">
+              <h6>There will</h6>
+              <h4>still be <span>love</span> in this world</h4>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="tach-portfolio-feature">
+        <div class="tach-wrapper">
+          <div class="container">
+            <h4>Featured</h4>
+            <div class="container columns is-mobile is-multiline">
+              <article
+                class="tach-portfolio-item column is-4-desktop is-4-tablet is-6-mobile"
+                v-for="post in page.posts.filter(item => item.feature === true).slice(0, 6)"
+                :key="post.attributes.permalink">
+                <figure class="item__content">
+                  <saber-link class="link" :to="post.attributes.permalink">
+                    <div class="pic-box">
+                      <saber-image
+                      :src="post.attributes.assets.feature"
+                      :alt="post.attributes.title" />
+                      <span class="overlay">
+                        {{ post.attributes.title }}
+                      </span>
+                    </div>
+                  </saber-link>
+                </figure>
+              </article>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="tach-portfolio-subscribe">
+        <div class="tach-wrapper">
+          <div class="container">
+            <div class="content is-uppercase">
+              <h4>Feeds</h4>
+              <p>如果你不想错过更新的文章，可以通过 RSS 订阅本博客</p>
+              <a class="button" target="_blank" :href="this.$feed.permalink">Subscribe</a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <Footer />
+  </div>
+</template>
+
+<script>
+import Header from '../components/Header.vue'
+import Footer from '../components/Footer.vue'
+
+export default {
+  props: ['page'],
+  components: {
+    Header,
+    Footer
+  },
+  head () {
+    return {
+      title: this.$siteConfig.title,
+      meta: [
+        {
+          name: 'description',
+          content: this.$siteConfig.description
+        },
+        {
+          name: 'keywords',
+          content: this.$siteConfig.keywords
+        },
+        {
+          property: 'og:title',
+          content: this.$siteConfig.title
+        },
+        {
+          property: 'og:description',
+          content: this.$siteConfig.description
+        },
+        {
+          property: 'og:type',
+          content: 'website'
+        },
+        {
+          name: 'twitter:card',
+          content: 'summary'
+        },
+        {
+          name: 'twitter:creator',
+          content: this.$siteConfig.author
+        },
+        {
+          name: 'twitter:title',
+          content: this.$siteConfig.title
+        }
+      ]
+    }
+  }
+}
+</script>
+
+<style lang="scss" scoped>
+@import '~bulma/sass/utilities/_all';
+@import '../styles/components/variables';
+
+.tach-portfolio-hero {
+  .hero-body {
+    padding: 0;
+
+    img {
+      display: block;
+      width: 100%;
+      height: auto;
+    }
+  }
+}
+
+.tach-portfolio-haiku {
+  padding-top: 3rem;
+
+  @media screen and (min-width: $desktop) {
+    padding-top: 6rem;
+  }
+
+  .content {
+    padding: 0 $gap-m;
+    text-align: center;
+
+    h6 {
+      font-size: $font-size-small;
+      letter-spacing: 4px;
+      font-weight: 400;
+      text-transform: uppercase;
+    }
+
+    h4 {
+      letter-spacing: 6px;
+      font-weight: 400;
+      text-transform: uppercase;
+    }
+
+    span {
+      background: $background-invert;
+      color: #ffffff;
+      padding: $gap-s * 0.5;
+      padding-right: 0;
+    }
+  }
+}
+
+.tach-portfolio-feature {
+  padding-top: 2.7778rem;
+
+  .item__content {
+    position: relative;
+    margin: 0;
+
+    .pic-box {
+      position: relative;
+      overflow: hidden;
+      z-index: 1;
+    }
+
+    img {
+      position: relative;
+      display: block;
+      width: 100%;
+      height: auto;
+      z-index: 1;
+      transition: all 0.5s ease-in-out;
+    }
+
+    .overlay {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      padding: $gap-l;
+      color: #ffffff;
+      font-size: 0.875rem;
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      top: 0;
+      left: 0;
+      background: #202121;
+      opacity: 0;
+      z-index: 0;
+      transition: all 0.3s ease-in-out;
+    }
+
+    &:hover {
+      .overlay {
+        opacity: 1;
+      }
+
+      img {
+        transform: scale(1.05);
+        opacity: 0.25;
+      }
+    }
+  }
+
+  h4 {
+    margin: 0;
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+  }
+}
+
+.tach-portfolio-subscribe {
+  padding: 3rem 0;
+  text-align: center;
+
+  .content {
+    padding: 0 $gap-m;
+  }
+
+  h4 {
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+  }
+
+  .button {
+    height: auto;
+    background: $background-invert;
+    color: #ffffff;
+    margin-top: 1.7778rem;
+    border-radius: 50px;
+    padding: .6rem 3.2rem;
+    border: 1px solid $background-invert;
+    transition: all 0.2s ease-in-out;
+
+    &:hover {
+      background: #ffffff;
+      color: $background-invert;
+    }
+  }
+}
+
+@media screen and (max-width: $tablet - 1) {
+  .tach-portfolio-feature {
+    .item__content {
+      .overlay {
+        opacity: 1;
+      }
+
+      img {
+        transform: scale(1.05);
+        opacity: 0.25;
+      }
+    }
+  }
+}
+
+@mixin home-dark-mode {
+  .tach-portfolio-haiku {
+    .content {
+      h6 {
+        color: $meta-color-invert;
+      }
+      h4 {
+        color: $text-color-invert;
+      }
+      span {
+        background-color: $tertiary-color-invert;
+      }
+    }
+  }
+  .tach-portfolio-subscribe {
+    .button {
+      border: 1px solid $background;
+    }
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  @include home-dark-mode();
+}
+
+// Force dark mode
+html.dark-mode {
+  @include home-dark-mode();
+}
+</style>

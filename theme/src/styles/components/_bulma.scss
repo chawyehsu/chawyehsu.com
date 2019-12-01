@@ -1,0 +1,29 @@
+@import './variables';
+
+$family-secondary: $font-family-sans;
+
+@import '~bulma/sass/utilities/_all';
+@import "~bulma/sass/base/minireset";
+@import "~bulma/sass/base/helpers";
+@import '~bulma/sass/grid/_all';
+
+@import '~bulma/sass/layout/hero';
+@import '~bulma/sass/layout/footer';
+
+@import '~bulma/sass/elements/button';
+@import '~bulma/sass/elements/container';
+@import '~bulma/sass/elements/notification';
+
+@import '~bulma/sass/components/navbar';
+
+.navbar-burger,
+.navbar-item,
+.navbar-link {
+  color: inherit;
+}
+
+@media screen and (max-width: $desktop) {
+  .navbar-menu {
+    background-color: inherit;
+  }
+}

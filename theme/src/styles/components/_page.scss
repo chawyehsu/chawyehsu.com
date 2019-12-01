@@ -1,0 +1,288 @@
+.page-content {
+  padding: 2rem $column-gap;
+  width: 100%;
+
+  .page-header {
+    margin-bottom: $gap-m;
+    padding: $gap-m 0;
+    text-align: center;
+
+    .page-title {
+      margin: 0;
+    }
+
+    .page-meta {
+      display: flex;
+      justify-content: center;
+      font-size: $font-size-small;
+      color: $meta-color;
+
+      .page-categories {
+        display: flex;
+        align-items: center;
+        &:before {
+          content: '・';
+        }
+      }
+    }
+  }
+
+  .page-alert {
+    margin-bottom: $gap-m;
+    background-color: $tertiary-color;
+    padding: $gap-m;
+    font-size: $font-size-small;
+    border-radius: 0;
+  }
+
+  .page-body {
+    a:not([id^=fnref]) {
+      border-bottom: 1px dashed $meta-color;
+      overflow-wrap: break-word;
+      word-break: break-all;
+    }
+
+    h1, h2, h3, h4,
+    h5, h6 {
+      &:hover {
+        .header-anchor {
+          visibility: visible;
+        }
+      }
+    }
+
+    .header-anchor {
+      margin-left: $gap-m * -1.4333;
+      visibility: hidden;
+    }
+
+    p {
+      text-align: justify;
+    }
+
+    table {
+      border-collapse: collapse;
+      border-spacing: 0;
+      display: block;
+      overflow: auto;
+      width: 100%;
+
+      tr {
+        &:nth-child(2n) {
+          background-color: lighten($tertiary-color, 2%);
+        }
+
+        th, td {
+          border: 1px solid darken($tertiary-color, 2%);
+          padding: $gap-s $gap-m;
+          white-space: nowrap;
+        }
+      }
+    }
+
+    blockquote {
+      border-left: 2px solid $highlight-color;
+      // font-style: italic;
+      background: $tertiary-color;
+      padding-left: $gap-m;
+      padding-right: $gap-s;
+      overflow-wrap: break-word;
+      word-break: break-all;
+      p:last-child {
+        margin: 0;
+      }
+    }
+
+    ol, ul {
+      margin-bottom: $gap-m;
+      padding-left: $gap-m * 1.5;
+      text-align: justify;
+
+      p {
+        margin-bottom: 0;
+      }
+    }
+
+    ul {
+      list-style-type: square;
+    }
+
+    li {
+      ul, ol {
+        margin-bottom: 0;
+      }
+    }
+
+    pre, code {
+      font-family: $font-family-mono;
+      font-size: $font-size-code;
+    }
+
+    pre {
+      line-height: $line-height-code;
+    }
+
+    code {
+      background: $tertiary-color;
+      padding: $gap-s * 0.25 $gap-s * 0.5;
+    }
+
+    .saber-highlight {
+      position: relative;
+      overflow: hidden;
+      margin: 0 0 $gap-m 0;
+      background: $tertiary-color;
+      border-radius: 0;
+
+      &:before {
+        content: attr(data-lang);
+        position: absolute;
+        right: $gap-s;
+        top: $gap-s * 0.5;
+        font-size: $font-size-sub-sup;
+        color: $meta-color;
+      }
+
+      pre.saber-highlight-code {
+        margin: 0;
+        padding: $gap-m;
+        overflow: auto;
+      }
+
+      code {
+        background: transparent;
+        padding: 0;
+      }
+    }
+
+    s, del, .meta {
+      color: $meta-color;
+    }
+
+    // Content Block Element: Horizontal Rule
+    hr {
+      border: 0;
+      height: auto;
+      margin: $gap-l auto;
+      color: $meta-color;
+      opacity: 0.5;
+
+      &:after {
+        line-height: 0;
+        display: block;
+        content: "* * *";
+        text-align: center;
+      }
+
+      // Footnotes: a special horizontal rule
+      &.footnotes-sep:after {
+        content: "Footnotes";
+      }
+    }
+
+    sub, sup {
+      font-size: $font-size-sub-sup;
+
+      a {
+        color: $highlight-color;
+      }
+    }
+
+    img {
+      max-width: 100%;
+      margin-bottom: $gap-m;
+    }
+
+    p {
+      img {
+        display: block;
+        margin: 0 auto;
+      }
+    }
+
+    figure {
+      text-align: center;
+
+      > a {
+        border: 0 !important;
+      }
+
+      img {
+        margin-bottom: 0;
+      }
+
+      figcaption {
+        color: $meta-color;
+        font-size: $font-size-small;
+        text-align: center;
+
+        p {
+          margin: 0;
+          text-align: center;
+        }
+
+        code {
+          font-size: $font-size-small;
+        }
+      }
+
+      blockquote {
+        text-align: left;
+      }
+    }
+
+    figure.highlight {
+      text-align: left;
+    }
+
+    // Content Block Element: Footnotes Section
+    .footnotes {
+      color: $meta-color;
+      font-size: $font-size-footnotes;
+
+      p {
+        margin-bottom: $gap-s;
+
+        a {
+          border: 0;
+
+          &.footnote-backref {
+            text-decoration: underline;
+          }
+        }
+      }
+    }
+  }
+
+  .page-block-action {
+    margin-top: $gap-l;
+    display: flex;
+    justify-content: space-between;
+
+    .page-tags {
+      float: right;
+      color: $meta-color;
+      font-size: $font-size-small;
+
+      .tag:before {
+        content: '#';
+        opacity: 0.5;
+        margin-right: $gap-s / 5;
+      }
+
+      .tag:hover {
+        opacity: 1;
+      }
+    }
+  }
+
+  .page-comments {
+    margin-top: $gap-xl;
+    margin-bottom: $gap-l;
+
+    #load-disqus {
+      color: $meta-color;
+      text-align: center;
+    }
+  }
+}
