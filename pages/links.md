@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Links
+title: 链接
 keywords: links
 description: Links page of Chawye Hsu's Blog
 date: 2015-05-20

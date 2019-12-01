@@ -1,6 +1,6 @@
 ---
 layout: home
-avatarLink: /about
+injectAllPosts: true
 assets:
-  avatar: ./_assets/avatar.png
+  hero: ./_assets/uploads/2019/11/20191130007.jpg
 ---

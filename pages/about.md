@@ -1,6 +1,6 @@
 ---
 layout: page
-title: About
+title: 关于
 keywords: about
 description: About page of Chawye Hsu
 date: 2015-05-18
