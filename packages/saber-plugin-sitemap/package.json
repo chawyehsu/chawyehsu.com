@@ -15,7 +15,7 @@
     "directory": "packages/saber-plugin-sitemap"
   },
   "dependencies": {
-    "ejs": "^2.6.1"
+    "ejs": "^3.0.1"
   },
   "peerDependencies": {
     "saber": "^0.7.0"
