@@ -29,7 +29,7 @@
     "saber-plugin-query-posts": "0.4.5",
     "saber-plugin-sitemap": "0.4.0",
     "sass": "^1.18.0",
-    "sass-loader": "7.3.1"
+    "sass-loader": "8.0.0"
   },
   "devDependencies": {
     "lerna": "^3.13.1"
