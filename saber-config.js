@@ -45,7 +45,7 @@ module.exports = {
       social_network: [
         {
           icon: 'logo-twitter',
-          path: 'https://twitter.com/h404bi'
+          path: 'https://twitter.com/chawyehsu'
         },
         {
           icon: 'logo-instagram',
