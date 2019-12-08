@@ -140,7 +140,7 @@ module.exports = {
       options: {
         sizes: [1200, 720, 480],
         placeholder: true,
-        blendIn: true
+        blendIn: false
       }
     },
     {
