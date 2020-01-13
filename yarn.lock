@@ -8946,10 +8946,10 @@ saber-utils@^0.2.4:
   resolved "https://registry.npmjs.org/saber-utils/-/saber-utils-0.2.4.tgz#c7844eafaf5da0aa950a7ec527d1e8c491e69ada"
   integrity sha512-8vSjecRbXNtvrtDbfwl9qdIjrQNI48aLrqSyhptIXT1DfzLJ8HPmtqiYl28ldvtQHU0KQtTjUhiGv7CDh0yT8w==
 
-saber@0.11.4:
-  version "0.11.4"
-  resolved "https://registry.npmjs.org/saber/-/saber-0.11.4.tgz#58e76ed9c3a2a23bf1ecb7281eabdac505596ef3"
-  integrity sha512-TlW8h3mLGpbxvFvGaVcIflrczBblpcFWIOQ5xgEviiKVTnbqLnJXQgToMfDIfjCGujCTGzpzkwpPoqE7XWSYcQ==
+saber@0.11.5:
+  version "0.11.5"
+  resolved "https://registry.npmjs.org/saber/-/saber-0.11.5.tgz#8ca924f2b84a9f771a6f84ab8202c9a5ca6dbf66"
+  integrity sha512-qxj5mqd28SPmgVoPwFpzCY8gk0+aQLbIgBVRTqbYfkDQrtELZjt4fXdgcNVFSDRhBNJuJ8KOhHpvEw6suaNwLQ==
   dependencies:
     "@babel/core" "^7.5.4"
     "@babel/plugin-proposal-object-rest-spread" "^7.5.4"
@@ -8987,7 +8987,7 @@ saber@0.11.4:
     saber-utils "^0.2.4"
     serve-static "^1.13.2"
     slugo "^0.3.1"
-    superstruct "^0.8.2"
+    superstruct "^0.8.3"
     tapable "^1.1.1"
     time-fix-plugin "^2.0.5"
     url-loader "^2.0.1"
@@ -9639,10 +9639,10 @@ stylehacks@^4.0.0:
     postcss "^7.0.0"
     postcss-selector-parser "^3.0.0"
 
-superstruct@^0.8.2:
-  version "0.8.2"
-  resolved "https://registry.npmjs.org/superstruct/-/superstruct-0.8.2.tgz#63d2937b0e24210535ad47d3fd67b474e99bff52"
-  integrity sha512-UW9XORtsYoe/iTj/pkOjG/rKozFkFDUbgj6iPiItvfIn9IaqVnp+v1iKKenC4AY280u6IIMXAtw2DAwHwTfY4g==
+superstruct@^0.8.3:
+  version "0.8.3"
+  resolved "https://registry.npmjs.org/superstruct/-/superstruct-0.8.3.tgz#fb4d8901aca3bf9f79afab1bbab7a7f335cc4ef2"
+  integrity sha512-LbtbFpktW1FcwxVIJlxdk7bCyBq/GzOx2FSFLRLTUhWIA1gHkYPIl3aXRG5mBdGZtnPNT6t+4eEcLDCMOuBHww==
   dependencies:
     kind-of "^6.0.2"
     tiny-invariant "^1.0.6"
