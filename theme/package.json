@@ -18,7 +18,7 @@
     "disqusjs": "^1.2.6",
     "normalize.css": "^8.0.1",
     "tinytime": "^0.2.6",
-    "vue-pswipe": "^0.14.3"
+    "vue-pswipe": "^0.15.0"
   },
   "devDependencies": {
     "autoprefixer": "^9.5.1",
