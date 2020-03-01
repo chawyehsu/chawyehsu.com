@@ -1,8 +1,18 @@
-/* >= 480px */
-@media (min-width: $watch) {
+// Fluid Typography: https://www.giuem.com/a-brief-introduction-to-fluid-typography/
+@media screen and (min-width: 321px) {
   html {
-    font-size: $font-size-base-m;
+    font-size: calc(16px + 8 * (100vw - 320px) / (2560 - 320));
   }
+}
+
+@media screen and (min-width: 2560px) {
+  html {
+      font-size: 24px;
+  }
+}
+
+// >= 769px
+@media screen and (min-width: $desktop) {
   // Floating figure images
   .page-content {
     figure {
@@ -21,11 +31,3 @@
     }
   }
 }
-
-/* >= 768px */
-@media (min-width: $tablet) {
-  html {
-    font-size: $font-size-base-l;
-  }
-}
-

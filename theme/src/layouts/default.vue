@@ -2,7 +2,7 @@
   <div class="tach-root">
     <Header />
     <main class="tach-main">
-      <div class="tach-wrapper">
+      <div class="tach-wrapper tach-page-wrapper">
       <div class="page-content container">
         <article itemscope itemtype="https://schema.org/Article">
           <header class="page-header">
@@ -12,7 +12,7 @@
                 <time
                   class="published"
                   :datetime="new Date(page.createdAt).toISOString()">
-                  {{ date(page.createdAt, '{YYYY}-{Mo}-{DD}') }}
+                  {{ date(page.createdAt, '{YYYY}-{Mo}-{DD} {H}:{mm}:{ss}') }}
                 </time>
               </section>
               <section class="page-categories" v-if="page.categoriesInfo">

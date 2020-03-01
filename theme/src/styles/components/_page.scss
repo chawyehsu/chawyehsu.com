@@ -5,7 +5,6 @@
   .page-header {
     margin-bottom: $gap-m;
     padding: $gap-m 0;
-    text-align: center;
 
     .page-title {
       margin: 0;
@@ -13,7 +12,6 @@
 
     .page-meta {
       display: flex;
-      justify-content: center;
       font-size: $font-size-small;
       color: $meta-color;
 

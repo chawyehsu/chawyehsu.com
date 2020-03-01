@@ -1,4 +1,3 @@
-import 'normalize.css'
 import './styles/main.scss'
 
 export default ({ Vue, setHead }) => {

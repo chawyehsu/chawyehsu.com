@@ -1,13 +1,55 @@
+// sticky-footer: https://philipwalton.github.io/solved-by-flexbox/demos/sticky-footer/
+.tach-root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
 .tach-main {
   flex-grow: 1;
 }
 
-.tach-wrapper {
+.site-wrapper {
+  flex: 1 0 auto;
   margin: 0 auto;
-  max-width: $max-width;
+  padding: $gap-m $gap-m 0;
+  width: 100%;
+}
+
+.tach-page-wrapper {
+  margin: 0 auto;
+  max-width: 840px;
 }
 
 .is-family-sans {
   font-family: $font-family-sans !important;
 }
 
+.h1 {
+  font-size: $font-size-1;
+}
+
+.h2 {
+  font-size: $font-size-2;
+}
+
+.h3 {
+  font-size: $font-size-3;
+}
+
+.h4 {
+  font-size: $font-size-4;
+}
+
+.h5 {
+  font-size: $font-size-5;
+}
+
+.h6 {
+  color: $meta-color;
+  font-size: $font-size-6;
+}
+
+.horizon-gap {
+  padding: 0 $column-gap;
+}

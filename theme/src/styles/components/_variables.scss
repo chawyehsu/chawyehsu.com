@@ -1,7 +1,6 @@
 /**
- * Typography: Font family
+ * Typography: Font Family
  */
-
 $font-emoji: "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 // Sans
 $font-sans-latin: "Open Sans";
@@ -20,59 +19,51 @@ $font-family-serif-headline: $font-serif-latin, $font-serif-chinese-headline, $f
 $font-family-mono: 'Inconsolata', Monaco, Consolas, 'Lucida Console', monospace;
 
 /**
- * Typography: Fonts size
+ * Typography: Font Sizes
  */
-
-$font-size-base-xs: 87.5%; // 14px
-$font-size-base-s: 100%;   // 16px
+// Base font sizes
+$font-size-base: 100%;     // 16px
 $font-size-base-m: 112.5%; // 18px
 $font-size-base-l: 125%;   // 20px
 $font-size-base-xl: 150%;  // 24px
-
-$font-size-h1: 2rem;
-$font-size-h2: 1.5rem;
-$font-size-h3: 1.25rem;
-$font-size-h4: 1.125rem;
-$font-size-h5: 1rem;
-$font-size-h6: 0.875rem;
-
-$font-size-code: 0.875rem;
-$font-size-small: 0.8rem;
-$font-size-footnotes: 0.875rem;
-$font-size-sub-sup: 0.8rem;
-
+// Headline font sizes
+$font-size-1: 2rem;
+$font-size-2: 1.5rem;
+$font-size-3: 1.25rem;
+$font-size-4: 1.125rem;
+$font-size-5: 1rem;
+$font-size-6: 0.875rem;
+$font-size-7: 0.8rem;
+// Other font sizes
+$font-size-code: $font-size-6;
+$font-size-footnotes: $font-size-6;
+$font-size-small: $font-size-7;
+$font-size-sub-sup: $font-size-7;
+// font line-height
 $line-height-base: 1.7778;
 $line-height-code: 1.5;
+$line-height-headline: 1.1;
 
 /**
- * Spacing system
+ * Design: Spacing System
  */
-
 $gap-s: 0.4445rem;
 $gap-m: 0.8889rem;
 $gap-l: 1.7778rem;
 $gap-xl: 3.5556rem;
 
 /**
- * Colors System
+ * Design: Colors System
  */
-
+// normal colors
 $background: #fffffe;
 $text-color: #3d464d;
 $meta-color: #9ea3a6;
 $tertiary-color: #f5f5f5;
-
+// dark-mode colors
 $background-invert: #1d1f21;
 $text-color-invert: #999a9b;
 $meta-color-invert: #727375;
 $tertiary-color-invert: #2a2c2f;
-
+// theme significant color
 $highlight-color: #009688;
-
-/**
- * Responsiveness breakpoints
- */
-$watch: 480px;
-
-// Page body wrapper
-$max-width: 1024px;

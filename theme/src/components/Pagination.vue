@@ -28,3 +28,28 @@ export default {
   props: ['page']
 }
 </script>
+
+<style lang="scss" scoped>
+@import '../styles/components/variables';
+
+.pagination {
+  .prev-wrap {
+    display: flex;
+    justify-content: flex-start;
+  }
+  .next-wrap {
+    display: flex;
+    justify-content: flex-end;
+  }
+  a {
+    display: flex;
+    align-items: center;
+    .icon {
+      padding-top: 2px;
+    }
+    .text {
+      margin: 0 $gap-s;
+    }
+  }
+}
+</style>

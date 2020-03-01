@@ -1,13 +1,10 @@
-@import 'components/bulma';
+@import 'components/reset';
 @import 'components/variables';
+@import 'components/bulma';
 @import 'components/helpers';
 @import 'components/fonts';
-
-@import 'components/base';
-@import 'components/header';
-@import 'components/index';
+@import 'components/typography';
 @import 'components/page';
-@import 'components/footer';
 @import 'components/responsive';
 @import 'components/dark';
 

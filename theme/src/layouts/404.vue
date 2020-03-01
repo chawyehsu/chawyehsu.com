@@ -1,12 +1,15 @@
 <template>
   <div class="tach-root">
-    <Header/>
-    <main class="container">
-      <div class="error">
-        <span>Not Found</span>
-      </div>
+    <Header />
+    <main class="tach-main">
+      <section class="tach-layout-header">
+        <div class="container horizon-gap">
+          <h1>404 Not Found</h1>
+          <h6>迷失了前行的路不可怕，丢了心才可怕。</h6>
+        </div>
+      </section>
     </main>
-    <Footer/>
+    <Footer />
   </div>
 </template>
 
@@ -28,14 +31,12 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-.tach-root {
-  .error {
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    height: 100%;
+.tach-layout-header {
+  padding-top: 3rem;
+
+  h6 {
+    font-size: 80%;
+    font-weight: 400;
   }
 }
 </style>

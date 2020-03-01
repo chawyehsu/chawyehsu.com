@@ -25,7 +25,9 @@
           </div>
         </section>
         <section class="section">
-          <div class="copyright" v-text="`© ${siteDate} ${$siteConfig.author}. Made with ♥ in Guangzhou`"></div>
+          <div class="copyright">
+            © {{ siteDate }} {{ $siteConfig.author }}. Made with <span style="color:#b30e2e">♥</span> in Guangzhou
+          </div>
         </section>
       </div>
     </div>
@@ -53,3 +55,62 @@ export default {
   }
 }
 </script>
+
+<style lang="scss" scoped>
+@import '../styles/components/variables';
+
+.tach-footer {
+  background-color: $tertiary-color;
+  color: $text-color;
+  padding: $gap-l 0;
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    li {
+      display: inline-block;
+
+      &+li {
+        margin-left: $gap-m;
+      }
+    }
+  }
+
+  .section {
+    margin-bottom: $gap-m;
+    text-align: center;
+    &:last-child {
+      margin: 0;
+    }
+  }
+
+  .copyright {
+    font-size: $font-size-small;
+  }
+
+  p {
+    margin: 0;
+    a {
+      text-decoration: underline;
+    }
+  }
+}
+
+// dark-mode
+@mixin footer-dark-mode {
+  // footer
+  .tach-footer {
+    background-color: $tertiary-color-invert;
+    color: $text-color-invert;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  @include footer-dark-mode();
+}
+
+// Force dark mode
+html.dark-mode {
+  @include footer-dark-mode();
+}
+</style>

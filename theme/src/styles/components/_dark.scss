@@ -11,21 +11,6 @@
   //   opacity: .5;
   // }
 
-  // header
-  nav.navbar {
-    background-color: $background-invert;
-    color: $text-color-invert;
-  }
-
-  // index
-  .post-list {
-    .post-list-item {
-      .post-meta {
-        color: $meta-color-invert;
-      }
-    }
-  }
-
   // page
   .page-content {
     .page-header {
@@ -93,12 +78,6 @@
         color: $meta-color-invert;
       }
     }
-  }
-
-  // footer
-  .tach-footer {
-    background-color: $tertiary-color-invert;
-    color: $text-color-invert;
   }
 
   // bulma navbar

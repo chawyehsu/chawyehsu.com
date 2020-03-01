@@ -13,7 +13,7 @@
         <div class="tach-wrapper">
           <div class="container">
             <div class="content">
-              <h6>There will</h6>
+              <small>There will</small>
               <h4>still be <span>love</span> in this world</h4>
             </div>
           </div>
@@ -25,7 +25,7 @@
             <h4>Featured</h4>
             <div class="container columns is-mobile is-multiline">
               <article
-                class="tach-portfolio-item column is-4-desktop is-4-tablet is-6-mobile"
+                class="tach-portfolio-item column is-4-desktop is-6-tablet is-12-mobile"
                 v-for="post in page.posts.filter(item => item.feature === true).slice(0, 6)"
                 :key="post.attributes.permalink">
                 <figure class="item__content">
@@ -112,7 +112,6 @@ export default {
   }
 }
 </script>
-
 <style lang="scss" scoped>
 @import '~bulma/sass/utilities/_all';
 @import '../styles/components/variables';
@@ -124,39 +123,39 @@ export default {
     img {
       display: block;
       width: 100%;
-      height: auto;
+      height: 80vw;
+      max-height: 80vh;
+      object-fit: cover;
     }
   }
 }
 
 .tach-portfolio-haiku {
-  padding-top: 3rem;
-
-  @media screen and (min-width: $desktop) {
-    padding-top: 6rem;
-  }
+  padding-top: 4rem;
 
   .content {
     padding: 0 $gap-m;
     text-align: center;
 
-    h6 {
-      font-size: $font-size-small;
+    small {
+      display: block;
+      margin-bottom: $gap-m;
+      color: $meta-color;
       letter-spacing: 4px;
-      font-weight: 400;
       text-transform: uppercase;
     }
 
     h4 {
       letter-spacing: 6px;
       font-weight: 400;
+      line-height: $line-height-base;
       text-transform: uppercase;
     }
 
     span {
       background: $background-invert;
       color: #ffffff;
-      padding: $gap-s * 0.5;
+      padding: 0.3rem;
       padding-right: 0;
     }
   }
@@ -191,7 +190,6 @@ export default {
       text-align: center;
       padding: $gap-l;
       color: #ffffff;
-      font-size: 0.875rem;
       position: absolute;
       width: 100%;
       height: 100%;
@@ -218,6 +216,7 @@ export default {
   h4 {
     margin: 0;
     text-align: center;
+    line-height: $line-height-base;
     letter-spacing: 2px;
     text-transform: uppercase;
   }
@@ -234,6 +233,7 @@ export default {
   h4 {
     text-align: center;
     letter-spacing: 2px;
+    line-height: $line-height-base;
     text-transform: uppercase;
   }
 
@@ -254,7 +254,7 @@ export default {
   }
 }
 
-@media screen and (max-width: $tablet - 1) {
+@media screen and (max-width: 767px) {
   .tach-portfolio-feature {
     .item__content {
       .overlay {
@@ -272,7 +272,7 @@ export default {
 @mixin home-dark-mode {
   .tach-portfolio-haiku {
     .content {
-      h6 {
+      small {
         color: $meta-color-invert;
       }
       h4 {
