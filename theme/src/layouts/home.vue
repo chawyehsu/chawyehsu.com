@@ -6,7 +6,7 @@
         v-if="page.attributes.assets.hero"
         class="tach-portfolio-hero hero">
         <div class="hero-body">
-          <img class="img" :src="page.attributes.assets.hero"/>
+          <saber-image class="hero-img" :src="page.attributes.assets.hero" />
         </div>
       </section>
       <section class="tach-portfolio-haiku">
@@ -28,12 +28,13 @@
                 class="tach-portfolio-item column is-4-desktop is-6-tablet is-12-mobile"
                 v-for="post in page.posts.filter(item => item.feature === true).slice(0, 6)"
                 :key="post.attributes.permalink">
-                <figure class="item__content">
+                <figure class="item-content">
                   <saber-link class="link" :to="post.attributes.permalink">
                     <div class="pic-box">
                       <saber-image
-                      :src="post.attributes.assets.feature"
-                      :alt="post.attributes.title" />
+                        class="item-cover"
+                        :src="post.attributes.assets.feature"
+                        :alt="post.attributes.title" />
                       <span
                         class="overlay"
                         v-text="post.attributes.title"></span>
@@ -120,7 +121,7 @@ export default {
   .hero-body {
     padding: 0;
 
-    img {
+    .hero-img {
       display: block;
       width: 100%;
       height: 80vw;
@@ -164,7 +165,7 @@ export default {
 .tach-portfolio-feature {
   padding-top: 2.7778rem;
 
-  .item__content {
+  .item-content {
     position: relative;
     margin: 0;
 
@@ -174,7 +175,7 @@ export default {
       z-index: 1;
     }
 
-    img {
+    .item-cover {
       position: relative;
       display: block;
       width: 100%;
@@ -206,7 +207,7 @@ export default {
         opacity: 1;
       }
 
-      img {
+      .item-cover {
         transform: scale(1.05);
         opacity: 0.25;
       }
@@ -256,12 +257,12 @@ export default {
 
 @media screen and (max-width: 767px) {
   .tach-portfolio-feature {
-    .item__content {
+    .item-content {
       .overlay {
         opacity: 1;
       }
 
-      img {
+      .item-cover {
         transform: scale(1.05);
         opacity: 0.25;
       }
