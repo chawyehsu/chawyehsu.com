@@ -5,10 +5,13 @@ export default ({ Vue }) => {
   const options = __SABER_IMAGE_OPTIONS__ // eslint-disable-line no-undef
   const blank =
     'data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs='
+  // jsdeliver CDN options
+  const jsdeliverCdn = options['jsdeliverCdn']
+  const jsdeliverCdnPrefix = options['jsdeliverCdnPrefix']
 
   Vue.component('saber-image', {
     props: ['src', 'lazy'],
-    mounted() {
+    mounted () {
       const { $el } = this
 
       if ($el.dataset.src || $el.dataset.srcset) {
@@ -32,7 +35,16 @@ export default ({ Vue }) => {
         }).observe()
       }
     },
-    render(h) {
+    methods: {
+      updatedImageUrl (src) {
+        if (jsdeliverCdn && jsdeliverCdnPrefix) {
+          return src.replace('/_saber', `${jsdeliverCdnPrefix.replace(/\/$/,'')}/_saber`)
+        } else {
+          return src
+        }
+      }
+    },
+    render (h) {
       const lazy = Object.assign(
         options,
         JSON.parse(this.$attrs['data-lazy'] || '{}'),
@@ -46,7 +58,8 @@ export default ({ Vue }) => {
 
       if (getOption('lazyLoad')) {
         if (typeof this.src === 'string') {
-          const { src } = this
+          let { src } = this
+          src = this.updatedImageUrl(src)
 
           return h('img', {
             attrs: {
@@ -59,11 +72,13 @@ export default ({ Vue }) => {
           })
         }
 
-        const { width, src, srcSet, placeholder } = this.src || {}
+        let { width, src, srcSet, placeholder } = this.src || {}
 
         const loading = getOption('placeholder') ? placeholder : blank
-
         const blendIn = getOption('blendIn')
+
+        src = this.updatedImageUrl(src)
+        srcSet = this.updatedImageUrl(srcSet)
 
         return h('img', {
           attrs: {
@@ -79,12 +94,17 @@ export default ({ Vue }) => {
       }
 
       if (typeof this.src === 'string') {
+        src = this.updatedImageUrl(src)
+
         return h('img', {
           attrs: { ...$attrs, src: this.src, 'data-pswp-title': $attrs.alt }
         })
       }
 
-      const { src, srcSet: srcset } = this.src || {}
+      let { src, srcSet: srcset } = this.src || {}
+      src = this.updatedImageUrl(src)
+      srcSet = this.updatedImageUrl(srcSet)
+
       return h('img', {
         attrs: { ...$attrs, src, srcset, 'data-pswp-title': $attrs.alt }
       })
