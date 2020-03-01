@@ -11,8 +11,8 @@
   <a href="https://www.h404bi.com">
     <img src="https://img.shields.io/website-up-down-green-red/https/h404bi.com.svg?style=flat-square" alt="Website Status" />
   </a>
-  <a href="https://www.webpagetest.org/result/190412_1P_2dd2d27be7a11015b817357a2028b0bb/">
-    <img src="https://img.shields.io/badge/WebPageTest-A-44CC11.svg?style=flat-square" alt="WebPageTest Test Result" />
+  <a href="https://www.webpagetest.org/result/200301_J4_4d43e80f91ea9497254c7d167d809062/">
+    <img src="https://img.shields.io/badge/WebPageTest-AAAAA-44CC11.svg?style=flat-square" alt="WebPageTest Test Result" />
   </a>
 </p>
 <p align="center">
