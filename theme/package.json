@@ -16,7 +16,6 @@
   "dependencies": {
     "bulma": "^0.8.0",
     "disqusjs": "^1.2.6",
-    "normalize.css": "^8.0.1",
     "tinytime": "^0.2.6",
     "vue-pswipe": "^0.15.0"
   },
