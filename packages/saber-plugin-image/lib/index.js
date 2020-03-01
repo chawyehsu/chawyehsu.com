@@ -72,7 +72,7 @@ exports.apply = (api, options = {}) => {
 
     config.plugin('constants').tap(([constants]) => [
       Object.assign(constants, {
-        __SABER_IMAGE_OPTIONS__: options
+        __SABER_IMAGE_OPTIONS__: JSON.stringify(options)
       })
     ])
 
@@ -84,6 +84,7 @@ exports.apply = (api, options = {}) => {
       .use('responsive-loader')
       .loader(require.resolve('responsive-loader'))
       .options({
+        adapter: require('responsive-loader/sharp'),
         name: "images/[name]-[hash:8].[ext]",
         ...options
       })
