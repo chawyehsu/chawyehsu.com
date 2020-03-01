@@ -31,12 +31,12 @@ export default ({ Vue, setHead }) => {
           crossorigin: true
         },
         {
-          href: 'https://unpkg.com/',
+          href: 'https://cdn.jsdelivr.net/',
           rel: 'preconnect',
           crossorigin: true
         },
         {
-          href: 'https://unpkg.com/ionicons@4.6.3/dist/css/ionicons.min.css',
+          href: 'https://cdn.jsdelivr.net/npm/ionicons@4.6.3/dist/css/ionicons.min.css',
           rel: 'stylesheet'
         }
       ]
