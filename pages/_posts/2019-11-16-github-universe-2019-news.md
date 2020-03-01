@@ -2,7 +2,7 @@
 layout: post
 title: "除了 GitHub 官方移动客户端，还有这些东西值得注意"
 keywords: GitHub,GitHub Universe,GitHub for mobile
-description: ->
+description: >-
   这次的 GitHub Universe 还是蛮有看点的，不过好像都被 GitHub for mobile 这颗耀眼
   的星给掩盖了。其实除了官方移动客户端外，大会上还公布了 Code Navigation 等好几个
   提升使用体验、值得被注意的新特性。还有 Archive Program 与北极代码库（Arctic
