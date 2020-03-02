@@ -15,9 +15,10 @@
             :key="post.attributes.permalink"
             class="post-card-wrap column is-4-desktop is-6-tablet is-12-mobile">
             <div class="post-card post-list-item">
-              <div class="post-card-image">
+              <div class="post-card-image image is-3by2">
                 <saber-link class="link" :to="post.attributes.permalink">
                   <saber-image
+                    class="image"
                     :src="post.attributes.assets.cover"
                     :alt="post.attributes.title" />
                   <span class="overlay"></span>
@@ -143,18 +144,11 @@ export default {
 
     .post-card-image {
       position: relative;
-      width: 100%;
       background-color: #fafafa;
-      background-position: 50%;
       background-repeat: no-repeat;
       background-size: cover;
       overflow: hidden;
-      &:after {
-        content: "";
-        display: block;
-        padding-bottom: 75%;
-        width: 100%;
-      }
+
       a.link {
         position: absolute;
         top: 0;

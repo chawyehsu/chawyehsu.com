@@ -1,10 +1,14 @@
 .page-content {
-  padding: 2rem $column-gap;
+  // padding: 0 $column-gap;
+  padding-top: 2rem;
   width: 100%;
 
+  .page-inner-wrapper {
+    padding: 0 $column-gap;
+  }
+
   .page-header {
-    margin-bottom: $gap-m;
-    padding: $gap-m 0;
+    position: relative;
 
     .page-title {
       margin: 0;
@@ -26,7 +30,7 @@
   }
 
   .page-alert {
-    margin-bottom: $gap-m;
+    margin: $gap-l 0 0 0;
     background-color: $tertiary-color;
     padding: $gap-m;
     font-size: $font-size-small;
@@ -34,6 +38,8 @@
   }
 
   .page-body {
+    margin-top: $gap-l;
+
     a:not([id^=fnref]) {
       border-bottom: 1px dashed $meta-color;
       overflow-wrap: break-word;
@@ -286,11 +292,15 @@
 
   .page-comments {
     margin-top: $gap-xl;
-    margin-bottom: $gap-l;
+    // margin-bottom: $gap-l;
 
     #load-disqus {
       color: $meta-color;
       text-align: center;
     }
+  }
+
+  .page-footer {
+    margin-bottom: $gap-l;
   }
 }
