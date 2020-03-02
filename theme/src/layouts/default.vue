@@ -11,7 +11,7 @@
       </section>
       <!-- page content -->
       <article class="page-content" role="main" itemscope itemtype="https://schema.org/Article">
-        <div class="tach-page-wrapper">
+        <div class="page-inner-wrapper tach-page-wrapper">
           <header :class="[page.assets.cover && page.pageCoverMode !== false ? `page-header page-has-cover` : 'page-header']">
             <!-- pageCoverMode mixed -->
             <section
