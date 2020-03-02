@@ -17,8 +17,6 @@ categories:
 feature: true
 ---
 
-<!-- ![题图（来源: [兎姫](https://www.pixiv.net/member_illust.php?mode=medium&illust_id=71029401)）](../_assets/uploads/2019/05/20190519007.png) -->
-
 今天我们来谈谈音乐吧，这是我很喜欢的一个话题。聊聊音乐趣事，当然可能会扯到些扩散话题。
 
 ## 旧事物总有一天会重新闯入你的生活，即使那不是你的过去
