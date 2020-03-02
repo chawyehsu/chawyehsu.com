@@ -10,8 +10,9 @@ description: >-
   式图片 Responsive Images，又能完好的实现图片按需加载。
 date: 2019-07-24 15:53:00
 updated: 2019-07-24 16:33:00
+pageCoverMode: mixed
 assets:
-  cover: ../_assets/uploads/2019/07/20190724000.png
+  cover: ../_assets/uploads/2019/07/20190724005.jpg
   feature: ../_assets/uploads/2019/11/20191130005.jpg
 categories:
   - 技术
@@ -21,7 +22,7 @@ tags:
 feature: true
 ---
 
-![头图（图源：[Unsplash@emilep]）](../_assets/uploads/2019/07/20190724005.jpg)
+<!-- ![头图（图源：[Unsplash@emilep]）](../_assets/uploads/2019/07/20190724005.jpg) -->
 
 作为在网页性能调优方面常被使用的技巧之一，**懒加载**或者说延迟加载是在谈及「前端性
 能优化」话题时不得不说的一项技术。

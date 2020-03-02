@@ -10,14 +10,12 @@ description: >-
 date: 2019-11-16 00:15:00
 updated: 2019-11-18 22:50:00
 assets:
-  cover: ../_assets/uploads/2019/11/20191115001.jpg
+  cover: ../_assets/uploads/2019/11/20191115002.png
   feature: ../_assets/uploads/2019/11/20191130001.jpg
 categories:
   - 杂谈
 feature: true
 ---
-
-![头图（图源：[GitHub Blog]）](../_assets/uploads/2019/11/20191115002.png)
 
 不管是 [GitHub Game Off]，抑或是 [HacktoberFest]，都是 GitHub 近些年来，每年固定
 参与举办的活动。像去年的 HacktoberFest 我就有参与，虽然就是做个说难不难 PR 任务，

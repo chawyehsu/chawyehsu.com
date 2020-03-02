@@ -10,14 +10,12 @@ description: >-
 date: 2019-07-07 01:00:00
 updated: 2019-07-08 09:31:05
 assets:
-  cover: ../_assets/uploads/2019/07/20190705000.png
+  cover: ../_assets/uploads/2019/07/20190705001.jpg
   feature: ../_assets/uploads/2019/11/20191130002.jpg
 categories:
   - 数码
 feature: true
 ---
-
-![头图：U1-PLUS 与 MacBook Pro 13'](../_assets/uploads/2019/07/20190705001.jpg)
 
 哈哈哈，这次文章的标题有点假文艺。不过确实说的也是事实，在完成了这次整个平台的装机
 升级后，陪伴了我 5 年多的至强 E3-1230 v2 就被替下了，为性价比正式从牙膏厂跳到了按

@@ -8,6 +8,7 @@ description: >-
   时间，仿过几个主题。之后便是在流行之下换成了静态博客 Hexo。
 date: 2019-04-21 18:07:40
 updated: 2019-04-21 19:21:20
+pageCoverMode: false
 assets:
   cover: ../_assets/uploads/2019/04/20190421008.png
 categories:

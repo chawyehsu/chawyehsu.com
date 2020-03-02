@@ -8,15 +8,16 @@ description: >-
   度持续存在的影响，上世纪 80 年代的日本 City Pop 音乐正在当下焕发出新的魅力。
 date: 2019-05-20 01:02:53
 updated: 2019-05-21 23:07:32
+pageCoverMode: fullhd
 assets:
-  cover: ../_assets/uploads/2019/05/20190519011.png
+  cover: ../_assets/uploads/2019/05/20190519007.png
   feature: ../_assets/uploads/2019/11/20191130006.jpg
 categories:
   - 杂谈
 feature: true
 ---
 
-![题图（来源: [兎姫](https://www.pixiv.net/member_illust.php?mode=medium&illust_id=71029401)）](../_assets/uploads/2019/05/20190519007.png)
+<!-- ![题图（来源: [兎姫](https://www.pixiv.net/member_illust.php?mode=medium&illust_id=71029401)）](../_assets/uploads/2019/05/20190519007.png) -->
 
 今天我们来谈谈音乐吧，这是我很喜欢的一个话题。聊聊音乐趣事，当然可能会扯到些扩散话题。
 

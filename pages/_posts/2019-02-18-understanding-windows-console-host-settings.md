@@ -8,6 +8,7 @@ description: >-
   被调用，这些设置项会存储在不同的位置。
 date: 2019-02-18 22:02:03
 updated: 2019-03-06 23:15:20
+pageCoverMode: false
 assets:
   cover: ../_assets/uploads/2019/02/20190218005.png
 categories:

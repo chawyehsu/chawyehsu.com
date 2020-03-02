@@ -11,8 +11,9 @@ description: >-
   不妨可以尝试一下 Scoop PowerShell Concfg 这套组合。
 date: 2018-05-12 21:44:39
 updated: 2019-10-13 23:32:50
+pageCoverMode: false
 assets:
-  cover: ../_assets/uploads/2018/12/20181225004.png
+  cover: ../_assets/uploads/2018/05/20180510001.png
   feature: ../_assets/uploads/2019/11/20191130003.jpg
 categories:
   - 技术

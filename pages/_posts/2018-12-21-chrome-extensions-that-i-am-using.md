@@ -9,8 +9,9 @@ description: >-
   使用什么服务、以及从事什么工作等等。
 date: 2018-12-21 11:00:17
 updated: 2018-12-21 11:00:17
+pageCoverMode: false
 assets:
-  cover: ../_assets/uploads/2018/12/20181225003.png
+  cover: ../_assets/uploads/2018/12/20181216027.jpg
 categories:
   - 杂谈
 ---
