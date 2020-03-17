@@ -129,16 +129,19 @@
 
     pre, code {
       font-family: $font-family-mono;
-      font-size: $font-size-code;
     }
 
     pre {
       line-height: $line-height-code;
+
+      code {
+        font-size: $font-family-code;
+      }
     }
 
     code {
       background: $tertiary-color;
-      padding: $gap-s * 0.25 $gap-s * 0.5;
+      padding: 0 0.3rem;
     }
 
     .saber-highlight {
