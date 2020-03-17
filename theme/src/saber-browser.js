@@ -26,6 +26,11 @@ export default ({ Vue, setHead }) => {
               : 'application/json'
         },
         {
+          href: 'https://fonts.googleapis.com/',
+          rel: 'preconnect',
+          crossorigin: true
+        },
+        {
           href: 'https://fonts.gstatic.com/',
           rel: 'preconnect',
           crossorigin: true
@@ -36,7 +41,7 @@ export default ({ Vue, setHead }) => {
           crossorigin: true
         },
         {
-          href: 'https://cdn.jsdelivr.net/npm/ionicons@4.6.3/dist/css/ionicons.min.css',
+          href: 'https://fonts.googleapis.com/css?family=Inconsolata:400,700|Alegreya:400,400i,700,700i|Noto+Sans+SC:400,700|Noto+Serif+SC:400,700|Open+Sans:400,400i,700,700i&display=swap&subset=chinese-simplified',
           rel: 'stylesheet'
         }
       ]
