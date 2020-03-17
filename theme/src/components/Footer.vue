@@ -1,32 +1,19 @@
 <template>
   <footer class="tach-footer footer">
     <div class="tach-wrapper">
-      <div class="container">
-        <section class="section" v-if="$themeConfig.footer.nav">
-          <nav class="footer-nav">
-            <ul>
-              <li v-for="(item, index) in $themeConfig.footer.nav" :key="index">
-                <a
-                  v-if="item.name.toLocaleLowerCase() === 'rss'"
-                  :href="item.path"
-                  target="_blank" rel="noopener">{{ item.name }}</a>
-                <saber-link v-else :to="item.path">{{ item.name }}</saber-link>
-              </li>
-            </ul>
-          </nav>
+      <div class="container columns">
+        <section class="section column is-6">
+          <div class="copyright">
+            © {{ siteDate }} {{ $siteConfig.author }}. Made with <span style="color:#b30e2e">♥</span> in Guangzhou
+          </div>
         </section>
-        <section class="section" v-if="$themeConfig.footer.social_network">
+        <section class="section column is-6" v-if="$themeConfig.footer.social_network">
           <div class="social-network">
             <ul>
               <li v-for="(item, index) in $themeConfig.footer.social_network" :key="index">
-                <a :class="`icon ion-${item.icon}`" :href="item.path" target="_blank" rel="noopener"></a>
+                <a class="icon" :href="item.path" target="_blank" rel="noopener">{{ item.name }}</a>
               </li>
             </ul>
-          </div>
-        </section>
-        <section class="section">
-          <div class="copyright">
-            © {{ siteDate }} {{ $siteConfig.author }}. Made with <span style="color:#b30e2e">♥</span> in Guangzhou
           </div>
         </section>
       </div>
@@ -61,8 +48,13 @@ export default {
 
 .tach-footer {
   background-color: $tertiary-color;
+  font-size: $font-size-small;
   color: $text-color;
-  padding: $gap-l 0;
+  padding: 0 0 6rem 0;
+
+  a:hover {
+    text-decoration: underline;
+  }
 
   ul {
     list-style-type: none;
@@ -76,16 +68,8 @@ export default {
     }
   }
 
-  .section {
-    margin-bottom: $gap-m;
-    text-align: center;
-    &:last-child {
-      margin: 0;
-    }
-  }
-
-  .copyright {
-    font-size: $font-size-small;
+  .section.column {
+    padding-bottom: 0;
   }
 
   p {
@@ -93,6 +77,18 @@ export default {
     a {
       text-decoration: underline;
     }
+  }
+}
+
+@media screen and (max-width: $tablet - 1) {
+  .tach-footer {
+    text-align: center;
+  }
+}
+
+@media screen and (min-width: $tablet) {
+  .social-network {
+    text-align: right;
   }
 }
 

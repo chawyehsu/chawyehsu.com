@@ -44,24 +44,24 @@ module.exports = {
     footer: {
       social_network: [
         {
-          icon: 'logo-twitter',
-          path: 'https://twitter.com/chawyehsu'
-        },
-        {
-          icon: 'logo-instagram',
+          name: 'Instagram',
           path: 'https://www.instagram.com/chawyehsu/'
         },
         {
-          icon: 'logo-github',
+          name: 'Music',
+          path: 'https://music.163.com/#/user/home?id=35631431'
+        },
+        {
+          name: 'GitHub',
           path: 'https://github.com/h404bi'
         },
         {
-          icon: 'logo-game-controller-b',
-          path: 'https://steamcommunity.com/id/h404bi/'
+          name: 'Twitter',
+          path: 'https://twitter.com/chawyehsu'
         },
         {
-          icon: 'ios-musical-notes',
-          path: 'https://music.163.com/#/user/home?id=35631431'
+          name: 'Steam',
+          path: 'https://steamcommunity.com/id/h404bi/'
         }
       ]
     }
