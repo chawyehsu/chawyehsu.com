@@ -50,7 +50,7 @@ export default {
   background-color: $tertiary-color;
   font-size: $font-size-small;
   color: $text-color;
-  padding: 0 0 6rem 0;
+  padding: 0 0 4rem 0;
 
   a:hover {
     text-decoration: underline;
