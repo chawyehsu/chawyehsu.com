@@ -45,26 +45,18 @@ export default {
 
 <style lang="scss" scoped>
 @import '../styles/components/variables';
-
 .tach-footer {
-  background-color: $tertiary-color;
-  font-size: $font-size-small;
-  color: $text-color;
   padding: 0 0 4rem 0;
+  background: var(--color-background);
+  color: var(--color-text-primary);
+  font-size: $font-size-small;
 
-  a:hover {
-    text-decoration: underline;
-  }
+  a {
+    color: var(--color-text-primary);
 
-  ul {
-    list-style-type: none;
-    margin: 0;
-    li {
-      display: inline-block;
-
-      &+li {
-        margin-left: $gap-m;
-      }
+    &:hover {
+      color: var(--color-link);
+      text-decoration: underline;
     }
   }
 
@@ -72,41 +64,29 @@ export default {
     padding-bottom: 0;
   }
 
-  p {
-    margin: 0;
-    a {
-      text-decoration: underline;
+  .social-network {
+    ul {
+      list-style-type: none;
+      margin: 0;
+      li {
+        display: inline-block;
+
+        &+li {
+          margin-left: $gap-m;
+        }
+      }
     }
   }
 }
-
+// Responsiveness tweaks for footer elements
 @media screen and (max-width: $tablet - 1) {
   .tach-footer {
     text-align: center;
   }
 }
-
 @media screen and (min-width: $tablet) {
   .social-network {
     text-align: right;
   }
-}
-
-// dark-mode
-@mixin footer-dark-mode {
-  // footer
-  .tach-footer {
-    background-color: $tertiary-color-invert;
-    color: $text-color-invert;
-  }
-}
-
-@media (prefers-color-scheme: dark) {
-  @include footer-dark-mode();
-}
-
-// Force dark mode
-html.dark-mode {
-  @include footer-dark-mode();
 }
 </style>

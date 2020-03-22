@@ -122,7 +122,6 @@ export default {
 
 <style lang="scss" scoped>
 @import '../styles/components/variables';
-
 .tach-layout-header {
   padding-top: 3rem;
 
@@ -177,7 +176,7 @@ export default {
       text-align: justify;
 
       .post-meta {
-        color: $meta-color;
+        color: var(--color-text-secondary);
         display: block;
         font-size: $font-size-small;
         font-style: italic;
@@ -187,14 +186,22 @@ export default {
         padding: 0.4445rem 0;
         display: block;
         margin: 0;
-      }
 
+        a {
+          color: var(--color-text-primary);
+
+          &:hover {
+            color: var(--color-link);
+            text-decoration: none;
+          }
+        }
+      }
 
       .post-excerpt {
         position: relative;
         max-height: 4rem;
         overflow: hidden;
-        color: $meta-color;
+        color: var(--color-text-secondary);
         line-height: 1.3rem;
         text-overflow: ellipsis;
         display: -webkit-box;
@@ -210,7 +217,7 @@ export default {
           right: 0;
           width: 40%;
           height: 1.3em;
-          background: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1) 50%);
+          background: linear-gradient(to right, var(--color-background-transparent), var(--color-background) 80%);
         }
       }
     }
@@ -236,33 +243,5 @@ export default {
       margin: 0 $gap-s;
     }
   }
-}
-
-// dark-mode
-@mixin index-dark-mode {
-  .post-list {
-    .post-card .post-card-info {
-      .post-meta {
-        color: $meta-color-invert;
-      }
-
-      .post-excerpt {
-        color: $meta-color-invert;
-      }
-
-      .post-excerpt:after {
-        background: linear-gradient(to right, rgb(29, 31, 33, 0), rgb(29, 31, 33, 1) 50%);
-      }
-    }
-  }
-}
-
-@media (prefers-color-scheme: dark) {
-  @include index-dark-mode();
-}
-
-// Force dark mode
-html.dark-mode {
-  @include index-dark-mode();
 }
 </style>

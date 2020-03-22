@@ -41,7 +41,13 @@ export default {
 @import '~disqusjs/dist/disqusjs.css';
 @import '../styles/components/variables';
 
+.page-comments {
+  margin-top: $gap-xl;
+  text-align: center;
+}
+
 .tach-button {
+  color: var(--color-text-secondary);
   cursor: pointer;
 }
 
@@ -51,27 +57,27 @@ export default {
   }
 
   a {
-    color: inherit;
+    color: var(--color-text-primary);
     &:hover {
-      color: $highlight-color;
+      color: var(--color-link);
     }
   }
 
   .dsqjs-nav-tab {
-    color: $meta-color;
+    color: var(--color-text-secondary);
   }
 
   .dsqjs-tab-active,
   .dsqjs-post-body {
-    color: $text-color;
+    color: var(--color-text-primary);
   }
 
   .dsqjs-post-list .dsqjs-post-header .dsqjs-post-author {
-    color: $text-color;
+    color: var(--color-text-primary);
   }
 
   .dsqjs-post-list .dsqjs-post-header .dsqjs-meta {
-    color: $meta-color;
+    color: var(--color-text-secondary);
   }
 }
 
@@ -82,36 +88,5 @@ html {
       font-family: $font-family-serif;
     }
   }
-}
-
-// dark-mode
-@mixin dsqjs-dark-mode {
-  #dsqjs {
-    .dsqjs-nav-tab {
-      color: $meta-color-invert;
-    }
-
-    .dsqjs-tab-active,
-    .dsqjs-post-body {
-      color: $text-color-invert;
-    }
-
-    .dsqjs-post-list .dsqjs-post-header .dsqjs-post-author {
-      color: $text-color-invert;
-    }
-
-    .dsqjs-post-list .dsqjs-post-header .dsqjs-meta {
-      color: $meta-color-invert;
-    }
-  }
-}
-
-@media (prefers-color-scheme: dark) {
-  @include dsqjs-dark-mode();
-}
-
-// Force dark mode
-html.dark-mode {
-  @include dsqjs-dark-mode();
 }
 </style>

@@ -141,7 +141,7 @@ export default {
     small {
       display: block;
       margin-bottom: $gap-m;
-      color: $meta-color;
+      color: var(--color-text-secondary);
       letter-spacing: 4px;
       text-transform: uppercase;
     }
@@ -154,7 +154,7 @@ export default {
     }
 
     span {
-      background: $background-invert;
+      background: #2f2f2f;
       color: #ffffff;
       padding: 0.3rem;
       padding-right: 0;
@@ -196,7 +196,7 @@ export default {
       height: 100%;
       top: 0;
       left: 0;
-      background: #202121;
+      background: #2f2f2f;
       opacity: 0;
       z-index: 0;
       transition: all 0.3s ease-in-out;
@@ -238,19 +238,20 @@ export default {
     text-transform: uppercase;
   }
 
-  .button {
+  a.button {
     height: auto;
-    background: $background-invert;
+    background: #2f2f2f;
     color: #ffffff;
     margin-top: 1.7778rem;
     border-radius: 50px;
     padding: .6rem 3.2rem;
-    border: 1px solid $background-invert;
+    border: 1px solid var(--color-accent-6);
     transition: all 0.2s ease-in-out;
 
     &:hover {
       background: #ffffff;
-      color: $background-invert;
+      color: #2f2f2f;
+      text-decoration: none;
     }
   }
 }
@@ -268,35 +269,5 @@ export default {
       }
     }
   }
-}
-
-@mixin home-dark-mode {
-  .tach-portfolio-haiku {
-    .content {
-      small {
-        color: $meta-color-invert;
-      }
-      h4 {
-        color: $text-color-invert;
-      }
-      span {
-        background-color: $tertiary-color-invert;
-      }
-    }
-  }
-  .tach-portfolio-subscribe {
-    .button {
-      border: 1px solid $background;
-    }
-  }
-}
-
-@media (prefers-color-scheme: dark) {
-  @include home-dark-mode();
-}
-
-// Force dark mode
-html.dark-mode {
-  @include home-dark-mode();
 }
 </style>

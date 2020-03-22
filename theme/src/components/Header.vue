@@ -51,31 +51,34 @@ export default {
 
 <style lang="scss" scoped>
 @import '../styles/components/variables';
-
+// Reset bulma navbar color
+.navbar {
+  background-color: var(--color-background);
+  color: var(--color-text-primary);
+}
+// Reset bulma navbar item color
+.navbar-item,
+.navbar-link,
+.navbar-burger {
+  color: var(--color-text-primary);
+}
+// Reset bulma navbar a element color
+.navbar-item:focus,
+.navbar-item:hover,
+.navbar-burger:focus,
+.navbar-burger:hover {
+  background-color: var(--color-accent-0);
+  color: var(--color-link);
+}
+// Add navbar shadow
 nav {
-  box-shadow: 0px 5px 60px 0px rgba(23, 33, 33, 0.1);
+  box-shadow: 0px 5px 60px 0px rgba(100, 100, 100, 0.1);
 }
-
-a.navbar-item:focus,
-a.navbar-item:hover {
-  color: $highlight-color;
-}
-
-// dark-mode
-@mixin header-dark-mode {
-  nav.navbar {
-    box-shadow: none;
-    background-color: $background-invert;
-    color: $text-color-invert;
+// Tweak navbar padding
+@media screen and (max-width: $navbar-breakpoint) {
+  .navbar-menu {
+    background-color: inherit;
+    padding: $column-gap;
   }
-}
-
-@media (prefers-color-scheme: dark) {
-  @include header-dark-mode();
-}
-
-// Force dark mode
-html.dark-mode {
-  @include header-dark-mode();
 }
 </style>

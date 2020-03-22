@@ -1,5 +1,4 @@
 .page-content {
-  // padding: 0 $column-gap;
   padding-top: 2rem;
   width: 100%;
 
@@ -17,7 +16,7 @@
     .page-meta {
       display: flex;
       font-size: $font-size-small;
-      color: $meta-color;
+      color: var(--color-text-secondary);
 
       .page-categories {
         display: flex;
@@ -31,8 +30,8 @@
 
   .page-alert {
     margin: $gap-l 0 0 0;
-    background-color: $tertiary-color;
     padding: $gap-m;
+    background-color: var(--color-accent-1);
     font-size: $font-size-small;
     border-radius: 0;
   }
@@ -41,7 +40,6 @@
     margin-top: $gap-l;
 
     a:not([id^=fnref]) {
-      border-bottom: 1px dashed $meta-color;
       overflow-wrap: break-word;
       word-break: break-all;
     }
@@ -73,11 +71,11 @@
 
       tr {
         &:nth-child(2n) {
-          background-color: lighten($tertiary-color, 2%);
+          background-color: var(--color-accent-1);
         }
 
         th, td {
-          border: 1px solid darken($tertiary-color, 2%);
+          border: 1px solid var(--color-accent-1);
           padding: $gap-s $gap-m;
           white-space: nowrap;
         }
@@ -86,7 +84,7 @@
 
     blockquote {
       position: relative;
-      color: $meta-color;
+      color: var(--color-text-secondary);
       padding-left: $gap-l;
       padding-right: $gap-s;
       overflow-wrap: break-word;
@@ -140,15 +138,16 @@
     }
 
     code {
-      background: $tertiary-color;
+      background: var(--color-accent-1);
       padding: 0 0.3rem;
+      border-radius: 3px;
     }
 
     .saber-highlight {
       position: relative;
       overflow: hidden;
       margin: 0 0 $gap-m 0;
-      background: $tertiary-color;
+      background: var(--color-accent-1);
       border-radius: 0;
 
       &:before {
@@ -157,7 +156,7 @@
         right: $gap-s;
         top: $gap-s * 0.5;
         font-size: $font-size-sub-sup;
-        color: $meta-color;
+        color: var(--color-text-secondary);
       }
 
       pre.saber-highlight-code {
@@ -173,7 +172,7 @@
     }
 
     s, del, .meta {
-      color: $meta-color;
+      color: var(--color-text-secondary);
     }
 
     // Content Block Element: Horizontal Rule
@@ -181,7 +180,7 @@
       border: 0;
       height: auto;
       margin: $gap-l auto;
-      color: $meta-color;
+      color: var(--color-text-secondary);
       opacity: 0.5;
 
       &:after {
@@ -199,10 +198,6 @@
 
     sub, sup {
       font-size: $font-size-sub-sup;
-
-      a {
-        color: $highlight-color;
-      }
     }
 
     img {
@@ -229,7 +224,7 @@
       }
 
       figcaption {
-        color: $meta-color;
+        color: var(--color-text-secondary);
         font-size: $font-size-small;
         text-align: center;
 
@@ -254,14 +249,19 @@
 
     // Content Block Element: Footnotes Section
     .footnotes {
-      color: $meta-color;
+      color: var(--color-text-secondary);
       font-size: $font-size-footnotes;
 
       p {
         margin-bottom: $gap-s;
 
         a {
+          color: var(--color-text-secondary);
           border: 0;
+
+          &:hover {
+            color: var(--color-link);
+          }
 
           &.footnote-backref {
             text-decoration: underline;
@@ -278,8 +278,16 @@
 
     .page-tags {
       float: right;
-      color: $meta-color;
+      color: var(--color-text-secondary);
       font-size: $font-size-small;
+
+      .tag {
+        color: var(--color-text-secondary);
+
+        &:hover {
+          color: var(--color-link);
+        }
+      }
 
       .tag:before {
         content: '#';
@@ -290,16 +298,6 @@
       .tag:hover {
         opacity: 1;
       }
-    }
-  }
-
-  .page-comments {
-    margin-top: $gap-xl;
-    // margin-bottom: $gap-l;
-
-    #load-disqus {
-      color: $meta-color;
-      text-align: center;
     }
   }
 

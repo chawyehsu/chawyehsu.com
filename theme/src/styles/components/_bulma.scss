@@ -8,16 +8,3 @@
 @import '~bulma/sass/elements/notification';
 @import '~bulma/sass/elements/image';
 @import '~bulma/sass/components/navbar';
-
-.navbar-burger,
-.navbar-item,
-.navbar-link {
-  color: inherit;
-}
-
-@media screen and (max-width: $navbar-breakpoint) {
-  .navbar-menu {
-    background-color: inherit;
-    padding: $column-gap;
-  }
-}

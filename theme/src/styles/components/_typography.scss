@@ -1,7 +1,7 @@
 html {
   -webkit-font-smoothing: antialiased;
   box-sizing: border-box;
-  color: $text-color;
+  color: var(--color-text-primary);
   font-family: $font-family-sans;
   font-size: $font-size-base;
   line-height: $line-height-base;
@@ -47,12 +47,12 @@ h5 {
   font-size: $font-size-5;
 }
 h6 {
-  color: $meta-color;
+  color: var(--color-text-secondary);
   font-size: $font-size-6;
 }
 
 body {
-  background: $background;
+  background: var(--color-background);
   height: 100%;
   max-height: 100%;
 }
@@ -62,11 +62,12 @@ p, blockquote, table, hr, dl, ul, ol, pre, address, figure {
 }
 
 a {
-  color: inherit;
+  color: var(--color-link);
   text-decoration: none;
 
   &:hover, &:focus {
-    color: $highlight-color;
+    color: var(--color-link);
+    text-decoration: underline;
   }
 }
 
