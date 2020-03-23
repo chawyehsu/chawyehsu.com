@@ -160,7 +160,6 @@ export default {
 
 <style lang="scss" scoped>
 @import '../styles/components/variables';
-
 .page-cover {
   position: relative;
   padding-top: 66.6666%; // is-3by2
@@ -241,7 +240,7 @@ export default {
     z-index: 2;
 
     .page-title, .page-meta {
-      color: #f5f5f5;
+      color: #efefef;
     }
   }
 }
@@ -257,7 +256,6 @@ export default {
     }
   }
 }
-
 // >= 769px
 @media screen and (min-width: $desktop) {
   .page-cover {
@@ -269,30 +267,5 @@ export default {
       padding-top: 50%; // is-2by1
     }
   }
-}
-
-// dark-mode
-@mixin page-dark-mode {
-  .page-cover-mode-mixed {
-    .page-cover {
-      .overlay {
-        background-color: rgba(0, 0, 0, 0.55);
-      }
-    }
-    .page-head-content {
-      .page-title, .page-meta {
-        color: #bcbcbc;
-      }
-    }
-  }
-}
-
-@media (prefers-color-scheme: dark) {
-  @include page-dark-mode();
-}
-
-// Force dark mode
-html.dark-mode {
-  @include page-dark-mode();
 }
 </style>
