@@ -37,7 +37,7 @@ export default ({ Vue }) => {
     },
     methods: {
       updatedImageUrl (src) {
-        if (jsdeliverCdn && jsdeliverCdnPrefix) {
+        if (process.browser && process.env.NODE_ENV === 'production' && jsdeliverCdn && jsdeliverCdnPrefix) {
           return src.replace('/_saber', `${jsdeliverCdnPrefix.replace(/\/$/,'')}/_saber`)
         } else {
           return src
