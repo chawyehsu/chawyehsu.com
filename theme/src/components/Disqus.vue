@@ -1,8 +1,5 @@
 <template>
   <section class="page-comments">
-    <div id="load-disqus" ref="loadButton">
-      <a class="tach-button" @click="load()">Leave a comment</a>
-    </div>
     <div id="disqus_thread"></div>
   </section>
 </template>
@@ -12,11 +9,11 @@ import DisqusJS from 'disqusjs'
 
 export default {
   props: ['page'],
+  mounted () {
+    this.load();
+  },
   methods: {
     load () {
-      // Remove the load button when Disqus loading starts
-      this.$refs.loadButton.remove()
-
       const { shortname, sitename, api, apikey, admin, adminLabel } = this.$siteConfig.disqusjs
       const { title, url, author } = this.$siteConfig
 
@@ -43,12 +40,6 @@ export default {
 
 .page-comments {
   margin-top: $gap-xl;
-  text-align: center;
-}
-
-.tach-button {
-  color: var(--color-text-secondary);
-  cursor: pointer;
 }
 
 #dsqjs {
