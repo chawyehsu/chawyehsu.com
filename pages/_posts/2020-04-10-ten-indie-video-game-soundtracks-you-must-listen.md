@@ -176,6 +176,10 @@ RPG 与 2D 复古像素画面的结合，一定会让你情不自禁地去回想
 
 最喜欢的单曲：Coalescence
 
+<div class="gad">
+  <adsbygoogle ad-layout="in-article" ad-format="fluid" ad-slot="8422573867"/>
+</div>
+
 ---
 
 ## Undertale / 传说之下
