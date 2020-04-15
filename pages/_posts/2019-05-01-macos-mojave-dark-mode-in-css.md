@@ -49,6 +49,10 @@ body {
 }
 ```
 
+<div class="gad">
+  <adsbygoogle ad-layout="in-article" ad-format="fluid" ad-slot="8422573867"/>
+</div>
+
 `prefers-color-scheme` 支持三个值，分别是 `no-preference`、`light`、以及 `dark`，
 对应是“无指定”、“浅色主题”以及“深色主题”。详情可以查看 [MDN] 说明。
 

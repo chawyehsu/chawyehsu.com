@@ -251,7 +251,7 @@ $ python --version        # -> Python 3.6.x
 以及桶设计，用户自定义软件包所需的学习成本更低。
 
 <div class="gad">
-  <adsbygoogle ad-layout="in-article" ad-format="fluid" ad-slot="8422573867"/>
+  <adsbygoogle ad-layout="in-article" ad-format="fluid" ad-slot="1370220280"/>
 </div>
 
 ## 但 Scoop 还有问题

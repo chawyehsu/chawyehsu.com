@@ -36,6 +36,10 @@ categories:
 
 这次采访使我想起了良好谈话的价值，这是广泛使用的社交媒体永远无法复制的。
 
+<div class="gad">
+  <adsbygoogle ad-layout="in-article" ad-format="fluid" ad-slot="8422573867"/>
+</div>
+
 ---
 
 __The Escapist 游戏媒体（下称媒体）：你想念 *Minecraft* 吗？__

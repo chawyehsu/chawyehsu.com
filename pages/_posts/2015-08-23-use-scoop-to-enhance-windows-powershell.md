@@ -28,6 +28,10 @@ Geek 们也生产出各式各样的工具以贴合他们的 \*nix 使用习惯�
 所以我无需使用太过庞大的工具；二是 scoop 有吸引我的地方，它能把 Powershell 
 弄得看起来像 Linux shell 的样子，这也是为什么我要折腾 PS 的促因。
 
+<div class="gad">
+  <adsbygoogle ad-layout="in-article" ad-format="fluid" ad-slot="8422573867"/>
+</div>
+
 看 Scoop 主页的 Demo 视频，你会发现视频里的 PS 用起来很简约，
 而又是更方便了，不仅能安装运行各种 GNU 工具（`curl`、`vim` 等），
 而且 `$PS1` 看起来像是 Linux 下的终端，还能显示 git 仓库的分支信息，

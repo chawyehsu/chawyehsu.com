@@ -69,6 +69,10 @@ feature: true
 滚动）图片进入视口时，便将 `data-src` 中的值赋给 `src` 属性，替换掉 blank.gif，触
 发原始所需图片的加载。但这种简单有力的方式，有些弊端。
 
+<div class="gad">
+  <adsbygoogle ad-layout="in-article" ad-format="fluid" ad-slot="8422573867"/>
+</div>
+
 ## 问题
 
 首先，其中一个非常直观可见的问题是「**布局抖动**」。在图片懒加载时，由于默认载入的
@@ -158,10 +162,6 @@ CSS-TRICKS 的文章 —— [Aspect Ratio Boxes]。布局抖动解决后样子�
 时带来的额外工作量问题 —— 需要对每一张原图生成缩略图。该方案仍然不是一个完美的方案。
 
 ---
-
-<div class="gad">
-  <adsbygoogle ad-layout="in-article" ad-format="fluid" ad-slot="8422573867"/>
-</div>
 
 ## 改进
 

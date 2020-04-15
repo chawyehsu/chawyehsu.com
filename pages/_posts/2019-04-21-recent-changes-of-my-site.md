@@ -59,6 +59,10 @@ categories:
 被现在的 [Saber] 所替代。我不想在此大谈如何迁移至 Saber 的，真要这样或许会另起一篇
 文章写这个。只想说，非常感谢 EGOIST 的开源工作，让大家能够用上前沿的技术。
 
+<div class="gad">
+  <adsbygoogle ad-layout="in-article" ad-format="fluid" ad-slot="8422573867"/>
+</div>
+
 **B. 主题外观**
 
 得益于 Saber 的系统设计，将我的原有 Hexo 自用主题迁移至新系统并没有感觉到费力。迁移
