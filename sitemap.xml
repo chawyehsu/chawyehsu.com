@@ -7,10 +7,10 @@
     <lastmod><%= page.lastmod.toISOString() %></lastmod>
     <% if (page.attributes.injectAllPosts) { -%>
     <priority>1</priority>
-    <% } else if (page.type === 'page' || page.attributes.isCategoryPage || page.attributes.isTagPage) { -%>
-    <priority>0.8</priority>
-    <% } else if (page.type === 'post') { -%>
+    <% } else if (page.type === 'post' || (page.type === 'page' && !page.attributes.isCategoryPage && !page.attributes.isTagPage)) { -%>
     <priority>0.6</priority>
+    <% } else if (page.attributes.isCategoryPage || page.attributes.isTagPage) { -%>
+    <priority>0.3</priority>
     <% } -%>
     <changefreq>always</changefreq>
   </url>
