@@ -1,0 +1,23 @@
+{
+  "name": "saber-plugin-jsdelivr-cdn",
+  "version": "0.1.0",
+  "description": "Serve your Saber website through the jsdelivr cdn with this plugin",
+  "author": "Chawye Hsu <h404bi@gmail.com>",
+  "homepage": "https://github.com/h404bi/www.h404bi.com#readme",
+  "license": "MIT",
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/h404bi/www.h404bi.com.git",
+    "directory": "packages/saber-plugin-jsdelivr-cdn"
+  },
+  "keywords": [
+    "saber",
+    "saber-plugin",
+    "vue",
+    "static-site-generator"
+  ]
+}
