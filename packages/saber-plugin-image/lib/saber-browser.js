@@ -5,9 +5,6 @@ export default ({ Vue }) => {
   const options = __SABER_IMAGE_OPTIONS__ // eslint-disable-line no-undef
   const blank =
     'data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs='
-  // jsdeliver CDN options
-  const jsdeliverCdn = options['jsdeliverCdn']
-  const jsdeliverCdnPrefix = options['jsdeliverCdnPrefix']
 
   Vue.component('saber-image', {
     props: ['src', 'lazy'],
@@ -35,15 +32,6 @@ export default ({ Vue }) => {
         }).observe()
       }
     },
-    methods: {
-      updatedImageUrl (src) {
-        if (process.env.NODE_ENV === 'production' && jsdeliverCdn && jsdeliverCdnPrefix) {
-          return src.replace('/_saber', `${jsdeliverCdnPrefix.replace(/\/$/,'')}/_saber`)
-        } else {
-          return src
-        }
-      }
-    },
     render (h) {
       const lazy = Object.assign(
         options,
@@ -59,7 +47,6 @@ export default ({ Vue }) => {
       if (getOption('lazyLoad')) {
         if (typeof this.src === 'string') {
           let { src } = this
-          src = this.updatedImageUrl(src)
 
           return h('img', {
             attrs: {
@@ -77,9 +64,6 @@ export default ({ Vue }) => {
         const loading = getOption('placeholder') ? placeholder : blank
         const blendIn = getOption('blendIn')
 
-        src = this.updatedImageUrl(src)
-        srcSet = this.updatedImageUrl(srcSet)
-
         return h('img', {
           attrs: {
             ...$attrs,
@@ -94,7 +78,6 @@ export default ({ Vue }) => {
       }
 
       if (typeof this.src === 'string') {
-        src = this.updatedImageUrl(src)
 
         return h('img', {
           attrs: { ...$attrs, src: this.src, 'data-pswp-title': $attrs.alt }
@@ -102,8 +85,6 @@ export default ({ Vue }) => {
       }
 
       let { src, srcSet: srcset } = this.src || {}
-      src = this.updatedImageUrl(src)
-      srcSet = this.updatedImageUrl(srcSet)
 
       return h('img', {
         attrs: { ...$attrs, src, srcset, 'data-pswp-title': $attrs.alt }
