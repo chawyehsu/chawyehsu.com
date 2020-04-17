@@ -139,9 +139,13 @@ module.exports = {
       options: {
         sizes: [1200, 720, 480],
         placeholder: true,
-        blendIn: false,
-        jsdeliverCdn: true,
-        jsdeliverCdnPrefix: 'https://cdn.jsdelivr.net/gh/h404bi/www.h404bi.com@gh-pages'
+        blendIn: false
+      }
+    },
+    {
+      resolve: './packages/saber-plugin-jsdelivr-cdn',
+      options: {
+        prefix: 'https://cdn.jsdelivr.net/gh/h404bi/www.h404bi.com@gh-pages'
       }
     },
     {
