@@ -3,56 +3,32 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
     <loc>https://www.h404bi.com/blog/category/digital</loc>
-    <lastmod>2020-04-17T18:39:57.791Z</lastmod>
-        <priority>0.8</priority>
+    <lastmod>2020-04-17T19:53:28.411Z</lastmod>
+        <priority>0.3</priority>
         <changefreq>always</changefreq>
   </url>
     <url>
     <loc>https://www.h404bi.com/blog/category/technology</loc>
-    <lastmod>2020-04-17T18:39:57.790Z</lastmod>
-        <priority>0.8</priority>
-        <changefreq>always</changefreq>
-  </url>
-    <url>
-    <loc>https://www.h404bi.com/blog/tag/%E5%89%8D%E7%AB%AF</loc>
-    <lastmod>2020-04-17T18:39:57.789Z</lastmod>
-        <priority>0.8</priority>
+    <lastmod>2020-04-17T19:53:28.410Z</lastmod>
+        <priority>0.3</priority>
         <changefreq>always</changefreq>
   </url>
     <url>
     <loc>https://www.h404bi.com/blog/tag/%E5%89%8D%E7%AB%AF%E6%80%A7%E8%83%BD%E4%BC%98%E5%8C%96</loc>
-    <lastmod>2020-04-17T18:39:57.789Z</lastmod>
-        <priority>0.8</priority>
+    <lastmod>2020-04-17T19:53:28.409Z</lastmod>
+        <priority>0.3</priority>
         <changefreq>always</changefreq>
   </url>
     <url>
     <loc>https://www.h404bi.com/blog/category/uncategorized</loc>
-    <lastmod>2020-04-17T18:39:57.789Z</lastmod>
-        <priority>0.8</priority>
+    <lastmod>2020-04-17T19:53:28.409Z</lastmod>
+        <priority>0.3</priority>
         <changefreq>always</changefreq>
   </url>
     <url>
-    <loc>https://www.h404bi.com/blog</loc>
-    <lastmod>2020-04-17T18:39:29.503Z</lastmod>
-        <priority>1</priority>
-        <changefreq>always</changefreq>
-  </url>
-    <url>
-    <loc>https://www.h404bi.com/</loc>
-    <lastmod>2020-04-17T18:39:29.503Z</lastmod>
-        <priority>1</priority>
-        <changefreq>always</changefreq>
-  </url>
-    <url>
-    <loc>https://www.h404bi.com/blog/page/2</loc>
-    <lastmod>2020-04-17T18:39:29.503Z</lastmod>
-        <priority>1</priority>
-        <changefreq>always</changefreq>
-  </url>
-    <url>
-    <loc>https://www.h404bi.com/page/2</loc>
-    <lastmod>2020-04-17T18:39:29.503Z</lastmod>
-        <priority>1</priority>
+    <loc>https://www.h404bi.com/blog/tag/%E5%89%8D%E7%AB%AF</loc>
+    <lastmod>2020-04-17T19:53:28.408Z</lastmod>
+        <priority>0.3</priority>
         <changefreq>always</changefreq>
   </url>
     <url>
@@ -152,12 +128,6 @@
         <changefreq>always</changefreq>
   </url>
     <url>
-    <loc>https://www.h404bi.com/guestbook</loc>
-    <lastmod>2019-03-02T00:00:00.000Z</lastmod>
-        <priority>0.8</priority>
-        <changefreq>always</changefreq>
-  </url>
-    <url>
     <loc>https://www.h404bi.com/blog/2017/01/2016-2017</loc>
     <lastmod>2017-01-30T00:00:00.000Z</lastmod>
         <priority>0.6</priority>
@@ -188,15 +158,45 @@
         <changefreq>always</changefreq>
   </url>
     <url>
-    <loc>https://www.h404bi.com/links</loc>
-    <lastmod>2019-07-23T00:00:00.000Z</lastmod>
-        <priority>0.8</priority>
+    <loc>https://www.h404bi.com/about</loc>
+    <lastmod>2020-04-17T16:00:00.000Z</lastmod>
+        <priority>0.6</priority>
         <changefreq>always</changefreq>
   </url>
     <url>
-    <loc>https://www.h404bi.com/about</loc>
-    <lastmod>2019-07-13T00:00:00.000Z</lastmod>
-        <priority>0.8</priority>
+    <loc>https://www.h404bi.com/blog</loc>
+    <lastmod>2020-04-17T16:00:00.000Z</lastmod>
+        <priority>1</priority>
+        <changefreq>always</changefreq>
+  </url>
+    <url>
+    <loc>https://www.h404bi.com/guestbook</loc>
+    <lastmod>2020-04-17T16:00:00.000Z</lastmod>
+        <priority>0.6</priority>
+        <changefreq>always</changefreq>
+  </url>
+    <url>
+    <loc>https://www.h404bi.com/</loc>
+    <lastmod>2020-04-17T16:00:00.000Z</lastmod>
+        <priority>1</priority>
+        <changefreq>always</changefreq>
+  </url>
+    <url>
+    <loc>https://www.h404bi.com/links</loc>
+    <lastmod>2020-04-17T16:00:00.000Z</lastmod>
+        <priority>0.6</priority>
+        <changefreq>always</changefreq>
+  </url>
+    <url>
+    <loc>https://www.h404bi.com/blog/page/2</loc>
+    <lastmod>2020-04-17T16:00:00.000Z</lastmod>
+        <priority>1</priority>
+        <changefreq>always</changefreq>
+  </url>
+    <url>
+    <loc>https://www.h404bi.com/page/2</loc>
+    <lastmod>2020-04-17T16:00:00.000Z</lastmod>
+        <priority>1</priority>
         <changefreq>always</changefreq>
   </url>
   </urlset>
