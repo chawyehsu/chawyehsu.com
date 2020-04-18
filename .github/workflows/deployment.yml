@@ -9,6 +9,9 @@ jobs:
   deploy:
     runs-on: ubuntu-18.04
     steps:
+      # correct build machine timezone
+      - run: sudo timedatectl set-timezone Asia/Shanghai
+
       - uses: actions/checkout@v2
 
       - name: Setup Node
