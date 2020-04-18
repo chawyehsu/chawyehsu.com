@@ -5,8 +5,8 @@
   <h1>The Art of Chawye Hsu</h1>
 </div>
 <p align="center">
-  <a href="https://www.travis-ci.com/h404bi/www.h404bi.com">
-    <img src="https://img.shields.io/travis/com/h404bi/www.h404bi.com/master.svg?style=flat-square" alt="Travis" />
+  <a href="https://github.com/h404bi/www.h404bi.com/actions?query=workflow%3ADeployment">
+    <img src="https://img.shields.io/github/workflow/status/h404bi/www.h404bi.com/Deployment?style=flat-square" alt="GitHub Actions" />
   </a>
   <a href="https://www.h404bi.com">
     <img src="https://img.shields.io/website-up-down-green-red/https/h404bi.com.svg?style=flat-square" alt="Website Status" />
