@@ -8,6 +8,7 @@ on:
 jobs:
   deploy:
     runs-on: ubuntu-18.04
+    if: "! contains(toJSON(github.event.commits.*.message), '[ci skip]')"
     steps:
       # correct build machine timezone
       - run: sudo timedatectl set-timezone Asia/Shanghai
