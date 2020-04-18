@@ -36,6 +36,6 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./public
-          keep_files: true
-          commit_message: Site updated at `date +'%Y-%m-%d %T'`
+          # docs: https://developer.github.com/v3/activity/events/types/#commitcommentevent
+          commit_message: Site updated at ${{ github.event.head_commit.timestamp }}
 
