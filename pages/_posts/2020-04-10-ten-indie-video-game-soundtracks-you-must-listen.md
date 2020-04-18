@@ -7,7 +7,7 @@ description: >-
   过一些独立游戏。为什么那些独立游戏对部分玩家具有那么强的吸引力，也许秘密就藏在它
   们的游戏原声带（Soundtrack）上，本文让我们来盘点一下独立游戏音乐的十大神作。
 date: 2020-04-10 22:22:00
-updated: 2020-04-12 16:20:00
+updated: 2020-04-18 23:15:00
 assets:
   cover: ../_assets/uploads/2020/04/20200406001.jpg
   feature: ../_assets/uploads/2020/04/20200406002.jpg
@@ -87,6 +87,10 @@ feature: true
 
 > I don't even own the game, but this set of songs is so good.
 > Aching and melancholic in all the best ways. —— Ben Pirrie
+
+另外，说一个非常有意思的事，该《蔚蓝》原声带的作者 Lena Raine 在 C418 之后，也成为
+了 Minecraft 游戏原声的作者。Minecraft 1.16 的下界更新中，新增了几首下界 BGM 以及
+新的唱片，而这些音乐的作者正是 Lena Raine。
 
 最喜欢的单曲：Resurrections
 
