@@ -55,7 +55,7 @@ SoundCloud、YouTube），会写一点代码，偶尔会玩玩游戏、看看电
 [Stalk Me]: https://gitstalk.netlify.com/h404bi
 [Netease CloudMusic]: http://music.163.com/#/user/home?id=35631431
 [Steam]: http://steamcommunity.com/id/h404bi
-[Twitter]: https://twitter.com/h404bi
+[Twitter]: https://twitter.com/chawyehsu
 [Instagram]: https://www.instagram.com/chawyehsu/
 [Cowlevel]: https://cowlevel.net/people/h404bi
 [V2EX]: https://www.v2ex.com/member/h404bi
