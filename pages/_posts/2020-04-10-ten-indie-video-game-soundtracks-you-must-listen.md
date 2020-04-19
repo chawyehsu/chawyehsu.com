@@ -3,9 +3,9 @@ layout: post
 title: "十款好评如潮的独立游戏与十张一定要听的原声带"
 keywords: video game music,video game ost,vgm,original soundtrack,video game soundtrack
 description: >-
-  也许你没有看过《独立游戏大电影》纪录片，但应该也曾在 Steam 上接触过或者购买游玩
-  过一些独立游戏。为什么那些独立游戏对部分玩家具有那么强的吸引力，也许秘密就藏在它
-  们的游戏原声带（Soundtrack）上，本文让我们来盘点一下独立游戏音乐的十大神作。
+  也许你没有看过《独立游戏大电影》纪录片，但应该也曾在 Steam
+  上接触过或者购买游玩过一些独立游戏。为什么那些独立游戏对部分玩家具有那么强的吸引力，
+  也许秘密就藏在它们的游戏原声带（Soundtrack）上，本文让我们来盘点一下独立游戏音乐的十大神作。
 date: 2020-04-10 22:22:00
 updated: 2020-04-18 23:15:00
 assets:

@@ -4,8 +4,9 @@ title: "35 年后，竹内玛莉亚的《Plastic Love》有了官方 MV"
 keywords: Jpop,City Pop,竹内玛莉亚,蒸汽波,Vaporwave,音乐,Plastic Love,日本
 description: >-
   在 2018 年 YouTube 上引起广泛关注、病毒式传播的歌曲，竹内玛莉亚（竹内まりや）的
-  Plastic Love，在其发布的 35 年后，“意外地”拥有了它的官方 MV。受蒸汽波等亚文化热
-  度持续存在的影响，上世纪 80 年代的日本 City Pop 音乐正在当下焕发出新的魅力。
+  Plastic Love，在其发布的 35 年后，“意外地”拥有了它的官方
+  MV。受蒸汽波等亚文化热度持续存在的影响，上世纪 80 年代的日本 City Pop
+  音乐正在当下焕发出新的魅力。
 date: 2019-05-20 01:02:53
 updated: 2019-05-21 23:07:32
 pageCoverMode: fullhd

@@ -3,10 +3,10 @@ layout: post
 title: 历经数月，GitHub 章鱼猫寄来的 T 恤竟然……
 keywords: GitHub T 恤,Hacktoberfest 2018
 description: >-
-  历经数月，GitHub 章鱼猫寄来的 T 恤竟然寄到了，而且还有小惊喜。起因是
-  去年参加了由 GitHub 和 DigitalOcean 联合举办的 Hacktoberfest 2018 活动。
-  据说已经是第五届了，活动目的就是鼓励更多的人对开源社区做出贡献，支持开源项目。
-  活动期间内在 GitHub 上发出且被合并 5 次拉取请求，就能登记领取文化 T 恤。
+  历经数月，GitHub 章鱼猫寄来的 T 恤竟然寄到了，而且还有小惊喜。起因是去年参加了由
+  GitHub 和 DigitalOcean 联合举办的 Hacktoberfest 2018 活动。据说已经是第五届了，
+  活动目的就是鼓励更多的人对开源社区做出贡献，支持开源项目。活动期间内在 GitHub
+  上发出且被合并 5 次拉取请求，就能登记领取文化 T 恤。
 date: 2019-01-15 02:19:44
 updated: 2019-01-15 02:19:44
 assets:

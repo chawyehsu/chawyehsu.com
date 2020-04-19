@@ -3,9 +3,9 @@ layout: post
 title: 总结下博客最近的调整
 keywords: Blog,Hexo,Static Site Generator,Saber,Netlify
 description: >-
-  我建博客始于 2013 年，时间也不长。那会儿也不过是一个从 WordPress 加免费空间入坑
-  的新手，免费空间关了就买了个域名和虚拟空间继续折腾。啊对，也改成了 Typecho 一段
-  时间，仿过几个主题。之后便是在流行之下换成了静态博客 Hexo。
+  我建博客始于 2013 年，时间也不长。那会儿也不过是一个从 WordPress
+  加免费空间入坑的新手，免费空间关了就买了个域名和虚拟空间继续折腾。啊对，也改成了
+  Typecho 一段时间，仿过几个主题。之后便是在流行之下换成了静态博客 Hexo。
 date: 2019-04-21 18:07:40
 updated: 2019-04-21 19:21:20
 pageCoverMode: false

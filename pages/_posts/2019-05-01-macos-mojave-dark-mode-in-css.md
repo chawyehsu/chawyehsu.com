@@ -3,8 +3,8 @@ layout: post
 title: "利用 CSS 媒体查询让网页配色跟随 macOS 深色模式"
 keywords: CSS,media queries,macos dark mode
 description: >-
-  苹果公司的操作系统 macOS 从 10.14 Mojave 版本开始，户提供了深色模式（Dark Mode）
-  的外观。本文介绍利用 CSS 媒体查询（media queries）中的 prefers-color-scheme
+  苹果公司的操作系统 macOS 从 10.14 Mojave 版本开始，户提供了深色模式（Dark
+  Mode）的外观。本文介绍利用 CSS 媒体查询（media queries）中的 prefers-color-scheme
   媒体特征（media feature）做到让网页跟随 macOS Mojave 的黑暗模式进行配色自动切换。
 date: 2019-05-01 18:14:40
 updated: 2019-05-01 18:14:40

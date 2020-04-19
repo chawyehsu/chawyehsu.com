@@ -3,9 +3,9 @@ layout: post
 title: 彻底搞懂 Windows 控制台的设置
 keywords: Windows控制台,ConHost.exe,Windows控制台设置,Windows10控制台
 description: >-
-  Windows Console Host（即 conhost.exe）中的设置（如命令行字体等）可能有点
-  难以理解，主要是因为在过去几十年中这个设置系统不断发展。根据 ConHost 如何
-  被调用，这些设置项会存储在不同的位置。
+  Windows Console Host（即 conhost.exe）中的设置（比如如何修改命令行字体为 Sarasa Gothic
+  等）可能有点难以理解，主要是因为在过去几十年中这个设置系统不断发展。根据 ConHost
+  如何被调用，这些设置项会存储在不同的位置。
 date: 2019-02-18 22:02:03
 updated: 2019-03-06 23:15:20
 pageCoverMode: false
