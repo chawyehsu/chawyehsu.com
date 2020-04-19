@@ -65,6 +65,7 @@
 <script>
 import Header from '../components/Header.vue'
 import Footer from '../components/Footer.vue'
+import { head } from '../utils'
 
 export default {
   props: ['page'],
@@ -73,43 +74,7 @@ export default {
     Footer
   },
   head () {
-    return {
-      title: this.$siteConfig.title,
-      meta: [
-        {
-          name: 'description',
-          content: this.$siteConfig.description
-        },
-        {
-          name: 'keywords',
-          content: this.$siteConfig.keywords
-        },
-        {
-          property: 'og:title',
-          content: this.$siteConfig.title
-        },
-        {
-          property: 'og:description',
-          content: this.$siteConfig.description
-        },
-        {
-          property: 'og:type',
-          content: 'website'
-        },
-        {
-          name: 'twitter:card',
-          content: 'summary'
-        },
-        {
-          name: 'twitter:creator',
-          content: this.$siteConfig.author
-        },
-        {
-          name: 'twitter:title',
-          content: this.$siteConfig.title
-        }
-      ]
-    }
+    return head(this)
   }
 }
 </script>

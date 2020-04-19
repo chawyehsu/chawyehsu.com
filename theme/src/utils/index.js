@@ -1,4 +1,5 @@
 import tinytime from 'tinytime'
+import head from './head'
 
 const date = (date, format) => {
   const f = tinytime(format, {
@@ -9,5 +10,6 @@ const date = (date, format) => {
 }
 
 export {
-  date
+  date,
+  head
 }

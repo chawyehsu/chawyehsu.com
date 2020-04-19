@@ -53,7 +53,7 @@
 import Header from '../components/Header.vue'
 import Footer from '../components/Footer.vue'
 import Pagination from '../components/Pagination.vue'
-import { date } from '../utils'
+import { date, head } from '../utils'
 
 export default {
   props: ['page'],
@@ -79,43 +79,7 @@ export default {
     }
   },
   head () {
-    return {
-      title: `${this.page.title} - ${this.$siteConfig.title}`,
-      meta: [
-        {
-          name: 'description',
-          content: this.page.description
-        },
-        {
-          name: 'keywords',
-          content: this.page.keywords
-        },
-        {
-          property: 'og:title',
-          content: this.page.title
-        },
-        {
-          property: 'og:description',
-          content: this.page.description
-        },
-        {
-          property: 'og:type',
-          content: 'website'
-        },
-        {
-          name: 'twitter:card',
-          content: 'summary'
-        },
-        {
-          name: 'twitter:creator',
-          content: this.$siteConfig.author
-        },
-        {
-          name: 'twitter:title',
-          content: this.page.title
-        }
-      ]
-    }
+    return head(this)
   }
 }
 </script>
