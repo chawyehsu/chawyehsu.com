@@ -20,7 +20,7 @@
     "markdown-it-footnote": "^3.0.1",
     "markdown-it-implicit-figures": "^0.10.0",
     "prismjs": "^1.17.1",
-    "saber": "0.11.5",
+    "saber": "0.11.6",
     "saber-plugin-baidu-analytics": "0.0.1",
     "saber-plugin-feed": "0.4.3",
     "saber-plugin-ga-lite": "0.2.0",
@@ -28,8 +28,8 @@
     "saber-plugin-prismjs": "0.2.4",
     "saber-plugin-query-posts": "0.4.5",
     "saber-plugin-sitemap": "0.4.0",
-    "sass": "^1.18.0",
-    "sass-loader": "7.3.1"
+    "sass": "^1.20.0",
+    "sass-loader": "^8.0.0"
   },
   "devDependencies": {
     "lerna": "^3.13.1"
