@@ -4,7 +4,7 @@ title: 关于
 keywords: about
 description: About page of Chawye Hsu / 关于 Chawye Hsu
 date: 2015-05-18 00:00:00
-updated: 2020-04-19 18:30:00
+updated: 2020-04-21 20:12:00
 comments: false
 ---
 
@@ -20,11 +20,11 @@ comments: false
 SoundCloud、YouTube），会写一点代码，偶尔会玩玩游戏、看看电影和动画（很少很少看番），
 以及学习摄影。
 
-![我的生产力工具](./_assets/uploads/2019/07/20190720001.jpg)
+![我的生产力工具：Leopold fc660m](./_assets/uploads/2019/07/20190720001.jpg)
 
 #### 找到我 / Catch me:
 
-- [GitHub]([Stalk Me]) | [Netease CloudMusic] | [Steam] | [Twitter] |
+- [GitHub]([Stalk Me]) | [Netease CloudMusic] | [Telegram] | [Steam] | [Twitter] |
   [Instagram] | [Cowlevel] | [V2EX], etc.
 
 #### 联系我 / Contact me:
@@ -39,7 +39,7 @@ SoundCloud、YouTube），会写一点代码，偶尔会玩玩游戏、看看电
 
 站点内引入了 Google 广告，主要是插入在文章中，对阅读影响不会很大。引入目的是测试能
 否在 1 年的时间回收站点域名的花费。除了域名外，站点暂未有其它直接费用支出，基本都是
-使用共有免费资源。所以如果可以的话，望能对本站关闭 Adblock 策略。
+使用免费公有资源。所以如果可以的话，望能对本站关闭 AdBlock 策略。
 
 本站施行“**尽可能开放**”原则，你可以通过以下链接查看到本站的架构、所有源码、授权形式
 以及演变历史等信息：
@@ -54,6 +54,7 @@ SoundCloud、YouTube），会写一点代码，偶尔会玩玩游戏、看看电
 [GitHub]: https://github.com/h404bi
 [Stalk Me]: https://gitstalk.netlify.com/h404bi
 [Netease CloudMusic]: http://music.163.com/#/user/home?id=35631431
+[Telegram]: https://t.me/h404bi
 [Steam]: http://steamcommunity.com/id/h404bi
 [Twitter]: https://twitter.com/chawyehsu
 [Instagram]: https://www.instagram.com/chawyehsu/
