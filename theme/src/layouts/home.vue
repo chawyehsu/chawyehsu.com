@@ -145,7 +145,7 @@ export default {
       display: block;
       width: 100%;
       height: auto;
-      z-index: 1;
+      z-index: 0;
       transition: all 0.5s ease-in-out;
     }
 
@@ -161,9 +161,9 @@ export default {
       height: 100%;
       top: 0;
       left: 0;
-      background: #2f2f2f;
+      background: rgba(47, 47, 47, 0.5);
       opacity: 0;
-      z-index: 0;
+      z-index: 1;
       transition: all 0.3s ease-in-out;
     }
 
@@ -174,7 +174,6 @@ export default {
 
       .item-cover {
         transform: scale(1.05);
-        opacity: 0.25;
       }
     }
   }
@@ -226,11 +225,6 @@ export default {
     .item-content {
       .overlay {
         opacity: 1;
-      }
-
-      .item-cover {
-        transform: scale(1.05);
-        opacity: 0.25;
       }
     }
   }
