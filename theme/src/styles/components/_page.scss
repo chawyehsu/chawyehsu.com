@@ -138,9 +138,12 @@
     }
 
     code {
-      background: var(--color-accent-1);
-      padding: 0 0.3rem;
-      border-radius: 3px;
+      color: var(--color-link);
+
+      &:before,
+      &:after {
+        content: '\`';
+      }
     }
 
     .saber-highlight {

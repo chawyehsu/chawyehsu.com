@@ -59,15 +59,25 @@ export default {
   }
 
   .dsqjs-tab-active,
-  .dsqjs-post-body {
+  .dsqjs-post-body,
+  .dsqjs-no-comment {
     color: var(--color-text-primary);
+  }
+
+  .dsqjs-order-label {
+    background: var(--color-background);
+  }
+
+  .dsqjs-order-radio:checked+.dsqjs-order-label {
+    color: var(--color-accent-0);
+    background-color: var(--color-accent-5);
   }
 
   .dsqjs-post-list .dsqjs-post-header .dsqjs-post-author {
     color: var(--color-text-primary);
   }
 
-  .dsqjs-post-list .dsqjs-post-header .dsqjs-meta {
+  .dsqjs-post-list .dsqjs-post-header .dsqjs-meta, footer, footer a {
     color: var(--color-text-secondary);
   }
 }
