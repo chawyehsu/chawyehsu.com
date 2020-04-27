@@ -1,4 +1,4 @@
-name: Deployment
+name: GitHub CI
 
 on:
   push:
@@ -7,23 +7,26 @@ on:
 
 jobs:
   deploy:
+    name: Build
     runs-on: ubuntu-18.04
     if: "! contains(toJSON(github.event.commits.*.message), '[ci skip]')"
+
     steps:
       # correct build machine timezone
       - run: sudo timedatectl set-timezone Asia/Shanghai
-
-      - uses: actions/checkout@v2
-
+      # checkout source
+      - name: Checkout
+        uses: actions/checkout@v2
+      # setup node.js
       - name: Setup Node
         uses: actions/setup-node@v1
         with:
           node-version: '12.x'
-
-      - name: Get yarn cache
+      # find yarn cache
+      - name: Get yarn cache path
         id: yarn-cache
         run: echo "::set-output name=dir::$(yarn cache dir)"
-
+      # update cache
       - name: Cache dependencies
         uses: actions/cache@v1
         with:
@@ -31,10 +34,10 @@ jobs:
           key: ${{ runner.os }}-yarn-${{ hashFiles('**/yarn.lock') }}
           restore-keys: |
             ${{ runner.os }}-yarn-
-
+      # generate artifacts
       - run: yarn install
       - run: yarn build
-
+      # deployment
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
@@ -42,4 +45,3 @@ jobs:
           publish_dir: ./public
           # docs: https://developer.github.com/v3/activity/events/types/#commitcommentevent
           commit_message: Site updated at ${{ github.event.head_commit.timestamp }}
-
