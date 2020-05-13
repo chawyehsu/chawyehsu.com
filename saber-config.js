@@ -57,7 +57,7 @@ module.exports = {
         },
         {
           name: 'Twitter',
-          path: 'https://twitter.com/chawyehsu'
+          path: 'https://twitter.com/intent/follow?screen_name=chawyehsu'
         },
         {
           name: 'Steam',
