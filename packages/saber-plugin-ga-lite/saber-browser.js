@@ -28,7 +28,6 @@ export default function (ctx) {
       a.src = s
       a.onload = () => {
         galite('create', options['trackId'], 'auto')
-        galite('send', 'pageview')
       }
       c = t.getElementsByTagName(i)[0]
       c.parentNode.insertBefore(a,c)
