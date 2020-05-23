@@ -1,6 +1,20 @@
 export default function (ctx) {
-  var router = ctx.router
-  if (process.browser && process.env.NODE_ENV === 'production' && __BA_TRACK_ID__) {
+  if (
+    process.browser &&
+    process.env.NODE_ENV === 'production' &&
+    __BA_TRACK_ID__
+  ) {
+    const doNotTrackEnabled = parseInt(
+      navigator.msDoNotTrack || // Internet Explorer 9 and 10 vendor prefix
+      window.doNotTrack || // IE 11 uses window.doNotTrack
+        navigator.doNotTrack, // W3C
+      10
+    ) === 1
+
+    if (doNotTrackEnabled) {
+      // Respect browsers' doNotTrack setting
+      return
+    }
 
     (function() {
       window._hmt = window._hmt || []
@@ -11,7 +25,7 @@ export default function (ctx) {
       s.parentNode.insertBefore(hm, s)
     })()
 
-    router.afterEach(function (to) {
+    ctx.router.afterEach(function (to) {
       window._hmt.push(['_trackPageview', to.fullPath])
     })
   }
