@@ -18,9 +18,9 @@ export default function (ctx) {
       c.parentNode.insertBefore(a,c)
     })(window, document, 'galite', 'script', options['galiteUrl'])
 
-    ctx.router.afterEach(to => {
+    ctx.router.afterEach(to => setTimeout(() => {
       galite('set', 'page', to.fullPath)
       galite('send', 'pageview')
-    })
+    }, 3000))
   }
 }
