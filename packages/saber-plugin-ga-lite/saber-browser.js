@@ -18,9 +18,10 @@ export default function (ctx) {
       c.parentNode.insertBefore(a,c)
     })(window, document, 'galite', 'script', options['galiteUrl'])
 
+    // Workaround #147, should remove after vue-router v4 release
     ctx.router.afterEach(to => setTimeout(() => {
       galite('set', 'page', to.fullPath)
       galite('send', 'pageview')
-    }, 3000))
+    }, 300))
   }
 }
