@@ -134,6 +134,11 @@
 
       code {
         font-size: $font-size-code;
+
+        &:before,
+        &:after {
+          content: '';
+        }
       }
     }
 
