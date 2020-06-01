@@ -5,8 +5,8 @@
   <h1>The Art of Chawye Hsu</h1>
 </div>
 <p align="center">
-  <a href="https://github.com/h404bi/www.h404bi.com/actions?query=workflow%3ADeployment">
-    <img src="https://img.shields.io/github/workflow/status/h404bi/www.h404bi.com/Deployment?style=flat-square" alt="GitHub Actions" />
+  <a href="https://github.com/chawyehsu/www.h404bi.com/actions?query=workflow%3ADeployment">
+    <img src="https://img.shields.io/github/workflow/status/chawyehsu/www.h404bi.com/Deployment?style=flat-square" alt="GitHub Actions" />
   </a>
   <a href="https://www.h404bi.com">
     <img src="https://img.shields.io/website-up-down-green-red/https/h404bi.com.svg?style=flat-square" alt="Website Status" />
@@ -22,16 +22,16 @@
   <a href="https://code.visualstudio.com">
     <img src="https://img.shields.io/badge/build%20with-vscode-blue.svg?style=flat-square" alt="build with vscode" />
   </a>
-  <a href="https://github.com/h404bi/www.h404bi.com">
-    <img src="https://img.shields.io/david/h404bi/www.h404bi.com.svg?style=flat-square" alt="David" />
+  <a href="https://github.com/chawyehsu/www.h404bi.com">
+    <img src="https://img.shields.io/david/chawyehsu/www.h404bi.com.svg?style=flat-square" alt="David" />
   </a>
-  <a href="https://github.com/h404bi/www.h404bi.com">
-    <img src="https://img.shields.io/github/repo-size/h404bi/www.h404bi.com.svg?style=flat-square&colorB=328657" alt="Repo size" />
+  <a href="https://github.com/chawyehsu/www.h404bi.com">
+    <img src="https://img.shields.io/github/repo-size/chawyehsu/www.h404bi.com.svg?style=flat-square&colorB=328657" alt="Repo size" />
   </a>
 </p>
 <p align="center">
   This repository contains all the source code of h404bi's personal <a href="https://www.h404bi.com">website</a>.<br/>
-  <sub>You can also see the auto-generated deployable files at <a href="https://github.com/h404bi/www.h404bi.com/tree/gh-pages"><code>gh-pages</code></a> branch.</sub>
+  <sub>You can also see the auto-generated deployable files at <a href="https://github.com/chawyehsu/www.h404bi.com/tree/gh-pages"><code>gh-pages</code></a> branch.</sub>
 </p>
 
 ## Architecture
@@ -46,7 +46,7 @@ Git, Nodejs, Yarn
 ### Get the project:
 
 ``` sh
-$ git clone https://github.com/h404bi/www.h404bi.com.git
+$ git clone https://github.com/chawyehsu/www.h404bi.com
 $ cd www.h404bi.com
 ```
 
@@ -71,4 +71,4 @@ Complete open sourcing was inspired by [daneden.me](https://github.com/daneden/d
 2. All my blog posts **assets** content in [`pages/_assets`](pages/_assets) are licensed under the [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) license.  
 3. Except for content in [`pages`](pages), all other **codes** content in this repository are licensed under the [MIT](https://opensource.org/licenses/MIT) license.  
 4. Other not covered content should be copyrighted by default, do not use it without my permission.  
-5. Please contact h404bi@outlook.com if you have any questions about the license.
+5. Please contact me if you have any questions about the license.
