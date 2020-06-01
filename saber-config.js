@@ -45,7 +45,7 @@ module.exports = {
       social_network: [
         {
           name: 'Instagram',
-          path: 'https://www.instagram.com/chawyehsu/'
+          path: 'https://www.instagram.com/chawyehsu'
         },
         {
           name: 'Music',
@@ -53,7 +53,7 @@ module.exports = {
         },
         {
           name: 'GitHub',
-          path: 'https://github.com/h404bi'
+          path: 'https://github.com/chawyehsu'
         },
         {
           name: 'Twitter',
@@ -61,7 +61,7 @@ module.exports = {
         },
         {
           name: 'Steam',
-          path: 'https://steamcommunity.com/id/h404bi/'
+          path: 'https://steamcommunity.com/id/h404bi'
         }
       ]
     }

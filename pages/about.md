@@ -10,15 +10,9 @@ comments: false
 
 ### 关于我 / About Me
 
-男，九三年生。于网络上常用 ID 是 h404bi，中文的话是“奇毅博士”，如果遇到是“深紅の花火”
-的话应该也是我。“花火”是我于 2009 年起使用的代称。我的网络 ID 基本上是基于此代称演
-变而来的。
-
-> hanabi->h404bi;
-
-目前正在互联网行业里摸爬滚打。被社会毒打青年，平时最爱好听音乐（豆瓣 FM、网易云音乐、
-SoundCloud、YouTube），会写一点代码，偶尔会玩玩游戏、看看电影和动画（很少很少看番），
-以及学习摄影。
+男，九三年生。目前正在互联网行业里摸爬滚打。被社会毒打青年，平时最爱好听音乐（豆瓣
+FM、网易云音乐、SoundCloud、YouTube），会写一点代码，偶尔会玩玩游戏、看看电影和动
+画（很少很少看番），以及学习摄影。
 
 ![我的生产力工具：Leopold fc660m](./_assets/uploads/2019/07/20190720001.jpg)
 
@@ -32,7 +26,7 @@ SoundCloud、YouTube），会写一点代码，偶尔会玩玩游戏、看看电
 当然你可以通过上面各类 SNS 找到并联系我。我每天会看电子邮箱，所以更好的方法是通过邮
 件联系（主用微软 Outlook / Hotmail）：
 
-> **major:** h404bi->outlook/chawyehsu->hotmail;  
+> **major:** chawyehsu->hotmail/h404bi->outlook;
 > <span class="meta">**minor:** chawyehsu->gmail;</span>
 
 ### 关于网站 / About TACH
@@ -51,16 +45,16 @@ SoundCloud、YouTube），会写一点代码，偶尔会玩玩游戏、看看电
 域，**图片/照片/附件**及其它非文本或代码类 Assets 采用 [CC BY 4.0] 协议。如果你对
 具体内容授权存在疑问，欢迎在引用内容之前通过电子邮件联系我。
 
-[GitHub]: https://github.com/h404bi
-[Stalk Me]: https://gitstalk.netlify.com/h404bi
+[GitHub]: https://github.com/chawyehsu
+[Stalk Me]: https://gitstalk.netlify.com/chawyehsu
 [Netease CloudMusic]: http://music.163.com/#/user/home?id=35631431
-[Telegram]: https://t.me/h404bi
+[Telegram]: https://t.me/chawyehsu
 [Steam]: http://steamcommunity.com/id/h404bi
 [Twitter]: https://twitter.com/chawyehsu
-[Instagram]: https://www.instagram.com/chawyehsu/
+[Instagram]: https://www.instagram.com/chawyehsu
 [Cowlevel]: https://cowlevel.net/people/h404bi
 [V2EX]: https://www.v2ex.com/member/h404bi
-[www.h404bi.com on GitHub]: https://github.com/h404bi/www.h404bi.com
+[www.h404bi.com on GitHub]: https://github.com/chawyehsu/www.h404bi.com
 [CC0]: https://creativecommons.org/publicdomain/zero/1.0/
 [Public Domain]: https://en.wikipedia.org/wiki/Public_domain
 [CC BY 4.0]: https://creativecommons.org/licenses/by/4.0/
