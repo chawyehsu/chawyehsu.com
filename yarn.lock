@@ -7818,10 +7818,10 @@ saber-utils@^0.2.4:
   resolved "https://registry.npmjs.org/saber-utils/-/saber-utils-0.2.4.tgz#c7844eafaf5da0aa950a7ec527d1e8c491e69ada"
   integrity sha512-8vSjecRbXNtvrtDbfwl9qdIjrQNI48aLrqSyhptIXT1DfzLJ8HPmtqiYl28ldvtQHU0KQtTjUhiGv7CDh0yT8w==
 
-saber@0.11.6:
-  version "0.11.6"
-  resolved "https://registry.npmjs.org/saber/-/saber-0.11.6.tgz#082ea07a0e83ef0ce238c960967beba4fe202c97"
-  integrity sha512-KT9soLOWUOBqw/shLwxZOWY3qvAd7ATiPKNR/Oj1CgpTlgC6cYzT1UNK0RHtK70Ha92WRLZxiB02j55MlN4ibA==
+saber@0.11.7:
+  version "0.11.7"
+  resolved "https://registry.npmjs.org/saber/-/saber-0.11.7.tgz#4570d2bb33407def46aa5d1967cec46e1c5a5d9d"
+  integrity sha512-eXBmsSc1lf3e8uOru8oW1g0FFLskGrQBk3za8yT8+S5WCSgsnWWaZONo/jo7lnFgzlnfk5nD3OSXZ3xzF9V/GA==
   dependencies:
     "@babel/core" "^7.5.4"
     "@babel/plugin-proposal-object-rest-spread" "^7.5.4"
