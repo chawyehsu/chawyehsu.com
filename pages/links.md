@@ -8,11 +8,11 @@ updated: 2020-04-18 00:00:00
 comments: false
 ---
 
-我收纳的一些博客站点。大多数是单链所以不算是友链页面，也就没有所谓的**友链申请**。
-不过如果你实在有意愿，还是可以前往我博客的[源码仓库](https://github.com/chawyehsu/www.h404bi.com)，
-找到并编辑 `pages/links.md` 文件增加你的链接，然后发个拉取请求，我会回访后视情况是否合并添加。
+我收纳的一些站点。大多数是单链所以并不能算是正统的“友链”页面，故称之为 Links，也就没有所谓的**友链申请**。
+不过如果你确实有意愿，可以前往我博客的[源码仓库](https://github.com/chawyehsu/www.h404bi.com)，
+找到并编辑 `pages/links.md` 文件增加你的链接，然后发个拉取请求，我会回访后视情况进行合并。
 
- - [程沛权](https://chengpeiquan.com) 【我大哥，有两只猫】
+ - [程沛权](https://chengpeiquan.com) 【养了两只猫的大哥】
  - [Kai](https://kclu.net) 【开开，真是怀念那会儿咱们做字幕组的时光呀】
  - [O3OR](http://o3or.com) 【以前用 Technetcal 主机时的邻居】
  - [Phoenix's island](https://blog.phoenixlzx.com) 【凤凰卷菊苣】
