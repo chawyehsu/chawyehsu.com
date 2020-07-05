@@ -24,10 +24,9 @@ FM、网易云音乐、SoundCloud、YouTube），会写一点代码，偶尔会�
 #### 联系我 / Contact me:
 
 当然你可以通过上面各类 SNS 找到并联系我。我每天会看电子邮箱，所以更好的方法是通过邮
-件联系（主用微软 Outlook / Hotmail）：
+件联系：
 
-> **major:** chawyehsu->hotmail/h404bi->outlook;
-> <span class="meta">**minor:** chawyehsu->gmail;</span>
+> chawyehsu#hotmail.com
 
 ### 关于网站 / About TACH
 
