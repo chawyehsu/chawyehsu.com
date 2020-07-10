@@ -1,13 +1,19 @@
 {
   "version": 2,
   "github": {
-    "enabled": true
+    "enabled": true,
+    "silent": true
   },
-  "routes": [
+  "redirects": [
     {
-      "src": "/blog/(?<year>[\\d]{4})/(?<month>[\\d]{2})/(?<day>[\\d]{2})/(?<slug>[a-z0-9\\-]+).html",
-      "status": 301,
-      "headers": { "Location": "/blog/$year/$month/$slug" }
+      "source": "/blog/atom.xml",
+      "permanent": true,
+      "destination": "/feed/atom.xml"
+    },
+    {
+      "source": "/blog/(?<year>[\\d]{4})/(?<month>[\\d]{2})/(?<day>[\\d]{2})/(?<slug>[a-z0-9\\-]+).html",
+      "permanent": true,
+      "destination": "/blog/$year/$month/$slug"
     }
   ]
 }
