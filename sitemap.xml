@@ -3,31 +3,31 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
     <loc>https://www.h404bi.com/blog/category/digital</loc>
-    <lastmod>2020-07-05T06:50:05.133Z</lastmod>
+    <lastmod>2020-07-10T11:20:11.713Z</lastmod>
         <priority>0.3</priority>
         <changefreq>always</changefreq>
   </url>
     <url>
     <loc>https://www.h404bi.com/blog/category/technology</loc>
-    <lastmod>2020-07-05T06:50:05.132Z</lastmod>
-        <priority>0.3</priority>
-        <changefreq>always</changefreq>
-  </url>
-    <url>
-    <loc>https://www.h404bi.com/blog/category/uncategorized</loc>
-    <lastmod>2020-07-05T06:50:05.131Z</lastmod>
-        <priority>0.3</priority>
-        <changefreq>always</changefreq>
-  </url>
-    <url>
-    <loc>https://www.h404bi.com/blog/tag/%E5%89%8D%E7%AB%AF</loc>
-    <lastmod>2020-07-05T06:50:05.130Z</lastmod>
+    <lastmod>2020-07-10T11:20:11.712Z</lastmod>
         <priority>0.3</priority>
         <changefreq>always</changefreq>
   </url>
     <url>
     <loc>https://www.h404bi.com/blog/tag/%E5%89%8D%E7%AB%AF%E6%80%A7%E8%83%BD%E4%BC%98%E5%8C%96</loc>
-    <lastmod>2020-07-05T06:50:05.130Z</lastmod>
+    <lastmod>2020-07-10T11:20:11.711Z</lastmod>
+        <priority>0.3</priority>
+        <changefreq>always</changefreq>
+  </url>
+    <url>
+    <loc>https://www.h404bi.com/blog/category/uncategorized</loc>
+    <lastmod>2020-07-10T11:20:11.711Z</lastmod>
+        <priority>0.3</priority>
+        <changefreq>always</changefreq>
+  </url>
+    <url>
+    <loc>https://www.h404bi.com/blog/tag/%E5%89%8D%E7%AB%AF</loc>
+    <lastmod>2020-07-10T11:20:11.710Z</lastmod>
         <priority>0.3</priority>
         <changefreq>always</changefreq>
   </url>
