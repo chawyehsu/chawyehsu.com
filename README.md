@@ -9,7 +9,7 @@
     <img src="https://img.shields.io/github/workflow/status/chawyehsu/www.h404bi.com/Deployment?style=flat-square" alt="GitHub Actions" />
   </a>
   <a href="https://www.h404bi.com">
-    <img src="https://img.shields.io/website-up-down-green-red/https/h404bi.com.svg?style=flat-square" alt="Website Status" />
+    <img src="https://img.shields.io/website-up-down-green-red/https/www.h404bi.com.svg?style=flat-square" alt="Website Status" />
   </a>
   <a href="https://www.webpagetest.org/result/200301_J4_4d43e80f91ea9497254c7d167d809062/">
     <img src="https://img.shields.io/badge/WebPageTest-AAAAA-44CC11.svg?style=flat-square" alt="WebPageTest Test Result" />
@@ -30,13 +30,32 @@
   </a>
 </p>
 <p align="center">
-  This repository contains all the source code of h404bi's personal <a href="https://www.h404bi.com">website</a>.<br/>
+  This repository contains all the source code of Chawye Hsu's personal <a href="https://www.h404bi.com">website</a>.<br/>
   <sub>You can also see the auto-generated deployable files at <a href="https://github.com/chawyehsu/www.h404bi.com/tree/gh-pages"><code>gh-pages</code></a> branch.</sub>
 </p>
 
 ## Architecture
 
-![architecture](resources/media/architecture.jpg)
+```
+
+                        GitHub                 Preview,         DNS,
+                      +---------+              Redirect,        Cache,
+                      | Actions |              Functions,       Security,
+                      |         |              etc.             etc.
+                  +---+----+----v-----+        +--------+     +------------+         +---------+
++--------+  Push  |        |          | Deploy |        |     |            |         |         |
+| Author +-------->  main  | gh-pages +--------> Vercel <-----+ Cloudflare <---------+ Clients |
++--------+        |        |          |        |        |     |            | Request |         |
+                  +--------+-----^----+        +--------+     +------------+         +----+----+
+                                 |                                                        |
+                   Github Repo   |                                                        |
+                                 |           +----------+                                 |
+                                 |           |          |                CDN              |
+                                 +-----------+ jsDelivr <---------------------------------+
+                                             |          |     Assets: Images, CSS, JS
+                                             +----------+
+
+```
 
 ## Playground
 
