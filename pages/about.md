@@ -4,7 +4,7 @@ title: 关于
 keywords: about
 description: About page of Chawye Hsu / 关于 Chawye Hsu
 date: 2015-05-18 00:00:00
-updated: 2020-04-21 20:12:00
+updated: 2020-07-28 22:10:00
 comments: false
 ---
 
@@ -26,7 +26,7 @@ FM、网易云音乐、SoundCloud、YouTube），会写一点代码，偶尔会�
 当然你可以通过上面各类 SNS 找到并联系我。我每天会看电子邮箱，所以更好的方法是通过邮
 件联系：
 
-> chawyehsu#hotmail.com
+> chawyehsu->hotmail.com
 
 ### 关于网站 / About TACH
 
@@ -47,7 +47,7 @@ FM、网易云音乐、SoundCloud、YouTube），会写一点代码，偶尔会�
 [GitHub]: https://github.com/chawyehsu
 [Stalk Me]: https://gitstalk.netlify.com/chawyehsu
 [Netease CloudMusic]: http://music.163.com/#/user/home?id=35631431
-[Telegram]: https://t.me/chawyehsu
+[Telegram]: https://t.me/s/chawyehsu
 [Steam]: http://steamcommunity.com/id/h404bi
 [Twitter]: https://twitter.com/chawyehsu
 [Instagram]: https://www.instagram.com/chawyehsu
