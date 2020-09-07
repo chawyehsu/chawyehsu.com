@@ -1,6 +1,6 @@
 <div align="center">
   <a href="https://www.h404bi.com/">
-    <img alt="site icon" src="./resources/media/icon.png" />
+    <img alt="site icon" src="./resources/icon.png" />
   </a>
   <h1>The Art of Chawye Hsu</h1>
 </div>
