@@ -1,9 +1,9 @@
 {
   "name": "saber-theme-aimer",
-  "version": "0.20.3",
+  "version": "0.20.4",
   "description": "A concise Saber theme, ported and evoluted from the unreleased hexo-theme-mina",
   "author": "Chawye Hsu <h404bi@gmail.com>",
-  "homepage": "https://github.com/h404bi/www.h404bi.com#readme",
+  "homepage": "https://github.com/chawyehsu/www.h404bi.com#readme",
   "license": "MIT",
   "files": [
     "dist"
@@ -20,7 +20,6 @@
     "vue-pswipe": "^0.15.0"
   },
   "devDependencies": {
-    "autoprefixer": "^9.5.1",
     "sass": "^1.20.0",
     "sass-loader": "^8.0.0",
     "vue-compile": "^0.6.0"
@@ -29,9 +28,5 @@
     "saber",
     "saber-theme",
     "theme"
-  ],
-  "browserslist": [
-    ">0.5%",
-    "not op_mini all"
   ]
 }
