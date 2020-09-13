@@ -26,14 +26,14 @@
             <div class="container columns is-mobile is-multiline">
               <article
                 class="tach-portfolio-item column is-4-desktop is-6-tablet is-12-mobile"
-                v-for="post in page.posts.filter(item => item.feature === true).slice(0, 6)"
+                v-for="post in page.posts.filter(item => item.featured === true).slice(0, 6)"
                 :key="post.attributes.permalink">
                 <figure class="item-content">
                   <saber-link class="link" :to="post.attributes.permalink">
                     <div class="pic-box">
                       <saber-image
                         class="item-cover"
-                        :src="post.attributes.assets.feature"
+                        :src="post.attributes.assets.featured"
                         :alt="post.attributes.title" />
                       <span
                         class="overlay"

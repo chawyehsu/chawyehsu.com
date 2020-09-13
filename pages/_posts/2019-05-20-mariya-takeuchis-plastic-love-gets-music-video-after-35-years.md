@@ -12,10 +12,10 @@ updated: 2019-05-21 23:07:32
 pageCoverMode: fullhd
 assets:
   cover: ../_assets/uploads/2019/05/20190519007.png
-  feature: ../_assets/uploads/2019/11/20191130006.jpg
+  featured: ../_assets/uploads/2019/11/20191130006.jpg
 categories:
   - 杂谈
-feature: true
+featured: true
 ---
 
 今天我们来谈谈音乐吧，这是我很喜欢的一个话题。聊聊音乐趣事，当然可能会扯到些扩散话题。

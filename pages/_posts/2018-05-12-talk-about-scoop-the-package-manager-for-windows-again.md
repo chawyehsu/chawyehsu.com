@@ -13,10 +13,10 @@ updated: 2019-10-13 23:32:50
 pageCoverMode: false
 assets:
   cover: ../_assets/uploads/2018/05/20180510001.png
-  feature: ../_assets/uploads/2019/11/20191130003.jpg
+  featured: ../_assets/uploads/2019/11/20191130003.jpg
 categories:
   - 技术
-feature: true
+featured: true
 ---
 
 ![Let us Scoop it!](../_assets/uploads/2018/05/20180512001.gif "Let us Scoop it!")

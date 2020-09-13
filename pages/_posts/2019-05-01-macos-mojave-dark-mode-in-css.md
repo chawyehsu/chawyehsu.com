@@ -10,12 +10,12 @@ date: 2019-05-01 18:14:40
 updated: 2019-05-01 18:14:40
 assets:
   cover: ../_assets/uploads/2019/05/20190501006.png
-  feature: ../_assets/uploads/2019/11/20191130004.jpg
+  featured: ../_assets/uploads/2019/11/20191130004.jpg
 categories:
   - 技术
 tags:
   - 前端
-feature: true
+featured: true
 ---
 
 苹果公司的操作系统 macOS 从 10.14 Mojave 版本开始，为用户提供了[深色模式]的可选外

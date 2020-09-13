@@ -14,13 +14,13 @@ updated: 2019-07-24 16:33:00
 pageCoverMode: mixed
 assets:
   cover: ../_assets/uploads/2019/07/20190724005.jpg
-  feature: ../_assets/uploads/2019/11/20191130005.jpg
+  featured: ../_assets/uploads/2019/11/20191130005.jpg
 categories:
   - 技术
 tags:
   - 前端
   - 前端性能优化
-feature: true
+featured: true
 ---
 
 作为在网页性能调优方面常被使用的技巧之一，**懒加载**或者说延迟加载是在谈及「前端性

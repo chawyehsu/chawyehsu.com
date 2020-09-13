@@ -11,10 +11,10 @@ date: 2019-11-16 00:15:00
 updated: 2019-11-18 22:50:00
 assets:
   cover: ../_assets/uploads/2019/11/20191115002.png
-  feature: ../_assets/uploads/2019/11/20191130001.jpg
+  featured: ../_assets/uploads/2019/11/20191130001.jpg
 categories:
   - 杂谈
-feature: true
+featured: true
 ---
 
 不管是 [GitHub Game Off]，抑或是 [HacktoberFest]，都是 GitHub 近些年来，每年固定

@@ -10,10 +10,10 @@ date: 2020-04-10 22:22:00
 updated: 2020-04-18 23:15:00
 assets:
   cover: ../_assets/uploads/2020/04/20200406001.jpg
-  feature: ../_assets/uploads/2020/04/20200406002.jpg
+  featured: ../_assets/uploads/2020/04/20200406002.jpg
 categories:
   - 杂谈
-feature: true
+featured: true
 ---
 
 在起笔写这篇文章之时，我看了下我的 Steam 帐号最近的一次启动游戏距离现在又过去了一段
