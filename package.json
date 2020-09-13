@@ -1,5 +1,5 @@
 {
-  "name": "www.h404bi.com",
+  "name": "website",
   "version": "0.0.0",
   "homepage": "https://www.h404bi.com/",
   "description": "This is Chawye Hsu's website",
@@ -10,22 +10,21 @@
     "build": "saber build"
   },
   "dependencies": {
-    "markdown-it-attrs": "^3.0.0",
-    "markdown-it-cjk-breaks": "^1.1.3",
-    "markdown-it-emoji": "^1.4.0",
-    "markdown-it-footnote": "^3.0.1",
-    "markdown-it-implicit-figures": "^0.10.0",
-    "prismjs": "^1.17.1",
-    "saber": "0.11.6",
+    "markdown-it-attrs": "3.0.3",
+    "markdown-it-cjk-breaks": "1.1.3",
+    "markdown-it-footnote": "3.0.2",
+    "markdown-it-implicit-figures": "0.10.0",
+    "prismjs": "1.21.0",
+    "saber": "0.11.7",
     "saber-plugin-baidu-analytics": "0.1.0",
     "saber-plugin-feed": "0.4.3",
     "saber-plugin-ga-lite": "0.4.0",
-    "saber-plugin-google-adsense": "^0.2.1",
+    "saber-plugin-google-adsense": "0.2.1",
     "saber-plugin-prismjs": "0.2.4",
     "saber-plugin-query-posts": "0.4.6",
     "saber-plugin-sitemap": "0.4.1",
-    "sass": "^1.20.0",
-    "sass-loader": "^8.0.0"
+    "sass": "1.26.10",
+    "sass-loader": "8.0.2"
   },
   "workspaces": [
     "packages/*",

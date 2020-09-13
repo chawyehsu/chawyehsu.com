@@ -69,9 +69,6 @@ module.exports = {
   markdown: {
     plugins: [
       {
-        resolve: 'markdown-it-emoji'
-      },
-      {
         resolve: 'markdown-it-footnote'
       },
       {
