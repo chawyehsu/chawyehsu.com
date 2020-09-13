@@ -2,13 +2,9 @@
   "name": "www.h404bi.com",
   "version": "0.0.0",
   "homepage": "https://www.h404bi.com/",
-  "description": "This is Chawye Hsu's website.",
-  "author": "Chawye Hsu <h404bi@gmail.com>",
+  "description": "This is Chawye Hsu's website",
+  "author": "Chawye Hsu <chawyehsu@hotmail.com>",
   "private": true,
-  "repository": {
-    "url": "git+https://github.com/h404bi/www.h404bi.com.git",
-    "type": "git"
-  },
   "scripts": {
     "dev": "saber",
     "build": "saber build"
@@ -30,9 +26,6 @@
     "saber-plugin-sitemap": "0.4.1",
     "sass": "^1.20.0",
     "sass-loader": "^8.0.0"
-  },
-  "devDependencies": {
-    "lerna": "^3.13.1"
   },
   "workspaces": [
     "packages/*",
