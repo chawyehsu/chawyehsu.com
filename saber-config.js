@@ -140,12 +140,6 @@ module.exports = {
       }
     },
     {
-      resolve: './packages/saber-plugin-jsdelivr-cdn',
-      options: {
-        prefix: 'https://cdn.jsdelivr.net/gh/chawyehsu/www.h404bi.com@gh-pages'
-      }
-    },
-    {
       resolve: 'saber-plugin-prismjs'
     },
     {
