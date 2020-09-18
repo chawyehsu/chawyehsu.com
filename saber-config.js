@@ -61,7 +61,7 @@ module.exports = {
         },
         {
           name: 'Steam',
-          path: 'https://steamcommunity.com/id/h404bi'
+          path: 'https://steamcommunity.com/profiles/76561198139243084'
         }
       ]
     }
