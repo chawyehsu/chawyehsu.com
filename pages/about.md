@@ -4,7 +4,7 @@ title: 关于
 keywords: about
 description: About page of Chawye Hsu / 关于 Chawye Hsu
 date: 2015-05-18 00:00:00
-updated: 2020-07-28 22:10:00
+updated: 2020-09-22 01:10:00
 comments: false
 ---
 
@@ -26,7 +26,7 @@ FM、网易云音乐、SoundCloud、YouTube），会写一点代码，偶尔会�
 当然你可以通过上面各类 SNS 找到并联系我。我每天会看电子邮箱，所以更好的方法是通过邮
 件联系：
 
-> chawyehsu->hotmail.com
+> chawyehsu->hotmail
 
 ### 关于网站 / About TACH
 
@@ -34,26 +34,32 @@ FM、网易云音乐、SoundCloud、YouTube），会写一点代码，偶尔会�
 否在 1 年的时间回收站点域名的花费。除了域名外，站点暂未有其它直接费用支出，基本都是
 使用免费公有资源。所以如果可以的话，望能对本站关闭 AdBlock 策略。
 
-本站施行“**尽可能开放**”原则，你可以通过以下链接查看到本站的架构、所有源码、授权形式
-以及演变历史等信息：
+本站源码公开，你可以访问[这里]查看到站点的架构、所有源码、项目各模块代码的授权形式
+以及项目演变历史等信息。请在合理范围内使用公开的内容。
 
-- [www.h404bi.com on GitHub]
+#### 版权 / License
 
-如无特殊说明，对于本站内的自有内容，默认情况下，**文本**内容都在 [CC0] 协议下发表，
-**代码**内容（仅指博文中引用的代码，非指站点源码）发布于 [Public Domain] 即公有领
-域，**图片/照片/附件**及其它非文本或代码类 Assets 采用 [CC BY 4.0] 协议。如果你对
-具体内容授权存在疑问，欢迎在引用内容之前通过电子邮件联系我。
+除非另有特殊说明，站内的内容与资源为 Chawye Hsu 版权所有。未经授权演绎或者分发本站
+内容，意味着您侵犯了我们的版权。如果您对具体内容授权存在疑问，欢迎在引用内容之前通
+过电子邮件联系我们。
+
+*Copyright © 2015-2020 Chawye Hsu. All rights reserved.*
+
+The content and resources belong to **Chawye Hsu**, **unless otherwise noted**.
+Reproducing or distributing our content **without permission** could mean you will
+be in legal breach of our copyright. Requests to use our content are considered
+on a case by case basis for reasonable accommodation.
+
+You don’t need our permission to link to any pages of our website.
+
 
 [GitHub]: https://github.com/chawyehsu
 [Stalk Me]: https://gitstalk.netlify.com/chawyehsu
 [Netease CloudMusic]: http://music.163.com/#/user/home?id=35631431
 [Telegram]: https://t.me/s/chawyehsu
-[Steam]: http://steamcommunity.com/id/h404bi
+[Steam]: https://steamcommunity.com/profiles/76561198139243084
 [Twitter]: https://twitter.com/chawyehsu
 [Instagram]: https://www.instagram.com/chawyehsu
 [Cowlevel]: https://cowlevel.net/people/h404bi
 [V2EX]: https://www.v2ex.com/member/h404bi
-[www.h404bi.com on GitHub]: https://github.com/chawyehsu/www.h404bi.com
-[CC0]: https://creativecommons.org/publicdomain/zero/1.0/
-[Public Domain]: https://en.wikipedia.org/wiki/Public_domain
-[CC BY 4.0]: https://creativecommons.org/licenses/by/4.0/
+[这里]: https://github.com/chawyehsu/www.h404bi.com

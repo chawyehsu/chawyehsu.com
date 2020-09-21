@@ -85,9 +85,11 @@ Complete open sourcing was inspired by [daneden.me](https://github.com/daneden/d
 
 ## License
 
-**Unless otherwise noted**:  
-1. All my blog posts **text** content in [`pages/_posts`](pages/_posts) are licensed under the [CC0](https://creativecommons.org/publicdomain/zero/1.0/) license, and given to [Public Domain](https://en.wikipedia.org/wiki/Public_domain).  
-2. All my blog posts **assets** content in [`pages/_assets`](pages/_assets) are licensed under the [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) license.  
-3. Except for content in [`pages`](pages), all other **codes** content in this repository are licensed under the [MIT](https://opensource.org/licenses/MIT) license.  
-4. Other not covered content should be copyrighted by default, do not use it without my permission.  
-5. Please contact me if you have any questions about the license.
+*Copyright © 2015-2020 Chawye Hsu. All rights reserved.*
+
+The content and resources belong to **Chawye Hsu**, **unless otherwise noted**.
+Reproducing or distributing our content **without permission** could mean you will
+be in legal breach of our copyright. Requests to use our content are considered
+on a case by case basis for reasonable accommodation.
+
+You don’t need our permission to link to any pages of our website.
