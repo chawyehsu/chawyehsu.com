@@ -43,5 +43,8 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./public
+          # use github actions bot as committer
+          user_name: 'github-actions[bot]'
+          user_email: 'github-actions[bot]@users.noreply.github.com'
           # docs: https://developer.github.com/v3/activity/events/types/#commitcommentevent
           commit_message: site updated at ${{ github.event.head_commit.timestamp }}
