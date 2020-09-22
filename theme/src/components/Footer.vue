@@ -5,7 +5,7 @@
         <section class="section column is-6">
           <!-- &#xfe0e; to prevent rendering ❤︎ as an emoji in iOS/Android -->
           <div class="copyright">
-            Copyright © {{ siteDate }} {{ $siteConfig.author }}. Made with <span style="color:#b30e2e">❤︎&#xfe0e;</span> in Guangzhou
+            © {{ siteDate }} {{ $siteConfig.author }}. Made with <span style="color:#b30e2e">❤︎&#xfe0e;</span> in Guangzhou
           </div>
         </section>
         <section class="section column is-6" v-if="$themeConfig.footer.social_network">
