@@ -83,7 +83,7 @@ $gap-xl: 3.5556rem;
   --color-accent-7: #1f1f1f;
   --color-background-transparent: rgba(255, 255, 255, 0);
   --color-background: var(--color-accent-0);
-  --color-text-primary: var(--color-accent-5);
+  --color-text-primary: var(--color-accent-6);
   --color-text-secondary: var(--color-accent-3);
   --color-link: #039be5;
 }
@@ -100,7 +100,7 @@ $gap-xl: 3.5556rem;
     --color-accent-7: #ffffff;
     --color-background-transparent: rgba(31, 31, 31, 0);
     --color-background: var(--color-accent-0);
-    --color-text-primary: var(--color-accent-5);
+    --color-text-primary: var(--color-accent-6);
     --color-text-secondary: var(--color-accent-3);
     --color-link: #66ccff;
   }
@@ -110,6 +110,6 @@ html.dark-mode {
   @include color-dark-mode();
 }
 // Auto dark mode
-@media (prefers-color-scheme: dark) {
-  @include color-dark-mode();
-}
+// @media (prefers-color-scheme: dark) {
+//   @include color-dark-mode();
+// }
