@@ -5,10 +5,10 @@ module.exports = {
   },
   theme: "./theme/src",
   siteConfig: {
-    url: 'https://www.h404bi.com',
+    url: 'https://chawyehsu.com',
     title: 'The Art of Chawye Hsu',
-    description: 'Personal Website of Chawye Hsu.',
-    keywords: 'h404bi,blog,blogger,个人博客',
+    description: 'Personal Website of Chawye Hsu',
+    keywords: 'blog,blogger,个人博客,中文独立博客',
     author: 'Chawye Hsu',
     disqusjs: {
       shortname: 'h404bi',
@@ -87,7 +87,7 @@ module.exports = {
     ]
   },
   permalinks: {
-    post: '/blog/:year/:month/:slug',
+    post: '/blog/:slug',
     page: '/:slug'
   },
   plugins: [
@@ -112,8 +112,7 @@ module.exports = {
     {
       resolve: 'saber-plugin-feed',
       options: {
-        atomFeed: '/feed/atom.xml',
-        jsonFeed: '/feed/index.json'
+        atomFeed: '/feed/atom.xml'
       }
     },
     {

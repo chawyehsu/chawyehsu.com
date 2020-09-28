@@ -13,7 +13,12 @@
     {
       "source": "/blog/:year(\\d{4})/:month(\\d{2})/:day(\\d{2})/:slug([a-z0-9\\-]+).html",
       "permanent": true,
-      "destination": "/blog/:year/:month/:slug"
+      "destination": "/blog/:slug"
+    },
+    {
+      "source": "/blog/:year/:month/:slug",
+      "permanent": true,
+      "destination": "/blog/:slug"
     }
   ]
 }

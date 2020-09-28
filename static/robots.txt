@@ -1,4 +1,4 @@
-Sitemap: https://www.h404bi.com/sitemap.xml
+Sitemap: https://chawyehsu.com/sitemap.xml
 
 User-agent: *
 Disallow: /drafts
