@@ -49,12 +49,10 @@
             本文最后更新于 {{ days }} 天前（{{ humanDate }}），其中的信息可能已经有所发展或者不再适合现阶段。
           </section>
           <section class="page-body">
-            <client-only>
-              <Photoswipe v-if="$themeConfig.pswp" auto ref="photoswipe">
-                <slot name="default" />
-              </Photoswipe>
-              <slot v-else name="default" />
-            </client-only>
+            <Photoswipe v-if="$themeConfig.pswp" auto ref="photoswipe">
+              <slot name="default" />
+            </Photoswipe>
+            <slot v-else name="default" />
           </section>
           <section class="page-block-action" v-if="$themeConfig.share || page.tagsInfo">
             <div class="page-share"></div>
