@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://www.h404bi.com/</id>
+    <id>https://chawyehsu.com/</id>
     <title>The Art of Chawye Hsu</title>
-    <updated>2020-09-27T17:12:48.087Z</updated>
+    <updated>2020-09-28T15:13:43.349Z</updated>
     <generator>Saber</generator>
     <author>
         <name>Chawye Hsu</name>
-        <uri>https://www.h404bi.com</uri>
+        <uri>https://chawyehsu.com</uri>
     </author>
-    <link rel="alternate" href="https://www.h404bi.com"/>
-    <link rel="self" href="https://www.h404bi.com/feed/atom.xml"/>
-    <subtitle>Personal Website of Chawye Hsu.</subtitle>
+    <link rel="alternate" href="https://chawyehsu.com"/>
+    <link rel="self" href="https://chawyehsu.com/feed/atom.xml"/>
+    <subtitle>Personal Website of Chawye Hsu</subtitle>
     <rights>All rights reserved</rights>
     <entry>
         <title type="html"><![CDATA[十款好评如潮的独立游戏与十张一定要听的原声带]]></title>
-        <id>https://www.h404bi.com/blog/2020/04/ten-indie-video-game-soundtracks-you-must-listen</id>
-        <link href="https://www.h404bi.com/blog/2020/04/ten-indie-video-game-soundtracks-you-must-listen"/>
+        <id>https://chawyehsu.com/blog/ten-indie-video-game-soundtracks-you-must-listen</id>
+        <link href="https://chawyehsu.com/blog/ten-indie-video-game-soundtracks-you-must-listen"/>
         <updated>2020-04-18T15:15:00.000Z</updated>
         <summary type="html"><![CDATA[在起笔写这篇文章之时，我看了下我的 Steam 帐号最近的一次启动游戏距离现在又过去了一段
 6 个月的时间。我果然并不是一个极其热衷于玩游戏的「游戏热爱者」—— 即使在网易公司熏陶了几年下来，我也并没有过上像同事朋友那样在朋友圈刷屏的“动森”生活。手游就更加谈不上来……
@@ -32,8 +32,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[除了 GitHub 官方移动客户端，还有这些东西值得注意]]></title>
-        <id>https://www.h404bi.com/blog/2019/11/github-universe-2019-news</id>
-        <link href="https://www.h404bi.com/blog/2019/11/github-universe-2019-news"/>
+        <id>https://chawyehsu.com/blog/github-universe-2019-news</id>
+        <link href="https://chawyehsu.com/blog/github-universe-2019-news"/>
         <updated>2019-11-18T14:50:00.000Z</updated>
         <summary type="html"><![CDATA[不管是 GitHub Game Off，抑或是 HacktoberFest，都是 GitHub 近些年来，每年固定参与举办的活动。像去年的 HacktoberFest 我就有参与，虽然就是做个说难不难 PR 任务，相关文章 ——《历经数月，GitHub 章鱼猫寄来的 T 恤竟然……》，也是挺有趣的（今年的
 HacktoberFest 我也参与了，Game Off 也挺想参与，但我一次 gamejam 都没玩过太水了）。
@@ -49,8 +49,8 @@ HacktoberFest 我也参与了，Game Off 也挺想参与，但我一次 gamejam 
     </entry>
     <entry>
         <title type="html"><![CDATA[结合响应式图片实现更好的图片懒加载方案]]></title>
-        <id>https://www.h404bi.com/blog/2019/07/better-lazyload-implementation-with-responsive-images</id>
-        <link href="https://www.h404bi.com/blog/2019/07/better-lazyload-implementation-with-responsive-images"/>
+        <id>https://chawyehsu.com/blog/better-lazyload-implementation-with-responsive-images</id>
+        <link href="https://chawyehsu.com/blog/better-lazyload-implementation-with-responsive-images"/>
         <updated>2019-07-24T08:33:00.000Z</updated>
         <summary type="html"><![CDATA[作为在网页性能调优方面常被使用的技巧之一，懒加载或者说延迟加载是在谈及「前端性能优化」话题时不得不说的一项技术。
 ]]></summary>
@@ -59,7 +59,7 @@ HacktoberFest 我也参与了，Game Off 也挺想参与，但我一次 gamejam 
                 </time></section> <section class="page-categories"><span><!----> <a href="/blog/category/technology" class="category">
                     技术
                   </a></span></section></div></section></header> <section class="page-alert outdated-alert notification">
-          本文最后更新于 431 天前（2019-Jul-24），其中的信息可能已经有所发展或者不再适合现阶段。
+          本文最后更新于 432 天前（2019-Jul-24），其中的信息可能已经有所发展或者不再适合现阶段。
         </section> <section class="page-body"><!----></section> <section class="page-block-action"><div class="page-share"></div> <div class="page-tags"><span><!----> <a href="/blog/tag/前端" class="tag">前端</a></span><span><span>, </span> <a href="/blog/tag/前端性能优化" class="tag">前端性能优化</a></span></div></section> <section class="page-comments"><div id="disqus_thread"></div></section> <footer class="page-footer"></footer></div></article></main> <footer class="tach-footer footer"><div class="tach-wrapper"><div class="container columns"><section class="section column is-6"><div class="copyright">
           © 2015-2020 Chawye Hsu. Made with <span style="color:#b30e2e">❤︎︎</span> in Guangzhou
         </div></section> <section class="section column is-6"><div class="social-network"><ul><li><a target="_blank" rel="noopener" href="https://www.instagram.com/chawyehsu" class="icon">Instagram</a></li><li><a target="_blank" rel="noopener" href="https://music.163.com/#/user/home?id=35631431" class="icon">Music</a></li><li><a target="_blank" rel="noopener" href="https://github.com/chawyehsu" class="icon">GitHub</a></li><li><a target="_blank" rel="noopener" href="https://twitter.com/intent/follow?screen_name=chawyehsu" class="icon">Twitter</a></li><li><a target="_blank" rel="noopener" href="https://steamcommunity.com/profiles/76561198139243084" class="icon">Steam</a></li></ul></div></section></div></div></footer></div></div]]></content>
@@ -67,8 +67,8 @@ HacktoberFest 我也参与了，Game Off 也挺想参与，但我一次 gamejam 
     </entry>
     <entry>
         <title type="html"><![CDATA[致五年 E3 青春：AMD YES! ITX 装机作业]]></title>
-        <id>https://www.h404bi.com/blog/2019/07/amd-itx-diy-specs-for-the-next-5-years</id>
-        <link href="https://www.h404bi.com/blog/2019/07/amd-itx-diy-specs-for-the-next-5-years"/>
+        <id>https://chawyehsu.com/blog/amd-itx-diy-specs-for-the-next-5-years</id>
+        <link href="https://chawyehsu.com/blog/amd-itx-diy-specs-for-the-next-5-years"/>
         <updated>2019-07-08T01:31:05.000Z</updated>
         <summary type="html"><![CDATA[哈哈哈，这次文章的标题有点假文艺。不过确实说的也是事实，在完成了这次整个平台的装机升级后，陪伴了我 5 年多的至强 E3-1230 v2 就被替下了，为性价比正式从牙膏厂跳到了按摩店。大学那年第一次 DIY 装机就选择了当时所谓的“一代神 U”、“卡吧标配”的 E3v2，从此开启了我的 DIY 装机“职业生涯” —— 哈哈说笑，也就可算是懂得了倒腾配置装机云云。
 ]]></summary>
@@ -77,7 +77,7 @@ HacktoberFest 我也参与了，Game Off 也挺想参与，但我一次 gamejam 
                 </time></section> <section class="page-categories"><span><!----> <a href="/blog/category/digital" class="category">
                     数码
                   </a></span></section></div></section></header> <section class="page-alert outdated-alert notification">
-          本文最后更新于 447 天前（2019-Jul-08），其中的信息可能已经有所发展或者不再适合现阶段。
+          本文最后更新于 448 天前（2019-Jul-08），其中的信息可能已经有所发展或者不再适合现阶段。
         </section> <section class="page-body"><!----></section> <!----> <section class="page-comments"><div id="disqus_thread"></div></section> <footer class="page-footer"></footer></div></article></main> <footer class="tach-footer footer"><div class="tach-wrapper"><div class="container columns"><section class="section column is-6"><div class="copyright">
           © 2015-2020 Chawye Hsu. Made with <span style="color:#b30e2e">❤︎︎</span> in Guangzhou
         </div></section> <section class="section column is-6"><div class="social-network"><ul><li><a target="_blank" rel="noopener" href="https://www.instagram.com/chawyehsu" class="icon">Instagram</a></li><li><a target="_blank" rel="noopener" href="https://music.163.com/#/user/home?id=35631431" class="icon">Music</a></li><li><a target="_blank" rel="noopener" href="https://github.com/chawyehsu" class="icon">GitHub</a></li><li><a target="_blank" rel="noopener" href="https://twitter.com/intent/follow?screen_name=chawyehsu" class="icon">Twitter</a></li><li><a target="_blank" rel="noopener" href="https://steamcommunity.com/profiles/76561198139243084" class="icon">Steam</a></li></ul></div></section></div></div></footer></div></div]]></content>
@@ -85,8 +85,8 @@ HacktoberFest 我也参与了，Game Off 也挺想参与，但我一次 gamejam 
     </entry>
     <entry>
         <title type="html"><![CDATA[35 年后，竹内玛莉亚的《Plastic Love》有了官方 MV]]></title>
-        <id>https://www.h404bi.com/blog/2019/05/mariya-takeuchis-plastic-love-gets-music-video-after-35-years</id>
-        <link href="https://www.h404bi.com/blog/2019/05/mariya-takeuchis-plastic-love-gets-music-video-after-35-years"/>
+        <id>https://chawyehsu.com/blog/mariya-takeuchis-plastic-love-gets-music-video-after-35-years</id>
+        <link href="https://chawyehsu.com/blog/mariya-takeuchis-plastic-love-gets-music-video-after-35-years"/>
         <updated>2019-05-21T15:07:32.000Z</updated>
         <summary type="html"><![CDATA[今天我们来谈谈音乐吧，这是我很喜欢的一个话题。聊聊音乐趣事，当然可能会扯到些扩散话题。
 旧事物总有一天会重新闯入你的生活，即使那不是你的过去
@@ -98,7 +98,7 @@ MV[1]。这首在 2018 年引起病毒式传播的歌曲，在发布的 35 年�
                 </time></section> <section class="page-categories"><span><!----> <a href="/blog/category/uncategorized" class="category">
                     杂谈
                   </a></span></section></div></section></header> <section class="page-alert outdated-alert notification">
-          本文最后更新于 495 天前（2019-May-21），其中的信息可能已经有所发展或者不再适合现阶段。
+          本文最后更新于 496 天前（2019-May-21），其中的信息可能已经有所发展或者不再适合现阶段。
         </section> <section class="page-body"><!----></section> <!----> <section class="page-comments"><div id="disqus_thread"></div></section> <footer class="page-footer"></footer></div></article></main> <footer class="tach-footer footer"><div class="tach-wrapper"><div class="container columns"><section class="section column is-6"><div class="copyright">
           © 2015-2020 Chawye Hsu. Made with <span style="color:#b30e2e">❤︎︎</span> in Guangzhou
         </div></section> <section class="section column is-6"><div class="social-network"><ul><li><a target="_blank" rel="noopener" href="https://www.instagram.com/chawyehsu" class="icon">Instagram</a></li><li><a target="_blank" rel="noopener" href="https://music.163.com/#/user/home?id=35631431" class="icon">Music</a></li><li><a target="_blank" rel="noopener" href="https://github.com/chawyehsu" class="icon">GitHub</a></li><li><a target="_blank" rel="noopener" href="https://twitter.com/intent/follow?screen_name=chawyehsu" class="icon">Twitter</a></li><li><a target="_blank" rel="noopener" href="https://steamcommunity.com/profiles/76561198139243084" class="icon">Steam</a></li></ul></div></section></div></div></footer></div></div]]></content>
@@ -106,8 +106,8 @@ MV[1]。这首在 2018 年引起病毒式传播的歌曲，在发布的 35 年�
     </entry>
     <entry>
         <title type="html"><![CDATA[利用 CSS 媒体查询让网页配色跟随 macOS 深色模式]]></title>
-        <id>https://www.h404bi.com/blog/2019/05/macos-mojave-dark-mode-in-css</id>
-        <link href="https://www.h404bi.com/blog/2019/05/macos-mojave-dark-mode-in-css"/>
+        <id>https://chawyehsu.com/blog/macos-mojave-dark-mode-in-css</id>
+        <link href="https://chawyehsu.com/blog/macos-mojave-dark-mode-in-css"/>
         <updated>2019-05-01T10:14:40.000Z</updated>
         <summary type="html"><![CDATA[苹果公司的操作系统 macOS 从 10.14 Mojave 版本开始，为用户提供了深色模式的可选外观。用户可以在系统中的通用设置里选择启用深色模式，整个系统的界面会全局变为暗色调。对于夜间使用场景而言，深色模式的界面可能会显得更加友好，也更能让用户集中注意力。
 ]]></summary>
@@ -116,7 +116,7 @@ MV[1]。这首在 2018 年引起病毒式传播的歌曲，在发布的 35 年�
                 </time></section> <section class="page-categories"><span><!----> <a href="/blog/category/technology" class="category">
                     技术
                   </a></span></section></div></section></header> <section class="page-alert outdated-alert notification">
-          本文最后更新于 515 天前（2019-May-01），其中的信息可能已经有所发展或者不再适合现阶段。
+          本文最后更新于 516 天前（2019-May-01），其中的信息可能已经有所发展或者不再适合现阶段。
         </section> <section class="page-body"><!----></section> <section class="page-block-action"><div class="page-share"></div> <div class="page-tags"><span><!----> <a href="/blog/tag/前端" class="tag">前端</a></span></div></section> <section class="page-comments"><div id="disqus_thread"></div></section> <footer class="page-footer"></footer></div></article></main> <footer class="tach-footer footer"><div class="tach-wrapper"><div class="container columns"><section class="section column is-6"><div class="copyright">
           © 2015-2020 Chawye Hsu. Made with <span style="color:#b30e2e">❤︎︎</span> in Guangzhou
         </div></section> <section class="section column is-6"><div class="social-network"><ul><li><a target="_blank" rel="noopener" href="https://www.instagram.com/chawyehsu" class="icon">Instagram</a></li><li><a target="_blank" rel="noopener" href="https://music.163.com/#/user/home?id=35631431" class="icon">Music</a></li><li><a target="_blank" rel="noopener" href="https://github.com/chawyehsu" class="icon">GitHub</a></li><li><a target="_blank" rel="noopener" href="https://twitter.com/intent/follow?screen_name=chawyehsu" class="icon">Twitter</a></li><li><a target="_blank" rel="noopener" href="https://steamcommunity.com/profiles/76561198139243084" class="icon">Steam</a></li></ul></div></section></div></div></footer></div></div]]></content>
@@ -124,8 +124,8 @@ MV[1]。这首在 2018 年引起病毒式传播的歌曲，在发布的 35 年�
     </entry>
     <entry>
         <title type="html"><![CDATA[总结下博客最近的调整]]></title>
-        <id>https://www.h404bi.com/blog/2019/04/recent-changes-of-my-site</id>
-        <link href="https://www.h404bi.com/blog/2019/04/recent-changes-of-my-site"/>
+        <id>https://chawyehsu.com/blog/recent-changes-of-my-site</id>
+        <link href="https://chawyehsu.com/blog/recent-changes-of-my-site"/>
         <updated>2019-04-21T11:21:20.000Z</updated>
         <summary type="html"><![CDATA[我建博客始于 2013 年，时间也不长。那会儿也不过是一个从 WordPress 加免费空间入坑的新手，免费空间关了就买了个域名和虚拟空间继续折腾。啊对，也改成了 Typecho 一段时间，仿过几个主题。之后便是在流行之下，一个 commit 换成了静态博客 Hexo。于是开始在这个“自留地/实验室”里摆弄各种新玩意，做做小试验。没写过几篇文章，却也一直延续至今。
 ]]></summary>
@@ -134,7 +134,7 @@ MV[1]。这首在 2018 年引起病毒式传播的歌曲，在发布的 35 年�
                 </time></section> <section class="page-categories"><span><!----> <a href="/blog/category/technology" class="category">
                     技术
                   </a></span></section></div></section></header> <section class="page-alert outdated-alert notification">
-          本文最后更新于 525 天前（2019-Apr-21），其中的信息可能已经有所发展或者不再适合现阶段。
+          本文最后更新于 526 天前（2019-Apr-21），其中的信息可能已经有所发展或者不再适合现阶段。
         </section> <section class="page-body"><!----></section> <!----> <section class="page-comments"><div id="disqus_thread"></div></section> <footer class="page-footer"></footer></div></article></main> <footer class="tach-footer footer"><div class="tach-wrapper"><div class="container columns"><section class="section column is-6"><div class="copyright">
           © 2015-2020 Chawye Hsu. Made with <span style="color:#b30e2e">❤︎︎</span> in Guangzhou
         </div></section> <section class="section column is-6"><div class="social-network"><ul><li><a target="_blank" rel="noopener" href="https://www.instagram.com/chawyehsu" class="icon">Instagram</a></li><li><a target="_blank" rel="noopener" href="https://music.163.com/#/user/home?id=35631431" class="icon">Music</a></li><li><a target="_blank" rel="noopener" href="https://github.com/chawyehsu" class="icon">GitHub</a></li><li><a target="_blank" rel="noopener" href="https://twitter.com/intent/follow?screen_name=chawyehsu" class="icon">Twitter</a></li><li><a target="_blank" rel="noopener" href="https://steamcommunity.com/profiles/76561198139243084" class="icon">Steam</a></li></ul></div></section></div></div></footer></div></div]]></content>
@@ -142,8 +142,8 @@ MV[1]。这首在 2018 年引起病毒式传播的歌曲，在发布的 35 年�
     </entry>
     <entry>
         <title type="html"><![CDATA[彻底搞懂 Windows 控制台的设置]]></title>
-        <id>https://www.h404bi.com/blog/2019/02/understanding-windows-console-host-settings</id>
-        <link href="https://www.h404bi.com/blog/2019/02/understanding-windows-console-host-settings"/>
+        <id>https://chawyehsu.com/blog/understanding-windows-console-host-settings</id>
+        <link href="https://chawyehsu.com/blog/understanding-windows-console-host-settings"/>
         <updated>2019-03-06T15:15:20.000Z</updated>
         <summary type="html"><![CDATA[Windows Console Host（即 conhost.exe，下称“ConHost”[1]）中的设置可能有点难以理解，主要是因为在过去几十年中这个设置系统不断发展。根据 ConHost 如何被调用，这些设置项会存储在不同的位置。
 ]]></summary>
@@ -160,8 +160,8 @@ MV[1]。这首在 2018 年引起病毒式传播的歌曲，在发布的 35 年�
     </entry>
     <entry>
         <title type="html"><![CDATA[历经数月，GitHub 章鱼猫寄来的 T 恤竟然……]]></title>
-        <id>https://www.h404bi.com/blog/2019/01/the-2018-hacktoberfest-shirt-arrived</id>
-        <link href="https://www.h404bi.com/blog/2019/01/the-2018-hacktoberfest-shirt-arrived"/>
+        <id>https://chawyehsu.com/blog/the-2018-hacktoberfest-shirt-arrived</id>
+        <link href="https://chawyehsu.com/blog/the-2018-hacktoberfest-shirt-arrived"/>
         <updated>2019-01-14T18:19:44.000Z</updated>
         <summary type="html"><![CDATA[竟然寄到了，而且还有小惊喜。
 ]]></summary>
@@ -170,7 +170,7 @@ MV[1]。这首在 2018 年引起病毒式传播的歌曲，在发布的 35 年�
                 </time></section> <section class="page-categories"><span><!----> <a href="/blog/category/uncategorized" class="category">
                     杂谈
                   </a></span></section></div></section></header> <section class="page-alert outdated-alert notification">
-          本文最后更新于 621 天前（2019-Jan-15），其中的信息可能已经有所发展或者不再适合现阶段。
+          本文最后更新于 622 天前（2019-Jan-15），其中的信息可能已经有所发展或者不再适合现阶段。
         </section> <section class="page-body"><!----></section> <!----> <section class="page-comments"><div id="disqus_thread"></div></section> <footer class="page-footer"></footer></div></article></main> <footer class="tach-footer footer"><div class="tach-wrapper"><div class="container columns"><section class="section column is-6"><div class="copyright">
           © 2015-2020 Chawye Hsu. Made with <span style="color:#b30e2e">❤︎︎</span> in Guangzhou
         </div></section> <section class="section column is-6"><div class="social-network"><ul><li><a target="_blank" rel="noopener" href="https://www.instagram.com/chawyehsu" class="icon">Instagram</a></li><li><a target="_blank" rel="noopener" href="https://music.163.com/#/user/home?id=35631431" class="icon">Music</a></li><li><a target="_blank" rel="noopener" href="https://github.com/chawyehsu" class="icon">GitHub</a></li><li><a target="_blank" rel="noopener" href="https://twitter.com/intent/follow?screen_name=chawyehsu" class="icon">Twitter</a></li><li><a target="_blank" rel="noopener" href="https://steamcommunity.com/profiles/76561198139243084" class="icon">Steam</a></li></ul></div></section></div></div></footer></div></div]]></content>
@@ -178,8 +178,8 @@ MV[1]。这首在 2018 年引起病毒式传播的歌曲，在发布的 35 年�
     </entry>
     <entry>
         <title type="html"><![CDATA[我都在用些什么 Chrome 扩展程序]]></title>
-        <id>https://www.h404bi.com/blog/2018/12/chrome-extensions-that-i-am-using</id>
-        <link href="https://www.h404bi.com/blog/2018/12/chrome-extensions-that-i-am-using"/>
+        <id>https://chawyehsu.com/blog/chrome-extensions-that-i-am-using</id>
+        <link href="https://chawyehsu.com/blog/chrome-extensions-that-i-am-using"/>
         <updated>2018-12-21T03:00:17.000Z</updated>
         <summary type="html"><![CDATA[想不到在 Microsoft Edge 正式发布后的第三年，微软官方宣布了 Edge 将放弃自家的内核引擎，转而去拥抱在当前浏览器生态中占据统治地位的 Google Chromium。继 Opera
 之后，“Chromium 家族”又将迎来新的成员。这无疑是一个重磅消息，对于用户而言，对于微软自己而言，带来的影响都是巨大的。
@@ -189,7 +189,7 @@ MV[1]。这首在 2018 年引起病毒式传播的歌曲，在发布的 35 年�
                 </time></section> <section class="page-categories"><span><!----> <a href="/blog/category/uncategorized" class="category">
                     杂谈
                   </a></span></section></div></section></header> <section class="page-alert outdated-alert notification">
-          本文最后更新于 646 天前（2018-Dec-21），其中的信息可能已经有所发展或者不再适合现阶段。
+          本文最后更新于 647 天前（2018-Dec-21），其中的信息可能已经有所发展或者不再适合现阶段。
         </section> <section class="page-body"><!----></section> <!----> <section class="page-comments"><div id="disqus_thread"></div></section> <footer class="page-footer"></footer></div></article></main> <footer class="tach-footer footer"><div class="tach-wrapper"><div class="container columns"><section class="section column is-6"><div class="copyright">
           © 2015-2020 Chawye Hsu. Made with <span style="color:#b30e2e">❤︎︎</span> in Guangzhou
         </div></section> <section class="section column is-6"><div class="social-network"><ul><li><a target="_blank" rel="noopener" href="https://www.instagram.com/chawyehsu" class="icon">Instagram</a></li><li><a target="_blank" rel="noopener" href="https://music.163.com/#/user/home?id=35631431" class="icon">Music</a></li><li><a target="_blank" rel="noopener" href="https://github.com/chawyehsu" class="icon">GitHub</a></li><li><a target="_blank" rel="noopener" href="https://twitter.com/intent/follow?screen_name=chawyehsu" class="icon">Twitter</a></li><li><a target="_blank" rel="noopener" href="https://steamcommunity.com/profiles/76561198139243084" class="icon">Steam</a></li></ul></div></section></div></div></footer></div></div]]></content>
@@ -197,8 +197,8 @@ MV[1]。这首在 2018 年引起病毒式传播的歌曲，在发布的 35 年�
     </entry>
     <entry>
         <title type="html"><![CDATA[再谈谈 Scoop 这个 Windows 下的软件包管理器]]></title>
-        <id>https://www.h404bi.com/blog/2018/05/talk-about-scoop-the-package-manager-for-windows-again</id>
-        <link href="https://www.h404bi.com/blog/2018/05/talk-about-scoop-the-package-manager-for-windows-again"/>
+        <id>https://chawyehsu.com/blog/talk-about-scoop-the-package-manager-for-windows-again</id>
+        <link href="https://chawyehsu.com/blog/talk-about-scoop-the-package-manager-for-windows-again"/>
         <updated>2019-10-13T15:32:50.000Z</updated>
         <summary type="html"><![CDATA[在 2015 年的《用 Scoop 改善 Windows Powershell》博文中，我曾经介绍过这个令我眼前一亮的 Windows 软件包管理器。那是我刚开始使用上 Scoop 的时候，回看过去对它的介绍，也确像是一见钟情后的入坑纪实。简单，直接。
 ]]></summary>
@@ -213,8 +213,8 @@ MV[1]。这首在 2018 年引起病毒式传播的歌曲，在发布的 35 年�
     </entry>
     <entry>
         <title type="html"><![CDATA[Microsoft Office 2016 自定义安装]]></title>
-        <id>https://www.h404bi.com/blog/2018/03/office-2016-custom-installation-guide</id>
-        <link href="https://www.h404bi.com/blog/2018/03/office-2016-custom-installation-guide"/>
+        <id>https://chawyehsu.com/blog/office-2016-custom-installation-guide</id>
+        <link href="https://chawyehsu.com/blog/office-2016-custom-installation-guide"/>
         <updated>2018-03-25T05:00:00.000Z</updated>
         <summary type="html"><![CDATA[作为宇宙第一 IDE Visual Studio 的兄弟，宇宙第一办公套件 Office 在 Windows
 系统下更加常见。新安装的系统，即使刚开始不愿安装，等到要查看编辑 docx pptx
@@ -225,7 +225,7 @@ MV[1]。这首在 2018 年引起病毒式传播的歌曲，在发布的 35 年�
                 </time></section> <section class="page-categories"><span><!----> <a href="/blog/category/technology" class="category">
                     技术
                   </a></span></section></div></section></header> <section class="page-alert outdated-alert notification">
-          本文最后更新于 917 天前（2018-Mar-25），其中的信息可能已经有所发展或者不再适合现阶段。
+          本文最后更新于 918 天前（2018-Mar-25），其中的信息可能已经有所发展或者不再适合现阶段。
         </section> <section class="page-body"><!----></section> <!----> <section class="page-comments"><div id="disqus_thread"></div></section> <footer class="page-footer"></footer></div></article></main> <footer class="tach-footer footer"><div class="tach-wrapper"><div class="container columns"><section class="section column is-6"><div class="copyright">
           © 2015-2020 Chawye Hsu. Made with <span style="color:#b30e2e">❤︎︎</span> in Guangzhou
         </div></section> <section class="section column is-6"><div class="social-network"><ul><li><a target="_blank" rel="noopener" href="https://www.instagram.com/chawyehsu" class="icon">Instagram</a></li><li><a target="_blank" rel="noopener" href="https://music.163.com/#/user/home?id=35631431" class="icon">Music</a></li><li><a target="_blank" rel="noopener" href="https://github.com/chawyehsu" class="icon">GitHub</a></li><li><a target="_blank" rel="noopener" href="https://twitter.com/intent/follow?screen_name=chawyehsu" class="icon">Twitter</a></li><li><a target="_blank" rel="noopener" href="https://steamcommunity.com/profiles/76561198139243084" class="icon">Steam</a></li></ul></div></section></div></div></footer></div></div]]></content>
@@ -233,8 +233,8 @@ MV[1]。这首在 2018 年引起病毒式传播的歌曲，在发布的 35 年�
     </entry>
     <entry>
         <title type="html"><![CDATA[推特背后的 Notch 之道]]></title>
-        <id>https://www.h404bi.com/blog/2018/01/the-tao-of-notch-beyond-twitter</id>
-        <link href="https://www.h404bi.com/blog/2018/01/the-tao-of-notch-beyond-twitter"/>
+        <id>https://chawyehsu.com/blog/the-tao-of-notch-beyond-twitter</id>
+        <link href="https://chawyehsu.com/blog/the-tao-of-notch-beyond-twitter"/>
         <updated>2019-04-06T14:34:56.000Z</updated>
         <summary type="html"><![CDATA[自 Notch 出售了 Minecraft，出售了 Mojang 公司后，他在 Minecraft 方面的消息也随着 Minecraft 逐年下降的热度而减少。因此也有人跟我说，微软收购 Minecraft 的那一刻是 Minecraft 的巅峰，Notch 退出得很及时。卖掉 Minecraft 之后的 Notch 经历了怎样的一段过渡期；为何在《Minecraft: The Story of Mojang》纪录片[1]中还是在 Minecon 与粉丝见面时给人的感觉都是平易近人的他，在推特上却常常出言惊人；Notch 是否还有在做些什么游戏；以及他平时有喜欢玩什么游戏。也许你也会与我一样有一些这样的疑惑。
 ]]></summary>
@@ -243,7 +243,7 @@ MV[1]。这首在 2018 年引起病毒式传播的歌曲，在发布的 35 年�
                 </time></section> <section class="page-categories"><span><!----> <a href="/blog/category/uncategorized" class="category">
                     杂谈
                   </a></span></section></div></section></header> <section class="page-alert outdated-alert notification">
-          本文最后更新于 540 天前（2019-Apr-06），其中的信息可能已经有所发展或者不再适合现阶段。
+          本文最后更新于 541 天前（2019-Apr-06），其中的信息可能已经有所发展或者不再适合现阶段。
         </section> <section class="page-body"><!----></section> <!----> <section class="page-comments"><div id="disqus_thread"></div></section> <footer class="page-footer"></footer></div></article></main> <footer class="tach-footer footer"><div class="tach-wrapper"><div class="container columns"><section class="section column is-6"><div class="copyright">
           © 2015-2020 Chawye Hsu. Made with <span style="color:#b30e2e">❤︎︎</span> in Guangzhou
         </div></section> <section class="section column is-6"><div class="social-network"><ul><li><a target="_blank" rel="noopener" href="https://www.instagram.com/chawyehsu" class="icon">Instagram</a></li><li><a target="_blank" rel="noopener" href="https://music.163.com/#/user/home?id=35631431" class="icon">Music</a></li><li><a target="_blank" rel="noopener" href="https://github.com/chawyehsu" class="icon">GitHub</a></li><li><a target="_blank" rel="noopener" href="https://twitter.com/intent/follow?screen_name=chawyehsu" class="icon">Twitter</a></li><li><a target="_blank" rel="noopener" href="https://steamcommunity.com/profiles/76561198139243084" class="icon">Steam</a></li></ul></div></section></div></div></footer></div></div]]></content>
@@ -251,8 +251,8 @@ MV[1]。这首在 2018 年引起病毒式传播的歌曲，在发布的 35 年�
     </entry>
     <entry>
         <title type="html"><![CDATA[Nintendo Switch 开箱与简评]]></title>
-        <id>https://www.h404bi.com/blog/2017/12/nintendo-switch-unboxing-and-simple-review</id>
-        <link href="https://www.h404bi.com/blog/2017/12/nintendo-switch-unboxing-and-simple-review"/>
+        <id>https://chawyehsu.com/blog/nintendo-switch-unboxing-and-simple-review</id>
+        <link href="https://chawyehsu.com/blog/nintendo-switch-unboxing-and-simple-review"/>
         <updated>2017-12-16T10:04:00.000Z</updated>
         <summary type="html"><![CDATA[恭喜任家的 Switch 销量突破千万！在任天堂宣布 Switch 历时九个月全球销量突破 1000 万的双十二当天，我咬咬牙，也成了千万分之一员。友人说我充值了信仰，其实我大概也不是 Nintendo 的热衷粉丝，不然估计早早就收入囊中。只是今年 NS 确实是够火热，这不其独占的《塞尔达传说：荒野之息》才拿下了 TGA 年度最佳游戏。
 ]]></summary>
@@ -261,7 +261,7 @@ MV[1]。这首在 2018 年引起病毒式传播的歌曲，在发布的 35 年�
                 </time></section> <section class="page-categories"><span><!----> <a href="/blog/category/digital" class="category">
                     数码
                   </a></span></section></div></section></header> <section class="page-alert outdated-alert notification">
-          本文最后更新于 1016 天前（2017-Dec-16），其中的信息可能已经有所发展或者不再适合现阶段。
+          本文最后更新于 1017 天前（2017-Dec-16），其中的信息可能已经有所发展或者不再适合现阶段。
         </section> <section class="page-body"><!----></section> <!----> <section class="page-comments"><div id="disqus_thread"></div></section> <footer class="page-footer"></footer></div></article></main> <footer class="tach-footer footer"><div class="tach-wrapper"><div class="container columns"><section class="section column is-6"><div class="copyright">
           © 2015-2020 Chawye Hsu. Made with <span style="color:#b30e2e">❤︎︎</span> in Guangzhou
         </div></section> <section class="section column is-6"><div class="social-network"><ul><li><a target="_blank" rel="noopener" href="https://www.instagram.com/chawyehsu" class="icon">Instagram</a></li><li><a target="_blank" rel="noopener" href="https://music.163.com/#/user/home?id=35631431" class="icon">Music</a></li><li><a target="_blank" rel="noopener" href="https://github.com/chawyehsu" class="icon">GitHub</a></li><li><a target="_blank" rel="noopener" href="https://twitter.com/intent/follow?screen_name=chawyehsu" class="icon">Twitter</a></li><li><a target="_blank" rel="noopener" href="https://steamcommunity.com/profiles/76561198139243084" class="icon">Steam</a></li></ul></div></section></div></div></footer></div></div]]></content>
@@ -269,8 +269,8 @@ MV[1]。这首在 2018 年引起病毒式传播的歌曲，在发布的 35 年�
     </entry>
     <entry>
         <title type="html"><![CDATA[Minecraft Modding 简史]]></title>
-        <id>https://www.h404bi.com/blog/2017/02/a-brief-history-of-minecraft-modding</id>
-        <link href="https://www.h404bi.com/blog/2017/02/a-brief-history-of-minecraft-modding"/>
+        <id>https://chawyehsu.com/blog/a-brief-history-of-minecraft-modding</id>
+        <link href="https://chawyehsu.com/blog/a-brief-history-of-minecraft-modding"/>
         <updated>2017-02-22T05:22:19.000Z</updated>
         <summary type="html"><![CDATA[本文是 Minecraft 文章 A Brief History of Minecraft Modding 的译文版本，原文作者 Aaron Mills，原文于 2015 年 6 月 3 日发布在 Packt 出版社网站 PacktPub 上。[1]
 ]]></summary>
@@ -279,7 +279,7 @@ MV[1]。这首在 2018 年引起病毒式传播的歌曲，在发布的 35 年�
                 </time></section> <section class="page-categories"><span><!----> <a href="/blog/category/uncategorized" class="category">
                     杂谈
                   </a></span></section></div></section></header> <section class="page-alert outdated-alert notification">
-          本文最后更新于 1313 天前（2017-Feb-22），其中的信息可能已经有所发展或者不再适合现阶段。
+          本文最后更新于 1314 天前（2017-Feb-22），其中的信息可能已经有所发展或者不再适合现阶段。
         </section> <section class="page-body"><!----></section> <!----> <section class="page-comments"><div id="disqus_thread"></div></section> <footer class="page-footer"></footer></div></article></main> <footer class="tach-footer footer"><div class="tach-wrapper"><div class="container columns"><section class="section column is-6"><div class="copyright">
           © 2015-2020 Chawye Hsu. Made with <span style="color:#b30e2e">❤︎︎</span> in Guangzhou
         </div></section> <section class="section column is-6"><div class="social-network"><ul><li><a target="_blank" rel="noopener" href="https://www.instagram.com/chawyehsu" class="icon">Instagram</a></li><li><a target="_blank" rel="noopener" href="https://music.163.com/#/user/home?id=35631431" class="icon">Music</a></li><li><a target="_blank" rel="noopener" href="https://github.com/chawyehsu" class="icon">GitHub</a></li><li><a target="_blank" rel="noopener" href="https://twitter.com/intent/follow?screen_name=chawyehsu" class="icon">Twitter</a></li><li><a target="_blank" rel="noopener" href="https://steamcommunity.com/profiles/76561198139243084" class="icon">Steam</a></li></ul></div></section></div></div></footer></div></div]]></content>
@@ -287,8 +287,8 @@ MV[1]。这首在 2018 年引起病毒式传播的歌曲，在发布的 35 年�
     </entry>
     <entry>
         <title type="html"><![CDATA[Openwrt 配置 he.net IPv6 隧道]]></title>
-        <id>https://www.h404bi.com/blog/2017/02/henet-6in4-ipv6-tunnel-on-openwrt</id>
-        <link href="https://www.h404bi.com/blog/2017/02/henet-6in4-ipv6-tunnel-on-openwrt"/>
+        <id>https://chawyehsu.com/blog/henet-6in4-ipv6-tunnel-on-openwrt</id>
+        <link href="https://chawyehsu.com/blog/henet-6in4-ipv6-tunnel-on-openwrt"/>
         <updated>2017-02-12T12:44:53.000Z</updated>
         <summary type="html"><![CDATA[之前还在大学时，除开锐捷，由于内网的原因，要玩 IPv6 的话就只能用六飞之类的工具。工作后，发现在住所报装的网络，居然给（是的，长这么大第一次在家用宽带得到）了公网 IP。刚开始时想过利用这个公网 IP 来搞个 Minecraft“家庭服”，对小伙伴们开放。但折腾下来发现上传太可怜了，还是不祸害小伙伴了。
 ]]></summary>
@@ -297,7 +297,7 @@ MV[1]。这首在 2018 年引起病毒式传播的歌曲，在发布的 35 年�
                 </time></section> <section class="page-categories"><span><!----> <a href="/blog/category/technology" class="category">
                     技术
                   </a></span></section></div></section></header> <section class="page-alert outdated-alert notification">
-          本文最后更新于 1323 天前（2017-Feb-12），其中的信息可能已经有所发展或者不再适合现阶段。
+          本文最后更新于 1324 天前（2017-Feb-12），其中的信息可能已经有所发展或者不再适合现阶段。
         </section> <section class="page-body"><!----></section> <!----> <section class="page-comments"><div id="disqus_thread"></div></section> <footer class="page-footer"></footer></div></article></main> <footer class="tach-footer footer"><div class="tach-wrapper"><div class="container columns"><section class="section column is-6"><div class="copyright">
           © 2015-2020 Chawye Hsu. Made with <span style="color:#b30e2e">❤︎︎</span> in Guangzhou
         </div></section> <section class="section column is-6"><div class="social-network"><ul><li><a target="_blank" rel="noopener" href="https://www.instagram.com/chawyehsu" class="icon">Instagram</a></li><li><a target="_blank" rel="noopener" href="https://music.163.com/#/user/home?id=35631431" class="icon">Music</a></li><li><a target="_blank" rel="noopener" href="https://github.com/chawyehsu" class="icon">GitHub</a></li><li><a target="_blank" rel="noopener" href="https://twitter.com/intent/follow?screen_name=chawyehsu" class="icon">Twitter</a></li><li><a target="_blank" rel="noopener" href="https://steamcommunity.com/profiles/76561198139243084" class="icon">Steam</a></li></ul></div></section></div></div></footer></div></div]]></content>
@@ -305,8 +305,8 @@ MV[1]。这首在 2018 年引起病毒式传播的歌曲，在发布的 35 年�
     </entry>
     <entry>
         <title type="html"><![CDATA[2016。2017，]]></title>
-        <id>https://www.h404bi.com/blog/2017/01/2016-2017</id>
-        <link href="https://www.h404bi.com/blog/2017/01/2016-2017"/>
+        <id>https://chawyehsu.com/blog/2016-2017</id>
+        <link href="https://chawyehsu.com/blog/2016-2017"/>
         <updated>2017-01-30T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[新的一年，还是捡捡（又？）荒废了近一年小站吧。改改主题，写写回顾，看看过去一年自己都经历了些什么。
 ]]></summary>
@@ -315,7 +315,7 @@ MV[1]。这首在 2018 年引起病毒式传播的歌曲，在发布的 35 年�
                 </time></section> <section class="page-categories"><span><!----> <a href="/blog/category/uncategorized" class="category">
                     杂谈
                   </a></span></section></div></section></header> <section class="page-alert outdated-alert notification">
-          本文最后更新于 1336 天前（2017-Jan-30），其中的信息可能已经有所发展或者不再适合现阶段。
+          本文最后更新于 1337 天前（2017-Jan-30），其中的信息可能已经有所发展或者不再适合现阶段。
         </section> <section class="page-body"><!----></section> <!----> <section class="page-comments"><div id="disqus_thread"></div></section> <footer class="page-footer"></footer></div></article></main> <footer class="tach-footer footer"><div class="tach-wrapper"><div class="container columns"><section class="section column is-6"><div class="copyright">
           © 2015-2020 Chawye Hsu. Made with <span style="color:#b30e2e">❤︎︎</span> in Guangzhou
         </div></section> <section class="section column is-6"><div class="social-network"><ul><li><a target="_blank" rel="noopener" href="https://www.instagram.com/chawyehsu" class="icon">Instagram</a></li><li><a target="_blank" rel="noopener" href="https://music.163.com/#/user/home?id=35631431" class="icon">Music</a></li><li><a target="_blank" rel="noopener" href="https://github.com/chawyehsu" class="icon">GitHub</a></li><li><a target="_blank" rel="noopener" href="https://twitter.com/intent/follow?screen_name=chawyehsu" class="icon">Twitter</a></li><li><a target="_blank" rel="noopener" href="https://steamcommunity.com/profiles/76561198139243084" class="icon">Steam</a></li></ul></div></section></div></div></footer></div></div]]></content>
@@ -323,8 +323,8 @@ MV[1]。这首在 2018 年引起病毒式传播的歌曲，在发布的 35 年�
     </entry>
     <entry>
         <title type="html"><![CDATA[.im 域名续费一记]]></title>
-        <id>https://www.h404bi.com/blog/2015/10/dot-im-domain-renewal</id>
-        <link href="https://www.h404bi.com/blog/2015/10/dot-im-domain-renewal"/>
+        <id>https://chawyehsu.com/blog/dot-im-domain-renewal</id>
+        <link href="https://chawyehsu.com/blog/dot-im-domain-renewal"/>
         <updated>2015-10-05T06:30:54.000Z</updated>
         <summary type="html"><![CDATA[去年十月，也不知道是哪根经出错了，剁了个 .im 域名。在域名怪兽买入的，当时 checkout 时才知道仅支持 CC 及 CC through Paypal 付款。
 ]]></summary>
@@ -333,7 +333,7 @@ MV[1]。这首在 2018 年引起病毒式传播的歌曲，在发布的 35 年�
                 </time></section> <section class="page-categories"><span><!----> <a href="/blog/category/uncategorized" class="category">
                     杂谈
                   </a></span></section></div></section></header> <section class="page-alert outdated-alert notification">
-          本文最后更新于 1819 天前（2015-Oct-05），其中的信息可能已经有所发展或者不再适合现阶段。
+          本文最后更新于 1820 天前（2015-Oct-05），其中的信息可能已经有所发展或者不再适合现阶段。
         </section> <section class="page-body"><!----></section> <!----> <section class="page-comments"><div id="disqus_thread"></div></section> <footer class="page-footer"></footer></div></article></main> <footer class="tach-footer footer"><div class="tach-wrapper"><div class="container columns"><section class="section column is-6"><div class="copyright">
           © 2015-2020 Chawye Hsu. Made with <span style="color:#b30e2e">❤︎︎</span> in Guangzhou
         </div></section> <section class="section column is-6"><div class="social-network"><ul><li><a target="_blank" rel="noopener" href="https://www.instagram.com/chawyehsu" class="icon">Instagram</a></li><li><a target="_blank" rel="noopener" href="https://music.163.com/#/user/home?id=35631431" class="icon">Music</a></li><li><a target="_blank" rel="noopener" href="https://github.com/chawyehsu" class="icon">GitHub</a></li><li><a target="_blank" rel="noopener" href="https://twitter.com/intent/follow?screen_name=chawyehsu" class="icon">Twitter</a></li><li><a target="_blank" rel="noopener" href="https://steamcommunity.com/profiles/76561198139243084" class="icon">Steam</a></li></ul></div></section></div></div></footer></div></div]]></content>
@@ -341,8 +341,8 @@ MV[1]。这首在 2018 年引起病毒式传播的歌曲，在发布的 35 年�
     </entry>
     <entry>
         <title type="html"><![CDATA[Newbie Mac Bootstrap]]></title>
-        <id>https://www.h404bi.com/blog/2015/09/new-mac-env-bootstrap</id>
-        <link href="https://www.h404bi.com/blog/2015/09/new-mac-env-bootstrap"/>
+        <id>https://chawyehsu.com/blog/new-mac-env-bootstrap</id>
+        <link href="https://chawyehsu.com/blog/new-mac-env-bootstrap"/>
         <updated>2015-09-20T09:28:19.000Z</updated>
         <summary type="html"><![CDATA[入坑 Mac OS X，写点 note (nonsense) 以备玩坏系统重装时翻查。
 ]]></summary>
@@ -351,7 +351,7 @@ MV[1]。这首在 2018 年引起病毒式传播的歌曲，在发布的 35 年�
                 </time></section> <section class="page-categories"><span><!----> <a href="/blog/category/technology" class="category">
                     技术
                   </a></span></section></div></section></header> <section class="page-alert outdated-alert notification">
-          本文最后更新于 1834 天前（2015-Sep-20），其中的信息可能已经有所发展或者不再适合现阶段。
+          本文最后更新于 1835 天前（2015-Sep-20），其中的信息可能已经有所发展或者不再适合现阶段。
         </section> <section class="page-body"><!----></section> <!----> <section class="page-comments"><div id="disqus_thread"></div></section> <footer class="page-footer"></footer></div></article></main> <footer class="tach-footer footer"><div class="tach-wrapper"><div class="container columns"><section class="section column is-6"><div class="copyright">
           © 2015-2020 Chawye Hsu. Made with <span style="color:#b30e2e">❤︎︎</span> in Guangzhou
         </div></section> <section class="section column is-6"><div class="social-network"><ul><li><a target="_blank" rel="noopener" href="https://www.instagram.com/chawyehsu" class="icon">Instagram</a></li><li><a target="_blank" rel="noopener" href="https://music.163.com/#/user/home?id=35631431" class="icon">Music</a></li><li><a target="_blank" rel="noopener" href="https://github.com/chawyehsu" class="icon">GitHub</a></li><li><a target="_blank" rel="noopener" href="https://twitter.com/intent/follow?screen_name=chawyehsu" class="icon">Twitter</a></li><li><a target="_blank" rel="noopener" href="https://steamcommunity.com/profiles/76561198139243084" class="icon">Steam</a></li></ul></div></section></div></div></footer></div></div]]></content>
@@ -359,8 +359,8 @@ MV[1]。这首在 2018 年引起病毒式传播的歌曲，在发布的 35 年�
     </entry>
     <entry>
         <title type="html"><![CDATA[用 Scoop 改善 Windows Powershell]]></title>
-        <id>https://www.h404bi.com/blog/2015/08/use-scoop-to-enhance-windows-powershell</id>
-        <link href="https://www.h404bi.com/blog/2015/08/use-scoop-to-enhance-windows-powershell"/>
+        <id>https://chawyehsu.com/blog/use-scoop-to-enhance-windows-powershell</id>
+        <link href="https://chawyehsu.com/blog/use-scoop-to-enhance-windows-powershell"/>
         <updated>2015-09-04T09:19:38.000Z</updated>
         <summary type="html"><![CDATA[关于 Scoop 的新文章
 ]]></summary>
@@ -369,7 +369,7 @@ MV[1]。这首在 2018 年引起病毒式传播的歌曲，在发布的 35 年�
                 </time></section> <section class="page-categories"><span><!----> <a href="/blog/category/technology" class="category">
                     技术
                   </a></span></section></div></section></header> <section class="page-alert outdated-alert notification">
-          本文最后更新于 1850 天前（2015-Sep-04），其中的信息可能已经有所发展或者不再适合现阶段。
+          本文最后更新于 1851 天前（2015-Sep-04），其中的信息可能已经有所发展或者不再适合现阶段。
         </section> <section class="page-body"><!----></section> <!----> <section class="page-comments"><div id="disqus_thread"></div></section> <footer class="page-footer"></footer></div></article></main> <footer class="tach-footer footer"><div class="tach-wrapper"><div class="container columns"><section class="section column is-6"><div class="copyright">
           © 2015-2020 Chawye Hsu. Made with <span style="color:#b30e2e">❤︎︎</span> in Guangzhou
         </div></section> <section class="section column is-6"><div class="social-network"><ul><li><a target="_blank" rel="noopener" href="https://www.instagram.com/chawyehsu" class="icon">Instagram</a></li><li><a target="_blank" rel="noopener" href="https://music.163.com/#/user/home?id=35631431" class="icon">Music</a></li><li><a target="_blank" rel="noopener" href="https://github.com/chawyehsu" class="icon">GitHub</a></li><li><a target="_blank" rel="noopener" href="https://twitter.com/intent/follow?screen_name=chawyehsu" class="icon">Twitter</a></li><li><a target="_blank" rel="noopener" href="https://steamcommunity.com/profiles/76561198139243084" class="icon">Steam</a></li></ul></div></section></div></div></footer></div></div]]></content>
@@ -377,8 +377,8 @@ MV[1]。这首在 2018 年引起病毒式传播的歌曲，在发布的 35 年�
     </entry>
     <entry>
         <title type="html"><![CDATA[Hello World]]></title>
-        <id>https://www.h404bi.com/blog/2015/05/hello-world</id>
-        <link href="https://www.h404bi.com/blog/2015/05/hello-world"/>
+        <id>https://chawyehsu.com/blog/hello-world</id>
+        <link href="https://chawyehsu.com/blog/hello-world"/>
         <updated>2015-09-09T13:32:27.000Z</updated>
         <summary type="html"><![CDATA[欢迎回到地球。
 ]]></summary>
@@ -387,7 +387,7 @@ MV[1]。这首在 2018 年引起病毒式传播的歌曲，在发布的 35 年�
                 </time></section> <section class="page-categories"><span><!----> <a href="/blog/category/uncategorized" class="category">
                     杂谈
                   </a></span></section></div></section></header> <section class="page-alert outdated-alert notification">
-          本文最后更新于 1845 天前（2015-Sep-09），其中的信息可能已经有所发展或者不再适合现阶段。
+          本文最后更新于 1846 天前（2015-Sep-09），其中的信息可能已经有所发展或者不再适合现阶段。
         </section> <section class="page-body"><!----></section> <!----> <section class="page-comments"><div id="disqus_thread"></div></section> <footer class="page-footer"></footer></div></article></main> <footer class="tach-footer footer"><div class="tach-wrapper"><div class="container columns"><section class="section column is-6"><div class="copyright">
           © 2015-2020 Chawye Hsu. Made with <span style="color:#b30e2e">❤︎︎</span> in Guangzhou
         </div></section> <section class="section column is-6"><div class="social-network"><ul><li><a target="_blank" rel="noopener" href="https://www.instagram.com/chawyehsu" class="icon">Instagram</a></li><li><a target="_blank" rel="noopener" href="https://music.163.com/#/user/home?id=35631431" class="icon">Music</a></li><li><a target="_blank" rel="noopener" href="https://github.com/chawyehsu" class="icon">GitHub</a></li><li><a target="_blank" rel="noopener" href="https://twitter.com/intent/follow?screen_name=chawyehsu" class="icon">Twitter</a></li><li><a target="_blank" rel="noopener" href="https://steamcommunity.com/profiles/76561198139243084" class="icon">Steam</a></li></ul></div></section></div></div></footer></div></div]]></content>
