@@ -216,7 +216,7 @@ Binaries:
 提交请求（Scoop 维护者一般也不能马上处理你的请求）。我维护着自己的桶，
 所以自己的软件包需求随时可以进行自定义：
 
-> [https://github.com/h404bi/dorado](https://github.com/h404bi/dorado)
+> [https://github.com/chawyehsu/dorado](https://github.com/chawyehsu/dorado)
 
 比如 Scoop 的 main bucket 中的 nvm-windows 使用时会有 UAC 提权，我自己编译了一份
 没有 UAC 弹窗的 nvm-windows，放到了自己的桶里面。目前 dorado 这个 bucket，在目前

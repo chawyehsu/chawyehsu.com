@@ -61,4 +61,4 @@ You don’t need our permission to link to any pages of our website.
 [Instagram]: https://www.instagram.com/chawyehsu
 [Cowlevel]: https://cowlevel.net/people/h404bi
 [V2EX]: https://www.v2ex.com/member/h404bi
-[这里]: https://github.com/chawyehsu/www.h404bi.com
+[这里]: https://github.com/chawyehsu/chawyehsu.com

@@ -131,15 +131,15 @@ Atom Feed 的路径会从 [`/blog/atom.xml`] 调整为 [`/feed/atom.xml`]，原�
 [^4]: https://github.com/vuejs/vuepress/issues/36
 [^5]: https://developer.mozilla.org/zh-CN/docs/Web/CSS/text-align#Justify
 [^6]: https://developer.mozilla.org/zh-CN/docs/Web/CSS/@font-face/font-display
-[^7]: https://github.com/h404bi/www.h404bi.com/tree/592c99120e8452a816d51fbec6fb7eabf3f15448
+[^7]: https://github.com/chawyehsu/chawyehsu.com/tree/592c99120e8452a816d51fbec6fb7eabf3f15448
 
-[commit]: https://github.com/h404bi/www.h404bi.com/commit/88362f79adfea93151ecc9f19f8647cd28562c2c
+[commit]: https://github.com/chawyehsu/chawyehsu.com/commit/88362f79adfea93151ecc9f19f8647cd28562c2c
 [Saber]: https://github.com/egoist/saber
 [daneden.me]: https://github.com/daneden/daneden.me
 [推特背后的 Notch 之道]: /blog/2018/01/the-tao-of-notch-beyond-twitter
 [Design Elitism]: https://daneden.me/2014/06/28/design-elitism/
 [Peco]: https://github.com/upash/peco
-[Travis CI]: https://github.com/h404bi/www.h404bi.com/commits/master/.travis.yml
+[Travis CI]: https://github.com/chawyehsu/chawyehsu.com/commits/master/.travis.yml
 [Netlify]: https://www.netlify.com
 [Netlify Redirect]: https://www.netlify.com/docs/redirects/
 [我都在用些什么 Chrome 扩展程序]: /blog/2018/12/chrome-extensions-that-i-am-using
@@ -147,4 +147,4 @@ Atom Feed 的路径会从 [`/blog/atom.xml`] 调整为 [`/feed/atom.xml`]，原�
 [`/feed/index.json`]: /feed/index.json
 [`/blog/atom.xml`]: /blog/atom.xml
 [`/feed/atom.xml`]: /feed/atom.xml
-[Commit Log]: https://github.com/h404bi/www.h404bi.com/compare/v2019.3.29-mina...592c99
+[Commit Log]: https://github.com/chawyehsu/chawyehsu.com/compare/v2019.3.29-mina...592c99

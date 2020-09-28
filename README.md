@@ -1,15 +1,15 @@
 <div align="center">
-  <a href="https://www.h404bi.com/">
+  <a href="https://chawyehsu.com/">
     <img alt="site icon" src="./resources/icon.png" />
   </a>
   <h1>The Art of Chawye Hsu</h1>
 </div>
 <p align="center">
-  <a href="https://github.com/chawyehsu/www.h404bi.com/actions?query=workflow%3ADeployment">
-    <img src="https://img.shields.io/github/workflow/status/chawyehsu/www.h404bi.com/Deployment?style=flat-square" alt="GitHub Actions" />
+  <a href="https://github.com/chawyehsu/chawyehsu.com/actions?query=workflow%3ADeployment">
+    <img src="https://img.shields.io/github/workflow/status/chawyehsu/chawyehsu.com/Deployment?style=flat-square" alt="GitHub Actions" />
   </a>
-  <a href="https://www.h404bi.com">
-    <img src="https://img.shields.io/website-up-down-green-red/https/www.h404bi.com.svg?style=flat-square" alt="Website Status" />
+  <a href="https://chawyehsu.com">
+    <img src="https://img.shields.io/website-up-down-green-red/https/chawyehsu.com.svg?style=flat-square" alt="Website Status" />
   </a>
   <a href="https://www.webpagetest.org/result/200301_J4_4d43e80f91ea9497254c7d167d809062/">
     <img src="https://img.shields.io/badge/WebPageTest-AAAAA-44CC11.svg?style=flat-square" alt="WebPageTest Test Result" />
@@ -22,16 +22,16 @@
   <a href="https://code.visualstudio.com">
     <img src="https://img.shields.io/badge/build%20with-vscode-blue.svg?style=flat-square" alt="build with vscode" />
   </a>
-  <a href="https://github.com/chawyehsu/www.h404bi.com">
-    <img src="https://img.shields.io/david/chawyehsu/www.h404bi.com.svg?style=flat-square" alt="David" />
+  <a href="https://github.com/chawyehsu/chawyehsu.com">
+    <img src="https://img.shields.io/david/chawyehsu/chawyehsu.com.svg?style=flat-square" alt="David" />
   </a>
-  <a href="https://github.com/chawyehsu/www.h404bi.com">
-    <img src="https://img.shields.io/github/repo-size/chawyehsu/www.h404bi.com.svg?style=flat-square&colorB=328657" alt="Repo size" />
+  <a href="https://github.com/chawyehsu/chawyehsu.com">
+    <img src="https://img.shields.io/github/repo-size/chawyehsu/chawyehsu.com.svg?style=flat-square&colorB=328657" alt="Repo size" />
   </a>
 </p>
 <p align="center">
-  This repository contains all the source code of Chawye Hsu's personal <a href="https://www.h404bi.com">website</a>.<br/>
-  <sub>You can also see the auto-generated deployable files at <a href="https://github.com/chawyehsu/www.h404bi.com/tree/gh-pages"><code>gh-pages</code></a> branch.</sub>
+  This repository contains all the source code of Chawye Hsu's personal <a href="https://chawyehsu.com">website</a>.<br/>
+  <sub>You can also see the auto-generated deployable files at <a href="https://github.com/chawyehsu/chawyehsu.com/tree/gh-pages"><code>gh-pages</code></a> branch.</sub>
 </p>
 
 ## Architecture
@@ -65,8 +65,8 @@ Git, Nodejs, Yarn
 ### Get the project:
 
 ``` sh
-$ git clone https://github.com/chawyehsu/www.h404bi.com
-$ cd www.h404bi.com
+$ git clone https://github.com/chawyehsu/chawyehsu.com
+$ cd chawyehsu.com
 ```
 
 ### Run and play:

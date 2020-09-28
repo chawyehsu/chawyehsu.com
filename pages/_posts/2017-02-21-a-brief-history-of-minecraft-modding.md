@@ -69,4 +69,4 @@ Aaron Mills 出生于 1983 年，生活在太平洋西北地区，一个知识�
 [^13]: [Aether II](http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/1289717-alpha-the-aether-ii-genesis-of-the-void-the)
 [^14]: [Minecraft Forge](https://files.minecraftforge.net)
 [^15]: [FML](https://github.com/MinecraftForge/FML)
-[^16]: [http://dl.bukkit.org/dmca/notification.txt](https://gist.github.com/h404bi/58377ce25d618287bea2b99ca09eca8f)
+[^16]: [http://dl.bukkit.org/dmca/notification.txt](https://gist.github.com/chawyehsu/58377ce25d618287bea2b99ca09eca8f)

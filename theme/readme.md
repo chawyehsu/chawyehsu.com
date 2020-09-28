@@ -6,7 +6,7 @@
 
 ## Demo
 
-- [Demo website](https://www.h404bi.com)
+- [Demo website](https://chawyehsu.com)
 
 ## Install
 
@@ -41,4 +41,4 @@ theme: aimer
 
 [MIT](LICENSE) © Chawye Hsu
 
-> [Website](https://www.h404bi.com) · GitHub [@chawyehsu](https://github.com/chawyehsu) · Twitter [@chawyehsu](https://twitter.com/chawyehsu)
+> [Website](https://chawyehsu.com) · GitHub [@chawyehsu](https://github.com/chawyehsu) · Twitter [@chawyehsu](https://twitter.com/chawyehsu)

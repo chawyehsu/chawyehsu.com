@@ -91,12 +91,12 @@ UAC 弹窗确认后开始自动安装。不过这次可以很明显的看到不�
 通常比较多的可能是误点关了 Outlook，而退出后的 Outlook 是不接收邮件的。
 这时可以使用一个[小插件]实现 Outlook 点关闭时最小化到托盘，解决这个问题。
 
-完整的 gist 归档：[gist.github.com/h404bi/62f65347d5784b37c8535aa371c59720]
+完整的 gist 归档：[gist.github.com/chawyehsu/62f65347d5784b37c8535aa371c59720]
 
 [Office 官方文档库]: https://support.office.com/en-us/article/9dd49b83-264a-477a-8fcc-2fdf5dbf61d8
 [Office 2016 Deployment Tool]: https://www.microsoft.com/en-us/download/details.aspx?id=49117
 [小插件]: https://jocent.me/2017/06/20/outlook-close-minimize.html
-[gist.github.com/h404bi/62f65347d5784b37c8535aa371c59720]: https://gist.github.com/h404bi/62f65347d5784b37c8535aa371c59720
+[gist.github.com/chawyehsu/62f65347d5784b37c8535aa371c59720]: https://gist.github.com/chawyehsu/62f65347d5784b37c8535aa371c59720
 
 <!-- Vue -->
 <script>
@@ -116,7 +116,7 @@ export default {
     }
     const script = document.createElement('script')
     script.async = 1
-    script.src = 'https://gist.github.com/h404bi/62f65347d5784b37c8535aa371c59720.json?callback=gist_callback_62f65347d5784b37c8535aa371c59720'
+    script.src = 'https://gist.github.com/chawyehsu/62f65347d5784b37c8535aa371c59720.json?callback=gist_callback_62f65347d5784b37c8535aa371c59720'
     document.head.appendChild(script)
   }
 }

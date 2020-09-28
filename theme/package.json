@@ -2,8 +2,8 @@
   "name": "saber-theme-aimer",
   "version": "0.20.4",
   "description": "A concise Saber theme, ported and evoluted from the unreleased hexo-theme-mina",
-  "author": "Chawye Hsu <h404bi@gmail.com>",
-  "homepage": "https://github.com/chawyehsu/www.h404bi.com#readme",
+  "author": "Chawye Hsu <chawyehsu@hotmail.com>",
+  "homepage": "https://github.com/chawyehsu/chawyehsu.com#readme",
   "license": "MIT",
   "files": [
     "dist"
