@@ -4,6 +4,7 @@
     "enabled": true,
     "silent": true
   },
+  "trailingSlash": false,
   "redirects": [
     {
       "source": "/blog/atom.xml",
