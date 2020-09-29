@@ -18,11 +18,16 @@
       font-size: $font-size-small;
       color: var(--color-text-secondary);
 
+      .page-datetime {
+        margin-right: $gap-s;
+      }
+
       .page-categories {
         display: flex;
         align-items: center;
-        &:before {
-          content: '・';
+
+        a {
+          color: inherit;
         }
       }
     }
