@@ -13,7 +13,7 @@ module.exports = {
     disqusjs: {
       shortname: 'h404bi',
       siteName: "The Art of Chawye Hsu",
-      api: 'https://disqus.skk.moe/disqus/',
+      api: 'https://chawyehsu.com/api/disqus/',
       apikey: 'Hg3FyAX4IodvgGm8OAIpuplfZW5APk2DYcuVk9DEEDSBijKPdPdooKBX7683fo6u',
       admin: 'chawyehsu',
       adminLabel: 'Mod'
