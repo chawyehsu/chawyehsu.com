@@ -12,9 +12,11 @@ module.exports = {
     author: 'Chawye Hsu',
     disqusjs: {
       shortname: 'h404bi',
-      sitename: "The Art of Chawye Hsu",
+      siteName: "The Art of Chawye Hsu",
+      api: 'https://disqus.skk.moe/disqus/',
       apikey: 'Hg3FyAX4IodvgGm8OAIpuplfZW5APk2DYcuVk9DEEDSBijKPdPdooKBX7683fo6u',
-      admin: 'h404bi'
+      admin: 'chawyehsu',
+      adminLabel: 'Mod'
     }
   },
   themeConfig: {
