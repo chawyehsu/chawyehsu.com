@@ -5,6 +5,12 @@
     "silent": true
   },
   "trailingSlash": false,
+  "rewrites": [
+    {
+      "source": "/api/disqus/(.*)",
+      "destination": "https://disqus.com/api/$1"
+    }
+  ],
   "redirects": [
     {
       "source": "/blog/atom.xml",
