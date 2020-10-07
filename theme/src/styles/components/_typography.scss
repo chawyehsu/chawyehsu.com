@@ -10,12 +10,18 @@ html {
   text-size-adjust: 100%;
 
   &:lang(en), &.serif {
-    font-family: $font-family-serif;
+    body {
+      font-family: $font-family-serif;
+    }
 
     h1, h2, h3, h4, h5, h6 {
       font-family: $font-family-serif-headline;
     }
   }
+}
+
+body {
+  font-family: $font-family-sans;
 }
 
 hr {
