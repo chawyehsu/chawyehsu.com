@@ -49,9 +49,9 @@
       <section class="tach-portfolio-subscribe">
         <div class="tach-wrapper">
           <div class="container">
-            <div class="content is-uppercase">
+            <div class="content">
               <h4>Feeds</h4>
-              <p>如果你不想错过更新的文章，可以通过 RSS 订阅本博客</p>
+              <p>Subscribe the blog via RSS, so you won't to miss newer posts</p>
               <a class="button" target="_blank" :href="this.$feed.permalink">Subscribe</a>
             </div>
           </div>
