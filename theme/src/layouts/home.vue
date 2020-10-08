@@ -51,7 +51,7 @@
           <div class="container">
             <div class="content">
               <h4>Feeds</h4>
-              <p>Subscribe to the blog via RSS, so you won't miss newer posts</p>
+              <p>Subscribe to the blog via RSS, so you won't miss new posts</p>
               <a class="button" target="_blank" :href="this.$feed.permalink">Subscribe</a>
             </div>
           </div>
