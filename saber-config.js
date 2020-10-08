@@ -46,14 +46,6 @@ module.exports = {
     footer: {
       social_network: [
         {
-          name: 'Instagram',
-          path: 'https://www.instagram.com/chawyehsu'
-        },
-        {
-          name: 'Music',
-          path: 'https://music.163.com/#/user/home?id=35631431'
-        },
-        {
           name: 'GitHub',
           path: 'https://github.com/chawyehsu'
         },
@@ -62,8 +54,8 @@ module.exports = {
           path: 'https://twitter.com/intent/follow?screen_name=chawyehsu'
         },
         {
-          name: 'Steam',
-          path: 'https://steamcommunity.com/profiles/76561198139243084'
+          name: 'Instagram',
+          path: 'https://www.instagram.com/chawyehsu'
         }
       ]
     }
