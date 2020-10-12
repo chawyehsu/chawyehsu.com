@@ -22,7 +22,7 @@
   "devDependencies": {
     "sass": "^1.20.0",
     "sass-loader": "^8.0.0",
-    "vue-compile": "^0.6.0"
+    "vue-compile": "^0.6.1"
   },
   "keywords": [
     "saber",
