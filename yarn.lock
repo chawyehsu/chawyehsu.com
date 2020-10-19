@@ -6473,10 +6473,10 @@ vm-browserify@^1.0.1:
   resolved "https://registry.yarnpkg.com/vm-browserify/-/vm-browserify-1.1.2.tgz#78641c488b8e6ca91a75f511e7a3b32a86e5dda0"
   integrity sha512-2ham8XPWTONajOR0ohOKOHXkm3+gaBmGut3SRuu75xLd/RRaY6vqgh8NBYYk7+RW3u5AtzPQZG8F10LHkl0lAQ==
 
-vue-compile@^0.6.1:
-  version "0.6.1"
-  resolved "https://registry.yarnpkg.com/vue-compile/-/vue-compile-0.6.1.tgz#a6621e971ecba8368a485e130fc660477365f08a"
-  integrity sha512-zoiWMd0+DKXovLHMYYAw3hlplDCh+ZTjIGBC9ErmD1z7oggSyr89Yx0uQcKI801N0xah9ZCJJgaNBxXyjnoJaQ==
+vue-compile@^0.6.2:
+  version "0.6.2"
+  resolved "https://registry.yarnpkg.com/vue-compile/-/vue-compile-0.6.2.tgz#d4e4a6b1467fdc754a1df36685e2762f6350de76"
+  integrity sha512-1MooNTFo/+pZYG+8gqYfneDrE8NIz00pPDoRe4GWTzqmX9e78WxmE/Hy025qwPu8vuKyh0ip6hsX9ty29OYYWQ==
   dependencies:
     "@babel/core" "^7.0.0"
     "@babel/preset-typescript" "^7.0.0"
