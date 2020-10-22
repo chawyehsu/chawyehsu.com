@@ -13,7 +13,7 @@ export default ({ Vue, setHead }) => {
   setHead(vm => ({
     htmlAttrs: {
       lang: 'zh-CN',
-      class: 'serif'
+      // class: 'serif'
     },
     meta: [
       {
@@ -56,7 +56,7 @@ export default ({ Vue, setHead }) => {
         crossorigin: true
       },
       {
-        href: 'https://fonts.googleapis.com/css?family=Inconsolata:400,700|Alegreya:400,400i,700,700i|Noto+Sans+SC:400,700|Noto+Serif+SC:400,700|Open+Sans:400,400i,700,700i&display=swap&subset=chinese-simplified',
+        href: 'https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400;0,700;1,400;1,700&family=Fira+Mono:wght@400;700&family=Noto+Sans+SC:wght@400;700&family=Noto+Serif+SC:wght@400;700&display=swap&subset=chinese-simplified',
         rel: 'stylesheet'
       }
     ]

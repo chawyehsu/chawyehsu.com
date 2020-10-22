@@ -21,7 +21,7 @@
               <span class="overlay"></span>
             </section>
             <section class="page-head-content">
-              <h1 class="page-title is-family-sans">{{ page.title }}</h1>
+              <h1 class="page-title">{{ page.title }}</h1>
               <div class="page-meta" v-if="page.type === 'post'">
                 <section class="page-datetime">
                   <time

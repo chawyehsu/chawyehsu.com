@@ -90,20 +90,10 @@
     blockquote {
       position: relative;
       color: var(--color-text-secondary);
-      padding-left: $gap-l;
-      padding-right: $gap-s;
+      padding-left: $gap-m;
+      padding-right: $gap-m;
       overflow-wrap: break-word;
       word-break: break-all;
-
-      &:before {
-        position: absolute;
-        left: $gap-m * -1.7;
-        content: '\201c';
-        font-family: $font-serif-chinese;
-        font-size: $font-size-base-xl * 2;
-        font-weight: 700;
-        line-height: 1;
-      }
 
       p:last-child {
         margin: 0;

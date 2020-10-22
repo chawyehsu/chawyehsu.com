@@ -204,12 +204,3 @@ pre[class*="language-"] {
     color: #be5046; /* base0F */
   }
 }
-
-@media (prefers-color-scheme: dark) {
-  @include code-dark-mode();
-}
-
-html.dark-mode {
-  @include code-dark-mode();
-}
-

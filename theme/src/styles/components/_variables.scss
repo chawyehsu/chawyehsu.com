@@ -3,31 +3,51 @@
 /**
  * Typography: Font Family
  */
-$font-emoji: "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 // Sans
-$font-sans-latin: "Open Sans";
-$font-sans-chinese: "Noto Sans SC", "Source Han Sans SC", "PingFang SC", "Hiragino Sans GB", "WenQuanYi Micro Hei", "Microsoft Yahei";
-$font-sans-fallback: sans-serif;
-$font-family-sans: $font-sans-latin, $font-sans-chinese, $font-sans-fallback;
+$font-family-sans:
+  'Alegreya',
+  'Noto Sans SC',
+  'Source Han Sans SC',
+  'PingFang SC',
+  'Hiragino Sans GB',
+  'WenQuanYi Micro Hei',
+  'Microsoft Yahei',
+  sans-serif,
+  'Apple Color Emoji',
+  'Segoe UI Emoji';
 // Serif
-$font-serif-latin: "Alegreya", "Times New Roman";
-$font-serif-chinese: "Noto Serif SC", "Source Han Serif SC", STFangsong, FangSong, FangSong_GB2312;
-$font-serif-fallback: serif;
-$font-family-serif: $font-serif-latin, $font-serif-chinese, $font-serif-fallback;
-// Headline
-$font-serif-chinese-headline: "Noto Serif SC", "Source Han Serif SC", "Kaiti SC", STKaiti, KaiTi, KaiTi_GB2312;
-$font-family-serif-headline: $font-serif-latin, $font-serif-chinese-headline, $font-serif-fallback;
+$font-family-serif:
+  'Alegreya',
+  'Noto Serif SC',
+  'Source Han Serif SC',
+  STFangsong,
+  FangSong,
+  FangSong_GB2312,
+  serif,
+  'Apple Color Emoji',
+  'Segoe UI Emoji';
+$font-family-serif-headline:
+  'Alegreya',
+  'Noto Serif SC',
+  'Source Han Serif SC',
+  'Kaiti SC',
+  STKaiti,
+  KaiTi,
+  KaiTi_GB2312,
+  serif,
+  'Apple Color Emoji',
+  'Segoe UI Emoji';
 // Mono
-$font-family-mono: 'Inconsolata', Monaco, Consolas, 'Lucida Console', monospace;
+$font-family-mono:
+  'Fira Mono',
+  Monaco,
+  Consolas,
+  'Lucida Console',
+  monospace;
 
 /**
  * Typography: Font Sizes
  */
-// Base font sizes
-$font-size-base: 100%;     // 16px
-$font-size-base-m: 112.5%; // 18px
-$font-size-base-l: 125%;   // 20px
-$font-size-base-xl: 150%;  // 24px
 // Headline font sizes
 $font-size-1: 2rem;
 $font-size-2: 1.5rem;
@@ -37,7 +57,7 @@ $font-size-5: 1rem;
 $font-size-6: 0.875rem;
 $font-size-7: 0.8rem;
 // Other font sizes
-$font-size-code: $font-size-6;
+$font-size-code: $font-size-7;
 $font-size-footnotes: $font-size-6;
 $font-size-small: $font-size-7;
 $font-size-sub-sup: $font-size-7;
@@ -80,36 +100,10 @@ $gap-xl: 3.5556rem;
   --color-accent-4: #5f5f5f;
   --color-accent-5: #3f3f3f;
   --color-accent-6: #2f2f2f;
-  --color-accent-7: #1f1f1f;
+  --color-accent-7: #121212;
   --color-background-transparent: rgba(255, 255, 255, 0);
   --color-background: var(--color-accent-0);
   --color-text-primary: var(--color-accent-6);
   --color-text-secondary: var(--color-accent-3);
   --color-link: #039be5;
 }
-// dark mode color variables
-@mixin color-dark-mode {
-  :root {
-    --color-accent-0: #1f1f1f;
-    --color-accent-1: #2f2f2f;
-    --color-accent-2: #3f3f3f;
-    --color-accent-3: #5f5f5f;
-    --color-accent-4: #bfbfbf;
-    --color-accent-5: #dfdfdf;
-    --color-accent-6: #efefef;
-    --color-accent-7: #ffffff;
-    --color-background-transparent: rgba(31, 31, 31, 0);
-    --color-background: var(--color-accent-0);
-    --color-text-primary: var(--color-accent-6);
-    --color-text-secondary: var(--color-accent-3);
-    --color-link: #66ccff;
-  }
-}
-// Force dark mode
-html.dark-mode {
-  @include color-dark-mode();
-}
-// Auto dark mode
-// @media (prefers-color-scheme: dark) {
-//   @include color-dark-mode();
-// }

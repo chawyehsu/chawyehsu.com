@@ -2,14 +2,13 @@ html {
   -webkit-font-smoothing: antialiased;
   box-sizing: border-box;
   color: var(--color-text-primary);
-  font-family: $font-family-sans;
-  font-size: $font-size-base;
+  font-size: 100%;
   line-height: $line-height-base;
   font-feature-settings: "liga" 1, "pnum" 1, "kern" 1;
   text-rendering: optimizeLegibility;
   text-size-adjust: 100%;
 
-  &:lang(en), &.serif {
+  &.serif {
     body {
       font-family: $font-family-serif;
     }
@@ -65,6 +64,13 @@ body {
 
 p, blockquote, table, hr, dl, ul, ol, pre, address, figure {
   margin-bottom: $gap-m;
+}
+
+code,
+kbd,
+samp,
+pre {
+  font-size: $font-size-6;
 }
 
 a {
