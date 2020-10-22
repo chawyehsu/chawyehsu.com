@@ -15,11 +15,6 @@ pageCoverMode: mixed
 assets:
   cover: ../_assets/uploads/2019/07/20190724005.jpg
   featured: ../_assets/uploads/2019/11/20191130005.jpg
-categories:
-  - 技术
-tags:
-  - 前端
-  - 前端性能优化
 featured: true
 ---
 

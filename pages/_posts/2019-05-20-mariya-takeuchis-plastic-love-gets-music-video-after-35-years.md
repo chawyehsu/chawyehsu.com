@@ -13,8 +13,6 @@ pageCoverMode: fullhd
 assets:
   cover: ../_assets/uploads/2019/05/20190519007.png
   featured: ../_assets/uploads/2019/11/20191130006.jpg
-categories:
-  - 杂谈
 featured: true
 ---
 

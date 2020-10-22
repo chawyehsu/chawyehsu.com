@@ -11,8 +11,6 @@ updated: 2019-03-06 23:15:20
 pageCoverMode: false
 assets:
   cover: ../_assets/uploads/2019/02/20190218005.png
-categories:
-  - 技术
 ---
 
 Windows Console Host（即 `conhost.exe`，下称“ConHost”[^1]）中的设置可能有点难

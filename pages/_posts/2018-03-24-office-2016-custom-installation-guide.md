@@ -11,8 +11,6 @@ updated: 2018-03-25 13:00:00
 pageCoverMode: false
 assets:
   cover: ../_assets/uploads/2018/12/20181225005.png
-categories:
-  - 技术
 ---
 
 ![Microsoft Office](../_assets/uploads/2018/03/20180324001.jpg)

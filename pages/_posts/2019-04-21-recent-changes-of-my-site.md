@@ -11,8 +11,6 @@ updated: 2019-04-21 19:21:20
 pageCoverMode: false
 assets:
   cover: ../_assets/uploads/2019/04/20190421008.png
-categories:
-  - 技术
 ---
 
 ## Old Days

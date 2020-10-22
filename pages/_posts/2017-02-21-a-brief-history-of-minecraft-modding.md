@@ -9,8 +9,6 @@ description: >-
   非早期就加入社区的玩家，相对清晰地了解至今整个 Minecraft Modding 历程的文章
 assets:
   cover: ../_assets/uploads/2018/12/20181225008.png
-categories:
-  - 杂谈
 ---
 
 ## 前言

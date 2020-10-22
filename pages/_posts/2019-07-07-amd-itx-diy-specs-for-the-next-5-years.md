@@ -12,8 +12,6 @@ updated: 2019-07-08 09:31:05
 assets:
   cover: ../_assets/uploads/2019/07/20190705001.jpg
   featured: ../_assets/uploads/2019/11/20191130002.jpg
-categories:
-  - 数码
 featured: true
 ---
 

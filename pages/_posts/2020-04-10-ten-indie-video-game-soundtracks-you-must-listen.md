@@ -11,8 +11,6 @@ updated: 2020-04-18 23:15:00
 assets:
   cover: ../_assets/uploads/2020/04/20200406001.jpg
   featured: ../_assets/uploads/2020/04/20200406002.jpg
-categories:
-  - 杂谈
 featured: true
 ---
 

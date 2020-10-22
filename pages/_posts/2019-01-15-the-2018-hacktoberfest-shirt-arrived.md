@@ -11,8 +11,6 @@ date: 2019-01-15 02:19:44
 updated: 2019-01-15 02:19:44
 assets:
   cover: ../_assets/uploads/2019/01/20190114002.jpg
-categories:
-  - 杂谈
 ---
 
 竟然寄到了，而且还有小惊喜。

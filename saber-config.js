@@ -116,11 +116,6 @@ module.exports = {
         permalinks: {
           category: '/blog/category/:name',
           tag: '/blog/tag/:name'
-        },
-        categoriesMap: {
-          '数码': 'digital',
-          '技术': 'technology',
-          '杂谈': 'uncategorized'
         }
       }
     },

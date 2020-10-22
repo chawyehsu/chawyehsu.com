@@ -14,8 +14,6 @@ pageCoverMode: false
 assets:
   cover: ../_assets/uploads/2018/05/20180510001.png
   featured: ../_assets/uploads/2019/11/20191130003.jpg
-categories:
-  - 技术
 featured: true
 ---
 

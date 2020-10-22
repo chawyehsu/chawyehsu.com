@@ -5,8 +5,6 @@ date: 2015-08-23 23:19:11
 updated: 2015-09-04 17:19:38
 assets:
   cover: ../_assets/uploads/2018/12/20181225013.png
-categories:
-  - 技术
 ---
 
 **[关于 Scoop 的新文章](/blog/2018/05/talk-about-scoop-the-package-manager-for-windows-again)** {style="text-align:center"}
