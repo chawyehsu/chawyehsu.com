@@ -2,36 +2,6 @@
 <?xml-stylesheet type="text/xsl" href="/sitemap.xsl"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-    <loc>https://chawyehsu.com/blog/category/digital</loc>
-    <lastmod>2020-10-19T13:00:59.429Z</lastmod>
-        <priority>0.3</priority>
-        <changefreq>always</changefreq>
-  </url>
-    <url>
-    <loc>https://chawyehsu.com/blog/category/technology</loc>
-    <lastmod>2020-10-19T13:00:59.428Z</lastmod>
-        <priority>0.3</priority>
-        <changefreq>always</changefreq>
-  </url>
-    <url>
-    <loc>https://chawyehsu.com/blog/tag/%E5%89%8D%E7%AB%AF%E6%80%A7%E8%83%BD%E4%BC%98%E5%8C%96</loc>
-    <lastmod>2020-10-19T13:00:59.427Z</lastmod>
-        <priority>0.3</priority>
-        <changefreq>always</changefreq>
-  </url>
-    <url>
-    <loc>https://chawyehsu.com/blog/category/uncategorized</loc>
-    <lastmod>2020-10-19T13:00:59.427Z</lastmod>
-        <priority>0.3</priority>
-        <changefreq>always</changefreq>
-  </url>
-    <url>
-    <loc>https://chawyehsu.com/blog/tag/%E5%89%8D%E7%AB%AF</loc>
-    <lastmod>2020-10-19T13:00:59.426Z</lastmod>
-        <priority>0.3</priority>
-        <changefreq>always</changefreq>
-  </url>
-    <url>
     <loc>https://chawyehsu.com/blog/ten-indie-video-game-soundtracks-you-must-listen</loc>
     <lastmod>2020-04-18T15:15:00.000Z</lastmod>
         <priority>0.6</priority>
