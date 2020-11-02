@@ -90,14 +90,14 @@
     blockquote {
       position: relative;
       color: var(--color-text-secondary);
-      padding-left: $gap-xl;
-      padding-right: $gap-xl;
+      padding-left: $gap-l;
+      padding-right: $gap-l;
       overflow-wrap: break-word;
       word-break: break-all;
 
       &:before {
         position: absolute;
-        left: 0;
+        left: $gap-l * -1;
         content: '\201c';
         font-family: $font-family-chinese;
         font-size: 300%;
