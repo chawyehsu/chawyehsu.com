@@ -23,7 +23,7 @@
     "saber-plugin-prismjs": "0.2.4",
     "saber-plugin-query-posts": "0.4.6",
     "saber-plugin-sitemap": "0.4.1",
-    "sass": "1.27.0",
+    "sass": "1.28.0",
     "sass-loader": "8.0.2"
   },
   "workspaces": [
