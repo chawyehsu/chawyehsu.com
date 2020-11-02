@@ -8,13 +8,17 @@ $font-family-chinese: source-han-serif-sc;
 $font-family:
   alegreya,
   source-han-serif-sc,
-  'PingFang SC',
-  'Hiragino Sans GB',
-  'WenQuanYi Micro Hei',
-  'Microsoft Yahei',
+  -apple-system,
+  BlinkMacSystemFont,
+  "Segoe UI",
+  Roboto,
+  "Helvetica Neue",
+  Arial,
   sans-serif,
-  'Apple Color Emoji',
-  'Segoe UI Emoji';
+  "Apple Color Emoji",
+  "Segoe UI Emoji",
+  "Segoe UI Symbol",
+  "Noto Color Emoji";
 // Mono
 $font-family-mono:
   fira-mono,
