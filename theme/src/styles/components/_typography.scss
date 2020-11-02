@@ -7,20 +7,11 @@ html {
   font-feature-settings: "liga" 1, "pnum" 1, "kern" 1;
   text-rendering: optimizeLegibility;
   text-size-adjust: 100%;
-
-  &.serif {
-    body {
-      font-family: $font-family-serif;
-    }
-
-    h1, h2, h3, h4, h5, h6 {
-      font-family: $font-family-serif-headline;
-    }
-  }
 }
 
 body {
-  font-family: $font-family-sans;
+  font-family: $font-family;
+  font-weight: 500;
 }
 
 hr {

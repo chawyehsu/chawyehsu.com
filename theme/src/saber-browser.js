@@ -12,8 +12,7 @@ export default ({ Vue, setHead }) => {
   // Manipulating <head>
   setHead(vm => ({
     htmlAttrs: {
-      lang: 'zh-CN',
-      // class: 'serif'
+      lang: 'zh-CN'
     },
     meta: [
       {
@@ -38,15 +37,11 @@ export default ({ Vue, setHead }) => {
         rel: 'alternate',
         title: `${vm.$siteConfig.title} - Feed`,
         href: `${vm.$siteConfig.url}${vm.$feed.permalink}`,
-        type: vm.$feed.type === 'atom' ? 'application/atom+xml' : vm.$feed.type === 'rss2' ? 'application/rss+xml' : 'application/json'
+        type: vm.$feed.type === 'atom' ? 'application/atom+xml' :
+          vm.$feed.type === 'rss2' ? 'application/rss+xml' : 'application/json'
       },
       {
-        href: 'https://fonts.googleapis.com/',
-        rel: 'preconnect',
-        crossorigin: true
-      },
-      {
-        href: 'https://fonts.gstatic.com/',
+        href: 'https://use.typekit.net/',
         rel: 'preconnect',
         crossorigin: true
       },
@@ -54,10 +49,6 @@ export default ({ Vue, setHead }) => {
         href: 'https://cdn.jsdelivr.net/',
         rel: 'preconnect',
         crossorigin: true
-      },
-      {
-        href: 'https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400;0,700;1,400;1,700&family=Fira+Mono:wght@400;700&family=Noto+Sans+SC:wght@400;700&family=Noto+Serif+SC:wght@400;700&display=swap&subset=chinese-simplified',
-        rel: 'stylesheet'
       }
     ]
   }))

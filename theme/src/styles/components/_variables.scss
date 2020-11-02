@@ -4,10 +4,9 @@
  * Typography: Font Family
  */
 // Sans
-$font-family-sans:
-  'Alegreya',
-  'Noto Sans SC',
-  'Source Han Sans SC',
+$font-family:
+  alegreya,
+  source-han-serif-sc,
   'PingFang SC',
   'Hiragino Sans GB',
   'WenQuanYi Micro Hei',
@@ -15,34 +14,14 @@ $font-family-sans:
   sans-serif,
   'Apple Color Emoji',
   'Segoe UI Emoji';
-// Serif
-$font-family-serif:
-  'Alegreya',
-  'Noto Serif SC',
-  'Source Han Serif SC',
-  STFangsong,
-  FangSong,
-  FangSong_GB2312,
-  serif,
-  'Apple Color Emoji',
-  'Segoe UI Emoji';
-$font-family-serif-headline:
-  'Alegreya',
-  'Noto Serif SC',
-  'Source Han Serif SC',
-  'Kaiti SC',
-  STKaiti,
-  KaiTi,
-  KaiTi_GB2312,
-  serif,
-  'Apple Color Emoji',
-  'Segoe UI Emoji';
 // Mono
 $font-family-mono:
-  'Fira Mono',
-  Monaco,
+  fira-mono,
+  ui-monospace,
+  SFMono-Regular,
   Consolas,
-  'Lucida Console',
+  "Liberation Mono",
+  Menlo,
   monospace;
 
 /**
@@ -76,7 +55,6 @@ $desktop: 768px;
 $widescreen: 960px;
 $fullhd: 1152px;
 // Bulma Framework: Variables Customization
-$family-secondary: $font-family-sans;
 $navbar-breakpoint: $desktop;
 $column-gap: 1rem;
 

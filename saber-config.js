@@ -128,6 +128,12 @@ module.exports = {
       }
     },
     {
+      resolve: './packages/saber-plugin-adobe-font',
+      options: {
+        kitId: 'qxo6reu'
+      }
+    },
+    {
       resolve: './packages/saber-plugin-jsdelivr-cdn',
       options: {
         prefix: 'https://cdn.jsdelivr.net/gh/chawyehsu/chawyehsu.com@gh-pages'

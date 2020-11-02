@@ -43,10 +43,6 @@ export default {
 }
 
 #dsqjs {
-  * {
-    font-family: inheirt;
-  }
-
   a {
     color: var(--color-text-primary);
     &:hover {
@@ -79,15 +75,6 @@ export default {
 
   .dsqjs-post-list .dsqjs-post-header .dsqjs-meta, footer, footer a {
     color: var(--color-text-secondary);
-  }
-}
-
-// serif fonts mode
-html {
-  &:lang(en), &.serif {
-    #dsqjs * {
-      font-family: $font-family-serif;
-    }
   }
 }
 </style>
