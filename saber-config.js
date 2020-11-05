@@ -143,6 +143,12 @@ module.exports = {
       resolve: 'saber-plugin-prismjs'
     },
     {
+      resolve: 'saber-plugin-pwa',
+      options: {
+        notifyUpdates: false
+      }
+    },
+    {
       resolve: 'saber-plugin-sitemap',
       options: {
         template: './sitemap.xml'
