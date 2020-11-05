@@ -1,0 +1,24 @@
+{
+  "icons": [
+    {
+      "src": "_saber/images/icons/icon_32x32.png",
+      "type": "image/png",
+      "sizes": "32x32"
+    },
+    {
+      "src": "_saber/images/icons/icon_128x128.png",
+      "type": "image/png",
+      "sizes": "128x128"
+    },
+    {
+      "src": "_saber/images/icons/icon_256x256.png",
+      "type": "image/png",
+      "sizes": "256x256"
+    },
+    {
+      "src": "_saber/images/icons/icon_512x512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ]
+}
