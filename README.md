@@ -1,6 +1,6 @@
 <div align="center">
   <a href="https://chawyehsu.com/">
-    <img alt="site icon" src="./static/icon.png" />
+    <img alt="Project Icon" src="./static/_saber/images/icons/favicon.png" />
   </a>
   <h1>The Art of Chawye Hsu</h1>
 </div>
