@@ -1,14 +1,6 @@
 import './styles/main.scss'
 
 export default ({ Vue, setHead }) => {
-  // Photoswipe
-  if (process.browser) {
-    const Photoswipe = require('vue-pswipe').default
-    Vue.use(Photoswipe, {
-      shareEl: false
-    })
-  }
-
   // Manipulating <head>
   setHead(vm => ({
     htmlAttrs: {

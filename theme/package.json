@@ -1,6 +1,6 @@
 {
   "name": "saber-theme-aimer",
-  "version": "0.20.4",
+  "version": "0.20.5",
   "description": "A concise Saber theme, ported and evoluted from the unreleased hexo-theme-mina",
   "author": "Chawye Hsu <chawyehsu@hotmail.com>",
   "homepage": "https://github.com/chawyehsu/chawyehsu.com#readme",
@@ -14,15 +14,15 @@
     "dev:example": "saber example"
   },
   "dependencies": {
-    "bulma": "^0.9.0",
-    "disqusjs": "^1.2.6",
-    "tinytime": "^0.2.6",
-    "vue-pswipe": "^0.15.0"
+    "bulma": "0.9.0",
+    "disqusjs": "1.2.6",
+    "tinytime": "0.2.6",
+    "vue-pswipe": "0.15.0"
   },
   "devDependencies": {
-    "sass": "^1.27.0",
-    "sass-loader": "^8.0.0",
-    "vue-compile": "^0.6.1"
+    "sass": "1.29.0",
+    "sass-loader": "8.0.2",
+    "vue-compile": "0.6.2"
   },
   "keywords": [
     "saber",

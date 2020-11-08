@@ -47,11 +47,11 @@
             <section
               v-if="page.type === 'post' && isPostOutdated()"
               class="page-alert outdated-alert notification">
-              本文最后更新于 {{ days() }} 天前（{{ humanDate() }}），其中的信息可能已经有所发展或者不再适合现阶段。
+              本文最后更新于 {{ days() }} 天（{{ humanDate() }}）前，其中的信息可能已经有所发展或者不再适合现在
             </section>
           </client-only>
           <section class="page-body">
-            <Photoswipe v-if="$themeConfig.pswp" auto ref="photoswipe">
+            <Photoswipe v-if="$themeConfig.pswp" auto :options="{ shareEl: false }">
               <slot name="default" />
             </Photoswipe>
             <slot v-else name="default" />
@@ -93,6 +93,12 @@ export default {
     Header,
     Footer,
     Disqus
+  },
+  beforeMount () {
+    Vue.component('Photoswipe',
+      () => import('vue-pswipe')
+        .then(({ Photoswipe }) => Photoswipe)
+    )
   },
   methods: {
     date,
