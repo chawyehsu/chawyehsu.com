@@ -146,7 +146,19 @@ module.exports = {
     {
       resolve: 'saber-plugin-pwa',
       options: {
-        notifyUpdates: false
+        notifyUpdates: false,
+        generateSWOptions: {
+          runtimeCaching: [
+            {
+              urlPattern: /^https:\/\/cdn\.jsdelivr\.net\//,
+              handler: 'StaleWhileRevalidate'
+            },
+            {
+              urlPattern: /^https:\/\/use\.typekit\.net\//,
+              handler: 'StaleWhileRevalidate'
+            }
+          ]
+        }
       }
     },
     {
