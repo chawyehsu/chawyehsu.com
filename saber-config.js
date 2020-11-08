@@ -130,7 +130,8 @@ module.exports = {
     {
       resolve: './packages/saber-plugin-adobe-font',
       options: {
-        kitId: 'qxo6reu'
+        kitId: 'qxo6reu',
+        useTypekitCache: true
       }
     },
     {
