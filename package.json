@@ -25,7 +25,7 @@
     "saber-plugin-query-posts": "0.4.6",
     "saber-plugin-sitemap": "0.4.1",
     "sass": "1.29.0",
-    "sass-loader": "8.0.2"
+    "sass-loader": "10.0.5"
   },
   "workspaces": [
     "packages/*",
