@@ -1,13 +1,7 @@
 <template>
   <footer class="tach-footer footer">
     <div class="tach-wrapper">
-      <div class="container columns">
-        <section class="section column is-6">
-          <!-- &#xfe0e; to prevent rendering ❤︎ as an emoji in iOS/Android -->
-          <div class="copyright">
-            © {{ siteDate }} {{ $siteConfig.author }}. Made with <span style="color:#b30e2e">❤︎&#xfe0e;</span> in Guangzhou
-          </div>
-        </section>
+      <div class="container columns is-flex-direction-row-reverse">
         <section class="section column is-6" v-if="$themeConfig.footer.social_network">
           <div class="social-network">
             <ul>
@@ -15,6 +9,12 @@
                 <a class="icon" :href="item.path" target="_blank" rel="noopener">{{ item.name }}</a>
               </li>
             </ul>
+          </div>
+        </section>
+        <section class="section column is-6">
+          <!-- &#xfe0e; to prevent rendering ❤︎ as an emoji in iOS/Android -->
+          <div class="copyright">
+            © {{ siteDate }} {{ $siteConfig.author }}. Made with <span style="color:#b30e2e">❤︎&#xfe0e;</span> in Guangzhou
           </div>
         </section>
       </div>
