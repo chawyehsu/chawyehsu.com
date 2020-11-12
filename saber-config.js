@@ -77,7 +77,7 @@ module.exports = {
         resolve: 'markdown-it-attrs'
       },
       {
-        resolve: 'markdown-it-implicit-figures',
+        resolve: './packages/markdown-it-implicit-figures',
         options: {
           dataType: true,
           figcaption: true

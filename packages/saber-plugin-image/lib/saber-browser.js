@@ -33,16 +33,20 @@ export default ({ Vue }) => {
       }
     },
     render (h) {
+      let { $attrs } = this
       const lazy = Object.assign(
         options,
-        JSON.parse(this.$attrs['data-lazy'] || '{}'),
+        JSON.parse($attrs['data-lazy'] || '{}'),
         this.lazy
       )
 
       const getOption = key =>
         lazy[key] || (lazy[key] !== false && options[key])
 
-      const { $attrs } = this
+      // Photoswipe title support
+      if ($attrs.alt) {
+        $attrs['data-pswp-title'] = $attrs.alt
+      }
 
       if (getOption('lazyLoad')) {
         if (typeof this.src === 'string') {
@@ -53,8 +57,7 @@ export default ({ Vue }) => {
               ...$attrs,
               src,
               srcset: blank,
-              'data-srcset': src,
-              'data-pswp-title': $attrs.alt
+              'data-srcset': src
             }
           })
         }
@@ -70,7 +73,6 @@ export default ({ Vue }) => {
             src,
             srcset: loading,
             'data-srcset': srcSet,
-            'data-pswp-title': $attrs.alt,
             width
           },
           class: { [styles.blendIn]: blendIn }
@@ -80,14 +82,14 @@ export default ({ Vue }) => {
       if (typeof this.src === 'string') {
 
         return h('img', {
-          attrs: { ...$attrs, src: this.src, 'data-pswp-title': $attrs.alt }
+          attrs: { ...$attrs, src: this.src }
         })
       }
 
       let { src, srcSet: srcset } = this.src || {}
 
       return h('img', {
-        attrs: { ...$attrs, src, srcset, 'data-pswp-title': $attrs.alt }
+        attrs: { ...$attrs, src, srcset }
       })
     }
   })
