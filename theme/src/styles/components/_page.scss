@@ -226,14 +226,14 @@
     }
 
     figure {
-      text-align: center;
-
       > a {
         border: 0 !important;
       }
 
-      img {
-        margin-bottom: 0;
+      img, iframe {
+        margin: 0 auto;
+        display: block;
+        margin-bottom: $gap-s;
       }
 
       figcaption {
