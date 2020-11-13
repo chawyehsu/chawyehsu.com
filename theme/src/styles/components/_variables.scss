@@ -3,8 +3,7 @@
 /**
  * Typography: Font Family
  */
-$font-family-chinese: source-han-serif-sc;
- // Primary
+// Primary
 $font-family:
   alegreya,
   source-han-serif-sc,
@@ -25,6 +24,13 @@ $font-family-mono:
   "Liberation Mono",
   Menlo,
   monospace;
+// This one is for the quote mark inside a blockquote
+$font-family-chinese:
+  source-han-serif-sc,
+  STKaiti,
+  KaiTi,
+  KaiTi_GB2312,
+  serif;
 
 /**
  * Typography: Font Sizes
