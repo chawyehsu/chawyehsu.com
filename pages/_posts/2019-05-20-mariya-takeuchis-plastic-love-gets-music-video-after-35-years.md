@@ -44,6 +44,7 @@ MV[^1]。这首在 2018 年引起病毒式传播的歌曲，在发布的 35 年�
 《Plastic Love》作为一支单曲发行，一度冲上 Oricon 榜第 86 位。
 
 ![《Plastic Love -Extended Club Mix-》](../_assets/uploads/2019/05/20190519009.png)
+{.fullwidth}
 
 竹内玛莉亚的许多歌曲都曾被翻唱过，比如陈慧娴的《岁月流声》翻唱自她的《Natalie》，
 草蜢的《原谅我是我》翻唱自《シソグルアゲイソ》。当然这首《Plastic Love》也不例外，

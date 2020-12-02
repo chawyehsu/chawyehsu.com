@@ -4,7 +4,7 @@ title: 关于
 keywords: about
 description: About page of The Art of Chawye Hsu
 date: 2015-05-18 00:00:00
-updated: 2020-10-19 21:00:00
+updated: 2020-12-02 13:40:00
 comments: false
 ---
 
@@ -14,16 +14,15 @@ comments: false
 音乐、豆瓣 FM、SoundCloud 等平台），略懂写一点点代码，偶尔会玩玩游戏、看看电影和动
 画（很少很少看番），以及学习摄影。
 
-![我的生产力工具：Leopold fc660m](./_assets/uploads/2019/07/20190720001.jpg)
-
 #### 联系我 / Contact me:
 
 - [GitHub] / [Telegram] / [Steam] / [Twitter] / [Instagram] / [NeteaseCloudMusic]
 
 当然你可以通过上面所列的社交媒体找到并联系我。我每天会看电子邮箱，所以更好的方法是
-通过邮件联系：
+通过[邮件](mailto:chawyehsu@hotmail.com)联系。
 
-> chawyehsu->hotmail
+![我的生产力工具：Leopold fc660m](./_assets/uploads/2019/07/20190720001.jpg)
+{.fullwidth}
 
 ### 关于网站 / About TACH
 

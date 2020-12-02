@@ -213,6 +213,7 @@
       font-size: $font-size-sub-sup;
     }
 
+    // Content Block Element: Images
     img {
       max-width: 100%;
       margin-bottom: $gap-m;
@@ -258,6 +259,19 @@
 
     figure.highlight {
       text-align: left;
+    }
+
+    // Page-level global Full-width images
+    &.fullwidth-image {
+      // default images, not possible
+
+      // figure images
+      figure[data-type=image] {
+        margin-left: calc(-100vw / 2 + 100% / 2);
+        margin-right: calc(-100vw / 2 + 100% / 2);
+        max-width: 100vw;
+        float: none; // fullwidth > float, remove floating
+      }
     }
 
     // Content Block Element: Footnotes Section
