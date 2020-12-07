@@ -20,7 +20,7 @@
     "vue-pswipe": "0.15.1"
   },
   "devDependencies": {
-    "sass": "1.29.0",
+    "sass": "1.30.0",
     "sass-loader": "10.0.5",
     "vue-compile": "0.6.2"
   },
