@@ -21,7 +21,7 @@
   },
   "devDependencies": {
     "sass": "1.30.0",
-    "sass-loader": "10.0.5",
+    "sass-loader": "10.1.0",
     "vue-compile": "0.6.2"
   },
   "keywords": [
