@@ -4291,6 +4291,11 @@ mkdirp@^0.5.1, mkdirp@^0.5.3, mkdirp@~0.5.1:
   dependencies:
     minimist "^1.2.5"
 
+modern-copy@^1.0.3:
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/modern-copy/-/modern-copy-1.0.3.tgz#1b0a3e8548316cae95e76f9f75cacb561d193b8e"
+  integrity sha512-2JGQcw7PFY74QsVupT1xzR09w7JGWjO9/XxFr42gCVuqPdeSmtRUlfcJnZTTPyRi0dbIXJ5Gotp1Pij4llMNWQ==
+
 move-concurrently@^1.0.1:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/move-concurrently/-/move-concurrently-1.0.1.tgz#be2c005fda32e0b29af1f05d7c4b33214c701f92"
@@ -5550,6 +5555,13 @@ saber-markdown@^0.1.6:
   version "0.1.6"
   resolved "https://registry.yarnpkg.com/saber-markdown/-/saber-markdown-0.1.6.tgz#49aa91c98b1772607bb42fe9438ede1d2e05735a"
   integrity sha512-ilJvG0yC/9bqN1Mfv+GblJGV9sZsMFtWl7x8Lrxrx9Jx5IgY6z2rAe0e2YblyuoOCrIircWXrh2qT7dd97lHXA==
+
+saber-plugin-code-copy@0.3.2:
+  version "0.3.2"
+  resolved "https://registry.yarnpkg.com/saber-plugin-code-copy/-/saber-plugin-code-copy-0.3.2.tgz#d754c970ada3b75a6535a6ffabadd279a27c4491"
+  integrity sha512-R/ejqBH5QzTxgF5wT7moqWwH73mQgKXJ1diaHejjusAhjMqqaKs751G9dydbILUL3JrLqSUpnDUN6s6YYcWgvw==
+  dependencies:
+    modern-copy "^1.0.3"
 
 saber-plugin-feed@0.4.3:
   version "0.4.3"

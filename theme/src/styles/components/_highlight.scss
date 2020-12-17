@@ -204,3 +204,27 @@ pre[class*="language-"] {
     color: #be5046; /* base0F */
   }
 }
+
+/* Line numbers */
+.saber-highlight-line-numbers {
+  pointer-events: none;
+  font-size: 100%;
+  float: left;
+  letter-spacing: -1px;
+  border-right: 1px solid #999;
+  user-select: none;
+  text-align: right;
+  padding-right: 0.4445rem;
+  margin-right: 0.8rem;
+
+  > span {
+    counter-increment: linenumber;
+    display: block;
+
+    &:before {
+      content: counter(linenumber);
+      color: #999;
+      display: block;
+    }
+  }
+}

@@ -147,6 +147,18 @@ module.exports = {
       }
     },
     {
+      resolve: 'saber-plugin-code-copy',
+      options: {
+        buttonStyle: {
+          'display': 'flex',
+          'border-radius': 0,
+          'padding': '6px 6px 8px 8px',
+          'transition': 'none',
+          'outline': 'none'
+        }
+      }
+    },
+    {
       resolve: 'saber-plugin-prismjs'
     },
     {

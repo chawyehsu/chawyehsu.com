@@ -150,30 +150,20 @@
 
     pre {
       line-height: $line-height-code;
-
-      code {
-        font-size: $font-size-code;
-
-        &:before,
-        &:after {
-          content: '';
-        }
-      }
+      font-size: $font-size-code;
     }
 
     .saber-highlight {
       position: relative;
       overflow: hidden;
       margin: 0 0 $gap-m 0;
-      background: var(--color-accent-1);
       border-radius: 0;
 
       &:before {
         content: attr(data-lang);
         position: absolute;
         right: $gap-s;
-        top: $gap-s * 0.5;
-        font-size: $font-size-sub-sup;
+        font-size: $font-size-code;
         color: var(--color-text-secondary);
       }
 
