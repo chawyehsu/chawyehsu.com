@@ -33,8 +33,15 @@ export default vm => {
     }
   ]
 
-  if (vm.page.assets.cover || vm.page.assets.avatar) {
-    const image = `${vm.$siteConfig.url}${vm.page.assets.cover || vm.page.assets.avatar}`
+  if (vm.page.assets.cover) {
+    let image = vm.page.assets.cover
+
+    // `og:image` requires a URL with `http(s)` prefix,
+    // prepend siteURL if given image URL has no `http(s)` prefix
+    if (!image.src.match(/^http/g)) {
+      image = `${vm.$siteConfig.url}${image}`
+    }
+
     meta.push({
       property: 'og:image',
       content: image
