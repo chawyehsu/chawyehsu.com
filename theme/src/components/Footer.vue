@@ -52,15 +52,6 @@ export default {
   color: var(--color-text-primary);
   font-size: $font-size-small;
 
-  a {
-    color: var(--color-text-primary);
-
-    &:hover {
-      color: var(--color-link);
-      text-decoration: underline;
-    }
-  }
-
   .section.column {
     padding-bottom: 0;
   }

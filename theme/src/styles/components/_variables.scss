@@ -45,7 +45,7 @@ $font-size-6: 0.875rem;
 $font-size-7: 0.75rem;
 // Other font sizes
 $font-size-code: $font-size-7;
-$font-size-footnotes: $font-size-6;
+$font-size-footnotes: $font-size-7;
 $font-size-small: $font-size-7;
 $font-size-sub-sup: $font-size-7;
 // font line-height
@@ -89,7 +89,7 @@ $gap-xl: 3.5556rem;
   --color-accent-7: #121212;
   --color-background-transparent: rgba(255, 255, 255, 0);
   --color-background: var(--color-accent-0);
-  --color-text-primary: var(--color-accent-6);
+  --color-text-primary: var(--color-accent-5);
   --color-text-secondary: var(--color-accent-3);
-  --color-link: #039be5;
+  --color-link: var(--color-accent-7);
 }

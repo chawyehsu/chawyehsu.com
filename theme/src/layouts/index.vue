@@ -154,7 +154,8 @@ export default {
         a {
           color: var(--color-text-primary);
 
-          &:hover {
+          &:hover,
+          &:focus {
             color: var(--color-link);
             text-decoration: none;
           }
