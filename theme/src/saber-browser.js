@@ -4,7 +4,7 @@ export default ({ Vue, setHead }) => {
   // Manipulating <head>
   setHead(vm => ({
     htmlAttrs: {
-      lang: 'zh-CN'
+      lang: vm.$siteConfig.lang
     },
     meta: [
       {
