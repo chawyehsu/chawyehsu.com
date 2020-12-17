@@ -8,12 +8,20 @@ export default ({ Vue, setHead }) => {
     },
     meta: [
       {
+        name: 'apple-mobile-web-app-title',
+        content: vm.$siteConfig.appleAppTitle
+      },
+      {
         name: 'apple-mobile-web-app-capable',
         content: 'yes'
       },
       {
         name: 'apple-mobile-web-app-status-bar-style',
-        content: 'black-translucent'
+        content: 'default'
+      },
+      {
+        name: 'mobile-web-app-capable',
+        content: 'yes'
       },
       {
         name: 'author',

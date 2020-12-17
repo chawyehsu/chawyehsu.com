@@ -6,6 +6,7 @@ module.exports = {
   theme: "./theme/src",
   siteConfig: {
     lang: 'zh-CN',
+    appleAppTitle: 'TACH',
     url: 'https://chawyehsu.com',
     title: 'The Art of Chawye Hsu',
     description: 'Personal Website of Chawye Hsu',
