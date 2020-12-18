@@ -85,7 +85,6 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-@import '../styles/components/variables';
 .tach-layout-header {
   padding-top: 3rem;
 

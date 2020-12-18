@@ -1,3 +1,15 @@
+@import '~bulma/sass/utilities/_all';
+
+// Bulma Framework: Rearrange Responsiveness Breakpoints
+$watch: 321px; /* Add `watch` breakpoint for small devices: iPhone5, watches */
+$tablet: 481px;
+$desktop: 768px;
+$widescreen: 960px;
+$fullhd: 1152px;
+// Bulma Framework: Variables Customization
+$navbar-breakpoint: $desktop;
+$column-gap: 1rem;
+
 @import "~bulma/sass/base/minireset";
 @import '~bulma/sass/grid/_all';
 @import "~bulma/sass/helpers/_all";

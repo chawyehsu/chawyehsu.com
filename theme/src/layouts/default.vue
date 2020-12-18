@@ -121,10 +121,8 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-@import '../styles/components/variables';
 .page-cover {
   position: relative;
-  padding-top: 66.6666%; // is-3by2
   img {
     position: absolute;
     top: 0;
@@ -175,7 +173,6 @@ export default {
 // pageCoverMode mixed
 .page-cover-mode-mixed {
   .page-cover {
-    padding-top: 100%; // is-1by1
     transition: all 0.3s ease-in-out;
 
     img {
@@ -197,36 +194,12 @@ export default {
     left: 0;
     bottom: 0;
     width: 100%;
-    padding: $column-gap;
+    padding: 1rem;
     margin: 0;
     z-index: 2;
 
     .page-title, .page-meta {
       color: #efefef;
-    }
-  }
-}
-
-// >= 481px
-@media screen and (min-width: $tablet) {
-  .page-cover {
-    padding-top: 66.6666%; // is-3by2
-  }
-  .page-cover-mode-mixed {
-    .page-cover {
-      padding-top: 66.6666%; // is-3by2
-    }
-  }
-}
-// >= 769px
-@media screen and (min-width: $desktop) {
-  .page-cover {
-    padding-top: 50%; // is-2by1
-  }
-
-  .page-cover-mode-mixed {
-    .page-cover {
-      padding-top: 50%; // is-2by1
     }
   }
 }

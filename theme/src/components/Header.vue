@@ -50,7 +50,6 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-@import '../styles/components/variables';
 // Reset bulma navbar color
 .navbar {
   background-color: var(--color-background);
@@ -73,12 +72,5 @@ export default {
 // Add navbar shadow
 nav {
   box-shadow: 0px 5px 60px 0px rgba(100, 100, 100, 0.1);
-}
-// Tweak navbar padding
-@media screen and (max-width: $navbar-breakpoint) {
-  .navbar-menu {
-    background-color: inherit;
-    padding: $column-gap;
-  }
 }
 </style>

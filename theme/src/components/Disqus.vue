@@ -34,47 +34,49 @@ export default {
 }
 </script>
 
-<style lang="scss">
+<style>
 @import '~disqusjs/dist/disqusjs.css';
-@import '../styles/components/variables';
-
 .page-comments {
   margin-top: var(--gap-xl);
 }
 
-#dsqjs {
-  a {
-    color: var(--color-text-primary);
-    &:hover {
-      color: var(--color-link);
-    }
-  }
+#dsqjs a {
+  color: inherit;
+  overflow-wrap: break-word;
+  word-break: break-all;
+}
 
-  .dsqjs-nav-tab {
-    color: var(--color-text-secondary);
-  }
+#dsqjs a:hover,
+#dsqjs a:focus {
+  color: var(--color-accent-7);
+  text-decoration: underline;
+  outline: none;
+}
 
-  .dsqjs-tab-active,
-  .dsqjs-post-body,
-  .dsqjs-no-comment {
-    color: var(--color-text-primary);
-  }
+#dsqjs .dsqjs-post-body code {
+  background: transparent;
+}
 
-  .dsqjs-order-label {
-    background: var(--color-background);
-  }
+#dsqjs .dsqjs-nav-tab,
+#dsqjs .dsqjs-post-list .dsqjs-post-header .dsqjs-meta,
+#dsqjs footer,
+#dsqjs footer a {
+  color: var(--color-text-secondary);
+}
 
-  .dsqjs-order-radio:checked+.dsqjs-order-label {
-    color: var(--color-accent-0);
-    background-color: var(--color-accent-5);
-  }
+#dsqjs .dsqjs-tab-active,
+#dsqjs .dsqjs-post-body,
+#dsqjs .dsqjs-no-comment,
+#dsqjs .dsqjs-post-list .dsqjs-post-header .dsqjs-post-author {
+  color: var(--color-text-primary);
+}
 
-  .dsqjs-post-list .dsqjs-post-header .dsqjs-post-author {
-    color: var(--color-text-primary);
-  }
-
-  .dsqjs-post-list .dsqjs-post-header .dsqjs-meta, footer, footer a {
-    color: var(--color-text-secondary);
-  }
+/* dsqjs-order-label */
+#dsqjs .dsqjs-order-label {
+  background-color: var(--color-background);
+}
+#dsqjs .dsqjs-order-radio:checked+.dsqjs-order-label {
+  color: var(--color-accent-0);
+  background-color: var(--color-accent-5);
 }
 </style>

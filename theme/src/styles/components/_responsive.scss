@@ -4,15 +4,68 @@
     font-size: calc(16.8px + 8 * (100vw - 320px) / (2560 - 320));
   }
 }
-
 @media screen and (min-width: 2560px) {
   html {
       font-size: 24px;
   }
 }
 
-// >= 769px
-@media screen and (min-width: $desktop) {
+// <= 480px
+@media screen and (max-width: 480px) {
+  // Page Cover
+  .page-cover {
+    padding-top: 66.6666%; // is-3by2
+  }
+  .page-cover-mode-mixed {
+    .page-cover {
+      padding-top: 100%; // is-1by1
+    }
+  }
+
+  // Footer
+  .tach-footer {
+    text-align: center;
+  }
+}
+
+// <= 767px
+@media screen and (max-width: 767px) {
+  // Index portfolio
+  .tach-portfolio-feature {
+    .item-content {
+      .overlay {
+        opacity: 1;
+      }
+    }
+  }
+
+  // Navbar
+  .navbar-menu {
+    background-color: inherit;
+    padding: 1rem;
+  }
+}
+
+// > 480px
+@media screen and (min-width: 481px) {
+  // Page Cover
+  .page-cover {
+    padding-top: 66.6666%; // is-3by2
+  }
+
+  // Footer social network
+  .social-network {
+    text-align: right;
+  }
+}
+
+// > 767px
+@media screen and (min-width: 768px) {
+  // Page Cover
+  .page-cover {
+    padding-top: 50%; // is-2by1
+  }
+
   // Floating figure images
   .page-content {
     figure {

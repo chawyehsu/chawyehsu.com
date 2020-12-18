@@ -45,7 +45,6 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-@import '../styles/components/variables';
 .tach-footer {
   padding: 0 0 4rem 0;
   background: var(--color-background);
@@ -68,17 +67,6 @@ export default {
         }
       }
     }
-  }
-}
-// Responsiveness tweaks for footer elements
-@media screen and (max-width: $tablet - 1) {
-  .tach-footer {
-    text-align: center;
-  }
-}
-@media screen and (min-width: $tablet) {
-  .social-network {
-    text-align: right;
   }
 }
 </style>

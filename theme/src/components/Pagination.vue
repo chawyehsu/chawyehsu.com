@@ -28,7 +28,6 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-@import '../styles/components/variables';
 .pagination {
   .prev-wrap {
     display: flex;

@@ -79,9 +79,6 @@ export default {
 }
 </script>
 <style lang="scss" scoped>
-@import '~bulma/sass/utilities/_all';
-@import '../styles/components/variables';
-
 .tach-portfolio-hero {
   .hero-body {
     padding: 0;
@@ -216,16 +213,6 @@ export default {
       background: #ffffff;
       color: #2f2f2f;
       text-decoration: none;
-    }
-  }
-}
-
-@media screen and (max-width: 767px) {
-  .tach-portfolio-feature {
-    .item-content {
-      .overlay {
-        opacity: 1;
-      }
     }
   }
 }
