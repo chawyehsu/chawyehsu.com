@@ -54,7 +54,7 @@ export default {
     }
 
     .text {
-      margin: 0 $gap-s;
+      margin: 0 var(--gap-s);
     }
   }
 }

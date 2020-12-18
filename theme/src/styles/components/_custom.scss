@@ -3,7 +3,7 @@
   margin: 0 auto;
   width: 100%;
   height: auto;
-  margin-bottom: $gap-m;
+  margin-bottom: var(--gap-m);
 }
 
 .snackbar {

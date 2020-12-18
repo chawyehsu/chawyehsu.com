@@ -100,12 +100,12 @@ export default {
   padding-top: 4rem;
 
   .content {
-    padding: 0 $gap-m;
+    padding: 0 var(--gap-m);
     text-align: center;
 
     small {
       display: block;
-      margin-bottom: $gap-m;
+      margin-bottom: var(--gap-m);
       color: var(--color-text-secondary);
       letter-spacing: 4px;
       text-transform: uppercase;
@@ -114,7 +114,7 @@ export default {
     h4 {
       letter-spacing: 6px;
       font-weight: 400;
-      line-height: $line-height-base;
+      line-height: var(--line-height-base);
       text-transform: uppercase;
     }
 
@@ -154,7 +154,7 @@ export default {
       justify-content: center;
       align-items: center;
       text-align: center;
-      padding: $gap-l;
+      padding: var(--gap-l);
       color: #ffffff;
       position: absolute;
       width: 100%;
@@ -181,7 +181,7 @@ export default {
   h4 {
     margin: 0;
     text-align: center;
-    line-height: $line-height-base;
+    line-height: var(--line-height-base);
     letter-spacing: 2px;
     text-transform: uppercase;
   }
@@ -192,13 +192,13 @@ export default {
   text-align: center;
 
   .content {
-    padding: 0 $gap-m;
+    padding: 0 var(--gap-m);
   }
 
   h4 {
     text-align: center;
     letter-spacing: 2px;
-    line-height: $line-height-base;
+    line-height: var(--line-height-base);
     text-transform: uppercase;
   }
 

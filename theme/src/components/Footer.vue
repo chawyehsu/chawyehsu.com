@@ -50,7 +50,7 @@ export default {
   padding: 0 0 4rem 0;
   background: var(--color-background);
   color: var(--color-text-primary);
-  font-size: $font-size-small;
+  font-size: var(--font-size-small);
 
   .section.column {
     padding-bottom: 0;
@@ -64,7 +64,7 @@ export default {
         display: inline-block;
 
         &+li {
-          margin-left: $gap-m;
+          margin-left: var(--gap-m);
         }
       }
     }

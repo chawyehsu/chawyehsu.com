@@ -39,7 +39,7 @@ export default {
 @import '../styles/components/variables';
 
 .page-comments {
-  margin-top: $gap-xl;
+  margin-top: var(--gap-xl);
 }
 
 #dsqjs {

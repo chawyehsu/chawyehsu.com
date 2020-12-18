@@ -144,12 +144,12 @@ export default {
 }
 
 .page-head-content {
-    margin-top: $gap-m;
+    margin-top: var(--gap-m);
   }
 
 .page-has-cover {
   .page-head-content {
-    margin-top: $gap-l;
+    margin-top: var(--gap-l);
   }
 }
 

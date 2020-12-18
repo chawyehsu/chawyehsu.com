@@ -22,11 +22,11 @@
       }
       &.left {
         float: left;
-        margin-right: $gap-l;
+        margin-right: var(--gap-l);
       }
       &.right {
         float: right;
-        margin-left: $gap-l;
+        margin-left: var(--gap-l);
       }
     }
   }

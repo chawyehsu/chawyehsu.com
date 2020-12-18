@@ -15,11 +15,11 @@
 
     .page-meta {
       display: flex;
-      font-size: $font-size-small;
+      font-size: var(--font-size-small);
       color: var(--color-text-secondary);
 
       .page-datetime {
-        margin-right: $gap-s;
+        margin-right: var(--gap-s);
       }
 
       .page-categories {
@@ -34,15 +34,15 @@
   }
 
   .page-alert {
-    margin: $gap-l 0 0 0;
-    padding: $gap-m;
+    margin: var(--gap-l) 0 0 0;
+    padding: var(--gap-m);
     background-color: var(--color-accent-1);
-    font-size: $font-size-small;
+    font-size: var(--font-size-small);
     border-radius: 0;
   }
 
   .page-body {
-    margin-top: $gap-l;
+    margin-top: var(--gap-l);
 
     a {
       color: inherit;
@@ -73,12 +73,13 @@
     }
 
     .header-anchor {
-      margin-left: $gap-m * -1.4333;
+      margin-left: calc(var(--gap-m) * -1.4333);
       visibility: hidden;
     }
 
     // p {
     //   text-align: justify;
+    //   hyphens: auto;
     // }
 
     table {
@@ -95,7 +96,7 @@
 
         th, td {
           border: 1px solid var(--color-accent-1);
-          padding: $gap-s $gap-m;
+          padding: var(--gap-s) var(--gap-m);
           white-space: nowrap;
         }
       }
@@ -104,16 +105,16 @@
     blockquote {
       position: relative;
       color: var(--color-text-secondary);
-      padding-left: $gap-l;
-      padding-right: $gap-l;
+      padding-left: var(--gap-l);
+      padding-right: var(--gap-l);
       overflow-wrap: break-word;
       word-break: break-all;
 
       &:before {
         position: absolute;
-        left: $gap-l * -1;
+        left: calc(var(--gap-l) * -1);
         content: '\201c';
-        font-family: $font-family-chinese;
+        font-family: var(--font-family-quotemark);
         font-size: 300%;
         font-weight: 700;
         line-height: 1;
@@ -125,8 +126,8 @@
     }
 
     ol, ul {
-      margin-bottom: $gap-m;
-      padding-left: $gap-m * 1.5;
+      margin-bottom: var(--gap-m);
+      padding-left: calc(var(--gap-m) * 1.5);
       text-align: justify;
 
       p {
@@ -145,31 +146,34 @@
     }
 
     pre, code {
-      font-family: $font-family-mono;
+      font-family: var(--font-family-mono);
     }
 
     pre {
-      line-height: $line-height-code;
-      font-size: $font-size-code;
+      line-height: var(--line-height-code);
+      font-size: var(--font-size-code);
     }
 
     .saber-highlight {
       position: relative;
       overflow: hidden;
-      margin: 0 0 $gap-m 0;
+      margin: 0 0 var(--gap-m) 0;
       border-radius: 0;
 
       &:before {
         content: attr(data-lang);
         position: absolute;
-        right: $gap-s;
-        font-size: $font-size-code;
+        right: var(--gap-s);
+        opacity: 0.2;
         color: var(--color-text-secondary);
+        font-family: var(--font-family-mono);
+        font-size: 1.5rem;
+        font-weight: 700;
       }
 
       pre.saber-highlight-code {
         margin: 0;
-        padding: $gap-m;
+        padding: var(--gap-m);
         overflow: auto;
       }
 
@@ -187,7 +191,7 @@
     hr {
       border: 0;
       height: auto;
-      margin: $gap-l auto;
+      margin: var(--gap-l) auto;
       color: var(--color-text-secondary);
       opacity: 0.5;
 
@@ -205,13 +209,13 @@
     }
 
     sub, sup {
-      font-size: $font-size-sub-sup;
+      font-size: var(--font-size-sub-sup);
     }
 
     // Content Block Element: Images
     img {
       max-width: 100%;
-      margin-bottom: $gap-m;
+      margin-bottom: var(--gap-m);
     }
 
     p {
@@ -229,12 +233,12 @@
       img, iframe {
         margin: 0 auto;
         display: block;
-        margin-bottom: $gap-s;
+        margin-bottom: var(--gap-s);
       }
 
       figcaption {
         color: var(--color-text-secondary);
-        font-size: $font-size-small;
+        font-size: var(--font-size-small);
         text-align: center;
 
         p {
@@ -243,7 +247,7 @@
         }
 
         code {
-          font-size: $font-size-small;
+          font-size: var(--font-size-small);
         }
       }
 
@@ -272,10 +276,10 @@
     // Content Block Element: Footnotes Section
     .footnotes {
       color: var(--color-text-secondary);
-      font-size: $font-size-footnotes;
+      font-size: var(--font-size-footnotes);
 
       p {
-        margin-bottom: $gap-s;
+        margin-bottom: var(--gap-s);
 
         a {
           &.footnote-backref {
@@ -287,14 +291,14 @@
   }
 
   .page-block-action {
-    margin-top: $gap-l;
+    margin-top: var(--gap-l);
     display: flex;
     justify-content: space-between;
 
     .page-tags {
       float: right;
       color: var(--color-text-secondary);
-      font-size: $font-size-small;
+      font-size: var(--font-size-small);
 
       .tag {
         color: var(--color-text-secondary);
@@ -308,7 +312,7 @@
       .tag:before {
         content: '#';
         opacity: 0.5;
-        margin-right: $gap-s / 5;
+        margin-right: var(--gap-s) / 5;
       }
 
       .tag:hover,
@@ -319,6 +323,6 @@
   }
 
   .page-footer {
-    margin-bottom: $gap-l;
+    margin-bottom: var(--gap-l);
   }
 }

@@ -142,7 +142,7 @@ export default {
       .post-meta {
         color: var(--color-text-secondary);
         display: block;
-        font-size: $font-size-small;
+        font-size: var(--font-size-small);
         font-style: italic;
       }
 
@@ -205,7 +205,7 @@ export default {
       padding-top: 2px;
     }
     .text {
-      margin: 0 $gap-s;
+      margin: 0 var(--gap-s);
     }
   }
 }

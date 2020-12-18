@@ -154,7 +154,7 @@ module.exports = {
           'display': 'flex',
           'border-radius': 0,
           'padding': '6px 6px 8px 8px',
-          'transition': 'none',
+          'transition': 'opacity .2s ease-in-out',
           'outline': 'none'
         }
       }
