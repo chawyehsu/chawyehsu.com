@@ -4,7 +4,7 @@ title: 关于
 keywords: about
 description: About page of The Art of Chawye Hsu
 date: 2015-05-18 00:00:00
-updated: 2020-12-02 13:40:00
+updated: 2020-12-19 12:21:00
 comments: false
 ---
 
@@ -16,7 +16,7 @@ comments: false
 
 #### 联系我 / Contact me:
 
-- [GitHub] / [Telegram] / [Steam] / [Twitter] / [Instagram] / [NeteaseCloudMusic]
+- [GitHub] / [Instagram] / [Twitter] / [NeteaseCloudMusic] / [Telegram] / [Steam]
 
 当然你可以通过上面所列的社交媒体找到并联系我。我每天会看电子邮箱，所以更好的方法是
 通过[邮件](mailto:chawyehsu@hotmail.com)联系。
@@ -26,9 +26,14 @@ comments: false
 
 ### 关于网站 / About TACH
 
-站点内引入了 Google 广告，主要是插入在文章中，对阅读影响不会很大。引入目的是测试能
-否在 1 年的时间回收站点域名的花费。除了域名外，站点暂未有其它直接费用支出。所以如果
-可以的话，望能对本站关闭 AdBlock 等广告屏蔽策略。
+站点内引入了 Google 广告，主要是插入在文章段落中，对阅读影响不会很大。引入目的是测
+试能否在一年的时间回收站点域名的花费。除了域名外，站点暂未有其它直接费用支出。所以
+如果可以的话，望能对本站关闭 AdBlock 等广告屏蔽策略。Google 提供的广告内容取决于你
+在 Google 的广告设置。
+
+站内有使用 Baidu Analytics / Google Analytics 第三方统计工具收集统计基础的页面访
+问信息，如果你对该行为表示不认同，可以通过设置浏览器开启 [Do Not Track] 即可禁止本
+站统计脚本的生效，我们遵循 Do Not Track 协议。或者，你可以直接关闭选择不浏览本站。
 
 本站源码公开，你可以访问[这里]查看到站点的架构、所有源码、项目各模块代码的授权形式
 以及项目演变历史等信息。请在合理范围内使用公开的内容。
@@ -63,9 +68,9 @@ You don’t need our permission to link to any pages of our website.
 
 [GitHub]: https://github.com/chawyehsu
 [NeteaseCloudMusic]: http://music.163.com/#/user/home?id=35631431
-[Telegram]: https://t.me/s/chawyehsu
+[Telegram]: https://t.me/chawyehsu
 [Steam]: https://steamcommunity.com/profiles/76561198139243084
 [Twitter]: https://twitter.com/chawyehsu
 [Instagram]: https://www.instagram.com/chawyehsu
-[V2EX]: https://www.v2ex.com/member/h404bi
 [这里]: https://github.com/chawyehsu/chawyehsu.com
+[Do Not Track]: https://en.wikipedia.org/wiki/Do_Not_Track
