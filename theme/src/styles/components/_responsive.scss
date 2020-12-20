@@ -30,15 +30,6 @@
 
 // <= 767px
 @media screen and (max-width: 767px) {
-  // Index portfolio
-  .tach-portfolio-feature {
-    .item-content {
-      .overlay {
-        opacity: 1;
-      }
-    }
-  }
-
   // Navbar
   .navbar-menu {
     background-color: inherit;
@@ -61,6 +52,16 @@
 
 // > 767px
 @media screen and (min-width: 768px) {
+  // Home Featured's overlay
+  .tach-portfolio-featured {
+    .item-content {
+      .overlay {
+        height: 100%;
+        opacity: 0;
+      }
+    }
+  }
+
   // Page Cover
   .page-cover {
     padding-top: 50%; // is-2by1

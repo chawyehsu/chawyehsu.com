@@ -19,7 +19,7 @@
           </div>
         </div>
       </section>
-      <section class="tach-portfolio-feature">
+      <section class="tach-portfolio-featured">
         <div class="tach-wrapper">
           <div class="container">
             <h4>Featured</h4>
@@ -124,7 +124,7 @@ export default {
   }
 }
 
-.tach-portfolio-feature {
+.tach-portfolio-featured {
   padding-top: 2.7778rem;
 
   .item-content {
@@ -155,11 +155,9 @@ export default {
       color: #ffffff;
       position: absolute;
       width: 100%;
-      height: 100%;
-      top: 0;
       left: 0;
+      bottom: 0;
       background: rgba(47, 47, 47, 0.5);
-      opacity: 0;
       z-index: 1;
       transition: all 0.3s ease-in-out;
     }
