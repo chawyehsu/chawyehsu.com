@@ -19,11 +19,13 @@
 // Auto dark mode
 @media (prefers-color-scheme: dark) {
   :root:not(.light) {
-    @include dark-mode-colors()
+    @include dark-mode-colors();
+    @include code-dark-mode();
   }
 }
 
 // Force dark mode
 :root.dark {
-  @include dark-mode-colors()
+  @include dark-mode-colors();
+  @include code-dark-mode();
 }
