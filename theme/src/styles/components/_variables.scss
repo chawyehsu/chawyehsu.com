@@ -55,7 +55,7 @@
   /**
    * Design System: The Colors
    */
-  // default/light mode color variables
+  // light mode color variables (default)
   --color-accent-0: #ffffff;
   --color-accent-1: #efefef;
   --color-accent-2: #dfdfdf;
@@ -68,6 +68,7 @@
   --color-background: var(--color-accent-0);
   --color-text-primary: var(--color-accent-5);
   --color-text-secondary: var(--color-accent-3);
+  // low contrast link color in light mode
   --color-link: var(--color-accent-7);
 
   /**
