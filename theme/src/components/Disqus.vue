@@ -48,7 +48,7 @@ export default {
 
 #dsqjs a:hover,
 #dsqjs a:focus {
-  color: var(--color-accent-7);
+  color: var(--color-link);
   text-decoration: underline;
   outline: none;
 }
@@ -78,5 +78,16 @@ export default {
 #dsqjs .dsqjs-order-radio:checked+.dsqjs-order-label {
   color: var(--color-accent-0);
   background-color: var(--color-accent-5);
+}
+
+#dsqjs .dsqjs-nav {
+  border-bottom: 1px solid var(--color-accent-1);
+}
+#dsqjs .dsqjs-tab-active>span:after {
+  background-color: var(--color-link)!important;
+}
+
+#dsqjs footer {
+  border-top: 1px solid var(--color-accent-1);
 }
 </style>
