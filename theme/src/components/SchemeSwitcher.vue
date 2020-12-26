@@ -27,25 +27,21 @@ export default {
     }
   },
   mounted () {
-    const _vm = this
-
     // A. prefers-color-scheme
-    if (process.browser) {
-      const m = window.matchMedia('(prefers-color-scheme: dark)')
-      // init currentScheme by `prefers-color-scheme`
-      this.currentScheme = m.matches ? 'dark' : 'light'
-      // add `onchange` event listener for `prefers-color-scheme`
-      m.addEventListener('change', e => {
-        // console.log(`prefers-color-scheme changed to ${e.matches ? 'dark' : 'light'}`)
-        // 1. delete localStorage color-scheme
-        _vm.setUserSelectedScheme()
-        // 2. remove root element's color-scheme classes
-        document.documentElement.classList.remove('light')
-        document.documentElement.classList.remove('dark')
-        // 3. update currentScheme by prefers-color-scheme
-        _vm.currentScheme = e.matches ? 'dark' : 'light'
-      })
-    }
+    const m = window.matchMedia('(prefers-color-scheme: dark)')
+    // init currentScheme by `prefers-color-scheme`
+    this.currentScheme = m.matches ? 'dark' : 'light'
+    // add `onchange` event listener for `prefers-color-scheme`
+    m.addEventListener('change', e => {
+      // console.log(`prefers-color-scheme changed to ${e.matches ? 'dark' : 'light'}`)
+      // 1. delete localStorage color-scheme
+      this.setUserSelectedScheme()
+      // 2. remove root element's color-scheme classes
+      document.documentElement.classList.remove('light')
+      document.documentElement.classList.remove('dark')
+      // 3. update currentScheme by prefers-color-scheme
+      this.currentScheme = e.matches ? 'dark' : 'light'
+    })
 
     // B. localStorage
     const selectedScheme = this.getUserSelectedScheme()
