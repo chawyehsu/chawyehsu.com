@@ -1,24 +1,29 @@
-// dark mode color variables
-@mixin color-dark-mode {
-  :root {
-    --color-accent-0: #121212;
-    --color-accent-1: #2f2f2f;
-    --color-accent-2: #3f3f3f;
-    --color-accent-3: #5f5f5f;
-    --color-accent-4: #bfbfbf;
-    --color-accent-5: #dfdfdf;
-    --color-accent-6: #efefef;
-    --color-accent-7: #ffffff;
-    --color-background-transparent: rgba(31, 31, 31, 0);
-    --color-background: var(--color-accent-0);
-    --color-text-primary: var(--color-accent-6);
-    --color-text-secondary: var(--color-accent-3);
-    --color-link: #66ccff;
-  }
+// dark mode mixin
+@mixin dark-mode-colors {
+  --color-accent-0: #121212;
+  --color-accent-1: #2f2f2f;
+  --color-accent-2: #3f3f3f;
+  --color-accent-3: #5f5f5f;
+  --color-accent-4: #bfbfbf;
+  --color-accent-5: #dfdfdf;
+  --color-accent-6: #efefef;
+  --color-accent-7: #ffffff;
+  --color-background-transparent: rgba(31, 31, 31, 0);
+  --color-background: var(--color-accent-0);
+  --color-text-primary: var(--color-accent-6);
+  --color-text-secondary: var(--color-accent-3);
+  //  high contrast link color in light mode (changable)
+  --color-link: #66ccff;
 }
 
 // Auto dark mode
-// @media (prefers-color-scheme: dark) {
-//   @include color-dark-mode();
-//   @include code-dark-mode();
-// }
+@media (prefers-color-scheme: dark) {
+  :root:not(.light) {
+    @include dark-mode-colors()
+  }
+}
+
+// Force dark mode
+:root.dark {
+  @include dark-mode-colors()
+}

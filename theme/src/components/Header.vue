@@ -30,6 +30,7 @@
                 :to="item.path"
                 v-text="item.name">
               </saber-link>
+              <SchemeSwitcher />
             </div>
           </div>
         </div>
@@ -39,7 +40,12 @@
 </template>
 
 <script>
+import SchemeSwitcher from './SchemeSwitcher'
+
 export default {
+  components: {
+    SchemeSwitcher
+  },
   methods: {
     toggleNavbarMenu () {
       this.$refs.burger.classList.toggle('is-active')
