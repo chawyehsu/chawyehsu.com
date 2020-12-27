@@ -1,6 +1,5 @@
 module.exports = {
   build: {
-    extractCSS: true,
     lazy: true
   },
   theme: "./theme/src",
