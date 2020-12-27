@@ -1,9 +1,9 @@
 export default function ({ Vue }) {
   const options = __SABER_GOOGLE_ADSENSE_OPTIONS__ // eslint-disable-line no-undef
 
-  // Import Google Adsense script
-  if (process.browser && options['adClientId']) {
-    (function () {
+  //Google Adsense script importer
+  const loadGaScript = () => {
+    if (!window.adsbygoogle) { // avoid duplicate import
       var ads = document.createElement('script')
       ads.async = true
       ads.src = options['adsenseScriptUrl']
@@ -15,10 +15,10 @@ export default function ({ Vue }) {
       }
       var s = document.getElementsByTagName('script')[0]
       s.parentNode.insertBefore(ads, s)
-    })()
+    }
   }
 
-  // Register ad component
+  // Register ad vue-component
   Vue.component('adsbygoogle', {
     props: {
       adClient: {
@@ -53,6 +53,7 @@ export default function ({ Vue }) {
       }
     },
     mounted () {
+      loadGaScript() // import ga script before renderer ads
       this.showAd()
     },
     watch: {
