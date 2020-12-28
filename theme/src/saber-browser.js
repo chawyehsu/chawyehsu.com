@@ -49,11 +49,6 @@ export default ({ Vue, setHead }) => {
           vm.$feed.type === 'rss2' ? 'application/rss+xml' : 'application/json'
       },
       {
-        href: 'https://use.typekit.net/',
-        rel: 'preconnect',
-        crossorigin: true
-      },
-      {
         href: 'https://cdn.jsdelivr.net/',
         rel: 'preconnect',
         crossorigin: true
