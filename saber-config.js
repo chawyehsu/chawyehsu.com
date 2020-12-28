@@ -120,9 +120,10 @@ module.exports = {
     {
       resolve: './packages/saber-plugin-image',
       options: {
+        adapter: 'sharp',
         sizes: [1200, 720, 480],
         placeholder: true,
-        blendIn: false
+        blendIn: true
       }
     },
     {
