@@ -6,7 +6,8 @@ exports.name = ID
 exports.apply = (api, options = {}) => {
   options = Object.assign(
     {
-      kitId: false,
+      kitId: undefined,
+      typekitHost: 'https://use.typekit.net',
       // Option for Typekit Cache: https://github.com/morris/typekit-cache
       useTypekitCache: false,
       typekitCacheUrl: 'https://cdn.jsdelivr.net/npm/typekit-cache'

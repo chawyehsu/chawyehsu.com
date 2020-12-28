@@ -2,7 +2,7 @@ export default function () {
   const options = __SABER_ADOBE_FONT_OPTIONS__ // eslint-disable-line no-undef
 
   if (process.browser && options['kitId']) {
-    (function(d) {
+    (function (d) {
       var config = {
         kitId: options['kitId'],
         scriptTimeout: 3000,
@@ -17,7 +17,7 @@ export default function () {
       s = d.getElementsByTagName("script")[0], a
 
       h.className += " wf-loading"
-      tk.src = 'https://use.typekit.net/' + config.kitId + '.js'
+      tk.src = config.typekitHost + '/' + config.kitId + '.js'
       tk.async = true
       tk.onload = tk.onreadystatechange = function () {
         a = this.readyState
