@@ -17,7 +17,7 @@ export default function () {
       s = d.getElementsByTagName("script")[0], a
 
       h.className += " wf-loading"
-      tk.src = config.typekitHost + '/' + config.kitId + '.js'
+      tk.src = options['typekitHost'] + '/' + config.kitId + '.js'
       tk.async = true
       tk.onload = tk.onreadystatechange = function () {
         a = this.readyState
