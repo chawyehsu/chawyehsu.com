@@ -4,9 +4,35 @@ const ID = 'images'
 
 exports.name = ID
 
+const detectAdapter = (adapter) => {
+  if (adapter === 'sharp') {
+    try {
+      require('sharp') // A test
+      // return the acutal adapter
+      return require('responsive-loader/sharp')
+    } catch (e) {
+      throw new Error('To use sharp adapter with saber-plugin-image, \
+sharp dependency installation is required.')
+    }
+  } else if (adapter === 'jimp') {
+    try {
+      require('jimp') // A test
+      // return the acutal adapter
+      return require('responsive-loader/jimp')
+    } catch (e) {
+      throw new Error('To use jimp adapter with saber-plugin-image, \
+jimp dependency installation is required.')
+    }
+  } else {
+    throw new Error(`${adapter} adapter is not supported, \
+either jimp or sharp is supported by saber-plugin-image.`)
+  }
+}
+
 exports.apply = (api, options = {}) => {
   options = Object.assign(
     {
+      adapter: 'jimp',
       lazyLoad: true,
       placeholder: true,
       blendIn: true,
@@ -14,6 +40,9 @@ exports.apply = (api, options = {}) => {
     },
     options
   )
+
+  // update adapter string to the actual imported adapter
+  options.adapter = detectAdapter(options.adapter)
 
   api.browserApi.add(join(__dirname, 'saber-browser.js'))
 
@@ -84,7 +113,6 @@ exports.apply = (api, options = {}) => {
       .use('responsive-loader')
       .loader(require.resolve('responsive-loader'))
       .options({
-        adapter: require('responsive-loader/sharp'),
         name: "images/[name]-[hash:8].[ext]",
         ...options
       })

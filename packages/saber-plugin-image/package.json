@@ -1,14 +1,15 @@
 {
   "name": "saber-plugin-image",
-  "version": "0.2.0",
-  "main": "lib/index.js",
+  "version": "0.2.2",
+  "main": "index.js",
   "files": [
-    "lib"
+    "components",
+    "index.js",
+    "saber-browser.js"
   ],
   "license": "MIT",
   "dependencies": {
     "lozad": "^1.9.0",
-    "responsive-loader": "^2.3.0",
-    "sharp": "^0.27.0"
+    "responsive-loader": "^2.3.0"
   }
 }
