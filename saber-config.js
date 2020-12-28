@@ -91,6 +91,14 @@ module.exports = {
     page: '/:slug'
   },
   plugins: [
+    // private plugins
+    {
+      resolve: 'saber-plugin-adobe-font',
+      options: {
+        kitId: 'qxo6reu',
+        useTypekitCache: true
+      }
+    },
     {
       resolve: 'saber-plugin-baidu-analytics',
       options: {
@@ -110,22 +118,6 @@ module.exports = {
       }
     },
     {
-      resolve: 'saber-plugin-feed',
-      options: {
-        atomFeed: '/feed/atom.xml'
-      }
-    },
-    {
-      resolve: 'saber-plugin-query-posts',
-      options: {
-        perPage: 12,
-        permalinks: {
-          category: '/blog/category/:name',
-          tag: '/blog/tag/:name'
-        }
-      }
-    },
-    {
       resolve: './packages/saber-plugin-image',
       options: {
         sizes: [1200, 720, 480],
@@ -134,18 +126,18 @@ module.exports = {
       }
     },
     {
-      resolve: './packages/saber-plugin-adobe-font',
-      options: {
-        kitId: 'qxo6reu',
-        useTypekitCache: true
-      }
-    },
-    {
-      resolve: './packages/saber-plugin-jsdelivr-cdn',
+      resolve: 'saber-plugin-jsdelivr-cdn',
       options: {
         prefix: 'https://cdn.jsdelivr.net/gh/chawyehsu/chawyehsu.com@gh-pages'
       }
     },
+    {
+      resolve: 'saber-plugin-sitemap',
+      options: {
+        template: './sitemap.xml'
+      }
+    },
+    // public plugins
     {
       resolve: 'saber-plugin-code-copy',
       options: {
@@ -159,7 +151,23 @@ module.exports = {
       }
     },
     {
+      resolve: 'saber-plugin-feed',
+      options: {
+        atomFeed: '/feed/atom.xml'
+      }
+    },
+    {
       resolve: 'saber-plugin-prismjs'
+    },
+    {
+      resolve: 'saber-plugin-query-posts',
+      options: {
+        perPage: 12,
+        permalinks: {
+          category: '/blog/category/:name',
+          tag: '/blog/tag/:name'
+        }
+      }
     },
     {
       resolve: 'saber-plugin-pwa',
@@ -176,12 +184,6 @@ module.exports = {
             }
           ]
         }
-      }
-    },
-    {
-      resolve: 'saber-plugin-sitemap',
-      options: {
-        template: './sitemap.xml'
       }
     }
   ]
