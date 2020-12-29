@@ -2,7 +2,7 @@ module.exports = {
   build: {
     lazy: true
   },
-  theme: "./theme/src",
+  theme: "./theme",
   siteConfig: {
     lang: 'zh-CN',
     appleAppTitle: 'TACH',
