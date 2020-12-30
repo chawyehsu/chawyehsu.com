@@ -29,7 +29,7 @@
     "saber-plugin-pwa": "0.4.4",
     "saber-plugin-query-posts": "0.4.6",
     "saber-plugin-sitemap": "0.4.1",
-    "sass": "1.30.0",
+    "sass": "1.32.0",
     "sass-loader": "10.1.0",
     "sharp": "^0.27.0",
     "tinytime": "0.2.6",
