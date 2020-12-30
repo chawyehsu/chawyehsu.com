@@ -103,16 +103,17 @@
     }
 
     blockquote {
+      margin: var(--gap-l) 0;
       position: relative;
       color: var(--color-text-secondary);
-      padding-left: var(--gap-l);
+      padding-left: calc(var(--gap-l) * 1.5);
       padding-right: var(--gap-l);
       overflow-wrap: break-word;
-      word-break: break-all;
 
       &:before {
         position: absolute;
-        left: calc(var(--gap-l) * -1);
+        top: calc(var(--gap-m) * -1);
+        left: 0;
         content: '\201c';
         font-family: var(--font-family-quotemark);
         font-size: 300%;
