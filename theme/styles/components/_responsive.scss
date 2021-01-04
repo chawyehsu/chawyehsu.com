@@ -1,7 +1,7 @@
 // Fluid Typography: https://www.giuem.com/a-brief-introduction-to-fluid-typography/
 @media screen and (min-width: 321px) {
   html {
-    font-size: calc(16.8px + 8 * (100vw - 320px) / (2560 - 320));
+    font-size: calc(16px + (24 - 16) * (100vw - 320px) / (2560 - 320));
   }
 }
 @media screen and (min-width: 2560px) {
