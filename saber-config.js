@@ -81,7 +81,11 @@ module.exports = {
         resolve: './packages/markdown-it-implicit-figures',
         options: {
           dataType: true,
-          figcaption: true
+          figcaption: true,
+          galleryClass: 'md-gallery',
+          galleryImageClass: 'md-gallery-image',
+          schemaAttributes: true,
+          wrapImagesInLinks: false
         }
       }
     ]
