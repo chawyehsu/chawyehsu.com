@@ -27,13 +27,22 @@ MV[^1]。这首在 2018 年引起病毒式传播的歌曲，在发布的 35 年�
 
 <!-- more -->
 
-<p style="position:relative;padding-bottom:56.25%;">
-<iframe style="position:absolute;width:100%;height:100%" src="//player.bilibili.com/player.html?aid=52777386&cid=92355909&page=1&as_wide=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen></iframe></p>
+<figure data-type="video">
+  <iframe
+    src="https://player.bilibili.com/player.html?aid=52777386&cid=92355909&page=1&as_wide=1"
+    width="800" height="450" allowfullscreen>
+  </iframe>
+</figure>
 
 如果你还未曾对这首极具时代色彩的日本 City Pop 歌曲有所了解的话，别担心，点击播放这
 首歌曲，来与我一边感受日本八十年代特有的气息，一边继续慢慢阅读下文。
 
-<p><iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width="100%" height="100" src="//music.163.com/outchain/player?type=2&id=659423&auto=0&height=66"></iframe></p>
+<figure>
+  <iframe
+    src="https://music.163.com/outchain/player?type=2&id=659423&auto=0&height=66"
+    width="100%" height="auto">
+  </iframe>
+</figure>
 
 1984 年，结婚两年后的竹内玛莉亚以专辑《Variety》复出，正式完全转型为创作歌手。对于
 这位当时还是 29 岁的音乐人而言，这张专辑的推出成为了她的一个重要转折点 ——《Variety》
@@ -44,7 +53,7 @@ MV[^1]。这首在 2018 年引起病毒式传播的歌曲，在发布的 35 年�
 《Plastic Love》作为一支单曲发行，一度冲上 Oricon 榜第 86 位。
 
 ![《Plastic Love -Extended Club Mix-》](../_assets/uploads/2019/05/20190519009.png)
-{.fullwidth}
+{.alignfull}
 
 竹内玛莉亚的许多歌曲都曾被翻唱过，比如陈慧娴的《岁月流声》翻唱自她的《Natalie》，
 草蜢的《原谅我是我》翻唱自《シソグルアゲイソ》。当然这首《Plastic Love》也不例外，

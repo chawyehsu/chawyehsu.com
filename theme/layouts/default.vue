@@ -50,7 +50,7 @@
               本文最后更新于 {{ days() }} 天（{{ humanDate() }}）前，其中的信息可能已经有所发展或者不再适合现在
             </section>
           </client-only>
-          <section :class="[page.fullwidthImage ? 'page-body fullwidth-image' : 'page-body']">
+          <section class="page-body">
             <Photoswipe v-if="$themeConfig.pswp" auto :options="{ shareEl: false }">
               <slot name="default" />
             </Photoswipe>

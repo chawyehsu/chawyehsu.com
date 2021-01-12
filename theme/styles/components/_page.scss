@@ -3,7 +3,7 @@
   width: 100%;
 
   .page-inner-wrapper {
-    padding: 0 $column-gap;
+    padding: 0 var(--gap-m);
   }
 
   .page-header {
@@ -227,20 +227,25 @@
     }
 
     figure {
+      text-align: center;
+
       > a {
         border: 0 !important;
       }
 
       img, iframe {
-        margin: 0 auto;
-        display: block;
-        margin-bottom: var(--gap-s);
+        margin: 0;
+        vertical-align: middle; /* inline-block image gap fix */
+      }
+
+      iframe {
+        max-width: 100%;
       }
 
       figcaption {
+        margin-top: var(--gap-m);
         color: var(--color-text-secondary);
         font-size: var(--font-size-small);
-        text-align: center;
 
         p {
           margin: 0;
@@ -255,22 +260,23 @@
       blockquote {
         text-align: left;
       }
-    }
 
-    figure.highlight {
-      text-align: left;
-    }
+      &[data-type=video] {
+        position: relative;
+        padding-bottom: 56.25%; /* 16:9 */
+        height: 0;
 
-    // Page-level global Full-width images
-    &.fullwidth-image {
-      // default images, not possible
+        iframe {
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: 100%;
+          height: 100%;
+        }
+      }
 
-      // figure images
-      figure[data-type=image] {
-        margin-left: calc(-100vw / 2 + 100% / 2);
-        margin-right: calc(-100vw / 2 + 100% / 2);
-        max-width: 100vw;
-        float: none; // fullwidth > float, remove floating
+      .highlight {
+        text-align: left;
       }
     }
 

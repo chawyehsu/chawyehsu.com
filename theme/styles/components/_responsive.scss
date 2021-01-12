@@ -85,3 +85,12 @@
     }
   }
 }
+
+@media screen and (min-width: 1280px) {
+  .alignwide {
+    margin-left: -220px;
+    margin-right: -220px;
+    max-width: 1280px;
+    padding: 0;
+  }
+}

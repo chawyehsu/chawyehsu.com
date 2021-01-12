@@ -18,7 +18,7 @@
 
 .tach-page-wrapper {
   margin: 0 auto;
-  max-width: 840px;
+  max-width: var(--container-max-width);
 }
 
 .h1 {
@@ -50,8 +50,14 @@
   padding: 0 $column-gap;
 }
 
-.fullwidth {
+.alignwide,
+.alignfull {
   margin-left: calc(-100vw / 2 + 100% / 2);
   margin-right: calc(-100vw / 2 + 100% / 2);
   max-width: 100vw;
+}
+
+.alignwide {
+  padding-left: var(--gap-m);
+  padding-right: var(--gap-m);
 }

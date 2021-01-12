@@ -28,7 +28,8 @@
     'Times New Roman',
     Times,
     serif;
-
+  // This is the max-width for the main content body
+  --container-max-width: 840px;
   /**
    * Typography: Font Sizes and Line Height
    */
