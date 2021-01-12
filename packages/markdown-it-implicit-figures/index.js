@@ -61,6 +61,7 @@ module.exports = function implicitFiguresPlugin (md, options) {
         if (options.wrapImagesInLinks === true) {
           const linkOpen = new state.Token('link_open', 'a', 1);
           linkOpen.attrPush(['href', image.attrGet('src')]);
+          linkOpen.attrPush(['target', '_blank']);
           const linkClose = new state.Token('link_close', 'a', -1);
 
           token.children.unshift(linkOpen);
@@ -122,6 +123,7 @@ module.exports = function implicitFiguresPlugin (md, options) {
           if (options.wrapImagesInLinks === true) {
             const linkOpen = new state.Token('link_open', 'a', 1);
             linkOpen.attrPush(['href', image.attrGet('src')]);
+            linkOpen.attrPush(['target', '_blank']);
             const linkClose = new state.Token('link_close', 'a', -1);
 
             if (options.schemaAttributes === true) {
