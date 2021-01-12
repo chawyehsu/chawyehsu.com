@@ -22,7 +22,7 @@ comments: false
 通过[邮件](mailto:chawyehsu@hotmail.com)联系。
 
 ![我的生产力工具：Leopold fc660m](./_assets/uploads/2019/07/20190720001.jpg)
-{.fullwidth}
+{.alignfull}
 
 ### 关于网站 / About TACH
 
