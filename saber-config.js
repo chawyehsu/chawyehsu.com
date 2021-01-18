@@ -132,7 +132,7 @@ module.exports = {
       }
     },
     {
-      resolve: './packages/saber-plugin-image-photoswipe',
+      resolve: 'saber-plugin-image-photoswipe',
       options: {
         options: {
           shareEl: false

@@ -25,6 +25,7 @@
     "saber-plugin-feed": "0.4.3",
     "saber-plugin-ga-lite": "0.4.0",
     "saber-plugin-google-adsense": "0.3.0",
+    "saber-plugin-image-photoswipe": "0.1.0",
     "saber-plugin-jsdelivr-cdn": "0.1.0",
     "saber-plugin-prismjs": "0.2.4",
     "saber-plugin-pwa": "0.4.4",
