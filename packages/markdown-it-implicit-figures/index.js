@@ -6,8 +6,9 @@ module.exports = function implicitFiguresPlugin (md, options) {
     figcaption: false,
     galleryClass: 'md-gallery',
     galleryImageClass: '',
-    wrapImagesInLinks: false,
-    schemaAttributes: true
+    photoswipe: false,
+    schemaAttributes: true,
+    wrapImagesInLinks: false
   }, options);
 
   function tokenAddClass(token, val) {
@@ -27,15 +28,15 @@ module.exports = function implicitFiguresPlugin (md, options) {
     for (let i = 1; i < tokensRange; ++i) {
       const token = tokens[i];
       const CHILD_TYPES = ['image', 'softbreak'];
-      // prerequisites 1: should be an inline token
+      // prerequisites: should be an inline token
       if (token.type !== 'inline') continue;
-      // prerequisites 2: prev token should be paragraph_open
+      // prerequisites: prev token should be paragraph_open
       if (tokens[i - 1].type !== 'paragraph_open') continue;
-      // prerequisites 3: next token should be paragraph_close
+      // prerequisites: next token should be paragraph_close
       if (!tokens[i + 1] || tokens[i + 1].type !== 'paragraph_close') continue;
-      // prerequisites 4: should have children token(s)
-      if (!token.children.length) continue;
-      // prerequisites 5: children token(s) should be only of type image and softbreak
+      // prerequisites: should have children token(s)
+      if (!token.children || !token.children.length) continue;
+      // prerequisites: children token(s) should be only of type image and softbreak
       if (!token.children.reduce(
         (prev, curr) => prev && CHILD_TYPES.includes(curr.type), true)
       ) continue;
@@ -43,7 +44,7 @@ module.exports = function implicitFiguresPlugin (md, options) {
       // select only image tokens
       const images = token.children.filter(t => t.type === 'image');
 
-      if (images.length === 1) { // condition 1: there is only one image
+      if (images.length === 1) { // condition A: there is only one image
         // replace paragraph token to figure token
         tokens[i - 1].type = 'figure_open';
         tokens[i - 1].tag = 'figure';
@@ -53,11 +54,11 @@ module.exports = function implicitFiguresPlugin (md, options) {
         const image = token.children[0];
         // fix alt
         image.attrSet('alt', image.content);
-        // options 1: use data-type for figure
+        // options: use data-type for figure
         if (options.dataType == true) {
           tokens[i - 1].attrPush(['data-type', 'image']);
         }
-        // options 2: wrap images in links
+        // options: wrap images in links
         if (options.wrapImagesInLinks === true) {
           const linkOpen = new state.Token('link_open', 'a', 1);
           linkOpen.attrPush(['href', image.attrGet('src')]);
@@ -67,7 +68,7 @@ module.exports = function implicitFiguresPlugin (md, options) {
           token.children.unshift(linkOpen);
           token.children.push(linkClose);
         }
-        // options 3: use figcaption
+        // options: use figcaption
         if (options.figcaption === true) {
           if (image.children && image.children.length) {
             token.children.push(
@@ -77,13 +78,18 @@ module.exports = function implicitFiguresPlugin (md, options) {
               );
           }
         }
-
+        // options: photoswipe integration
+        if (options.photoswipe) {
+          image.attrSet('data-pswp-title', image.content);
+          tokens[i - 1].attrPush(['data-pswp', 'true']);
+        }
+        // options: schema attributes
         if (options.schemaAttributes === true) {
           tokens[i - 1].attrSet('itemscope', '');
           tokens[i - 1].attrSet('itemprop', 'associatedMedia');
           tokens[i - 1].attrSet('itemtype', 'http://schema.org/ImageObject');
         }
-      } else { // condition 2: there are more than one images, use gallery mode
+      } else { // condition B: there are more than one images, use gallery mode
         // replace paragraph token to gallery container token
         tokens[i - 1].type = 'container_gallery_open';
         tokens[i - 1].tag = 'div';
@@ -91,7 +97,11 @@ module.exports = function implicitFiguresPlugin (md, options) {
         tokens[i + 1].tag = 'div';
 
         tokenAddClass(tokens[i - 1], options.galleryClass);
-
+        // options: photoswipe integration
+        if (options.photoswipe) {
+          tokens[i - 1].attrPush(['data-pswp', 'true']);
+        }
+        // options: schema attributes
         if (options.schemaAttributes === true) {
           tokens[i - 1].attrSet('itemscope', '');
           tokens[i - 1].attrSet('itemtype', 'http://schema.org/ImageGallery');
@@ -100,18 +110,20 @@ module.exports = function implicitFiguresPlugin (md, options) {
         token.children = images.reduce((t, image) => {
           const figureOpen = new state.Token('figure_open', 'figure', 1);
           const figureClose = new state.Token('figure_close', 'figure', -1);
-
           // image attributes: fix alt
           image.attrSet('alt', image.content);
+          if (options.photoswipe) {
+            image.attrSet('data-pswp-title', image.content);
+          }
           // image attributes: add gallery class
           if (options.galleryImageClass) {
             tokenAddClass(image, options.galleryImageClass);
           }
-
+          // options: use data-type for figure
           if (options.dataType == true) {
             figureOpen.attrPush(['data-type', 'image']);
           }
-
+          // options: schema attributes
           if (options.schemaAttributes === true) {
             figureOpen.attrSet('itemscope', '');
             figureOpen.attrSet('itemprop', 'associatedMedia');
@@ -119,24 +131,22 @@ module.exports = function implicitFiguresPlugin (md, options) {
           }
 
           t.push(figureOpen);
-
+          // options: wrap images in links
           if (options.wrapImagesInLinks === true) {
             const linkOpen = new state.Token('link_open', 'a', 1);
             linkOpen.attrPush(['href', image.attrGet('src')]);
             linkOpen.attrPush(['target', '_blank']);
             const linkClose = new state.Token('link_close', 'a', -1);
-
+            // options: schema attributes
             if (options.schemaAttributes === true) {
               figureOpen.attrSet('itemprop', 'contentUrl');
             }
 
-            t.push(linkOpen);
-            t.push(image);
-            t.push(linkClose);
+            t.push(linkOpen, image, linkClose);
           } else {
             t.push(image);
           }
-
+          // options: use figcaption
           if (options.figcaption === true) {
             if (image.children && image.children.length) {
               t.push(
