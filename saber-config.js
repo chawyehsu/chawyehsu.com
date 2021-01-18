@@ -84,6 +84,7 @@ module.exports = {
           figcaption: true,
           galleryClass: 'md-gallery',
           galleryImageClass: 'md-gallery-image',
+          photoswipe: true,
           schemaAttributes: true,
           wrapImagesInLinks: false
         }
@@ -127,8 +128,16 @@ module.exports = {
         adapter: 'sharp',
         sizes: [1200, 720, 480],
         placeholder: true,
-        blendIn: true,
-        photoswipe: true
+        blendIn: true
+      }
+    },
+    {
+      resolve: './packages/saber-plugin-image-photoswipe',
+      options: {
+        options: {
+          shareEl: false
+        },
+        auto: true
       }
     },
     {

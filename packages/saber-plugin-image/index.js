@@ -70,18 +70,6 @@ exports.apply = (api, options = {}) => {
                   child.tag = 'saber-image'
                   child.nesting = 1
 
-                  // Detect Markdown image querystring
-                  let qs = child.attrGet('src').split('?')[1]
-                  if (qs) {
-                    qs = require('querystring').parse(qs)
-                    Object.keys(qs).forEach(key => {
-                      if (qs[key] === 'true' || qs[key] === 'false') {
-                        qs[key] = JSON.parse(qs[key])
-                      }
-                    })
-                    child.attrSet('data-lazy', JSON.stringify(qs))
-                  }
-
                   // Append closing tag for saber-image
                   children.splice(
                     children.indexOf(child) + 1,

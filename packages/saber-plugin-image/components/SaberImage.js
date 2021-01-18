@@ -33,14 +33,8 @@ export default {
     let { $attrs } = this
     const options = Object.assign(
       __SABER_IMAGE_OPTIONS__, // eslint-disable-line no-undef
-      JSON.parse($attrs['data-lazy'] || '{}'),
       this.lazy
     )
-
-    // Photoswipe title support
-    if (options['photoswipe'] && $attrs.alt) {
-      $attrs['data-pswp-title'] = $attrs.alt
-    }
 
     // lazyload
     if (options['lazyLoad']) {
@@ -80,10 +74,10 @@ export default {
       })
     }
 
-    let { src, srcSet: srcset } = this.src || {}
+    let { width, height, src, srcSet: srcset } = this.src || {}
 
     return h('img', {
-      attrs: { ...$attrs, src, srcset }
+      attrs: { ...$attrs, src, srcset, width, height }
     })
   }
 }

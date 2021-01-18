@@ -51,10 +51,7 @@
             </section>
           </client-only>
           <section class="page-body">
-            <Photoswipe v-if="$themeConfig.pswp" auto :options="{ shareEl: false }">
-              <slot name="default" />
-            </Photoswipe>
-            <slot v-else name="default" />
+            <slot name="default" />
           </section>
           <section class="page-block-action" v-if="$themeConfig.share || page.tagsInfo">
             <div class="page-share"></div>
@@ -93,12 +90,6 @@ export default {
     Header,
     Footer,
     Disqus
-  },
-  beforeMount () {
-    Vue.component('Photoswipe',
-      () => import('vue-pswipe')
-        .then(({ Photoswipe }) => Photoswipe)
-    )
   },
   methods: {
     date,
