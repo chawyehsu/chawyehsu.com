@@ -33,7 +33,7 @@
     "sass-loader": "10.1.0",
     "sharp": "^0.27.0",
     "tinytime": "0.2.6",
-    "vue-pswipe": "0.15.1"
+    "vue-pswipe": "0.15.2"
   },
   "workspaces": [
     "packages/*"
