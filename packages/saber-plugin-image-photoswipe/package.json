@@ -9,6 +9,7 @@
   ],
   "license": "MIT",
   "peerDependencies": {
-    "markdown-it-md-gallery": "0.1.0"
+    "saber-plugin-image": "^0.2.2",
+    "markdown-it-figure-gallery": "^0.1.0"
   }
 }
