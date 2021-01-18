@@ -78,13 +78,13 @@ module.exports = {
         resolve: 'markdown-it-attrs'
       },
       {
-        resolve: './packages/markdown-it-implicit-figures',
+        resolve: 'markdown-it-figure-gallery',
         options: {
           dataType: true,
           figcaption: true,
           galleryClass: 'md-gallery',
           galleryImageClass: 'md-gallery-image',
-          photoswipe: true,
+          photoswipeIntegration: true,
           schemaAttributes: true,
           wrapImagesInLinks: false
         }

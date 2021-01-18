@@ -1,12 +1,12 @@
 'use strict';
 
-module.exports = function implicitFiguresPlugin (md, options) {
+module.exports = function figureGalleryPlugin (md, options) {
   options = Object.assign({
     dataType: false,
     figcaption: false,
     galleryClass: 'md-gallery',
-    galleryImageClass: '',
-    photoswipe: false,
+    galleryImageClass: undefined,
+    photoswipeIntegration: false,
     schemaAttributes: true,
     wrapImagesInLinks: false
   }, options);
@@ -20,7 +20,7 @@ module.exports = function implicitFiguresPlugin (md, options) {
     }
   }
 
-  function implicitFigures (state) {
+  function figureGallery (state) {
     const tokens = state.tokens;
     const tokensRange = tokens.length - 1;
 
@@ -79,7 +79,7 @@ module.exports = function implicitFiguresPlugin (md, options) {
           }
         }
         // options: photoswipe integration
-        if (options.photoswipe) {
+        if (options.photoswipeIntegration) {
           image.attrSet('data-pswp-title', image.content);
           tokens[i - 1].attrPush(['data-pswp', 'true']);
         }
@@ -98,7 +98,7 @@ module.exports = function implicitFiguresPlugin (md, options) {
 
         tokenAddClass(tokens[i - 1], options.galleryClass);
         // options: photoswipe integration
-        if (options.photoswipe) {
+        if (options.photoswipeIntegration) {
           tokens[i - 1].attrPush(['data-pswp', 'true']);
         }
         // options: schema attributes
@@ -112,7 +112,7 @@ module.exports = function implicitFiguresPlugin (md, options) {
           const figureClose = new state.Token('figure_close', 'figure', -1);
           // image attributes: fix alt
           image.attrSet('alt', image.content);
-          if (options.photoswipe) {
+          if (options.photoswipeIntegration) {
             image.attrSet('data-pswp-title', image.content);
           }
           // image attributes: add gallery class
@@ -164,5 +164,5 @@ module.exports = function implicitFiguresPlugin (md, options) {
       }
     }
   }
-  md.core.ruler.before('linkify', 'implicit_figures', implicitFigures);
+  md.core.ruler.before('linkify', 'figure_gallery', figureGallery);
 };
