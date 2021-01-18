@@ -6445,10 +6445,10 @@ vue-meta@^2.3.3:
   dependencies:
     deepmerge "^4.2.2"
 
-vue-pswipe@0.15.1:
-  version "0.15.1"
-  resolved "https://registry.yarnpkg.com/vue-pswipe/-/vue-pswipe-0.15.1.tgz#3644c54074ffa5040862a688c65796989fef97ed"
-  integrity sha512-4t92l5anN6LQDnzpKxVxhMctfO0S09wAI5t22LtlyTK+iyf5eNSQS7rWa7Sai2HIZeeiBn+yKinZ1twJx8NVYg==
+vue-pswipe@0.15.2:
+  version "0.15.2"
+  resolved "https://registry.yarnpkg.com/vue-pswipe/-/vue-pswipe-0.15.2.tgz#7023500c371f4f8471da6d9a8e5fdf6b82bda6a6"
+  integrity sha512-KSDWuMtRTQBS36HnPjF2C6RPQ8FuGxuATxPIcgQLmcyCfFNSNHiucfmApUpstH/g9GlPWT7dlbPmJ+Hi5j1uEw==
   dependencies:
     "@types/photoswipe" "^4.0.29"
     photoswipe "^4.1.3"
