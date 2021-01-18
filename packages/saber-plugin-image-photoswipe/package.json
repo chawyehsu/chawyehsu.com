@@ -1,0 +1,14 @@
+{
+  "name": "saber-plugin-image-photoswipe",
+  "version": "0.1.0",
+  "main": "index.js",
+  "files": [
+    "index.js",
+    "saber-browser.js",
+    "shim.js"
+  ],
+  "license": "MIT",
+  "peerDependencies": {
+    "markdown-it-md-gallery": "0.1.0"
+  }
+}
