@@ -4,6 +4,14 @@ const renderAttrs = require('./shim')
 const ID = 'saber-plugin-image-photoswipe'
 exports.name = ID
 
+const checkMarkdownPlugin = () => {
+  try {
+    require('markdown-it-figure-gallery')
+  } catch (e) {
+    throw new Error('markdown-it-figure-gallery plugin is required.')
+  }
+}
+
 exports.apply = (api, options = {}) => {
   options = Object.assign(
     {
@@ -15,6 +23,8 @@ exports.apply = (api, options = {}) => {
     },
     options
   )
+
+  checkMarkdownPlugin()
 
   // Wrap Markdown image/gallery with PhotoSwipe Component
   api.hooks.chainMarkdown.tap(ID, config => {

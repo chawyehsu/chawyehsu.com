@@ -1,9 +1,9 @@
 # saber-plugin-image-photoswipe
 
-photoswipe plugin for saber images
+photoswipe ingegration plugin for Saber images
 
 ## Install
 
 ```bash
-yarn add saber-plugin-image-photoswipe
+yarn add saber-plugin-image-photoswipe markdown-it-figure-gallery
 ```
