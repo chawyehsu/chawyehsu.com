@@ -16,15 +16,17 @@
     border: 0;
   }
 
-  &.alignwide iframe {
-    width: calc(100% - var(--gap-m) * 2);
-  }
-
   &.embed-aspect-4-3::before {
     padding-bottom: 75%;
   }
 
   &.embed-aspect-16-9::before {
     padding-bottom: 56.25%;
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  .embed-wrapper.alignwide iframe {
+    width: calc(100% - var(--gap-m) * 2);
   }
 }
