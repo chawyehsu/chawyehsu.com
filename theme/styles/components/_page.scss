@@ -44,6 +44,7 @@
   .page-body {
     margin-top: var(--gap-l);
 
+    // Content Block Element: <a> Link
     a {
       color: inherit;
       text-decoration: none;
@@ -62,6 +63,7 @@
       }
     }
 
+    // Content Block Element: Headline
     h1, h2, h3, h4,
     h5, h6 {
       &:hover,
@@ -71,17 +73,18 @@
         }
       }
     }
-
     .header-anchor {
       margin-left: calc(var(--gap-m) * -1.4333);
       visibility: hidden;
     }
 
+    // Content Block Element: Paragraph
     // p {
     //   text-align: justify;
     //   hyphens: auto;
     // }
 
+    // Content Block Element: Table
     table {
       border-collapse: collapse;
       border-spacing: 0;
@@ -102,6 +105,7 @@
       }
     }
 
+    // Content Block Element: Blockquote
     blockquote {
       margin: var(--gap-l) 0;
       position: relative;
@@ -126,6 +130,7 @@
       }
     }
 
+    // Content Block Element: List
     ol, ul {
       margin-bottom: var(--gap-m);
       padding-left: calc(var(--gap-m) * 1.5);
@@ -135,26 +140,23 @@
         margin-bottom: 0;
       }
     }
-
     ul {
       list-style-type: square;
     }
-
     li {
       ul, ol {
         margin-bottom: 0;
       }
     }
 
+    // Content Block Element: Code Block
     pre, code {
       font-family: var(--font-family-mono);
     }
-
     pre {
       line-height: var(--line-height-code);
       font-size: var(--font-size-code);
     }
-
     .saber-highlight {
       position: relative;
       overflow: hidden;
@@ -184,6 +186,7 @@
       }
     }
 
+    // Content Block Element: Deleted text
     s, del, .meta {
       color: var(--color-text-secondary);
     }
@@ -203,22 +206,22 @@
         text-align: center;
       }
 
-      // Footnotes: a special horizontal rule
+      // a special horizontal rule for footnotes
       &.footnotes-sep:after {
         content: "Footnotes";
       }
     }
 
+    // Content Block Element: Sub-Sup
     sub, sup {
       font-size: var(--font-size-sub-sup);
     }
 
-    // Content Block Element: Images
+    // Content Block Element: Bare Images
     img {
       max-width: 100%;
       margin-bottom: var(--gap-m);
     }
-
     p {
       img {
         display: block;
@@ -226,6 +229,7 @@
       }
     }
 
+    // Content Block Element: Figures (image, embed iframe video, etc)
     figure {
 
       > a {
@@ -238,6 +242,8 @@
       }
 
       iframe {
+        display: block;
+        margin: 0 auto;
         max-width: 100%;
       }
 
@@ -270,7 +276,7 @@
       }
     }
 
-    // Content Block Element: Footnotes Section
+    // Content Block Element: Footnotes
     .footnotes {
       color: var(--color-text-secondary);
       font-size: var(--font-size-footnotes);
