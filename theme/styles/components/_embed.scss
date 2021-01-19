@@ -1,0 +1,30 @@
+.embed-wrapper {
+  position: relative;
+  margin-bottom: var(--gap-m);
+
+  &::before {
+    content: '';
+    display: block;
+    padding-bottom: 50%;
+  }
+
+  iframe {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    border: 0;
+  }
+
+  &.alignwide iframe {
+    width: calc(100% - var(--gap-m) * 2);
+  }
+
+  &.embed-aspect-4-3::before {
+    padding-bottom: 75%;
+  }
+
+  &.embed-aspect-16-9::before {
+    padding-bottom: 56.25%;
+  }
+}

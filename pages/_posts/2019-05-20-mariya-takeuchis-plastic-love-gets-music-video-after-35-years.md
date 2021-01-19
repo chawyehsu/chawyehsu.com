@@ -27,7 +27,7 @@ MV[^1]。这首在 2018 年引起病毒式传播的歌曲，在发布的 35 年�
 
 <!-- more -->
 
-<figure data-type="video">
+<figure data-type="video" class="embed-wrapper embed-aspect-16-9 alignwide">
   <iframe
     src="https://player.bilibili.com/player.html?aid=52777386&cid=92355909&page=1&as_wide=1"
     width="800" height="450" allowfullscreen>
@@ -53,7 +53,6 @@ MV[^1]。这首在 2018 年引起病毒式传播的歌曲，在发布的 35 年�
 《Plastic Love》作为一支单曲发行，一度冲上 Oricon 榜第 86 位。
 
 ![《Plastic Love -Extended Club Mix-》](../_assets/uploads/2019/05/20190519009.png)
-{.alignfull}
 
 竹内玛莉亚的许多歌曲都曾被翻唱过，比如陈慧娴的《岁月流声》翻唱自她的《Natalie》，
 草蜢的《原谅我是我》翻唱自《シソグルアゲイソ》。当然这首《Plastic Love》也不例外，
@@ -176,8 +175,10 @@ Plastic Lover 商讨相关事情的情况下，只好动用了侵权删除的办
 更猛烈持久了些。
 
 <figure>
-<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width="100%" height="100" src="//music.163.com/outchain/player?type=2&id=408328190&auto=0&height=66"></iframe>
-<figcaption><p>2016 年 TARA 发行《Plastic Love (TARA Bootleg)》（类别：Future Funk）</p></figcaption>
+  <iframe
+  src="https://music.163.com/outchain/player?type=2&id=408328190&auto=0&height=66"
+  width="100%" height="auto"></iframe>
+  <figcaption>2016 年 TARA 发行《Plastic Love (TARA Bootleg)》（类别：Future Funk）</figcaption>
 </figure>
 
 蒸汽波从 2010 年初出现，至今发展不过 10 年，但已经发展出不少的分支子类。其中比较有

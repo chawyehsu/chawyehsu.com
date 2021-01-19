@@ -227,7 +227,6 @@
     }
 
     figure {
-      text-align: center;
 
       > a {
         border: 0 !important;
@@ -246,6 +245,7 @@
         margin-top: var(--gap-m);
         color: var(--color-text-secondary);
         font-size: var(--font-size-small);
+        text-align: center;
 
         p {
           margin: 0;
@@ -261,18 +261,8 @@
         text-align: left;
       }
 
-      &[data-type=video] {
-        position: relative;
-        padding-bottom: 56.25%; /* 16:9 */
-        height: 0;
-
-        iframe {
-          position: absolute;
-          top: 0;
-          left: 0;
-          width: 100%;
-          height: 100%;
-        }
+      &[data-type=image] {
+        text-align: center;
       }
 
       .highlight {
