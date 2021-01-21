@@ -248,15 +248,12 @@
       }
 
       figcaption {
-        margin-top: var(--gap-m);
+        max-width: var(--container-max-width);
+        margin: 0 auto;
+        margin-top: var(--gap-s);
         color: var(--color-text-secondary);
         font-size: var(--font-size-small);
         text-align: center;
-
-        p {
-          margin: 0;
-          text-align: center;
-        }
 
         code {
           font-size: var(--font-size-small);
