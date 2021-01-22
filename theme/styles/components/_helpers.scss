@@ -21,39 +21,14 @@
   max-width: var(--container-max-width);
 }
 
-.h1 {
-  font-size: var(--font-size-1);
-}
-
-.h2 {
-  font-size: var(--font-size-2);
-}
-
-.h3 {
-  font-size: var(--font-size-3);
-}
-
-.h4 {
-  font-size: var(--font-size-4);
-}
-
-.h5 {
-  font-size: var(--font-size-5);
-}
-
-.h6 {
-  color: var(--color-text-secondary);
-  font-size: var(--font-size-6);
-}
-
 .horizon-gap {
   padding: 0 $column-gap;
 }
 
 .alignwide,
 .alignfull {
-  margin-left: calc(-100vw / 2 + 100% / 2);
-  margin-right: calc(-100vw / 2 + 100% / 2);
+  margin-left: calc(-50vw + 50%);
+  margin-right: calc(-50vw + 50%);
   max-width: 100vw;
 }
 

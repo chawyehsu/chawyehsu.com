@@ -43,6 +43,7 @@ export default {
 #dsqjs a {
   color: inherit;
   overflow-wrap: break-word;
+  text-decoration: none;
   word-break: break-all;
 }
 
