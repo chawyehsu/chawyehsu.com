@@ -27,6 +27,150 @@ self.addEventListener('message', (event) => {
  */
 self.__precacheManifest = [
   {
+    "url": "_saber/images/1068304415023661416369-525bad6b.jpg",
+    "revision": "61162271028a135438c2b0969d55a6d3"
+  },
+  {
+    "url": "_saber/images/1068304415023661416369-a95453be.jpg",
+    "revision": "c62032e96c8e0733445d3ea12f7004cb"
+  },
+  {
+    "url": "_saber/images/1187656715310300533860-082ed8ff.jpg",
+    "revision": "b569e57d8dd111b3ba908eb696cb860b"
+  },
+  {
+    "url": "_saber/images/1187656715310300533860-5bb3633c.jpg",
+    "revision": "550cf097fd33e821e5740b2b3a47618a"
+  },
+  {
+    "url": "_saber/images/12621061497224696-860c178d.jpg",
+    "revision": "edbb882132b4373d3f6816546a8e8a97"
+  },
+  {
+    "url": "_saber/images/12621061497224696-9b049cfd.jpg",
+    "revision": "90350aaaba65e6027d47764aca25382e"
+  },
+  {
+    "url": "_saber/images/12621061497224696-d086d84d.jpg",
+    "revision": "e2294ad54d14ed81e796be1c5e99a19f"
+  },
+  {
+    "url": "_saber/images/12891488961389148896-63355573.jpg",
+    "revision": "64d6cce6d68ed8125b4af6e07adec60b"
+  },
+  {
+    "url": "_saber/images/12891488961389148896-f676146c.jpg",
+    "revision": "03f64c8c717544da69a0ff05872484be"
+  },
+  {
+    "url": "_saber/images/13314122261431412226-267b3f58.jpg",
+    "revision": "4394e4d5aea997351ffa07b4041320a7"
+  },
+  {
+    "url": "_saber/images/13314122261431412226-621bacda.jpg",
+    "revision": "7c1c3db3ad03727821b66536fa6a3720"
+  },
+  {
+    "url": "_saber/images/13314122261431412226-9dd43067.jpg",
+    "revision": "81b2280603cff5924aa30d6e90840a1c"
+  },
+  {
+    "url": "_saber/images/13358031391530245741-4e40460f.jpg",
+    "revision": "eb584abcd67e20f81081532e9541bfa1"
+  },
+  {
+    "url": "_saber/images/13358031391530245741-6534e595.jpg",
+    "revision": "786227bb8ab0e5b7d33b431bfaa653e8"
+  },
+  {
+    "url": "_saber/images/13358031391530245741-73406fb5.jpg",
+    "revision": "2ba7f16e875c8f0525fcb0c31c0bf731"
+  },
+  {
+    "url": "_saber/images/1382030615727595137894-847e015d.jpg",
+    "revision": "33d50273eb336e4ab3cc9a6402d80b65"
+  },
+  {
+    "url": "_saber/images/1382030615727595137894-f6835235.jpg",
+    "revision": "a50f411ce44bdcaaa336c71c6590520c"
+  },
+  {
+    "url": "_saber/images/1495121315846281406633-1410e63e.jpg",
+    "revision": "f4bb10f1d17456bb589ea64fed540950"
+  },
+  {
+    "url": "_saber/images/1495121315846281406633-1740bd95.jpg",
+    "revision": "8b910403efe006a54eb4674ba63b3c6a"
+  },
+  {
+    "url": "_saber/images/16284004741428400474-15ee0513.jpg",
+    "revision": "cc7b55d8da5951f749140cb90dc6f9f5"
+  },
+  {
+    "url": "_saber/images/16284004741428400474-26582280.jpg",
+    "revision": "5672cc3da0207fc5c843a6e64c7f43e8"
+  },
+  {
+    "url": "_saber/images/16284004741428400474-c82ac7e4.jpg",
+    "revision": "d19a65e51e1cb6b4ba22202449c75fda"
+  },
+  {
+    "url": "_saber/images/17738741031501669704-0c5da87e.jpg",
+    "revision": "e4596bd91d5e2d629f0ef9935035a717"
+  },
+  {
+    "url": "_saber/images/17738741031501669704-30dbcd4d.jpg",
+    "revision": "feece076ad3e7bf6da1e614be2119e0d"
+  },
+  {
+    "url": "_saber/images/17738741031501669704-9be97707.jpg",
+    "revision": "e7aa76d6d6ce06798d3fcdc1ef3e41fd"
+  },
+  {
+    "url": "_saber/images/19790436121517582475-132d1dd9.jpg",
+    "revision": "dcd0500b39882f6401a46dc9d728897a"
+  },
+  {
+    "url": "_saber/images/19790436121517582475-1745cf79.jpg",
+    "revision": "4a2b9b579dccc493f531b110e63aa970"
+  },
+  {
+    "url": "_saber/images/19790436121517582475-be2844f1.jpg",
+    "revision": "f627e35fdeee589ddb1203e7db59bfad"
+  },
+  {
+    "url": "_saber/images/19995681499056186-0de778f9.jpg",
+    "revision": "c2e06a7a61c40d6368065fe31fea0b17"
+  },
+  {
+    "url": "_saber/images/19995681499056186-1335659a.jpg",
+    "revision": "fc975cabbf8863b4655a00eb04f2ee8e"
+  },
+  {
+    "url": "_saber/images/19995681499056186-abd8b501.jpg",
+    "revision": "3cbcc3ebc87ddaa1deb80994952d94fc"
+  },
+  {
+    "url": "_saber/images/200356200706281122222184-33ccaee0.jpg",
+    "revision": "c7e5de58c1d7a63a29b984c001f9d58a"
+  },
+  {
+    "url": "_saber/images/200356200706281122222184-3ca0cdd5.jpg",
+    "revision": "c01c8b56ce1ac2a098a58859b33dcaf7"
+  },
+  {
+    "url": "_saber/images/200356200708171602318807-176bb9e6.jpg",
+    "revision": "5090d955fa5c49e90d0e15c9da477e6d"
+  },
+  {
+    "url": "_saber/images/200356200708171602318807-b0cd7f45.jpg",
+    "revision": "4481ba167f7dc3ed6eafe3df220b9aeb"
+  },
+  {
+    "url": "_saber/images/200356200708171602318807-f72dac4a.jpg",
+    "revision": "a9eb4a93c1acb52215484ac7a85eb1e2"
+  },
+  {
     "url": "_saber/images/20150520001-03cf1b97.png",
     "revision": "b9302de7443e311bf56063e7736b8fb0"
   },
@@ -821,6 +965,18 @@ self.__precacheManifest = [
   {
     "url": "_saber/images/20171231015-68005a91.jpg",
     "revision": "a76c22809f7897827a51a775c7853080"
+  },
+  {
+    "url": "_saber/images/2017291599567979-128f6744.jpg",
+    "revision": "2a90ba3798e0b62f3c4ee3344eadb535"
+  },
+  {
+    "url": "_saber/images/2017291599567979-4a5007b8.jpg",
+    "revision": "9d6e7850724b8e321dea40a3141ec8af"
+  },
+  {
+    "url": "_saber/images/2017291599567979-de974fba.jpg",
+    "revision": "678b7200383a91efa92afcf701bf448e"
   },
   {
     "url": "_saber/images/20180213002-d236184d.png",
@@ -2951,6 +3107,970 @@ self.__precacheManifest = [
     "revision": "c4508c011c6c3985695445cccb14197f"
   },
   {
+    "url": "_saber/images/21001792811439791638-153b5946.jpg",
+    "revision": "1b28f41b6856514c7964c0e67bd96cf5"
+  },
+  {
+    "url": "_saber/images/21001792811439791638-48373308.jpg",
+    "revision": "eeec3fdae17f96bf04cacd71fe195e59"
+  },
+  {
+    "url": "_saber/images/21001792811439791638-5f0d0201.jpg",
+    "revision": "f03d8d05c4a0b25c07d58a2d96108952"
+  },
+  {
+    "url": "_saber/images/21002064021443006061-c03a212a.jpg",
+    "revision": "08ad29f6da47a81983f8430b50628bfe"
+  },
+  {
+    "url": "_saber/images/21002064021443006061-feca249f.jpg",
+    "revision": "7ca2cbfdbeba96b5874f0b8a189e8c1a"
+  },
+  {
+    "url": "_saber/images/21002064041443006067-29aa6437.jpg",
+    "revision": "11dfa8b8d712730d13f6fde629b705bf"
+  },
+  {
+    "url": "_saber/images/21002064041443006067-8d0fd044.jpg",
+    "revision": "4192b1279865eccd718faa8a7450cc5c"
+  },
+  {
+    "url": "_saber/images/21002064041443006067-f1fff18f.jpg",
+    "revision": "73c80a28e58623e6db91c65354daf51e"
+  },
+  {
+    "url": "_saber/images/21002182981444718348-39d33ce6.jpg",
+    "revision": "985fca80e677c52fe0471279faeccb75"
+  },
+  {
+    "url": "_saber/images/21002182981444718348-d6815015.jpg",
+    "revision": "7614bed0d46cecf0d76e2904f94a5521"
+  },
+  {
+    "url": "_saber/images/21002182981444718348-fcd86cb4.jpg",
+    "revision": "bb004118c19e6b1db1474fca6d44477f"
+  },
+  {
+    "url": "_saber/images/21002348161539303944-96edc731.jpg",
+    "revision": "165b5c5452c14430642c74a73c196c94"
+  },
+  {
+    "url": "_saber/images/21002348161539303944-b224ae92.jpg",
+    "revision": "019d9da96245fa25b2b7d2dbd407d37a"
+  },
+  {
+    "url": "_saber/images/21002348161539303944-d4501bc4.jpg",
+    "revision": "e8dfc7d4bd3c40b7283bba9df1c077ab"
+  },
+  {
+    "url": "_saber/images/21002348281539303564-28805ec8.jpg",
+    "revision": "692ecf623bd200214da7e53dbad4bed6"
+  },
+  {
+    "url": "_saber/images/21002348281539303564-6b44b548.jpg",
+    "revision": "7204a308103e79fbd338f8c7fa77aaca"
+  },
+  {
+    "url": "_saber/images/21002348281539303564-8fa79b48.jpg",
+    "revision": "4dee916e641b0a19aae012605d42216f"
+  },
+  {
+    "url": "_saber/images/21002494761450766058-1521ad43.jpg",
+    "revision": "147f9deec14c2da54b2aa99b5fe2391f"
+  },
+  {
+    "url": "_saber/images/21002494761450766058-4959629c.jpg",
+    "revision": "9f3cc900e9915a5aeaebfab3efe99e31"
+  },
+  {
+    "url": "_saber/images/21002494761450766058-906967e1.jpg",
+    "revision": "7c271359e5c25028bb7984d62a516d07"
+  },
+  {
+    "url": "_saber/images/21002494901450766938-080cd442.jpg",
+    "revision": "772e15714ea1a807d7a43fbc5a332fa7"
+  },
+  {
+    "url": "_saber/images/21002494901450766938-1635dc2d.jpg",
+    "revision": "f80ba5be52e9214f35f2eb88ebac6a16"
+  },
+  {
+    "url": "_saber/images/21002494901450766938-82250979.jpg",
+    "revision": "c81ef4df5ead5196afe70029c3eb1aa1"
+  },
+  {
+    "url": "_saber/images/21002557701499058918-9f38da54.jpg",
+    "revision": "de68958992338cd12dbb9965c28c810c"
+  },
+  {
+    "url": "_saber/images/21002557701499058918-a7877248.jpg",
+    "revision": "c06434d8a7d4217341e206059c449bd6"
+  },
+  {
+    "url": "_saber/images/21002557701499058918-f4cea2e4.jpg",
+    "revision": "4e672c68e198d9fc5b0deb0729f07590"
+  },
+  {
+    "url": "_saber/images/21002802341456206042-b24ed035.jpg",
+    "revision": "98934b8dd5c30efae0ae489640fb67e8"
+  },
+  {
+    "url": "_saber/images/21002802341456206042-d1659ce8.jpg",
+    "revision": "8741007735f2f2249ef9f50f55814c53"
+  },
+  {
+    "url": "_saber/images/21002802341456206042-e8ac8805.jpg",
+    "revision": "7ffafbfc3782324c0d28c7cad38a422b"
+  },
+  {
+    "url": "_saber/images/21002833141589609372-6612e8b6.jpg",
+    "revision": "400d351db419a5c569cb92e6d26cec90"
+  },
+  {
+    "url": "_saber/images/21002833141589609372-cd471d3f.jpg",
+    "revision": "623375b6c5f44602f45d6c20f1fbbf97"
+  },
+  {
+    "url": "_saber/images/21002833141589609372-f141e2c3.jpg",
+    "revision": "07b34bb09f2c2a70a24bde496ac9cbb7"
+  },
+  {
+    "url": "_saber/images/21002833161456729142-3074ba5e.jpg",
+    "revision": "77122eaa7260540ea4395ef08e71bda3"
+  },
+  {
+    "url": "_saber/images/21002833161456729142-636c2029.jpg",
+    "revision": "391c1a2b1d14375555866cc951ce15aa"
+  },
+  {
+    "url": "_saber/images/21002833161456729142-c5d435f2.jpg",
+    "revision": "333d674bb786aa4270df601dd12233d3"
+  },
+  {
+    "url": "_saber/images/21002848161456818245-2937da6b.jpg",
+    "revision": "cbbedd662d1a826aad86d26b2967d317"
+  },
+  {
+    "url": "_saber/images/21002848161456818245-8b163aad.jpg",
+    "revision": "4a6fec8139b9d76261cd13a542f8aea2"
+  },
+  {
+    "url": "_saber/images/21002848161456818245-b71cbffd.jpg",
+    "revision": "0c843cdc6d219e16723710f337b81067"
+  },
+  {
+    "url": "_saber/images/21002848741456820737-74d0dd76.jpg",
+    "revision": "96444133abf35baa565516b2ef6c4a25"
+  },
+  {
+    "url": "_saber/images/21002848741456820737-a5fc2225.jpg",
+    "revision": "5f91b94f3dcdd969441b524c614323b8"
+  },
+  {
+    "url": "_saber/images/21002848741456820737-b95c9cda.jpg",
+    "revision": "6b048cfb83a3f300ff3ed4591973fd39"
+  },
+  {
+    "url": "_saber/images/21002848921576814455-11e2090d.jpg",
+    "revision": "940a4491c427938b67dc891dc44d5d75"
+  },
+  {
+    "url": "_saber/images/21002848921576814455-8be87724.jpg",
+    "revision": "b66e72c04e2d068b6d37ea0809d9428e"
+  },
+  {
+    "url": "_saber/images/21002848921576814455-9b8721bc.jpg",
+    "revision": "b95d0fb63ed5f83985d6429814045002"
+  },
+  {
+    "url": "_saber/images/21002849441456823736-65fa9cb8.jpg",
+    "revision": "09dea932ac153e98c84e46334759c8d4"
+  },
+  {
+    "url": "_saber/images/21002849441456823736-e904fb68.jpg",
+    "revision": "738b782cee25d2b7faa345a3202595b2"
+  },
+  {
+    "url": "_saber/images/21002849441456823736-ec16a1f5.jpg",
+    "revision": "66f38170f56ab93209cd6d1cbf060e7b"
+  },
+  {
+    "url": "_saber/images/21002849541456824307-06e7d0f5.jpg",
+    "revision": "61c294b40cf7cebc3c0a0d03aceba056"
+  },
+  {
+    "url": "_saber/images/21002849541456824307-1ae49e90.jpg",
+    "revision": "abbfc04c0922e098ad85d9b73ccb8c82"
+  },
+  {
+    "url": "_saber/images/21002849541456824307-3cc1024c.jpg",
+    "revision": "b70a17d4ab2bbb83d36e6fbd88e729c3"
+  },
+  {
+    "url": "_saber/images/21002878781457321160-750342fc.jpg",
+    "revision": "15382c7111993413a090d31e10820829"
+  },
+  {
+    "url": "_saber/images/21002878781457321160-b0afcf2d.jpg",
+    "revision": "e4867974a6e7074a122d80644e9be26f"
+  },
+  {
+    "url": "_saber/images/21002878781457321160-f7953fc6.jpg",
+    "revision": "b62c969c7ffbce6540cd6a7a2b5c7c21"
+  },
+  {
+    "url": "_saber/images/21003794791548072365-30f22bc0.jpg",
+    "revision": "eb98e5e3c6b4012c23582bb9c4ae981e"
+  },
+  {
+    "url": "_saber/images/21003794791548072365-6d86bc37.jpg",
+    "revision": "b2e2224ef42b13cd4242d67d36b03409"
+  },
+  {
+    "url": "_saber/images/21003794791548072365-fe52d98b.jpg",
+    "revision": "c794246e279998a231dc12f3c96ec420"
+  },
+  {
+    "url": "_saber/images/21024117391609685747-2e203e5c.jpg",
+    "revision": "84e845fcf25d8a054fbc6b5e8509df6b"
+  },
+  {
+    "url": "_saber/images/21024117391609685747-5c36f9e8.jpg",
+    "revision": "11628a1c91f9e74b0963b641d6ef511c"
+  },
+  {
+    "url": "_saber/images/21024117391609685747-81499033.jpg",
+    "revision": "3c5c53a82de2d43238a7313dec586d2a"
+  },
+  {
+    "url": "_saber/images/21027782021586524113-cccc0939.jpg",
+    "revision": "600ab386ef08cdddce9c1a03e4f50e0d"
+  },
+  {
+    "url": "_saber/images/21027782021586524113-f9baa67f.jpg",
+    "revision": "f30ede32275596d7ecccf622256c2168"
+  },
+  {
+    "url": "_saber/images/21027782021586524113-fb892edd.jpg",
+    "revision": "39ea34ce295cd0ebedea651160ba4da1"
+  },
+  {
+    "url": "_saber/images/21029765211601798235-03ba7db0.jpg",
+    "revision": "b2020baddb12f2a2b15efc55ba53de2b"
+  },
+  {
+    "url": "_saber/images/21029765211601798235-a303b561.jpg",
+    "revision": "7032f0e7c198fb70ddc76f765e19dd6d"
+  },
+  {
+    "url": "_saber/images/21029765211601798235-d452b555.jpg",
+    "revision": "0ee26ffe98bf6db3fd8d311a37cc5422"
+  },
+  {
+    "url": "_saber/images/24705961551263047-867bd64a.jpg",
+    "revision": "cd6707bfed63726d9e163790ebad89d9"
+  },
+  {
+    "url": "_saber/images/24705961551263047-dbb5a549.jpg",
+    "revision": "09be118623584d247fc0f1a3ff183113"
+  },
+  {
+    "url": "_saber/images/2703309411370330941-adaa635f.jpg",
+    "revision": "f9c97534f2b38dca41b45e6ede5f8d87"
+  },
+  {
+    "url": "_saber/images/2703309411370330941-f12356f2.jpg",
+    "revision": "3e1a6ac645c6a1e9fc8a3b5f5c7d2f2b"
+  },
+  {
+    "url": "_saber/images/3045021507701978-6fa1db00.jpg",
+    "revision": "69f140055b6fd1113c33b2acf69805d0"
+  },
+  {
+    "url": "_saber/images/3045021507701978-cfbcec55.jpg",
+    "revision": "5de233b5faf748c33e4e199407ab8787"
+  },
+  {
+    "url": "_saber/images/3045021507701978-e335ccec.jpg",
+    "revision": "1177ef0adf07bc045eefd6b6897fb341"
+  },
+  {
+    "url": "_saber/images/314579307181533047502594-195c7dcd.jpg",
+    "revision": "dd89a4c48314b265cd8991879e66d591"
+  },
+  {
+    "url": "_saber/images/314579307181533047502594-65cd3d7e.jpg",
+    "revision": "d58547be1e6b4c6965bb3ead4ba0f178"
+  },
+  {
+    "url": "_saber/images/314579307181533047502594-b5be5888.jpg",
+    "revision": "fdaeb4d0e62e3de3a75a47b449a25fd1"
+  },
+  {
+    "url": "_saber/images/3269811372152053-3c283dc5.jpg",
+    "revision": "abaf1b7f4c995fa60d327a37542ef7cd"
+  },
+  {
+    "url": "_saber/images/3269811372152053-4a1745f8.jpg",
+    "revision": "8a9c0ca87c49815a09d45a66b7d7503f"
+  },
+  {
+    "url": "_saber/images/3269811372152053-86734c1a.jpg",
+    "revision": "7ea63654802814e5a1cd8163314e3309"
+  },
+  {
+    "url": "_saber/images/3270841598724415-0a722102.jpg",
+    "revision": "04886a3080bda09b317ada38280fecdb"
+  },
+  {
+    "url": "_saber/images/3270841598724415-b1353128.jpg",
+    "revision": "c492ba03659495d3969d3c2fe01001d5"
+  },
+  {
+    "url": "_saber/images/3270841598724415-e63018a1.jpg",
+    "revision": "8a43e9d9a77c925a741f37acb8110869"
+  },
+  {
+    "url": "_saber/images/3279321598722953-10a29364.jpg",
+    "revision": "cdcd62fe0003f27852f78c351fe99be4"
+  },
+  {
+    "url": "_saber/images/3279321598722953-566fc0a9.jpg",
+    "revision": "3ef609226f4b6bf0287e8b8fada35845"
+  },
+  {
+    "url": "_saber/images/3279321598722953-f8f5feeb.jpg",
+    "revision": "a80be2f4df152c44c10f676e7605399c"
+  },
+  {
+    "url": "_saber/images/3361051507998364-6b86054a.jpg",
+    "revision": "bb16086f53ce93fbd8569347da52431a"
+  },
+  {
+    "url": "_saber/images/3361051507998364-996007ba.jpg",
+    "revision": "dce7b3429af2f3fe800a66c0a35d1631"
+  },
+  {
+    "url": "_saber/images/3367699971436769997-55344f67.jpg",
+    "revision": "26a0e8bde670c0fb8d07a1b9174cdfe1"
+  },
+  {
+    "url": "_saber/images/3367699971436769997-6e4f0912.jpg",
+    "revision": "31bb1d397a0d84d0dd5622a47df648ca"
+  },
+  {
+    "url": "_saber/images/3367699971436769997-d36d35c1.jpg",
+    "revision": "d31c1b06f3b1e52f6e12eb5cae27fcae"
+  },
+  {
+    "url": "_saber/images/3537061335345304-14e87603.jpg",
+    "revision": "52a24cdf8e6545b9371839438bf22a22"
+  },
+  {
+    "url": "_saber/images/3537061335345304-313ca00d.jpg",
+    "revision": "882d92245993109ee794e5ec0008754f"
+  },
+  {
+    "url": "_saber/images/3537061335345304-44958b76.jpg",
+    "revision": "45addbfa3554fbc94a5a05b2b1203b0b"
+  },
+  {
+    "url": "_saber/images/3537091598188238-2e57e083.jpg",
+    "revision": "3c7df865cffbc7188bf4bba455e47451"
+  },
+  {
+    "url": "_saber/images/3537091598188238-339cbfe7.jpg",
+    "revision": "e948f5f51480b10b1cdd91395e5042e9"
+  },
+  {
+    "url": "_saber/images/3537091598188238-602c695a.jpg",
+    "revision": "2ffb0acfde259aec82f000c6602c9283"
+  },
+  {
+    "url": "_saber/images/3540351257403142-20888247.jpg",
+    "revision": "c1a389a92b9dc1dc44b07b51d19c391d"
+  },
+  {
+    "url": "_saber/images/3540351257403142-94c7bd1a.jpg",
+    "revision": "b8dcc51b3e6a7458a2ccce9c32c08b3e"
+  },
+  {
+    "url": "_saber/images/3540351257403142-c18fd9fd.jpg",
+    "revision": "01fae5fc642089ee1ba7fc5f1d8b2b4b"
+  },
+  {
+    "url": "_saber/images/3545451257832145-1bac6e69.jpg",
+    "revision": "01463ddbc1d20fe7d0e47df4454bbece"
+  },
+  {
+    "url": "_saber/images/3545451257832145-b0f6e65d.jpg",
+    "revision": "7ecf9772038d31863af605f02e45d6c8"
+  },
+  {
+    "url": "_saber/images/3545451257832145-e9dc1c91.jpg",
+    "revision": "a54746c1b71e79248e953ba43740a987"
+  },
+  {
+    "url": "_saber/images/3566781259138562-533412da.jpg",
+    "revision": "b9eefab8bd72297814df6b17ebe4d375"
+  },
+  {
+    "url": "_saber/images/3566781259138562-cbf9ff5a.jpg",
+    "revision": "f6c8566ab27730b58ed46b2f66fa9ca1"
+  },
+  {
+    "url": "_saber/images/3566781259138562-ec999f6f.jpg",
+    "revision": "741d51a9a1d325a547ebb9e59fe2fde0"
+  },
+  {
+    "url": "_saber/images/3573321411526599-61e9fbfb.jpg",
+    "revision": "3e75f0a1a51fe290694ecb824792e899"
+  },
+  {
+    "url": "_saber/images/3573321411526599-71105a90.jpg",
+    "revision": "6e0f2c67fdee2044c0043cc8f96d8eef"
+  },
+  {
+    "url": "_saber/images/3573321411526599-b21519a6.jpg",
+    "revision": "18d107aee5a7efae0e40587f91bdaede"
+  },
+  {
+    "url": "_saber/images/3651831263883865-8beccc01.jpg",
+    "revision": "dcdb8e35555a4699289364992e1e2d50"
+  },
+  {
+    "url": "_saber/images/3651831263883865-ade5881a.jpg",
+    "revision": "c46f027e178c8f3ce2d58e4c141f4af3"
+  },
+  {
+    "url": "_saber/images/3651831263883865-d3b273d9.jpg",
+    "revision": "1031a49f1cb3139f12d54c5184c94876"
+  },
+  {
+    "url": "_saber/images/3659952171365995217-eb906af3.jpg",
+    "revision": "b326ecd8b0faa17a300ba1e9b84cbeec"
+  },
+  {
+    "url": "_saber/images/3659952171365995217-fad38ac5.jpg",
+    "revision": "24ed8b0d752e3b75d52b1a35d0e7afa9"
+  },
+  {
+    "url": "_saber/images/3784311272269858-2ef14267.jpg",
+    "revision": "b4f1b6c1792f35af4a0df108791967bd"
+  },
+  {
+    "url": "_saber/images/3784311272269858-31252854.jpg",
+    "revision": "b6c8c875cc41f7e72f921cd735a75663"
+  },
+  {
+    "url": "_saber/images/3784311272269858-6ba98f70.jpg",
+    "revision": "6f21b51f0852d53e05fb0d69d11769b2"
+  },
+  {
+    "url": "_saber/images/3828641275291055-334e1bc1.jpg",
+    "revision": "2d9984254c09dc2de631865dea7ce73f"
+  },
+  {
+    "url": "_saber/images/3828641275291055-bfd71e6d.jpg",
+    "revision": "f4656e49bb6b9391af1cd741552c9399"
+  },
+  {
+    "url": "_saber/images/3828641275291055-fa1a8991.jpg",
+    "revision": "b9cb2b2ce3ecb225e09da85eacca5ad0"
+  },
+  {
+    "url": "_saber/images/3934081280734394-18ff9996.jpg",
+    "revision": "bc6379eb1eee88c84de485d3994c5f5f"
+  },
+  {
+    "url": "_saber/images/3934081280734394-3ad7a800.jpg",
+    "revision": "6750dc55ed64a757ecfbb11cdb3edb24"
+  },
+  {
+    "url": "_saber/images/3934081280734394-540b65fb.jpg",
+    "revision": "04258c253a8426e963c98b93ba454772"
+  },
+  {
+    "url": "_saber/images/3934591280736321-0ef2d628.jpg",
+    "revision": "5a45bb20f2589e6257dab04200be391e"
+  },
+  {
+    "url": "_saber/images/3934591280736321-585756c6.jpg",
+    "revision": "726b44d8827baefc7e839d01591dfc9b"
+  },
+  {
+    "url": "_saber/images/3934591280736321-7edb4e1a.jpg",
+    "revision": "ed9f9a18711b6018b6222bb717f54095"
+  },
+  {
+    "url": "_saber/images/39542131479073464-6bc01f45.jpg",
+    "revision": "de321257d141300347943a2458d1084b"
+  },
+  {
+    "url": "_saber/images/39542131479073464-a8ab2026.jpg",
+    "revision": "b20c06d833d4f3e7152d893ddbdd168c"
+  },
+  {
+    "url": "_saber/images/39542131479073464-b16f6d77.jpg",
+    "revision": "b72c99063ef225f152fe30d31a77f76a"
+  },
+  {
+    "url": "_saber/images/3958531281672931-1a1936cf.jpg",
+    "revision": "cc1a9ef13ca3c95a7780ebdd01bdfbb1"
+  },
+  {
+    "url": "_saber/images/3958531281672931-cfbf7ac8.jpg",
+    "revision": "3963a6904dd68a30d9a7bfe7b90bde0a"
+  },
+  {
+    "url": "_saber/images/3958531281672931-e539f5b7.jpg",
+    "revision": "3202f6f6bf9db38b8cdd1b2151dc926d"
+  },
+  {
+    "url": "_saber/images/3977761539786294-08ee3c08.jpg",
+    "revision": "fa17050aa93cd5eec1fe943434dff454"
+  },
+  {
+    "url": "_saber/images/3977761539786294-60e5cbc9.jpg",
+    "revision": "c943b46be58012adc298ccf1bcc43e97"
+  },
+  {
+    "url": "_saber/images/3977761539786294-f5923070.jpg",
+    "revision": "7d683d4fc1c91f375e1e4aedcec7a144"
+  },
+  {
+    "url": "_saber/images/4150471291800882-1fd97481.jpg",
+    "revision": "20b9df38547cebbf6a8b6bb18f91379f"
+  },
+  {
+    "url": "_saber/images/4150471291800882-3e085677.jpg",
+    "revision": "dda1a133465b1c87eaeded89daeebb99"
+  },
+  {
+    "url": "_saber/images/4150471291800882-e37091cd.jpg",
+    "revision": "82ac0ea37a23db6776d834bdb840111f"
+  },
+  {
+    "url": "_saber/images/4217681566313481-159d177e.jpg",
+    "revision": "f9da99e5da9529c0fdd3b2a87059c32f"
+  },
+  {
+    "url": "_saber/images/4217681566313481-63b7ad48.jpg",
+    "revision": "5e88763bb88d85e78fbcb612504af6f1"
+  },
+  {
+    "url": "_saber/images/4217681566313481-fe829e3e.jpg",
+    "revision": "b5f376430efc369b95d001cd88e05abc"
+  },
+  {
+    "url": "_saber/images/4222781296096979-5067814b.jpg",
+    "revision": "994b8f1625954aa581c956f14ce2ab4b"
+  },
+  {
+    "url": "_saber/images/4222781296096979-5647e79d.jpg",
+    "revision": "a9b87796c832150df45a0e5b08d690a0"
+  },
+  {
+    "url": "_saber/images/4222781296096979-aecb6e31.jpg",
+    "revision": "1ad3e5b3cfebbfa1731e5d2a826a5fd1"
+  },
+  {
+    "url": "_saber/images/4240801544424080-330f7aab.jpg",
+    "revision": "169aecc925deb12e920f9ee05209ad49"
+  },
+  {
+    "url": "_saber/images/4240801544424080-6cabc0b4.jpg",
+    "revision": "48df99132867904166141d06057aebfb"
+  },
+  {
+    "url": "_saber/images/4240801544424080-8e432c9b.jpg",
+    "revision": "6178b304ecfdb3911d2d0fbe42281a52"
+  },
+  {
+    "url": "_saber/images/4361551302772768-04a29214.jpg",
+    "revision": "b7e1b441f84c1509b29471c0992a294e"
+  },
+  {
+    "url": "_saber/images/4361551302772768-e4e3451d.jpg",
+    "revision": "57824f48bf6b05cdcf5b971e287ed061"
+  },
+  {
+    "url": "_saber/images/4361551302772768-e90de175.jpg",
+    "revision": "683aa42cc40cf7d5f286645b92bc8a1d"
+  },
+  {
+    "url": "_saber/images/4388241304493189-4c13426c.jpg",
+    "revision": "82a83ce03e749fcd62fa09af7efcd4c4"
+  },
+  {
+    "url": "_saber/images/4388241304493189-67130d35.jpg",
+    "revision": "d2ad5b5cd7a65b9856b2e1ce8a90bb46"
+  },
+  {
+    "url": "_saber/images/4421541305861240-14a698d2.jpg",
+    "revision": "258b271846f0a914b811bf9a97e02988"
+  },
+  {
+    "url": "_saber/images/4421541305861240-54e3aea9.jpg",
+    "revision": "c4d5ad3d41b438b02da7fb4999472607"
+  },
+  {
+    "url": "_saber/images/4501351437985121-0dcf28ac.jpg",
+    "revision": "0cf75ae787d73ae73f817596680d4b19"
+  },
+  {
+    "url": "_saber/images/4501351437985121-94a9ed28.jpg",
+    "revision": "686d00ce73d0728504aacd8479cb568f"
+  },
+  {
+    "url": "_saber/images/4501351437985121-c6a3de78.jpg",
+    "revision": "866a2cc027d4ef0227d43eb9ac6cae76"
+  },
+  {
+    "url": "_saber/images/4664951316403972-1868476a.jpg",
+    "revision": "845aa741ed9799088dd3db325d1d9ca3"
+  },
+  {
+    "url": "_saber/images/4664951316403972-709cf619.jpg",
+    "revision": "f0a88eb82b8ac935a6b6925fea0c33e1"
+  },
+  {
+    "url": "_saber/images/4664951316403972-ec59ce1e.jpg",
+    "revision": "4339b881ad6a6b67dfda8d64844deb13"
+  },
+  {
+    "url": "_saber/images/4668491316497691-8c826e26.jpg",
+    "revision": "da447a581f9382992ddbe29c9422d5a1"
+  },
+  {
+    "url": "_saber/images/4668491316497691-b4221fab.jpg",
+    "revision": "3ff2fe6d537866b5eaefded0c667c31e"
+  },
+  {
+    "url": "_saber/images/4668491316497691-edfdb220.jpg",
+    "revision": "4cbefc5958d9dad09952ad438fa6fea2"
+  },
+  {
+    "url": "_saber/images/4705072361370507237-7e277c30.jpg",
+    "revision": "6066b3149a326743b4345992c110101c"
+  },
+  {
+    "url": "_saber/images/4705072361370507237-aedeabfe.jpg",
+    "revision": "aaf2354143cec5680b1ef93dcef6aa2d"
+  },
+  {
+    "url": "_saber/images/4705072361370507237-b8d14883.jpg",
+    "revision": "e5605a2ce791005586ad9b9fba433e87"
+  },
+  {
+    "url": "_saber/images/4907661328089571-8a4870f5.jpg",
+    "revision": "cd0643e1b54461cfb35b420a937c859b"
+  },
+  {
+    "url": "_saber/images/4907661328089571-b450474c.jpg",
+    "revision": "fe6e5b00b43b673b9f6f3cac27d6cf44"
+  },
+  {
+    "url": "_saber/images/4907661328089571-d1fcbad7.jpg",
+    "revision": "7bb5c881691a87f5af142be538c9289f"
+  },
+  {
+    "url": "_saber/images/4925841593522364-31262f1f.jpg",
+    "revision": "8c62535e734d0f1ae013671b615aaec5"
+  },
+  {
+    "url": "_saber/images/4925841593522364-c0553c2c.jpg",
+    "revision": "33e5c948ee52f9373cde97d4f1c32ba8"
+  },
+  {
+    "url": "_saber/images/4925841593522364-d1b25da7.jpg",
+    "revision": "4926eb529f8b25a2210089b290fb70da"
+  },
+  {
+    "url": "_saber/images/4975661372151978-02e41ba7.jpg",
+    "revision": "e7a1ed51cc38d73e6ce3af0fe51dbced"
+  },
+  {
+    "url": "_saber/images/4975661372151978-32e89078.jpg",
+    "revision": "c861989229642624c3f715058909b621"
+  },
+  {
+    "url": "_saber/images/4975661372151978-a613158a.jpg",
+    "revision": "b9be9853278edfa5dc4a96e980086597"
+  },
+  {
+    "url": "_saber/images/5052811516505281-90a92faf.jpg",
+    "revision": "dbbf9d7e1de8fb73098bed976778176a"
+  },
+  {
+    "url": "_saber/images/5052811516505281-b39c9d95.jpg",
+    "revision": "7d09720ec35e60678e2c478108e0e467"
+  },
+  {
+    "url": "_saber/images/5052811516505281-e8822a34.jpg",
+    "revision": "ebf77637eac588603a6209e3efca7228"
+  },
+  {
+    "url": "_saber/images/5114991336032766-241a5a9e.jpg",
+    "revision": "afd8d7efe986e48f5b7f1d7564f222a1"
+  },
+  {
+    "url": "_saber/images/5114991336032766-3613722f.jpg",
+    "revision": "fd230b5557822d113e743e7cdb5c4a31"
+  },
+  {
+    "url": "_saber/images/5114991336032766-41a71aad.jpg",
+    "revision": "2da1878136a231aebe029ff61d9164f2"
+  },
+  {
+    "url": "_saber/images/5257381341395618-411e1e8d.jpg",
+    "revision": "925dcc746a8082d549e982b4e06fbe00"
+  },
+  {
+    "url": "_saber/images/5257381341395618-a5bab63a.jpg",
+    "revision": "86fd422945d77a54cada63fc24adfa72"
+  },
+  {
+    "url": "_saber/images/5257381341395618-c6918ab0.jpg",
+    "revision": "4232d9eafc12f14b465b507497be91ad"
+  },
+  {
+    "url": "_saber/images/5257401341395836-0ac4e479.jpg",
+    "revision": "712cefcece3507dffbac3e248b5beddb"
+  },
+  {
+    "url": "_saber/images/5257401341395836-b1693530.jpg",
+    "revision": "07c0f404611f4799f7e6f8e1b408187c"
+  },
+  {
+    "url": "_saber/images/5257411341395844-47cd3699.jpg",
+    "revision": "651654ef17e6187f8cc8d5e6ed807cde"
+  },
+  {
+    "url": "_saber/images/5257411341395844-b07fb48c.jpg",
+    "revision": "3ac2c405df994f9318435e8fd357f776"
+  },
+  {
+    "url": "_saber/images/5257911341455114-0d784fe5.jpg",
+    "revision": "1af7790a1e95e30184782814e37b973d"
+  },
+  {
+    "url": "_saber/images/5257911341455114-9aeded4c.jpg",
+    "revision": "84c7ab1479a93a1641ecc8831a3b62f0"
+  },
+  {
+    "url": "_saber/images/5257911341455114-a960d98e.jpg",
+    "revision": "3dd5da7cf27fec459e7ba7f2ffd2d401"
+  },
+  {
+    "url": "_saber/images/54313581583412418-48af85d7.jpg",
+    "revision": "466808aa85a7727939f76ab695ecf61b"
+  },
+  {
+    "url": "_saber/images/54313581583412418-be64e51c.jpg",
+    "revision": "9dc968f46ee4be38b7e671de37122d5b"
+  },
+  {
+    "url": "_saber/images/54313581583412418-d5b5ff33.jpg",
+    "revision": "3032fea96afb0c737bc376be413a648c"
+  },
+  {
+    "url": "_saber/images/5555401352791420-4280e97d.jpg",
+    "revision": "6691968eff555b8447cd624c8ce7be0c"
+  },
+  {
+    "url": "_saber/images/5555401352791420-c0d56af6.jpg",
+    "revision": "a5ea96bdd5ea0309482f12921ccda1f7"
+  },
+  {
+    "url": "_saber/images/5555401352791420-ccc4a081.jpg",
+    "revision": "3958b2e3a8aea304b2a6a719fe65979a"
+  },
+  {
+    "url": "_saber/images/56437151480656801-4a2cc12e.jpg",
+    "revision": "6b3a3106bd88bd7cd7622a8b1272d168"
+  },
+  {
+    "url": "_saber/images/56437151480656801-e9c03e11.jpg",
+    "revision": "46061bea53ff0e50a638a872d2c35f50"
+  },
+  {
+    "url": "_saber/images/5774427874327831517810916-78feccae.jpg",
+    "revision": "934f7b77e3091e79abda5b704fe71d9e"
+  },
+  {
+    "url": "_saber/images/5774427874327831517810916-99fce4c6.jpg",
+    "revision": "f1acdf1c22c9678de0563adb534e3527"
+  },
+  {
+    "url": "_saber/images/5774427874327831517810916-dc13324a.jpg",
+    "revision": "bf6865805b8ad38c5ad3ba032d42e3f5"
+  },
+  {
+    "url": "_saber/images/5841384381384138444-b1fc471b.jpg",
+    "revision": "930ac6428d55e51f904efc72b19418d0"
+  },
+  {
+    "url": "_saber/images/5841384381384138444-ce02868d.jpg",
+    "revision": "f0783fbf5383e0cf18dd26ddf02b4d1c"
+  },
+  {
+    "url": "_saber/images/5841384381384138444-ede44f8a.jpg",
+    "revision": "49aff0bc7781ff41a2dfac0186ebd6f6"
+  },
+  {
+    "url": "_saber/images/5967698214508971504081657-868e7553.jpg",
+    "revision": "8b969f62bcaeb13e5c2d018ead6b42e7"
+  },
+  {
+    "url": "_saber/images/5967698214508971504081657-a7d3a2fc.jpg",
+    "revision": "3bbbc916d65ff982e82f9c4cb11f45aa"
+  },
+  {
+    "url": "_saber/images/5967698214508971504081657-f1c9fd27.jpg",
+    "revision": "ffd35e0f05c3cc233fdbb45108f43e61"
+  },
+  {
+    "url": "_saber/images/59783774883702921504150395-62ad3ac9.jpg",
+    "revision": "fb070bb53dc43f042a10668ba5e3e266"
+  },
+  {
+    "url": "_saber/images/59783774883702921504150395-7457fed8.jpg",
+    "revision": "54ed5cd4527bd70ce86bbd69ece6dd02"
+  },
+  {
+    "url": "_saber/images/59783774883702921504150395-820ef795.jpg",
+    "revision": "37be7e924c47b0c5bd7d2bd281ea1cdf"
+  },
+  {
+    "url": "_saber/images/59804440719551504234764-8e224221.jpg",
+    "revision": "c2ca8dd961c9b38637205173c6596319"
+  },
+  {
+    "url": "_saber/images/59804440719551504234764-a3a1fcd7.jpg",
+    "revision": "12178c39803dbd0d2de4db0f6da1d24d"
+  },
+  {
+    "url": "_saber/images/59804440719551504234764-fbb5b1f7.jpg",
+    "revision": "33e9af0c66fec57ddc7edd75bc73e765"
+  },
+  {
+    "url": "_saber/images/5991650078566901502702682-518112d7.jpg",
+    "revision": "7889e0dab062a86c15338f9012d4e9d7"
+  },
+  {
+    "url": "_saber/images/5991650078566901502702682-ba7c2ed7.jpg",
+    "revision": "bae04af47eed6561de5eea0860e76fff"
+  },
+  {
+    "url": "_saber/images/5991650078566901502702682-d2c21ae0.jpg",
+    "revision": "7da15d78026c0e6520c302fbcbbc9af6"
+  },
+  {
+    "url": "_saber/images/61467221497497295-ad7c42ae.jpg",
+    "revision": "90a448036a3429a0c939bbbc4cdf4bcb"
+  },
+  {
+    "url": "_saber/images/61467221497497295-e9aea8b7.jpg",
+    "revision": "7cb756abddcfe73bf700dc5b5eb40392"
+  },
+  {
+    "url": "_saber/images/61467221497497295-fea4b563.jpg",
+    "revision": "e0cfe4eca945f95ec23a79dae457cd6f"
+  },
+  {
+    "url": "_saber/images/67031841506430768-8c5b777d.jpg",
+    "revision": "7a57118de455a121b7ffe7a92f235a39"
+  },
+  {
+    "url": "_saber/images/67031841506430768-adbca17d.jpg",
+    "revision": "c22b31b51ad660a0658ea0bfbff2a768"
+  },
+  {
+    "url": "_saber/images/68335581481131536-8766b1f2.jpg",
+    "revision": "33b76d9fd9d8675ed9c357a2f366289e"
+  },
+  {
+    "url": "_saber/images/68335581481131536-e3cf7598.jpg",
+    "revision": "f62fe438e394ca277d35bba55531e84d"
+  },
+  {
+    "url": "_saber/images/7734503541564498864-616686fe.jpg",
+    "revision": "4caa03c30fa35afa1b4dd92526fa7d12"
+  },
+  {
+    "url": "_saber/images/7734503541564498864-68a5a6b4.jpg",
+    "revision": "4328c05bfc2ed173e3d88ae83a6d462d"
+  },
+  {
+    "url": "_saber/images/7734503541564498864-91bcfd2d.jpg",
+    "revision": "f2cc1262028cadcee92b74de3f92f6df"
+  },
+  {
+    "url": "_saber/images/77408671506658529-3d771921.jpg",
+    "revision": "d753535ce94caf73519f5317252a6c50"
+  },
+  {
+    "url": "_saber/images/77408671506658529-7228decf.jpg",
+    "revision": "8d1210a8a40a835e843350936837abd4"
+  },
+  {
+    "url": "_saber/images/77408671506658529-7ff6ce5f.jpg",
+    "revision": "03f35ff70a76056791ac4b25e5842986"
+  },
+  {
+    "url": "_saber/images/81842401488259247-0ee89f8b.jpg",
+    "revision": "b15f4fa75062d8e23d1a243585963552"
+  },
+  {
+    "url": "_saber/images/81842401488259247-a9a96b38.jpg",
+    "revision": "e0faaf30e054bf715e8cc7ccbff12e3d"
+  },
+  {
+    "url": "_saber/images/89815191480293581-0660516b.jpg",
+    "revision": "8fe20cf4cea6c71fca10b20f63eb0f14"
+  },
+  {
+    "url": "_saber/images/89815191480293581-41aab2d8.jpg",
+    "revision": "9a8d6111a2aa214082031e2de4b6f3f6"
+  },
+  {
+    "url": "_saber/images/89815191480293581-645fad9b.jpg",
+    "revision": "10954a14439b9a5a8d77bae483c3a52e"
+  },
+  {
+    "url": "_saber/images/9047141881404714188-0ed07eeb.jpg",
+    "revision": "021cc8a1d5c658ec1c433dbe948880f6"
+  },
+  {
+    "url": "_saber/images/9047141881404714188-124d0b05.jpg",
+    "revision": "49390ea75dffbbdc5289dee64a885b93"
+  },
+  {
+    "url": "_saber/images/9047141881404714188-a038130f.jpg",
+    "revision": "05532519a9f5446a7ff4c5235925517a"
+  },
+  {
+    "url": "_saber/images/9070501405907050-005d8ed5.jpg",
+    "revision": "83b1fbb8d494dbe810e53ccdb6126c34"
+  },
+  {
+    "url": "_saber/images/9070501405907050-4e158d53.jpg",
+    "revision": "64081e5d9eda3922d664e5ffab0e397d"
+  },
+  {
+    "url": "_saber/images/9070501405907050-8e083cb1.jpg",
+    "revision": "00fbcfe6457a811f2bf9b5f75e336ac8"
+  },
+  {
+    "url": "_saber/images/9947741501607546-44f84b39.jpg",
+    "revision": "d9b094e9f03e743282ea668e4785820b"
+  },
+  {
+    "url": "_saber/images/9947741501607546-654ee3bb.jpg",
+    "revision": "28305ddab9bb13d7849e57d4210934ec"
+  },
+  {
     "url": "_saber/images/icons/favicon.png",
     "revision": "c5c9e7752ed10457645a3a4b39a040c1"
   },
@@ -2971,392 +4091,400 @@ self.__precacheManifest = [
     "revision": "b9082b56a8b2cc375d84e94cc52d8d89"
   },
   {
-    "url": "_saber/js/404-page.fe431c7b.js",
-    "revision": "ce593722c20f97379bca9fe50e3cc4bf"
+    "url": "_saber/js/404-page.dee36983.js",
+    "revision": "cce452affb65540444524ea28192652b"
   },
   {
-    "url": "_saber/js/client.8d044cc9.js",
-    "revision": "defd49b87ae5b941a0ae199b18033c01"
+    "url": "_saber/js/client.48062093.js",
+    "revision": "46a87ee5152a8556dad479f4afa0da0c"
   },
   {
-    "url": "_saber/js/page--_posts-2013-11-26-start-md.3b23acbf.js",
-    "revision": "d0aa8b39017850d52bfd6fcd48d0b1b6"
+    "url": "_saber/js/page--_posts-2013-11-26-start-md.77578d5b.js",
+    "revision": "4b2b6474d8c725ea3199fd7a3228404e"
   },
   {
-    "url": "_saber/js/page--_posts-2013-11-27-chrome-custom-md.1408027f.js",
-    "revision": "5c0e4d12301b37383b204c77831a432c"
+    "url": "_saber/js/page--_posts-2013-11-27-chrome-custom-md.7ec30607.js",
+    "revision": "b2e49c076f19f613c4768e5db1cc20cf"
   },
   {
-    "url": "_saber/js/page--_posts-2013-11-27-chrome-one-click-to-download-from-sogou-browser-md.3d3f525c.js",
-    "revision": "fdab7a82b534cdfbceac4e9278f85d61"
+    "url": "_saber/js/page--_posts-2013-11-27-chrome-one-click-to-download-from-sogou-browser-md.ee0d1d54.js",
+    "revision": "837fa167f600c57b8448adb0d4bc56f2"
   },
   {
-    "url": "_saber/js/page--_posts-2013-11-27-py-lyric-retriever-md.156da33b.js",
-    "revision": "357f355965acbb3c59b8242296234298"
+    "url": "_saber/js/page--_posts-2013-11-27-py-lyric-retriever-md.21f92452.js",
+    "revision": "f66981f4d4e41198ccb10b48dec3d70a"
   },
   {
-    "url": "_saber/js/page--_posts-2013-11-28-typecho-url-rewrite-on-bae-md.e99eb593.js",
-    "revision": "c365871a81995ba5ad01b583d8b1597d"
+    "url": "_saber/js/page--_posts-2013-11-28-typecho-url-rewrite-on-bae-md.50e89403.js",
+    "revision": "8707bff426a27e5bbf1660e65752a9b7"
   },
   {
-    "url": "_saber/js/page--_posts-2013-11-29-1bit-audio-player-md.95ed8578.js",
-    "revision": "e8da4efc4b95692a41324b497fffe7ec"
+    "url": "_saber/js/page--_posts-2013-11-29-1bit-audio-player-md.dc82e767.js",
+    "revision": "f6720ce888551980206b837e30cd540d"
   },
   {
-    "url": "_saber/js/page--_posts-2013-11-30-ihanabi-the-domain-md.7cb75d36.js",
-    "revision": "b45a026961093cf693304cf0482bd82b"
+    "url": "_saber/js/page--_posts-2013-11-30-ihanabi-the-domain-md.2f194098.js",
+    "revision": "e650ecc34b51a51e060a18d755bca898"
   },
   {
-    "url": "_saber/js/page--_posts-2013-12-05-move-out-from-bae-md.6a400768.js",
-    "revision": "171c20015520633a7b37d44867936d45"
+    "url": "_saber/js/page--_posts-2013-12-05-move-out-from-bae-md.2514f4a9.js",
+    "revision": "9db47d61e4e95f06a4f7bef414dfe956"
   },
   {
-    "url": "_saber/js/page--_posts-2013-12-10-typecho-v0-9-release-md.4420817d.js",
-    "revision": "5c01f690957cade865553f0d37b1d760"
+    "url": "_saber/js/page--_posts-2013-12-10-typecho-v0-9-release-md.9e7881a6.js",
+    "revision": "be1f6fa04bfef687a3d2875d27cba1ea"
   },
   {
-    "url": "_saber/js/page--_posts-2013-12-24-end-of-first-sophomore-term-md.d0575d8a.js",
-    "revision": "55ec4aca235f67e6a91aa50c6123c957"
+    "url": "_saber/js/page--_posts-2013-12-24-end-of-first-sophomore-term-md.c191b9ea.js",
+    "revision": "0a28d1618ae099231625a6e2a577416c"
   },
   {
-    "url": "_saber/js/page--_posts-2013-12-26-theme-two-md.f22994de.js",
-    "revision": "8078e8e677f8b4c1706902b89e82e7f6"
+    "url": "_saber/js/page--_posts-2013-12-26-theme-two-md.67c167c5.js",
+    "revision": "0b43fdadef0dea92844ac40ed5279429"
   },
   {
-    "url": "_saber/js/page--_posts-2013-12-30-move-to-technetcal-and-2014-md.e7566970.js",
-    "revision": "985bacf85a538318188bc455c9e3a0e5"
+    "url": "_saber/js/page--_posts-2013-12-30-move-to-technetcal-and-2014-md.eb24da59.js",
+    "revision": "c4dfcf3ca18d336c4c5372b67f47ce21"
   },
   {
-    "url": "_saber/js/page--_posts-2014-01-01-electronic-technology-final-exam-md.939fc5a1.js",
-    "revision": "1fc449d5769a9f0715d47403ab23879c"
+    "url": "_saber/js/page--_posts-2014-01-01-electronic-technology-final-exam-md.b9564b63.js",
+    "revision": "534632c2ccaca7b3e3dbe954fb4efe29"
   },
   {
-    "url": "_saber/js/page--_posts-2014-01-06-programmers-healthy-problem-md.9fe22167.js",
-    "revision": "e204d6770acba632411bdb0c71630edc"
+    "url": "_saber/js/page--_posts-2014-01-06-programmers-healthy-problem-md.7a39b296.js",
+    "revision": "c131973a953c10a692297300974cc9d6"
   },
   {
-    "url": "_saber/js/page--_posts-2014-01-13-emeditor-setting-md.02e32ef6.js",
-    "revision": "0fda315fc42c9f4b579e54f2efb824ad"
+    "url": "_saber/js/page--_posts-2014-01-13-emeditor-setting-md.bfb43fbd.js",
+    "revision": "7589d7085a85c6ea88973484c93c54c1"
   },
   {
-    "url": "_saber/js/page--_posts-2014-01-31-happy-horse-year-md.5f2519a3.js",
-    "revision": "83ca957255a9234ec1305ba540eb9bba"
+    "url": "_saber/js/page--_posts-2014-01-31-happy-horse-year-md.46a44e76.js",
+    "revision": "aacc09c9227e2bad0d07b6f067fa0460"
   },
   {
-    "url": "_saber/js/page--_posts-2014-03-02-win-prizes-at-weibo-md.55f9a139.js",
-    "revision": "c5b2621bc0794c53e20f9670f2602d52"
+    "url": "_saber/js/page--_posts-2014-03-02-win-prizes-at-weibo-md.9439963b.js",
+    "revision": "e1f0da456f43c00ad81ad3654a207ecb"
   },
   {
-    "url": "_saber/js/page--_posts-2014-03-23-about-parsing-ua-for-duoshuo-md.d0d9f855.js",
-    "revision": "bb8d7af0add28ea7101e754e25833746"
+    "url": "_saber/js/page--_posts-2014-03-23-about-parsing-ua-for-duoshuo-md.7a2df7fa.js",
+    "revision": "75746cc8f1e83133dd6946a141d68913"
   },
   {
-    "url": "_saber/js/page--_posts-2014-03-25-flowers-photos-by-lumia-md.3a69c233.js",
-    "revision": "900074a89946924ac51a7a02f88baa75"
+    "url": "_saber/js/page--_posts-2014-03-25-flowers-photos-by-lumia-md.d93c9fca.js",
+    "revision": "93eb10295a32accdaf854d4f2a6fbfa3"
   },
   {
-    "url": "_saber/js/page--_posts-2014-05-19-dual-boot-fix-virtualbox-and-hyper-v-switch-problem-md.8df8add3.js",
-    "revision": "1d8c0597b856ff50d340ddb52923eeab"
+    "url": "_saber/js/page--_posts-2014-05-19-dual-boot-fix-virtualbox-and-hyper-v-switch-problem-md.ea3ddce7.js",
+    "revision": "36cc2a221c75ee928156ae1b85cc7843"
   },
   {
-    "url": "_saber/js/page--_posts-2014-05-29-use-h5ai-to-beautify-your-http-web-server-index-md.9c696dc5.js",
-    "revision": "3c5294b8fd6f68c0ed44a2e72d9a4b6f"
+    "url": "_saber/js/page--_posts-2014-05-29-use-h5ai-to-beautify-your-http-web-server-index-md.73f2bc04.js",
+    "revision": "3649c6a5e35d145e558a800a046f62c1"
   },
   {
-    "url": "_saber/js/page--_posts-2014-10-14-syntax-for-typecho-md.c10f1175.js",
-    "revision": "6acbf7b8130837f312aa9e97f270000d"
+    "url": "_saber/js/page--_posts-2014-10-14-syntax-for-typecho-md.ca105f74.js",
+    "revision": "1d3d0d0e0018e74a99b6993b3e0faa5c"
   },
   {
-    "url": "_saber/js/page--_posts-2015-05-20-hello-world-md.02c1b5da.js",
-    "revision": "95948b53b0b29e146fef5bb0cdaab55f"
+    "url": "_saber/js/page--_posts-2015-05-20-hello-world-md.a43c11d2.js",
+    "revision": "cfbeb690942357afed7b6fdc8dc6dc8e"
   },
   {
-    "url": "_saber/js/page--_posts-2015-08-23-use-scoop-to-enhance-windows-powershell-md.425af9e8.js",
-    "revision": "d9cb4fc5e6fc38909b1f9b84526acb2c"
+    "url": "_saber/js/page--_posts-2015-08-23-use-scoop-to-enhance-windows-powershell-md.94c05413.js",
+    "revision": "913a3354b3535fd0e551ff3a50c3ce17"
   },
   {
-    "url": "_saber/js/page--_posts-2015-09-20-new-mac-env-bootstrap-md.c8783822.js",
-    "revision": "8c59f09154eaf29d2853ca302d9a56f9"
+    "url": "_saber/js/page--_posts-2015-09-20-new-mac-env-bootstrap-md.beb7a2ae.js",
+    "revision": "f5c5c8dcd78b7bf2b109db9f62a713ce"
   },
   {
-    "url": "_saber/js/page--_posts-2015-10-02-dot-im-domain-renewal-md.45a64502.js",
-    "revision": "803506140a9e449c65de36681319ba40"
+    "url": "_saber/js/page--_posts-2015-10-02-dot-im-domain-renewal-md.8e9c57c0.js",
+    "revision": "715d30dfce17ff4fb77ee2a94b2e21b4"
   },
   {
-    "url": "_saber/js/page--_posts-2017-01-01-2016-2017-md.a08eaec9.js",
-    "revision": "8b9ed57335900dc1646b62a5bb9d597a"
+    "url": "_saber/js/page--_posts-2017-01-01-2016-2017-md.a74b6017.js",
+    "revision": "142f04ca123900412cb7548e7a67ee68"
   },
   {
-    "url": "_saber/js/page--_posts-2017-02-12-henet-6in4-ipv6-tunnel-on-openwrt-md.f127da14.js",
-    "revision": "97dd92dc376052880762b4680b400d79"
+    "url": "_saber/js/page--_posts-2017-02-12-henet-6in4-ipv6-tunnel-on-openwrt-md.a7364166.js",
+    "revision": "c16c5827b1c31bb9dca7e7a95493837b"
   },
   {
-    "url": "_saber/js/page--_posts-2017-02-21-a-brief-history-of-minecraft-modding-md.7bde856f.js",
-    "revision": "d7058dcaab94edd6db42f088e7ea0294"
+    "url": "_saber/js/page--_posts-2017-02-21-a-brief-history-of-minecraft-modding-md.18e9145f.js",
+    "revision": "33767254d1e59521f7a2267e3f416a04"
   },
   {
-    "url": "_saber/js/page--_posts-2017-12-15-nintendo-switch-unboxing-and-simple-review-md.8adaeff8.js",
-    "revision": "36c8193dc3d25e6a39534608d9d45fc0"
+    "url": "_saber/js/page--_posts-2017-12-15-nintendo-switch-unboxing-and-simple-review-md.7fef2b90.js",
+    "revision": "690b90827d8a542a3f51ebb65a03caaa"
   },
   {
-    "url": "_saber/js/page--_posts-2018-01-01-the-tao-of-notch-beyond-twitter-md.bab9475c.js",
-    "revision": "6835b19c856060a755950f354098a0c6"
+    "url": "_saber/js/page--_posts-2018-01-01-the-tao-of-notch-beyond-twitter-md.8b5ef0d5.js",
+    "revision": "2600e34c75f6f4de14c78533fdf4077e"
   },
   {
-    "url": "_saber/js/page--_posts-2018-03-24-office-2016-custom-installation-guide-md.412d0f21.js",
-    "revision": "19e4fbb1924b2bd959881d3d92492505"
+    "url": "_saber/js/page--_posts-2018-03-24-office-2016-custom-installation-guide-md.73f837d0.js",
+    "revision": "01547d0c10700f92d119e4c1646e7281"
   },
   {
-    "url": "_saber/js/page--_posts-2018-05-12-talk-about-scoop-the-package-manager-for-windows-again-md.b577f254.js",
-    "revision": "5855f1b044972de649720ef1663ec2e3"
+    "url": "_saber/js/page--_posts-2018-05-12-talk-about-scoop-the-package-manager-for-windows-again-md.a936005d.js",
+    "revision": "942ffc24b0bef50894246c156401854e"
   },
   {
-    "url": "_saber/js/page--_posts-2018-12-21-chrome-extensions-that-i-am-using-md.0850d617.js",
-    "revision": "e568865d3e0e18f977b1a26074ad7d50"
+    "url": "_saber/js/page--_posts-2018-12-21-chrome-extensions-that-i-am-using-md.fe7c044c.js",
+    "revision": "88aa3d0bb22b56ccf1fdcc4061cb09a6"
   },
   {
-    "url": "_saber/js/page--_posts-2019-01-15-the-2018-hacktoberfest-shirt-arrived-md.06c517fa.js",
-    "revision": "82bc7bd99ad644f2559c21d9bed13884"
+    "url": "_saber/js/page--_posts-2019-01-15-the-2018-hacktoberfest-shirt-arrived-md.d71e7eb9.js",
+    "revision": "a0e1cec817f93c6345fef919f8151b93"
   },
   {
-    "url": "_saber/js/page--_posts-2019-02-18-understanding-windows-console-host-settings-md.5bd42e34.js",
-    "revision": "79b147000e2e3698a451a667424982e4"
+    "url": "_saber/js/page--_posts-2019-02-18-understanding-windows-console-host-settings-md.9a3bd853.js",
+    "revision": "c5ad333fbcd451e34b98b1f98fb8fd66"
   },
   {
-    "url": "_saber/js/page--_posts-2019-04-21-recent-changes-of-my-site-md.9c44bb12.js",
-    "revision": "76cc8c606028e2ec6a6bb5b9c8ccd684"
+    "url": "_saber/js/page--_posts-2019-04-21-recent-changes-of-my-site-md.5d1b1e79.js",
+    "revision": "a94d3b95c2c74b74e2dd90f19141bdbb"
   },
   {
-    "url": "_saber/js/page--_posts-2019-05-01-macos-mojave-dark-mode-in-css-md.81a2c2fb.js",
-    "revision": "b9769c993639295556f0fa2170d31ef7"
+    "url": "_saber/js/page--_posts-2019-05-01-macos-mojave-dark-mode-in-css-md.afa3e22d.js",
+    "revision": "df0bfdaf6981cb3cf5550d39c454a34f"
   },
   {
-    "url": "_saber/js/page--_posts-2019-05-20-mariya-takeuchis-plastic-love-gets-music-video-after-35-years-md.00530cde.js",
-    "revision": "cae1f629a62eb3db70a479d44969bf50"
+    "url": "_saber/js/page--_posts-2019-05-20-mariya-takeuchis-plastic-love-gets-music-video-after-35-years-md.2abec59b.js",
+    "revision": "730905d532d92ee77ec4220ca51356aa"
   },
   {
-    "url": "_saber/js/page--_posts-2019-07-07-amd-itx-diy-specs-for-the-next-5-years-md.c4ebe629.js",
-    "revision": "a637f0c5b7111752f724b3cdc5baa0af"
+    "url": "_saber/js/page--_posts-2019-07-07-amd-itx-diy-specs-for-the-next-5-years-md.b7b99ffa.js",
+    "revision": "0067094abb9d13b5036451cefc24801b"
   },
   {
-    "url": "_saber/js/page--_posts-2019-07-24-better-lazyload-implementation-with-responsive-images-md.17c96421.js",
-    "revision": "8548af198736f98b14a0ee0217020f57"
+    "url": "_saber/js/page--_posts-2019-07-24-better-lazyload-implementation-with-responsive-images-md.e0ac314d.js",
+    "revision": "3311892ce3193159e9b8c971889e15f4"
   },
   {
-    "url": "_saber/js/page--_posts-2019-11-16-github-universe-2019-news-md.14ff2b5c.js",
-    "revision": "978d1a6ce01f507cb66f273ec84b4833"
+    "url": "_saber/js/page--_posts-2019-11-16-github-universe-2019-news-md.6075cf68.js",
+    "revision": "2f7ad0290259c848ed119b19c2ce4455"
   },
   {
-    "url": "_saber/js/page--_posts-2020-04-10-ten-indie-video-game-soundtracks-you-must-listen-md.ad325fb7.js",
-    "revision": "a6a7af940a2e019a03a1ba218c70a345"
+    "url": "_saber/js/page--_posts-2020-04-10-ten-indie-video-game-soundtracks-you-must-listen-md.266f2262.js",
+    "revision": "60ce82933040af13fe5e41e5bcb46b54"
   },
   {
-    "url": "_saber/js/page--about-md.22cf2690.js",
-    "revision": "e02f4d4c6da67f1ffc9cd96ee0877472"
+    "url": "_saber/js/page--about-md.894d43cd.js",
+    "revision": "8fa93e88e2a425b6bbf25a53c9bfb944"
   },
   {
-    "url": "_saber/js/page--blog-index-md.d1a1c28b.js",
-    "revision": "b713fac125592644515b1dd46dd213fa"
+    "url": "_saber/js/page--blog-index-md.850915b2.js",
+    "revision": "7f97b5befe26f1f15f70be090425dc2c"
   },
   {
-    "url": "_saber/js/page--guestbook-md.41dd759c.js",
-    "revision": "22e2ea4dfce407cff0677cc8f9499603"
+    "url": "_saber/js/page--city-pop-collection-md.e4e34833.js",
+    "revision": "c4b706fd74808b283d34a01235461eee"
   },
   {
-    "url": "_saber/js/page--index-md.0a8a0b28.js",
-    "revision": "aaec3bb4f2804a0bddb8a7d2017159b8"
+    "url": "_saber/js/page--guestbook-md.f6e78ea7.js",
+    "revision": "b3112156d6f70d5a2292300480ef66a4"
   },
   {
-    "url": "_saber/js/page--links-md.aec5b235.js",
-    "revision": "889a1e1316fb7361404322f0bbad33b2"
+    "url": "_saber/js/page--index-md.6c59d332.js",
+    "revision": "222d2884451982a94c5e75f63b2fa925"
+  },
+  {
+    "url": "_saber/js/page--links-md.ac879210.js",
+    "revision": "50f6786470c3bb018872560911ea2e27"
   },
   {
     "url": "404.html",
-    "revision": "67976acd972534b2894b58a42798b446"
+    "revision": "f3a5abf33945c6ced68a76e27b9d1ce0"
   },
   {
     "url": "about/index.html",
-    "revision": "60942cbb28abfe8ffff0e8f861ee1837"
+    "revision": "f0928053a5966adfa7c0d91f07a48f48"
   },
   {
     "url": "blog/1bit-audio-player/index.html",
-    "revision": "871f98817937635738b775c5a01ea669"
+    "revision": "2b63deadfb5fab4af1d96df6902eaad8"
   },
   {
     "url": "blog/2016-2017/index.html",
-    "revision": "2e727223fb7766a8e90f65b0df84c360"
+    "revision": "6ae5c4aaaba49d198e9e440106ab44cf"
   },
   {
     "url": "blog/a-brief-history-of-minecraft-modding/index.html",
-    "revision": "8d92ac34503bc7c65a939b2d6eed00df"
+    "revision": "047d8a7f7912c1d1f4c899ad3549940b"
   },
   {
     "url": "blog/about-parsing-ua-for-duoshuo/index.html",
-    "revision": "790e41e019c7ae856755da8af1d2664f"
+    "revision": "38e9cb8492efdc4b25fae20de10bfde6"
   },
   {
     "url": "blog/amd-itx-diy-specs-for-the-next-5-years/index.html",
-    "revision": "0c3635d4d172f50ad21ce2e685ae5594"
+    "revision": "b7545824a86370e55fe04352e30ced21"
   },
   {
     "url": "blog/better-lazyload-implementation-with-responsive-images/index.html",
-    "revision": "c21fa214d35a3f2b1f3a5db9581bfa1b"
+    "revision": "a5509af608234564f2d27aeb66244f61"
   },
   {
     "url": "blog/chrome-custom/index.html",
-    "revision": "ae6e15d700ad7e72aa82de50e0ccf203"
+    "revision": "d7a1eeb9aea6e1a6cd9a85c29456a8f6"
   },
   {
     "url": "blog/chrome-extensions-that-i-am-using/index.html",
-    "revision": "f10cc38c123d7c59a53298eaa429ede2"
+    "revision": "6e2793ce828c553e0362ac6fa9134d99"
   },
   {
     "url": "blog/chrome-one-click-to-download-from-sogou-browser/index.html",
-    "revision": "ba704976f2eeb4f5a8586f850cc2c712"
+    "revision": "a8bd9cbbb87481aeabfa01922ad75652"
   },
   {
     "url": "blog/dot-im-domain-renewal/index.html",
-    "revision": "07df6bbc00c01174e88f7d8857a60037"
+    "revision": "2abe08267cced9fbbbdf5befacd391b7"
   },
   {
     "url": "blog/dual-boot-fix-virtualbox-and-hyper-v-switch-problem/index.html",
-    "revision": "bffd9e4d923c315ba6fcbcbcd5e580ab"
+    "revision": "559254314f8853664d5c6e5ba52cefe7"
   },
   {
     "url": "blog/electronic-technology-final-exam/index.html",
-    "revision": "e4d072068194c596a1a5e86170af1326"
+    "revision": "597dad3f09eafc8adf1acdff26b78958"
   },
   {
     "url": "blog/emeditor-setting/index.html",
-    "revision": "5d4fff4ce7ea734df4843d3156d5d160"
+    "revision": "310a70d7f8ffa0b56088f3651b7a043a"
   },
   {
     "url": "blog/end-of-first-sophomore-term/index.html",
-    "revision": "66bacaa13af280831f85dbaaf567eb7d"
+    "revision": "a3e4b4914cb788df12c2c9723677bb61"
   },
   {
     "url": "blog/flowers-photos-by-lumia/index.html",
-    "revision": "db85a4c12b5568199a3ed723152e5da4"
+    "revision": "39205d3302537601143c55a70f803904"
   },
   {
     "url": "blog/github-universe-2019-news/index.html",
-    "revision": "f41cf73b0d8b9b23fc8359220e87a0c6"
+    "revision": "55432bd645342beb5390ecfd908568c3"
   },
   {
     "url": "blog/happy-horse-year/index.html",
-    "revision": "b8d36f7679ede51476c34db9b1b0c703"
+    "revision": "594054cc62b34e1d4b6458a75dbaea60"
   },
   {
     "url": "blog/hello-world/index.html",
-    "revision": "17e49e25b482eb470715e91bd4b38bd8"
+    "revision": "0a7aae2e0321b40b0c274b2564bb9705"
   },
   {
     "url": "blog/henet-6in4-ipv6-tunnel-on-openwrt/index.html",
-    "revision": "c3300c07ba769299aedafc84ee738387"
+    "revision": "a393a2bea25aa2c18ea223658806d47e"
   },
   {
     "url": "blog/ihanabi-the-domain/index.html",
-    "revision": "e2256eff3e9b5c418aa06eff6a6459be"
+    "revision": "d09b876bca38c52eddfbac962fb023cd"
   },
   {
     "url": "blog/index.html",
-    "revision": "4f0180a39db03c2e35a95cbe8482f2b8"
+    "revision": "fe35a523247c8eb4cb02a0087a659438"
   },
   {
     "url": "blog/macos-mojave-dark-mode-in-css/index.html",
-    "revision": "92579f27ec739b4a84bdba7578d58fe9"
+    "revision": "38a7c5591ce53f3c50d22000159f79f9"
   },
   {
     "url": "blog/mariya-takeuchis-plastic-love-gets-music-video-after-35-years/index.html",
-    "revision": "17ceef50bfa0c1e783f7346fdd4831bb"
+    "revision": "19292389785e1f0b096e027c450f4311"
   },
   {
     "url": "blog/move-out-from-bae/index.html",
-    "revision": "1102fa4569abe8c37e1822b889ab080f"
+    "revision": "b170b3cfedc2f4b3a088c859b32944d2"
   },
   {
     "url": "blog/move-to-technetcal-and-2014/index.html",
-    "revision": "0f15c22175deb45d1f0257511357af73"
+    "revision": "51cab4b3727df57e440af19a3d44a720"
   },
   {
     "url": "blog/new-mac-env-bootstrap/index.html",
-    "revision": "c9a4ab6406b46fe979465793d3c13a48"
+    "revision": "edc34e3e28bfb6a7ab09f25c1bc0a9cf"
   },
   {
     "url": "blog/nintendo-switch-unboxing-and-simple-review/index.html",
-    "revision": "1276dd5957b4db76bcfd118bdc175cd0"
+    "revision": "89c7bc392388290d288a5fecfa19dce1"
   },
   {
     "url": "blog/office-2016-custom-installation-guide/index.html",
-    "revision": "e047f6fab9b93b89da9e7cf80fcbff31"
+    "revision": "5fbcf8c8abc8c7c6adbfa5fb55aa2326"
   },
   {
     "url": "blog/page/2/index.html",
-    "revision": "a3605734f85c9542b95ec2dfeb45ef1c"
+    "revision": "3dac676df063f72eeca4de4126e830c7"
   },
   {
     "url": "blog/programmers-healthy-problem/index.html",
-    "revision": "cfc4d827f1e7d32e0b811d0b9cb06211"
+    "revision": "6373f2d1964e5fcd3d84c8b37465d829"
   },
   {
     "url": "blog/py-lyric-retriever/index.html",
-    "revision": "f736f8a4b0cc7cbf3dc3cfd9f0600f47"
+    "revision": "8e79c1fc5936b59d3f5ac0f49ff8d846"
   },
   {
     "url": "blog/recent-changes-of-my-site/index.html",
-    "revision": "ba1a12d8bd397149f9e3dc96d90f698a"
+    "revision": "02b908018d4cf87c8807304011a62619"
   },
   {
     "url": "blog/start/index.html",
-    "revision": "d3c785805a14fed36ee8eef34674fa63"
+    "revision": "01ae410498e7f2bcfb304b7b43a68bb1"
   },
   {
     "url": "blog/syntax-for-typecho/index.html",
-    "revision": "e8a15d300340da196fdb992e1784fbc5"
+    "revision": "39b9101a9da979b8f9ea1bdb4431a48f"
   },
   {
     "url": "blog/talk-about-scoop-the-package-manager-for-windows-again/index.html",
-    "revision": "89b983ac7753f29e60859c57d3bb9adb"
+    "revision": "adaa863c0b5c936928196bba7e1a37d1"
   },
   {
     "url": "blog/ten-indie-video-game-soundtracks-you-must-listen/index.html",
-    "revision": "d8f8f4c25074ef91b858988712df490c"
+    "revision": "7ac5f6416d276353dfd5e952ba867084"
   },
   {
     "url": "blog/the-2018-hacktoberfest-shirt-arrived/index.html",
-    "revision": "1a39730ea1e97526b26e46361b22b7bc"
+    "revision": "ef8a88541bd6b1adbdca060967ed3806"
   },
   {
     "url": "blog/the-tao-of-notch-beyond-twitter/index.html",
-    "revision": "b8ae93d5bc2293bf401c19e6c1e74b00"
+    "revision": "58303c11874474dec1ae609c42d94b75"
   },
   {
     "url": "blog/theme-two/index.html",
-    "revision": "00eda291ff2bfd9d1a1e2ed4338e4a64"
+    "revision": "2e0f47be2449b07b333f7919d237277b"
   },
   {
     "url": "blog/typecho-url-rewrite-on-bae/index.html",
-    "revision": "90535c291eb41fa905afd8f3a4e5f762"
+    "revision": "9a03aa39412b9e1e2133ee0a254e17e5"
   },
   {
     "url": "blog/typecho-v0-9-release/index.html",
-    "revision": "72b9aa136bc508c439bb0684ba96a070"
+    "revision": "78a3bf914dfff9792d85dbe4f564e66e"
   },
   {
     "url": "blog/understanding-windows-console-host-settings/index.html",
-    "revision": "9b1ffedfdabfe877b4afe1a30dedd0af"
+    "revision": "fba2b9e17232e499f3fde619106be54a"
   },
   {
     "url": "blog/use-h5ai-to-beautify-your-http-web-server-index/index.html",
-    "revision": "9acc68280e1245f4cbcded46a54a82be"
+    "revision": "a4ca0b663715400b8ca5974b30aed2a0"
   },
   {
     "url": "blog/use-scoop-to-enhance-windows-powershell/index.html",
-    "revision": "2156b82add85cc05c92bf04d94ce9d4e"
+    "revision": "ad605e9ad71d75557ebb5015a634db2f"
   },
   {
     "url": "blog/win-prizes-at-weibo/index.html",
-    "revision": "49678108f02c394eb2922b195d66c9b9"
+    "revision": "4370ef4a329f117c59b08a4fac665ef8"
+  },
+  {
+    "url": "city-pop-collection/index.html",
+    "revision": "2fbce30ba5691fdb6ccbce79aa18d969"
   },
   {
     "url": "google83352756ba352b4c.html",
@@ -3364,15 +4492,15 @@ self.__precacheManifest = [
   },
   {
     "url": "guestbook/index.html",
-    "revision": "d66a7c79417d0ba53c9fc93d8def735e"
+    "revision": "0ccfa2bf1fc55b621782d200a751dceb"
   },
   {
     "url": "index.html",
-    "revision": "9701fda328f6ab79dedcb6fd748511ee"
+    "revision": "2320701239b56b278bb9eeda99e42c00"
   },
   {
     "url": "links/index.html",
-    "revision": "e18c7904eb58c133e3bdb2f908a86327"
+    "revision": "9df51a6f8fa8df7da4d4ae9800af001e"
   }
 ].concat(self.__precacheManifest || []);
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
