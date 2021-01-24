@@ -56,8 +56,6 @@ comments: false
 内容，意味着您侵犯了我们的版权。如果您对具体内容授权存在疑问，欢迎在引用内容之前通
 过电子邮件联系我们。
 
-*Copyright © 2015-2020 Chawye Hsu. All rights reserved.*
-
 The content and resources belong to **Chawye Hsu**, **unless otherwise noted**.
 Reproducing or distributing our content **without permission** could mean you will
 be in legal breach of our copyright. Requests to use our content are considered

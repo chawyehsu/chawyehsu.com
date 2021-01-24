@@ -4,7 +4,7 @@ module.exports = {
   },
   theme: "./theme",
   siteConfig: {
-    lang: 'zh-CN',
+    lang: 'zh-cn',
     appleAppTitle: 'TACH',
     url: 'https://chawyehsu.com',
     title: 'The Art of Chawye Hsu',
