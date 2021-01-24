@@ -6,6 +6,8 @@ description: 一份都市流行（City Pop，シティ・ポップ）音乐合�
 date: 2021-01-23 08:00:00
 updated: 2021-01-23 23:00:00
 comments: false
+assets:
+  og: ../_assets/uploads/2021/city-pop-collection/2017291599567979.jpg
 multilang:
   en: true
 ---

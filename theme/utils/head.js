@@ -33,8 +33,8 @@ export default vm => {
     }
   ]
 
-  if (vm.page.assets.cover) {
-    let image = vm.page.assets.cover
+  if (vm.page.assets.cover || vm.page.assets.og) {
+    let image = vm.page.assets.cover || vm.page.assets.og
 
     // `og:image` requires a URL with `http(s)` prefix,
     // prepend siteURL if given image URL has no `http(s)` prefix
