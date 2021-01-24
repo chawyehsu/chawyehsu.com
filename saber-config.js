@@ -18,12 +18,7 @@ module.exports = {
       apikey: 'Hg3FyAX4IodvgGm8OAIpuplfZW5APk2DYcuVk9DEEDSBijKPdPdooKBX7683fo6u',
       admin: 'chawyehsu',
       adminLabel: 'Mod'
-    },
-    pwaFirstTimeInstallMessage: '本站可以离线访问',
-    pwaUpdateFoundMessage: '正在更新站点资源',
-    pwaUpdateReadyMessage: '站点资源更新就绪',
-    pwaUpdateButtonMessage: '刷新',
-    pwaDismissMessage: '忽略'
+    }
   },
   themeConfig: {
     since: '2015',
