@@ -35,12 +35,16 @@ self.__precacheManifest = [
     "revision": "c62032e96c8e0733445d3ea12f7004cb"
   },
   {
-    "url": "_saber/images/1187656715310300533860-082ed8ff.jpg",
-    "revision": "b569e57d8dd111b3ba908eb696cb860b"
+    "url": "_saber/images/1187656715310300533860-78e88839.jpg",
+    "revision": "52a46aa2a88df3b3e0cc12e99b38b92c"
   },
   {
-    "url": "_saber/images/1187656715310300533860-5bb3633c.jpg",
-    "revision": "550cf097fd33e821e5740b2b3a47618a"
+    "url": "_saber/images/1187656715310300533860-b040450d.jpg",
+    "revision": "0a714db553967a5ba28eafac44b7a83a"
+  },
+  {
+    "url": "_saber/images/1187656715310300533860-f8f111cd.jpg",
+    "revision": "95e7a8f77f260b9aa18cdc7317df72da"
   },
   {
     "url": "_saber/images/12621061497224696-860c178d.jpg",
@@ -151,12 +155,16 @@ self.__precacheManifest = [
     "revision": "3cbcc3ebc87ddaa1deb80994952d94fc"
   },
   {
-    "url": "_saber/images/200356200706281122222184-33ccaee0.jpg",
-    "revision": "c7e5de58c1d7a63a29b984c001f9d58a"
+    "url": "_saber/images/200356200706281122222184-5a50d8d3.jpg",
+    "revision": "0c6900a0d41ec8ddb374b46146b93199"
   },
   {
-    "url": "_saber/images/200356200706281122222184-3ca0cdd5.jpg",
-    "revision": "c01c8b56ce1ac2a098a58859b33dcaf7"
+    "url": "_saber/images/200356200706281122222184-a3d119e1.jpg",
+    "revision": "f7f9bd324e2598affc00472e02574cdd"
+  },
+  {
+    "url": "_saber/images/200356200706281122222184-f1cc873e.jpg",
+    "revision": "f405c2a26dad5a99b734ef77ed8988d8"
   },
   {
     "url": "_saber/images/200356200708171602318807-176bb9e6.jpg",
@@ -3107,16 +3115,16 @@ self.__precacheManifest = [
     "revision": "c4508c011c6c3985695445cccb14197f"
   },
   {
-    "url": "_saber/images/21001792811439791638-153b5946.jpg",
-    "revision": "1b28f41b6856514c7964c0e67bd96cf5"
+    "url": "_saber/images/21001792811439791638-079b6045.jpg",
+    "revision": "8ce92d4876f4da25be241b8f78869ad7"
   },
   {
-    "url": "_saber/images/21001792811439791638-48373308.jpg",
-    "revision": "eeec3fdae17f96bf04cacd71fe195e59"
+    "url": "_saber/images/21001792811439791638-30456436.jpg",
+    "revision": "1ab52764a8b0a1553f059315005dce86"
   },
   {
-    "url": "_saber/images/21001792811439791638-5f0d0201.jpg",
-    "revision": "f03d8d05c4a0b25c07d58a2d96108952"
+    "url": "_saber/images/21001792811439791638-e88801d2.jpg",
+    "revision": "2c6b0283ac14522544aa0ab754cb19fb"
   },
   {
     "url": "_saber/images/21002064021443006061-c03a212a.jpg",
@@ -3835,20 +3843,28 @@ self.__precacheManifest = [
     "revision": "4232d9eafc12f14b465b507497be91ad"
   },
   {
-    "url": "_saber/images/5257401341395836-0ac4e479.jpg",
-    "revision": "712cefcece3507dffbac3e248b5beddb"
+    "url": "_saber/images/5257401341395836-099ee941.jpg",
+    "revision": "a82d7bebeec10d89bde4102cf8ba2ca4"
   },
   {
-    "url": "_saber/images/5257401341395836-b1693530.jpg",
-    "revision": "07c0f404611f4799f7e6f8e1b408187c"
+    "url": "_saber/images/5257401341395836-a072d0ec.jpg",
+    "revision": "6181357609f85f52e2cf6cb435819c6b"
   },
   {
-    "url": "_saber/images/5257411341395844-47cd3699.jpg",
-    "revision": "651654ef17e6187f8cc8d5e6ed807cde"
+    "url": "_saber/images/5257401341395836-fa2add95.jpg",
+    "revision": "5c74d2124cca1d4e59cb00c611c8737c"
   },
   {
-    "url": "_saber/images/5257411341395844-b07fb48c.jpg",
-    "revision": "3ac2c405df994f9318435e8fd357f776"
+    "url": "_saber/images/5257411341395844-62017ea3.jpg",
+    "revision": "7f353bacb74c6d49e830742fe1c5622b"
+  },
+  {
+    "url": "_saber/images/5257411341395844-6cd1c5b7.jpg",
+    "revision": "cb536016a1c3e816bc2b72f98913c7a7"
+  },
+  {
+    "url": "_saber/images/5257411341395844-a56d1270.jpg",
+    "revision": "6b4e0ab687c75f608042036922015465"
   },
   {
     "url": "_saber/images/5257911341455114-0d784fe5.jpg",
@@ -3887,12 +3903,16 @@ self.__precacheManifest = [
     "revision": "3958b2e3a8aea304b2a6a719fe65979a"
   },
   {
-    "url": "_saber/images/56437151480656801-4a2cc12e.jpg",
-    "revision": "6b3a3106bd88bd7cd7622a8b1272d168"
+    "url": "_saber/images/56437151480656801-2016acc3.jpg",
+    "revision": "92fd57b5088bfb8261bffe3927ebdbd5"
   },
   {
-    "url": "_saber/images/56437151480656801-e9c03e11.jpg",
-    "revision": "46061bea53ff0e50a638a872d2c35f50"
+    "url": "_saber/images/56437151480656801-3a24fedb.jpg",
+    "revision": "90e9856d97f73b1cd3deea2c46913e86"
+  },
+  {
+    "url": "_saber/images/56437151480656801-3a2fd97d.jpg",
+    "revision": "cdbe601d167b63c43f1475658ae5d25e"
   },
   {
     "url": "_saber/images/5774427874327831517810916-78feccae.jpg",
@@ -4039,16 +4059,16 @@ self.__precacheManifest = [
     "revision": "10954a14439b9a5a8d77bae483c3a52e"
   },
   {
-    "url": "_saber/images/9047141881404714188-0ed07eeb.jpg",
-    "revision": "021cc8a1d5c658ec1c433dbe948880f6"
+    "url": "_saber/images/9047141881404714188-10b42eb3.jpg",
+    "revision": "111e87d7e6bbf37a77c53d367b579887"
   },
   {
-    "url": "_saber/images/9047141881404714188-124d0b05.jpg",
-    "revision": "49390ea75dffbbdc5289dee64a885b93"
+    "url": "_saber/images/9047141881404714188-13ebfa44.jpg",
+    "revision": "67e52da1dc1102ac3c526a2facfef3d4"
   },
   {
-    "url": "_saber/images/9047141881404714188-a038130f.jpg",
-    "revision": "05532519a9f5446a7ff4c5235925517a"
+    "url": "_saber/images/9047141881404714188-b2647a8c.jpg",
+    "revision": "ea2a6d674ebb4e9c31941c56c6fb13f7"
   },
   {
     "url": "_saber/images/9070501405907050-005d8ed5.jpg",
@@ -4095,8 +4115,8 @@ self.__precacheManifest = [
     "revision": "a2d531407c15caaf74a72a78f179f809"
   },
   {
-    "url": "_saber/js/client.75fec458.js",
-    "revision": "e887c79753c308535d224e885ede1a59"
+    "url": "_saber/js/client.c39c9f62.js",
+    "revision": "c6b5f8232bf123ffd9bcf71545c34035"
   },
   {
     "url": "_saber/js/page--_posts-2013-11-26-start-md.6f79d44b.js",
@@ -4283,8 +4303,8 @@ self.__precacheManifest = [
     "revision": "a5ce12c37efaed720626d9ddde1ba69b"
   },
   {
-    "url": "_saber/js/page--city-pop-collection-en-md~page--city-pop-collection-index-md.fe71b562.js",
-    "revision": "4b872fcd0e4471487a5178048b2045fe"
+    "url": "_saber/js/page--city-pop-collection-en-md~page--city-pop-collection-index-md.00f00dc6.js",
+    "revision": "bb0b90a2c7cba515c10622db2cac2a8b"
   },
   {
     "url": "_saber/js/page--city-pop-collection-index-md.85b281ea.js",
@@ -4304,199 +4324,199 @@ self.__precacheManifest = [
   },
   {
     "url": "404.html",
-    "revision": "c4faf668ce39a1187a02d44749e842a0"
+    "revision": "9e95cb5b26133531ae4f886afb01e58e"
   },
   {
     "url": "about/index.html",
-    "revision": "d1a91b2bec0424c8ed30b8575b04ef51"
+    "revision": "f6914544b7684236ec8b4ea31ab4e0ca"
   },
   {
     "url": "blog/1bit-audio-player/index.html",
-    "revision": "cf4379eb27ed2ca8394a0d3bec73cb84"
+    "revision": "6c403f7ecfd77bf512f7ba4b20f4edae"
   },
   {
     "url": "blog/2016-2017/index.html",
-    "revision": "92ed1ce992625b84a54267bf676d6fe6"
+    "revision": "1acd78a6738385c6a8cea3b6ac7ae8ac"
   },
   {
     "url": "blog/a-brief-history-of-minecraft-modding/index.html",
-    "revision": "67b3b0c3024fecf0551596c41b0fd3ab"
+    "revision": "fbf2729b427358e00aad25c40be6d70b"
   },
   {
     "url": "blog/about-parsing-ua-for-duoshuo/index.html",
-    "revision": "82a8d57752a3c6bb8b4b2076bb317ac9"
+    "revision": "4939c1b67f331da789648d6ceee87c5a"
   },
   {
     "url": "blog/amd-itx-diy-specs-for-the-next-5-years/index.html",
-    "revision": "e6324b3715a80dd476cf82c6126a1922"
+    "revision": "4302b76c7ce4ec5c0694d3e7cd80ec19"
   },
   {
     "url": "blog/better-lazyload-implementation-with-responsive-images/index.html",
-    "revision": "f8a8280228624ffe8ed72e89536bdb25"
+    "revision": "fe0cce84f88b032713f706c071489f92"
   },
   {
     "url": "blog/chrome-custom/index.html",
-    "revision": "99f4e69d62828874793ba5a23104ae4e"
+    "revision": "c6d723094d584f5a936fbd4e20692489"
   },
   {
     "url": "blog/chrome-extensions-that-i-am-using/index.html",
-    "revision": "47cebf29c8cee6c8e11ce7dfe2a3e135"
+    "revision": "b5f2aea5c405c866b60b309cc1469dea"
   },
   {
     "url": "blog/chrome-one-click-to-download-from-sogou-browser/index.html",
-    "revision": "730fb918471ae169124f28c1b39714cd"
+    "revision": "9e5ec6003e7473f1acfdf882fba8fc7c"
   },
   {
     "url": "blog/dot-im-domain-renewal/index.html",
-    "revision": "a1ea4aad9782695ac909369350e5e239"
+    "revision": "ae6ad6cff385d7a907df8c30c532f5cd"
   },
   {
     "url": "blog/dual-boot-fix-virtualbox-and-hyper-v-switch-problem/index.html",
-    "revision": "0ba03cc3b76532f6ff8597749b636535"
+    "revision": "1d988deb76b88adf97e3db39259099d4"
   },
   {
     "url": "blog/electronic-technology-final-exam/index.html",
-    "revision": "a11e23c25c77052ab8a08549e1b666a3"
+    "revision": "8e59ef48ede22b7df4634fd143dd03b8"
   },
   {
     "url": "blog/emeditor-setting/index.html",
-    "revision": "cf7f63a3b5651d8f3071621f2c3934e4"
+    "revision": "26fb3a478d6296a20a5038b4e804c755"
   },
   {
     "url": "blog/end-of-first-sophomore-term/index.html",
-    "revision": "698fd3f7dcb6f42d071ddf560bc8c9c6"
+    "revision": "ede439b3714dff00e89e2d617228874c"
   },
   {
     "url": "blog/flowers-photos-by-lumia/index.html",
-    "revision": "93403a41863728a0a7a45bd9dfeee41a"
+    "revision": "2853c4f02a477d066fa5e4e05638ccca"
   },
   {
     "url": "blog/github-universe-2019-news/index.html",
-    "revision": "b9d8c3673ae90d80c4ef4c6bd570950e"
+    "revision": "621a78868c7a6960fad6cd27699af13a"
   },
   {
     "url": "blog/happy-horse-year/index.html",
-    "revision": "7941f3b6350c83be33ddfd1bcb7b1fb5"
+    "revision": "d8dc642330dd7bdfb6c89c3c001d8379"
   },
   {
     "url": "blog/hello-world/index.html",
-    "revision": "2b408addc17eb103063f8069b3441841"
+    "revision": "e717ff39975668e6cfe00e6c17ec1789"
   },
   {
     "url": "blog/henet-6in4-ipv6-tunnel-on-openwrt/index.html",
-    "revision": "e6830d7abb71f15b1b147b61a3dac3f2"
+    "revision": "93bd6f7fc741ac62c4f0305c2d01329c"
   },
   {
     "url": "blog/ihanabi-the-domain/index.html",
-    "revision": "bfe88f10064ac6d903e4b586edf307a4"
+    "revision": "73aa2b5a32baa367a867f8cae8e59d99"
   },
   {
     "url": "blog/index.html",
-    "revision": "7558fb0259a787fe9a7575aac6b208c2"
+    "revision": "a976bea568addabb7f2f1bbc09f84772"
   },
   {
     "url": "blog/macos-mojave-dark-mode-in-css/index.html",
-    "revision": "f4b1528a5349e8bd125f86ed44362d7b"
+    "revision": "07c96e3f94a89e2a25dcc6fb41fad602"
   },
   {
     "url": "blog/mariya-takeuchis-plastic-love-gets-music-video-after-35-years/index.html",
-    "revision": "ebe62219b738f9401559fe9879336c1e"
+    "revision": "5ce474969bd1d581d14754cae05c9721"
   },
   {
     "url": "blog/move-out-from-bae/index.html",
-    "revision": "bdfd404a8eb6a13fb999466238909139"
+    "revision": "87e4806435b4b31870a302442e50d066"
   },
   {
     "url": "blog/move-to-technetcal-and-2014/index.html",
-    "revision": "222c29537250853d1f2f986022d96514"
+    "revision": "35e684462f19b153900866675baf5a3e"
   },
   {
     "url": "blog/new-mac-env-bootstrap/index.html",
-    "revision": "db02a7f8d487e0cf2906a67e07eb00e7"
+    "revision": "b79c106d6d469d6c43d1f2abfdff499d"
   },
   {
     "url": "blog/nintendo-switch-unboxing-and-simple-review/index.html",
-    "revision": "60d08ed89b1f5f0df1089dc658728984"
+    "revision": "61fa811e26f1e210ea3c54602e0656ff"
   },
   {
     "url": "blog/office-2016-custom-installation-guide/index.html",
-    "revision": "e35dda497894192e779792d4f6e48806"
+    "revision": "8d7f2d4c7b1d0117aa2d176355e104e6"
   },
   {
     "url": "blog/page/2/index.html",
-    "revision": "82bb9231f3dc1e5efa9dc213a1ea518b"
+    "revision": "a482eb429028da13f0fbe229a3b9c304"
   },
   {
     "url": "blog/programmers-healthy-problem/index.html",
-    "revision": "28dad2c32396eb0dc44b80ebfa32a35d"
+    "revision": "3a23ced66eb60a9b06956e03ed488b96"
   },
   {
     "url": "blog/py-lyric-retriever/index.html",
-    "revision": "6f41fb567b165247bf7be0655d045c01"
+    "revision": "2c97adc6c4706a17cbfe29d92ef8836e"
   },
   {
     "url": "blog/recent-changes-of-my-site/index.html",
-    "revision": "173bc7a65bda4306c9d7999e6b3989c1"
+    "revision": "3d360330f673d8ab1b234f162e8eca8c"
   },
   {
     "url": "blog/start/index.html",
-    "revision": "3d545acb066cdea17936bbc630a1343a"
+    "revision": "9c45a081304815beee1e9093507a18a4"
   },
   {
     "url": "blog/syntax-for-typecho/index.html",
-    "revision": "1a781eba54ad5019bcc566c331f85dbe"
+    "revision": "025ffc0b262a27353a62f1d2a6aac7a9"
   },
   {
     "url": "blog/talk-about-scoop-the-package-manager-for-windows-again/index.html",
-    "revision": "313d46eb98d21965b8fe4e9a2a9582b6"
+    "revision": "a2316f6074719a42782497ec3e678fdb"
   },
   {
     "url": "blog/ten-indie-video-game-soundtracks-you-must-listen/index.html",
-    "revision": "204bb41abefde72e31d924c854c4ff00"
+    "revision": "2ee4a1f04852074f579afc35e9d84479"
   },
   {
     "url": "blog/the-2018-hacktoberfest-shirt-arrived/index.html",
-    "revision": "e8464062f767c3bc278b400f81f9f1e1"
+    "revision": "78bc6f23bdd83974aa1d39576bd88d43"
   },
   {
     "url": "blog/the-tao-of-notch-beyond-twitter/index.html",
-    "revision": "a3e23755340cf5611b0d02649ddde34e"
+    "revision": "a550d2e2225cd5b047c267da8ee9f8e2"
   },
   {
     "url": "blog/theme-two/index.html",
-    "revision": "769411b477782171e8ddbd76ae9cfd90"
+    "revision": "18ac4ac70ae89171929a60c0c17919b1"
   },
   {
     "url": "blog/typecho-url-rewrite-on-bae/index.html",
-    "revision": "6934879a9be59d6b7c7e0a019d4d7ae0"
+    "revision": "5b8c6f94676bd0aed6242006cb2ba021"
   },
   {
     "url": "blog/typecho-v0-9-release/index.html",
-    "revision": "07b8178d8149ff0df2b50a10833b9224"
+    "revision": "ebff154d4c1c48f068d63548c0899612"
   },
   {
     "url": "blog/understanding-windows-console-host-settings/index.html",
-    "revision": "af469b8c1de8206fac1eb12bcbd6fca1"
+    "revision": "5584ccb073a1f64fefae2dab79fc0bab"
   },
   {
     "url": "blog/use-h5ai-to-beautify-your-http-web-server-index/index.html",
-    "revision": "a92ad4351ef055686e25813a4823d800"
+    "revision": "3ab814c918453ef7187bc48aa58015e2"
   },
   {
     "url": "blog/use-scoop-to-enhance-windows-powershell/index.html",
-    "revision": "f6a11d4973e68d0fcd7a1839324b11f0"
+    "revision": "8f2a1659731f6add9a50b57f445c9472"
   },
   {
     "url": "blog/win-prizes-at-weibo/index.html",
-    "revision": "fbffef7fafa67aca1ba128cd58a9f4d8"
+    "revision": "8d1198c0d22b6c4dd32e8425b9b240ff"
   },
   {
     "url": "city-pop-collection/en/index.html",
-    "revision": "dfeca6121ae0071738e0d89cdcbfd10e"
+    "revision": "b8efcf9bbc4cba09eb17c3d1990235f4"
   },
   {
     "url": "city-pop-collection/index.html",
-    "revision": "c4e1fde304d2c4e0d3f5ddc6e6f6078e"
+    "revision": "628150053f2b42d87647e6e8c970751f"
   },
   {
     "url": "google83352756ba352b4c.html",
@@ -4504,15 +4524,15 @@ self.__precacheManifest = [
   },
   {
     "url": "guestbook/index.html",
-    "revision": "8c0efa3852af55a04c55eb91dd299438"
+    "revision": "8f21a90c5c37e7474f9b9946ee0dfa98"
   },
   {
     "url": "index.html",
-    "revision": "c1c076611bb88e8836e0f475d061b5b2"
+    "revision": "70be763d34f61d85ff5c010452908c04"
   },
   {
     "url": "links/index.html",
-    "revision": "3537ac78e56048bacf20310c9e77b3a4"
+    "revision": "4a64a55921f444c2088b3bf228e9399f"
   }
 ].concat(self.__precacheManifest || []);
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
