@@ -22,9 +22,19 @@
             </section>
             <section class="page-head-content">
               <h1 class="page-title">{{ page.title }}</h1>
-              <div class="page-meta" v-if="page.type === 'post'">
+              <div class="page-meta" v-if="!page.nometa">
+                <section class="page-author" v-if="page.author || $siteConfig.author">
+                  <span>{{ page.author || $siteConfig.author }}</span>
+                </section>
                 <section class="page-datetime">
                   <time
+                    v-if="page.updatedAt > page.createdAt"
+                    class="updated"
+                    :datetime="new Date(page.updatedAt).toISOString()">
+                    {{ date(page.updatedAt, '{YYYY}-{Mo}-{DD}') }}
+                  </time>
+                  <time
+                    v-else
                     class="published"
                     :datetime="new Date(page.createdAt).toISOString()">
                     {{ date(page.createdAt, '{YYYY}-{Mo}-{DD}') }}
@@ -39,6 +49,9 @@
                       {{ item.name }}
                     </saber-link>
                   </span>
+                </section>
+                <section class="page-multilang" v-if="page.multilang">
+                  <saber-link v-if="page.multilang.en" class="multilang-en" :to="`${page.permalink}/en`">English</saber-link>
                 </section>
               </div>
             </section>

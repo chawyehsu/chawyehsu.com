@@ -18,17 +18,13 @@
       font-size: var(--font-size-small);
       color: var(--color-text-secondary);
 
-      .page-datetime {
+      section {
         margin-right: var(--gap-s);
       }
 
       .page-categories {
         display: flex;
         align-items: center;
-
-        a {
-          color: inherit;
-        }
       }
     }
   }
