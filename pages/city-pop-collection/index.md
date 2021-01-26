@@ -25,7 +25,7 @@ multilang:
 
 ![プラスティック・ラブ / 竹内まりや / Variety / 1984](../_assets/uploads/2021/city-pop-collection/2017291599567979.jpg)
 ![Cathy / 当山ひとみ / セクシィ・ロボット / 1983](../_assets/uploads/2021/city-pop-collection/17738741031501669704.jpg)
-![私達を信じていて / Cindy / ANGEL TOUCH / 1990](../_assets/uploads/2021/city-pop-collection/21002848741456820737.jpg)
+![私達を信じていて / Cindy / Angel Touch / 1990](../_assets/uploads/2021/city-pop-collection/21002848741456820737.jpg)
 ![Midnight Pretenders / 亜蘭知子 / 浮遊空間 / 1983](../_assets/uploads/2021/city-pop-collection/21027782021586524113.jpg)
 ![Sunrise to Sunset / 浅香唯 / Candid Girl / 1988](../_assets/uploads/2021/city-pop-collection/3566781259138562.jpg)
 ![真夜中のドア - Stay With Me / 松原みき / 真夜中のドア - Stay With Me / 1979](../_assets/uploads/2021/city-pop-collection/56437151480656801.jpg)
@@ -44,7 +44,7 @@ multilang:
 ![Magic Ways / 山下達郎 / Big Wave / 1984](../_assets/uploads/2021/city-pop-collection/3045021507701978.jpg)
 ![LOVIN’ YOU / 吉田美奈子 / モンスター・イン・タウン / 1981](../_assets/uploads/2021/city-pop-collection/4222781296096979.jpg)
 ![ウエイヴ / 山根麻以 / たそがれ / 1980](../_assets/uploads/2021/city-pop-collection/19790436121517582475.jpg)
-![I WANNA BE WITH YOU / 国分友里恵 / STEPS / 1987](../_assets/uploads/2021/city-pop-collection/9070501405907050.jpg)
+![Cosmic Love / 国分友里恵 / STEPS / 1987](../_assets/uploads/2021/city-pop-collection/9070501405907050.jpg)
 ![Party Night / エイミー / Amy / 1983](../_assets/uploads/2021/city-pop-collection/1187656715310300533860.jpg)
 ![夏の日の午後 / 川越美和 / Real Face / 1990](../_assets/uploads/2021/city-pop-collection/5114991336032766.jpg)
 ![Infinite Love (無限の愛) / 中原めいこ / 鏡の中のアクトレス / 1988](../_assets/uploads/2021/city-pop-collection/5257911341455114.jpg)
