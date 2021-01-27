@@ -27,6 +27,18 @@ self.addEventListener('message', (event) => {
  */
 self.__precacheManifest = [
   {
+    "url": "_saber/images/10019374481511887441-119d0b33.jpg",
+    "revision": "a9c1bfb8c8dc627ed53e667e704615b6"
+  },
+  {
+    "url": "_saber/images/10019374481511887441-abbd21e1.jpg",
+    "revision": "44f43ed9238dc0c09e24d22ce26041b0"
+  },
+  {
+    "url": "_saber/images/10019374481511887441-b0b070dd.jpg",
+    "revision": "c2ebd2f44963e5ff068b6f2d85b1d021"
+  },
+  {
     "url": "_saber/images/1068304415023661416369-525bad6b.jpg",
     "revision": "61162271028a135438c2b0969d55a6d3"
   },
@@ -143,16 +155,16 @@ self.__precacheManifest = [
     "revision": "24d24f019180da7468f4d8a4b5a6dd33"
   },
   {
-    "url": "_saber/images/19995681499056186-0de778f9.jpg",
-    "revision": "c2e06a7a61c40d6368065fe31fea0b17"
+    "url": "_saber/images/19995681499056186-9883d211.jpg",
+    "revision": "98bd1ec0f773d70a295da97453e351e7"
   },
   {
-    "url": "_saber/images/19995681499056186-1335659a.jpg",
-    "revision": "fc975cabbf8863b4655a00eb04f2ee8e"
+    "url": "_saber/images/19995681499056186-c8485db1.jpg",
+    "revision": "4315bdbf89c2d1bb2d7bf5059ef2ff33"
   },
   {
-    "url": "_saber/images/19995681499056186-abd8b501.jpg",
-    "revision": "3cbcc3ebc87ddaa1deb80994952d94fc"
+    "url": "_saber/images/19995681499056186-fb005936.jpg",
+    "revision": "a6322048a63422a3b89a124aea159bf6"
   },
   {
     "url": "_saber/images/200356200706281122222184-5a50d8d3.jpg",
@@ -3115,36 +3127,40 @@ self.__precacheManifest = [
     "revision": "c4508c011c6c3985695445cccb14197f"
   },
   {
-    "url": "_saber/images/21001792811439791638-079b6045.jpg",
-    "revision": "8ce92d4876f4da25be241b8f78869ad7"
+    "url": "_saber/images/21001792811439791638-553a1855.jpg",
+    "revision": "b957ce200fe5655cf663b4ac34a0dd1d"
   },
   {
-    "url": "_saber/images/21001792811439791638-30456436.jpg",
-    "revision": "1ab52764a8b0a1553f059315005dce86"
+    "url": "_saber/images/21001792811439791638-5c466199.jpg",
+    "revision": "0bff49733809305e44b577a95b25ce3a"
   },
   {
-    "url": "_saber/images/21001792811439791638-e88801d2.jpg",
-    "revision": "2c6b0283ac14522544aa0ab754cb19fb"
+    "url": "_saber/images/21001792811439791638-c1c48f6e.jpg",
+    "revision": "cd6246d24e9f3d2299abfbf02abec6ea"
   },
   {
-    "url": "_saber/images/21002064021443006061-c03a212a.jpg",
-    "revision": "08ad29f6da47a81983f8430b50628bfe"
+    "url": "_saber/images/21002064021443006061-2534dcfc.jpg",
+    "revision": "dd23f7a625eaf0d5d4b820fbe36744ff"
   },
   {
-    "url": "_saber/images/21002064021443006061-feca249f.jpg",
-    "revision": "7ca2cbfdbeba96b5874f0b8a189e8c1a"
+    "url": "_saber/images/21002064021443006061-69788051.jpg",
+    "revision": "e9f7bc86ae7aeb07f720173623523e17"
   },
   {
-    "url": "_saber/images/21002064041443006067-29aa6437.jpg",
-    "revision": "11dfa8b8d712730d13f6fde629b705bf"
+    "url": "_saber/images/21002064021443006061-82dbedc2.jpg",
+    "revision": "3403bdcd0b33ed85b810698e6acc9f68"
   },
   {
-    "url": "_saber/images/21002064041443006067-8d0fd044.jpg",
-    "revision": "4192b1279865eccd718faa8a7450cc5c"
+    "url": "_saber/images/21002064041443006067-24c83d37.jpg",
+    "revision": "818bf7fd50093e151948934ff0f1ba8b"
   },
   {
-    "url": "_saber/images/21002064041443006067-f1fff18f.jpg",
-    "revision": "73c80a28e58623e6db91c65354daf51e"
+    "url": "_saber/images/21002064041443006067-51a7d5a5.jpg",
+    "revision": "e3cdb241bf6b377544f2b74c523c5202"
+  },
+  {
+    "url": "_saber/images/21002064041443006067-9563dc6e.jpg",
+    "revision": "433b77527ee62827574d2c3a556a83b9"
   },
   {
     "url": "_saber/images/21002182981444718348-39d33ce6.jpg",
@@ -3159,16 +3175,16 @@ self.__precacheManifest = [
     "revision": "bb004118c19e6b1db1474fca6d44477f"
   },
   {
-    "url": "_saber/images/21002348161539303944-96edc731.jpg",
-    "revision": "165b5c5452c14430642c74a73c196c94"
+    "url": "_saber/images/21002348161539303944-497640c0.jpg",
+    "revision": "8465abb3e45bf8c67e9c865bf888b3c7"
   },
   {
-    "url": "_saber/images/21002348161539303944-b224ae92.jpg",
-    "revision": "019d9da96245fa25b2b7d2dbd407d37a"
+    "url": "_saber/images/21002348161539303944-4cbc4e86.jpg",
+    "revision": "989b55f65b770a37609dfb60e02b5039"
   },
   {
-    "url": "_saber/images/21002348161539303944-d4501bc4.jpg",
-    "revision": "e8dfc7d4bd3c40b7283bba9df1c077ab"
+    "url": "_saber/images/21002348161539303944-930c5e08.jpg",
+    "revision": "894b36e107ec51c8c759ca0a6355af44"
   },
   {
     "url": "_saber/images/21002348281539303564-28805ec8.jpg",
@@ -3195,16 +3211,16 @@ self.__precacheManifest = [
     "revision": "7c271359e5c25028bb7984d62a516d07"
   },
   {
-    "url": "_saber/images/21002494901450766938-080cd442.jpg",
-    "revision": "772e15714ea1a807d7a43fbc5a332fa7"
+    "url": "_saber/images/21002494901450766938-93664d30.jpg",
+    "revision": "72d208b83ea954c6622b013a81fdd20a"
   },
   {
-    "url": "_saber/images/21002494901450766938-1635dc2d.jpg",
-    "revision": "f80ba5be52e9214f35f2eb88ebac6a16"
+    "url": "_saber/images/21002494901450766938-b091d9f5.jpg",
+    "revision": "e340f5cb78181f26c2edd37dfcbcd792"
   },
   {
-    "url": "_saber/images/21002494901450766938-82250979.jpg",
-    "revision": "c81ef4df5ead5196afe70029c3eb1aa1"
+    "url": "_saber/images/21002494901450766938-e7b60b99.jpg",
+    "revision": "8c37674fa98eb7fd8c575f08ac6dac4c"
   },
   {
     "url": "_saber/images/21002557701499058918-9f38da54.jpg",
@@ -3231,16 +3247,16 @@ self.__precacheManifest = [
     "revision": "7ffafbfc3782324c0d28c7cad38a422b"
   },
   {
-    "url": "_saber/images/21002833141589609372-6612e8b6.jpg",
-    "revision": "400d351db419a5c569cb92e6d26cec90"
+    "url": "_saber/images/21002833141589609372-62cfaf5d.jpg",
+    "revision": "f77d3f09171e4e18f051c5d2aca39607"
   },
   {
-    "url": "_saber/images/21002833141589609372-cd471d3f.jpg",
-    "revision": "623375b6c5f44602f45d6c20f1fbbf97"
+    "url": "_saber/images/21002833141589609372-686cda48.jpg",
+    "revision": "e8911619ae6aec2ce648cee00bf5c1b9"
   },
   {
-    "url": "_saber/images/21002833141589609372-f141e2c3.jpg",
-    "revision": "07b34bb09f2c2a70a24bde496ac9cbb7"
+    "url": "_saber/images/21002833141589609372-76b2ad7c.jpg",
+    "revision": "41918013f814fcaad22e9828659a7e47"
   },
   {
     "url": "_saber/images/21002833161456729142-3074ba5e.jpg",
@@ -3255,40 +3271,40 @@ self.__precacheManifest = [
     "revision": "333d674bb786aa4270df601dd12233d3"
   },
   {
-    "url": "_saber/images/21002848161456818245-79a6b5ad.jpg",
-    "revision": "75b42d50fc0582ece697ff6a4f16422a"
+    "url": "_saber/images/21002848161456818245-1855df1b.jpg",
+    "revision": "b5f4ab6175f1df92e0e2a38a420161a0"
   },
   {
-    "url": "_saber/images/21002848161456818245-a3b5a685.jpg",
-    "revision": "0ac9c3bad3670d4eceea82fb704a0d63"
+    "url": "_saber/images/21002848161456818245-247e3e63.jpg",
+    "revision": "bb8caca2d885e98dd091dbcc4b1e98a2"
   },
   {
-    "url": "_saber/images/21002848161456818245-b999aca8.jpg",
-    "revision": "b3509f32a2ef8eb2dcdab53fe7092c0c"
+    "url": "_saber/images/21002848161456818245-f3a109a7.jpg",
+    "revision": "5ae9aeb24188c189a7741981258654d6"
   },
   {
-    "url": "_saber/images/21002848741456820737-74d0dd76.jpg",
-    "revision": "96444133abf35baa565516b2ef6c4a25"
+    "url": "_saber/images/21002848741456820737-26fed5a9.jpg",
+    "revision": "613e5cd549ae4c77a025415b13ad8f4a"
   },
   {
-    "url": "_saber/images/21002848741456820737-a5fc2225.jpg",
-    "revision": "5f91b94f3dcdd969441b524c614323b8"
+    "url": "_saber/images/21002848741456820737-a992db1f.jpg",
+    "revision": "935a9d19ffccbd912231ba921b49f034"
   },
   {
-    "url": "_saber/images/21002848741456820737-b95c9cda.jpg",
-    "revision": "6b048cfb83a3f300ff3ed4591973fd39"
+    "url": "_saber/images/21002848741456820737-bfdc487f.jpg",
+    "revision": "5eed2a38eacb4c768e531f42bc008264"
   },
   {
-    "url": "_saber/images/21002848921576814455-11e2090d.jpg",
-    "revision": "940a4491c427938b67dc891dc44d5d75"
+    "url": "_saber/images/21002848921576814455-2f477e98.jpg",
+    "revision": "22b2eaeb64af22d7043a4ac8e29a24d9"
   },
   {
-    "url": "_saber/images/21002848921576814455-8be87724.jpg",
-    "revision": "b66e72c04e2d068b6d37ea0809d9428e"
+    "url": "_saber/images/21002848921576814455-7fbf4a41.jpg",
+    "revision": "bd504fcf6250855622a878626db9669c"
   },
   {
-    "url": "_saber/images/21002848921576814455-9b8721bc.jpg",
-    "revision": "b95d0fb63ed5f83985d6429814045002"
+    "url": "_saber/images/21002848921576814455-aa22f658.jpg",
+    "revision": "f4781cadb92b189dc1aaf693849b0149"
   },
   {
     "url": "_saber/images/21002849441456823736-65fa9cb8.jpg",
@@ -3303,28 +3319,28 @@ self.__precacheManifest = [
     "revision": "66f38170f56ab93209cd6d1cbf060e7b"
   },
   {
-    "url": "_saber/images/21002849541456824307-06e7d0f5.jpg",
-    "revision": "61c294b40cf7cebc3c0a0d03aceba056"
+    "url": "_saber/images/21002849541456824307-26155a5f.jpg",
+    "revision": "da60ff90dc06fe74008e86b7f173b917"
   },
   {
-    "url": "_saber/images/21002849541456824307-1ae49e90.jpg",
-    "revision": "abbfc04c0922e098ad85d9b73ccb8c82"
+    "url": "_saber/images/21002849541456824307-911615d0.jpg",
+    "revision": "6c0f14fd52713f007851c438bb15e3af"
   },
   {
-    "url": "_saber/images/21002849541456824307-3cc1024c.jpg",
-    "revision": "b70a17d4ab2bbb83d36e6fbd88e729c3"
+    "url": "_saber/images/21002849541456824307-e550fe83.jpg",
+    "revision": "f7f0b62ab43c76a7174eb5b3cbc38445"
   },
   {
-    "url": "_saber/images/21002878781457321160-750342fc.jpg",
-    "revision": "15382c7111993413a090d31e10820829"
+    "url": "_saber/images/21002878781457321160-2ea8d715.jpg",
+    "revision": "42e997b51ad5eb19a33654ecf1db58b3"
   },
   {
-    "url": "_saber/images/21002878781457321160-b0afcf2d.jpg",
-    "revision": "e4867974a6e7074a122d80644e9be26f"
+    "url": "_saber/images/21002878781457321160-3e32da3e.jpg",
+    "revision": "12bae3001993004558d3c757251526ec"
   },
   {
-    "url": "_saber/images/21002878781457321160-f7953fc6.jpg",
-    "revision": "b62c969c7ffbce6540cd6a7a2b5c7c21"
+    "url": "_saber/images/21002878781457321160-8364ff4d.jpg",
+    "revision": "caf2643e163ef6f812e3d8f0f83cebc1"
   },
   {
     "url": "_saber/images/21003794791548072365-30f22bc0.jpg",
@@ -3339,16 +3355,16 @@ self.__precacheManifest = [
     "revision": "c794246e279998a231dc12f3c96ec420"
   },
   {
-    "url": "_saber/images/21024117391609685747-2e203e5c.jpg",
-    "revision": "84e845fcf25d8a054fbc6b5e8509df6b"
+    "url": "_saber/images/21024117391609685747-62c1f1a2.jpg",
+    "revision": "ef5942ef6a60a2fdfd4f793503419297"
   },
   {
-    "url": "_saber/images/21024117391609685747-5c36f9e8.jpg",
-    "revision": "11628a1c91f9e74b0963b641d6ef511c"
+    "url": "_saber/images/21024117391609685747-90ab77de.jpg",
+    "revision": "0db7aff643907c8fd1d8c6e44f5e459e"
   },
   {
-    "url": "_saber/images/21024117391609685747-81499033.jpg",
-    "revision": "3c5c53a82de2d43238a7313dec586d2a"
+    "url": "_saber/images/21024117391609685747-fdad20f4.jpg",
+    "revision": "6502cd84df26a8b57c256a339bd067f1"
   },
   {
     "url": "_saber/images/21027782021586524113-cccc0939.jpg",
@@ -3383,12 +3399,16 @@ self.__precacheManifest = [
     "revision": "09be118623584d247fc0f1a3ff183113"
   },
   {
-    "url": "_saber/images/2703309411370330941-adaa635f.jpg",
-    "revision": "f9c97534f2b38dca41b45e6ede5f8d87"
+    "url": "_saber/images/2703309411370330941-1067942a.jpg",
+    "revision": "265e1aa189f2b451bdb1770b6246d2bf"
   },
   {
-    "url": "_saber/images/2703309411370330941-f12356f2.jpg",
-    "revision": "3e1a6ac645c6a1e9fc8a3b5f5c7d2f2b"
+    "url": "_saber/images/2703309411370330941-79c46bb5.jpg",
+    "revision": "a012d2d85293f4ac1467987d9bec9f7d"
+  },
+  {
+    "url": "_saber/images/2703309411370330941-f85072ef.jpg",
+    "revision": "e49215a242b9f67436e4998c8b3487f2"
   },
   {
     "url": "_saber/images/3045021507701978-6fa1db00.jpg",
@@ -3427,16 +3447,16 @@ self.__precacheManifest = [
     "revision": "e533d8e45ac4f55e837b3e1577bef2a9"
   },
   {
-    "url": "_saber/images/3270841598724415-0a722102.jpg",
-    "revision": "04886a3080bda09b317ada38280fecdb"
+    "url": "_saber/images/3270841598724415-cbd6c162.jpg",
+    "revision": "7d68571988558e298d6a81c32e80f6c5"
   },
   {
-    "url": "_saber/images/3270841598724415-b1353128.jpg",
-    "revision": "c492ba03659495d3969d3c2fe01001d5"
+    "url": "_saber/images/3270841598724415-e696f58b.jpg",
+    "revision": "a42f19c36050f88eae845a81b43e1a7d"
   },
   {
-    "url": "_saber/images/3270841598724415-e63018a1.jpg",
-    "revision": "8a43e9d9a77c925a741f37acb8110869"
+    "url": "_saber/images/3270841598724415-e99c50a3.jpg",
+    "revision": "a1955af857e98ba930679b277bc9fd34"
   },
   {
     "url": "_saber/images/3279321598722953-10a29364.jpg",
@@ -3451,12 +3471,16 @@ self.__precacheManifest = [
     "revision": "a80be2f4df152c44c10f676e7605399c"
   },
   {
-    "url": "_saber/images/3361051507998364-6b86054a.jpg",
-    "revision": "bb16086f53ce93fbd8569347da52431a"
+    "url": "_saber/images/3361051507998364-24f22019.jpg",
+    "revision": "afd8adb68a262af891a78c3c81b7eaac"
   },
   {
-    "url": "_saber/images/3361051507998364-996007ba.jpg",
-    "revision": "dce7b3429af2f3fe800a66c0a35d1631"
+    "url": "_saber/images/3361051507998364-5f206841.jpg",
+    "revision": "d90da4c9b91b491fd42280cd0f30fbdf"
+  },
+  {
+    "url": "_saber/images/3361051507998364-fa7245db.jpg",
+    "revision": "afdd5e5a633969bd7dc1cdf5b596672a"
   },
   {
     "url": "_saber/images/3367699971436769997-55344f67.jpg",
@@ -3469,6 +3493,18 @@ self.__precacheManifest = [
   {
     "url": "_saber/images/3367699971436769997-d36d35c1.jpg",
     "revision": "d31c1b06f3b1e52f6e12eb5cae27fcae"
+  },
+  {
+    "url": "_saber/images/3536641401419808-10ef9230.jpg",
+    "revision": "c73d65019891a9b4f3c469ba4fa67020"
+  },
+  {
+    "url": "_saber/images/3536641401419808-2063eebd.jpg",
+    "revision": "d413b9815dcc5d0ae9468b352fab25b2"
+  },
+  {
+    "url": "_saber/images/3536641401419808-f6170734.jpg",
+    "revision": "72f32c432c53db835544d8f04f907c9b"
   },
   {
     "url": "_saber/images/3537061335345304-14e87603.jpg",
@@ -3543,16 +3579,16 @@ self.__precacheManifest = [
     "revision": "18d107aee5a7efae0e40587f91bdaede"
   },
   {
-    "url": "_saber/images/3651831263883865-8beccc01.jpg",
-    "revision": "dcdb8e35555a4699289364992e1e2d50"
+    "url": "_saber/images/3651831263883865-ac0c6af7.jpg",
+    "revision": "ffb27f446ad43f8a584727c1c724e2c0"
   },
   {
-    "url": "_saber/images/3651831263883865-ade5881a.jpg",
-    "revision": "c46f027e178c8f3ce2d58e4c141f4af3"
+    "url": "_saber/images/3651831263883865-b22a69a1.jpg",
+    "revision": "2c8d68a9a489412a3c08b6f2b92e8944"
   },
   {
-    "url": "_saber/images/3651831263883865-d3b273d9.jpg",
-    "revision": "1031a49f1cb3139f12d54c5184c94876"
+    "url": "_saber/images/3651831263883865-f1f81c41.jpg",
+    "revision": "0af78d52258f08c8aa90ef86cae3a4f6"
   },
   {
     "url": "_saber/images/3659952171365995217-eb906af3.jpg",
@@ -3563,28 +3599,40 @@ self.__precacheManifest = [
     "revision": "24ed8b0d752e3b75d52b1a35d0e7afa9"
   },
   {
-    "url": "_saber/images/3784311272269858-2ef14267.jpg",
-    "revision": "b4f1b6c1792f35af4a0df108791967bd"
+    "url": "_saber/images/3675021265253450-3316e4e0.jpg",
+    "revision": "f2012c0ce3690bb7e0699c398fa598b9"
   },
   {
-    "url": "_saber/images/3784311272269858-31252854.jpg",
-    "revision": "b6c8c875cc41f7e72f921cd735a75663"
+    "url": "_saber/images/3675021265253450-5f5fb949.jpg",
+    "revision": "2c1f3aa9bd0845ef7518ec01c34b2b6d"
   },
   {
-    "url": "_saber/images/3784311272269858-6ba98f70.jpg",
-    "revision": "6f21b51f0852d53e05fb0d69d11769b2"
+    "url": "_saber/images/3675021265253450-672680ae.jpg",
+    "revision": "fa20f86159f3d260ef1fd17eed11865f"
   },
   {
-    "url": "_saber/images/3828641275291055-334e1bc1.jpg",
-    "revision": "2d9984254c09dc2de631865dea7ce73f"
+    "url": "_saber/images/3784311272269858-2b1c63f2.jpg",
+    "revision": "d8d53b2667233a38c1df009f89389727"
   },
   {
-    "url": "_saber/images/3828641275291055-bfd71e6d.jpg",
-    "revision": "f4656e49bb6b9391af1cd741552c9399"
+    "url": "_saber/images/3784311272269858-3954d7de.jpg",
+    "revision": "d38ac437f18707744f8fde48905e3a52"
   },
   {
-    "url": "_saber/images/3828641275291055-fa1a8991.jpg",
-    "revision": "b9cb2b2ce3ecb225e09da85eacca5ad0"
+    "url": "_saber/images/3784311272269858-98d29fdf.jpg",
+    "revision": "4b8258aa4126a74c00da0341e1ef315e"
+  },
+  {
+    "url": "_saber/images/3828641275291055-06487b86.jpg",
+    "revision": "77600a54e9ecf00299be506fc7e04cc5"
+  },
+  {
+    "url": "_saber/images/3828641275291055-46c1f712.jpg",
+    "revision": "3905449e22d7ecb99fe14c9b2cbf2e7f"
+  },
+  {
+    "url": "_saber/images/3828641275291055-ea968b6c.jpg",
+    "revision": "e8bca6b702227179118a38d1723521e2"
   },
   {
     "url": "_saber/images/3934081280734394-18ff9996.jpg",
@@ -3599,16 +3647,16 @@ self.__precacheManifest = [
     "revision": "04258c253a8426e963c98b93ba454772"
   },
   {
-    "url": "_saber/images/3934591280736321-0ef2d628.jpg",
-    "revision": "5a45bb20f2589e6257dab04200be391e"
+    "url": "_saber/images/3934591280736321-307e1e9c.jpg",
+    "revision": "98da0055619b17f778b7a9f073e89a06"
   },
   {
-    "url": "_saber/images/3934591280736321-585756c6.jpg",
-    "revision": "726b44d8827baefc7e839d01591dfc9b"
+    "url": "_saber/images/3934591280736321-583b156f.jpg",
+    "revision": "41ab15607a2a97442bc2c47a9a7ffcf6"
   },
   {
-    "url": "_saber/images/3934591280736321-7edb4e1a.jpg",
-    "revision": "ed9f9a18711b6018b6222bb717f54095"
+    "url": "_saber/images/3934591280736321-b1c1bc68.jpg",
+    "revision": "c1980a89dfd31e8fd7a9f66379855d87"
   },
   {
     "url": "_saber/images/39542131479073464-6bc01f45.jpg",
@@ -3647,16 +3695,16 @@ self.__precacheManifest = [
     "revision": "7d683d4fc1c91f375e1e4aedcec7a144"
   },
   {
-    "url": "_saber/images/4150471291800882-1fd97481.jpg",
-    "revision": "20b9df38547cebbf6a8b6bb18f91379f"
+    "url": "_saber/images/4150471291800882-298f874a.jpg",
+    "revision": "91690bbf43aa4e6a31aef868305beedc"
   },
   {
-    "url": "_saber/images/4150471291800882-3e085677.jpg",
-    "revision": "dda1a133465b1c87eaeded89daeebb99"
+    "url": "_saber/images/4150471291800882-2fcb9f9d.jpg",
+    "revision": "4e65370f9a3be1b4fb453f75fdaca073"
   },
   {
-    "url": "_saber/images/4150471291800882-e37091cd.jpg",
-    "revision": "82ac0ea37a23db6776d834bdb840111f"
+    "url": "_saber/images/4150471291800882-3d80cd62.jpg",
+    "revision": "6074a99b4d5d1eab3b5bdb65d2808480"
   },
   {
     "url": "_saber/images/4217681566313481-159d177e.jpg",
@@ -3671,16 +3719,16 @@ self.__precacheManifest = [
     "revision": "b5f376430efc369b95d001cd88e05abc"
   },
   {
-    "url": "_saber/images/4222781296096979-5067814b.jpg",
-    "revision": "994b8f1625954aa581c956f14ce2ab4b"
+    "url": "_saber/images/4222781296096979-21e17508.jpg",
+    "revision": "4d4b4da737d527453f984088826c60f5"
   },
   {
-    "url": "_saber/images/4222781296096979-5647e79d.jpg",
-    "revision": "a9b87796c832150df45a0e5b08d690a0"
+    "url": "_saber/images/4222781296096979-27e582c2.jpg",
+    "revision": "20d7c8a3aacf422f75937f007cc3d883"
   },
   {
-    "url": "_saber/images/4222781296096979-aecb6e31.jpg",
-    "revision": "1ad3e5b3cfebbfa1731e5d2a826a5fd1"
+    "url": "_saber/images/4222781296096979-3c74f52c.jpg",
+    "revision": "41efa842dc454a17928b6b69603a1e95"
   },
   {
     "url": "_saber/images/4240801544424080-330f7aab.jpg",
@@ -3695,16 +3743,16 @@ self.__precacheManifest = [
     "revision": "6178b304ecfdb3911d2d0fbe42281a52"
   },
   {
-    "url": "_saber/images/4361551302772768-04a29214.jpg",
-    "revision": "b7e1b441f84c1509b29471c0992a294e"
+    "url": "_saber/images/4361551302772768-a0866231.jpg",
+    "revision": "586c4afa6c640af0b9c07406e0e031f4"
   },
   {
-    "url": "_saber/images/4361551302772768-e4e3451d.jpg",
-    "revision": "57824f48bf6b05cdcf5b971e287ed061"
+    "url": "_saber/images/4361551302772768-d27c518b.jpg",
+    "revision": "3a2aac1df36feaafac998e4da8dc0765"
   },
   {
-    "url": "_saber/images/4361551302772768-e90de175.jpg",
-    "revision": "683aa42cc40cf7d5f286645b92bc8a1d"
+    "url": "_saber/images/4361551302772768-f700aac5.jpg",
+    "revision": "f5e1c3718756d2d0dbc9dd51dbb40176"
   },
   {
     "url": "_saber/images/4388241304493189-4c13426c.jpg",
@@ -3735,28 +3783,28 @@ self.__precacheManifest = [
     "revision": "866a2cc027d4ef0227d43eb9ac6cae76"
   },
   {
-    "url": "_saber/images/4664951316403972-1868476a.jpg",
-    "revision": "845aa741ed9799088dd3db325d1d9ca3"
+    "url": "_saber/images/4664951316403972-23e21301.jpg",
+    "revision": "e806d675bdcde44b2eee7404e02dadb2"
   },
   {
-    "url": "_saber/images/4664951316403972-709cf619.jpg",
-    "revision": "f0a88eb82b8ac935a6b6925fea0c33e1"
+    "url": "_saber/images/4664951316403972-672758a5.jpg",
+    "revision": "5ba5fa16fdccf8cf4d700a2d924c0e0d"
   },
   {
-    "url": "_saber/images/4664951316403972-ec59ce1e.jpg",
-    "revision": "4339b881ad6a6b67dfda8d64844deb13"
+    "url": "_saber/images/4664951316403972-a5606e76.jpg",
+    "revision": "4d902fa5f8798e783a099a1d683d1331"
   },
   {
-    "url": "_saber/images/4668491316497691-8c826e26.jpg",
-    "revision": "da447a581f9382992ddbe29c9422d5a1"
+    "url": "_saber/images/4668491316497691-4dbe411a.jpg",
+    "revision": "c2f1cd674247e80144ff5f30f389ff55"
   },
   {
-    "url": "_saber/images/4668491316497691-b4221fab.jpg",
-    "revision": "3ff2fe6d537866b5eaefded0c667c31e"
+    "url": "_saber/images/4668491316497691-5874dac4.jpg",
+    "revision": "ed6290325a6fe554364b58efbd0d2f5b"
   },
   {
-    "url": "_saber/images/4668491316497691-edfdb220.jpg",
-    "revision": "4cbefc5958d9dad09952ad438fa6fea2"
+    "url": "_saber/images/4668491316497691-aaf78a1f.jpg",
+    "revision": "82072512a975f881679ccbcb3af22615"
   },
   {
     "url": "_saber/images/4705072361370507237-7e277c30.jpg",
@@ -3769,6 +3817,18 @@ self.__precacheManifest = [
   {
     "url": "_saber/images/4705072361370507237-b8d14883.jpg",
     "revision": "e5605a2ce791005586ad9b9fba433e87"
+  },
+  {
+    "url": "_saber/images/4711901318493679-13662cc1.jpg",
+    "revision": "35f936a3448d90dc883349a08be8faf1"
+  },
+  {
+    "url": "_saber/images/4711901318493679-73912f57.jpg",
+    "revision": "0d3da9d362f9821f1ba86e1c6183170a"
+  },
+  {
+    "url": "_saber/images/4711901318493679-cb586fd1.jpg",
+    "revision": "c9a03755717ee58c8116de9b99b3eeae"
   },
   {
     "url": "_saber/images/4907661328089571-8a4870f5.jpg",
@@ -3819,64 +3879,64 @@ self.__precacheManifest = [
     "revision": "ebf77637eac588603a6209e3efca7228"
   },
   {
-    "url": "_saber/images/5114991336032766-241a5a9e.jpg",
-    "revision": "afd8d7efe986e48f5b7f1d7564f222a1"
+    "url": "_saber/images/5114991336032766-63dc6606.jpg",
+    "revision": "5938d3f5acb0ae1ee9eb150438bc467a"
   },
   {
-    "url": "_saber/images/5114991336032766-3613722f.jpg",
-    "revision": "fd230b5557822d113e743e7cdb5c4a31"
+    "url": "_saber/images/5114991336032766-70add22c.jpg",
+    "revision": "8313e47595240aa47e4fb4117a6e0322"
   },
   {
-    "url": "_saber/images/5114991336032766-41a71aad.jpg",
-    "revision": "2da1878136a231aebe029ff61d9164f2"
+    "url": "_saber/images/5114991336032766-d43dbea8.jpg",
+    "revision": "7c6b41235208408376eb283befa1b18c"
   },
   {
-    "url": "_saber/images/5257381341395618-411e1e8d.jpg",
-    "revision": "925dcc746a8082d549e982b4e06fbe00"
+    "url": "_saber/images/5257381341395618-4556e24c.jpg",
+    "revision": "606f7cc6eb2d489e71094550774a70c4"
   },
   {
-    "url": "_saber/images/5257381341395618-a5bab63a.jpg",
-    "revision": "86fd422945d77a54cada63fc24adfa72"
+    "url": "_saber/images/5257381341395618-8a1c47da.jpg",
+    "revision": "1b0a7b3ba6b4c971a6e57bece806840c"
   },
   {
-    "url": "_saber/images/5257381341395618-c6918ab0.jpg",
-    "revision": "4232d9eafc12f14b465b507497be91ad"
+    "url": "_saber/images/5257381341395618-f0dce142.jpg",
+    "revision": "c386b5f3935e59a53ccedb9bd40935a5"
   },
   {
-    "url": "_saber/images/5257401341395836-099ee941.jpg",
-    "revision": "a82d7bebeec10d89bde4102cf8ba2ca4"
+    "url": "_saber/images/5257401341395836-6140f5e3.jpg",
+    "revision": "f5cd1c7cfd49ca11ab5608ccd949dc93"
   },
   {
-    "url": "_saber/images/5257401341395836-a072d0ec.jpg",
-    "revision": "6181357609f85f52e2cf6cb435819c6b"
+    "url": "_saber/images/5257401341395836-979c8b44.jpg",
+    "revision": "b1b57e8001ac6b56c84bec0e00c05f24"
   },
   {
-    "url": "_saber/images/5257401341395836-fa2add95.jpg",
-    "revision": "5c74d2124cca1d4e59cb00c611c8737c"
+    "url": "_saber/images/5257401341395836-9b56cd33.jpg",
+    "revision": "d9b7b9684de2a2ba58745b812556eca2"
   },
   {
-    "url": "_saber/images/5257411341395844-62017ea3.jpg",
-    "revision": "7f353bacb74c6d49e830742fe1c5622b"
+    "url": "_saber/images/5257411341395844-62e2b3c2.jpg",
+    "revision": "92e3ca3118f412c1e463ac6bb337c909"
   },
   {
-    "url": "_saber/images/5257411341395844-6cd1c5b7.jpg",
-    "revision": "cb536016a1c3e816bc2b72f98913c7a7"
+    "url": "_saber/images/5257411341395844-af13940d.jpg",
+    "revision": "42a2e05989098695659c8b1737b2013a"
   },
   {
-    "url": "_saber/images/5257411341395844-a56d1270.jpg",
-    "revision": "6b4e0ab687c75f608042036922015465"
+    "url": "_saber/images/5257411341395844-fe18061d.jpg",
+    "revision": "e7d88b8d58b9407eeb390f21e72aba19"
   },
   {
-    "url": "_saber/images/5257911341455114-0d784fe5.jpg",
-    "revision": "1af7790a1e95e30184782814e37b973d"
+    "url": "_saber/images/5257911341455114-415549d1.jpg",
+    "revision": "417c192c9d8e72a4dbcc182272cf69d5"
   },
   {
-    "url": "_saber/images/5257911341455114-9aeded4c.jpg",
-    "revision": "84c7ab1479a93a1641ecc8831a3b62f0"
+    "url": "_saber/images/5257911341455114-9e7c58bf.jpg",
+    "revision": "598d2257eeea0b8b9130217b8de50f11"
   },
   {
-    "url": "_saber/images/5257911341455114-a960d98e.jpg",
-    "revision": "3dd5da7cf27fec459e7ba7f2ffd2d401"
+    "url": "_saber/images/5257911341455114-df1529a2.jpg",
+    "revision": "d2b487a7b2363b49c68f9057430e7106"
   },
   {
     "url": "_saber/images/54313581583412418-48af85d7.jpg",
@@ -3999,12 +4059,16 @@ self.__precacheManifest = [
     "revision": "e0cfe4eca945f95ec23a79dae457cd6f"
   },
   {
-    "url": "_saber/images/67031841506430768-8c5b777d.jpg",
-    "revision": "7a57118de455a121b7ffe7a92f235a39"
+    "url": "_saber/images/67031841506430768-2367b351.jpg",
+    "revision": "c43a856171dd715ca9e5e3bd0aad9b8c"
   },
   {
-    "url": "_saber/images/67031841506430768-adbca17d.jpg",
-    "revision": "c22b31b51ad660a0658ea0bfbff2a768"
+    "url": "_saber/images/67031841506430768-84eeaf00.jpg",
+    "revision": "2c2b344dfc9dba1c57fd440e9c34db0f"
+  },
+  {
+    "url": "_saber/images/67031841506430768-f129c7cd.jpg",
+    "revision": "06e10d83bd222d98df539e22fd415e8c"
   },
   {
     "url": "_saber/images/68335581481131536-8766b1f2.jpg",
@@ -4059,28 +4123,40 @@ self.__precacheManifest = [
     "revision": "10954a14439b9a5a8d77bae483c3a52e"
   },
   {
-    "url": "_saber/images/9047141881404714188-10b42eb3.jpg",
-    "revision": "111e87d7e6bbf37a77c53d367b579887"
+    "url": "_saber/images/9047141881404714188-8d212de5.jpg",
+    "revision": "55972fc60f20122824ab539b81f587d5"
   },
   {
-    "url": "_saber/images/9047141881404714188-13ebfa44.jpg",
-    "revision": "67e52da1dc1102ac3c526a2facfef3d4"
+    "url": "_saber/images/9047141881404714188-d8308044.jpg",
+    "revision": "27d9d7c58fddc03ef2ca71f53760750c"
   },
   {
-    "url": "_saber/images/9047141881404714188-b2647a8c.jpg",
-    "revision": "ea2a6d674ebb4e9c31941c56c6fb13f7"
+    "url": "_saber/images/9047141881404714188-f890a94a.jpg",
+    "revision": "c9a3fd7aaedc407891d52608dab697fe"
   },
   {
-    "url": "_saber/images/9070501405907050-4c1c07b9.jpg",
-    "revision": "7791bd50fb459537532bbb51cb20dd16"
+    "url": "_saber/images/9070501405907050-1660379a.jpg",
+    "revision": "86f21ef7633d697e8c7fd1bc0fa828e8"
   },
   {
-    "url": "_saber/images/9070501405907050-6e193532.jpg",
-    "revision": "b177dc34a6ecdb5c6ba8af89bc54f5a4"
+    "url": "_saber/images/9070501405907050-8d4b193e.jpg",
+    "revision": "503fef3807712fbacbf77f5a2088974a"
   },
   {
-    "url": "_saber/images/9070501405907050-e921cba9.jpg",
-    "revision": "530dfa827c3f12ff6b8327e704701432"
+    "url": "_saber/images/9070501405907050-e8d7322a.jpg",
+    "revision": "1095b3b71fad36e0f06bca15486b621c"
+  },
+  {
+    "url": "_saber/images/956347295320534643-41219b57.jpg",
+    "revision": "f4408d673f0dbab5be566285d2f2b1c0"
+  },
+  {
+    "url": "_saber/images/956347295320534643-6753d5db.jpg",
+    "revision": "385f9faaa5d38275a2f107d8ad5c10b7"
+  },
+  {
+    "url": "_saber/images/956347295320534643-7a4976b0.jpg",
+    "revision": "a69b7a65ff7fe222da9be4903fbce267"
   },
   {
     "url": "_saber/images/9947741501607546-44f84b39.jpg",
@@ -4111,412 +4187,412 @@ self.__precacheManifest = [
     "revision": "b9082b56a8b2cc375d84e94cc52d8d89"
   },
   {
-    "url": "_saber/js/404-page.a3ce65cb.js",
-    "revision": "a2d531407c15caaf74a72a78f179f809"
+    "url": "_saber/js/404-page.e9caff3c.js",
+    "revision": "f43d457cc7e2376c69f50e88527ac177"
   },
   {
-    "url": "_saber/js/client.68a250e2.js",
-    "revision": "42319412569f56bd69c6cfa8d0a7dab5"
+    "url": "_saber/js/client.c5cbf7a5.js",
+    "revision": "43fe611639539c7cfc51adf8fa68712e"
   },
   {
-    "url": "_saber/js/page--_posts-2013-11-26-start-md.6f79d44b.js",
-    "revision": "e8827baa0bc1b98b5147b84d900f4888"
+    "url": "_saber/js/page--_posts-2013-11-26-start-md.8383946a.js",
+    "revision": "efd73e1e548959b18764d453d196b9c5"
   },
   {
-    "url": "_saber/js/page--_posts-2013-11-27-chrome-custom-md.56aff4fe.js",
-    "revision": "bdcebd5cc93e3ad5cbf3b1105e466662"
+    "url": "_saber/js/page--_posts-2013-11-27-chrome-custom-md.81a59948.js",
+    "revision": "cb4d3e75f520a7f2cf9a702dd7a61815"
   },
   {
-    "url": "_saber/js/page--_posts-2013-11-27-chrome-one-click-to-download-from-sogou-browser-md.04b0a36c.js",
-    "revision": "ff42880f8d7c97a0d37dc9c122d67e36"
+    "url": "_saber/js/page--_posts-2013-11-27-chrome-one-click-to-download-from-sogou-browser-md.80a80f9f.js",
+    "revision": "105934a25d216080be8a7a9dc0fe64af"
   },
   {
-    "url": "_saber/js/page--_posts-2013-11-27-py-lyric-retriever-md.75e89ab0.js",
-    "revision": "705c490ad22dd28aea59b97c4b07b686"
+    "url": "_saber/js/page--_posts-2013-11-27-py-lyric-retriever-md.8369a6a1.js",
+    "revision": "0302273cc0931c7f4db4a68357603b41"
   },
   {
-    "url": "_saber/js/page--_posts-2013-11-28-typecho-url-rewrite-on-bae-md.091ed6f6.js",
-    "revision": "2ef1f3aae179ba758db8d1d5d558c448"
+    "url": "_saber/js/page--_posts-2013-11-28-typecho-url-rewrite-on-bae-md.4b62f4ab.js",
+    "revision": "67aabfae2b597364314861a3c94c9916"
   },
   {
-    "url": "_saber/js/page--_posts-2013-11-29-1bit-audio-player-md.8c0f4173.js",
-    "revision": "88c82979b0ce169a1cea7cdfa2c11de2"
+    "url": "_saber/js/page--_posts-2013-11-29-1bit-audio-player-md.a07af94f.js",
+    "revision": "71b8ef21bcdd65302c85b0835336e11b"
   },
   {
-    "url": "_saber/js/page--_posts-2013-11-30-ihanabi-the-domain-md.13675f72.js",
-    "revision": "a8cab5500446218dd358d0e7a3a756e7"
+    "url": "_saber/js/page--_posts-2013-11-30-ihanabi-the-domain-md.438fc013.js",
+    "revision": "ec2f77e6a6f5fe9cfee3e810c62b8b9c"
   },
   {
-    "url": "_saber/js/page--_posts-2013-12-05-move-out-from-bae-md.997e0020.js",
-    "revision": "3ea1d0a85fb409d00b695254846d6b14"
+    "url": "_saber/js/page--_posts-2013-12-05-move-out-from-bae-md.2934ae1e.js",
+    "revision": "047713c3d322994a45bec53c42b6713d"
   },
   {
-    "url": "_saber/js/page--_posts-2013-12-10-typecho-v0-9-release-md.5263d27b.js",
-    "revision": "ddad98b27cf5a4488a62a28747b4a344"
+    "url": "_saber/js/page--_posts-2013-12-10-typecho-v0-9-release-md.82827c7f.js",
+    "revision": "a3182ed88ada698b6ee25bb324713495"
   },
   {
-    "url": "_saber/js/page--_posts-2013-12-24-end-of-first-sophomore-term-md.8b8cfabe.js",
-    "revision": "3b08f501a8b7beb6a7e3d431998cb2fe"
+    "url": "_saber/js/page--_posts-2013-12-24-end-of-first-sophomore-term-md.f7cedb07.js",
+    "revision": "627b7e6ce77677a3cf25988a50a10a59"
   },
   {
-    "url": "_saber/js/page--_posts-2013-12-26-theme-two-md.1731b212.js",
-    "revision": "64abcd8976e4c11d2c04c4549df84478"
+    "url": "_saber/js/page--_posts-2013-12-26-theme-two-md.8fc0fc4a.js",
+    "revision": "8bf315a80c86bb31544fafc932855ad1"
   },
   {
-    "url": "_saber/js/page--_posts-2013-12-30-move-to-technetcal-and-2014-md.2ed94949.js",
-    "revision": "04810034dcfb0c1495d167d4d10f2051"
+    "url": "_saber/js/page--_posts-2013-12-30-move-to-technetcal-and-2014-md.a81580df.js",
+    "revision": "4b680b3afc18efab234ea38f43f2b2e3"
   },
   {
-    "url": "_saber/js/page--_posts-2014-01-01-electronic-technology-final-exam-md.00cd4933.js",
-    "revision": "56a81dd8ad69cb1f40dc246f5748894e"
+    "url": "_saber/js/page--_posts-2014-01-01-electronic-technology-final-exam-md.1db69502.js",
+    "revision": "cb96f15f4d3e91fec63334748d774479"
   },
   {
-    "url": "_saber/js/page--_posts-2014-01-06-programmers-healthy-problem-md.104bf3a0.js",
-    "revision": "68486f3f04fbc38d234f6cb602340e37"
+    "url": "_saber/js/page--_posts-2014-01-06-programmers-healthy-problem-md.62a57f45.js",
+    "revision": "5cff3673a7dad5c2fefd6d8ddf8d28fb"
   },
   {
-    "url": "_saber/js/page--_posts-2014-01-13-emeditor-setting-md.abc64294.js",
-    "revision": "3f33ede1d6ebb011140cd55d9c61aa32"
+    "url": "_saber/js/page--_posts-2014-01-13-emeditor-setting-md.895b22dd.js",
+    "revision": "8f81161ecad3e28e313c7fd3aac3fd2c"
   },
   {
-    "url": "_saber/js/page--_posts-2014-01-31-happy-horse-year-md.0e2fd0b1.js",
-    "revision": "a91372f58f5ff4739012ee544fa769d7"
+    "url": "_saber/js/page--_posts-2014-01-31-happy-horse-year-md.dd27b216.js",
+    "revision": "2e530125231c3da0cd027426fd58ea9d"
   },
   {
-    "url": "_saber/js/page--_posts-2014-03-02-win-prizes-at-weibo-md.28d32376.js",
-    "revision": "03ea564bfd083c279509b4b45bcdc772"
+    "url": "_saber/js/page--_posts-2014-03-02-win-prizes-at-weibo-md.2bc5e3f0.js",
+    "revision": "6d48b8af98b19f2a6984f0ca5c859a2c"
   },
   {
-    "url": "_saber/js/page--_posts-2014-03-23-about-parsing-ua-for-duoshuo-md.124acf16.js",
-    "revision": "3a3b55288e563a790eea1ec6f4aaf6ea"
+    "url": "_saber/js/page--_posts-2014-03-23-about-parsing-ua-for-duoshuo-md.234ac2f4.js",
+    "revision": "36c95694665dd18d9e513d874cde1c02"
   },
   {
-    "url": "_saber/js/page--_posts-2014-03-25-flowers-photos-by-lumia-md.8fe7ee45.js",
-    "revision": "b9cc0ecc7f6558ee8493bdeb6ad4088b"
+    "url": "_saber/js/page--_posts-2014-03-25-flowers-photos-by-lumia-md.b6914429.js",
+    "revision": "225b9b9076cab649962b21bc588ae00d"
   },
   {
-    "url": "_saber/js/page--_posts-2014-05-19-dual-boot-fix-virtualbox-and-hyper-v-switch-problem-md.ab28a4d0.js",
-    "revision": "062329c4d475acab1f09d838b102e885"
+    "url": "_saber/js/page--_posts-2014-05-19-dual-boot-fix-virtualbox-and-hyper-v-switch-problem-md.f7e16ba2.js",
+    "revision": "65b4164d3fc143e295f030d3134a104f"
   },
   {
-    "url": "_saber/js/page--_posts-2014-05-29-use-h5ai-to-beautify-your-http-web-server-index-md.8c253d8d.js",
-    "revision": "cb2a3bf8e125bba7d08238a6d3b8e597"
+    "url": "_saber/js/page--_posts-2014-05-29-use-h5ai-to-beautify-your-http-web-server-index-md.61744f9e.js",
+    "revision": "570a703b230d03ff6138c2c3c3157b47"
   },
   {
-    "url": "_saber/js/page--_posts-2014-10-14-syntax-for-typecho-md.6d4507ba.js",
-    "revision": "6dd3b3657743028e1c1ab7b065abd5fa"
+    "url": "_saber/js/page--_posts-2014-10-14-syntax-for-typecho-md.acae3b7b.js",
+    "revision": "a9c892260b202f0c348ac17a7ed10f59"
   },
   {
-    "url": "_saber/js/page--_posts-2015-05-20-hello-world-md.07f1fb41.js",
-    "revision": "1bd503bd00d59c63543fa68334cddc43"
+    "url": "_saber/js/page--_posts-2015-05-20-hello-world-md.f4b5d9ff.js",
+    "revision": "23b8da024e6b53e2178704a400762bd3"
   },
   {
-    "url": "_saber/js/page--_posts-2015-08-23-use-scoop-to-enhance-windows-powershell-md.72ad8849.js",
-    "revision": "71ce781056e810b170b84a8243228196"
+    "url": "_saber/js/page--_posts-2015-08-23-use-scoop-to-enhance-windows-powershell-md.f95aef60.js",
+    "revision": "536767305bd0720eea52315729a04bfb"
   },
   {
-    "url": "_saber/js/page--_posts-2015-09-20-new-mac-env-bootstrap-md.c720754a.js",
-    "revision": "738a092359a8dd0a967926bc914c6962"
+    "url": "_saber/js/page--_posts-2015-09-20-new-mac-env-bootstrap-md.6806c389.js",
+    "revision": "b678f378bd662f992ba8cdeefee6bdf4"
   },
   {
-    "url": "_saber/js/page--_posts-2015-10-02-dot-im-domain-renewal-md.5fc06fa7.js",
-    "revision": "c79b35f6667af17311beba96dc514728"
+    "url": "_saber/js/page--_posts-2015-10-02-dot-im-domain-renewal-md.af7928c3.js",
+    "revision": "7b51242bc9c362de2671c0d2bfa82efe"
   },
   {
-    "url": "_saber/js/page--_posts-2017-01-01-2016-2017-md.dd2800ca.js",
-    "revision": "10dd6009fd041ef14b064f732dc5ba1b"
+    "url": "_saber/js/page--_posts-2017-01-01-2016-2017-md.9aebd474.js",
+    "revision": "3d042d5b76d884e5a844fd0d664e78fd"
   },
   {
-    "url": "_saber/js/page--_posts-2017-02-12-henet-6in4-ipv6-tunnel-on-openwrt-md.4e13d2a5.js",
-    "revision": "35ccddaf5b4bf4e30ff33365a772d749"
+    "url": "_saber/js/page--_posts-2017-02-12-henet-6in4-ipv6-tunnel-on-openwrt-md.8748409e.js",
+    "revision": "a552da5520a3cf104786ce08411e51ca"
   },
   {
-    "url": "_saber/js/page--_posts-2017-02-21-a-brief-history-of-minecraft-modding-md.a38f0644.js",
-    "revision": "4a0f5cbbcac6beb488afb7c979dce5ae"
+    "url": "_saber/js/page--_posts-2017-02-21-a-brief-history-of-minecraft-modding-md.88657995.js",
+    "revision": "2bb12685c79462d19082adcea4e9fc75"
   },
   {
-    "url": "_saber/js/page--_posts-2017-12-15-nintendo-switch-unboxing-and-simple-review-md.c9a620c4.js",
-    "revision": "af9f50373864f19b05a2b805a8b6990e"
+    "url": "_saber/js/page--_posts-2017-12-15-nintendo-switch-unboxing-and-simple-review-md.55cf2e5e.js",
+    "revision": "30b8605d7eda752505c1fbb704cfc85f"
   },
   {
-    "url": "_saber/js/page--_posts-2018-01-01-the-tao-of-notch-beyond-twitter-md.b6c02cb5.js",
-    "revision": "46d5733baf0dccaed8e86d81c3dc4f2d"
+    "url": "_saber/js/page--_posts-2018-01-01-the-tao-of-notch-beyond-twitter-md.313f8dc6.js",
+    "revision": "345ee353742e1bf2c7b87a5317df1500"
   },
   {
-    "url": "_saber/js/page--_posts-2018-03-24-office-2016-custom-installation-guide-md.66240429.js",
-    "revision": "47aa4326f2ea71522850d2755b369d2e"
+    "url": "_saber/js/page--_posts-2018-03-24-office-2016-custom-installation-guide-md.f64ddde5.js",
+    "revision": "cabcdab7d1c478f38cbade2a270463ad"
   },
   {
-    "url": "_saber/js/page--_posts-2018-05-12-talk-about-scoop-the-package-manager-for-windows-again-md.8b5a6a6f.js",
-    "revision": "54a7b397e632df3e88a8dec1ce8274e4"
+    "url": "_saber/js/page--_posts-2018-05-12-talk-about-scoop-the-package-manager-for-windows-again-md.4fde0dca.js",
+    "revision": "5a08b21ce7112aeb445e5527c85a051d"
   },
   {
-    "url": "_saber/js/page--_posts-2018-12-21-chrome-extensions-that-i-am-using-md.09d9f3a5.js",
-    "revision": "2988ace41007e5f09d31da3061da9132"
+    "url": "_saber/js/page--_posts-2018-12-21-chrome-extensions-that-i-am-using-md.59d1d9f1.js",
+    "revision": "9f67151866df9b464845800aa4b5c518"
   },
   {
-    "url": "_saber/js/page--_posts-2019-01-15-the-2018-hacktoberfest-shirt-arrived-md.e65faf41.js",
-    "revision": "ddc84836a92f187540a48d18ffa353cb"
+    "url": "_saber/js/page--_posts-2019-01-15-the-2018-hacktoberfest-shirt-arrived-md.fab823a8.js",
+    "revision": "978e43778e0404356ef28322903928ba"
   },
   {
-    "url": "_saber/js/page--_posts-2019-02-18-understanding-windows-console-host-settings-md.cc42dd36.js",
-    "revision": "620a420fd0fcf54390b1ca915e38008d"
+    "url": "_saber/js/page--_posts-2019-02-18-understanding-windows-console-host-settings-md.0e7625a8.js",
+    "revision": "34954a355d877a6790f56b90aa2af78e"
   },
   {
-    "url": "_saber/js/page--_posts-2019-04-21-recent-changes-of-my-site-md.184ff652.js",
-    "revision": "145f39d482fa007dd7dd6fd549c9f315"
+    "url": "_saber/js/page--_posts-2019-04-21-recent-changes-of-my-site-md.a737022c.js",
+    "revision": "7545a9f4c437b8ce01f28a6f5f9f2121"
   },
   {
-    "url": "_saber/js/page--_posts-2019-05-01-macos-mojave-dark-mode-in-css-md.a32dc1bf.js",
-    "revision": "9ac06e1a0685c4642c989e8bd1d8436e"
+    "url": "_saber/js/page--_posts-2019-05-01-macos-mojave-dark-mode-in-css-md.27b3b0e2.js",
+    "revision": "f541e4b1554cdd059f668300a91e4e2e"
   },
   {
-    "url": "_saber/js/page--_posts-2019-05-20-mariya-takeuchis-plastic-love-gets-music-video-after-35-years-md.076bf37b.js",
-    "revision": "f2c168f0f28a628ca55603a05d110425"
+    "url": "_saber/js/page--_posts-2019-05-20-mariya-takeuchis-plastic-love-gets-music-video-after-35-years-md.f777f1ed.js",
+    "revision": "c7854ac1ae7684f69921884ed3286f42"
   },
   {
-    "url": "_saber/js/page--_posts-2019-07-07-amd-itx-diy-specs-for-the-next-5-years-md.05cafd11.js",
-    "revision": "c739fc4745a8b825ca9f1add2d9d7db9"
+    "url": "_saber/js/page--_posts-2019-07-07-amd-itx-diy-specs-for-the-next-5-years-md.99c71372.js",
+    "revision": "6015880bdf9e4e2f78239aa8868ea8d7"
   },
   {
-    "url": "_saber/js/page--_posts-2019-07-24-better-lazyload-implementation-with-responsive-images-md.3fb74fa6.js",
-    "revision": "137c5e76521242e85454b96f6952e2dc"
+    "url": "_saber/js/page--_posts-2019-07-24-better-lazyload-implementation-with-responsive-images-md.053d91e1.js",
+    "revision": "714083e79005e16d056a5df0e4b4c980"
   },
   {
-    "url": "_saber/js/page--_posts-2019-11-16-github-universe-2019-news-md.82bc32cd.js",
-    "revision": "d66031f4f8e2e63d286983c63adb371f"
+    "url": "_saber/js/page--_posts-2019-11-16-github-universe-2019-news-md.6e08b877.js",
+    "revision": "e05b04d5f357fda23e65723ebd478f2b"
   },
   {
-    "url": "_saber/js/page--_posts-2020-04-10-ten-indie-video-game-soundtracks-you-must-listen-md.ee8b0a4c.js",
-    "revision": "b34cd102f4980d45f1073126f309364d"
+    "url": "_saber/js/page--_posts-2020-04-10-ten-indie-video-game-soundtracks-you-must-listen-md.bfa27fe5.js",
+    "revision": "a3377e029ca3728af45002645a331854"
   },
   {
-    "url": "_saber/js/page--about-md.056d59ec.js",
-    "revision": "02d2a45fd714ab917338fe19c7ec57b0"
+    "url": "_saber/js/page--about-md.f50832f9.js",
+    "revision": "f999c8bbf69839603c6372ed7523905d"
   },
   {
-    "url": "_saber/js/page--blog-index-md.b4cae007.js",
-    "revision": "7f49517013bd8b5647345e268527268b"
+    "url": "_saber/js/page--blog-index-md.95933bfa.js",
+    "revision": "e26fbdabd7e1c0e5cf1a988e74f4648b"
   },
   {
-    "url": "_saber/js/page--city-pop-collection-en-md.badf8929.js",
-    "revision": "228661bf7862c5dfad64622e2420c936"
+    "url": "_saber/js/page--city-pop-collection-en-md.677589b0.js",
+    "revision": "cf93d31b6a8de5d44eb820bffd8069c2"
   },
   {
-    "url": "_saber/js/page--city-pop-collection-en-md~page--city-pop-collection-index-md.fb4a283e.js",
-    "revision": "067b9f72779fb098937805afce2538b8"
+    "url": "_saber/js/page--city-pop-collection-en-md~page--city-pop-collection-index-md.eb674916.js",
+    "revision": "d6369312044cac75293224ec5a1825cb"
   },
   {
-    "url": "_saber/js/page--city-pop-collection-index-md.6042cbd3.js",
-    "revision": "7ac54d660ea21610e3bf46d1c4ebd2d5"
+    "url": "_saber/js/page--city-pop-collection-index-md.decb1615.js",
+    "revision": "25e4936d28824ebe0e2f20dd45b3e534"
   },
   {
-    "url": "_saber/js/page--guestbook-md.08495a85.js",
-    "revision": "c680f6e16cf4e56352b201f3bd0ac8dc"
+    "url": "_saber/js/page--guestbook-md.77035087.js",
+    "revision": "5a8fda2b5efa030cc993b7b9e5efe9d4"
   },
   {
-    "url": "_saber/js/page--index-md.0c8104ba.js",
-    "revision": "abe1ed4c71bd6dc7011ce6f2215666aa"
+    "url": "_saber/js/page--index-md.8ac3acd3.js",
+    "revision": "0041219a44e6e71e734ba62c6eba59fe"
   },
   {
-    "url": "_saber/js/page--links-md.e4a60f0d.js",
-    "revision": "7573fdc22dd4e2f8e361eb6b9a1e6c2f"
+    "url": "_saber/js/page--links-md.fb5318bf.js",
+    "revision": "97787c421313ec9095fb2bf4aaf50ad1"
   },
   {
     "url": "404.html",
-    "revision": "39b487fcd411c289832fdffcbf19a719"
+    "revision": "ba006c55fbf2c399c9a53ec94585081e"
   },
   {
     "url": "about/index.html",
-    "revision": "6f58f7dc781e2e157e8e8a4594f8e9a4"
+    "revision": "57fbd84d56d96299d78708c0fab52b78"
   },
   {
     "url": "blog/1bit-audio-player/index.html",
-    "revision": "8a1bab0ecfb48dbb51b2f09ead248aab"
+    "revision": "ecfecdbc81d9849971d117f78c23c20b"
   },
   {
     "url": "blog/2016-2017/index.html",
-    "revision": "64d9a412ab3ff6f860a47997a029ee6b"
+    "revision": "e140619c11d7b13fd3e339fe57de1ed7"
   },
   {
     "url": "blog/a-brief-history-of-minecraft-modding/index.html",
-    "revision": "4cc8a51e7036971054e7197f080b3a98"
+    "revision": "27e37cd1114b97f144371c32ceb52ab2"
   },
   {
     "url": "blog/about-parsing-ua-for-duoshuo/index.html",
-    "revision": "8759cd9bf52f659dc580aa40d721a793"
+    "revision": "97172237fcbe8851370d2e861662016f"
   },
   {
     "url": "blog/amd-itx-diy-specs-for-the-next-5-years/index.html",
-    "revision": "70b665decb25586d9a9b83b2a5a87e60"
+    "revision": "555d729b26a1d84651653b8ff72210e9"
   },
   {
     "url": "blog/better-lazyload-implementation-with-responsive-images/index.html",
-    "revision": "82410a1f4f451428b310d909bc95b9c3"
+    "revision": "e7fab6e23de7b61fd677176140dfd8fd"
   },
   {
     "url": "blog/chrome-custom/index.html",
-    "revision": "9c5978fbf1b76541341035aef8b01e02"
+    "revision": "9ba38db4a8726b315f56065925864d42"
   },
   {
     "url": "blog/chrome-extensions-that-i-am-using/index.html",
-    "revision": "dd79cf2c9cc7b8bf3022a2cc5ccc590b"
+    "revision": "120a4d1f1dd1308be19043d3aa031127"
   },
   {
     "url": "blog/chrome-one-click-to-download-from-sogou-browser/index.html",
-    "revision": "303055747c513af64d8b7b2b6788099a"
+    "revision": "0ca9915f83e09b4c6a23fcb3ba5643d8"
   },
   {
     "url": "blog/dot-im-domain-renewal/index.html",
-    "revision": "32e51486b17b7c2c0ba837014eed55b3"
+    "revision": "42ff749e130f2f10e3a1d101d2e4d009"
   },
   {
     "url": "blog/dual-boot-fix-virtualbox-and-hyper-v-switch-problem/index.html",
-    "revision": "98c7414dcc5f7afff3bf9f5c69129dc6"
+    "revision": "4e0353c6430d00dda8138f4d207f639a"
   },
   {
     "url": "blog/electronic-technology-final-exam/index.html",
-    "revision": "d90ea1a943714237d8116baca1ea06c7"
+    "revision": "c9b3b0c89defed4bfbd4e71c0161eba9"
   },
   {
     "url": "blog/emeditor-setting/index.html",
-    "revision": "0e493a94bce408996ae993fc07b21eee"
+    "revision": "f21f7f85b6dba39aa9bfa6a064cf51bf"
   },
   {
     "url": "blog/end-of-first-sophomore-term/index.html",
-    "revision": "cea4b208af34a4e757666f9b7784986c"
+    "revision": "f04aa63fe69ade12cebf1dad923d2983"
   },
   {
     "url": "blog/flowers-photos-by-lumia/index.html",
-    "revision": "a8d9100fda7fa303273497108f6a67b3"
+    "revision": "04920a68739acb73d2c012177e668524"
   },
   {
     "url": "blog/github-universe-2019-news/index.html",
-    "revision": "ed56bf388b8759fea45512d4e84c5736"
+    "revision": "437fd83886daf41eb2385eb3585298f3"
   },
   {
     "url": "blog/happy-horse-year/index.html",
-    "revision": "0af5b2a1687fe9325fa23e9badfaf9ff"
+    "revision": "21dc3a6ecc2bd832c549c2484f04c220"
   },
   {
     "url": "blog/hello-world/index.html",
-    "revision": "f8e6712e50f0fb1542144ad8740e64ee"
+    "revision": "c8ea973baf377c5c20c52ac7f105bb4b"
   },
   {
     "url": "blog/henet-6in4-ipv6-tunnel-on-openwrt/index.html",
-    "revision": "62cc28b5faadf0cedf81ae03ee86a30d"
+    "revision": "7f93b4e42695ba8f8042670510de7cd3"
   },
   {
     "url": "blog/ihanabi-the-domain/index.html",
-    "revision": "430344e462fda9eb892d4455be66db4e"
+    "revision": "1cfca711a17312247224b6e6642b2c9a"
   },
   {
     "url": "blog/index.html",
-    "revision": "ab8e3478bf829e8561af215accb961ca"
+    "revision": "94bd513faa471ab57edc151eacd15fa5"
   },
   {
     "url": "blog/macos-mojave-dark-mode-in-css/index.html",
-    "revision": "d8d7541ed4c64a063d496ce4ecd9eaac"
+    "revision": "a5e2cbf1fc0ff24f4b3e2e6d3b922041"
   },
   {
     "url": "blog/mariya-takeuchis-plastic-love-gets-music-video-after-35-years/index.html",
-    "revision": "576f938f414d5405d4036a4cd8c10f07"
+    "revision": "0b80b34b40f8b89d240321417ad55872"
   },
   {
     "url": "blog/move-out-from-bae/index.html",
-    "revision": "0d78d11edc5ca7fab005cb7134479263"
+    "revision": "93db93d46ba41bd1a14ef666ef6b3414"
   },
   {
     "url": "blog/move-to-technetcal-and-2014/index.html",
-    "revision": "a8356b8366f2f31aa123663e81377edc"
+    "revision": "8d9783ce0c68fc10b6e18c9b492439b7"
   },
   {
     "url": "blog/new-mac-env-bootstrap/index.html",
-    "revision": "f62a06a57a8e4f48734ff0305657be3b"
+    "revision": "aa28d4843604a3e2655f4c1e78020a0d"
   },
   {
     "url": "blog/nintendo-switch-unboxing-and-simple-review/index.html",
-    "revision": "8c475d0c1c54ed056cbecdd249d88de4"
+    "revision": "0b66a708d002d3ebc2c4aafcf53f2530"
   },
   {
     "url": "blog/office-2016-custom-installation-guide/index.html",
-    "revision": "40e2001918cb02b939879951048b346e"
+    "revision": "e6dfa4bc997ceb9110c13582c55dbefa"
   },
   {
     "url": "blog/page/2/index.html",
-    "revision": "cd0d3e9e712fe1a6a512b09d4d6ab571"
+    "revision": "98896f4247a0a28675c310fa5ce0d3fa"
   },
   {
     "url": "blog/programmers-healthy-problem/index.html",
-    "revision": "ed977c097f10379b5fc29e67778cb9d5"
+    "revision": "ad775dde94b113d5a4eb6493890ff144"
   },
   {
     "url": "blog/py-lyric-retriever/index.html",
-    "revision": "2f099bfdcad92f307ecf833921355dce"
+    "revision": "60b6c6ad981d09505e0f4d2caa26839b"
   },
   {
     "url": "blog/recent-changes-of-my-site/index.html",
-    "revision": "d7b1ac8938a84377fe59b37854d57ecd"
+    "revision": "c70325acd0f9e18b186ce626e8224ae4"
   },
   {
     "url": "blog/start/index.html",
-    "revision": "322606184b387fdfea6182aeb0f69c75"
+    "revision": "ddfa12ae1f477306cca572652a21b89b"
   },
   {
     "url": "blog/syntax-for-typecho/index.html",
-    "revision": "64a3c30e37f4268e1ea54ffdaf0d1962"
+    "revision": "ac463652679790c805881617591c0417"
   },
   {
     "url": "blog/talk-about-scoop-the-package-manager-for-windows-again/index.html",
-    "revision": "3c29df0c4e35842490623b4e22fa5704"
+    "revision": "7f19e66d2962950dbb429858e9682635"
   },
   {
     "url": "blog/ten-indie-video-game-soundtracks-you-must-listen/index.html",
-    "revision": "e413d7446ded7316481c2a0d0801d89c"
+    "revision": "cb5caf23c16358a6ad4360a9835d2202"
   },
   {
     "url": "blog/the-2018-hacktoberfest-shirt-arrived/index.html",
-    "revision": "6db14387c073305e43042d9bc0b85253"
+    "revision": "9a6497414849f8af10bf39b311bd0065"
   },
   {
     "url": "blog/the-tao-of-notch-beyond-twitter/index.html",
-    "revision": "ef57eac8e02e732cf4ea232ea11a248c"
+    "revision": "f70bf6e85c503ff70e018c6f383eb1a8"
   },
   {
     "url": "blog/theme-two/index.html",
-    "revision": "357b5f6b36d522326b4042c1dd016187"
+    "revision": "b2e6d837341dd31b870354ad26df27a3"
   },
   {
     "url": "blog/typecho-url-rewrite-on-bae/index.html",
-    "revision": "cb1153722c31e2e129e863a3607e80b6"
+    "revision": "cccace40d6b42602a434c23c07309246"
   },
   {
     "url": "blog/typecho-v0-9-release/index.html",
-    "revision": "dadae9ecb33464e7b6e7e520aebb5177"
+    "revision": "f90fe04fc7cf9ccb01e703f8bf7dbb04"
   },
   {
     "url": "blog/understanding-windows-console-host-settings/index.html",
-    "revision": "a5ea04b0aa693d4703396ca1f121eb2b"
+    "revision": "b40a41102feb91c6ac3b6a6f722da860"
   },
   {
     "url": "blog/use-h5ai-to-beautify-your-http-web-server-index/index.html",
-    "revision": "b71b97c5618e117e7f91bb6b4e492628"
+    "revision": "df658fc53e2f8beb332b1b77d5d20a1d"
   },
   {
     "url": "blog/use-scoop-to-enhance-windows-powershell/index.html",
-    "revision": "1330bc4e1187a3fc30a554b736068bcb"
+    "revision": "8f46a03bf718eef4b5dc110590e86989"
   },
   {
     "url": "blog/win-prizes-at-weibo/index.html",
-    "revision": "23c935772319b42a5e1e1f1bb55846b4"
+    "revision": "231d6974dbf5d62048a6c6b58b434f0c"
   },
   {
     "url": "city-pop-collection/en/index.html",
-    "revision": "0badc6a74c0ce393ebb89651d6bd6917"
+    "revision": "ac47cde6817689c7e505d968abdfa32c"
   },
   {
     "url": "city-pop-collection/index.html",
-    "revision": "e9bf905ec87c644af3facef08444bb07"
+    "revision": "e4f28b71dcab6af4648fa1b6778e940b"
   },
   {
     "url": "google83352756ba352b4c.html",
@@ -4524,15 +4600,15 @@ self.__precacheManifest = [
   },
   {
     "url": "guestbook/index.html",
-    "revision": "d4d3e733a25b5c0c0ab0783fa64f89bd"
+    "revision": "f7105b35673187e77818314eab628bc1"
   },
   {
     "url": "index.html",
-    "revision": "331d6ff55ec30f62395042de34995076"
+    "revision": "953cdb2b08922ffdc521fa3c0318e381"
   },
   {
     "url": "links/index.html",
-    "revision": "f7d0ad9b15e1580fff4db58bbf779eff"
+    "revision": "28e3e11be9464eb9bc0e6d82cb099b85"
   }
 ].concat(self.__precacheManifest || []);
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
