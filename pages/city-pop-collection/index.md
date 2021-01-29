@@ -78,6 +78,7 @@ multilang:
 ![オーシャン・サイド / 菊池桃子 / オーシャン・サイド / 1984](../_assets/uploads/2021/city-pop-collection/3537091598188238.jpg)
 ![Groovin' / 黒沢薫 / Love Anthem / 2005](../_assets/uploads/2021/city-pop-collection/200356200706281122222184.jpg)
 ![SOLO / SPiCYSOL / The U-KiMAMA'N'i- / 2020](../_assets/uploads/2021/city-pop-collection/54313581583412418.jpg)
+![EMCのラップ道 / Enjoy Music Club / FOREVER / 2015](../_assets/uploads/2021/city-pop-collection/4740221468474023.jpg)
 ![Magic Ways / 山下達郎 / Big Wave / 1984](../_assets/uploads/2021/city-pop-collection/3045021507701978.jpg)
 ![Party Night / エイミー / Amy / 1983](../_assets/uploads/2021/city-pop-collection/1187656715310300533860.jpg)
 ![戯び / 二名敦子 / PLAY ROOM~戯れ / 1983](../_assets/uploads/2021/city-pop-collection/9047141881404714188.jpg)
