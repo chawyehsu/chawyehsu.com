@@ -18,8 +18,10 @@ multilang:
 > 乐，属于 J-pop 的分支，起源于 1970 年代后期的日本。它是日本国内受西方文化影响衍
 > 伸出来的音乐风格，以贝斯、电吉他与明显的节奏为人所知。它在日本经济泡沫时期（1980
 > 年代）达到顶峰，主题多与与该国的经济繁荣有密切关系，侧面反映出该时期的城市夜晚、
-> 都会风光。自 2010 年代以来，城市流行音乐在国际上获得了广泛关注，并成为蒸气波和未
-> 来放克等加工音乐的基础。—— Wikipedia
+> 都会风光。都市流行音乐因其带有的日本泡沫经济时期的强烈色彩，吸引了一大批日本国内
+> 乃至海外的忠实粉丝。自 2010 年代以来，随着竹内玛利亚等歌手的音乐在网络上的走红，
+> 都市流行音乐开始复苏，并成为蒸气波和未来放克等加工音乐的基础，在全球范围内获得了
+> 广泛关注。
 
 ---
 
@@ -51,7 +53,7 @@ multilang:
 ![Cloudyな午後 / 中原めいこ / Lotos ロートスの果実 / 1984](../_assets/uploads/2021/city-pop-collection/5257411341395844.jpg)
 ![見えない翼 / 伊藤麻衣子 / ちいさなドラマ / 1985](../_assets/uploads/2021/city-pop-collection/4150471291800882.jpg)
 ![Wonderland 夕闇 City / 二名敦子 / him / 1986](../_assets/uploads/2021/city-pop-collection/21002878781457321160.jpg)
-![Cosmic Love / 国分友里恵 / STEPS / 1987](../_assets/uploads/2021/city-pop-collection/9070501405907050.jpg)
+![In Your Eyes / 国分友里恵 / STEPS / 1987](../_assets/uploads/2021/city-pop-collection/9070501405907050.jpg)
 ![Infinite Love (無限の愛) / 中原めいこ / 鏡の中のアクトレス / 1988](../_assets/uploads/2021/city-pop-collection/5257911341455114.jpg)
 ![Dreamin' Lady / 和田加奈子 / Dear / 1989](../_assets/uploads/2021/city-pop-collection/4668491316497691.jpg)
 ![私達を信じていて / Cindy / Angel Touch / 1990](../_assets/uploads/2021/city-pop-collection/21002848741456820737.jpg)
@@ -91,7 +93,7 @@ multilang:
 ![Midnight Down Town / 杉山清貴 / Aqua City / 1983](../_assets/uploads/2021/city-pop-collection/1495121315846281406633.jpg)
 ![笑ってハート・ブレイク / 松本伊代 / オンリー・セブンティーン / 1982](../_assets/uploads/2021/city-pop-collection/12891488961389148896.jpg)
 ![花梨 / 柏原芳恵 / セブンティーン / 1982](../_assets/uploads/2021/city-pop-collection/3269811372152053.jpg)
-![CITY HUNTER 愛よ消えないで / 小比類巻かほる / City Hunter Sound Collection X Theme Songs / 2005](../_assets/uploads/2021/city-pop-collection/4388241304493189.jpg)
+![サヨナラは私のために / 松本伊代 / 風のように / 1987](../_assets/uploads/2021/city-pop-collection/79853740307111533279673613.jpg)
 ![STARDUST NIGHT / JADOES / THE JADOESゴールデン☆ベスト / 1982](../_assets/uploads/2021/city-pop-collection/4907661328089571.jpg)
 ![オフ・ショアー / 角松敏生 / On the City Shore / 1983](../_assets/uploads/2021/city-pop-collection/59804440719551504234764.jpg)
 ![Your Eyes / 山下達郎 / Come Along II / 1984](../_assets/uploads/2021/city-pop-collection/13358031391530245741.jpg)
@@ -106,12 +108,10 @@ multilang:
 ![夏への扉 / 山下達郎 / Ride On Time / 1980](../_assets/uploads/2021/city-pop-collection/24705961551263047.jpg)
 ![Spell / 東北新幹線 / THRU TRAFFIC / 1982](../_assets/uploads/2021/city-pop-collection/21002849441456823736.jpg)
 ![モーニング・サブウェイ / 新井正人 / Masahito Arai / 1987](../_assets/uploads/2021/city-pop-collection/1382030615727595137894.jpg)
-![DIAMONDS / 菅野よう子 / COWBOY BEBOP TANK!THE!BEST! / 2004](../_assets/uploads/2021/city-pop-collection/3573321411526599.jpg)
 ![Happy birthday, Love for you / 中原めいこ / Happy birthday,Love for you / 1989](../_assets/uploads/2021/city-pop-collection/3958531281672931.jpg)
 ![ドロシーの日常 / 石野真子 / サフラン / 1985](../_assets/uploads/2021/city-pop-collection/3934591280736321.jpg)
 ![黄昏のBay City / 八神純子 / 黄昏のBay City / 1983](../_assets/uploads/2021/city-pop-collection/9947741501607546.jpg)
 ![Merry Christmas / 伊藤智恵理 / Hello / 1987](../_assets/uploads/2021/city-pop-collection/4501351437985121.jpg)
-![JOY / 石井明美 / JOY / 1987](../_assets/uploads/2021/city-pop-collection/3367699971436769997.jpg)
 ![フロントガラス越しに / 須藤薫 / PLANETARIUM / 1983](../_assets/uploads/2021/city-pop-collection/13314122261431412226.jpg)
 ![想い出はあざやかに / 田中好子 / Yoshiko / 1984](../_assets/uploads/2021/city-pop-collection/4421541305861240.jpg)
 ![Ooh Baby / Craig Ruhnke / True Love / 1983](../_assets/uploads/2021/city-pop-collection/21029765211601798235.jpg)
@@ -128,6 +128,32 @@ multilang:
 ![Windy Lady / サーカス / WOMAN IN LOVE / 1988](../_assets/uploads/2021/city-pop-collection/3659952171365995217.jpg)
 ![夕闇を見ていた / 椎名恵 / ミス・ユー / 1986](../_assets/uploads/2021/city-pop-collection/4711901318493679.jpg)
 ![Moment Of Summer / 国分友里恵 / Silent Moon / 1990](../_assets/uploads/2021/city-pop-collection/10019374481511887441.jpg)
+![CITY HUNTER 愛よ消えないで / 小比類巻かほる / City Hunter Sound Collection X Theme Songs / 2005](../_assets/uploads/2021/city-pop-collection/4388241304493189.jpg)
+![Solid Dance / SHAMBARA / シャンバラ / 1989](../_assets/uploads/2021/city-pop-collection/21002802241456205690.jpg)
+![君の愛がすべて / 安部恭弘 / SLIT / 1984](../_assets/uploads/2021/city-pop-collection/3467911252895417.jpg)
+![あしおと / 山下達郎 / Melodies / 1983](../_assets/uploads/2021/city-pop-collection/3045001497869440.jpg)
+![あなたから遠くへ / 渡辺満里奈 / Ring-a-Bell / 1996](../_assets/uploads/2021/city-pop-collection/21003803281471487853.jpg)
+![Summer Vacation / 村田和人 / My Crew / 1984](../_assets/uploads/2021/city-pop-collection/5350469631435046963.jpg)
+![雨色の僕と君 / 有賀啓雄 / Sherbet / 1987](../_assets/uploads/2021/city-pop-collection/6107221530175284.jpg)
+![雨のウェンズデイ / 大滝詠一 / A LONG VACATION / 1981](../_assets/uploads/2021/city-pop-collection/4212991295517081.jpg)
+![雨は手のひらにいっぱい / SUGAR BABE / Songs / 1975](../_assets/uploads/2021/city-pop-collection/66579691485999946.jpg)
+![或るグレイな恋の場合 / 斎藤誠 / Be-Gray / 1984](../_assets/uploads/2021/city-pop-collection/24871531532920636.jpg)
+![海へ帰ろう / 桐ヶ谷仁 / My Love For You / 1979](../_assets/uploads/2021/city-pop-collection/13464611515554913.jpg)
+![AUGUST RAIN / 角松敏生 / TEARS BALLAD / 1991](../_assets/uploads/2021/city-pop-collection/3540621257406355.jpg)
+![風になれるなら / 伊藤銀次 / Deadly Drive / 1977](../_assets/uploads/2021/city-pop-collection/17240712541499147535.jpg)
+![Catch Your Way / 杉真理 / Overlap / 1982](../_assets/uploads/2021/city-pop-collection/3839051564383905.jpg)
+![Candy / 具島直子 / miss.G / 1996](../_assets/uploads/2021/city-pop-collection/4018361284369945.jpg)
+![CLOSE YOUR EYES / 安部恭弘 / FRAME OF MIND / 1985](../_assets/uploads/2021/city-pop-collection/3467951252895713.jpg)
+![Circus Town / 山下達郎 / Circus Town / 1976](../_assets/uploads/2021/city-pop-collection/4331513711514300511.jpg)
+![Summer’s Gone / GREAT3 / Richmondo High / 1995](../_assets/uploads/2021/city-pop-collection/20660191541366019154.jpg)
+![Shadow City / 寺尾聰 / Reflections / 1981](../_assets/uploads/2021/city-pop-collection/4668061316490443.jpg)
+![しらけちまうぜ / 小坂忠 / HORO / 1975](../_assets/uploads/2021/city-pop-collection/59839880791917721504234303.jpg)
+![テイク･ア･チャンス / 木戸やすひろ / KID / 1978](../_assets/uploads/2021/city-pop-collection/21177031519889067.jpg)
+![2000トンの雨 / 山下達郎 / GO AHEAD! / 1978](../_assets/uploads/2021/city-pop-collection/5991686534286022071502703247.jpg)
+![双子座グラフィティ / Kirinji / Paper Drivers Music / 1998](../_assets/uploads/2021/city-pop-collection/5473041495547304.jpg)
+![ドラマティック・レイン / 稲垣潤一 / SHYLIGHTS / 1982](../_assets/uploads/2021/city-pop-collection/4157081292225009.jpg)
+![JOY / 石井明美 / JOY / 1987](../_assets/uploads/2021/city-pop-collection/3367699971436769997.jpg)
+![センチメンタル・ジャーニー / 松本伊代 / Believe / 1984](../_assets/uploads/2021/city-pop-collection/4715591318842934.jpg)
 {.alignfull}
 
 ---
