@@ -10,8 +10,6 @@ assets:
   og: ../_assets/uploads/2021/city-pop-collection/2017291599567979.jpg
 ---
 
----
-
 > City pop (シティ・ポップ, shitī poppu) is a loose category of Japanese pop music
 > that emerged in the late 1970s and peaked in the 1980s. It was originally termed
 > as an offshoot of Japan's Western-influenced "new music", but came to include a
