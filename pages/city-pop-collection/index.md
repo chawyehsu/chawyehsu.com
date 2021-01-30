@@ -4,7 +4,7 @@ lang: zh-cn
 title: "City Pop 都市流行合集画廊"
 description: 一份都市流行（City Pop，シティ・ポップ）音乐合集画廊
 date: 2021-01-23 08:00:00
-updated: 2021-01-23 23:00:00
+updated: 2021-01-30 12:30:00
 comments: false
 assets:
   og: ../_assets/uploads/2021/city-pop-collection/2017291599567979.jpg
