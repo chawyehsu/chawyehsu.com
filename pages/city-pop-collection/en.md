@@ -4,7 +4,7 @@ lang: en
 title: "City Pop Collection Gallery"
 description: A City Pop music collection gallery made by Chawye Hsu
 date: 2021-01-23 08:00:00
-updated: 2021-01-31 19:00:00
+updated: 2021-01-31 21:00:00
 comments: false
 assets:
   og: ../_assets/uploads/2021/city-pop-collection/2017291599567979.jpg
@@ -32,7 +32,7 @@ assets:
 ![空を見上げて / 河合その子 / Replica / 1990](../_assets/uploads/2021/city-pop-collection/3651831263883865.jpg)
 ![crazy for you / さいとうまりな / はじまるふたり / 2014](../_assets/uploads/2021/city-pop-collection/5052811516505281.jpg)
 ![真夜中のドア - Stay With Me / 松原みき / 真夜中のドア - Stay With Me / 1979](../_assets/uploads/2021/city-pop-collection/56437151480656801.jpg)
-![Last Summer Whisper / 杏里 / Heaven Beach / 1982](../_assets/uploads/2021/city-pop-collection/3545451257832145.jpg)
+![Good Bye Boogie Dance / 杏里 / Bi・Ki・Ni / 1983](../_assets/uploads/2021/city-pop-collection/3460491282200707.jpg)
 ![ジャグラー / 中原めいこ / mint / 1983](../_assets/uploads/2021/city-pop-collection/5257401341395836.jpg)
 ![ガラスの観覧車 / 石野真子 / ガラスの観覧車 / 1987](../_assets/uploads/2021/city-pop-collection/956347295320534643.jpg)
 ![Miracle Love / 牧瀬里穂 / P. S. Riho / 1993](../_assets/uploads/2021/city-pop-collection/3468554634594230523.jpg)
@@ -76,6 +76,11 @@ assets:
 ![Groovin' / 黒沢薫 / Love Anthem / 2005](../_assets/uploads/2021/city-pop-collection/200356200706281122222184.jpg)
 ![EMCのラップ道 / Enjoy Music Club / FOREVER / 2015](../_assets/uploads/2021/city-pop-collection/4740221468474023.jpg)
 ![SOLO / SPiCYSOL / The U-KiMAMA'N'i- / 2020](../_assets/uploads/2021/city-pop-collection/54313581583412418.jpg)
+![Last Summer Whisper / 杏里 / Heaven Beach / 1982](../_assets/uploads/2021/city-pop-collection/3545451257832145.jpg)
+![白い恋人 / 松田聖子 / North Wind / 1980](../_assets/uploads/2021/city-pop-collection/3624991513441762.jpg)
+![Surf & Tears / 杏里 / Surf & Tears / 1987](../_assets/uploads/2021/city-pop-collection/4323289513324534.jpg)
+![SQUALL / 松田聖子 / Squall / 1980](../_assets/uploads/2021/city-pop-collection/3624981372843045.jpg)
+![ピンクのルージュ / 飯島真理 / Kimono Stereo / 1985](../_assets/uploads/2021/city-pop-collection/4004541380096178.jpg)
 ![Magic Ways / 山下達郎 / Big Wave / 1984](../_assets/uploads/2021/city-pop-collection/3045021507701978.jpg)
 ![Gemini VS Capricorn / 藤真利子 / 狂躁曲 / 1982](../_assets/uploads/2021/city-pop-collection/4925841593522364.jpg)
 ![夏の日の午後 / 岡村孝子 / After Tone / 1987](../_assets/uploads/2021/city-pop-collection/200356200708171602318807.jpg)
