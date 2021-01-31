@@ -4,7 +4,7 @@ lang: en
 title: "City Pop Collection Gallery"
 description: A City Pop music collection gallery made by Chawye Hsu
 date: 2021-01-23 08:00:00
-updated: 2021-01-31 17:00:00
+updated: 2021-01-31 19:00:00
 comments: false
 assets:
   og: ../_assets/uploads/2021/city-pop-collection/2017291599567979.jpg
@@ -80,8 +80,8 @@ assets:
 ![Gemini VS Capricorn / 藤真利子 / 狂躁曲 / 1982](../_assets/uploads/2021/city-pop-collection/4925841593522364.jpg)
 ![夏の日の午後 / 岡村孝子 / After Tone / 1987](../_assets/uploads/2021/city-pop-collection/200356200708171602318807.jpg)
 ![Summer Blue / ブレッド&バター / Late Late Summer / 1979](../_assets/uploads/2021/city-pop-collection/89815191480293581.jpg)
-![笑ってハート・ブレイク / 松本伊代 / Only Seventeen / 1982](../_assets/uploads/2021/city-pop-collection/12891488961389148896.jpg)
-![花梨 / 柏原芳恵 / セブンティーン / 1982](../_assets/uploads/2021/city-pop-collection/3269811372152053.jpg)
+![TVの国からキラキラ / 松本伊代 / Only Seventeen / 1982](../_assets/uploads/2021/city-pop-collection/12891488961389148896.jpg)
+![ブリザード / 柏原芳恵 / セブンティーン / 1982](../_assets/uploads/2021/city-pop-collection/3269811372152053.jpg)
 ![サヨナラは私のために / 松本伊代 / 風のように / 1987](../_assets/uploads/2021/city-pop-collection/79853740307111533279673613.jpg)
 ![STARDUST NIGHT / JADOES / THE JADOESゴールデン☆ベスト / 1982](../_assets/uploads/2021/city-pop-collection/4907661328089571.jpg)
 ![オフ・ショアー / 角松敏生 / On the City Shore / 1983](../_assets/uploads/2021/city-pop-collection/59804440719551504234764.jpg)
@@ -99,7 +99,7 @@ assets:
 ![SEA LINE / 角松敏生 / SEA IS A LADY / 1987](../_assets/uploads/2021/city-pop-collection/3540351257403142.jpg)
 ![ディケイド・ナイト / 大貫妙子 / Romantique / 1980](../_assets/uploads/2021/city-pop-collection/5991650078566901502702682.jpg)
 ![蜉蝣 / 高橋幸宏 / 薔薇色の明日 / 1983](../_assets/uploads/2021/city-pop-collection/3977761539786294.jpg)
-![あした天気になれ / 柏原芳恵 / 春なのに / 1983](../_assets/uploads/2021/city-pop-collection/4975661372151978.jpg)
+![赤のエナメル / 中森明菜 / Crimson / 1986](../_assets/uploads/2021/city-pop-collection/3262811372152167.jpg)
 ![Telephone Number / 大橋純子 / MAGICAL 大橋純子の世界 III / 1983](../_assets/uploads/2021/city-pop-collection/61467221497497295.jpg)
 ![Starlight Ballet / Piper / Lovers Logic / 1985](../_assets/uploads/2021/city-pop-collection/39542131479073464.jpg)
 ![Windy Lady / サーカス / WOMAN IN LOVE / 1988](../_assets/uploads/2021/city-pop-collection/3659952171365995217.jpg)
@@ -131,6 +131,11 @@ assets:
 ![オーシャン・サイド / 菊池桃子 / オーシャン・サイド / 1984](../_assets/uploads/2021/city-pop-collection/3537091598188238.jpg)
 ![Summer Breeze / Piper / Summer Breeze / 1983](../_assets/uploads/2021/city-pop-collection/21002848921576814455.jpg)
 ![夏と秋のGood-Luck / ラ・ムー / Thanks Giving / 1988](../_assets/uploads/2021/city-pop-collection/81563451504518788.jpg)
+![BABY BLUE / 伊藤銀次 / BABY BLUE / 1982](../_assets/uploads/2021/city-pop-collection/20240713191424071319.jpg)
+![銀のロケット / 水谷麻里 / 21世紀まで愛して / 1986](../_assets/uploads/2021/city-pop-collection/4622354223423476.jpg)
+![悲しみがいっぱい / 林哲司 / 悲しみがいっぱい / 1986](../_assets/uploads/2021/city-pop-collection/73525637832435234527.jpg)
+![タクシー・ドライヴァー / 坪倉唯子 / Loving You / 1990](../_assets/uploads/2021/city-pop-collection/3562571258970136.jpg)
+![二人の午後に / 岩崎宏美 / 私・的・空・間 / 1983](../_assets/uploads/2021/city-pop-collection/3616541513443706.jpg)
 ![Lusia / 黒住憲五 / Again / 1982](../_assets/uploads/2021/city-pop-collection/21002557701499058918.jpg)
 ![ひきしお / 大橋純子 / PAPER MOON / 1976](../_assets/uploads/2021/city-pop-collection/4217681566313481.jpg)
 ![ウエイヴ / 山根麻衣 / たそがれ / 1980](../_assets/uploads/2021/city-pop-collection/19790436121517582475.jpg)
