@@ -75,8 +75,4 @@ export default {
   background-color: var(--color-accent-0);
   color: var(--color-link);
 }
-// Add navbar shadow
-nav {
-  box-shadow: 0px 5px 60px 0px rgba(100, 100, 100, 0.1);
-}
 </style>
