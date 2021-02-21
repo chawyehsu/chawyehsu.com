@@ -51,12 +51,12 @@ module.exports = {
           path: 'https://github.com/chawyehsu'
         },
         {
-          name: 'Twitter',
-          path: 'https://twitter.com/intent/follow?screen_name=chawyehsu'
-        },
-        {
           name: 'Instagram',
           path: 'https://www.instagram.com/chawyehsu'
+        },
+        {
+          name: 'Twitter',
+          path: 'https://twitter.com/intent/follow?screen_name=chawyehsu'
         }
       ]
     }

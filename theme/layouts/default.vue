@@ -82,7 +82,7 @@
           <Disqus
             v-if="page.comments !== false && $siteConfig.disqusjs"
             :page="page" />
-          <footer class="page-footer"></footer>
+          <!-- <footer class="page-footer"></footer> -->
         </div>
       </article>
     </main>

@@ -1,12 +1,12 @@
 // Fluid Typography: https://www.giuem.com/a-brief-introduction-to-fluid-typography/
 @media screen and (min-width: 321px) {
   html {
-    font-size: calc(16px + (24 - 16) * (100vw - 320px) / (2560 - 320));
+    font-size: calc(16px + (22 - 16) * (100vw - 320px) / (2560 - 320));
   }
 }
 @media screen and (min-width: 2560px) {
   html {
-      font-size: 24px;
+      font-size: 22px;
   }
 }
 
@@ -42,11 +42,6 @@
   // Page Cover
   .page-cover {
     padding-top: 66.6666%; // is-3by2
-  }
-
-  // Footer social network
-  .social-network {
-    text-align: right;
   }
 }
 
