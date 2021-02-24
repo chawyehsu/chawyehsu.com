@@ -56,13 +56,6 @@
               </div>
             </section>
           </header>
-          <client-only>
-            <section
-              v-if="page.type === 'post' && isPostOutdated()"
-              class="page-alert outdated-alert notification">
-              本文最后更新于 {{ days() }} 天（{{ humanDate() }}）前，其中的信息可能已经有所发展或者不再适合现在
-            </section>
-          </client-only>
           <section class="page-body">
             <slot name="default" />
           </section>
@@ -91,7 +84,6 @@
 </template>
 
 <script>
-import Vue from 'vue'
 import Header from '../components/Header.vue'
 import Footer from '../components/Footer.vue'
 import Disqus from '../components/Disqus.vue'
@@ -105,18 +97,7 @@ export default {
     Disqus
   },
   methods: {
-    date,
-    days () {
-      const nowDate = new Date()
-      const postDate = new Date(this.page.updatedAt || this.page.createdAt)
-      return Math.floor((nowDate - postDate) / 86400000)
-    },
-    humanDate () {
-      return date(this.page.updatedAt || this.page.createdAt, '{YYYY}-{Mo}-{DD}')
-    },
-    isPostOutdated () {
-      return this.days() > 365
-    }
+    date
   },
   head () {
     return head(this)
