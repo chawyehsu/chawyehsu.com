@@ -5,7 +5,6 @@ module.exports = {
   theme: "./theme",
   siteConfig: {
     lang: 'zh-cn',
-    appleAppTitle: 'TACH',
     url: 'https://chawyehsu.com',
     title: 'The Art of Chawye Hsu',
     description: 'Personal Website of Chawye Hsu',
@@ -176,23 +175,6 @@ module.exports = {
         permalinks: {
           category: '/blog/category/:name',
           tag: '/blog/tag/:name'
-        }
-      }
-    },
-    {
-      resolve: 'saber-plugin-pwa',
-      options: {
-        generateSWOptions: {
-          runtimeCaching: [
-            {
-              urlPattern: /^https:\/\/cdn\.jsdelivr\.net\//,
-              handler: 'StaleWhileRevalidate'
-            },
-            {
-              urlPattern: /^https:\/\/use\.typekit\.net\//,
-              handler: 'StaleWhileRevalidate'
-            }
-          ]
         }
       }
     }
