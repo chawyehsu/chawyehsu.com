@@ -6,7 +6,7 @@
           <div class="social-network">
             <ul>
               <li v-for="(item, index) in $themeConfig.footer.social_network" :key="index">
-                <a class="icon" :href="item.path" target="_blank" rel="noopener">{{ item.name }}</a>
+                <saber-link :to="item.path">{{ item.name }}</saber-link>
               </li>
             </ul>
           </div>
