@@ -9,4 +9,4 @@ nometa: true
 ---
 
 ![<strong>Girl</strong>. By <em>Chawye Hsu</em>, Chiangmai, Thailand, 27 May 2019.](./_assets/uploads/2020/06/20200608001.jpg)
-{.alignfull}
+{.alignwide}

@@ -2,47 +2,33 @@
   <div class="tach-root">
     <Header />
     <main class="tach-main">
-      <section class="tach-layout-header">
-        <div class="container horizon-gap">
-          <h1> {{ page.attributes.title }}</h1>
-        </div>
-      </section>
-      <section class="tach-wrapper tach-blog-items">
-        <div class="container post-list columns is-mobile is-multiline">
-          <article
-            v-for="post in page.posts"
-            :key="post.attributes.permalink"
-            class="post-card-wrap column is-4-desktop is-6-tablet is-12-mobile">
-            <div class="post-card post-list-item">
-              <div class="post-card-image image is-3by2">
-                <saber-link class="link" :to="post.attributes.permalink">
-                  <saber-image
-                    class="image"
-                    :src="post.attributes.assets.cover"
-                    :alt="post.attributes.title" />
-                  <span class="overlay"></span>
+      <!-- page content -->
+      <div class="page-content" role="main">
+        <div class="page-inner-wrapper tach-page-wrapper">
+          <header class="page-header">
+            <section class="page-head-content">
+              <h1 class="page-title">{{ page.title }}</h1>
+            </section>
+          </header>
+          <section class="page-body">
+            <ul>
+              <li
+                v-for="post in page.posts"
+                :key="post.attributes.permalink">
+                <time class="post-date" :datetime="post.attributes.createdAt">
+                  {{ date(post.attributes.createdAt, '{YYYY}-{Mo}-{DD}') }}
+                </time>
+                <saber-link
+                  class="post-title"
+                  :to="post.attributes.permalink"
+                  :title="post.attributes.title">
+                  {{ post.attributes.title || post.attributes.permalink }}
                 </saber-link>
-              </div>
-              <div class="post-card-info">
-                <div class="post-meta">
-                  <time :datetime="post.attributes.createdAt">
-                    {{ date(post.attributes.createdAt, '{DD} {MMMM} {YYYY}') }}
-                  </time>
-                </div>
-                <h4 class="post-title">
-                  <saber-link :to="post.attributes.permalink" :title="post.attributes.title">
-                    {{ post.attributes.title || post.attributes.permalink }}
-                  </saber-link>
-                </h4>
-                <div class="post-excerpt" v-if="post.attributes.description">
-                  <small> {{ post.attributes.description }}</small>
-                </div>
-              </div>
-            </div>
-          </article>
+              </li>
+            </ul>
+          </section>
         </div>
-        <Pagination :page="page" v-if="page.pagination && (page.pagination.hasNext || page.pagination.hasPrev)" />
-      </section>
+      </div>
     </main>
     <Footer />
   </div>
@@ -71,127 +57,20 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-.tach-layout-header {
-  padding-top: 3rem;
+ul {
+  list-style-type: none!important;
+  padding-left: 0!important;
 
-  h6 {
-    font-size: 80%;
-    font-weight: 400;
+  li {
+    margin-bottom: var(--gap-s);
   }
 }
 
-.tach-blog-items {
-  padding: 3rem 0;
+.post-date {
+  color: var(--color-text-secondary);
 }
 
-.post-list {
-  .post-card {
-    width: 100%;
-    height: 100%;
-    list-style: none;
-
-    .post-card-image {
-      position: relative;
-      background-color: #fafafa;
-      background-repeat: no-repeat;
-      background-size: cover;
-      overflow: hidden;
-
-      a.link {
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        img {
-          display: block;
-          width: 100%;
-          height: 100%;
-          object-fit: cover;
-        }
-        .overlay {
-          position: absolute;
-          top: 0;
-          left: 0;
-          width: 100%;
-          height: 100%;
-        }
-      }
-    }
-
-    .post-card-info {
-      padding: 0.4445rem;
-      word-break: break-all;
-      text-align: justify;
-
-      .post-meta {
-        color: var(--color-text-secondary);
-        display: block;
-        font-size: var(--font-size-small);
-        font-style: italic;
-      }
-
-      .post-title {
-        padding: 0.4445rem 0;
-        display: block;
-        margin: 0;
-
-        a {
-          color: var(--color-text-primary);
-
-          &:hover,
-          &:focus {
-            color: var(--color-link);
-            text-decoration: none;
-          }
-        }
-      }
-
-      .post-excerpt {
-        position: relative;
-        max-height: 4rem;
-        overflow: hidden;
-        color: var(--color-text-secondary);
-        line-height: 1.3rem;
-        text-overflow: ellipsis;
-        display: -webkit-box;
-        -webkit-line-clamp: 3;
-        -webkit-box-orient: vertical;
-
-        // fade out ellipsis
-        &:after {
-          content: "";
-          text-align: right;
-          position: absolute;
-          bottom: 0;
-          right: 0;
-          width: 40%;
-          height: 1.3em;
-          background: linear-gradient(to right, var(--color-background-transparent), var(--color-background) 80%);
-        }
-      }
-    }
-  }
-}
-
-.pagination {
-  .prev-wrap {
-    display: flex;
-    justify-content: flex-start;
-  }
-  .next-wrap {
-    display: flex;
-    justify-content: flex-end;
-  }
-  a {
-    display: flex;
-    align-items: center;
-    .icon {
-      padding-top: 2px;
-    }
-    .text {
-      margin: 0 var(--gap-s);
-    }
-  }
+.post-title {
+  margin-left: var(--gap-s);
 }
 </style>

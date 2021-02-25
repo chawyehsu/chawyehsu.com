@@ -4,9 +4,9 @@
    */
   // Primary
   --font-family:
-    alegreya,
-    source-han-serif-sc,
+    pt-sans,
     system-ui,
+    source-han-sans-cjk-sc,
     -apple-system,
     "Segoe UI",
     Helvetica,
@@ -29,7 +29,7 @@
     Times,
     serif;
   // This is the max-width for the main content body
-  --container-max-width: 840px;
+  --container-max-width: 740px;
   /**
    * Typography: Font Sizes and Line Height
    */
@@ -42,7 +42,7 @@
   --font-size-6: 0.875rem;
   --font-size-7: 0.75rem;
   // Other font sizes
-  --font-size-code: var(--font-size-7);
+  --font-size-code: var(--font-size-6);
   --font-size-footnotes: var(--font-size-7);
   --font-size-small: var(--font-size-7);
   --font-size-sub-sup: var(--font-size-7);

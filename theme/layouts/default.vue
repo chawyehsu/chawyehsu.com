@@ -13,13 +13,6 @@
       <article class="page-content" role="main" itemscope itemtype="https://schema.org/Article">
         <div class="page-inner-wrapper tach-page-wrapper">
           <header :class="[page.assets.cover && page.pageCoverMode !== false ? `page-header page-has-cover` : 'page-header']">
-            <!-- pageCoverMode mixed -->
-            <section
-              v-if="page.assets.cover && page.pageCoverMode !== false && page.pageCoverMode !== 'fullhd'"
-              class="page-cover">
-              <saber-image class="image" :src="page.assets.cover" />
-              <span class="overlay"></span>
-            </section>
             <section class="page-head-content">
               <h1 class="page-title">{{ page.title }}</h1>
               <div class="page-meta" v-if="!page.nometa">
@@ -54,6 +47,13 @@
                   <saber-link v-if="page.multilang.en" class="multilang-en" :to="`${page.permalink}/en`">English</saber-link>
                 </section>
               </div>
+            </section>
+            <!-- pageCoverMode mixed -->
+            <section
+              v-if="page.assets.cover && page.pageCoverMode !== false && page.pageCoverMode !== 'fullhd'"
+              class="page-cover">
+              <saber-image class="image" :src="page.assets.cover" />
+              <span class="overlay"></span>
             </section>
           </header>
           <section class="page-body">
@@ -108,6 +108,8 @@ export default {
 <style lang="scss" scoped>
 .page-cover {
   position: relative;
+  margin-top: var(--gap-l);
+
   img {
     position: absolute;
     top: 0;
@@ -124,16 +126,6 @@ export default {
   left: 0;
   width: 100%;
   height: 100%;
-}
-
-.page-head-content {
-    margin-top: var(--gap-m);
-  }
-
-.page-has-cover {
-  .page-head-content {
-    margin-top: var(--gap-l);
-  }
 }
 
 // pageCoverMode fullhd
@@ -158,6 +150,7 @@ export default {
 // pageCoverMode mixed
 .page-cover-mode-mixed {
   .page-cover {
+    margin-top: 0;
     transition: all 0.3s ease-in-out;
 
     img {

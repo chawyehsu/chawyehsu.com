@@ -32,14 +32,6 @@ module.exports = {
         {
           name: 'Guestbook',
           path: '/guestbook'
-        },
-        {
-          name: 'Links',
-          path: '/links'
-        },
-        {
-          name: 'About',
-          path: '/about'
         }
       ]
     },
@@ -56,6 +48,14 @@ module.exports = {
         {
           name: 'Twitter',
           path: 'https://twitter.com/intent/follow?screen_name=chawyehsu'
+        },
+        {
+          name: 'Links',
+          path: '/links'
+        },
+        {
+          name: 'About',
+          path: '/about'
         }
       ]
     }
@@ -171,7 +171,6 @@ module.exports = {
     {
       resolve: 'saber-plugin-query-posts',
       options: {
-        perPage: 12,
         permalinks: {
           category: '/blog/category/:name',
           tag: '/blog/tag/:name'
