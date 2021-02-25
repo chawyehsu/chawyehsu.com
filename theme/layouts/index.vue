@@ -5,7 +5,6 @@
       <section class="tach-layout-header">
         <div class="container horizon-gap">
           <h1> {{ page.attributes.title }}</h1>
-          <h6>{{ getHaiku() }}</h6>
         </div>
       </section>
       <section class="tach-wrapper tach-blog-items">
@@ -57,27 +56,13 @@ import { date, head } from '../utils'
 
 export default {
   props: ['page'],
-  data () {
-    return {
-      pageHaiku: [
-        '成长，就是在不断地失去。',
-        '这个世界上没有什么是永远有效的，知道吗？',
-        '生命里有三样东西不可以少，空气，水，音乐。',
-        '你踏上飞船，离开了这个星球，带走了一切，除了你的人性。',
-        '我的梦想还像小时候一样遥远，唯一不同的是我已经不打算实现它了。'
-      ]
-    }
-  },
   components: {
     Header,
     Footer,
     Pagination
   },
   methods: {
-    date,
-    getHaiku () {
-      return this.pageHaiku[Math.floor(Math.random() * this.pageHaiku.length)]
-    }
+    date
   },
   head () {
     return head(this)
