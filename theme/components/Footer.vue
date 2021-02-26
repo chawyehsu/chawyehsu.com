@@ -14,7 +14,7 @@
         <section class="section">
           <!-- &#xfe0e; to prevent rendering ❤︎ as an emoji in iOS/Android -->
           <div class="copyright">
-            © {{ siteDate }} {{ $siteConfig.author }}. Made with <span style="color:#b30e2e">❤︎&#xfe0e;</span> in Guangzhou
+            © {{ siteDate }} {{ $siteConfig.author }}. Made with <span style="font-family:monospace;color:#b30e2e">❤&#xfe0e;</span> in Guangzhou
           </div>
         </section>
       </div>
