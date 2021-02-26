@@ -23,7 +23,7 @@ export default {
   name: 'SchemeSwitcher',
   data () {
     return {
-      currentScheme: 'dark'
+      currentScheme: undefined
     }
   },
   mounted () {
