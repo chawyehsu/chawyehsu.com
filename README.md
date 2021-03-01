@@ -85,7 +85,7 @@ Complete open sourcing was inspired by [daneden.me](https://github.com/daneden/d
 
 ## License
 
-*Copyright © 2015-2020 Chawye Hsu. All rights reserved.*
+*Copyright © 2015-2021 Chawye Hsu. All rights reserved.*
 
 The content and resources belong to **Chawye Hsu**, **unless otherwise noted**.
 Reproducing or distributing our content **without permission** could mean you will

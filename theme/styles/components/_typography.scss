@@ -187,10 +187,11 @@
   /* Inline Element: <a> */
   a {
     &:not([id^=fnref]) {
-      border-bottom: 1px solid var(--color-accent-3);
+      border-bottom: 1px solid var(--color-accent-2);
       padding-bottom: 1px;
       overflow-wrap: break-word;
       word-break: break-all;
+      transition: border .15s ease-in-out;
     }
 
     &:hover,
