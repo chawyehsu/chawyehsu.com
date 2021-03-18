@@ -16,7 +16,7 @@
     "shim.js"
   ],
   "dependencies": {
-    "vue-pswipe": "0.15.2"
+    "vue-pswipe": "0.15.3"
   },
   "peerDependencies": {
     "markdown-it-figure-gallery": "^0.1.0",
