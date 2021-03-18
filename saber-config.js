@@ -134,12 +134,12 @@ module.exports = {
         auto: true
       }
     },
-    {
-      resolve: 'saber-plugin-jsdelivr-cdn',
-      options: {
-        prefix: 'https://cdn.jsdelivr.net/gh/chawyehsu/chawyehsu.com@gh-pages'
-      }
-    },
+    // {
+    //   resolve: 'saber-plugin-jsdelivr-cdn',
+    //   options: {
+    //     prefix: 'https://cdn.jsdelivr.net/gh/chawyehsu/chawyehsu.com@gh-pages'
+    //   }
+    // },
     {
       resolve: 'saber-plugin-sitemap',
       options: {
