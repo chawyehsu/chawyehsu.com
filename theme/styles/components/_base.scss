@@ -65,6 +65,10 @@ a {
   &:focus {
     color: var(--color-link);
     outline: none;
+  }
+
+  &:not(.no-underlines):hover,
+  &:not(.no-underlines):focus {
     /* text-decoration: https://css-tricks.com/styling-underlines-web/ */
     background-image: linear-gradient(var(--color-text-primary), var(--color-text-primary));
     background-size: 100% 1px;

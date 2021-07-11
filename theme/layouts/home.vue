@@ -29,7 +29,7 @@
                 v-for="post in page.posts.filter(item => item.featured === true).slice(0, 6)"
                 :key="post.attributes.permalink">
                 <figure class="item-content">
-                  <saber-link class="link" :to="post.attributes.permalink">
+                  <saber-link class="link no-underlines" :to="post.attributes.permalink">
                     <div class="pic-box">
                       <saber-image
                         class="item-cover"
@@ -52,7 +52,7 @@
             <div class="content">
               <h4>Feeds</h4>
               <p>Subscribe to the blog via RSS, so you won't miss new posts</p>
-              <a class="button" target="_blank" :href="this.$feed.permalink">Subscribe</a>
+              <a class="button no-underlines" target="_blank" :href="this.$feed.permalink">Subscribe</a>
             </div>
           </div>
         </div>
