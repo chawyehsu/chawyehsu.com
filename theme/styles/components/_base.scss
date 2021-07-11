@@ -64,8 +64,25 @@ a {
   &:hover,
   &:focus {
     color: var(--color-link);
-    text-decoration: underline;
     outline: none;
+    /* text-decoration: https://css-tricks.com/styling-underlines-web/ */
+    background-image: linear-gradient(var(--color-text-primary), var(--color-text-primary));
+    background-size: 100% 1px;
+    background-repeat: repeat-x;
+    background-position: bottom;
+    text-shadow:
+      .03em 0 var(--color-background),
+      -.03em 0 var(--color-background),
+      0 .03em var(--color-background),
+      0 -.03em var(--color-background),
+      .06em 0 var(--color-background),
+      -.06em 0 var(--color-background),
+      .09em 0 var(--color-background),
+      -.09em 0 var(--color-background),
+      .12em 0 var(--color-background),
+      -.12em 0 var(--color-background),
+      .15em 0 var(--color-background),
+      -.15em 0 var(--color-background);
   }
 
   &:active,

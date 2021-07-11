@@ -75,4 +75,7 @@ export default {
   background-color: var(--color-accent-0);
   color: var(--color-link);
 }
+.navbar-item.site-title {
+  background: none;
+}
 </style>

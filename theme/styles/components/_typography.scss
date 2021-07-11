@@ -187,18 +187,34 @@
   /* Inline Element: <a> */
   a {
     &:not([id^=fnref]) {
-      border-bottom: 1px solid var(--color-accent-2);
       padding-bottom: 1px;
       overflow-wrap: break-word;
       word-break: break-all;
       transition: border .15s ease-in-out;
+      background-image: linear-gradient(var(--color-accent-3), var(--color-accent-3));
+      background-size: 100% 1px;
+      background-repeat: repeat-x;
+      background-position: bottom;
+      text-shadow:
+        .03em 0 var(--color-background),
+        -.03em 0 var(--color-background),
+        0 .03em var(--color-background),
+        0 -.03em var(--color-background),
+        .06em 0 var(--color-background),
+        -.06em 0 var(--color-background),
+        .09em 0 var(--color-background),
+        -.09em 0 var(--color-background),
+        .12em 0 var(--color-background),
+        -.12em 0 var(--color-background),
+        .15em 0 var(--color-background),
+        -.15em 0 var(--color-background);
     }
 
     &:hover,
     &:focus {
-      border-bottom-color: var(--color-accent-5);
       color: var(--color-link);
       text-decoration: none;
+      background-image: linear-gradient(var(--color-text-primary), var(--color-text-primary));
     }
   }
 

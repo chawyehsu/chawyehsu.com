@@ -50,8 +50,11 @@ export default {
 #dsqjs a:hover,
 #dsqjs a:focus {
   color: var(--color-link);
-  text-decoration: underline;
   outline: none;
+}
+
+#dsqjs .dsqjs-disqus-logo {
+  background-size: 100%;
 }
 
 #dsqjs .dsqjs-post-body code {

@@ -73,4 +73,20 @@ ul {
 .post-title {
   margin-left: var(--gap-s);
 }
+
+// <= 480px
+@media screen and (max-width: 480px) {
+  ul li {
+    margin-bottom: var(--gap-m);
+  }
+
+  .post-date {
+    display: block;
+    width: 100%;
+  }
+
+  .post-title {
+    margin-left: 0;
+  }
+}
 </style>

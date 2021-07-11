@@ -9,22 +9,11 @@ pre[class*="language-"] {
   color: #383a42; /* base05 */
 }
 
-pre[class*="language-"]::-moz-selection, pre[class*="language-"] ::-moz-selection,
-code[class*="language-"]::-moz-selection, code[class*="language-"] ::-moz-selection {
-  color: inherit;
-  background: #e5e5e6; /* base02 */
-}
-
-pre[class*="language-"]::selection, pre[class*="language-"] ::selection,
-code[class*="language-"]::selection, code[class*="language-"] ::selection {
-  color: inherit;
-  background: #e5e5e6; /* base02 */
-}
-
 /* Code blocks */
 :not(pre) > code[class*="language-"],
 pre[class*="language-"] {
-  background: #fafafa; /* base00 */
+  background: transparent; /* base00 */
+  border: 1px solid var(--color-accent-3);
 }
 
 /* Inline code */
@@ -118,22 +107,10 @@ pre[class*="language-"] {
     color: #abb2bf; /* base05 */
   }
 
-  pre[class*="language-"]::-moz-selection, pre[class*="language-"] ::-moz-selection,
-  code[class*="language-"]::-moz-selection, code[class*="language-"] ::-moz-selection {
-    color: inherit;
-    background: #3e4451; /* base02 */
-  }
-
-  pre[class*="language-"]::selection, pre[class*="language-"] ::selection,
-  code[class*="language-"]::selection, code[class*="language-"] ::selection {
-    color: inherit;
-    background: #3e4451; /* base02 */
-  }
-
   /* Code blocks */
   :not(pre) > code[class*="language-"],
   pre[class*="language-"] {
-    background: #282c34; /* base00 */
+    background: transparent; /* base00 */
   }
 
   /* Inline code */

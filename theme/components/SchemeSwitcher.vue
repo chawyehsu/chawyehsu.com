@@ -109,3 +109,9 @@ export default {
   }
 }
 </script>
+
+<style scoped>
+.navbar-item.scheme-switcher {
+  background: none;
+}
+</style>
