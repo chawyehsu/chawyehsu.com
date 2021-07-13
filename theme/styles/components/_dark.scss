@@ -1,19 +1,16 @@
 // dark mode mixin
 @mixin dark-mode-colors {
-  --color-accent-0: #121212;
-  --color-accent-1: #2f2f2f;
-  --color-accent-2: #3f3f3f;
-  --color-accent-3: #5f5f5f;
-  --color-accent-4: #bfbfbf;
-  --color-accent-5: #dfdfdf;
-  --color-accent-6: #efefef;
-  --color-accent-7: #ffffff;
+  --color-accent-0: #22272e;
+  --color-accent-1: #2d333b;
+  --color-accent-2: #373e47;
+  --color-accent-3: #444c56;
+  --color-accent-4: #545d68;
+  --color-accent-5: #636e7b;
+  --color-accent-6: #768390;
+  --color-accent-7: #909dab;
+  --color-accent-8: #adbac7;
+  --color-accent-9: #cdd9e5;
   --color-background-transparent: rgba(31, 31, 31, 0);
-  --color-background: var(--color-accent-0);
-  --color-text-primary: var(--color-accent-6);
-  --color-text-secondary: var(--color-accent-3);
-  //  high contrast link color in light mode (changable)
-  // --color-link: #66ccff;
 }
 
 // Auto dark mode

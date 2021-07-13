@@ -116,8 +116,8 @@ export default {
     }
 
     span {
-      background: #2f2f2f;
-      color: #ffffff;
+      background: var(--color-text-primary);
+      color: var(--color-background);
       padding: 0.3rem;
       padding-right: 0;
     }
@@ -199,8 +199,8 @@ export default {
 
   a.button {
     height: auto;
-    background: #2f2f2f;
-    color: #ffffff;
+    background: var(--color-background);
+    color: var(--color-text-primary);
     margin-top: 1.7778rem;
     border-radius: 50px;
     padding: .6rem 3.2rem;
@@ -208,8 +208,8 @@ export default {
     transition: all 0.2s ease-in-out;
 
     &:hover {
-      background: #ffffff;
-      color: #2f2f2f;
+      background: var(--color-text-primary);
+      color: var(--color-background);
       text-decoration: none;
     }
   }

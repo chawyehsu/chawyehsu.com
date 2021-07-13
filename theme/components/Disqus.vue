@@ -80,18 +80,23 @@ export default {
   background-color: var(--color-background);
 }
 #dsqjs .dsqjs-order-radio:checked+.dsqjs-order-label {
-  color: var(--color-accent-0);
-  background-color: var(--color-accent-5);
+  color: var(--color-background);
+  background-color: var(--color-text-secondary);
 }
 
 #dsqjs .dsqjs-nav {
-  border-bottom: 1px solid var(--color-accent-1);
+  border-bottom: 1px solid var(--color-accent-2);
 }
 #dsqjs .dsqjs-tab-active>span:after {
   background-color: var(--color-link)!important;
 }
 
+#dsqjs .dsqjs-post-list .dsqjs-post-header .dsqjs-admin-badge {
+  color: var(--color-background);
+  background-color: var(--color-text-secondary);
+}
+
 #dsqjs footer {
-  border-top: 1px solid var(--color-accent-1);
+  border-top: 1px solid var(--color-accent-2);
 }
 </style>

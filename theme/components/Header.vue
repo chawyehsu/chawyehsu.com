@@ -72,7 +72,7 @@ export default {
 .navbar-item:hover,
 .navbar-burger:focus,
 .navbar-burger:hover {
-  background-color: var(--color-accent-0);
+  background-color: var(--color-background);
   color: var(--color-link);
 }
 .navbar-item.site-title {

@@ -16,7 +16,6 @@
     "Segoe UI Emoji";
   // Mono
   --font-family-mono:
-    fira-mono,
     ui-monospace,
     SFMono-Regular,
     Consolas,
@@ -55,22 +54,25 @@
    * Design System: Colours
    */
   // light mode color variables (default)
-  --color-accent-0: #ffffff;
-  --color-accent-1: #efefef;
-  --color-accent-2: #dfdfdf;
-  --color-accent-3: #bfbfbf;
-  --color-accent-4: #5f5f5f;
-  --color-accent-5: #3f3f3f;
-  --color-accent-6: #2f2f2f;
-  --color-accent-7: #121212;
+  --color-accent-0: #fafbfc;
+  --color-accent-1: #f6f8fa;
+  --color-accent-2: #e1e4e8;
+  --color-accent-3: #d1d5da;
+  --color-accent-4: #959da5;
+  --color-accent-5: #6a737d;
+  --color-accent-6: #586069;
+  --color-accent-7: #444d56;
+  --color-accent-8: #2f363d;
+  --color-accent-9: #24292e;
   --color-background-transparent: rgba(255, 255, 255, 0);
   --color-background: var(--color-accent-0);
-  --color-text-primary: var(--color-accent-5);
-  --color-text-secondary: var(--color-accent-3);
-  --color-scrollbar: var(--color-accent-1);
-  --color-scrollbar-hover: var(--color-accent-3);
+  --color-text-primary: var(--color-accent-8);
+  --color-text-secondary: var(--color-accent-6);
+  --color-text-tertiary: var(--color-accent-5);
+  --color-scrollbar: var(--color-accent-2);
+  --color-scrollbar-hover: var(--color-accent-4);
   // low contrast link color in light mode
-  --color-link: var(--color-accent-7);
+  --color-link: var(--color-accent-9);
 
   /**
    * Design System: Spacing
