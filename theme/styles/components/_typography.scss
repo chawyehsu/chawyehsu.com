@@ -33,13 +33,13 @@
     font-family: var(--font-family-mono);
     font-size: var(--font-size-code);
   }
-  code::before,
-  code::after {
-    content: "`";
+  code {
+    padding: 0 var(--gap-s);
+    border: 1px dotted var(--color-accent-4);
+    border-radius: 2px;
   }
-  pre code::before,
-  pre code::after {
-    content: none;
+  pre code {
+    border: none;
   }
   .saber-highlight { /* saber highlight */
     position: relative;
