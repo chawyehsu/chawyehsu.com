@@ -4,8 +4,8 @@
     <main class="tach-main">
       <section class="tach-layout-header">
         <div class="container horizon-gap">
-          <h1>404 Not Found</h1>
-          <h6>迷失了前行的路不可怕，丢了心才可怕。</h6>
+          <h1>404</h1>
+          <p>Page Not Found</p>
         </div>
       </section>
     </main>
@@ -24,7 +24,7 @@ export default {
   },
   head () {
     return {
-      title: `404 File Not Found - ${this.$siteConfig.title}`
+      title: `Page Not Found - ${this.$siteConfig.title}`
     }
   }
 }
