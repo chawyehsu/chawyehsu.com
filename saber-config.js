@@ -122,7 +122,7 @@ module.exports = {
         adapter: 'sharp',
         sizes: [1200, 720, 480],
         placeholder: true,
-        blendIn: true
+        blendIn: false
       }
     },
     {
