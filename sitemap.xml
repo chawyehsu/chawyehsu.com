@@ -2,8 +2,8 @@
 <?xml-stylesheet type="text/xsl" href="/sitemap.xsl"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-    <loc>https://chawyehsu.com/city-pop-collection/en</loc>
-    <lastmod>2021-02-01T10:00:00.000Z</lastmod>
+    <loc>https://chawyehsu.com/projects</loc>
+    <lastmod>2021-08-10T11:51:18.039Z</lastmod>
         <priority>0.6</priority>
         <changefreq>always</changefreq>
   </url>
@@ -160,7 +160,7 @@
     <url>
     <loc>https://chawyehsu.com/</loc>
     <lastmod>2020-04-17T16:00:00.000Z</lastmod>
-        <priority>1</priority>
+        <priority>0.6</priority>
         <changefreq>always</changefreq>
   </url>
     <url>
