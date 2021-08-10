@@ -33,7 +33,6 @@ export default {
     this.currentScheme = m.matches ? 'dark' : 'light'
     // add `onchange` event listener for `prefers-color-scheme`
     m.addEventListener('change', e => {
-      // console.log(`prefers-color-scheme changed to ${e.matches ? 'dark' : 'light'}`)
       // 1. delete localStorage color-scheme
       this.setUserSelectedScheme()
       // 2. remove root element's color-scheme classes
@@ -113,5 +112,6 @@ export default {
 <style scoped>
 .navbar-item.scheme-switcher {
   background: none;
+  cursor: pointer;
 }
 </style>

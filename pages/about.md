@@ -6,6 +6,7 @@ description: About page of The Art of Chawye Hsu
 date: 2015-05-18 00:00:00
 updated: 2020-12-19 12:21:00
 comments: false
+nometa: true
 ---
 
 ### 关于我 / About me
@@ -57,13 +58,6 @@ comments: false
 除非另有特殊说明，站内的内容与资源为 Chawye Hsu 版权所有。未经授权复制或者分发本站
 内容，意味着您侵犯了我们的版权。如果您对具体内容授权存在疑问，欢迎在引用内容之前通
 过电子邮件联系我们。
-
-The content and resources belong to **Chawye Hsu**, **unless otherwise noted**.
-Reproducing or distributing our content **without permission** could mean you will
-be in legal breach of our copyright. Requests to use our content are considered
-on a case by case basis for reasonable accommodation.
-
-You don’t need our permission to link to any pages of our website.
 
 
 [GitHub]: https://github.com/chawyehsu

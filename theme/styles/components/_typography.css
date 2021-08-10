@@ -1,0 +1,188 @@
+/**
+  * Design System: Typography
+  */
+/* Block Element: <blockquote> */
+.page-body blockquote {
+  margin: var(--gap-l) 0;
+  position: relative;
+  color: var(--color-text-secondary);
+  padding-left: calc(var(--gap-l) * 1.5);
+  padding-right: var(--gap-l);
+  overflow-wrap: break-word;
+}
+.page-body blockquote p:last-child {
+  margin: 0;
+}
+.page-body blockquote:before {
+  position: absolute;
+  top: calc(var(--gap-m) * -1);
+  left: 0;
+  content: '\201c';
+  font-family: var(--font-family-quotemark);
+  font-size: 300%;
+  font-weight: 700;
+  line-height: 1;
+}
+/* Block Element: <code>, <pre> */
+.page-body code,
+.page-body pre {
+  font-family: var(--font-family-mono);
+  font-size: var(--font-size-code);
+}
+.page-body code {
+  padding: 0 var(--gap-s);
+  border: 1px dotted var(--color-accent-4);
+  border-radius: 2px;
+}
+.page-body pre code {
+  border: none;
+}
+/* saber highlight */
+.page-body .saber-highlight {
+  position: relative;
+  overflow: hidden;
+  margin: 0 0 var(--gap-m) 0;
+  border-radius: 0;
+}
+.page-body .saber-highlight code {
+  background: transparent;
+  padding: 0;
+}
+.page-body .saber-highlight pre.saber-highlight-code {
+  margin: 0;
+  padding: var(--gap-m);
+  overflow: auto;
+}
+.page-body .saber-highlight:before {
+  content: attr(data-lang);
+  position: absolute;
+  right: var(--gap-s);
+  opacity: 0.2;
+  color: var(--color-text-secondary);
+  font-family: var(--font-family-mono);
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+/* Block Element: <figure> (-wrapped image, embed iframe, etc) */
+.page-body figure {
+  text-align: center;
+}
+.page-body figure img {
+  margin-bottom: 0; /* no margin for figure-wrapped img */
+}
+.page-body figure iframe {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+}
+.page-body figure figcaption {
+  margin-top: var(--gap-s);
+  color: var(--color-text-secondary);
+  font-size: var(--font-size-small);
+}
+.page-body figure figcaption code {
+  font-size: var(--font-size-small);
+}
+/* Block Element: <hr> */
+.page-body hr {
+  border: 0;
+  height: auto; /* reset <hr> height from 0 to auto */
+  margin: var(--gap-l) auto;
+  opacity: 0.5;
+  overflow: visible;
+}
+.page-body hr:after {
+  color: var(--color-text-secondary);
+  content: "* * *";
+  display: block;
+  height: 1rem;
+  line-height: 1;
+  text-align: center;
+  word-spacing: .5rem;
+}
+/* a special horizontal rule for footnotes */
+.page-body hr.footnotes-sep:after {
+  content: "Footnotes";
+}
+/* Block Element: <ol>, <ul> */
+.page-body ol,
+.page-body ul {
+  margin-bottom: var(--gap-m);
+  padding-left: var(--gap-m);
+  text-align: justify;
+}
+.page-body ol p,
+.page-body ul p {
+  margin-bottom: 0;
+}
+.page-body ol li ol,
+.page-body ol li ul,
+.page-body ul li ol,
+.page-body ul li ul {
+  margin-bottom: 0;
+}
+.page-body ul {
+  list-style-type: square;
+}
+/* Block Element: <table> */
+.page-body table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  display: block;
+  overflow: auto;
+  width: 100%;
+}
+.page-body table tr th,
+.page-body table tr td {
+  border: 1px solid var(--color-accent-2);
+  padding: var(--gap-s) var(--gap-m);
+  white-space: nowrap;
+}
+.page-body table tr:nth-child(2n) {
+  background-color: var(--color-accent-1);
+}
+/* Inline Element: <a> */
+.page-body a:not([id^=fnref]) {
+  padding-bottom: 1px;
+  overflow-wrap: break-word;
+  word-break: break-all;
+  transition: border .15s ease-in-out;
+  background-image: linear-gradient(var(--color-accent-3), var(--color-accent-3));
+  background-size: 100% 1px;
+  background-repeat: repeat-x;
+  background-position: bottom;
+  text-shadow:
+    .03em 0 var(--color-background),
+    -.03em 0 var(--color-background),
+    0 .03em var(--color-background),
+    0 -.03em var(--color-background),
+    .06em 0 var(--color-background),
+    -.06em 0 var(--color-background),
+    .09em 0 var(--color-background),
+    -.09em 0 var(--color-background),
+    .12em 0 var(--color-background),
+    -.12em 0 var(--color-background),
+    .15em 0 var(--color-background),
+    -.15em 0 var(--color-background);
+}
+.page-body a:not([id^=fnref]):hover,
+.page-body a:not([id^=fnref]):focus {
+  color: var(--color-link);
+  text-decoration: none;
+  background-image: linear-gradient(var(--color-text-primary), var(--color-text-primary));
+}
+/* Inline Element: <del>, <s> */
+.page-body del,
+.page-body s {
+  color: var(--color-text-secondary);
+}
+/* Inline Element: bare <img> */
+.page-body img {
+  margin-bottom: var(--gap-m);
+  vertical-align: middle; /* inline-block image gap fix */
+}
+/* Inline Element: <sub>, <sup> */
+.page-body sub,
+.page-body sup {
+  font-size: var(--font-size-sub-sup);
+}

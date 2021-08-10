@@ -1,0 +1,10 @@
+/* Content Block Element: Image Gallery */
+.md-gallery {
+  margin-bottom: var(--gap-m);
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+}
+.md-gallery figure {
+  margin-bottom: 0;
+}

@@ -10,7 +10,6 @@
     "build": "saber build"
   },
   "dependencies": {
-    "bulma": "0.9.3",
     "disqusjs": "1.3.0",
     "markdown-it-abbr": "1.0.4",
     "markdown-it-attrs": "4.0.0",
@@ -21,7 +20,6 @@
     "saber": "0.11.7",
     "saber-plugin-adobe-font": "0.3.0",
     "saber-plugin-baidu-analytics": "0.1.0",
-    "saber-plugin-code-copy": "0.3.2",
     "saber-plugin-feed": "0.4.3",
     "saber-plugin-ga-lite": "0.4.0",
     "saber-plugin-google-adsense": "0.3.0",
@@ -30,10 +28,9 @@
     "saber-plugin-prismjs": "0.2.4",
     "saber-plugin-query-posts": "0.4.6",
     "saber-plugin-sitemap": "0.4.1",
-    "sass": "1.37.0",
-    "sass-loader": "10.1.1",
     "sharp": "^0.28.3",
-    "tinytime": "0.2.6"
+    "tinytime": "0.2.6",
+    "tua-body-scroll-lock": "^1.2.1"
   },
   "workspaces": [
     "packages/*"

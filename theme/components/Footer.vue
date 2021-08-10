@@ -1,23 +1,12 @@
 <template>
-  <footer class="tach-footer footer">
-    <div class="tach-wrapper">
-      <div class="container">
-        <section class="section" v-if="$themeConfig.footer.social_network">
-          <div class="social-network">
-            <ul>
-              <li v-for="(item, index) in $themeConfig.footer.social_network" :key="index">
-                <saber-link :to="item.path">{{ item.name }}</saber-link>
-              </li>
-            </ul>
-          </div>
-        </section>
-        <section class="section">
-          <!-- &#xfe0e; to prevent rendering ❤︎ as an emoji in iOS/Android -->
-          <div class="copyright">
-            © {{ siteDate }} {{ $siteConfig.author }}. Made with <span style="font-family:sans-serif;color:#b30e2e">❤&#xfe0e;</span> from Guangzhou
-          </div>
-        </section>
-      </div>
+  <footer>
+    <div class="container">
+      <section class="section">
+        <!-- &#xfe0e; to prevent rendering ❤︎ as an emoji in iOS/Android -->
+        <div class="copyright">
+          © {{ siteDate }} {{ $siteConfig.author }}. Made with <span style="font-family:sans-serif;color:#b30e2e">❤&#xfe0e;</span> from Guangzhou
+        </div>
+      </section>
     </div>
   </footer>
 </template>
@@ -30,7 +19,6 @@ export default {
     siteDate () {
       const since = this.$themeConfig.since
       const now = date(Date.now(), '{YYYY}')
-
       if (since) {
         return new Date(since) === now ? now : `${since}-${now}`
       } else {
@@ -44,31 +32,22 @@ export default {
 }
 </script>
 
-<style lang="scss" scoped>
-.tach-footer {
-  margin-top: var(--gap-l);
-  padding: 0 0 3rem 0;
+<style scoped>
+footer {
+  padding: 3rem 0;
   background: var(--color-background);
   color: var(--color-text-primary);
   font-size: var(--font-size-small);
-
-  .section {
-    text-align: center;
-    margin-top: var(--gap-s);
-  }
-
-  .social-network {
-    ul {
-      list-style-type: none;
-      margin: 0;
-      li {
-        display: inline-block;
-
-        &+li {
-          margin-left: var(--gap-m);
-        }
-      }
-    }
+}
+footer .section {
+  font-style: normal;
+  text-align: center;
+}
+/* > 767px */
+@media screen and (min-width: 768px) {
+  footer .section {
+    font-style: italic;
+    text-align: right;
   }
 }
 </style>

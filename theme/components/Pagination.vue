@@ -27,34 +27,27 @@ export default {
 }
 </script>
 
-<style lang="scss" scoped>
-.pagination {
-  .prev-wrap {
-    display: flex;
-    justify-content: flex-start;
-  }
-
-  .next-wrap {
-    display: flex;
-    justify-content: flex-end;
-  }
-
-  a {
-    color: var(--color-text-primary);
-    display: flex;
-    align-items: center;
-
-    &:hover {
-      color: var(--color-link);
-    }
-
-    .icon {
-      padding-top: 2px;
-    }
-
-    .text {
-      margin: 0 var(--gap-s);
-    }
-  }
+<style scoped>
+.pagination .prev-wrap {
+  display: flex;
+  justify-content: flex-start;
+}
+.pagination .next-wrap {
+  display: flex;
+  justify-content: flex-end;
+}
+.pagination a {
+  color: var(--color-text-primary);
+  display: flex;
+  align-items: center;
+}
+.pagination a:hover {
+  color: var(--color-link);
+}
+.pagination a .icon {
+  padding-top: 2px;
+}
+.pagination a .text {
+  margin: 0 var(--gap-s);
 }
 </style>

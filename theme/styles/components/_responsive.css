@@ -1,0 +1,48 @@
+/* Fluid Typography: https://www.giuem.com/a-brief-introduction-to-fluid-typography/ */
+@media screen and (min-width: 321px) {
+  html {
+    font-size: calc(16px + (24 - 16) * (100vw - 320px) / (1920 - 320));
+  }
+}
+@media screen and (min-width: 1920px) {
+  html {
+    font-size: 24px;
+  }
+}
+/* <= 767px */
+@media screen and (max-width: 767px) {
+  main {
+    padding-top: var(--gap-m);
+    padding-left: var(--gap-m);
+    padding-right: var(--gap-m);
+    min-height: calc(100vh - calc(60px + var(--gap-l) * 2));
+  }
+}
+/* > 767px */
+@media screen and (min-width: 768px) {
+  .main-container {
+    display: flex;
+  }
+  aside {
+    padding-top: var(--gap-xl);
+    width: 25%;
+  }
+  main {
+    padding-top: var(--gap-xl);
+    padding-right: var(--gap-l);
+    width: 75%;
+  }
+  /* Floating figure images */
+  .page-content figure.left,
+  .page-content figure.right {
+    max-width: 40%;
+  }
+  .page-content figure.left {
+    float: left;
+    margin-right: var(--gap-l);
+  }
+  .page-content figure.right {
+    float: right;
+    margin-left: var(--gap-l);
+  }
+}

@@ -12,14 +12,19 @@ multilang:
   en: true
 ---
 
-> **都市流行**（英语：City Pop；日语：シティ・ポップ，shitī poppu），是一种流行音
-> 乐，属于 J-pop 的分支，起源于 1970 年代后期的日本。它是日本国内受西方文化影响衍
-> 伸出来的音乐风格，以贝斯、电吉他与明显的节奏为人所知。它在日本经济泡沫时期（1980
-> 年代）达到顶峰，主题多与与该国的经济繁荣有密切关系，侧面反映出该时期的城市夜晚、
-> 都会风光。都市流行音乐因其带有的日本泡沫经济时期的强烈色彩，吸引了一大批日本国内
-> 乃至海外的忠实粉丝。自 2010 年代以来，随着竹内玛利亚等歌手的音乐在网络上的走红，
-> 都市流行音乐开始复苏，并成为蒸气波和未来放克等加工音乐的基础，在全球范围内获得了
-> 广泛关注，同时也引发出更多优秀的新生代 City Pop 力量。
+**都市流行**（英语：City Pop；日语：シティ・ポップ，shitī poppu），是一种流行音
+乐，属于 J-pop 的分支，起源于 1970 年代后期的日本。它是日本国内受西方文化影响衍
+伸出来的音乐风格，以贝斯、电吉他与明显的节奏为人所知。它在日本经济泡沫时期（1980
+年代）达到顶峰，主题多与与该国的经济繁荣有密切关系，侧面反映出该时期的城市夜晚、
+都会风光。都市流行音乐因其带有的日本泡沫经济时期的强烈色彩，吸引了一大批日本国内
+乃至海外的忠实粉丝。自 2010 年代以来，随着竹内玛利亚等歌手的音乐在网络上的走红，
+都市流行音乐开始复苏，并成为蒸气波和未来放克等加工音乐的基础，在全球范围内获得了
+广泛关注，同时也引发出更多优秀的新生代 City Pop 力量。
+
+该页收录了一些典型名专名曲和一些少人耳闻的典型曲目。以此纪念停服的 City Pop 大本营
+—— 虾米音乐。同步歌单发布在网易云音乐。
+
+![▲ Playlist](../_assets/uploads/2021/city-pop-collection/playlist.jpg)
 
 ---
 
@@ -185,47 +190,3 @@ multilang:
 歌曲信息封面等均自网络收录，若信息有误，欢迎联系我进行勘误。感谢！
 
 つづく。
-
-
-<style scoped>
-.page-body p {
-  text-align: justify;
-}
-
-.md-gallery {
-  margin-bottom: var(--gap-m);
-  display: grid;
-  grid-gap: var(--gap-m);
-  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-}
-
-.md-gallery figure {
-  position: relative;
-  margin-bottom: 0;
-}
-
-.md-gallery figure img {
-  cursor: pointer;
-  height: 100%;
-  width: 100%;
-  object-fit: cover;
-}
-
-.md-gallery figure figcaption {
-  background: linear-gradient(transparent 0%, rgba(0, 0, 0, 0.7) 100%);
-  text-align: left;
-  padding: var(--gap-s);
-  color: #fff;
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  opacity: 1;
-  word-break: break-all;
-}
-
-.md-gallery.alignfull {
-  padding-left: var(--gap-m);
-  padding-right: var(--gap-m);
-}
-</style>

@@ -1,5 +1,5 @@
 ---
-layout: index
+layout: archive
 title: Blog
 keywords: blog
 description: Chawye Hsu's Blog

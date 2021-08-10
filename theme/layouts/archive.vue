@@ -1,10 +1,9 @@
 <template>
-  <div class="tach-root">
+  <div class="main-container">
     <Header />
-    <main class="tach-main">
-      <!-- page content -->
+    <main>
       <div class="page-content" role="main">
-        <div class="page-inner-wrapper tach-page-wrapper">
+        <div>
           <header class="page-header">
             <section class="page-head-content">
               <h1 class="page-title">{{ page.title }}</h1>
@@ -29,8 +28,8 @@
           </section>
         </div>
       </div>
+      <Footer />
     </main>
-    <Footer />
   </div>
 </template>
 
@@ -56,35 +55,29 @@ export default {
 }
 </script>
 
-<style lang="scss" scoped>
+<style scoped>
 ul {
   list-style-type: none!important;
   padding-left: 0!important;
-
-  li {
-    margin-bottom: var(--gap-s);
-  }
 }
-
+ul li {
+  margin-bottom: var(--gap-s);
+}
 .post-date {
   color: var(--color-text-secondary);
 }
-
 .post-title {
   margin-left: var(--gap-s);
 }
-
-// <= 480px
+/* <= 480px */
 @media screen and (max-width: 480px) {
   ul li {
     margin-bottom: var(--gap-m);
   }
-
   .post-date {
     display: block;
     width: 100%;
   }
-
   .post-title {
     margin-left: 0;
   }

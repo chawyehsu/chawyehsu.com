@@ -1,6 +1,7 @@
 export default vm => {
   const lang = vm.page.lang || vm.$siteConfig.lang
-  const title = vm.page.title ? `${vm.page.title} - ${vm.$siteConfig.title}` : vm.$siteConfig.title
+  const title = (vm.page.title && vm.page.title !== vm.$siteConfig.title)
+    ? `${vm.page.title} - ${vm.$siteConfig.title}` : vm.$siteConfig.title
   const description = vm.page.description || vm.$siteConfig.description
   let keywords = vm.$siteConfig.keywords
   if (vm.page.tags) keywords += `,${vm.page.tags.map(tag => tag.name).join(',')}`

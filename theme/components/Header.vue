@@ -1,46 +1,41 @@
 <template>
-  <header class="tach-header">
-    <div class="tach-wrapper">
-      <nav class="navbar">
-        <div class="container">
-          <div class="column navbar-brand">
+  <aside class="sidebar">
+    <header>
+      <div class="logo-outer flex">
+        <a class="inline-block" :href="$themeConfig.header.logo_url" :title="$siteConfig.title">
+          <img alt="Logo" class="logo-image block" src="/_saber/images/icons/logo_512.svg">
+        </a>
+      </div>
+      <div class="burger-outer">
+        <span
+          @click="toggleNavbarMenu()"
+          ref="burger"
+          class="burger">
+          <span></span>
+          <span></span>
+          <span></span>
+        </span>
+      </div>
+    </header>
+    <div class="navbar" ref="navbar">
+      <nav>
+        <ul>
+          <li :key="index" v-for="(item, index) in $themeConfig.header.nav">
             <saber-link
-              class="navbar-item site-title"
-              :to="$themeConfig.header.logo_url"
-              v-text="$themeConfig.title || $siteConfig.title">
+            :to="item.path"
+            v-text="item.name">
             </saber-link>
-            <span
-              @click="toggleNavbarMenu()"
-              ref="burger"
-              class="navbar-burger burger">
-              <span></span>
-              <span></span>
-              <span></span>
-            </span>
-          </div>
-          <div
-            v-if="$themeConfig.header.nav"
-            ref="menu"
-            class="column navbar-menu">
-            <div class="navbar-end">
-              <saber-link
-                class="navbar-item"
-                v-for="(item, index) in $themeConfig.header.nav"
-                :key="index"
-                :to="item.path"
-                v-text="item.name">
-              </saber-link>
-              <SchemeSwitcher />
-            </div>
-          </div>
-        </div>
+          </li>
+          <li><SchemeSwitcher /></li>
+        </ul>
       </nav>
     </div>
-  </header>
+  </aside>
 </template>
 
 <script>
 import SchemeSwitcher from './SchemeSwitcher'
+import { lock, unlock, clearBodyLocks } from 'tua-body-scroll-lock'
 
 export default {
   components: {
@@ -49,33 +44,115 @@ export default {
   methods: {
     toggleNavbarMenu () {
       this.$refs.burger.classList.toggle('is-active')
-      this.$refs.menu.classList.toggle('is-active')
+      const $navbar = this.$refs.navbar
+      $navbar.classList.toggle('is-active')
+      if ($navbar.classList.contains('is-active')) {
+        lock($navbar)
+      } else {
+        unlock($navbar)
+      }
     }
+  },
+  beforeDestroy () {
+    clearBodyLocks()
   }
 }
 </script>
 
-<style lang="scss" scoped>
-// Reset bulma navbar color
-.navbar {
-  background-color: var(--color-background);
-  color: var(--color-text-primary);
+<style scoped>
+.burger {
+  z-index: 999;
+  color: currentColor;
+  cursor: pointer;
+  display: block;
+  height: 60px;
+  position: relative;
+  width: 60px;
+  margin-left: auto;
 }
-// Reset bulma navbar item color
-.navbar-item,
-.navbar-link,
-.navbar-burger {
-  color: var(--color-text-primary);
+.burger span {
+  background-color: currentColor;
+  display: block;
+  height: 2px;
+  left: calc(50% - 12px);
+  position: absolute;
+  transform-origin: center;
+  transition-duration: 86ms;
+  transition-property: background-color, opacity, transform;
+  transition-timing-function: ease-out;
+  width: 24px;
 }
-// Reset bulma navbar a element color
-.navbar-item:focus,
-.navbar-item:hover,
-.navbar-burger:focus,
-.navbar-burger:hover {
-  background-color: var(--color-background);
-  color: var(--color-link);
+.burger span:nth-child(1) {
+  top: calc(50% - 10px);
 }
-.navbar-item.site-title {
-  background: none;
+.burger span:nth-child(2) {
+  top: calc(50% - 2px);
+}
+.burger span:nth-child(3) {
+  top: calc(50% + 6px);
+}
+.burger.is-active span:nth-child(1) {
+  transform: translateY(8px) rotate(45deg);
+}
+.burger.is-active span:nth-child(2) {
+  opacity: 0;
+}
+.burger.is-active span:nth-child(3) {
+  transform: translateY(-8px) rotate(-45deg);
+}
+/* <= 767px */
+@media screen and (max-width: 767px) {
+  header {
+    padding: var(--gap-l) var(--gap-m);
+    display: flex;
+    justify-content: space-between;
+  }
+  .logo-image {
+    height: 60px;
+  }
+  .navbar {
+    background-color: var(--color-background);
+    display: none;
+    z-index: 998;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: calc(60px + var(--gap-l)) var(--gap-l) var(--gap-l);
+    text-align: center;
+    font-size: 160%;
+    overflow: auto;
+  }
+  .navbar.is-active {
+    display: block;
+  }
+  .navbar ul {
+    margin: 0;
+  }
+  .navbar ul li {
+    margin-bottom: var(--gap-m);
+  }
+}
+/* > 767px */
+@media screen and (min-width: 768px) {
+  .logo-outer,
+  .navbar {
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .logo-outer {
+    margin-bottom: var(--gap-l);
+  }
+  .navbar ul {
+    margin: 0;
+  }
+  .navbar ul li {
+    margin-bottom: var(--gap-s);
+  }
+  .burger {
+    display: none;
+  }
 }
 </style>

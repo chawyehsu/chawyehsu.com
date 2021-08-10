@@ -26,20 +26,28 @@ module.exports = {
       logo_url: '/',
       nav: [
         {
-          name: 'Blog',
+          name: '文章 - Blog',
           path: '/blog'
         },
         {
-          name: 'Guestbook',
+          name: '留言板 - Guestbook',
           path: '/guestbook'
-        }
-      ]
-    },
-    footer: {
-      social_network: [
+        },
+        // {
+        //   name: '项目 - Projects',
+        //   path: '/projects'
+        // },
         {
-          name: 'GitHub',
-          path: 'https://github.com/chawyehsu'
+          name: '链接 - Links',
+          path: '/links'
+        },
+        {
+          name: '关于 - About',
+          path: '/about'
+        },
+        {
+          name: '订阅 - Subscribe',
+          path: '/feed/atom.xml'
         },
         {
           name: 'Instagram',
@@ -48,14 +56,6 @@ module.exports = {
         {
           name: 'Twitter',
           path: 'https://twitter.com/chawyehsu'
-        },
-        {
-          name: 'Links',
-          path: '/links'
-        },
-        {
-          name: 'About',
-          path: '/about'
         }
       ]
     }
@@ -120,7 +120,7 @@ module.exports = {
       resolve: './packages/saber-plugin-image',
       options: {
         adapter: 'sharp',
-        sizes: [1200, 720, 480],
+        sizes: [1920, 1200, 720, 480],
         placeholder: true,
         blendIn: false
       }
@@ -134,29 +134,11 @@ module.exports = {
         auto: true
       }
     },
-    // {
-    //   resolve: 'saber-plugin-jsdelivr-cdn',
-    //   options: {
-    //     prefix: 'https://cdn.jsdelivr.net/gh/chawyehsu/chawyehsu.com@gh-pages'
-    //   }
-    // },
+    // public plugins
     {
       resolve: 'saber-plugin-sitemap',
       options: {
         template: './sitemap.xml'
-      }
-    },
-    // public plugins
-    {
-      resolve: 'saber-plugin-code-copy',
-      options: {
-        buttonStyle: {
-          'display': 'flex',
-          'border-radius': 0,
-          'padding': '6px 6px 8px 8px',
-          'transition': 'opacity .2s ease-in-out',
-          'outline': 'none'
-        }
       }
     },
     {

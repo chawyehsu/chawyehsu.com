@@ -1,0 +1,182 @@
+/*! minireset.css v0.0.6 | MIT License | github.com/jgthms/minireset.css */
+/* Blocks */
+html,
+body,
+p,
+ol,
+ul,
+li,
+dl,
+dt,
+dd,
+blockquote,
+figure,
+fieldset,
+legend,
+textarea,
+pre,
+iframe,
+hr,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+}
+/* List */
+ul {
+  list-style: none;
+}
+/* Form */
+button,
+input,
+select,
+textarea {
+  margin: 0;
+}
+/* Media */
+img,
+video {
+  height: auto;
+  max-width: 100%;
+}
+/* Iframe */
+iframe {
+  border: 0;
+}
+/* Table */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+td,
+th {
+  padding: 0;
+}
+
+html {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+  color: var(--color-text-primary);
+  font-size: 100%;
+  line-height: var(--line-height-base);
+  font-feature-settings: "liga" 1, "pnum" 1, "kern" 1;
+  text-rendering: optimizeLegibility;
+  text-size-adjust: 100%;
+}
+
+body {
+  background: var(--color-background);
+  font-family: var(--font-family);
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar:horizontal {
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: var(--color-background);
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb {
+  background: var(--color-scrollbar);
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-scrollbar-hover);
+}
+
+p,
+ol,
+ul,
+dl,
+dt,
+dd,
+blockquote,
+figure,
+fieldset,
+legend,
+textarea,
+pre,
+iframe,
+hr,
+table,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-bottom: var(--gap-m);
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+a:hover,
+a:focus {
+  color: var(--color-link);
+  outline: none;
+}
+a:not(.no-underlines):hover,
+a:not(.no-underlines):focus {
+  /* text-decoration: https://css-tricks.com/styling-underlines-web/ */
+  background-image: linear-gradient(var(--color-text-primary), var(--color-text-primary));
+  background-size: 100% 1px;
+  background-repeat: repeat-x;
+  background-position: bottom;
+  text-shadow:
+    .03em 0 var(--color-background),
+    -.03em 0 var(--color-background),
+    0 .03em var(--color-background),
+    0 -.03em var(--color-background),
+    .06em 0 var(--color-background),
+    -.06em 0 var(--color-background),
+    .09em 0 var(--color-background),
+    -.09em 0 var(--color-background),
+    .12em 0 var(--color-background),
+    -.12em 0 var(--color-background),
+    .15em 0 var(--color-background),
+    -.15em 0 var(--color-background);
+}
+a:active,
+a:visited {
+  color: inherit;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: bold;
+  line-height: var(--line-height-headline);
+}
+
+h1 {
+  font-size: var(--font-size-1);
+}
+h2 {
+  font-size: var(--font-size-2);
+}
+h3 {
+  font-size: var(--font-size-3);
+}
+h4 {
+  font-size: var(--font-size-4);
+}
+h5 {
+  font-size: var(--font-size-5);
+}
+h6 {
+  color: var(--color-text-secondary);
+  font-size: var(--font-size-6);
+}
