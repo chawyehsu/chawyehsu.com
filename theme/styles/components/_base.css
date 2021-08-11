@@ -92,6 +92,19 @@ body {
   background: var(--color-scrollbar-hover);
 }
 
+.main-container {
+  max-width: var(--container-max-width);
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* sticky-footer: https://philipwalton.github.io/solved-by-flexbox/demos/sticky-footer/ */
+main {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
 p,
 ol,
 ul,

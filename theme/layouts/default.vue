@@ -60,3 +60,22 @@ export default {
   }
 }
 </script>
+
+<style scoped>
+.page-content {
+  flex: 1;
+}
+.page-content .page-header {
+  margin-bottom: var(--gap-m);
+}
+.page-content .page-header .page-title {
+  margin-bottom: var(--gap-l);
+}
+.page-content .page-header .page-meta {
+  text-align: right;
+  font-style: italic;
+  font-size: var(--font-size-small);
+  color: var(--color-text-secondary);
+  line-height: var(--line-height-small);
+}
+</style>

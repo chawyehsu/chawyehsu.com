@@ -100,8 +100,8 @@ export default {
 .burger.is-active span:nth-child(3) {
   transform: translateY(-8px) rotate(-45deg);
 }
-/* <= 767px */
-@media screen and (max-width: 767px) {
+/* <= 768px */
+@media screen and (max-width: 768px) {
   header {
     padding: var(--gap-l) var(--gap-m);
     display: flex;
@@ -134,8 +134,8 @@ export default {
     margin-bottom: var(--gap-m);
   }
 }
-/* > 767px */
-@media screen and (min-width: 768px) {
+/* > 768px */
+@media screen and (min-width: 769px) {
   .logo-outer,
   .navbar {
     width: 60%;

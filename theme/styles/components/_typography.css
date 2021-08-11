@@ -1,6 +1,17 @@
 /**
   * Design System: Typography
   */
+/* Fluid Typography: https://www.giuem.com/a-brief-introduction-to-fluid-typography/ */
+@media screen and (min-width: 321px) {
+  html {
+    font-size: calc(16px + (24 - 16) * (100vw - 320px) / (1920 - 320));
+  }
+}
+@media screen and (min-width: 1920px) {
+  html {
+    font-size: 24px;
+  }
+}
 /* Block Element: <blockquote> */
 .page-body blockquote {
   margin: var(--gap-l) 0;
@@ -100,7 +111,7 @@
   text-align: center;
   word-spacing: .5rem;
 }
-/* a special horizontal rule for footnotes */
+/* special <hr>: footnotes */
 .page-body hr.footnotes-sep:after {
   content: "Footnotes";
 }
@@ -123,6 +134,14 @@
 }
 .page-body ul {
   list-style-type: square;
+}
+/* special <ol>: footnotes */
+.page-body .footnotes {
+  color: var(--color-text-secondary);
+  font-size: var(--font-size-footnotes);
+}
+.page-body .footnotes p {
+  margin-bottom: var(--gap-s);
 }
 /* Block Element: <table> */
 .page-body table {

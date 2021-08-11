@@ -1,16 +1,5 @@
-/* Fluid Typography: https://www.giuem.com/a-brief-introduction-to-fluid-typography/ */
-@media screen and (min-width: 321px) {
-  html {
-    font-size: calc(16px + (24 - 16) * (100vw - 320px) / (1920 - 320));
-  }
-}
-@media screen and (min-width: 1920px) {
-  html {
-    font-size: 24px;
-  }
-}
-/* <= 767px */
-@media screen and (max-width: 767px) {
+/* <= 768px */
+@media screen and (max-width: 768px) {
   main {
     padding-top: var(--gap-m);
     padding-left: var(--gap-m);
@@ -18,8 +7,9 @@
     min-height: calc(100vh - calc(60px + var(--gap-l) * 2));
   }
 }
-/* > 767px */
-@media screen and (min-width: 768px) {
+
+/* > 768px */
+@media screen and (min-width: 769px) {
   .main-container {
     display: flex;
   }
