@@ -80,7 +80,10 @@ module.exports = function figureGalleryPlugin (md, options) {
         }
         // options: photoswipe integration
         if (options.photoswipeIntegration) {
-          image.attrSet('data-pswp-title', image.content);
+          // see: https://markdown-it.github.io/markdown-it/#Renderer.renderInlineAsText
+          // CAUTION: this is a hack with the internal api, but it works
+          const rendered_alt = md.renderer.renderInlineAsText(image.children, options);
+          image.attrSet('data-pswp-title', rendered_alt);
           tokens[i - 1].attrPush(['data-pswp', 'true']);
         }
         // options: schema attributes
@@ -113,7 +116,8 @@ module.exports = function figureGalleryPlugin (md, options) {
           // image attributes: fix alt
           image.attrSet('alt', image.content);
           if (options.photoswipeIntegration) {
-            image.attrSet('data-pswp-title', image.content);
+            const rendered_alt = md.renderer.renderInlineAsText(image.children, options);
+            image.attrSet('data-pswp-title', rendered_alt);
           }
           // image attributes: add gallery class
           if (options.galleryImageClass) {

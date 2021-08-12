@@ -1,6 +1,6 @@
 {
   "name": "markdown-it-figure-gallery",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "A markdown-it plugin for wrapping images with figure or gallery block element",
   "license": "MIT",
   "author": "Chawye Hsu <chawyehsu@hotmail.com>",
@@ -18,7 +18,7 @@
     "markdown-it": "^9.0.0"
   },
   "engines": {
-    "node": ">=8.0.0"
+    "node": ">=12.0.0"
   },
   "keywords": [
     "markdown-it",
