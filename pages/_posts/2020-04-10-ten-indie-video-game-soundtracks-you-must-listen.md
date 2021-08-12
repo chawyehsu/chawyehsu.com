@@ -32,10 +32,12 @@ featured: true
 
 ## Minecraft / 我的世界
 
+<client-only>
 <figure class="right">
 <iframe style="border: 0; width: 300px; max-width: 100%; min-height: 420px;" src="https://bandcamp.com/EmbeddedPlayer/album=1349219244/size=large/bgcol=333333/linkcol=ffffff/tracklist=false/transparent=true/" seamless><a href="http://c418.bandcamp.com/album/minecraft-volume-alpha">Minecraft - Volume Alpha by C418</a></iframe>
 <figcaption><p>Minecraft - Volume Alpha by C418</p></figcaption>
 </figure>
+</client-only>
 
 拿 Minecraft 的原声带作为这次“数家珍”的「开场白」，我想应该足以表达出《我的世界》
 的 OST，或者直接说 Minecraft 这游戏在我心中所处的位置。
@@ -64,10 +66,12 @@ featured: true
 
 ## Celeste / 蔚蓝
 
+<client-only>
 <figure class="right">
 <iframe style="border: 0; width: 300px; max-width: 100%; min-height: 420px;" src="https://bandcamp.com/EmbeddedPlayer/album=571927662/size=large/bgcol=333333/linkcol=ffffff/tracklist=false/transparent=true/" seamless><a href="http://radicaldreamland.bandcamp.com/album/celeste-original-soundtrack">Celeste Original Soundtrack by Lena Raine</a></iframe>
 <figcaption><p>Celeste Original Soundtrack by Lena Raine</p></figcaption>
 </figure>
+</client-only>
 
 2018 年 IGN 的第一个 10 分满分游戏。《蔚蓝》虽然一直一直还在我的 Steam 愿望单里面
 躺着，但是它的原声带其实我已经听了不知道多少遍了。
@@ -96,10 +100,12 @@ featured: true
 
 ## Into the Breach / 陷阵之志
 
+<client-only>
 <figure class="right">
 <iframe style="border: 0; width: 300px; max-width: 100%; min-height: 420px;" src="https://bandcamp.com/EmbeddedPlayer/album=2581473592/size=large/bgcol=333333/linkcol=ffffff/tracklist=false/transparent=true/" seamless><a href="http://benprunty.bandcamp.com/album/into-the-breach-soundtrack">Into the Breach Soundtrack by Ben Prunty</a></iframe>
 <figcaption><p>Into the Breach Soundtrack by Ben Prunty</p></figcaption>
 </figure>
+</client-only>
 
 久仰《Faster Than Light（超越光速）》的大名，也早早就买了，但是却说不出什么原因，
 一直就没去玩。也是 2018 年知道厂商推了这个新作，看宣传片一下子就爱了，而且事实上
@@ -122,10 +128,12 @@ featured: true
 
 ## CrossCode / 远星物语
 
+<client-only>
 <figure class="right">
 <iframe style="border: 0; width: 300px; max-width: 100%; min-height: 420px;" src="https://bandcamp.com/EmbeddedPlayer/album=789187561/size=large/bgcol=333333/linkcol=ffffff/tracklist=false/transparent=true/" seamless><a href="http://interovgm.com/album/crosscode-original-game-soundtrack">CrossCode (Original Game Soundtrack) by Deniz Akbulut</a></iframe>
 <figcaption><p>CrossCode (Original Game Soundtrack) by Deniz Akbulut</p></figcaption>
 </figure>
+</client-only>
 
 《CrossCode（远星物语）》这款游戏其实早在 2015 年就开启了早期测试（Early Access）。
 历经了三年之久的测试，最终在 2018 年发布了正式版，并没有像 Steam 上许多早早开 EA 的
@@ -154,10 +162,12 @@ RPG 与 2D 复古像素画面的结合，一定会让你情不自禁地去回想
 
 ## Risk of Rain / 雨中冒险
 
+<client-only>
 <figure class="right">
 <iframe style="border: 0; width: 300px; max-width: 100%; min-height: 420px;" src="https://bandcamp.com/EmbeddedPlayer/album=22001162/size=large/bgcol=333333/linkcol=ffffff/tracklist=false/transparent=true/" seamless><a href="http://chrischristodoulou.bandcamp.com/album/risk-of-rain">Risk of Rain by Chris Christodoulou</a></iframe>
 <figcaption><p>Risk of Rain by Chris Christodoulou</p></figcaption>
 </figure>
+</client-only>
 
 自 2014 年建号以来，我的 Steam 帐号已经因为各式各样的喜加一而积攒了好几百个游戏。
 这看似不多的几百，真要花时间进去游玩感受，会花很多很多的时间。于是，真正打通的游戏
@@ -186,10 +196,12 @@ RPG 与 2D 复古像素画面的结合，一定会让你情不自禁地去回想
 
 ## Undertale / 传说之下
 
+<client-only>
 <figure class="right">
 <iframe style="border: 0; width: 300px; max-width: 100%; min-height: 420px;" src="https://bandcamp.com/EmbeddedPlayer/album=2955245981/size=large/bgcol=333333/linkcol=ffffff/tracklist=false/transparent=true/" seamless><a href="http://tobyfox.bandcamp.com/album/undertale-soundtrack">UNDERTALE Soundtrack by toby fox</a></iframe>
 <figcaption><p>UNDERTALE Soundtrack by toby fox</p></figcaption>
 </figure>
+</client-only>
 
 截至本文出稿前，《传说之下》的原声带在网易云音乐上有高达 10.4W+ 的收藏量，所有原声
 曲的评论量加起来近 25W，受平台限制我无法统计出这些原声的累积播放量，但是否有播放量
@@ -214,10 +226,12 @@ RPG 与 2D 复古像素画面的结合，一定会让你情不自禁地去回想
 
 ## The Binding of Isaac / 以撒的结合
 
+<client-only>
 <figure class="right">
 <iframe style="border: 0; width: 300px; max-width: 100%; min-height: 420px;" src="https://bandcamp.com/EmbeddedPlayer/album=1071234277/size=large/bgcol=333333/linkcol=ffffff/tracklist=false/transparent=true/" seamless><a href="http://dbsoundworks.bandcamp.com/album/the-binding-of-isaac-2">The Binding of Isaac by Danny Baranowsky</a></iframe>
 <figcaption><p>The Binding of Isaac by Danny Baranowsky</p></figcaption>
 </figure>
+</client-only>
 
 在相当长的一段时间内，《以撒的结合》系列游戏都会是我 Steam 帐号里总游戏时数最长的
 游戏，如此的肯定当然是 Minecraft 不在 Steam 售卖的缘故。截至撰文时《以撒的结合》
@@ -246,10 +260,12 @@ RPG 与 2D 复古像素画面的结合，一定会让你情不自禁地去回想
 
 ## Fez / 菲斯
 
+<client-only>
 <figure class="right">
 <iframe style="border: 0; width: 300px; max-width: 100%; min-height: 420px;" src="https://bandcamp.com/EmbeddedPlayer/album=688853505/size=large/bgcol=333333/linkcol=ffffff/tracklist=false/transparent=true/" seamless><a href="http://music.disasterpeace.com/album/fez-ost">FEZ OST by Disasterpeace</a></iframe>
 <figcaption><p>FEZ OST by Disasterpeace</p></figcaption>
 </figure>
+</client-only>
 
 谈到 Fez 与独立游戏，我想许多玩家都会想到《独立游戏大电影》这部纪录片。Fez 在这部
 纪录片里作为被主要展示的对象之一，自然给了很多观众深刻的影响。只是后面的事情，玩家
@@ -280,10 +296,12 @@ Fez 已然是游戏圈的瑰宝，以至于我觉得作者是否有回归已经�
 
 ## One Step From Eden / 伊甸之路
 
+<client-only>
 <figure class="right">
 <iframe style="border: 0; width: 300px; max-width: 100%; min-height: 420px;" src="https://bandcamp.com/EmbeddedPlayer/album=1054413269/size=large/bgcol=333333/linkcol=ffffff/tracklist=false/transparent=true/" seamless><a href="http://ristaccia.bandcamp.com/album/one-step-from-eden-soundtrack">One Step From Eden Soundtrack by STEEL_PLUS</a></iframe>
 <figcaption><p>One Step From Eden Soundtrack by STEEL_PLUS</p></figcaption>
 </figure>
+</client-only>
 
 似乎我对这种带有浓厚日系风的游戏原声有一种特别强烈的感应，不论是前文讲到的《CrossCode》
 的 OST，还是这里的《伊甸之路》的 OST。
@@ -311,10 +329,12 @@ Fez 已然是游戏圈的瑰宝，以至于我觉得作者是否有回归已经�
 
 ## Terraria / 泰拉瑞亚
 
+<client-only>
 <figure class="right">
 <iframe style="border: 0; width: 300px; max-width: 100%; min-height: 420px;" src="https://bandcamp.com/EmbeddedPlayer/album=873230989/size=large/bgcol=333333/linkcol=ffffff/tracklist=false/transparent=true/" seamless><a href="http://re-logic.bandcamp.com/album/terraria-soundtrack">Terraria Soundtrack by Scott Lloyd Shelly</a></iframe>
 <figcaption><p>Terraria Soundtrack by Scott Lloyd Shelly</p></figcaption>
 </figure>
+</client-only>
 
 在《泰拉瑞亚》与《我的世界》两款游戏的重合玩家圈里，经常被提及的一个趣事便是这两款
 游戏的“商业互吹”佳话。在两款游戏各自的主界面上，你会发现它们在彼此推荐：
