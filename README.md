@@ -1,38 +1,17 @@
-<div align="center">
-  <a href="https://chawyehsu.com/">
-    <img alt="Project Icon" src="./static/_saber/images/icons/chawyehsu_128x128.svg" />
-  </a>
-  <h1>The Art of Chawye Hsu</h1>
-</div>
-<p align="center">
-  <a href="https://github.com/chawyehsu/chawyehsu.com/actions?query=workflow%3ADeployment">
-    <img src="https://img.shields.io/github/workflow/status/chawyehsu/chawyehsu.com/Deployment?style=flat-square" alt="GitHub Actions" />
-  </a>
-  <a href="https://chawyehsu.com">
-    <img src="https://img.shields.io/website-up-down-green-red/https/chawyehsu.com.svg?style=flat-square" alt="Website Status" />
-  </a>
-  <a href="https://www.webpagetest.org/result/200301_J4_4d43e80f91ea9497254c7d167d809062/">
-    <img src="https://img.shields.io/badge/WebPageTest-AAAAA-44CC11.svg?style=flat-square" alt="WebPageTest Test Result" />
-  </a>
-</p>
-<p align="center">
-  <a href="https://saber.land/">
-    <img src="https://img.shields.io/badge/Powered%20by-Saber-00838f.svg?style=flat-square" alt="Powered by Saber" />
-  </a>
-  <a href="https://code.visualstudio.com">
-    <img src="https://img.shields.io/badge/build%20with-vscode-blue.svg?style=flat-square" alt="build with vscode" />
-  </a>
-  <a href="https://github.com/chawyehsu/chawyehsu.com">
-    <img src="https://img.shields.io/david/chawyehsu/chawyehsu.com.svg?style=flat-square" alt="David" />
-  </a>
-  <a href="https://github.com/chawyehsu/chawyehsu.com">
-    <img src="https://img.shields.io/github/repo-size/chawyehsu/chawyehsu.com.svg?style=flat-square&colorB=328657" alt="Repo size" />
-  </a>
-</p>
-<p align="center">
-  This repository contains all the source code of Chawye Hsu's personal <a href="https://chawyehsu.com">website</a>.<br/>
-  <sub>You can also see the auto-generated deployable files at <a href="https://github.com/chawyehsu/chawyehsu.com/tree/gh-pages"><code>gh-pages</code></a> branch.</sub>
-</p>
+<img src="./static/_saber/images/icons/chawyehsu_128x128.svg" alt="Logo" width="128" height="128" align="right" />
+
+# The Art of Chawye Hsu
+
+[![deployment][deployment-badge]][deployment-url]
+[![status][status-badge]][status-url]
+[![webpagetest][webpagetest-badge]][webpagetest-url]
+[![generator][generator-badge]][generator-url]
+[![editor][editor-badge]][editor-url]
+[![deps][deps-badge]][deps-url]
+[![repo][repo-badge]][repo-url]
+
+This repository contains all the source code of Chawye Hsu's personal [website].
+You can also see the auto-generated deployable files at [gh-pages] branch.
 
 ## Architecture
 
@@ -81,15 +60,33 @@ $ yarn dev
 
 ## Credit
 
-Complete open sourcing was inspired by [daneden.me](https://github.com/daneden/daneden.me).
+Complete open sourcing was inspired by [daneden.me].
 
 ## License
 
-*Copyright © 2015-2021 Chawye Hsu. All rights reserved.*
+Copyright © 2015-persent Chawye Hsu. All rights reserved.
 
-The content and resources belong to **Chawye Hsu**, **unless otherwise noted**.
-Reproducing or distributing our content **without permission** could mean you will
-be in legal breach of our copyright. Requests to use our content are considered
-on a case by case basis for reasonable accommodation.
+<sub><em>The <strong>content</strong> and <strong>resources</strong> belong to
+Chawye Hsu, unless otherwise noted. Reproducing or distributing our content
+without permission could mean you will be in legal breach of our copyright.
+Requests to use our content are considered on a case by case basis for reasonable
+accommodation.</em></sub>
 
-You don’t need our permission to link to any pages of our website.
+
+[deployment-url]: https://github.com/chawyehsu/chawyehsu.com/actions?query=workflow%3ADeployment
+[deployment-badge]: https://img.shields.io/github/workflow/status/chawyehsu/chawyehsu.com/Deployment?style=flat-square
+[status-url]: https://chawyehsu.com
+[status-badge]: https://img.shields.io/website-up-down-green-red/https/chawyehsu.com.svg?style=flat-square
+[webpagetest-url]: https://www.webpagetest.org/result/200301_J4_4d43e80f91ea9497254c7d167d809062/
+[webpagetest-badge]: https://img.shields.io/badge/WebPageTest-AAAAA-44CC11.svg?style=flat-square
+[generator-url]: https://saber.land/
+[generator-badge]: https://img.shields.io/badge/Powered%20by-Saber-00838f.svg?style=flat-square
+[editor-url]: https://code.visualstudio.com
+[editor-badge]: https://img.shields.io/badge/build%20with-vscode-blue.svg?style=flat-square
+[deps-url]: https://github.com/chawyehsu/chawyehsu.com
+[deps-badge]: https://img.shields.io/david/chawyehsu/chawyehsu.com.svg?style=flat-square
+[repo-url]: https://github.com/chawyehsu/chawyehsu.com
+[repo-badge]: https://img.shields.io/github/repo-size/chawyehsu/chawyehsu.com.svg?style=flat-square&colorB=328657
+[website]: https://chawyehsu.com
+[gh-pages]: https://github.com/chawyehsu/chawyehsu.com/tree/gh-pages
+[daneden.me]: https://github.com/daneden/daneden.me
