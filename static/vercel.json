@@ -46,6 +46,11 @@
   ],
   "redirects": [
     {
+      "source": "/feed",
+      "permanent": true,
+      "destination": "/feed/atom.xml"
+    },
+    {
       "source": "/blog/atom.xml",
       "permanent": true,
       "destination": "/feed/atom.xml"
