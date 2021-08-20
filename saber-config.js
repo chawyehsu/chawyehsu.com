@@ -47,7 +47,7 @@ module.exports = {
         },
         {
           name: '订阅 - Subscribe',
-          path: '/feed/atom.xml'
+          path: '/feed'
         },
         {
           name: 'Instagram',
