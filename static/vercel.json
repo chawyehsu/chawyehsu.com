@@ -40,16 +40,15 @@
   ],
   "rewrites": [
     {
+      "source": "/feed",
+      "destination": "/feed/atom.xml"
+    },
+    {
       "source": "/api/disqus/(.*)",
       "destination": "https://disqus.com/api/$1"
     }
   ],
   "redirects": [
-    {
-      "source": "/feed",
-      "permanent": true,
-      "destination": "/feed/atom.xml"
-    },
     {
       "source": "/blog/atom.xml",
       "permanent": true,
