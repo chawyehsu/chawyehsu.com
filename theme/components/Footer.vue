@@ -40,13 +40,11 @@ footer {
   font-size: var(--font-size-small);
 }
 footer .section {
-  font-style: normal;
   text-align: center;
 }
 /* > 767px */
 @media screen and (min-width: 768px) {
   footer .section {
-    font-style: italic;
     text-align: right;
   }
 }
