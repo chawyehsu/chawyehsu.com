@@ -7,8 +7,8 @@
 [![webpagetest][webpagetest-badge]][webpagetest-url]
 [![generator][generator-badge]][generator-url]
 [![editor][editor-badge]][editor-url]
-[![deps][deps-badge]][deps-url]
 [![repo][repo-badge]][repo-url]
+[![deps][deps-badge]][deps-url]
 
 This repository contains all the source code of Chawye Hsu's personal [website].
 You can also see the auto-generated deployable files at [gh-pages] branch.
@@ -55,10 +55,10 @@ $ cd chawyehsu.com
 $ yarn
 # Start localhost dev server
 $ yarn dev
-# Listening 127.0.0.1:3000
+# Serve 127.0.0.1:3000
 ```
 
-## Credit
+## Credits
 
 Complete open sourcing was inspired by [daneden.me].
 
