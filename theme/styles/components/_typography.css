@@ -76,7 +76,7 @@
 }
 /* Block Element: <figure> (-wrapped image, embed iframe, etc) */
 .page-body figure {
-  text-align: center;
+  text-align: left;
 }
 .page-body figure img {
   margin-bottom: 0; /* no margin for figure-wrapped img */
@@ -87,9 +87,12 @@
   max-width: 100%;
 }
 .page-body figure figcaption {
-  margin-top: var(--gap-s);
+  /* margin-top: var(--gap-s); */
   color: var(--color-text-secondary);
   font-size: var(--font-size-small);
+  /* figcaption width fix: https://stackoverflow.com/questions/55040250/ */
+  width: 0;
+  min-width:100%;
 }
 .page-body figure figcaption code {
   font-size: var(--font-size-small);

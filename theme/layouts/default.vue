@@ -66,7 +66,7 @@ export default {
   flex: 1;
 }
 .page-content .page-header {
-  margin-bottom: var(--gap-m);
+  margin-bottom: var(--gap-l);
 }
 .page-content .page-header .page-title {
   margin-bottom: var(--gap-l);

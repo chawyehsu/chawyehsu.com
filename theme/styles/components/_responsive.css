@@ -25,7 +25,7 @@
   /* Floating figure images */
   .page-content figure.left,
   .page-content figure.right {
-    max-width: 40%;
+    max-width: 45%;
   }
   .page-content figure.left {
     float: left;
