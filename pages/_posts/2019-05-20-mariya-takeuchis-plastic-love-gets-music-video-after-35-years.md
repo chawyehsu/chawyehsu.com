@@ -37,7 +37,7 @@ featured: true
 
 <figure data-type="video" class="alignwide">
   <iframe src="https://player.bilibili.com/player.html?aid=331023532&bvid=BV1YA411W71o&cid=283214724&page=2&as_wide=1"></iframe>
-  <figcaption>▲ Plastic Love Offical Music Video</figcaption>
+  <figcaption>▲ Plastic Love Official Music Video</figcaption>
 </figure>
 
 2020 年 11 月，这个让不少乐迷们苦等了一年多的完整版 MV，终于随着竹内玛莉亚出道 41
