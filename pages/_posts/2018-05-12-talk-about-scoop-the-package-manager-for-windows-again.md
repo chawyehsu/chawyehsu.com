@@ -95,7 +95,7 @@ Windowsbrew/Winbrew 呢哈哈……）
 
 ## Why Scoop
 
-<figure data-type="video" class="embed-wrapper embed-aspect-16-9 alignwide">
+<figure data-type="video" class="alignwide">
   <iframe src="https://www.youtube.com/embed/a85QLUJ0Wbs"></iframe>
 </figure>
 

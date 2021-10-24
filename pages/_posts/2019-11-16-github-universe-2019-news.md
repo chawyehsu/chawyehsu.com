@@ -152,13 +152,6 @@ Long Now 基金会等合作，共同尽最大可能地为后代保留全人类�
 展，更有在为人类社会未来做出贡献。即使有发展公共关系的成分在里面，不论如何也都是值
 得被支持的。SpaceX、Microsoft（Minecraft、GitHub）、蚂蚁金服……
 
-<figure data-type="video" class="embed-wrapper embed-aspect-16-9 alignwide">
-  <iframe
-    src="https://player.bilibili.com/player.html?aid=75745081&cid=129579328&page=1&as_wide=1"
-    width="800" height="450" allowfullscreen>
-  </iframe>
-</figure>
-
 
 [GitHub Blog]: https://github.blog/2019-11-13-universe-day-one/
 [GitHub Game Off]: https://itch.io/jam/game-off-2019

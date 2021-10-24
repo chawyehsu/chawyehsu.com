@@ -76,7 +76,10 @@
 }
 /* Block Element: <figure> (-wrapped image, embed iframe, etc) */
 .page-body figure {
-  text-align: left;
+  margin: 0 auto var(--gap-m);
+  /* Make <figure> become a shrink-to-fit container, which means its width will
+   * shrink to fit its content (e.g. <img> and <iframe> inside it). */
+  width: fit-content;
 }
 .page-body figure img {
   margin-bottom: 0; /* no margin for figure-wrapped img */
@@ -84,13 +87,19 @@
 .page-body figure iframe {
   display: block;
   margin: 0 auto;
-  max-width: 100%;
+  width: 1200px; /* initial width for iframe */
+  max-width: 100%; /* set max-width for iframe to fit its parent container */
 }
 .page-body figure figcaption {
-  /* margin-top: var(--gap-s); */
+  margin-top: calc(var(--gap-s) * .5);
   color: var(--color-text-secondary);
   font-size: var(--font-size-small);
-  /* figcaption width fix: https://stackoverflow.com/questions/55040250/ */
+  line-height: var(--line-height-small);
+  /* Below two lines are for the <figcaption> width fix.
+   * We've made the container <figure> be shrink-to-fit above, now we force
+   * the width of figcaption to be 0 so the width of the container is defined
+   * by the img/iframe, then force figcaption's width again to be 100% using
+   * min-width. Details in: https://stackoverflow.com/a/55041133/3651279 */
   width: 0;
   min-width:100%;
 }

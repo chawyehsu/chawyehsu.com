@@ -22,7 +22,7 @@ multilang:
 广泛关注，同时也引发出更多优秀的新生代 City Pop 力量。
 
 该页收录了一些典型名专名曲和一些少人耳闻的典型曲目。以此纪念停服的 City Pop 大本营
-—— 虾米音乐。同步歌单发布在网易云音乐。
+—— 虾米音乐。同步[歌单](https://music.163.com/#/playlist?id=5483718802)发布在网易云音乐。
 
 ![▲ Playlist](../_assets/uploads/2021/city-pop-collection/playlist.jpg)
 
