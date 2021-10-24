@@ -1,22 +1,3 @@
-.embed-wrapper {
-  position: relative;
-  margin-bottom: var(--gap-m);
-}
-.embed-wrapper::before {
-  content: '';
-  display: block;
-  padding-bottom: 50%;
-}
-.embed-wrapper iframe {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  top: 0;
-  border: 0;
-}
-.embed-wrapper.embed-aspect-4-3::before {
-  padding-bottom: 75%;
-}
-.embed-wrapper.embed-aspect-16-9::before {
-  padding-bottom: 56.25%;
+figure[data-type="video"] iframe {
+  aspect-ratio: 16 / 9;
 }
