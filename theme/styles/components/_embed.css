@@ -1,3 +1,4 @@
 figure[data-type="video"] iframe {
+  /* see: https://caniuse.com/?search=aspect-ratio */
   aspect-ratio: 16 / 9;
 }
