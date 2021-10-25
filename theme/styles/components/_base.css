@@ -39,7 +39,8 @@ textarea {
 }
 /* Media */
 img,
-video {
+video,
+iframe {
   height: auto;
   max-width: 100%;
 }
