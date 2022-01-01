@@ -6,7 +6,7 @@ seamless transition. Today, it's time for us to sunset the h404bi.com.
 We've removed all redirection rules, and you will be routed to this
 txt file when accessing via the old domain, for a period of time. If
 you're subscribing to the site with RSS, we encourage to update it to
-https://chawyehsu.com/feed if you still tend to keep the subscribtion.
+https://chawyehsu.com/feed if you still tend to keep the subscription.
 The old domain will be shut down entirely later this year.
 
 We appreciate your support.
