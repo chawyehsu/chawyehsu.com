@@ -1,0 +1,15 @@
+Hi there,
+
+We had moved our domain to chawyehsu.com in 2020, and redirected the old
+h404bi.com to the new one. It's been a year since we did the seamless transition.
+Today, it's time for us to sunset the h404bi.com. We've removed all redirection
+rules, and you will be routed to this txt file when accessing via the old domain,
+for a period of time. If you're subscribing to the site with RSS, we encourage to
+do an update for it if you still tend to keep the subscribtion. The old domain
+will be shut down entirely later this year.
+
+Appreciate your support.
+
+Wish you a happy 2022!
+
+Jan 1, 2022
