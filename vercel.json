@@ -7,33 +7,29 @@
   "trailingSlash": false,
   "headers": [
     {
-      "source": "/service-worker.js",
-      "headers" : [
+      "source": "/_saber/images/(.*)",
+      "headers": [
         {
-          "key" : "Cache-Control",
-          "value" : "public, max-age=0, must-revalidate"
+          "key": "Cache-Control",
+          "value": "public, max-age=31536000"
+        }
+      ]
+    },
+    {
+      "source": "/service-worker.js",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=0, must-revalidate"
         }
       ]
     },
     {
       "source": "/feed/atom.xml",
-      "headers" : [
+      "headers": [
         {
-          "key" : "Cache-Control",
-          "value" : "public, max-age=3600"
-        }
-      ]
-    },
-    {
-      "source": "/(.*)",
-      "headers" : [
-        {
-          "key" : "X-Content-Type-Options",
-          "value" : "nosniff"
-        },
-        {
-          "key" : "X-XSS-Protection",
-          "value" : "1; mode=block"
+          "key": "Cache-Control",
+          "value": "public, max-age=3600"
         }
       ]
     }
