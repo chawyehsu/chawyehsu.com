@@ -3,7 +3,13 @@
     <header>
       <div class="logo-outer flex">
         <a class="inline-block" :href="$themeConfig.header.logo_url" :title="$siteConfig.title">
-          <img alt="Logo" class="logo-image block" src="/_saber/images/icons/logo_512.svg">
+            <svg class="logo block" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 512 512">
+              <path fill="#000" d="M0 0h512v512H0z"/>
+              <path fill="#fff" d="M39 39h104.423v34.808H39zM431.712 262.154h34.808V471h-34.808zM348.173 349.173h83.538v34.808h-83.538zM313.365 262.154h34.808V471h-34.808z"/>
+              <g>
+                <path fill="#fff" d="M247.231 296.962h34.808v34.808h-34.808zM160.212 262.154h87.019v34.808h-87.019zM247.231 401.385h34.808v34.808h-34.808zM160.212 436.192h87.019V471h-87.019zM125.404 296.962h34.808v139.231h-34.808z"/>
+              </g>
+            </svg>
         </a>
       </div>
       <div class="burger-outer">
@@ -100,6 +106,9 @@ export default {
 .burger.is-active span:nth-child(3) {
   transform: translateY(-8px) rotate(-45deg);
 }
+.logo {
+  width: 100%;
+}
 /* <= 768px */
 @media screen and (max-width: 768px) {
   header {
@@ -107,7 +116,7 @@ export default {
     display: flex;
     justify-content: space-between;
   }
-  .logo-image {
+  .logo {
     height: 60px;
   }
   .navbar {
