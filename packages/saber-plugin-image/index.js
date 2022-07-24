@@ -14,25 +14,13 @@ const detectAdapter = (adapter) => {
       throw new Error('To use sharp adapter with saber-plugin-image, \
 sharp dependency installation is required.')
     }
-  } else if (adapter === 'jimp') {
-    try {
-      require('jimp') // A test
-      // return the acutal adapter
-      return require('responsive-loader/jimp')
-    } catch (e) {
-      throw new Error('To use jimp adapter with saber-plugin-image, \
-jimp dependency installation is required.')
-    }
-  } else {
-    throw new Error(`${adapter} adapter is not supported, \
-either jimp or sharp is supported by saber-plugin-image.`)
   }
 }
 
 exports.apply = (api, options = {}) => {
   options = Object.assign(
     {
-      adapter: 'jimp',
+      adapter: 'sharp',
       lazyLoad: true,
       placeholder: true,
       blendIn: true,
@@ -43,8 +31,6 @@ exports.apply = (api, options = {}) => {
 
   // update adapter string to the actual imported adapter
   options.adapter = detectAdapter(options.adapter)
-
-  api.browserApi.add(join(__dirname, 'saber-browser.js'))
 
   api.renderer.hooks.getVueLoaderOptions.tap(ID, options => {
     options.transformAssetUrls = Object.assign({}, options.transformAssetUrls, {
@@ -69,6 +55,11 @@ exports.apply = (api, options = {}) => {
                 if (child.type === 'image' || child.tag === 'img') {
                   child.tag = 'saber-image'
                   child.nesting = 1
+
+                  // Native lazy loading
+                  if (options.lazyLoad) {
+                    child.attrs.push(['loading', 'lazy'])
+                  }
 
                   // Append closing tag for saber-image
                   children.splice(
@@ -105,4 +96,6 @@ exports.apply = (api, options = {}) => {
         ...options
       })
   })
+
+  api.browserApi.add(join(__dirname, 'saber-browser.js'))
 }
