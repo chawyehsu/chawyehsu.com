@@ -45,9 +45,22 @@ export default ({ Vue, setHead }) => {
           vm.$feed.type === 'rss2' ? 'application/rss+xml' : 'application/json'
       },
       {
-        href: 'https://cdn.jsdelivr.net/',
+        href: 'https://cdn.jsdelivr.net',
         rel: 'preconnect',
         crossorigin: true
+      },
+      {
+        href: 'https://fonts.googleapis.com',
+        rel: 'preconnect'
+      },
+      {
+        href: 'https://fonts.gstatic.com',
+        rel: 'preconnect',
+        crossorigin: true
+      },
+      {
+        href: 'https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;700&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap',
+        rel: 'stylesheet'
       }
     ]
   }))

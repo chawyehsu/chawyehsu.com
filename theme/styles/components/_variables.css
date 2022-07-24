@@ -7,9 +7,9 @@
    */
   /* -> Primary font */
   --font-family:
-    pt-sans,
+    'PT Sans',
     system-ui,
-    source-han-sans-cjk-sc,
+    'Noto Sans SC',
     -apple-system,
     "Segoe UI",
     Helvetica,

@@ -92,13 +92,6 @@ module.exports = {
   plugins: [
     // private plugins
     {
-      resolve: 'saber-plugin-adobe-font',
-      options: {
-        kitId: 'qxo6reu',
-        useTypekitCache: true
-      }
-    },
-    {
       resolve: 'saber-plugin-baidu-analytics',
       options: {
         trackId: '25da54bb9d300c118148dcad780da73b'
