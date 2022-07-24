@@ -34,7 +34,7 @@ export default {
 
 <style scoped>
 footer {
-  padding: 3rem 0;
+  padding: var(--gap-l) 0;
   background: var(--color-background);
   color: var(--color-text-primary);
   font-size: var(--font-size-small);
