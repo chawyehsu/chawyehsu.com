@@ -6,13 +6,13 @@ module.exports = {
   siteConfig: {
     lang: 'zh-cn',
     url: 'https://chawyehsu.com',
-    title: 'The Art of Chawye Hsu',
+    title: 'Chawye Hsu',
     description: 'Personal Website of Chawye Hsu',
     keywords: 'blog,blogger,个人博客,中文独立博客',
     author: 'Chawye Hsu',
     disqusjs: {
       shortname: 'h404bi',
-      siteName: "The Art of Chawye Hsu",
+      siteName: "Chawye Hsu",
       api: 'https://chawyehsu.com/api/disqus/',
       apikey: 'Hg3FyAX4IodvgGm8OAIpuplfZW5APk2DYcuVk9DEEDSBijKPdPdooKBX7683fo6u',
       admin: 'chawyehsu',

@@ -2,7 +2,7 @@
 layout: page
 title: 留言板
 keywords: guestbook
-description: Guestbook page of The Art of Chawye Hsu
+description: Chawye Hsu's Guestbook page
 date: 2015-05-18 00:00:00
 updated: 2021-04-11 00:00:00
 nometa: true

@@ -1,6 +1,6 @@
 <img src="./static/_saber/images/icons/chawyehsu_128x128.svg" alt="Logo" width="128" height="128" align="right" />
 
-# The Art of Chawye Hsu
+# chawyehsu.com
 
 [![deployment][deployment-badge]][deployment-url]
 [![status][status-badge]][status-url]

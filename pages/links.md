@@ -2,7 +2,7 @@
 layout: page
 title: 链接
 keywords: links
-description: Links page of The Art of Chawye Hsu
+description: Chawye Hsu's Links page
 date: 2015-05-18 00:00:00
 updated: 2020-11-01 00:00:00
 nometa: true

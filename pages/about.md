@@ -2,7 +2,7 @@
 layout: page
 title: 关于
 keywords: about
-description: About page of The Art of Chawye Hsu
+description: About Chawye Hsu
 date: 2015-05-18 00:00:00
 updated: 2020-12-19 12:21:00
 comments: false
