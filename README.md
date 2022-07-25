@@ -21,18 +21,11 @@ You can also see the auto-generated deployable files at [gh-pages] branch.
                       +---------+              Redirect,        Cache,
                       | Actions |              Functions,       Security,
                       |         |              etc.             etc.
-                  +---+----+----v-----+        +--------+     +------------+         +---------+
-+--------+  Push  |        |          | Deploy |        |     |            |         |         |
-| Author +-------->  main  | gh-pages +--------> Vercel <-----+ Cloudflare <---------+ Clients |
-+--------+        |        |          |        |        |     |            | Request |         |
-                  +--------+-----^----+        +--------+     +------------+         +----+----+
-                                 |                                                        |
-                   Github Repo   |                                                        |
-                                 |           +----------+                                 |
-                                 |           |          |                CDN              |
-                                 +-----------+ jsDelivr <---------------------------------+
-                                             |          |     Assets: Images, CSS, JS
-                                             +----------+
+                  +---+----+----v-----+        +--------+       +------------+         +---------+
++--------+  Push  |        |          | Deploy |        | Proxy |            |         |         |
+| Author +-------->  main  | gh-pages +--------> Vercel <-------+ Cloudflare <---------+ Clients |
++--------+        |        |          |        |        |       |            | Request |         |
+                  +--------+----------+        +--------+       +------------+         +---------+
 
 ```
 
