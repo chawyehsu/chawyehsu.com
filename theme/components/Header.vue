@@ -106,9 +106,6 @@ export default {
 .burger.is-active span:nth-child(3) {
   transform: translateY(-8px) rotate(-45deg);
 }
-.logo {
-  width: 100%;
-}
 /* <= 768px */
 @media screen and (max-width: 768px) {
   header {
@@ -153,6 +150,9 @@ export default {
   }
   .logo-outer {
     margin-bottom: var(--gap-l);
+  }
+  .logo {
+    width: 100%;
   }
   .navbar ul {
     margin: 0;
