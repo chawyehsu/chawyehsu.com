@@ -65,7 +65,7 @@ export default ({ Vue, setHead }) => {
     ],
     script: [
       {
-        innerHTML: '(()=>{const s=localStorage.getItem("user-color-scheme");if(s==="dark"||s==="light"){if(!document.documentElement.classList.contains(s)){document.documentElement.classList.add(s)}}})();'
+        innerHTML: '(()=>{const d="dark";const s=localStorage.getItem("user-color-scheme");const p=window.matchMedia("(prefers-color-scheme: dark)").matches;if(!s?p:s===d){const c=document.documentElement.classList;!c.contains(d)&&c.add(d)}})();'
       }
     ],
     __dangerouslyDisableSanitizers: ['script']

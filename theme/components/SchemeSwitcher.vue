@@ -1,14 +1,13 @@
 <template>
   <a class="navbar-item scheme-switcher" @click.prevent="toggleScheme">
+    <span>ok</span>
     <svg
-      v-if="currentScheme === 'dark'"
       xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none"
       stroke="currentColor" stroke-width="2" stroke-linecap="round"
       stroke-linejoin="round" class="feather feather-moon">
       <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/>
     </svg>
     <svg
-      v-else
       xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none"
       stroke="currentColor" stroke-width="2" stroke-linecap="round"
       stroke-linejoin="round" class="feather feather-sun">
@@ -23,48 +22,31 @@ export default {
   name: 'SchemeSwitcher',
   data () {
     return {
-      currentScheme: undefined
+      isDark: undefined
     }
   },
   mounted () {
-    // A. prefers-color-scheme
-    const m = window.matchMedia('(prefers-color-scheme: dark)')
-    // init currentScheme by `prefers-color-scheme`
-    this.currentScheme = m.matches ? 'dark' : 'light'
-    // add `onchange` event listener for `prefers-color-scheme`
-    m.addEventListener('change', e => {
-      // 1. delete localStorage color-scheme
-      this.setUserSelectedScheme()
-      // 2. remove root element's color-scheme classes
-      document.documentElement.classList.remove('light')
-      document.documentElement.classList.remove('dark')
-      // 3. update currentScheme by prefers-color-scheme
-      this.currentScheme = e.matches ? 'dark' : 'light'
-    })
+    const savedScheme = this.getScheme()
+    const query = window.matchMedia('(prefers-color-scheme: dark)')
+    this.isDark = !savedScheme ? query.matches : savedScheme === 'dark'
 
-    // B. localStorage
-    const selectedScheme = this.getUserSelectedScheme()
-    if (selectedScheme === 'dark' || selectedScheme === 'light') {
-      // 1. add color-scheme class to root element
-      if (!document.documentElement.classList.contains(selectedScheme)) {
-        document.documentElement.classList.add(selectedScheme)
-      }
-      // 2. update currentScheme by localStorage
-      this.currentScheme = selectedScheme
-    } else {
-      // clear unexpected localStorage value
-      this.setUserSelectedScheme()
+    // Listen for `prefers-color-scheme` changes
+    query.onchange = (e) => {
+      this.isDark = e.matches
+      this.updateClass()
+      // Reset saved scheme when saved scheme matches e.matches
+      e.matches === (this.getScheme() === 'dark') && this.saveScheme()
     }
   },
   methods: {
-    getUserSelectedScheme () {
+    getScheme () {
       try {
         return localStorage.getItem('user-color-scheme')
       } catch {
         return null
       }
     },
-    setUserSelectedScheme (value) {
+    saveScheme (value) {
       if (value) {
         try {
           localStorage.setItem('user-color-scheme', value)
@@ -79,39 +61,51 @@ export default {
         }
       }
     },
+    updateClass() {
+      const c = document.documentElement.classList
+      this.isDark ? !c.contains('dark') && c.add('dark') : c.remove('dark')
+    },
     toggleScheme() {
-      let userSelectedScheme = this.getUserSelectedScheme()
-      const inverted = { 'dark': 'light', 'light': 'dark' }
-
-      if (userSelectedScheme === null) {
-        // 1. No localStorage color-scheme, save inverted `prefers-color-scheme`
-        userSelectedScheme = inverted[this.currentScheme]
-        this.setUserSelectedScheme(userSelectedScheme)
-        // 2. then apply it to root element
-        document.documentElement.classList.add(userSelectedScheme)
-        // 3. update currentScheme
-        this.currentScheme = userSelectedScheme
-      } else if (userSelectedScheme === 'dark' || userSelectedScheme === 'light') {
-        // 1. localStorage color-scheme detected, remove old color-scheme
-        if (document.documentElement.classList.contains(userSelectedScheme)) {
-          document.documentElement.classList.remove(userSelectedScheme)
-        }
-        // 2. save save inverted localStorage color-scheme
-        userSelectedScheme = inverted[userSelectedScheme]
-        this.setUserSelectedScheme(userSelectedScheme)
-        // 3. then apply it to root element
-        document.documentElement.classList.add(userSelectedScheme)
-        // 4. update currentScheme
-        this.currentScheme = userSelectedScheme
-      }
+      console.log(this.isDark)
+      this.isDark = !this.isDark
+      this.isDark ? this.saveScheme('dark') : this.saveScheme('light')
+      this.updateClass()
     }
   }
 }
 </script>
 
 <style scoped>
-.navbar-item.scheme-switcher {
+.scheme-switcher {
+  position: relative;
   background: none;
   cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+}
+.scheme-switcher span {
+  text-decoration: none;
+  opacity: 0;
+}
+
+.feather {
+  position: absolute;
+  opacity: 0;
+  transition: opacity .2s;
+}
+.feather.feather-sun {
+  opacity: 1;
+}
+.dark .feather.feather-moon {
+  opacity: 1;
+}
+.dark .feather.feather-sun {
+  opacity: 0;
+}
+/* <= 768px */
+@media screen and (max-width: 768px) {
+  .scheme-switcher {
+    justify-content: center;
+  }
 }
 </style>

@@ -139,8 +139,8 @@ a:focus {
   color: var(--color-link);
   outline: none;
 }
-a:not(.no-underlines):hover,
-a:not(.no-underlines):focus {
+a:not(.no-underlines):not(.scheme-switcher):hover,
+a:not(.no-underlines):not(.scheme-switcher):focus {
   /* text-decoration: https://css-tricks.com/styling-underlines-web/ */
   background-image: linear-gradient(var(--color-text-primary), var(--color-text-primary));
   background-size: 100% 1px;
