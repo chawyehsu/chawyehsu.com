@@ -34,7 +34,7 @@ featured: true
 
 <client-only>
 <figure class="right">
-<iframe style="border: 0; width: 300px; max-width: 100%; min-height: 420px;" src="https://bandcamp.com/EmbeddedPlayer/album=1349219244/size=large/bgcol=333333/linkcol=ffffff/tracklist=false/transparent=true/" seamless><a href="http://c418.bandcamp.com/album/minecraft-volume-alpha">Minecraft - Volume Alpha by C418</a></iframe>
+<iframe loading="lazy" style="border: 0; width: 300px; max-width: 100%; min-height: 420px;" src="https://bandcamp.com/EmbeddedPlayer/album=1349219244/size=large/bgcol=333333/linkcol=ffffff/tracklist=false/transparent=true/" seamless><a href="http://c418.bandcamp.com/album/minecraft-volume-alpha">Minecraft - Volume Alpha by C418</a></iframe>
 <figcaption><p>Minecraft - Volume Alpha by C418</p></figcaption>
 </figure>
 </client-only>
@@ -68,7 +68,7 @@ featured: true
 
 <client-only>
 <figure class="right">
-<iframe style="border: 0; width: 300px; max-width: 100%; min-height: 420px;" src="https://bandcamp.com/EmbeddedPlayer/album=571927662/size=large/bgcol=333333/linkcol=ffffff/tracklist=false/transparent=true/" seamless><a href="http://radicaldreamland.bandcamp.com/album/celeste-original-soundtrack">Celeste Original Soundtrack by Lena Raine</a></iframe>
+<iframe loading="lazy" style="border: 0; width: 300px; max-width: 100%; min-height: 420px;" src="https://bandcamp.com/EmbeddedPlayer/album=571927662/size=large/bgcol=333333/linkcol=ffffff/tracklist=false/transparent=true/" seamless><a href="http://radicaldreamland.bandcamp.com/album/celeste-original-soundtrack">Celeste Original Soundtrack by Lena Raine</a></iframe>
 <figcaption><p>Celeste Original Soundtrack by Lena Raine</p></figcaption>
 </figure>
 </client-only>
@@ -102,7 +102,7 @@ featured: true
 
 <client-only>
 <figure class="right">
-<iframe style="border: 0; width: 300px; max-width: 100%; min-height: 420px;" src="https://bandcamp.com/EmbeddedPlayer/album=2581473592/size=large/bgcol=333333/linkcol=ffffff/tracklist=false/transparent=true/" seamless><a href="http://benprunty.bandcamp.com/album/into-the-breach-soundtrack">Into the Breach Soundtrack by Ben Prunty</a></iframe>
+<iframe loading="lazy" style="border: 0; width: 300px; max-width: 100%; min-height: 420px;" src="https://bandcamp.com/EmbeddedPlayer/album=2581473592/size=large/bgcol=333333/linkcol=ffffff/tracklist=false/transparent=true/" seamless><a href="http://benprunty.bandcamp.com/album/into-the-breach-soundtrack">Into the Breach Soundtrack by Ben Prunty</a></iframe>
 <figcaption><p>Into the Breach Soundtrack by Ben Prunty</p></figcaption>
 </figure>
 </client-only>
@@ -130,7 +130,7 @@ featured: true
 
 <client-only>
 <figure class="right">
-<iframe style="border: 0; width: 300px; max-width: 100%; min-height: 420px;" src="https://bandcamp.com/EmbeddedPlayer/album=789187561/size=large/bgcol=333333/linkcol=ffffff/tracklist=false/transparent=true/" seamless><a href="http://interovgm.com/album/crosscode-original-game-soundtrack">CrossCode (Original Game Soundtrack) by Deniz Akbulut</a></iframe>
+<iframe loading="lazy" style="border: 0; width: 300px; max-width: 100%; min-height: 420px;" src="https://bandcamp.com/EmbeddedPlayer/album=789187561/size=large/bgcol=333333/linkcol=ffffff/tracklist=false/transparent=true/" seamless><a href="http://interovgm.com/album/crosscode-original-game-soundtrack">CrossCode (Original Game Soundtrack) by Deniz Akbulut</a></iframe>
 <figcaption><p>CrossCode (Original Game Soundtrack) by Deniz Akbulut</p></figcaption>
 </figure>
 </client-only>
@@ -164,7 +164,7 @@ RPG 与 2D 复古像素画面的结合，一定会让你情不自禁地去回想
 
 <client-only>
 <figure class="right">
-<iframe style="border: 0; width: 300px; max-width: 100%; min-height: 420px;" src="https://bandcamp.com/EmbeddedPlayer/album=22001162/size=large/bgcol=333333/linkcol=ffffff/tracklist=false/transparent=true/" seamless><a href="http://chrischristodoulou.bandcamp.com/album/risk-of-rain">Risk of Rain by Chris Christodoulou</a></iframe>
+<iframe loading="lazy" style="border: 0; width: 300px; max-width: 100%; min-height: 420px;" src="https://bandcamp.com/EmbeddedPlayer/album=22001162/size=large/bgcol=333333/linkcol=ffffff/tracklist=false/transparent=true/" seamless><a href="http://chrischristodoulou.bandcamp.com/album/risk-of-rain">Risk of Rain by Chris Christodoulou</a></iframe>
 <figcaption><p>Risk of Rain by Chris Christodoulou</p></figcaption>
 </figure>
 </client-only>
@@ -198,7 +198,7 @@ RPG 与 2D 复古像素画面的结合，一定会让你情不自禁地去回想
 
 <client-only>
 <figure class="right">
-<iframe style="border: 0; width: 300px; max-width: 100%; min-height: 420px;" src="https://bandcamp.com/EmbeddedPlayer/album=2955245981/size=large/bgcol=333333/linkcol=ffffff/tracklist=false/transparent=true/" seamless><a href="http://tobyfox.bandcamp.com/album/undertale-soundtrack">UNDERTALE Soundtrack by toby fox</a></iframe>
+<iframe loading="lazy" style="border: 0; width: 300px; max-width: 100%; min-height: 420px;" src="https://bandcamp.com/EmbeddedPlayer/album=2955245981/size=large/bgcol=333333/linkcol=ffffff/tracklist=false/transparent=true/" seamless><a href="http://tobyfox.bandcamp.com/album/undertale-soundtrack">UNDERTALE Soundtrack by toby fox</a></iframe>
 <figcaption><p>UNDERTALE Soundtrack by toby fox</p></figcaption>
 </figure>
 </client-only>
@@ -228,7 +228,7 @@ RPG 与 2D 复古像素画面的结合，一定会让你情不自禁地去回想
 
 <client-only>
 <figure class="right">
-<iframe style="border: 0; width: 300px; max-width: 100%; min-height: 420px;" src="https://bandcamp.com/EmbeddedPlayer/album=1071234277/size=large/bgcol=333333/linkcol=ffffff/tracklist=false/transparent=true/" seamless><a href="http://dbsoundworks.bandcamp.com/album/the-binding-of-isaac-2">The Binding of Isaac by Danny Baranowsky</a></iframe>
+<iframe loading="lazy" style="border: 0; width: 300px; max-width: 100%; min-height: 420px;" src="https://bandcamp.com/EmbeddedPlayer/album=1071234277/size=large/bgcol=333333/linkcol=ffffff/tracklist=false/transparent=true/" seamless><a href="http://dbsoundworks.bandcamp.com/album/the-binding-of-isaac-2">The Binding of Isaac by Danny Baranowsky</a></iframe>
 <figcaption><p>The Binding of Isaac by Danny Baranowsky</p></figcaption>
 </figure>
 </client-only>
@@ -262,7 +262,7 @@ RPG 与 2D 复古像素画面的结合，一定会让你情不自禁地去回想
 
 <client-only>
 <figure class="right">
-<iframe style="border: 0; width: 300px; max-width: 100%; min-height: 420px;" src="https://bandcamp.com/EmbeddedPlayer/album=688853505/size=large/bgcol=333333/linkcol=ffffff/tracklist=false/transparent=true/" seamless><a href="http://music.disasterpeace.com/album/fez-ost">FEZ OST by Disasterpeace</a></iframe>
+<iframe loading="lazy" style="border: 0; width: 300px; max-width: 100%; min-height: 420px;" src="https://bandcamp.com/EmbeddedPlayer/album=688853505/size=large/bgcol=333333/linkcol=ffffff/tracklist=false/transparent=true/" seamless><a href="http://music.disasterpeace.com/album/fez-ost">FEZ OST by Disasterpeace</a></iframe>
 <figcaption><p>FEZ OST by Disasterpeace</p></figcaption>
 </figure>
 </client-only>
@@ -298,7 +298,7 @@ Fez 已然是游戏圈的瑰宝，以至于我觉得作者是否有回归已经�
 
 <client-only>
 <figure class="right">
-<iframe style="border: 0; width: 300px; max-width: 100%; min-height: 420px;" src="https://bandcamp.com/EmbeddedPlayer/album=1054413269/size=large/bgcol=333333/linkcol=ffffff/tracklist=false/transparent=true/" seamless><a href="http://ristaccia.bandcamp.com/album/one-step-from-eden-soundtrack">One Step From Eden Soundtrack by STEEL_PLUS</a></iframe>
+<iframe loading="lazy" style="border: 0; width: 300px; max-width: 100%; min-height: 420px;" src="https://bandcamp.com/EmbeddedPlayer/album=1054413269/size=large/bgcol=333333/linkcol=ffffff/tracklist=false/transparent=true/" seamless><a href="http://ristaccia.bandcamp.com/album/one-step-from-eden-soundtrack">One Step From Eden Soundtrack by STEEL_PLUS</a></iframe>
 <figcaption><p>One Step From Eden Soundtrack by STEEL_PLUS</p></figcaption>
 </figure>
 </client-only>
@@ -331,7 +331,7 @@ Fez 已然是游戏圈的瑰宝，以至于我觉得作者是否有回归已经�
 
 <client-only>
 <figure class="right">
-<iframe style="border: 0; width: 300px; max-width: 100%; min-height: 420px;" src="https://bandcamp.com/EmbeddedPlayer/album=873230989/size=large/bgcol=333333/linkcol=ffffff/tracklist=false/transparent=true/" seamless><a href="http://re-logic.bandcamp.com/album/terraria-soundtrack">Terraria Soundtrack by Scott Lloyd Shelly</a></iframe>
+<iframe loading="lazy" style="border: 0; width: 300px; max-width: 100%; min-height: 420px;" src="https://bandcamp.com/EmbeddedPlayer/album=873230989/size=large/bgcol=333333/linkcol=ffffff/tracklist=false/transparent=true/" seamless><a href="http://re-logic.bandcamp.com/album/terraria-soundtrack">Terraria Soundtrack by Scott Lloyd Shelly</a></iframe>
 <figcaption><p>Terraria Soundtrack by Scott Lloyd Shelly</p></figcaption>
 </figure>
 </client-only>

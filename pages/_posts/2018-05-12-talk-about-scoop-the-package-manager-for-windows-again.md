@@ -96,7 +96,7 @@ Windowsbrew/Winbrew 呢哈哈……）
 ## Why Scoop
 
 <figure data-type="video" class="alignwide">
-  <iframe src="https://www.youtube.com/embed/a85QLUJ0Wbs"></iframe>
+  <iframe loading="lazy" src="https://www.youtube.com/embed/a85QLUJ0Wbs"></iframe>
 </figure>
 
 上方是 Scoop 刚发布时（我想也是唯一）的介绍视频，观看要能访问 Youtube。

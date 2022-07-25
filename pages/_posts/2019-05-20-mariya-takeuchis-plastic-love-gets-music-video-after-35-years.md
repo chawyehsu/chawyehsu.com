@@ -36,7 +36,7 @@ featured: true
 <!-- more -->
 
 <figure data-type="video" class="alignwide">
-  <iframe src="https://player.bilibili.com/player.html?aid=331023532&bvid=BV1YA411W71o&cid=283214724&page=2&as_wide=1"></iframe>
+  <iframe loading="lazy" src="https://player.bilibili.com/player.html?aid=331023532&bvid=BV1YA411W71o&cid=283214724&page=2&as_wide=1"></iframe>
   <figcaption>▲ Plastic Love Official Music Video</figcaption>
 </figure>
 
@@ -50,7 +50,7 @@ featured: true
 首歌曲，来与我一边感受日本八十年代特有的气息，一边继续慢慢阅读下文。
 
 <figure>
-  <iframe src="https://music.163.com/outchain/player?type=2&id=659423&auto=0&height=50"></iframe>
+  <iframe loading="lazy" src="https://music.163.com/outchain/player?type=2&id=659423&auto=0&height=50"></iframe>
 </figure>
 
 1984 年，结婚两年后的竹内玛莉亚以专辑《Variety》复出，正式完全转型为创作歌手。对于
@@ -184,7 +184,7 @@ Plastic Love 单曲的封面，而是来自于竹内玛莉亚另一张单曲《S
 更猛烈持久了些。
 
 <figure>
-  <iframe src="https://music.163.com/outchain/player?type=2&id=408328190&auto=0&height=50"></iframe>
+  <iframe loading="lazy" src="https://music.163.com/outchain/player?type=2&id=408328190&auto=0&height=50"></iframe>
   <figcaption>▲ TARA - Plastic Love (TARA Bootleg) / 2016 / Future Funk</figcaption>
 </figure>
 
