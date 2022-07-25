@@ -62,6 +62,12 @@ export default ({ Vue, setHead }) => {
         href: 'https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;700&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap',
         rel: 'stylesheet'
       }
-    ]
+    ],
+    script: [
+      {
+        innerHTML: '(()=>{const s=localStorage.getItem("user-color-scheme");if(s==="dark"||s==="light"){if(!document.documentElement.classList.contains(s)){document.documentElement.classList.add(s)}}})();'
+      }
+    ],
+    __dangerouslyDisableSanitizers: ['script']
   }))
 }

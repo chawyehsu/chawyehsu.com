@@ -62,17 +62,14 @@ html {
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
   box-sizing: border-box;
+  background: var(--color-background);
   color: var(--color-text-primary);
+  font-family: var(--font-family);
   font-size: 100%;
   line-height: var(--line-height-base);
   font-feature-settings: "liga" 1, "pnum" 1, "kern" 1;
   text-rendering: optimizeLegibility;
   text-size-adjust: 100%;
-}
-
-body {
-  background: var(--color-background);
-  font-family: var(--font-family);
 }
 
 ::-webkit-scrollbar {
