@@ -66,10 +66,14 @@ export default {
       this.isDark ? !c.contains('dark') && c.add('dark') : c.remove('dark')
     },
     toggleScheme() {
-      console.log(this.isDark)
       this.isDark = !this.isDark
-      this.isDark ? this.saveScheme('dark') : this.saveScheme('light')
       this.updateClass()
+      // Reset saved scheme when saved scheme matches media query
+      const preferDark = window.matchMedia('(prefers-color-scheme: dark)').matches
+      const scheme = this.isDark
+        ? preferDark ? null : 'dark'
+        : preferDark ? 'light' : null
+      this.saveScheme(scheme)
     }
   }
 }
