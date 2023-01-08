@@ -12,17 +12,16 @@
               </section>
               <section class="page-datetime">
                 <time
-                  v-if="page.updatedAt > page.createdAt"
-                  class="updated"
-                  :datetime="new Date(page.updatedAt).toISOString()">
-                  {{ date(page.updatedAt, '{YYYY}/{Mo}/{DD}') }}
-                </time>
-                <time
-                  v-else
                   class="published"
                   :datetime="new Date(page.createdAt).toISOString()">
                   {{ date(page.createdAt, '{YYYY}/{Mo}/{DD}') }}
                 </time>
+                <!--<time
+                  v-if="page.updatedAt > page.createdAt"
+                  class="updated"
+                  :datetime="new Date(page.updatedAt).toISOString()">
+                  {{ date(page.updatedAt, '{YYYY}/{Mo}/{DD}') }}
+                </time>-->
               </section>
             </div>
           </section>
