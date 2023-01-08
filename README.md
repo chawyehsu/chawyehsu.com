@@ -67,7 +67,7 @@ accommodation.</em></sub>
 
 
 [deployment-url]: https://github.com/chawyehsu/chawyehsu.com/actions?query=workflow%3ADeployment
-[deployment-badge]: https://img.shields.io/github/workflow/status/chawyehsu/chawyehsu.com/Deployment?style=flat-square
+[deployment-badge]: https://img.shields.io/github/actions/workflow/status/chawyehsu/chawyehsu.com/deployment.yml?style=flat-square
 [status-url]: https://chawyehsu.com
 [status-badge]: https://img.shields.io/website-up-down-green-red/https/chawyehsu.com.svg?style=flat-square
 [webpagetest-url]: https://www.webpagetest.org/result/200301_J4_4d43e80f91ea9497254c7d167d809062/
