@@ -8,9 +8,7 @@ on:
 jobs:
   deploy:
     name: Build
-    runs-on: ubuntu-18.04
-    if: "! contains(toJSON(github.event.commits.*.message), '[ci skip]')"
-
+    runs-on: ubuntu-latest
     steps:
       # correct build machine timezone
       - run: sudo timedatectl set-timezone Asia/Shanghai
@@ -19,16 +17,16 @@ jobs:
         uses: actions/checkout@v2
       # setup node.js
       - name: Setup Node
-        uses: actions/setup-node@v1
+        uses: actions/setup-node@v3
         with:
-          node-version: '12.x'
+          node-version: 16.x
       # find yarn cache
       - name: Get yarn cache path
         id: yarn-cache
         run: echo "::set-output name=dir::$(yarn cache dir)"
       # update cache
       - name: Cache dependencies
-        uses: actions/cache@v1
+        uses: actions/cache@v3
         with:
           path: ${{ steps.yarn-cache.outputs.dir }}
           key: ${{ runner.os }}-yarn-${{ hashFiles('**/yarn.lock') }}
