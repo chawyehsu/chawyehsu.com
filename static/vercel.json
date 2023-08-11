@@ -4,7 +4,7 @@
     "enabled": true,
     "silent": true
   },
-  "trailingSlash": false,
+  "trailingSlash": true,
   "headers": [
     {
       "source": "/_saber/images/(.*)",
