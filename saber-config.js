@@ -100,7 +100,7 @@ module.exports = {
     {
       resolve: 'saber-plugin-ga-lite',
       options: {
-        trackId: 'UA-91882040-1'
+        trackId: 'G-3MTYZQ2JGB'
       }
     },
     {
