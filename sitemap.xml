@@ -2,8 +2,14 @@
 <?xml-stylesheet type="text/xsl" href="/sitemap.xsl"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
+    <loc>https://chawyehsu.com/blog/reimplementing-scoop-in-rust</loc>
+    <lastmod>2023-08-11T03:48:44.481Z</lastmod>
+        <priority>0.6</priority>
+        <changefreq>always</changefreq>
+  </url>
+    <url>
     <loc>https://chawyehsu.com/projects</loc>
-    <lastmod>2023-01-08T14:09:21.931Z</lastmod>
+    <lastmod>2023-08-11T03:48:44.481Z</lastmod>
         <priority>0.6</priority>
         <changefreq>always</changefreq>
   </url>
@@ -159,7 +165,7 @@
   </url>
     <url>
     <loc>https://chawyehsu.com/</loc>
-    <lastmod>2020-04-17T16:00:00.000Z</lastmod>
+    <lastmod>2023-08-11T00:44:00.000Z</lastmod>
         <priority>0.6</priority>
         <changefreq>always</changefreq>
   </url>

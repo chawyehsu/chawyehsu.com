@@ -1,0 +1,313 @@
+<!DOCTYPE html><html data-saber-ssr lang="zh-cn" data-saber-head="%7B%22lang%22:%7B%22ssr%22:%22zh-cn%22%7D%7D"><head><meta charset="UTF-8" /><meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta http-equiv="X-UA-Compatible" content="ie=edge" /><meta data-saber-head="ssr" name="generator" content="Saber v0.11.7"><meta data-saber-head="ssr" name="apple-mobile-web-app-capable" content="yes"><meta data-saber-head="ssr" name="apple-mobile-web-app-status-bar-style" content="default"><meta data-saber-head="ssr" name="mobile-web-app-capable" content="yes"><meta data-saber-head="ssr" name="author" content="Chawye Hsu"><meta data-saber-head="ssr" property="og:type" content="website"><meta data-saber-head="ssr" name="twitter:card" content="summary"><meta data-saber-head="ssr" name="twitter:creator" content="Chawye Hsu"><meta data-saber-head="ssr" name="description" content="Hok 是一个用 Rust 写的 Scoop 再实现，提供与 Scoop 类似的 CLI 接口，实现 Scoop 已有的功能，如应用检索、安装卸载、列表与状态、桶管理等等" data-hid="description"><meta data-saber-head="ssr" name="keywords" content="blog,blogger,个人博客,中文独立博客"><meta data-saber-head="ssr" property="og:title" content="用 Rust 写的 Scoop 再实现 - Chawye Hsu"><meta data-saber-head="ssr" property="og:description" content="Hok 是一个用 Rust 写的 Scoop 再实现，提供与 Scoop 类似的 CLI 接口，实现 Scoop 已有的功能，如应用检索、安装卸载、列表与状态、桶管理等等"><meta data-saber-head="ssr" name="twitter:title" content="用 Rust 写的 Scoop 再实现 - Chawye Hsu"><meta data-saber-head="ssr" name="twitter:description" content="Hok 是一个用 Rust 写的 Scoop 再实现，提供与 Scoop 类似的 CLI 接口，实现 Scoop 已有的功能，如应用检索、安装卸载、列表与状态、桶管理等等"> <title>用 Rust 写的 Scoop 再实现 - Chawye Hsu</title> <link data-saber-head="ssr" rel="alternate" title="Chawye Hsu - Feed" href="https://chawyehsu.com/feed/atom.xml" type="application/atom+xml"><link data-saber-head="ssr" href="https://cdn.jsdelivr.net" rel="preconnect" crossorigin="true"><link data-saber-head="ssr" href="https://fonts.googleapis.com" rel="preconnect"><link data-saber-head="ssr" href="https://fonts.gstatic.com" rel="preconnect" crossorigin="true"><link data-saber-head="ssr" href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;700&amp;family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&amp;display=swap" rel="stylesheet"><style data-vue-ssr-id="4c40a06b:0 4c40a06b:1 4c40a06b:2 4c40a06b:3 4c40a06b:4 4c40a06b:5 4c40a06b:6 4c40a06b:7 4c40a06b:8 4c40a06b:9 4c40a06b:10 75ab3c6b:0 456de72c:0 7680fd89:0 62f70088:0">/*! modern-normalize v1.1.0 | MIT License | https://github.com/sindresorhus/modern-normalize */*,:after,:before{box-sizing:border-box}html{line-height:1.15;-webkit-text-size-adjust:100%;-moz-tab-size:4;tab-size:4}body{margin:0;font-family:system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji}hr{height:0;color:inherit}abbr[title]{text-decoration:underline dotted}b,strong{font-weight:bolder}code,kbd,pre,samp{font-family:ui-monospace,SFMono-Regular,Consolas,Liberation Mono,Menlo,monospace;font-size:1em}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-.25em}sup{top:-.5em}table{text-indent:0;border-color:inherit}button,input,optgroup,select,textarea{font-family:inherit;font-size:100%;line-height:1.15;margin:0}button,select{text-transform:none}[type=button],[type=reset],[type=submit],button{-webkit-appearance:button}::-moz-focus-inner{border-style:none;padding:0}:-moz-focusring{outline:1px dotted ButtonText}:-moz-ui-invalid{box-shadow:none}legend{padding:0}progress{vertical-align:baseline}::-webkit-inner-spin-button,::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}::-webkit-search-decoration{-webkit-appearance:none}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}summary{display:list-item}
+:root{--font-family:"PT Sans",system-ui,"Noto Sans SC",-apple-system,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";--font-family-mono:ui-monospace,SFMono-Regular,Consolas,"Liberation Mono",Menlo,monospace;--font-family-quotemark:"Times New Roman",Times,serif;--container-max-width:1600px;--gap-s:0.4445rem;--gap-m:0.8889rem;--gap-l:1.7778rem;--gap-xl:3.5556rem;--font-size-1:2rem;--font-size-2:1.5rem;--font-size-3:1.25rem;--font-size-4:1.125rem;--font-size-5:1rem;--font-size-6:0.875rem;--font-size-7:0.75rem;--font-size-code:var(--font-size-6);--font-size-footnotes:var(--font-size-7);--font-size-small:var(--font-size-7);--font-size-sub-sup:var(--font-size-7);--line-height-base:1.7778;--line-height-code:1.4;--line-height-small:1.3;--line-height-headline:1.2;--color-accent-0:#fafbfc;--color-accent-1:#f6f8fa;--color-accent-2:#e1e4e8;--color-accent-3:#d1d5da;--color-accent-4:#959da5;--color-accent-5:#6a737d;--color-accent-6:#586069;--color-accent-7:#444d56;--color-accent-8:#2f363d;--color-accent-9:#24292e;--color-background-transparent:hsla(0,0%,100%,0);--color-background:var(--color-accent-0);--color-text-primary:var(--color-accent-8);--color-text-secondary:var(--color-accent-5);--color-text-tertiary:var(--color-accent-4);--color-scrollbar:var(--color-accent-2);--color-scrollbar-hover:var(--color-accent-4);--color-link:var(--color-accent-9)}
+/*! minireset.css v0.0.6 | MIT License | github.com/jgthms/minireset.css */blockquote,body,dd,dl,dt,fieldset,figure,h1,h2,h3,h4,h5,h6,hr,html,iframe,legend,li,ol,p,pre,textarea,ul{margin:0;padding:0}ul{list-style:none}button,input,select,textarea{margin:0}iframe,img,video{height:auto;max-width:100%}iframe{border:0}table{border-collapse:collapse;border-spacing:0}td,th{padding:0}html{-moz-osx-font-smoothing:grayscale;-webkit-font-smoothing:antialiased;box-sizing:border-box;line-height:var(--line-height-base);font-feature-settings:"liga" 1,"pnum" 1,"kern" 1;text-rendering:optimizeLegibility;text-size-adjust:100%}body{background:var(--color-background);color:var(--color-text-primary);font-family:var(--font-family);font-size:100%}::-webkit-scrollbar{width:6px}::-webkit-scrollbar:horizontal{height:6px}::-webkit-scrollbar-track{background:var(--color-background);border-radius:10px}::-webkit-scrollbar-thumb{background:var(--color-scrollbar);border-radius:10px}::-webkit-scrollbar-thumb:hover{background:var(--color-scrollbar-hover)}.main-container{max-width:var(--container-max-width);margin-left:auto;margin-right:auto}main{display:flex;min-height:100vh;flex-direction:column}blockquote,dd,dl,dt,fieldset,figure,h1,h2,h3,h4,h5,h6,hr,iframe,legend,ol,p,pre,table,textarea,ul{margin-bottom:var(--gap-m)}a{color:inherit;text-decoration:none}a:focus,a:hover{color:var(--color-link);outline:none}a:not(.no-underlines):not(.scheme-switcher):focus,a:not(.no-underlines):not(.scheme-switcher):hover{background-image:linear-gradient(var(--color-text-primary),var(--color-text-primary));background-size:100% 1px;background-repeat:repeat-x;background-position:bottom;text-shadow:.03em 0 var(--color-background),-.03em 0 var(--color-background),0 .03em var(--color-background),0 -.03em var(--color-background),.06em 0 var(--color-background),-.06em 0 var(--color-background),.09em 0 var(--color-background),-.09em 0 var(--color-background),.12em 0 var(--color-background),-.12em 0 var(--color-background),.15em 0 var(--color-background),-.15em 0 var(--color-background)}a:active,a:visited{color:inherit}h1,h2,h3,h4,h5,h6{font-weight:700;line-height:var(--line-height-headline)}h1{font-size:var(--font-size-1)}h2{font-size:var(--font-size-2)}h3{font-size:var(--font-size-3)}h4{font-size:var(--font-size-4)}h5{font-size:var(--font-size-5)}h6{color:var(--color-text-secondary);font-size:var(--font-size-6)}
+figure[data-type=video] iframe{aspect-ratio:16/9}
+.gad{position:relative;margin:0 auto;width:100%;height:auto;margin-bottom:var(--gap-m)}.flex{display:flex}.flex-col{flex-direction:column}.block{display:block}.inline-block{display:inline-block}
+@media screen and (min-width:321px){html{font-size:calc(14.4px + .5vw)}}@media screen and (min-width:1920px){html{font-size:24px}}.page-body blockquote{margin:var(--gap-l) 0;position:relative;color:var(--color-text-secondary);padding-left:calc(var(--gap-l)*1.5);padding-right:var(--gap-l);overflow-wrap:break-word}.page-body blockquote p:last-child{margin:0}.page-body blockquote:before{position:absolute;top:calc(var(--gap-m)*-1);left:0;content:"\201c";font-family:var(--font-family-quotemark);font-size:300%;font-weight:700;line-height:1}.page-body code,.page-body pre{font-family:var(--font-family-mono);font-size:var(--font-size-code)}.page-body code{padding:0 var(--gap-s);border:1px dotted var(--color-accent-4);border-radius:2px}.page-body pre code{border:none}.page-body .saber-highlight{position:relative;overflow:hidden;margin:0 0 var(--gap-m) 0;border-radius:0}.page-body .saber-highlight code{background:transparent;padding:0}.page-body .saber-highlight pre.saber-highlight-code{margin:0;padding:var(--gap-m);overflow:auto}.page-body .saber-highlight:before{content:attr(data-lang);position:absolute;right:var(--gap-s);opacity:.2;color:var(--color-text-secondary);font-family:var(--font-family-mono);font-size:1.5rem;font-weight:700}.page-body figure{margin:0 auto var(--gap-m);width:fit-content}.page-body figure img{margin-bottom:0}.page-body figure iframe{display:block;margin:0 auto;width:1200px;max-width:100%}.page-body figure figcaption{margin-top:calc(var(--gap-s)*0.5);color:var(--color-text-secondary);line-height:var(--line-height-small);width:0;min-width:100%}.page-body figure figcaption,.page-body figure figcaption code{font-size:var(--font-size-small)}.page-body hr{border:0;height:auto;margin:var(--gap-l) auto;opacity:.5;overflow:visible}.page-body hr:after{color:var(--color-text-secondary);content:"* * *";display:block;height:1rem;line-height:1;text-align:center;word-spacing:.5rem}.page-body hr.footnotes-sep:after{content:"Footnotes"}.page-body ol,.page-body ul{margin-bottom:var(--gap-m);padding-left:var(--gap-m);text-align:justify}.page-body ol li ol,.page-body ol li ul,.page-body ol p,.page-body ul li ol,.page-body ul li ul,.page-body ul p{margin-bottom:0}.page-body ul{list-style-type:square}.page-body .footnotes{color:var(--color-text-secondary);font-size:var(--font-size-footnotes)}.page-body .footnotes p{margin-bottom:var(--gap-s)}.page-body table{border-collapse:collapse;border-spacing:0;display:block;overflow:auto;width:100%}.page-body table tr td,.page-body table tr th{border:1px solid var(--color-accent-2);padding:var(--gap-s) var(--gap-m);white-space:nowrap}.page-body table tr:nth-child(2n){background-color:var(--color-accent-1)}.page-body a:not([id^=fnref]){padding-bottom:1px;overflow-wrap:break-word;word-break:break-all;transition:border .15s ease-in-out;background-image:linear-gradient(var(--color-accent-3),var(--color-accent-3));background-size:100% 1px;background-repeat:repeat-x;background-position:bottom;text-shadow:.03em 0 var(--color-background),-.03em 0 var(--color-background),0 .03em var(--color-background),0 -.03em var(--color-background),.06em 0 var(--color-background),-.06em 0 var(--color-background),.09em 0 var(--color-background),-.09em 0 var(--color-background),.12em 0 var(--color-background),-.12em 0 var(--color-background),.15em 0 var(--color-background),-.15em 0 var(--color-background)}.page-body a:not([id^=fnref]):focus,.page-body a:not([id^=fnref]):hover{color:var(--color-link);text-decoration:none;background-image:linear-gradient(var(--color-text-primary),var(--color-text-primary))}.page-body del,.page-body s{color:var(--color-text-secondary)}.page-body img{margin-bottom:var(--gap-m);vertical-align:middle}.page-body sub,.page-body sup{font-size:var(--font-size-sub-sup)}
+@media screen and (max-width:768px){main{padding-top:var(--gap-m);padding-left:var(--gap-m);padding-right:var(--gap-m);min-height:calc(100vh - 60px - var(--gap-l)*2)}}@media screen and (min-width:769px){.main-container{display:flex}aside{width:25%}aside,main{padding-top:var(--gap-xl)}main{padding-right:var(--gap-l);width:75%}.page-content figure.left,.page-content figure.right{max-width:45%}.page-content figure.left{float:left;margin-right:var(--gap-l)}.page-content figure.right{float:right;margin-left:var(--gap-l)}}
+code[class*=language-],pre[class*=language-]{color:#383a42}:not(pre)>code[class*=language-],pre[class*=language-]{background:transparent;border:1px solid var(--color-accent-3)}.token.cdata,.token.comment,.token.prolog{color:#a0a1a7}.language-css .token.string,.style .token.string,.token.entity{color:#696c77;background:#f0f0f1}.token.punctuation{color:#383a42}.token.deleted,.token.operator,.token.tag,.token.variable{color:#ca1243}.token.boolean,.token.constant,.token.number,.token.property,.token.url{color:#d75f00}.token.bold,.token.class-name{color:#c18401}.token.atrule,.token.attr-value,.token.inserted,.token.string,.token.symbol{color:#50a14f}.token.important,.token.regex{color:#0184bc}.token.attr-name,.token.function{color:#4078f2}.token.builtin,.token.char,.token.italic,.token.keyword,.token.selector{color:#a626a4}.token.doctype{color:#986801}.token.bold,.token.important{font-weight:700}.token.italic{font-style:italic}.token.entity{cursor:help}.namespace{opacity:.7}:root.dark code[class*=language-],:root.dark pre[class*=language-]{color:#abb2bf}:root.dark :not(pre)>code[class*=language-],:root.dark pre[class*=language-]{background:transparent}:root.dark .token.cdata,:root.dark .token.comment,:root.dark .token.prolog{color:#545862}:root.dark .language-css .token.string,:root.dark .style .token.string,:root.dark .token.entity{color:#565c64;background:#353b45}:root.dark .token.punctuation{color:#abb2bf}:root.dark .token.deleted,:root.dark .token.operator,:root.dark .token.tag,:root.dark .token.variable{color:#e06c75}:root.dark .token.boolean,:root.dark .token.constant,:root.dark .token.number,:root.dark .token.property,:root.dark .token.url{color:#d19a66}:root.dark .token.bold,:root.dark .token.class-name{color:#e5c07b}:root.dark .token.atrule,:root.dark .token.attr-value,:root.dark .token.inserted,:root.dark .token.string,:root.dark .token.symbol{color:#98c379}:root.dark .token.important,:root.dark .token.regex{color:#56b6c2}:root.dark .token.attr-name,:root.dark .token.function{color:#61afef}:root.dark .token.builtin,:root.dark .token.char,:root.dark .token.italic,:root.dark .token.keyword,:root.dark .token.selector{color:#c678dd}:root.dark .token.doctype{color:#be5046}.saber-highlight-line-numbers{pointer-events:none;font-size:100%;float:left;letter-spacing:-1px;border-right:1px solid #999;user-select:none;text-align:right;padding-right:.4445rem;margin-right:.8rem}.saber-highlight-line-numbers>span{counter-increment:linenumber;display:block}.saber-highlight-line-numbers>span:before{content:counter(linenumber);color:#999;display:block}
+.md-gallery{margin-bottom:var(--gap-m);display:grid;grid-gap:10px;grid-template-columns:repeat(auto-fit,minmax(260px,1fr))}.md-gallery figure{margin-bottom:0}
+:root.dark{--color-accent-0:#22272e;--color-accent-1:#2d333b;--color-accent-2:#373e47;--color-accent-3:#444c56;--color-accent-4:#545d68;--color-accent-5:#636e7b;--color-accent-6:#768390;--color-accent-7:#909dab;--color-accent-8:#adbac7;--color-accent-9:#cdd9e5;--color-background-transparent:rgba(31,31,31,0)}
+.page-content[data-v-243cf42e]{flex:1}.page-content .page-header[data-v-243cf42e],.page-content .page-header .page-title[data-v-243cf42e]{margin-bottom:var(--gap-l)}.page-content .page-header .page-meta[data-v-243cf42e]{text-align:right;font-style:italic;font-size:var(--font-size-small);color:var(--color-text-secondary);line-height:var(--line-height-small)}
+.burger[data-v-7896a013]{z-index:999;color:currentColor;cursor:pointer;display:block;height:60px;position:relative;width:60px;margin-left:auto}.burger span[data-v-7896a013]{background-color:currentColor;display:block;height:2px;left:calc(50% - 12px);position:absolute;transform-origin:center;transition-duration:86ms;transition-property:background-color,opacity,transform;transition-timing-function:ease-out;width:24px}.burger span[data-v-7896a013]:first-child{top:calc(50% - 10px)}.burger span[data-v-7896a013]:nth-child(2){top:calc(50% - 2px)}.burger span[data-v-7896a013]:nth-child(3){top:calc(50% + 6px)}.burger.is-active span[data-v-7896a013]:first-child{transform:translateY(8px) rotate(45deg)}.burger.is-active span[data-v-7896a013]:nth-child(2){opacity:0}.burger.is-active span[data-v-7896a013]:nth-child(3){transform:translateY(-8px) rotate(-45deg)}@media screen and (max-width:768px){header[data-v-7896a013]{padding:var(--gap-l) var(--gap-m);display:flex;justify-content:space-between}.logo[data-v-7896a013]{height:60px}.navbar[data-v-7896a013]{background-color:var(--color-background);display:none;z-index:998;position:fixed;top:0;left:0;right:0;bottom:0;padding:calc(60px + var(--gap-l)) var(--gap-l) var(--gap-l);text-align:center;font-size:160%;overflow:auto}.navbar.is-active[data-v-7896a013]{display:block}.navbar ul[data-v-7896a013]{margin:0}.navbar ul li[data-v-7896a013]{margin-bottom:var(--gap-m)}}@media screen and (min-width:769px){.logo-outer[data-v-7896a013],.navbar[data-v-7896a013]{width:60%;margin-left:auto;margin-right:auto}.logo-outer[data-v-7896a013]{margin-bottom:var(--gap-l)}.logo[data-v-7896a013]{width:100%}.navbar ul[data-v-7896a013]{margin:0}.navbar ul li[data-v-7896a013]{margin-bottom:var(--gap-s)}.burger[data-v-7896a013]{display:none}}
+.scheme-switcher[data-v-4fc926cc]{position:relative;background:none;cursor:pointer;display:inline-flex;align-items:center}.scheme-switcher span[data-v-4fc926cc]{text-decoration:none;opacity:0}.feather[data-v-4fc926cc]{position:absolute;opacity:0;transition:opacity .2s}.dark .feather.feather-moon[data-v-4fc926cc],.feather.feather-sun[data-v-4fc926cc]{opacity:1}.dark .feather.feather-sun[data-v-4fc926cc]{opacity:0}@media screen and (max-width:768px){.scheme-switcher[data-v-4fc926cc]{justify-content:center}}
+footer[data-v-2a81dca9]{padding:var(--gap-l) 0;background:var(--color-background);color:var(--color-text-primary);font-size:var(--font-size-small)}footer .section[data-v-2a81dca9]{text-align:center}@media screen and (min-width:768px){footer .section[data-v-2a81dca9]{text-align:right}}</style> <script data-saber-head="ssr">(()=>{const d="dark";const s=localStorage.getItem("user-color-scheme");const p=window.matchMedia("(prefers-color-scheme: dark)").matches;if(!s?p:s===d){const c=document.documentElement.classList;!c.contains(d)&&c.add(d)}})();</script> </head><body><div id="_saber" data-server-rendered="true"><div class="main-container" data-v-243cf42e><aside class="sidebar" data-v-7896a013 data-v-243cf42e><header data-v-7896a013><div class="logo-outer flex" data-v-7896a013><a href="/" title="Chawye Hsu" class="inline-block router-link-active" data-v-7896a013><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 512 512" class="logo block" data-v-7896a013><path fill="#000" d="M0 0h512v512H0z" data-v-7896a013></path> <path fill="#fff" d="M39 39h104.423v34.808H39zM431.712 262.154h34.808V471h-34.808zM348.173 349.173h83.538v34.808h-83.538zM313.365 262.154h34.808V471h-34.808z" data-v-7896a013></path> <g data-v-7896a013><path fill="#fff" d="M247.231 296.962h34.808v34.808h-34.808zM160.212 262.154h87.019v34.808h-87.019zM247.231 401.385h34.808v34.808h-34.808zM160.212 436.192h87.019V471h-87.019zM125.404 296.962h34.808v139.231h-34.808z" data-v-7896a013></path></g></svg></a></div> <div class="burger-outer" data-v-7896a013><span class="burger" data-v-7896a013><span data-v-7896a013></span> <span data-v-7896a013></span> <span data-v-7896a013></span></span></div></header> <div class="navbar" data-v-7896a013><nav data-v-7896a013><ul data-v-7896a013><li data-v-7896a013><a href="/blog" class="router-link-active" data-v-7896a013>文章 - Blog</a></li><li data-v-7896a013><a href="/guestbook" data-v-7896a013>留言板 - Guestbook</a></li><li data-v-7896a013><a href="/links" data-v-7896a013>链接 - Links</a></li><li data-v-7896a013><a href="/about" data-v-7896a013>关于 - About</a></li><li data-v-7896a013><a href="/feed" data-v-7896a013 data-v-7896a013>订阅 - Subscribe</a></li><li data-v-7896a013><a rel="noopener noreferrer" target="_blank" href="https://www.instagram.com/chawyehsu" data-v-7896a013 data-v-7896a013>Instagram</a></li><li data-v-7896a013><a rel="noopener noreferrer" target="_blank" href="https://twitter.com/chawyehsu" data-v-7896a013 data-v-7896a013>Twitter</a></li> <li data-v-7896a013><a class="navbar-item scheme-switcher" data-v-4fc926cc data-v-7896a013><span data-v-4fc926cc>ok</span> <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-moon" data-v-4fc926cc><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z" data-v-4fc926cc></path></svg> <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-sun" data-v-4fc926cc><circle cx="12" cy="12" r="5" data-v-4fc926cc></circle> <path d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42" data-v-4fc926cc></path></svg></a></li></ul></nav></div></aside> <main data-v-243cf42e><article role="main" itemscope="itemscope" itemtype="https://schema.org/Article" class="page-content" data-v-243cf42e><header class="page-header" data-v-243cf42e><section class="page-head-content" data-v-243cf42e><h1 class="page-title" data-v-243cf42e>用 Rust 写的 Scoop 再实现</h1> <div class="page-meta" data-v-243cf42e><section class="page-author" data-v-243cf42e><span data-v-243cf42e>Chawye Hsu</span></section> <section class="page-datetime" data-v-243cf42e><time datetime="2023-08-10T14:31:43.000Z" class="published" data-v-243cf42e>
+                2023/08/10
+              </time></section></div></section></header> <section class="page-body" data-v-243cf42e><p data-v-243cf42e>开门见山，先放上项目地址：<a rel="noopener noreferrer" target="_blank" href="https://github.com/chawyehsu/hok" data-v-243cf42e>https://github.com/chawyehsu/hok</a></p> <h2 id="前言" data-v-243cf42e>前言</h2> <p data-v-243cf42e>了解 Scoop 或者已经是其用户的朋友从标题已经知道本文主题，大概点了上面的链接跳走了。没点的只好留下来，听我先给不了解的人稍微介绍下 Scoop。<a rel="noopener noreferrer" target="_blank" href="https://scoop.sh" data-v-243cf42e>Scoop</a> 是一个在 Windows 下的工具，通过一套规则来描述应用软件<sup class="footnote-ref" data-v-243cf42e><a href="/blog/reimplementing-scoop-in-rust#fn1" id="fnref1">[1]</a></sup>，然后提供命令行的方式来让用户相对方便地安装和管理使用的软件。它最初的开发受到过 Homebrew 的启发，虽然随着发展二者已大相径庭，
+Scoop 仍然在其 README 中留着对 Homebrew 的 Credit<sup class="footnote-ref" data-v-243cf42e><a href="/blog/reimplementing-scoop-in-rust#fn2" id="fnref2">[2]</a></sup>。</p> <p data-v-243cf42e>一直以来 Scoop 都没有标称自己是一个包管理器<sup class="footnote-ref" data-v-243cf42e><a href="/blog/reimplementing-scoop-in-rust#fn3" id="fnref3">[3]</a></sup>，但是它的主要功能和主流包管理器的功能又是有几分相似，所以一些用户愿意称其为 Windows 下的包管理器。相应的，也有（比如偏好
+MSYS2 的）用户批评过 Scoop 根本没有提供包管理器「标配」的软件构建环境及 build from
+source 的能力，到底只不过是一个「软件安装器」。我作为使用 Scoop 已经有 8、9 年，于 <a href="/blog/use-scoop-to-enhance-windows-powershell">2015</a>、<a href="/blog/talk-about-scoop-the-package-manager-for-windows-again">2018</a> 两年先后为其写过两篇「荐」的用户，以为 Scoop 的这种形式更多是
+Windows 软件分发现状下的一个些许无奈的折中选择，只能说是有人喜有人愁。强如微软官方出品 Windows Package Manager —— Winget 也还是没有走出这个窠臼。AppX/MSIX 的打包分发方式不是所有应用开发者都接受并统一采用，曾几何时我从 UWP 上看到的一点点软件分发整合的希望也在其放宽 Win32 API 使用后慢慢消去（虽说就开发者角度来说这是好事）。所以
+Scoop 在某些场景下仍有它的一席之地，放到末端用户就是各取所需。</p> <hr data-v-243cf42e> <h2 id="这是什么" data-v-243cf42e>这是什么</h2> <p data-v-243cf42e>接下来谈论的是本文的主角 <a rel="noopener noreferrer" target="_blank" href="https://github.com/chawyehsu/hok" data-v-243cf42e>Hok</a>。它是一个用 Rust 写的 Scoop 再实现，提供与 Scoop
+类似的 CLI 接口，目标是实现 Scoop 已有的功能，如应用的检索、安装卸载、列表与状态、桶管理等等。实际上 Hok 只是一个 CLI 前端，其背后的 <a rel="noopener noreferrer" target="_blank" href="https://crates.io/crates/libscoop" data-v-243cf42e>libscoop</a> 才是这个再实现的核心。后文会再提到 libscoop。</p> <p data-v-243cf42e>Scoop 用户在饱受着 <code data-v-243cf42e>scoop search</code> 极度缓慢的折磨<sup class="footnote-ref" data-v-243cf42e><a href="/blog/reimplementing-scoop-in-rust#fn4" id="fnref4">[4]</a></sup>，带防火墙 debuff 的用户更是如此。早期的 Scoop 还不支持远程搜索<sup class="footnote-ref" data-v-243cf42e><a href="/blog/reimplementing-scoop-in-rust#fn5" id="fnref5">[5]</a></sup>，那时候搜索速度其实是很可以的。为了解决搜索体验问题，社区里出现了各种各样的解决方案，比如 Go 实现的 scoop-search 是社区里很流行的一个<sup class="footnote-ref" data-v-243cf42e><a href="/blog/reimplementing-scoop-in-rust#fn6" id="fnref6">[6]</a></sup>，也有其它如 Python + SQLite 的实现，以及依托 Azure Search 实现的 ScoopSearch（后来成为了 Scoop 官网上提供的在线搜索<sup class="footnote-ref" data-v-243cf42e><a href="/blog/reimplementing-scoop-in-rust#fn7" id="fnref7">[7]</a></sup>）等等。</p> <p data-v-243cf42e>然而社区里这些方案，都不约而同地只专注于解决搜索问题，并没有在其它方面做更多的尝试。也许是搜索问题太过于「碍眼」，导致其它如 <code data-v-243cf42e>scoop list</code>、<code data-v-243cf42e>scoop status</code> 及 <code data-v-243cf42e>scoop update</code>
+等命令的效率问题不入法眼。而 Hok 便是在解决了搜索问题的基础上，更进一步去尝试解决这些也让我难受的点，最终成为一个奔着完整实现而进行的项目。</p> <hr data-v-243cf42e> <h2 id="开始尝试" data-v-243cf42e>开始尝试</h2> <p data-v-243cf42e>假设你已经有在使用的 Scoop 环境，那么你可以使用一下命令来安装体验 Hok：</p> <div class="saber-highlight" data-lang="powershell" data-v-243cf42e><pre class="saber-highlight-code language-powershell" data-v-243cf42e><code class="language-powershell" data-v-243cf42e>scoop bucket add dorado https:<span class="token operator" data-v-243cf42e>/</span><span class="token operator" data-v-243cf42e>/</span>github<span class="token punctuation" data-v-243cf42e>.</span>com/chawyehsu/dorado
+scoop install dorado/hok</code></pre></div><p data-v-243cf42e>dorado 是我维护了许久的一个桶，里面有不少我在用的或者接收 Pull Request 进来的软件。
+Hok 是 native 的，可以脱离 Scoop 运行，所以其实也可以从 GitHub Release 页面下载二进制文件直接使用。但是因为 Scoop 的一些功能在 Hok 上还未被实现，所以单独用 Hok
+的话会缺失关键功能，建议还是附在 Scoop 上。</p> <p data-v-243cf42e>安装完成后，可以使用 <code data-v-243cf42e>hok help</code> 先查看 Hok 的帮助信息，了解下 Hok 的命令行接口：</p> <div class="saber-highlight" data-lang="" data-v-243cf42e><pre class="saber-highlight-code language-text" data-v-243cf42e><code class="language-text" data-v-243cf42e>$ hok help
+Hok is a CLI implementation of Scoop in Rust
+
+Usage: hok.exe &lt;COMMAND&gt;
+
+Commands:
+  bucket     Manage manifest buckets
+  cache      Package cache management
+  cat        Inspect the manifest of a package
+  cleanup    Cleanup apps by removing old versions
+  config     Configuration management
+  hold       Hold package(s) to disable changes
+  home       Browse the homepage of a package
+  info       Show package(s) basic information
+  install    Install package(s)
+  list       List installed package(s)
+  search     Search available package(s)
+  unhold     Unhold package(s) to enable changes
+  uninstall  Uninstall package(s)
+  update     Fetch and update subscribed buckets
+  upgrade    Upgrade installed package(s)
+  help       Print this message or the help of the given subcommand(s)
+
+Options:
+  -h, --help     Print help
+  -V, --version  Print version
+
+Type 'hok help &lt;command&gt;' to get help for a specific command.</code></pre></div><p data-v-243cf42e>为了照顾一些个使用习惯，Hok 的命令行接口被设计得与 Scoop 的接口有一定的相似性，比如 <code data-v-243cf42e>hok bucket</code>、<code data-v-243cf42e>hok home</code>、<code data-v-243cf42e>hok hold/unhold</code> 等。但是由于 Hok 背后的 libscoop
+在内部实现上与 Scoop 不尽相同（主要是多了一些我个人的思考及针对我个人使用习惯的调整），所以体现到 Hok 的命令行接口上也有了一些变化。接下来我会逐一对目前 Hok 提供的各个命令做具体的介绍。这部分也许该写成使用文档放到项目里，但目前就先放在这吧。</p> <hr data-v-243cf42e> <h3 id="hok-bucket" data-v-243cf42e>hok bucket</h3> <p data-v-243cf42e>桶管理命令。这个子命令与 Scoop 的 <code data-v-243cf42e>scoop bucket</code> 子命令几乎一致，唯一的一个不同是
+Scoop 使用 <code data-v-243cf42e>scoop bucket known</code> 来列出内置的（官方）桶<sup class="footnote-ref" data-v-243cf42e><a href="/blog/reimplementing-scoop-in-rust#fn8" id="fnref8">[8]</a></sup>，而 Hok 使用 <code data-v-243cf42e>hok bucket list -k|--known</code>
+来做同样的事情。</p> <div class="saber-highlight" data-lang="" data-v-243cf42e><pre class="saber-highlight-code language-text" data-v-243cf42e><code class="language-text" data-v-243cf42e>$ hok bucket --help
+Manage manifest buckets
+
+Usage: hok.exe bucket [COMMAND]
+
+Commands:
+  add     Add a bucket
+  list    List buckets
+  remove  Remove bucket(s)
+  help    Print this message or the help of the given subcommand(s)
+
+Options:
+  -h, --help  Print help</code></pre></div><h3 id="hok-cache" data-v-243cf42e>hok cache</h3> <p data-v-243cf42e>下载缓存管理，对应 <code data-v-243cf42e>scoop cache</code>。Scoop 使用 <code data-v-243cf42e>scoop cache [show]</code> 列出下载缓存列表，
+Hok 使用 <code data-v-243cf42e>hok cache list [query]</code>，其中 <code data-v-243cf42e>query</code> 可以作为过滤条件，只列出包含 <code data-v-243cf42e>query</code>
+的缓存。</p> <p data-v-243cf42e>Scoop 使用 <code data-v-243cf42e>scoop cache rm &lt;app|*&gt;</code> 来删除缓存，类似的 Hok 使用 <code data-v-243cf42e>hok cache remove &lt;query&gt;</code>
+来删除缓存，其中 <code data-v-243cf42e>query</code> 同样支持通配符 <code data-v-243cf42e>*</code> 删除全部缓存。</p> <div class="saber-highlight" data-lang="" data-v-243cf42e><pre class="saber-highlight-code language-text" data-v-243cf42e><code class="language-text" data-v-243cf42e>$ hok cache --help
+Package cache management
+
+Usage: hok.exe cache [COMMAND]
+
+Commands:
+  list    List download caches
+  remove  Remove download caches
+  help    Print this message or the help of the given subcommand(s)
+
+Options:
+  -h, --help  Print help</code></pre></div><h3 id="hok-cat" data-v-243cf42e>hok cat</h3> <p data-v-243cf42e>全文输出包的 manifest 详情。<code data-v-243cf42e>hok cat</code> 与 <code data-v-243cf42e>scoop cat</code> 的用法完全一致，但是 <code data-v-243cf42e>hok cat</code>
+多了对同名包的选择功能，如果你本地的不同桶之间存在同名的包的话，<code data-v-243cf42e>scoop cat &lt;app&gt;</code>会自动选择第一个找到的包，而 <code data-v-243cf42e>hok cat &lt;app&gt;</code> 则会列出所有同名包，让你自己选择。</p> <div class="saber-highlight" data-lang="" data-v-243cf42e><pre class="saber-highlight-code language-text" data-v-243cf42e><code class="language-text" data-v-243cf42e>$ hok cat --help
+❯ hok cat
+Inspect the manifest of a package
+
+Usage: hok.exe cat &lt;package&gt;
+
+Arguments:
+  &lt;package&gt;  Name of the package to be inspected
+
+Options:
+  -h, --help  Print help
+
+$ hok cat git
+Found multiple packages named 'git':
+
+  0. dorado/git (https://gitforwindows.org)
+  1. main/git (https://gitforwindows.org)
+
+Please select one, enter the number to continue: 0</code></pre></div><p data-v-243cf42e>同名包的选择功能在 <code data-v-243cf42e>hok home</code> 等其它命令中也同样存在。</p> <h3 id="hok-cleanup" data-v-243cf42e>hok cleanup</h3> <p data-v-243cf42e>清理命令，对应 <code data-v-243cf42e>scoop cleanup</code>。Hok 暂未实现 cleanup 功能，所以在这里它只是个 placeholder。</p> <div class="saber-highlight" data-lang="" data-v-243cf42e><pre class="saber-highlight-code language-text" data-v-243cf42e><code class="language-text" data-v-243cf42e>$ hok cleanup --help
+Cleanup apps by removing old versions
+
+Usage: hok.exe cleanup [OPTIONS] [app]...
+
+Arguments:
+  [app]...  Given named app(s) to be cleaned up
+
+Options:
+  -k, --cache  Remove download cache simultaneously
+  -h, --help   Print help</code></pre></div><h3 id="hok-config" data-v-243cf42e>hok config</h3> <p data-v-243cf42e>配置管理命令。Scoop 使用 <code data-v-243cf42e>scoop config</code> 展示配置，Hok 使用 <code data-v-243cf42e>hok config list</code> 以
+JSON 格式展示。Scoop 使用 <code data-v-243cf42e>scoop config &lt;key&gt; &lt;value&gt;</code> 设置配置，Hok 使用
+<code data-v-243cf42e>hok config set &lt;key&gt; &lt;value&gt;</code> 来设置配置，Scoop 允许给任意 <code data-v-243cf42e>key</code> 设置值，而 Hok
+会检查 <code data-v-243cf42e>key</code> 是否合法。Scoop 使用 <code data-v-243cf42e>scoop config rm &lt;key&gt;</code> 删除配置，Hok 使用
+<code data-v-243cf42e>hok config unset &lt;key&gt;</code> 来删除配置。</p> <div class="saber-highlight" data-lang="" data-v-243cf42e><pre class="saber-highlight-code language-text" data-v-243cf42e><code class="language-text" data-v-243cf42e>$ hok config --help
+Configuration management
+
+Usage: hok.exe config [COMMAND]
+
+Commands:
+  edit   Edit the config file [default editor: notepad]
+  list   List all settings in key-value
+  set    Add a new setting to the config file
+  unset  Remove a setting from config file
+  help   Print this message or the help of the given subcommand(s)
+
+Options:
+  -h, --help  Print help</code></pre></div><p data-v-243cf42e>Hok 支持使用 <code data-v-243cf42e>hok config edit</code> 命令调用外部编辑器来编辑配置文件。Hok 会使用环境变量
+<code data-v-243cf42e>EDITOR</code> 的值作为调用的编辑器，比如设置了 <code data-v-243cf42e>EDITOR=nano</code>，<code data-v-243cf42e>nano</code> 就会被用作打开配置的编辑器。如果没有 <code data-v-243cf42e>EDITOR</code> 环境变量，Hok 会使用 <code data-v-243cf42e>notepad</code> 来打开配置文件。</p> <Photoswipe auto="" data-v-243cf42e><figure data-type="image" data-pswp="true" itemscope="itemscope" itemprop="associatedMedia" itemtype="http://schema.org/ImageObject" data-v-243cf42e><img alt="直接调用 nano 编辑配置文件" data-pswp-title="直接调用 nano 编辑配置文件" loading="lazy" src="/_saber/images/20230810001.e4139812.webp"><figcaption data-v-243cf42e>直接调用 nano 编辑配置文件</figcaption></figure></Photoswipe> <p data-v-243cf42e>Hok 完全继承并兼容 Scoop 的配置文件，虽然 Hok 不会去使用其中如 aria2 等的配置项，但是为了兼容性 Hok 支持解析和编辑这些配置。Hok 甚至已经率先支持 portable config
+file<sup class="footnote-ref" data-v-243cf42e><a href="/blog/reimplementing-scoop-in-rust#fn9" id="fnref9">[9]</a></sup>。</p> <h3 id="hok-holdunhold" data-v-243cf42e>hok hold/unhold</h3> <p data-v-243cf42e>包锁定/解锁命令，对应 <code data-v-243cf42e>scoop hold/unhold</code>。Hok 的 <code data-v-243cf42e>hold</code> 和 <code data-v-243cf42e>unhold</code> 命令均与
+Scoop 对应命令的用法一致。</p> <div class="saber-highlight" data-lang="" data-v-243cf42e><pre class="saber-highlight-code language-text" data-v-243cf42e><code class="language-text" data-v-243cf42e>$ hok hold --help
+Hold package(s) to disable changes
+
+Usage: hok.exe hold &lt;package&gt;...
+
+Arguments:
+  &lt;package&gt;...  The package(s) to be held
+
+Options:
+  -h, --help  Print help
+
+$ hok unhold --help
+Unhold package(s) to enable changes
+
+Usage: hok.exe unhold &lt;package&gt;...
+
+Arguments:
+  &lt;package&gt;...  The package(s) to be unheld
+
+Options:
+  -h, --help  Print help</code></pre></div><h3 id="hok-home" data-v-243cf42e>hok home</h3> <p data-v-243cf42e>打开包主页的命令。Hok 的 <code data-v-243cf42e>home</code> 命令与 Scoop 对应命令的用法一致，但是 <code data-v-243cf42e>hok home</code>
+多了对同名包的选择功能，具体说明见上文 <code data-v-243cf42e>hok cat</code>。</p> <div class="saber-highlight" data-lang="" data-v-243cf42e><pre class="saber-highlight-code language-text" data-v-243cf42e><code class="language-text" data-v-243cf42e>$ hok home --help
+Browse the homepage of a package
+
+Usage: hok.exe home &lt;package&gt;
+
+Arguments:
+  &lt;package&gt;  The package name
+
+Options:
+  -h, --help  Print help
+
+$ hok home pixitracker
+Found multiple packages named 'pixitracker':
+
+  0. dorado/pixitracker (https://www.warmplace.ru/soft/pixitracker/)
+  1. extras/pixitracker (https://warmplace.ru/soft/pixitracker/)
+
+Please select one, enter the number to continue: 1</code></pre></div><h3 id="hok-info" data-v-243cf42e>hok info</h3> <p data-v-243cf42e>包信息命令，对应 <code data-v-243cf42e>scoop info</code>。Hok 的 <code data-v-243cf42e>info</code> 命令与 Scoop 对应命令有所不同，
+<code data-v-243cf42e>scoop info &lt;app&gt;</code> 只会精确匹配包名，而 <code data-v-243cf42e>hok info &lt;query&gt;</code> 中的 <code data-v-243cf42e>query</code> 是一个正则表达式入参，当输入 <code data-v-243cf42e>hok info git</code> 时会列出所有包名中包含 <code data-v-243cf42e>git</code> 的包的信息。</p> <div class="saber-highlight" data-lang="" data-v-243cf42e><pre class="saber-highlight-code language-text" data-v-243cf42e><code class="language-text" data-v-243cf42e>$ hok info --help
+Show package(s) basic information
+
+Usage: hok.exe info &lt;query&gt;
+
+Arguments:
+  &lt;query&gt;  The query string (regex supported)
+
+Options:
+  -h, --help  Print help</code></pre></div><h3 id="hok-install" data-v-243cf42e>hok install</h3> <p data-v-243cf42e>包安装命令。在对包的安装、更新、卸载操作上，Hok 有着一套相对于 Scoop 改动比较大的设计，这也是 Hok 及其背后的 libscoop 之于 Scoop 区别最大的部分。依托于这部分设计改动，
+Hok 得以实现对同名包的选择与替换、锁定包强制更新等功能。</p> <div class="saber-highlight" data-lang="" data-v-243cf42e><pre class="saber-highlight-code language-text" data-v-243cf42e><code class="language-text" data-v-243cf42e>$ hok install --help
+Install package(s)
+
+Usage: hok.exe install [OPTIONS] &lt;package&gt;...
+
+Arguments:
+  &lt;package&gt;...  The package(s) to install
+
+Options:
+  -d, --download-only   Download package(s) without performing installation
+  -f, --ignore-failure  Ignore failures to ensure a complete transaction
+  -o, --offline         Leverage cache and suppress network access
+  -y, --assume-yes      Assume yes to all prompts and run non-interactively
+  -D, --ignore-cache    Ignore cache and force download
+  -I, --independent     Do not install dependencies (may break packages)
+  -R, --no-replace      Do not replace package(s)
+  -S, --escape-hold     Escape hold to allow changes on held package(s)
+  -U, --no-upgrade      Do not upgrade package(s)
+      --no-hash-check   Skip package integrity check
+  -h, --help            Print help</code></pre></div><p data-v-243cf42e>但是截至目前 libscoop 在这部分功能的实现上还不完整，所以 Hok 的 <code data-v-243cf42e>install</code>
+命令也是不完整的，一些参数的功能也还未实现。具体实现到什么程度，可以自行体验或者查看源码和 CHANGELOG。<code data-v-243cf42e>hok install &lt;package&gt;</code> 中的 <code data-v-243cf42e>package</code> 同样支持 Scoop
+那样的桶前缀指定，比如 <code data-v-243cf42e>dorado/git</code>。</p> <div class="saber-highlight" data-lang="" data-v-243cf42e><pre class="saber-highlight-code language-text" data-v-243cf42e><code class="language-text" data-v-243cf42e>$ hok install git -DS
+Resolving packages...
+Found multiple candidates for package 'git':
+
+  0: dorado/git
+  1: main/git
+
+Please select one, enter the number to continue: 1
+Calculating download size...
+The following packages will be REPLACED:
+  doradomain/git
+
+Total download size: 55 MB
+
+Do you want to continue? [y/N]: n
+Not implemented yet.</code></pre></div><h3 id="hok-list" data-v-243cf42e>hok list</h3> <p data-v-243cf42e>已安装包的列表命令。Hok 的 <code data-v-243cf42e>list</code> 命令与 Scoop 对应命令的基础用法一致，同时提供复杂的筛选功能。<code data-v-243cf42e>hok list [query]</code> 中的 <code data-v-243cf42e>query</code> 是一个正则表达式入参，支持以正则表达式的方式对已安装包的列表进行筛选。同时 <code data-v-243cf42e>query</code> 还支持桶前缀指定。结合正则和桶前缀，可以实现诸如 <code data-v-243cf42e>hok list extras/</code>、<code data-v-243cf42e>hok list &quot;dorado/^[c|g]&quot;</code>、
+<code data-v-243cf42e>hok list main/git$</code> 这样的筛选。Hok 还支持使用 <code data-v-243cf42e>hok list --held</code> 查看被锁定的包。</p> <div class="saber-highlight" data-lang="" data-v-243cf42e><pre class="saber-highlight-code language-text" data-v-243cf42e><code class="language-text" data-v-243cf42e>$ hok list --help
+List installed package(s)
+
+Usage: hok.exe list [OPTIONS] [query]...
+
+Arguments:
+  [query]...  The query string (regex supported by default)
+
+Options:
+  -e, --explicit    Turn regex off and use explicit matching
+  -u, --upgradable  List upgradable package(s)
+  -H, --held        List held package(s)
+  -h, --help        Print help</code></pre></div><p data-v-243cf42e>Hok 将原本属于 <code data-v-243cf42e>scoop status</code> 的查看可更新包的功能移到了 <code data-v-243cf42e>hok list</code> 中，使用 <code data-v-243cf42e>hok list --upgradable</code> 可以查看可更新包的列表。</p> <div class="saber-highlight" data-lang="" data-v-243cf42e><pre class="saber-highlight-code language-text" data-v-243cf42e><code class="language-text" data-v-243cf42e>$ hok list dorado/^g --upgradable
+git/dorado 2.41.0.windows.1 -&gt; 2.41.0.windows.3 [held]
+gnupg-np/dorado 2.4.2 -&gt; 2.4.3</code></pre></div><h3 id="hok-search" data-v-243cf42e>hok search</h3> <p data-v-243cf42e>包搜索命令。搜索功能可以说是整个 Hok 项目的核心，也是因为 Scoop 的搜索效率问题，才有了 libscoop 和 Hok。Hok 的 <code data-v-243cf42e>search</code> 命令与 Scoop 对应命令的不同点在于，
+<code data-v-243cf42e>scoop search</code> 会远程搜索那些没有挂载到本地的官方桶，<code data-v-243cf42e>hok search</code> 只会搜索本地桶。另外，<code data-v-243cf42e>scoop search</code> 强制对包名、包描述以及 shim 均进行匹配，而 <code data-v-243cf42e>hok search</code>
+默认只对包名进行匹配，提供 <code data-v-243cf42e>--with-description</code> 和 <code data-v-243cf42e>--with-binary</code> 选项来开关对
+shim 和包描述的匹配。这些调整为的都是最大化搜索效率。</p> <div class="saber-highlight" data-lang="" data-v-243cf42e><pre class="saber-highlight-code language-text" data-v-243cf42e><code class="language-text" data-v-243cf42e>$ hok search --help
+Search available package(s)
+
+Usage: hok.exe search [OPTIONS] &lt;query&gt;...
+
+Arguments:
+  &lt;query&gt;...  The query string (regex supported by default)
+
+Options:
+  -e, --explicit          Turn regex off and use explicit matching
+  -B, --with-binary       Search through package binaries as well
+  -D, --with-description  Search through package descriptions as well
+  -h, --help              Print help (see more with '--help')</code></pre></div><Photoswipe auto="" data-v-243cf42e><figure data-type="image" data-pswp="true" itemscope="itemscope" itemprop="associatedMedia" itemtype="http://schema.org/ImageObject" data-v-243cf42e><img alt="Benchmark of search" data-pswp-title="Benchmark of search" loading="lazy" src="/_saber/images/20230810002-7fd67b31.webp" srcset="/_saber/images/20230810002-7fd67b31.webp 1187w,/_saber/images/20230810002-b58b5fa7.webp 720w,/_saber/images/20230810002-23ad529f.webp 480w" width="1187" height="877"><figcaption data-v-243cf42e>Benchmark of search</figcaption></figure></Photoswipe> <p data-v-243cf42e>与 <code data-v-243cf42e>hok list</code> 一样，<code data-v-243cf42e>hok search &lt;query&gt;</code> 中的 <code data-v-243cf42e>query</code> 同样是一个正则表达式入参，支持正则搜索，可以使用 <code data-v-243cf42e>--explicit</code> 选项来关闭正则，转为使用精确匹配。同样的，这里的 <code data-v-243cf42e>query</code> 也支持桶前缀指定，也是一个变长入参，可以同时指定多个查询。</p> <div class="saber-highlight" data-lang="" data-v-243cf42e><pre class="saber-highlight-code language-text" data-v-243cf42e><code class="language-text" data-v-243cf42e>$ hok search minecraft extras/^clash ^git$
+clash-verge/extras 1.3.5
+clash.mini/extras 0.2.2
+git/dorado 2.41.0.windows.3 [installed: 2.41.0.windows.1]
+git/main 2.41.0.3
+minecraft/games nightly</code></pre></div><h3 id="hok-uninstall" data-v-243cf42e>hok uninstall</h3> <p data-v-243cf42e>包卸载命令。上文讲到，与 Scoop 相比，Hok 对包的安装、更新、卸载操作有较大改动。
+<code data-v-243cf42e>hok uninstall</code> 执行时默认会检查待卸载包的依赖关系，如果有其他包依赖待卸载包，则会终止卸载操作，避免破坏依赖。这应该是正常策略，只是 Scoop 好像没有考虑到这点。通过使用 <code data-v-243cf42e>--no-dependent-check</code> 可以关闭这个依赖检查，强制卸载待卸载包，这可能会导致其他包无法正常运行。</p> <div class="saber-highlight" data-lang="" data-v-243cf42e><pre class="saber-highlight-code language-text" data-v-243cf42e><code class="language-text" data-v-243cf42e>$ hok uninstall --help
+Uninstall package(s)
+
+Usage: hok.exe uninstall [OPTIONS] &lt;package&gt;...
+
+Arguments:
+  &lt;package&gt;...  The package(s) to uninstall
+
+Options:
+  -c, --cascade             Remove unneeded dependencies as well
+  -p, --purge               Purge package(s) persistent data as well
+  -y, --assume-yes          Assume yes to all prompts and run non-interactively
+      --no-dependent-check  Disable dependent check (may break other packages)
+  -S, --escape-hold         Escape hold to allow to uninstall held package(s)
+  -h, --help                Print help</code></pre></div><p data-v-243cf42e>默认情况下，被锁定的包无法被卸载，使用 <code data-v-243cf42e>--escape-hold</code> 可以绕过这个限制，强制卸载被锁定的包。此外，<code data-v-243cf42e>hok uninstall</code> 支持使用 <code data-v-243cf42e>--cascade</code> 选择开启「级联卸载」，这会在卸载包时同时检查其依赖，如果依赖包不再被其他已安装包依赖，则会一并卸载。
+<code data-v-243cf42e>--purge</code> 选项与 <code data-v-243cf42e>scoop uninstall --purge</code> 一致，用于卸载包时一并清理包的持久化数据。</p> <div class="saber-highlight" data-lang="" data-v-243cf42e><pre class="saber-highlight-code language-text" data-v-243cf42e><code class="language-text" data-v-243cf42e>$ hok uninstall swift --cascade
+Resolving packages...
+The following packages will be REMOVED:
+  dorado/swift-5.8.1  main/dark-3.11.2
+
+Do you want to continue? [y/N]: n</code></pre></div><p data-v-243cf42e>与 <code data-v-243cf42e>hok install</code> 一样，<code data-v-243cf42e>hok uninstall</code> 的主体功能尚未完整实现，请留意项目 CHANGELOG。</p> <h3 id="hok-update" data-v-243cf42e>hok update</h3> <p data-v-243cf42e>桶更新命令。Hok 的这个命令只保留了 <code data-v-243cf42e>scoop update</code> 里更新所有订阅到本地的桶的功能。</p> <div class="saber-highlight" data-lang="" data-v-243cf42e><pre class="saber-highlight-code language-text" data-v-243cf42e><code class="language-text" data-v-243cf42e>$ hok update --help
+Fetch and update subscribed buckets
+
+Usage: hok.exe update
+
+Options:
+  -h, --help  Print help</code></pre></div><h3 id="hok-upgrade" data-v-243cf42e>hok upgrade</h3> <p data-v-243cf42e>包更新命令。与 Scoop 的 <code data-v-243cf42e>scoop update</code> 更新包相对应的功能，在 Hok 中被移到了
+<code data-v-243cf42e>hok upgrade</code> 这里。<code data-v-243cf42e>hok upgrade</code> 类似于 <code data-v-243cf42e>scoop update *</code>，会更新所有已安装包，除了被锁定的包。被锁定的包可以通过 <code data-v-243cf42e>--escape-hold</code> 选项来强制更新。使用带参的
+<code data-v-243cf42e>hok upgrade [package]</code> 可更新指定的包。</p> <div class="saber-highlight" data-lang="" data-v-243cf42e><pre class="saber-highlight-code language-text" data-v-243cf42e><code class="language-text" data-v-243cf42e>$ hok upgrade --help
+Upgrade installed package(s)
+
+Usage: hok.exe upgrade [OPTIONS] [package]
+
+Arguments:
+  [package]  The package(s) to be upgraded (default: all except held)
+
+Options:
+  -f, --ignore-failure  Ignore failures to ensure a complete transaction
+  -o, --offline         Leverage cache and suppress network access
+  -y, --assume-yes      Assume yes to all prompts and run non-interactively
+  -S, --escape-hold     Escape hold to allow to upgrade held package(s)
+      --no-hash-check   Skip package integrity check
+  -h, --help            Print help</code></pre></div><p data-v-243cf42e>无论是 <code data-v-243cf42e>hok upgrade</code> 还是 <code data-v-243cf42e>hok install</code> 默认状态下都会结合本地下载缓存的情况预先获取并计算需要下载的文件大小，而通过 <code data-v-243cf42e>--offline</code> 选项可以关闭网络访问，强制只使用本地的下载缓存来安装或更新。但这取决于本地缓存的有效性，如若无效，安装或更新操作会失败。</p> <div class="saber-highlight" data-lang="" data-v-243cf42e><pre class="saber-highlight-code language-text" data-v-243cf42e><code class="language-text" data-v-243cf42e>$ hok upgrade git --escape-hold
+Resolving packages...
+Calculating download size...
+The following packages will be UPGRADED:
+  dorado/git-2.41.0.windows.3
+
+Nothing to download, all cached.
+
+Do you want to continue? [y/N]: n</code></pre></div><p data-v-243cf42e>以上就是 Hok 目前阶段提供的所有命令的介绍。通过这些介绍，应该可以大致了解到 Hok
+的开发思路。因为还在绝赞进行中，所以命令的功能还不完整，有些甚至还未实现，只是预留了个坑在那里。所以完全有可能会变化，还是那句请留意项目 CHANGELOG 以了解最新进展。</p> <hr data-v-243cf42e> <h2 id="为什么做" data-v-243cf42e>为什么做</h2> <p data-v-243cf42e>关于这个，在文章开头部分其实已经有所提及。一开始完全是因为 <code data-v-243cf42e>scoop search</code>
+的搜索效率问题，继而想去解决更多我个人使用 Scoop 时遇到的痛点。Hok 这个项目其实是「老坑新开」的，有心的可以去仓库翻 git log 了解一下，早在两年前我就已经下锄头挖坑了，只是中途断了一段时间，最近才又开始填坑。个中原因不便细说，反正是按自己需求来的个人项目，见步行步。</p> <h3 id="为什么不直接贡献-scoop" data-v-243cf42e>为什么不直接贡献 Scoop</h3> <p data-v-243cf42e>实话说，我作为 Scoop 的 maintainer team 成员之一，不去贡献 Scoop 而是自己写一个新的东西，这好像是有点说不过去。但是 Scoop 作为一个近 10 年的项目，拥有我觉得还挺庞大的用户量，我是不太能按个人想法去改动一些东西的，会很容易影响到其他用户。而且不是说一个 maintainer 就能确定发展方向，有积累的项目就会有惯性，想要改动一些东西也不是那么容易的。按自己的需求来做个新的相对容易推动些，另外这也算是个试验田，也许能在后续给 Scoop 带来一些反向作用力，进而反哺回去。</p> <h3 id="为什么是-rust" data-v-243cf42e>为什么是 Rust</h3> <p data-v-243cf42e>这似乎是个逃不开的话题，尤其是在好像「Rewrite Everything in Rust」被调侃成为一个梗之后。既然选择了 Rust 写 Hok，是要回答一下。理由其实很简单，我单纯想学 Rust，所以就用 Rust 来开坑了。这几年是切身感受到了 <code data-v-243cf42e>ripgrep</code>、<code data-v-243cf42e>bat</code>、<code data-v-243cf42e>hyperfine</code> 以及
+<code data-v-243cf42e>starship</code> 等项目给我带来的愉悦，也许这些项目背后的 Rust 语言不过是一个次要因素。这里并不是如那般狂热的 RIIR 信徒<sup class="footnote-ref" data-v-243cf42e><a href="/blog/reimplementing-scoop-in-rust#fn10" id="fnref10">[10]</a></sup>，因为不是用 Rust 写一遍就能解决所有问题，任何语言，背后关键的还是人和思想。Rust 的学习曲线也确实挺如网络上传说的那般陡峭，对于我这种仍未学会 C++ 的人来说更甚，真的是有「从入门到入门，到再三入门」的感受。而且学了没地方用，非常容易忘，我好像又忘了 Pin/Unpin 和一些其它的东西了。虽说如此，那个连续数年被评为最想学语言的 Rust 还是值得我去探索一下，学 Rust 后反过来再尝试读一些 C/C++ 的代码，至少我觉得会有一些帮助。</p> <p data-v-243cf42e>Hok 完全可以用其它语言来写。Scoop 是用 PowerShell 编写的，理论上用 PowerShell
+背后的 .NET/C# 来写会更方便和直接一些，甚至可以无缝过渡。PowerShell 直到 v7 才支持<code data-v-243cf42e>ForEach-Object -Parallel</code><sup class="footnote-ref" data-v-243cf42e><a href="/blog/reimplementing-scoop-in-rust#fn11" id="fnref11">[11]</a></sup>，Scoop 目前还得支持 v5 的 Windows PowerShell，所以继续用 PowerShell 改善 Scoop 的性能问题是有点技术包袱的。然后 Scoop 最近的一些优化改动，多少其实都在渐渐引入一些 .NET/C# 的接口，并非纯纯 PowerShell 实现。</p> <hr data-v-243cf42e> <h2 id="libscoop-的-roadmap" data-v-243cf42e>libscoop 的 roadmap</h2> <p data-v-243cf42e>Hok 项目的核心是其中的 libscoop 库，之所以抽出 libscoop 这层抽象，当然是为了后续
+hok-gui 甚至 hok-tui 的可能，不过这都是待定的事情，也不一定做（得出来）。目前短中期的路线图主要是完成 <code data-v-243cf42e>(un)install</code>/<code data-v-243cf42e>upgrade</code> 等核心命令的实现。这里面我认为的一大难点是如何处理那些带着一长串 PowerShell 脚本的包，这些脚本基本都是用来做一些复杂的安装卸载工作，而且这些脚本的上下文多少都是依赖于 Scoop 本身的。Scoop
+允许利用钩子脚本做一些额外的工作，却完全将其内部所有细节暴露了出来，导致不少
+manifest 有点滥用 Scoop 内部功能的情况。在 Rust 侧除了考虑是直接 Command call
+还是实现 native hosting 来执行这些脚本外，还得考虑如何提供这些执行上下文。另外
+shimming 如何处理以什么形式分发也是个问题。</p> <h2 id="结语" data-v-243cf42e>结语</h2> <p data-v-243cf42e>Hok 毕竟是一个实验性质的个人项目，但我想把它分享出来，收获一些正向反馈也好负向反馈也罢，至少有些作用力。埋头搞事只有输入没有输出的状态挺让人难受的，是需要些正反馈。</p> <p data-v-243cf42e>上一次写博客还是世界巨变的几年前，博客至少还在线哈哈。这是我这些年以来第三次写关于 Scoop 的内容，按这个越写越长的趋势，不知道还会不会有第四次呢。</p> <p data-v-243cf42e>如果你对 Hok 这个项目感兴趣，或者有什么想法，欢迎借由各种途径留言。</p> <p data-v-243cf42e>回见。</p> <hr class="footnotes-sep" data-v-243cf42e> <section class="footnotes" data-v-243cf42e><ol class="footnotes-list" data-v-243cf42e><li id="fn1" class="footnote-item" data-v-243cf42e><p data-v-243cf42e><a rel="noopener noreferrer" target="_blank" href="https://github.com/ScoopInstaller/Scoop/wiki/App-Manifests" data-v-243cf42e>https://github.com/ScoopInstaller/Scoop/wiki/App-Manifests</a> <a href="/blog/reimplementing-scoop-in-rust#fnref1" class="footnote-backref">↩︎</a></p></li> <li id="fn2" class="footnote-item" data-v-243cf42e><p data-v-243cf42e><a rel="noopener noreferrer" target="_blank" href="https://github.com/ScoopInstaller/Scoop#inspiration" data-v-243cf42e>https://github.com/ScoopInstaller/Scoop#inspiration</a> <a href="/blog/reimplementing-scoop-in-rust#fnref2" class="footnote-backref">↩︎</a></p></li> <li id="fn3" class="footnote-item" data-v-243cf42e><p data-v-243cf42e><a rel="noopener noreferrer" target="_blank" href="https://scoop.sh" data-v-243cf42e>A command-line installer for Windows.</a> <a href="/blog/reimplementing-scoop-in-rust#fnref3" class="footnote-backref">↩︎</a></p></li> <li id="fn4" class="footnote-item" data-v-243cf42e><p data-v-243cf42e><a rel="noopener noreferrer" target="_blank" href="https://github.com/ScoopInstaller/Scoop/issues/4239" data-v-243cf42e>https://github.com/ScoopInstaller/Scoop/issues/4239</a> <a href="/blog/reimplementing-scoop-in-rust#fnref4" class="footnote-backref">↩︎</a></p></li> <li id="fn5" class="footnote-item" data-v-243cf42e><p data-v-243cf42e><a rel="noopener noreferrer" target="_blank" href="https://github.com/ScoopInstaller/Scoop/commit/bea31895" data-v-243cf42e>https://github.com/ScoopInstaller/Scoop/commit/bea31895</a> <a href="/blog/reimplementing-scoop-in-rust#fnref5" class="footnote-backref">↩︎</a></p></li> <li id="fn6" class="footnote-item" data-v-243cf42e><p data-v-243cf42e><a rel="noopener noreferrer" target="_blank" href="https://github.com/shilangyu/scoop-search" data-v-243cf42e>https://github.com/shilangyu/scoop-search</a> <a href="/blog/reimplementing-scoop-in-rust#fnref6" class="footnote-backref">↩︎</a></p></li> <li id="fn7" class="footnote-item" data-v-243cf42e><p data-v-243cf42e><a rel="noopener noreferrer" target="_blank" href="https://github.com/ScoopInstaller/scoopinstaller.github.io-indexer" data-v-243cf42e>https://github.com/ScoopInstaller/scoopinstaller.github.io-indexer</a> <a href="/blog/reimplementing-scoop-in-rust#fnref7" class="footnote-backref">↩︎</a></p></li> <li id="fn8" class="footnote-item" data-v-243cf42e><p data-v-243cf42e><a rel="noopener noreferrer" target="_blank" href="https://github.com/ScoopInstaller/Scoop/blob/master/buckets.json" data-v-243cf42e>https://github.com/ScoopInstaller/Scoop/blob/master/buckets.json</a> <a href="/blog/reimplementing-scoop-in-rust#fnref8" class="footnote-backref">↩︎</a></p></li> <li id="fn9" class="footnote-item" data-v-243cf42e><p data-v-243cf42e><a rel="noopener noreferrer" target="_blank" href="https://github.com/ScoopInstaller/Scoop/pull/5369" data-v-243cf42e>https://github.com/ScoopInstaller/Scoop/pull/5369</a> <a href="/blog/reimplementing-scoop-in-rust#fnref9" class="footnote-backref">↩︎</a></p></li> <li id="fn10" class="footnote-item" data-v-243cf42e><p data-v-243cf42e><a rel="noopener noreferrer" target="_blank" href="https://github.com/ansuz/RIIR/issues/" data-v-243cf42e>https://github.com/ansuz/RIIR/issues/</a> <a href="/blog/reimplementing-scoop-in-rust#fnref10" class="footnote-backref">↩︎</a></p></li> <li id="fn11" class="footnote-item" data-v-243cf42e><p data-v-243cf42e><a rel="noopener noreferrer" target="_blank" href="https://devblogs.microsoft.com/powershell/powershell-foreach-object-parallel-feature/" data-v-243cf42e>https://devblogs.microsoft.com/powershell/powershell-foreach-object-parallel-feature/</a> <a href="/blog/reimplementing-scoop-in-rust#fnref11" class="footnote-backref">↩︎</a></p></li></ol></section></section> <!----></article> <footer data-v-2a81dca9 data-v-243cf42e><div class="container" data-v-2a81dca9><section class="section" data-v-2a81dca9><div class="copyright" data-v-2a81dca9>
+        © 2015-2023 Chawye Hsu. Made with <span style="font-family:sans-serif;color:#b30e2e" data-v-2a81dca9>❤︎</span> from Guangzhou
+      </div></section></div></footer></main></div></div><script src="/_saber/js/client.ffdbdfce.js" defer></script><script src="/_saber/js/page--_posts-2023-08-10-reimplementing-scoop-in-rust-md.57e29b58.js" defer></script></body></html>
