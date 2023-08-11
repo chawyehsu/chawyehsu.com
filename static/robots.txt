@@ -2,6 +2,7 @@ Sitemap: https://chawyehsu.com/sitemap.xml
 
 User-agent: *
 Disallow: /drafts
+Disallow: /*?utm=*
 
 User-agent: Googlebot-Image
 Disallow: /

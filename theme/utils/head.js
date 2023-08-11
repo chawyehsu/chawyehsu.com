@@ -57,6 +57,12 @@ export default vm => {
     meta: meta,
     htmlAttrs: {
       lang: lang
-    }
+    },
+    link: [
+      {
+        rel: 'canonical',
+        href: `${vm.$siteConfig.url}${vm.page.permalink}`
+      }
+    ]
   }
 }
