@@ -42,6 +42,10 @@
     {
       "source": "/api/disqus/(.*)",
       "destination": "https://disqus.com/api/$1"
+    },
+    {
+      "source": "/api/event(.*)",
+      "destination": "https://www.googletagmanager.com/gtag/js$1"
     }
   ],
   "redirects": [
