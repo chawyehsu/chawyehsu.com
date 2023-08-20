@@ -51,11 +51,6 @@
       "destination": "/blog/:slug"
     },
     {
-      "source": "/blog/:slug/",
-      "permanent": true,
-      "destination": "/blog/:slug"
-    },
-    {
       "source": "/blog/",
       "permanent": true,
       "destination": "/blog"
