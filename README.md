@@ -8,7 +8,6 @@
 [![generator][generator-badge]][generator-url]
 [![editor][editor-badge]][editor-url]
 [![repo][repo-badge]][repo-url]
-[![deps][deps-badge]][deps-url]
 
 This repository contains all the source code of Chawye Hsu's personal [website].
 You can also see the auto-generated deployable files at [gh-pages] branch.
@@ -70,14 +69,12 @@ accommodation.</em></sub>
 [deployment-badge]: https://img.shields.io/github/actions/workflow/status/chawyehsu/chawyehsu.com/deployment.yml?style=flat-square
 [status-url]: https://chawyehsu.com
 [status-badge]: https://img.shields.io/website-up-down-green-red/https/chawyehsu.com.svg?style=flat-square
-[webpagetest-url]: https://www.webpagetest.org/result/200301_J4_4d43e80f91ea9497254c7d167d809062/
-[webpagetest-badge]: https://img.shields.io/badge/WebPageTest-AAAAA-44CC11.svg?style=flat-square
-[generator-url]: https://saber.land/
+[webpagetest-url]: https://www.webpagetest.org/result/230820_AiDcV0_5MW/1/details/
+[webpagetest-badge]: https://img.shields.io/badge/WebPageTest-Not%20Bad-44CC11.svg?style=flat-square
+[generator-url]: https://github.com/saberland/saber
 [generator-badge]: https://img.shields.io/badge/Powered%20by-Saber-00838f.svg?style=flat-square
 [editor-url]: https://code.visualstudio.com
 [editor-badge]: https://img.shields.io/badge/build%20with-vscode-blue.svg?style=flat-square
-[deps-url]: https://github.com/chawyehsu/chawyehsu.com
-[deps-badge]: https://img.shields.io/david/chawyehsu/chawyehsu.com.svg?style=flat-square
 [repo-url]: https://github.com/chawyehsu/chawyehsu.com
 [repo-badge]: https://img.shields.io/github/repo-size/chawyehsu/chawyehsu.com.svg?style=flat-square&colorB=328657
 [website]: https://chawyehsu.com
