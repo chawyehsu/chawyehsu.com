@@ -5,7 +5,6 @@
     "silent": true
   },
   "cleanUrls": true,
-  "trailingSlash": false,
   "headers": [
     {
       "source": "/_saber/images/(.*)",
@@ -50,6 +49,31 @@
       "source": "/blog/:year/:month/:slug",
       "permanent": true,
       "destination": "/blog/:slug"
+    },
+    {
+      "source": "/blog/:slug/",
+      "permanent": true,
+      "destination": "/blog/:slug"
+    },
+    {
+      "source": "/blog/",
+      "permanent": true,
+      "destination": "/blog"
+    },
+    {
+      "source": "/guestbook/",
+      "permanent": true,
+      "destination": "/guestbook"
+    },
+    {
+      "source": "/links/",
+      "permanent": true,
+      "destination": "/links"
+    },
+    {
+      "source": "/about/",
+      "permanent": true,
+      "destination": "/about"
     }
   ]
 }
