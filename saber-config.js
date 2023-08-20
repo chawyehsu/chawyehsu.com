@@ -98,8 +98,9 @@ module.exports = {
       }
     },
     {
-      resolve: 'saber-plugin-ga-lite',
+      resolve: './packages/saber-plugin-ga4',
       options: {
+        gtagUrl: 'https://chawyehsu.com/api/event',
         trackId: 'G-3MTYZQ2JGB'
       }
     },

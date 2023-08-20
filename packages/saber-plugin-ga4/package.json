@@ -1,0 +1,24 @@
+{
+  "name": "saber-plugin-ga4",
+  "version": "0.1.0",
+  "description": "Google Analytics 4 for Saber",
+  "author": "Chawye Hsu <chawyehsu@hotmail.com>",
+  "homepage": "https://github.com/chawyehsu/chawyehsu.com#readme",
+  "license": "MIT",
+  "main": "index.js",
+  "files": [
+    "index.js",
+    "saber-browser.js"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chawyehsu/chawyehsu.com.git",
+    "directory": "packages/saber-plugin-ga4"
+  },
+  "keywords": [
+    "saber",
+    "analytics",
+    "plugin",
+    "static-site-generator"
+  ]
+}
