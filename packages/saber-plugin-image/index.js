@@ -1,4 +1,5 @@
 const { join } = require('path')
+const { parse } = require('querystring')
 
 const ID = 'images'
 
@@ -56,8 +57,16 @@ exports.apply = (api, options = {}) => {
                   child.tag = 'saber-image'
                   child.nesting = 1
 
+                  const src = child.attrGet('src')
+                  const querystring = parse(src.split('?')[1])
+                  Object.keys(querystring).forEach(key => {
+                    const query = querystring[key]
+                    if (query === 'true') querystring[key] = true
+                    if (query === 'false') querystring[key] = false
+                  })
+
                   // Native lazy loading
-                  if (options.lazyLoad) {
+                  if (options.lazyLoad && querystring.lazyLoad !== false) {
                     child.attrs.push(['loading', 'lazy'])
                   }
 
