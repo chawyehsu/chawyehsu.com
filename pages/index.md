@@ -7,8 +7,8 @@ comments: false
 nometa: true
 ---
 
-![北江. Oct 2021](./_assets/uploads/2021/10/20211015001.jpg)
-{.right}
+![北江. Oct 2021](./_assets/uploads/2021/10/20211015001.jpg?lazyLoad=false)
+{.right nolazy}
 
 欢迎来访……
 
