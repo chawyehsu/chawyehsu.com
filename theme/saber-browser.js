@@ -60,7 +60,9 @@ export default ({ Vue, setHead }) => {
       },
       {
         href: 'https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;700&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap',
-        rel: 'stylesheet'
+        rel: 'stylesheet',
+        media: 'print',
+        onload: `this.removeAttribute('media');this.onload=null;`
       }
     ],
     script: [
