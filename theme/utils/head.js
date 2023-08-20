@@ -52,6 +52,8 @@ export default vm => {
     })
   }
 
+  const canonical = `${vm.$siteConfig.url}${vm.page.permalink}`.replace(/\/+$/, '')
+
   return {
     title: title,
     meta: meta,
@@ -61,7 +63,7 @@ export default vm => {
     link: [
       {
         rel: 'canonical',
-        href: `${vm.$siteConfig.url}${vm.page.permalink}`
+        href: canonical
       }
     ]
   }
