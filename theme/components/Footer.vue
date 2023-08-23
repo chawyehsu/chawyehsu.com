@@ -2,6 +2,13 @@
   <footer>
     <div class="container">
       <section class="section">
+        <div class="links" v-if="$themeConfig.footer">
+          <ul>
+            <li :key="index" v-for="(item, index) in $themeConfig.footer.links">
+              <saber-link :to="item.path" v-text="item.name"></saber-link>
+            </li>
+          </ul>
+        </div>
         <!-- &#xfe0e; to prevent rendering ❤︎ as an emoji in iOS/Android -->
         <div class="copyright">
           © {{ siteDate }} {{ $siteConfig.author }}. Made with <span style="font-family:sans-serif;color:#b30e2e">❤&#xfe0e;</span> from Guangzhou
@@ -41,6 +48,13 @@ footer {
 }
 footer .section {
   text-align: center;
+}
+footer .links ul {
+  margin: 0;
+}
+footer .links li {
+  display: inline-block;
+  margin-left: 0.5em;
 }
 /* > 767px */
 @media screen and (min-width: 768px) {

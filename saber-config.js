@@ -48,14 +48,22 @@ module.exports = {
         {
           name: '订阅 - Subscribe',
           path: '/feed'
+        }
+      ]
+    },
+    footer: {
+      links: [
+        {
+          name: 'Twitter',
+          path: 'https://twitter.com/chawyehsu'
         },
         {
           name: 'Instagram',
           path: 'https://www.instagram.com/chawyehsu'
         },
         {
-          name: 'Twitter',
-          path: 'https://twitter.com/chawyehsu'
+          name: 'Privacy Policy',
+          path: '/legal/privacy'
         }
       ]
     }
