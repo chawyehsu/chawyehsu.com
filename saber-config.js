@@ -151,7 +151,7 @@ module.exports = {
       }
     },
     {
-      resolve: 'saber-plugin-prismjs'
+      resolve: '@alterjs/saber-plugin-prismjs'
     },
     {
       resolve: 'saber-plugin-query-posts',
