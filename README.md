@@ -71,8 +71,8 @@ accommodation.</em></sub>
 [status-badge]: https://img.shields.io/website-up-down-green-red/https/chawyehsu.com.svg?style=flat-square
 [webpagetest-url]: https://www.webpagetest.org/result/230820_AiDcV0_5MW/1/details/
 [webpagetest-badge]: https://img.shields.io/badge/WebPageTest-Not%20Bad-44CC11.svg?style=flat-square
-[generator-url]: https://github.com/saberland/saber
-[generator-badge]: https://img.shields.io/badge/Powered%20by-Saber-00838f.svg?style=flat-square
+[generator-url]: https://github.com/chawyehsu/saber
+[generator-badge]: https://img.shields.io/badge/Powered%20by-Saber%20Alter-2B2F42.svg?style=flat-square
 [editor-url]: https://code.visualstudio.com
 [editor-badge]: https://img.shields.io/badge/build%20with-vscode-blue.svg?style=flat-square
 [repo-url]: https://github.com/chawyehsu/chawyehsu.com
