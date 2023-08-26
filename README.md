@@ -6,7 +6,6 @@
 [![status][status-badge]][status-url]
 [![webpagetest][webpagetest-badge]][webpagetest-url]
 [![generator][generator-badge]][generator-url]
-[![editor][editor-badge]][editor-url]
 [![repo][repo-badge]][repo-url]
 
 This repository contains all the source code of Chawye Hsu's personal [website].
@@ -73,8 +72,6 @@ accommodation.</em></sub>
 [webpagetest-badge]: https://img.shields.io/badge/WebPageTest-Not%20Bad-44CC11.svg?style=flat-square
 [generator-url]: https://github.com/chawyehsu/saber
 [generator-badge]: https://img.shields.io/badge/Powered%20by-Saber%20Alter-2B2F42.svg?style=flat-square
-[editor-url]: https://code.visualstudio.com
-[editor-badge]: https://img.shields.io/badge/build%20with-vscode-blue.svg?style=flat-square
 [repo-url]: https://github.com/chawyehsu/chawyehsu.com
 [repo-badge]: https://img.shields.io/github/repo-size/chawyehsu/chawyehsu.com.svg?style=flat-square&colorB=328657
 [website]: https://chawyehsu.com
