@@ -6,9 +6,10 @@ updated: 2013-11-30 12:40:00
 draft: true
 hidden: true
 comments: false
+sitemap: false
 ---
 
-博客换上了正式的门牌号了：域名 [http://ihanabi.com](http://ihanabi.com)！
+博客换上了正式的门牌号了：域名 [http://ihanabi.com][1]！
 
 <!--more-->
 
@@ -24,3 +25,5 @@ comments: false
 一直以来都是以“花火”这个网名在网络中充当一名路人甲，自然就有了“hanabi”的关键字了，
 而能注册的比较好记的，也只有以“苹果命名法”了，那就“加个i”吧，于是，ihanabi诞生了！
 Orz。是不是很坑爹囧。
+
+[1]: https://web.archive.org/web/20140109122725/http://ihanabi.com/

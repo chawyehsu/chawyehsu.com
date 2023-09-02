@@ -6,6 +6,7 @@ updated: 2013-12-30 14:24:00
 draft: true
 hidden: true
 comments: false
+sitemap: false
 ---
 
 距离2014年仅有三两天的时间了，趁着今天刚考完汇编机试，就发篇文记一下流水账吧，哈

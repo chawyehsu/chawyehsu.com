@@ -6,6 +6,7 @@ updated: 2013-11-28 23:45:00
 draft: true
 hidden: true
 comments: false
+sitemap: false
 ---
 
 这两天到处找运行在BAE上的typecho怎样设置URL-Rewrite地址重写，来设置博客伪静态。
@@ -76,4 +77,4 @@ rewrite (.*) /index.php;
 
 PS：在SAE上运行Typecho的伪静态&常见问题可参考[Yovi's Blog][1]
 
-[1]: http://www.yovisun.com/sae-typecho-question-solution.html
+[1]: https://web.archive.org/web/20130429022549/http://www.yovisun.com/sae-typecho-question-solution.html

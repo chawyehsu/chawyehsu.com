@@ -6,6 +6,7 @@ updated: 2014-10-14 10:11:00
 draft: true
 hidden: true
 comments: false
+sitemap: false
 ---
 
 没评论，没 Webfont，没后台，没修 BUG，唯一有的是“简”、“太简”。。

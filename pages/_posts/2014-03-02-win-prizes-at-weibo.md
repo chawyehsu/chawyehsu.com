@@ -6,6 +6,7 @@ updated: 2014-03-02 18:19:00
 draft: true
 hidden: true
 comments: false
+sitemap: false
 ---
 
 博客再不更新就发霉了么=w=，感觉最近没啥好更的啊。。（懒鬼别找借口！

@@ -6,6 +6,7 @@ updated: 2014-01-13 19:12:00
 draft: true
 hidden: true
 comments: false
+sitemap: false
 ---
 
 提到轻量级编程编辑器，自然会有很多话题了，比如编辑器的选择，编辑器的设置调教什么的。

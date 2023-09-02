@@ -6,6 +6,7 @@ updated: 2014-05-29 16:49:00
 draft: true
 hidden: true
 comments: false
+sitemap: false
 ---
 
 一般来说，大多数的网站并不会或不希望让用户浏览到网站的目录。要是一个网站被用户浏览

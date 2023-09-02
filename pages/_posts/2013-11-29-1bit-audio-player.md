@@ -6,6 +6,7 @@ updated: 2013-11-29 12:28:00
 draft: true
 hidden: true
 comments: false
+sitemap: false
 ---
 
 测试一下新发现的“世界最小的 MP3 播放器”：1bit-audio-player，还真是迷你，

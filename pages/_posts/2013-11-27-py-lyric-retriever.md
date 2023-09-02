@@ -6,6 +6,7 @@ updated: 2013-11-27 14:36:00
 draft: true
 hidden: true
 comments: false
+sitemap: false
 ---
 
 经常听日语歌的童鞋应该有过这样的经历：咦，这歌播放器找不到歌词？百度一下，找到一些

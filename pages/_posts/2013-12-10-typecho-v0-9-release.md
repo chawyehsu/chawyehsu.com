@@ -6,6 +6,7 @@ updated: 2013-12-10 13:47:00
 draft: true
 hidden: true
 comments: false
+sitemap: false
 ---
 
 **念念不忘，必有回响**  三年 Typecho 沉淀，现在，

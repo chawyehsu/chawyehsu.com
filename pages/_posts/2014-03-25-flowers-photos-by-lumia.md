@@ -6,6 +6,7 @@ updated: 2014-03-25 18:58:00
 draft: true
 hidden: true
 comments: false
+sitemap: false
 ---
 
 一个屌丝拿着Lumia820在校道上用着奇怪的蹲姿拍着盛开的花，原图无修。

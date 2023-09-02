@@ -6,6 +6,7 @@ updated: 2014-01-01 17:17:00
 draft: true
 hidden: true
 comments: false
+sitemap: false
 ---
 
 大二上学期选修电子工艺或者通信原理，于是果断和几个机油选了电子工艺课，因为不用考

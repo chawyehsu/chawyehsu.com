@@ -6,6 +6,7 @@ updated: 2014-01-06 11:23:00
 draft: true
 hidden: true
 comments: false
+sitemap: false
 ---
 
 Q：[《IT 人的病痛》][1]一文中提到许多IT人的健康问题（其实不光是IT人有），对于你所

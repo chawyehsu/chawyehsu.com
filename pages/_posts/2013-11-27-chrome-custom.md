@@ -6,6 +6,7 @@ updated: 2013-11-27 14:09:00
 draft: true
 hidden: true
 comments: false
+sitemap: false
 ---
 
 当前的博客主题(Banri)的CSS也采用了这个样式的一部分,那么下面直接就贴代码吧，囧rz

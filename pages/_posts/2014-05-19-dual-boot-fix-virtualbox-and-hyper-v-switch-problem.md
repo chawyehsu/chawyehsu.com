@@ -6,6 +6,7 @@ updated: 2014-05-19 22:04:00
 draft: true
 hidden: true
 comments: false
+sitemap: false
 ---
 
 ### 问题描叙

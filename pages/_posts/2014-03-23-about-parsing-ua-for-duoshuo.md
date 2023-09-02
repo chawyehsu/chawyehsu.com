@@ -6,6 +6,7 @@ updated: 2014-03-23 16:51:00
 draft: true
 hidden: true
 comments: false
+sitemap: false
 ---
 
 最近博客莫名其妙地多了十来个来自多说的访客，从统计去查看才发现有童鞋去多说讨论区发

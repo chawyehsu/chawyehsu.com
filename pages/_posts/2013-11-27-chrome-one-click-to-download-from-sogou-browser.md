@@ -6,6 +6,7 @@ updated: 2013-11-27 13:51:00
 draft: true
 hidden: true
 comments: false
+sitemap: false
 ---
 
 卡饭大神 xplsy 参考卡饭 Opera 区一键通 Opera 移植版做的 chrome 版，

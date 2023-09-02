@@ -6,6 +6,7 @@ updated: 2013-12-05 09:02:00
 draft: true
 hidden: true
 comments: false
+sitemap: false
 ---
 
 在BAE折腾了几天，虽然还算稳定，只是滥用越来越严重，速度慢下来不说，总有些时候搞个
