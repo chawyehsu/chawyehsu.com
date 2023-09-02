@@ -20,7 +20,7 @@ nometa: true
 - [GitHub] / [Instagram] / [Twitter] / [NeteaseCloudMusic] / [Telegram] / [Steam]
 
 当然你可以通过上面所列的社交媒体找到并联系我。我每天会看电子邮箱，所以更好的方法是
-通过[邮件](mailto:chawyehsu@hotmail.com)联系。
+通过[邮件][1]联系。
 
 ![我的生产力工具：Leopold fc660m](./_assets/uploads/2019/07/20190720001.jpg)
 
@@ -59,7 +59,7 @@ nometa: true
 内容，意味着您侵犯了我们的版权。如果您对具体内容授权存在疑问，欢迎在引用内容之前通
 过电子邮件联系我们。
 
-
+[1]: mailto:su+blog@chawyehsu.com
 [GitHub]: https://github.com/chawyehsu
 [NeteaseCloudMusic]: http://music.163.com/#/user/home?id=35631431
 [Telegram]: https://t.me/chawyehsu
