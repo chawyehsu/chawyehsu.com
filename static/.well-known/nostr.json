@@ -1,0 +1,15 @@
+{
+  "names": {
+    "_": "c5fae265f36e5917344d7b1359ff7af166c4df6fd6a58c73f73f0cf3310f8327"
+  },
+  "relays": {
+    "c5fae265f36e5917344d7b1359ff7af166c4df6fd6a58c73f73f0cf3310f8327": [
+      "wss://nos.lol",
+      "wss://realy.damus.io",
+      "wss://relay.primal.net",
+      "wss://relay.nostr.band",
+      "wss://nostr.mom",
+      "wss://nostr.wine"
+    ]
+  }
+}
