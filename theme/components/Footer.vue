@@ -52,7 +52,7 @@ footer {
 .map-guangzhou {
   height: 20px;
   vertical-align: middle;
-  fill: var(--color-text-primary);
+  fill: var(--color-text-tertiary);
 }
 footer .section {
   text-align: center;
