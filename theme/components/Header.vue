@@ -3,13 +3,11 @@
     <header>
       <div class="logo-outer flex">
         <a class="inline-block" :href="$themeConfig.header.logo_url" :title="$siteConfig.title">
-            <svg class="logo block" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 512 512">
-              <path fill="#000" d="M0 0h512v512H0z"/>
-              <path fill="#fff" d="M39 39h104.423v34.808H39zM431.712 262.154h34.808V471h-34.808zM348.173 349.173h83.538v34.808h-83.538zM313.365 262.154h34.808V471h-34.808z"/>
-              <g>
-                <path fill="#fff" d="M247.231 296.962h34.808v34.808h-34.808zM160.212 262.154h87.019v34.808h-87.019zM247.231 401.385h34.808v34.808h-34.808zM160.212 436.192h87.019V471h-87.019zM125.404 296.962h34.808v139.231h-34.808z"/>
-              </g>
-            </svg>
+          <svg class="logo block" fill="none" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+            <path d="M0 0h512v512H0z" fill="#000"/>
+            <path d="M39 39h104.423v34.808H39zM431.712 262.154h34.808V471h-34.808zM348.173 349.173h83.538v34.808h-83.538zM313.365 262.154h34.808V471h-34.808z" fill="#fff"/>
+            <path d="m247.23 296.96h34.808v34.808h-34.808zm-87.019-34.808h87.019v34.808h-87.019zm87.019 139.23h34.808v34.808h-34.808zm-87.019 34.807h87.019v34.808h-87.019zm-34.808-139.23h34.808v139.23h-34.808z" fill="#fff"/>
+          </svg>
         </a>
       </div>
       <div class="burger-outer">
