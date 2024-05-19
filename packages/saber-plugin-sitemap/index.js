@@ -1,6 +1,6 @@
 const url = require('url')
 const path = require('path')
-const ejs = require('ejs')
+const ejs = require('./lib/ejs')
 
 const ID = 'generate-sitemap'
 
