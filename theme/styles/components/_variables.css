@@ -7,13 +7,13 @@
    */
   /* -> Primary font */
   --font-family:
-    'PT Sans',
+    "PT Sans",
+    ui-sans-serif,
     system-ui,
-    'Noto Sans SC',
-    -apple-system,
+    "HarmonyOS Sans SC",
+    "Noto Sans CJK SC",
+    "Noto Sans SC",
     "Segoe UI",
-    Helvetica,
-    Arial,
     sans-serif,
     "Apple Color Emoji",
     "Segoe UI Emoji";
@@ -27,7 +27,7 @@
     monospace;
   /* This is for the quote mark of a blockquote */
   --font-family-quotemark:
-    'Times New Roman',
+    "Times New Roman",
     Times,
     serif;
   /**
