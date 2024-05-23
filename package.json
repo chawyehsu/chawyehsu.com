@@ -37,5 +37,8 @@
   ],
   "volta": {
     "node": "16.20.2"
+  },
+  "devDependencies": {
+    "@vue/runtime-dom": "^3.4.27"
   }
 }

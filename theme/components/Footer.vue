@@ -45,7 +45,6 @@ export default {
 <style scoped>
 footer {
   padding: var(--gap-l) 0;
-  background: var(--color-background);
   color: var(--color-text-primary);
   font-size: var(--font-size-small);
 }
