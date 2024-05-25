@@ -12,10 +12,10 @@
   resolved "https://registry.yarnpkg.com/@alterjs/saber-plugin-prismjs/-/saber-plugin-prismjs-0.12.0.tgz#836ad3c7bf07aacc94a3b88577c410668e9c70ab"
   integrity sha512-6Z49OZ+iM065bh34GGRCr5Wj1wqQUwA+ogoknZb6IC1nIxJ/IwEfyV+EUeSZI5u7qmFZY5EW1uCNWtGGkD2j1Q==
 
-"@alterjs/saber@^0.12.0":
-  version "0.12.0"
-  resolved "https://registry.yarnpkg.com/@alterjs/saber/-/saber-0.12.0.tgz#6d4e1fc9cbaa3bc96ff08644906b6f6fa6e214f7"
-  integrity sha512-m+svGC0P80vqeqEsb66q9C7crM+N6M8zoi2kQWI4d3JfM7pbmkTvCnzsOSBOLst455Q/A54XookEIHFhV0PwSA==
+"@alterjs/saber@^0.12.1":
+  version "0.12.1"
+  resolved "https://registry.yarnpkg.com/@alterjs/saber/-/saber-0.12.1.tgz#83c20557a227b979c9f148ff70848b79b7a3a2a1"
+  integrity sha512-taA+2LIxHB4MghiNq1LpQyDGwAQ3PeitYpdWRl7k7wvAQ7rTB+GN4CBWIT0vdL+BNexI+guo1krjHMpJ0KsiHQ==
   dependencies:
     "@alterjs/saber-markdown" "^0.12.0"
     "@babel/parser" "^7.22.11"
@@ -58,7 +58,7 @@
     vue-router-prefetch "^1.6.3"
     vue-server-renderer "2.6.14"
     vue-template-compiler "2.6.14"
-    webpack "^4.46.0"
+    webpack "^4.47.0"
     webpack-chain "^6.5.1"
     webpack-dev-middleware "5.2.2"
     webpack-hot-middleware "^2.25.4"
@@ -5472,10 +5472,10 @@ webpack-sources@^1.1.0, webpack-sources@^1.4.0, webpack-sources@^1.4.1, webpack-
     source-list-map "^2.0.0"
     source-map "~0.6.1"
 
-webpack@^4.46.0:
-  version "4.46.0"
-  resolved "https://registry.yarnpkg.com/webpack/-/webpack-4.46.0.tgz#bf9b4404ea20a073605e0a011d188d77cb6ad542"
-  integrity sha512-6jJuJjg8znb/xRItk7bkT0+Q7AHCYjjFnvKIWQPkNIOyRqoCGvkOs0ipeQzrqz4l5FtN5ZI/ukEHroeX/o1/5Q==
+webpack@^4.47.0:
+  version "4.47.0"
+  resolved "https://registry.yarnpkg.com/webpack/-/webpack-4.47.0.tgz#8b8a02152d7076aeb03b61b47dad2eeed9810ebc"
+  integrity sha512-td7fYwgLSrky3fI1EuU5cneU4+pbH6GgOfuKNS1tNPcfdGinGELAqsb/BP4nnvZyKSG2i/xFGU7+n2PvZA8HJQ==
   dependencies:
     "@webassemblyjs/ast" "1.9.0"
     "@webassemblyjs/helper-module-context" "1.9.0"
