@@ -3138,10 +3138,10 @@ map-visit@^1.0.0:
   dependencies:
     object-visit "^1.0.0"
 
-markdown-it-abbr@1.0.4:
-  version "1.0.4"
-  resolved "https://registry.yarnpkg.com/markdown-it-abbr/-/markdown-it-abbr-1.0.4.tgz#d66b5364521cbb3dd8aa59dadfba2fb6865c8fd8"
-  integrity sha1-1mtTZFIcuz3Yqlna37ovtoZcj9g=
+markdown-it-abbr@2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/markdown-it-abbr/-/markdown-it-abbr-2.0.0.tgz#aa01d8ff23ebf672f9a7db02a974e59254ce7acb"
+  integrity sha512-of7C8pXSjXjDojW4neNP+jD7inUYH/DO0Ca+K/4FUEccg0oHAEX/nfscw0jfz66PJbYWOAT9U8mjO21X5p6aAw==
 
 markdown-it-attrs@4.2.0:
   version "4.2.0"
