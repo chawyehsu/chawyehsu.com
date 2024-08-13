@@ -16,10 +16,8 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v2
       # setup node.js
-      - name: Setup Node
-        uses: actions/setup-node@v3
-        with:
-          node-version: 16.x
+      - name: Setup Node (via Volta)
+        uses: volta-cli/action@v4
       # find yarn cache
       - name: Get yarn cache path
         id: yarn-cache
