@@ -145,16 +145,13 @@ module.exports = {
       }
     },
     {
-      resolve: 'saber-plugin-feed',
+      resolve: '@alterjs/saber-plugin-feed',
       options: {
         atomFeed: '/feed/atom.xml'
       }
     },
     {
-      resolve: '@alterjs/saber-plugin-prismjs'
-    },
-    {
-      resolve: 'saber-plugin-query-posts',
+      resolve: '@alterjs/saber-plugin-query-posts',
       options: {
         permalinks: {
           category: '/blog/category/:name',

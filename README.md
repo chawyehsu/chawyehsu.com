@@ -1,19 +1,36 @@
-<img src="./static/_saber/images/icons/chawyehsu_128x128.svg" alt="Logo" width="128" height="128" align="right" />
-
 # chawyehsu.com
 
 [![deployment][deployment-badge]][deployment-url]
-[![status][status-badge]][status-url]
-[![webpagetest][webpagetest-badge]][webpagetest-url]
 [![generator][generator-badge]][generator-url]
 [![repo][repo-badge]][repo-url]
 
 This repository contains all the source code of Chawye Hsu's personal [website].
 You can also see the auto-generated deployable files at [gh-pages] branch.
 
+## Playground
+
+**Prerequisites:** Git, Nodejs, Yarn
+
+### Get the project
+
+```raw
+$ git clone https://github.com/chawyehsu/chawyehsu.com
+$ cd chawyehsu.com
+```
+
+### Run and play
+
+```sh
+# Bootstrap, install dependencies
+$ yarn
+# Start localhost dev server
+$ yarn dev
+# Serve 127.0.0.1:3000
+```
+
 ## Architecture
 
-```
+```raw
 
                         GitHub                 Preview,         DNS,
                       +---------+              Redirect,        Cache,
@@ -25,28 +42,6 @@ You can also see the auto-generated deployable files at [gh-pages] branch.
 +--------+        |        |          |        |        |       |            | Request |         |
                   +--------+----------+        +--------+       +------------+         +---------+
 
-```
-
-## Playground
-
-**Prerequisites:**  
-Git, Nodejs, Yarn
-
-### Get the project:
-
-``` sh
-$ git clone https://github.com/chawyehsu/chawyehsu.com
-$ cd chawyehsu.com
-```
-
-### Run and play:
-
-``` sh
-# Bootstrap, install dependencies
-$ yarn
-# Start localhost dev server
-$ yarn dev
-# Serve 127.0.0.1:3000
 ```
 
 ## Credits
@@ -65,15 +60,11 @@ accommodation.</em></sub>
 
 
 [deployment-url]: https://github.com/chawyehsu/chawyehsu.com/actions?query=workflow%3ADeployment
-[deployment-badge]: https://img.shields.io/github/actions/workflow/status/chawyehsu/chawyehsu.com/deployment.yml?style=flat-square
-[status-url]: https://chawyehsu.com
-[status-badge]: https://img.shields.io/website-up-down-green-red/https/chawyehsu.com.svg?style=flat-square
-[webpagetest-url]: https://www.webpagetest.org/result/230820_AiDcV0_5MW/1/details/
-[webpagetest-badge]: https://img.shields.io/badge/WebPageTest-Not%20Bad-44CC11.svg?style=flat-square
+[deployment-badge]: https://img.shields.io/github/actions/workflow/status/chawyehsu/chawyehsu.com/deployment.yml?style=flat&labelColor=121212&colorB=544D6B
 [generator-url]: https://github.com/chawyehsu/saber
-[generator-badge]: https://img.shields.io/badge/Powered%20by-Saber%20Alter-2B2F42.svg?style=flat-square
+[generator-badge]: https://img.shields.io/badge/Powered%20by-Saber%20Alter-544D6B.svg?style=flat&labelColor=121212&colorB=544D6B
 [repo-url]: https://github.com/chawyehsu/chawyehsu.com
-[repo-badge]: https://img.shields.io/github/repo-size/chawyehsu/chawyehsu.com.svg?style=flat-square&colorB=328657
+[repo-badge]: https://img.shields.io/github/repo-size/chawyehsu/chawyehsu.com.svg?style=flat&labelColor=121212&colorB=544D6B
 [website]: https://chawyehsu.com
 [gh-pages]: https://github.com/chawyehsu/chawyehsu.com/tree/gh-pages
 [daneden.me]: https://github.com/daneden/daneden.me
