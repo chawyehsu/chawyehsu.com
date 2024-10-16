@@ -6,6 +6,7 @@ description: >-
   Hok 是一个用 Rust 写的 Scoop 再实现，提供与 Scoop 类似的 CLI 接口，实现 Scoop
   已有的功能，如应用检索、安装卸载、列表与状态、桶管理等等
 date: 2023-08-10 22:31:43
+updated: 2023-08-10 22:31:43
 featured: true
 comments: false
 ---
