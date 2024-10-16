@@ -3,7 +3,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
     <loc>https://chawyehsu.com/blog/memory-about-code-lyoko</loc>
-    <lastmod>2024-10-16T15:23:24.437Z</lastmod>
+    <lastmod>2023-08-31T17:00:00.000Z</lastmod>
         <priority>0.6</priority>
         <changefreq>always</changefreq>
   </url>
@@ -15,13 +15,13 @@
   </url>
     <url>
     <loc>https://chawyehsu.com/blog/reimplementing-scoop-in-rust</loc>
-    <lastmod>2024-10-16T15:23:24.437Z</lastmod>
+    <lastmod>2023-08-10T14:31:43.000Z</lastmod>
         <priority>0.6</priority>
         <changefreq>always</changefreq>
   </url>
     <url>
     <loc>https://chawyehsu.com/projects</loc>
-    <lastmod>2024-10-16T15:23:24.437Z</lastmod>
+    <lastmod>2024-10-16T15:34:09.929Z</lastmod>
         <priority>0.6</priority>
         <changefreq>always</changefreq>
   </url>
