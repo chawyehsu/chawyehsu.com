@@ -5032,10 +5032,10 @@ tty-browserify@0.0.0:
   resolved "https://registry.yarnpkg.com/tty-browserify/-/tty-browserify-0.0.0.tgz#a157ba402da24e9bf957f9aa69d524eed42901a6"
   integrity sha512-JVa5ijo+j/sOoHGjw0sxw734b1LhBkQ3bvUGNdxnVXDCX81Yx7TFgnZygxrIIWn23hbfTaMYLwRmAxFyDuFmIw==
 
-tua-body-scroll-lock@1.5.1:
-  version "1.5.1"
-  resolved "https://registry.yarnpkg.com/tua-body-scroll-lock/-/tua-body-scroll-lock-1.5.1.tgz#1b8b7316dff55a821d5bec3fef045f995e7627a5"
-  integrity sha512-AOjusG9EjTGxqqL1xqg6JeMauJ+IQoX9ITW1qP7UugySUdH6lzi2CqJRmU+oYqOv7vCQjOs5CQrjIakGlbOenQ==
+tua-body-scroll-lock@1.5.3:
+  version "1.5.3"
+  resolved "https://registry.yarnpkg.com/tua-body-scroll-lock/-/tua-body-scroll-lock-1.5.3.tgz#3f1464d599aea4734f31e0754088acd42804e3e8"
+  integrity sha512-44W12iqek41kZuTdpEUt3JTUsMx0IxfTajXWfQyMLgzsPaMYUPZLcJkwa4P0x24h5DQ3lYvDuYvphBo4+L0t4w==
 
 tunnel-agent@^0.6.0:
   version "0.6.0"
