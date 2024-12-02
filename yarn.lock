@@ -3103,10 +3103,10 @@ markdown-it-abbr@2.0.0:
   resolved "https://registry.yarnpkg.com/markdown-it-abbr/-/markdown-it-abbr-2.0.0.tgz#aa01d8ff23ebf672f9a7db02a974e59254ce7acb"
   integrity sha512-of7C8pXSjXjDojW4neNP+jD7inUYH/DO0Ca+K/4FUEccg0oHAEX/nfscw0jfz66PJbYWOAT9U8mjO21X5p6aAw==
 
-markdown-it-attrs@4.2.0:
-  version "4.2.0"
-  resolved "https://registry.yarnpkg.com/markdown-it-attrs/-/markdown-it-attrs-4.2.0.tgz#a1affc41d7606697654d6025f733a80e96042aa0"
-  integrity sha512-m7svtUBythvcGFFZAv9VjMEvs8UbHri2sojJ3juJumoOzv8sdkx9a7W3KxiHbXxAbvL3Xauak8TMwCnvigVPKw==
+markdown-it-attrs@4.3.0:
+  version "4.3.0"
+  resolved "https://registry.yarnpkg.com/markdown-it-attrs/-/markdown-it-attrs-4.3.0.tgz#163f8fe459ea6986784524583049be884d43f668"
+  integrity sha512-SQpN8q5LCYtRNuzHaWVLThuJmArN+H3b+jykwaK8AS8XlxyosRvge/7wT9N0XaXCJ5STHGl3gAc6/PXx37cbiQ==
 
 markdown-it-cjk-breaks@1.1.3:
   version "1.1.3"
