@@ -1,6 +1,7 @@
 module.exports = {
   build: {
-    lazy: true
+    lazy: true,
+    extractCSS: true,
   },
   theme: "./theme",
   siteConfig: {
