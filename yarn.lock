@@ -2294,10 +2294,10 @@ tslib@^2.0.0:
   resolved "https://registry.yarnpkg.com/tslib/-/tslib-2.8.1.tgz#612efe4ed235d567e8aba5f2a5fab70280ade83f"
   integrity sha512-oJFu94HQb+KVduSUQL7wnpmqnfmLsOA/nAh6b6EH0wCEoK0/mPeXU6c3wKDV83MkOuHPRHtSXKKU99IBazS/2w==
 
-tua-body-scroll-lock@1.5.1:
-  version "1.5.1"
-  resolved "https://registry.yarnpkg.com/tua-body-scroll-lock/-/tua-body-scroll-lock-1.5.1.tgz#1b8b7316dff55a821d5bec3fef045f995e7627a5"
-  integrity sha512-AOjusG9EjTGxqqL1xqg6JeMauJ+IQoX9ITW1qP7UugySUdH6lzi2CqJRmU+oYqOv7vCQjOs5CQrjIakGlbOenQ==
+tua-body-scroll-lock@1.5.3:
+  version "1.5.3"
+  resolved "https://registry.yarnpkg.com/tua-body-scroll-lock/-/tua-body-scroll-lock-1.5.3.tgz#3f1464d599aea4734f31e0754088acd42804e3e8"
+  integrity sha512-44W12iqek41kZuTdpEUt3JTUsMx0IxfTajXWfQyMLgzsPaMYUPZLcJkwa4P0x24h5DQ3lYvDuYvphBo4+L0t4w==
 
 tunnel-agent@^0.6.0:
   version "0.6.0"

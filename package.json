@@ -28,7 +28,7 @@
     "saber-plugin-sitemap": "0.5.0",
     "sharp": "^0.30.7",
     "tinytime": "0.2.6",
-    "tua-body-scroll-lock": "1.5.1"
+    "tua-body-scroll-lock": "1.5.3"
   },
   "workspaces": [
     "packages/*"
