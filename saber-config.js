@@ -124,7 +124,8 @@ module.exports = {
       options: {
         adapter: 'sharp',
         format: 'webp',
-        sizes: [1920, 1200, 720, 480],
+        /* sizes => image width */
+        sizes: [1920, 1200, 720],
         placeholder: true,
         blendIn: false,
       },
