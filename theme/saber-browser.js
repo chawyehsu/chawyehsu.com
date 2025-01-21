@@ -59,13 +59,29 @@ export default ({ __Vue, setHead }) => {
         rel: 'preconnect',
         crossorigin: true,
       },
+      // // It seems that preload is compatible with the Cloudflare Font [1] feature.
+      // // When using preload with the Cloudflare Font feature enabled, some warnings
+      // // will be shown in the console. [2]
+      // //
+      // // Also, According to my testings, Cloudflare Fonts can only handle one
+      // // font family at a time. This means that if you want to load multiple
+      // // font families from Google Fonts, you have to separate them into multiple
+      // // stylesheet links.
+      // //
+      // // [1]: https://developers.cloudflare.com/speed/optimization/content/fonts/troubleshooting/
+      // // [2]: https://community.cloudflare.com/t/cloudflare-fonts-preload/629831/4
+      // //
+      // {
+      //   href: 'https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;700&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap',
+      //   rel: 'preload',
+      //   as: 'style',
+      // },
       {
-        href: 'https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;700&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap',
-        rel: 'preload',
-        as: 'style',
+        href: 'https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap',
+        rel: 'stylesheet',
       },
       {
-        href: 'https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;700&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap',
+        href: 'https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;700&display=swap',
         rel: 'stylesheet',
       },
     ],
