@@ -1,19 +1,19 @@
-const { join } = require('path')
-const { parse } = require('querystring')
+const { join } = require('node:path')
+const { parse } = require('node:querystring')
 
 const ID = 'images'
 
 exports.name = ID
 
-const detectAdapter = (adapter) => {
+function detectAdapter(adapter) {
   if (adapter === 'sharp') {
     try {
       require('sharp') // A test
       // return the acutal adapter
       return require('responsive-loader/sharp')
-    } catch (e) {
-      throw new Error('To use sharp adapter with saber-plugin-image, \
-sharp dependency installation is required.')
+    } catch {
+      throw new Error('To use sharp adapter with saber-plugin-image, '
+        + 'sharp dependency installation is required.')
     }
   }
 }
@@ -25,26 +25,26 @@ exports.apply = (api, options = {}) => {
       lazyLoad: true,
       placeholder: true,
       blendIn: true,
-      markdownImages: true
+      markdownImages: true,
     },
-    options
+    options,
   )
 
   // update adapter string to the actual imported adapter
   options.adapter = detectAdapter(options.adapter)
 
-  api.renderer.hooks.getVueLoaderOptions.tap(ID, options => {
+  api.renderer.hooks.getVueLoaderOptions.tap(ID, (options) => {
     options.transformAssetUrls = Object.assign({}, options.transformAssetUrls, {
-      'saber-image': ['src']
+      'saber-image': ['src'],
     })
     return options
   })
 
   // Convert images in Markdown pages to saber-image
   if (options.markdownImages) {
-    api.hooks.chainMarkdown.tap(ID, config => {
-      config.plugin(ID).use(md => {
-        md.core.ruler.push(ID, state => {
+    api.hooks.chainMarkdown.tap(ID, (config) => {
+      config.plugin(ID).use((md) => {
+        md.core.ruler.push(ID, (state) => {
           const { tokens } = state
 
           for (const token of tokens) {
@@ -59,10 +59,14 @@ exports.apply = (api, options = {}) => {
 
                   const src = child.attrGet('src')
                   const querystring = parse(src.split('?')[1])
-                  Object.keys(querystring).forEach(key => {
+                  Object.keys(querystring).forEach((key) => {
                     const query = querystring[key]
-                    if (query === 'true') querystring[key] = true
-                    if (query === 'false') querystring[key] = false
+                    if (query === 'true') {
+                      querystring[key] = true
+                    }
+                    if (query === 'false') {
+                      querystring[key] = false
+                    }
                   })
 
                   // Native lazy loading
@@ -74,7 +78,7 @@ exports.apply = (api, options = {}) => {
                   children.splice(
                     children.indexOf(child) + 1,
                     0,
-                    new state.Token('image_close', 'saber-image', -1)
+                    new state.Token('image_close', 'saber-image', -1),
                   )
                 }
               }
@@ -85,12 +89,11 @@ exports.apply = (api, options = {}) => {
     })
   }
 
-  api.hooks.chainWebpack.tap(ID, config => {
-
+  api.hooks.chainWebpack.tap(ID, (config) => {
     config.plugin('constants').tap(([constants]) => [
       Object.assign(constants, {
-        __SABER_IMAGE_OPTIONS__: JSON.stringify(options)
-      })
+        __SABER_IMAGE_OPTIONS__: JSON.stringify(options),
+      }),
     ])
 
     config.module.rule('image').exclude.add(/\.(jpe?g|png)$/i)
@@ -101,8 +104,8 @@ exports.apply = (api, options = {}) => {
       .use('responsive-loader')
       .loader(require.resolve('responsive-loader'))
       .options({
-        name: "images/[name]-[hash:8].[ext]",
-        ...options
+        name: 'images/[name]-[hash:8].[ext]',
+        ...options,
       })
   })
 

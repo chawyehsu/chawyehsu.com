@@ -1,17 +1,21 @@
 {
   "name": "saber-plugin-image",
   "version": "0.2.2",
+  "private": true,
+  "license": "MIT",
   "main": "index.js",
   "files": [
     "components",
     "index.js",
     "saber-browser.js"
   ],
-  "license": "MIT",
-  "dependencies": {
-    "responsive-loader": "^2.3.0"
-  },
   "peerDependencies": {
-    "sharp": "^0.30.7"
+    "@alterjs/saber": "^0.14.0",
+    "jimp": "^0.22.12",
+    "sharp": "^0.33.5"
+  },
+  "dependencies": {
+    "lozad": "1.16.0",
+    "responsive-loader": "^3.1.2"
   }
 }
