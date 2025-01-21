@@ -125,7 +125,11 @@ module.exports = {
         adapter: 'sharp',
         format: 'webp',
         /* sizes => image widths, from small to large */
-        sizes: [720, 1200, 1920],
+        /* 740: for media width <= 768 */
+        /* 1200: for media width > 768 */
+        /* 1920: and set the max image width we provide */
+        sizes: [740, 1200, 1920],
+        breakpoints: [768, 1920],
         placeholder: true,
         blendIn: false,
       },
