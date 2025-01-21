@@ -3,7 +3,7 @@ module.exports = {
     lazy: true,
     extractCSS: true,
   },
-  theme: "./theme",
+  theme: './theme',
   siteConfig: {
     lang: 'zh-cn',
     url: 'https://chawyehsu.com',
@@ -13,12 +13,12 @@ module.exports = {
     author: 'Chawye Hsu',
     disqusjs: {
       shortname: 'h404bi',
-      siteName: "Chawye Hsu",
+      siteName: 'Chawye Hsu',
       api: 'https://chawyehsu.com/api/disqus/',
       apikey: 'Hg3FyAX4IodvgGm8OAIpuplfZW5APk2DYcuVk9DEEDSBijKPdPdooKBX7683fo6u',
       admin: 'chawyehsu',
-      adminLabel: 'Mod'
-    }
+      adminLabel: 'Mod',
+    },
   },
   themeConfig: {
     since: '2015',
@@ -28,11 +28,11 @@ module.exports = {
       nav: [
         {
           name: '文章 - Blog',
-          path: '/blog'
+          path: '/blog',
         },
         {
           name: '留言板 - Guestbook',
-          path: '/guestbook'
+          path: '/guestbook',
         },
         // {
         //   name: '项目 - Projects',
@@ -40,45 +40,45 @@ module.exports = {
         // },
         {
           name: '链接 - Links',
-          path: '/links'
+          path: '/links',
         },
         {
           name: '关于 - About',
-          path: '/about'
+          path: '/about',
         },
         {
           name: '订阅 - Subscribe',
-          path: '/feed'
-        }
-      ]
+          path: '/feed',
+        },
+      ],
     },
     footer: {
       links: [
         {
           name: 'Twitter',
-          path: 'https://twitter.com/chawyehsu'
+          path: 'https://twitter.com/chawyehsu',
         },
         {
           name: 'Instagram',
-          path: 'https://www.instagram.com/chawyehsu'
+          path: 'https://www.instagram.com/chawyehsu',
         },
         {
           name: 'Privacy Policy',
-          path: '/legal/privacy'
-        }
-      ]
-    }
+          path: '/legal/privacy',
+        },
+      ],
+    },
   },
   markdown: {
     plugins: [
       {
-        resolve: 'markdown-it-footnote'
+        resolve: 'markdown-it-footnote',
       },
       {
-        resolve: 'markdown-it-cjk-breaks'
+        resolve: 'markdown-it-cjk-breaks',
       },
       {
-        resolve: 'markdown-it-attrs'
+        resolve: 'markdown-it-attrs',
       },
       {
         resolve: 'markdown-it-figure-gallery',
@@ -89,35 +89,35 @@ module.exports = {
           galleryImageClass: 'md-gallery-image',
           photoswipeIntegration: true,
           schemaAttributes: true,
-          wrapImagesInLinks: false
-        }
-      }
-    ]
+          wrapImagesInLinks: false,
+        },
+      },
+    ],
   },
   permalinks: {
     post: '/blog/:slug',
-    page: '/:slug'
+    page: '/:slug',
   },
   plugins: [
     // private plugins
     {
       resolve: 'saber-plugin-baidu-analytics',
       options: {
-        trackId: '25da54bb9d300c118148dcad780da73b'
-      }
+        trackId: '25da54bb9d300c118148dcad780da73b',
+      },
     },
     {
       resolve: './packages/saber-plugin-ga4',
       options: {
         gtagUrl: 'https://chawyehsu.com/api/event',
-        trackId: 'G-3MTYZQ2JGB'
-      }
+        trackId: 'G-3MTYZQ2JGB',
+      },
     },
     {
       resolve: 'saber-plugin-google-adsense',
       options: {
-        adClientId: 'ca-pub-4381515676738667'
-      }
+        adClientId: 'ca-pub-4381515676738667',
+      },
     },
     {
       resolve: './packages/saber-plugin-image',
@@ -126,39 +126,39 @@ module.exports = {
         format: 'webp',
         sizes: [1920, 1200, 720, 480],
         placeholder: true,
-        blendIn: false
-      }
+        blendIn: false,
+      },
     },
     {
       resolve: 'saber-plugin-image-photoswipe',
       options: {
         options: {
-          shareEl: false
+          shareEl: false,
         },
-        auto: true
-      }
+        auto: true,
+      },
     },
     // public plugins
     {
       resolve: 'saber-plugin-sitemap',
       options: {
-        template: './sitemap.xml'
-      }
+        template: './sitemap.xml',
+      },
     },
     {
       resolve: '@alterjs/saber-plugin-feed',
       options: {
-        atomFeed: '/feed/atom.xml'
-      }
+        atomFeed: '/feed/atom.xml',
+      },
     },
     {
       resolve: '@alterjs/saber-plugin-query-posts',
       options: {
         permalinks: {
           category: '/blog/category/:name',
-          tag: '/blog/tag/:name'
-        }
-      }
-    }
-  ]
+          tag: '/blog/tag/:name',
+        },
+      },
+    },
+  ],
 }

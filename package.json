@@ -1,10 +1,13 @@
 {
   "name": "website",
   "version": "0.0.0",
-  "homepage": "https://chawyehsu.com",
+  "private": true,
   "description": "This is Chawye Hsu's website",
   "author": "Chawye Hsu <chawyehsu@hotmail.com>",
-  "private": true,
+  "homepage": "https://chawyehsu.com",
+  "engines": {
+    "node": ">=18"
+  },
   "scripts": {
     "dev": "saber",
     "build": "saber build"
@@ -33,14 +36,14 @@
   "workspaces": [
     "packages/*"
   ],
-  "engines": {
-    "node": ">=18"
-  },
   "volta": {
     "node": "18.20.5",
     "yarn": "1.22.22"
   },
   "devDependencies": {
-    "@vue/runtime-dom": "^3.4.27"
+    "@antfu/eslint-config": "^3.14.0",
+    "@vue/runtime-dom": "^3.4.27",
+    "eslint": "^9.18.0",
+    "typescript": "^5.7.3"
   }
 }
