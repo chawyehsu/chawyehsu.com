@@ -1,30 +1,30 @@
 {
   "name": "saber-plugin-image-photoswipe",
   "version": "0.1.0",
-  "license": "MIT",
   "author": "Chawye Hsu <chawyehsu@hotmail.com>",
+  "license": "MIT",
   "homepage": "https://github.com/chawyehsu/chawyehsu.com#readme",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/chawyehsu/chawyehsu.com.git",
     "directory": "packages/saber-plugin-image-photoswipe"
   },
+  "keywords": [
+    "saber",
+    "saber-plugin",
+    "plugin"
+  ],
   "main": "index.js",
   "files": [
     "index.js",
     "saber-browser.js",
     "shim.js"
   ],
-  "dependencies": {
-    "vue-pswipe": "0.15.3"
-  },
   "peerDependencies": {
     "markdown-it-figure-gallery": "^0.1.0",
     "saber-plugin-image": "^0.2.2"
   },
-  "keywords": [
-    "saber",
-    "saber-plugin",
-    "plugin"
-  ]
+  "dependencies": {
+    "vue-pswipe": "0.15.3"
+  }
 }
