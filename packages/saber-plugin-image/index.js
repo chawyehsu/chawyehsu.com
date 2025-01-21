@@ -18,6 +18,9 @@ function detectAdapter(adapter) {
   }
 }
 
+/**
+ * @param {import('@alterjs/saber').Saber} api
+ */
 exports.apply = (api, options = {}) => {
   options = Object.assign(
     {

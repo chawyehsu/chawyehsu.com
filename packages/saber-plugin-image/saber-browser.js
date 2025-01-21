@@ -1,5 +1,8 @@
-import SaberImage from './components/SaberImage'
+import { withBreakpoints } from './components/SaberImage'
 
 export default ({ Vue }) => {
-  Vue.component(SaberImage.name, SaberImage)
+  // eslint-disable-next-line no-undef
+  const options = __SABER_IMAGE_OPTIONS__
+  const component = withBreakpoints(options.breakpoints)
+  Vue.component(component.name, component)
 }
