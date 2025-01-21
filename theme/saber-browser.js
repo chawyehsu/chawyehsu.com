@@ -65,7 +65,11 @@ export default ({ __Vue, setHead }) => {
       //   as: 'style',
       // },
       {
-        href: 'https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;700&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap',
+        href: 'https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap',
+        rel: 'stylesheet',
+      },
+      {
+        href: 'https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;700&display=swap',
         rel: 'stylesheet',
       },
     ],
