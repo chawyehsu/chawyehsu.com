@@ -5,15 +5,14 @@
 </template>
 
 <script>
-import DisqusJS from 'disqusjs'
-
 export default {
   props: ['page'],
-  mounted () {
-    this.load();
+  async mounted () {
+    const DisqusJS = await import(/* webpackChunkName: "disqusjs" */ 'disqusjs')
+    this.load(DisqusJS.default)
   },
   methods: {
-    load () {
+    load (DisqusJS) {
       const { shortname, sitename, api, apikey, admin, adminLabel } = this.$siteConfig.disqusjs
       const { title, url, author } = this.$siteConfig
       // Spawn DisqusJS instance
