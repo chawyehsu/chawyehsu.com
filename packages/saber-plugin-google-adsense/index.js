@@ -1,4 +1,4 @@
-const path = require('path')
+const path = require('node:path')
 
 const ID = 'google-adsense'
 
@@ -15,9 +15,9 @@ exports.apply = (api, options = {}) => {
       adClientId: null,
       pageLevelAds: false,
       fullWidthResponsive: false,
-      test: false
+      test: false,
     },
-    options
+    options,
   )
 
   if (process.env.NODE_ENV !== 'production') {
@@ -35,11 +35,11 @@ exports.apply = (api, options = {}) => {
     return
   }
 
-  api.hooks.chainWebpack.tap(ID, config => {
+  api.hooks.chainWebpack.tap(ID, (config) => {
     config.plugin('constants').tap(([constants]) => [
       Object.assign(constants, {
-        __SABER_GOOGLE_ADSENSE_OPTIONS__: JSON.stringify(options)
-      })
+        __SABER_GOOGLE_ADSENSE_OPTIONS__: JSON.stringify(options),
+      }),
     ])
   })
 

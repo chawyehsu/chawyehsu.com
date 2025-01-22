@@ -1,19 +1,19 @@
 export default function ({ Vue }) {
   const options = __SABER_GOOGLE_ADSENSE_OPTIONS__ // eslint-disable-line no-undef
 
-  //Google Adsense script importer
+  // Google Adsense script importer
   const loadGaScript = () => {
     if (!window.adsbygoogle) { // avoid duplicate import
-      var ads = document.createElement('script')
+      const ads = document.createElement('script')
       ads.async = true
-      ads.src = options['adsenseScriptUrl']
+      ads.src = options.adsenseScriptUrl
       ads.onload = () => {
         (window.adsbygoogle = window.adsbygoogle || []).push({
-          google_ad_client: options['adClientId'],
-          enable_page_level_ads: options['pageLevelAds']
+          google_ad_client: options.adClientId,
+          enable_page_level_ads: options.pageLevelAds,
         })
       }
-      var s = document.getElementsByTagName('script')[0]
+      const s = document.getElementsByTagName('script')[0]
       s.parentNode.insertBefore(ads, s)
     }
   }
@@ -23,41 +23,41 @@ export default function ({ Vue }) {
     props: {
       adClient: {
         type: String,
-        default: options['adClientId']
+        default: options.adClientId,
       },
       adSlot: {
-        type: String
+        type: String,
       },
       adFormat: {
         type: String,
-        default: 'auto'
+        default: 'auto',
       },
       adLayout: {
-        type: String
+        type: String,
       },
       adLayoutKey: {
-        type: String
+        type: String,
       },
       adStyle: {
         type: Object,
-        default () {
+        default() {
           return {
-            display: 'block'
+            display: 'block',
           }
-        }
-      }
+        },
+      },
     },
-    data () {
+    data() {
       return {
-        show: true
+        show: true,
       }
     },
-    mounted () {
+    mounted() {
       loadGaScript() // import ga script before renderer ads
       this.showAd()
     },
     watch: {
-      '$route' (to, from) {
+      $route(to, from) {
         if (to.fullPath === from.fullPath) {
           return
         }
@@ -72,19 +72,19 @@ export default function ({ Vue }) {
           // If the route has changed, update the ad
           this.updateAd()
         }
-      }
+      },
     },
     methods: {
-      adRegion () {
-        return 'page-' + Math.random()
+      adRegion() {
+        return `page-${Math.random()}`
       },
-      updateAd () {
+      updateAd() {
         // Reset the INS element
         this.show = false
         // Show new ad on nextTick
         this.$nextTick(this.showAd)
       },
-      showAd () {
+      showAd() {
         this.show = true
         this.$nextTick(() => {
           try {
@@ -94,13 +94,13 @@ export default function ({ Vue }) {
             console.error(error)
           }
         })
-      }
+      },
     },
-    render (h) {
+    render(h) {
       return h(
         'ins',
         {
-          'class': ['adsbygoogle'],
+          class: ['adsbygoogle'],
           style: this.adStyle,
           attrs: {
             'data-ad-client': this.adClient,
@@ -109,15 +109,15 @@ export default function ({ Vue }) {
             'data-ad-region': this.show ? this.adRegion() : null,
             'data-ad-layout': this.adLayout || null,
             'data-ad-layout-key': this.adLayoutKey || null,
-            'data-full-width-responsive': options['fullWidthResponsive'] ? 'true' : 'false',
-            'data-adtest': options['test'] ? 'on' : null
+            'data-full-width-responsive': options.fullWidthResponsive ? 'true' : 'false',
+            'data-adtest': options.test ? 'on' : null,
           },
           domProps: {
-            innerHTML: this.show ? '' : ' '
+            innerHTML: this.show ? '' : ' ',
           },
-          key: Math.random()
-        }
+          key: Math.random(),
+        },
       )
-    }
+    },
   })
 }
