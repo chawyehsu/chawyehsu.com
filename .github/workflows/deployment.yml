@@ -14,7 +14,7 @@ jobs:
       - run: sudo timedatectl set-timezone Asia/Shanghai
       # checkout source
       - name: Checkout
-        uses: actions/checkout@v2
+        uses: actions/checkout@v4
       # setup node.js
       - name: Setup Node (via Volta)
         uses: volta-cli/action@v4
@@ -24,7 +24,7 @@ jobs:
         run: echo "::set-output name=dir::$(yarn cache dir)"
       # update cache
       - name: Cache dependencies
-        uses: actions/cache@v3
+        uses: actions/cache@v4
         with:
           path: ${{ steps.yarn-cache.outputs.dir }}
           key: ${{ runner.os }}-yarn-${{ hashFiles('**/yarn.lock') }}
@@ -35,7 +35,7 @@ jobs:
       - run: yarn build
       # deployment
       - name: Deploy
-        uses: peaceiris/actions-gh-pages@v3
+        uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./public
