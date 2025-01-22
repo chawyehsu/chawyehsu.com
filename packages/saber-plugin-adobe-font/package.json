@@ -3,13 +3,8 @@
   "version": "0.3.0",
   "description": "Adobe Font plugin for Saber",
   "author": "Chawye Hsu <chawyehsu@hotmail.com>",
-  "homepage": "https://github.com/chawyehsu/chawyehsu.com#readme",
   "license": "MIT",
-  "main": "index.js",
-  "files": [
-    "index.js",
-    "saber-browser.js"
-  ],
+  "homepage": "https://github.com/chawyehsu/chawyehsu.com#readme",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/chawyehsu/chawyehsu.com.git",
@@ -22,5 +17,10 @@
     "static-site-generator",
     "adobe",
     "font"
+  ],
+  "main": "index.js",
+  "files": [
+    "index.js",
+    "saber-browser.js"
   ]
 }

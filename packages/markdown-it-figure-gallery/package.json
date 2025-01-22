@@ -2,28 +2,28 @@
   "name": "markdown-it-figure-gallery",
   "version": "0.2.0",
   "description": "A markdown-it plugin for wrapping images with figure or gallery block element",
-  "license": "MIT",
   "author": "Chawye Hsu <chawyehsu@hotmail.com>",
+  "license": "MIT",
   "homepage": "https://github.com/chawyehsu/chawyehsu.com#readme",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/chawyehsu/chawyehsu.com.git",
     "directory": "packages/markdown-it-figure-gallery"
   },
-  "files": [
-    "index.js"
-  ],
-  "main": "index.js",
-  "peerDependencies": {
-    "markdown-it": "^9.0.0"
-  },
-  "engines": {
-    "node": ">=12.0.0"
-  },
   "keywords": [
     "markdown-it",
     "markdown",
     "plugin",
     "markdown-it-plugin"
-  ]
+  ],
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
+  "engines": {
+    "node": ">=12.0.0"
+  },
+  "peerDependencies": {
+    "markdown-it": "^9.0.0"
+  }
 }
