@@ -1,22 +1,16 @@
-<template>
-  <section class="page-comments">
-    <div id="disqus_thread"></div>
-  </section>
-</template>
-
 <script>
 export default {
   props: ['page'],
-  async mounted () {
+  async mounted() {
     const DisqusJS = await import(/* webpackChunkName: "disqusjs" */ 'disqusjs')
     this.load(DisqusJS.default)
   },
   methods: {
-    load (DisqusJS) {
+    load(DisqusJS) {
       const { shortname, sitename, api, apikey, admin, adminLabel } = this.$siteConfig.disqusjs
       const { title, url, author } = this.$siteConfig
       // Spawn DisqusJS instance
-      new DisqusJS({
+      const _ = new DisqusJS({
         shortname: shortname || author,
         siteName: sitename || title,
         identifier: this.page.permalink,
@@ -25,12 +19,18 @@ export default {
         api,
         apikey,
         admin: admin || author,
-        adminLabel
+        adminLabel,
       })
-    }
-  }
+    },
+  },
 }
 </script>
+
+<template>
+  <section class="page-comments">
+    <div id="disqus_thread" />
+  </section>
+</template>
 
 <style>
 @import '~disqusjs/dist/disqusjs.css';

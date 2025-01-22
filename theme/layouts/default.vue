@@ -1,27 +1,52 @@
+<script>
+import Disqus from '../components/Disqus.vue'
+import SiteFooter from '../components/Footer.vue'
+import SiteHeader from '../components/Header.vue'
+import { date, head } from '../utils'
+
+export default {
+  components: {
+    SiteHeader,
+    SiteFooter,
+    Disqus,
+  },
+  props: ['page'],
+  head() {
+    return head(this)
+  },
+  methods: {
+    date,
+  },
+}
+</script>
+
 <template>
   <div class="main-container">
-    <Header />
+    <SiteHeader />
     <main>
       <article class="page-content" role="main" itemscope itemtype="https://schema.org/Article">
         <header class="page-header">
           <section class="page-head-content">
-            <h1 class="page-title">{{ page.title }}</h1>
-            <div class="page-meta" v-if="!page.nometa">
-              <section class="page-author" v-if="page.author || $siteConfig.author">
+            <h1 class="page-title">
+              {{ page.title }}
+            </h1>
+            <div v-if="!page.nometa" class="page-meta">
+              <section v-if="page.author || $siteConfig.author" class="page-author">
                 <span>{{ page.author || $siteConfig.author }}</span>
               </section>
               <section class="page-datetime">
                 <time
                   class="published"
-                  :datetime="new Date(page.createdAt).toISOString()">
+                  :datetime="new Date(page.createdAt).toISOString()"
+                >
                   {{ date(page.createdAt, '{YYYY}/{Mo}/{DD}') }}
                 </time>
-                <!--<time
+                <!-- <time
                   v-if="page.updatedAt > page.createdAt"
                   class="updated"
                   :datetime="new Date(page.updatedAt).toISOString()">
                   {{ date(page.updatedAt, '{YYYY}/{Mo}/{DD}') }}
-                </time>-->
+                </time> -->
               </section>
             </div>
           </section>
@@ -31,34 +56,13 @@
         </section>
         <Disqus
           v-if="page.comments !== false && $siteConfig.disqusjs"
-          :page="page" />
+          :page="page"
+        />
       </article>
-      <Footer />
+      <SiteFooter />
     </main>
   </div>
 </template>
-
-<script>
-import Header from '../components/Header.vue'
-import Footer from '../components/Footer.vue'
-import Disqus from '../components/Disqus.vue'
-import { date, head } from '../utils'
-
-export default {
-  props: ['page'],
-  components: {
-    Header,
-    Footer,
-    Disqus
-  },
-  methods: {
-    date
-  },
-  head () {
-    return head(this)
-  }
-}
-</script>
 
 <style scoped>
 .page-content {

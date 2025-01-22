@@ -1,52 +1,16 @@
-<template>
-  <aside class="sidebar">
-    <header>
-      <div class="logo-outer flex">
-        <a class="inline-block" :href="$themeConfig.header.logo_url" :title="$siteConfig.title">
-          <svg class="logo block" fill="none" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
-            <path d="M0 0h512v512H0z" fill="#000"/>
-            <path d="M39 39h104.423v34.808H39zM431.712 262.154h34.808V471h-34.808zM348.173 349.173h83.538v34.808h-83.538zM313.365 262.154h34.808V471h-34.808z" fill="#fff"/>
-            <path d="m247.23 296.96h34.808v34.808h-34.808zm-87.019-34.808h87.019v34.808h-87.019zm87.019 139.23h34.808v34.808h-34.808zm-87.019 34.807h87.019v34.808h-87.019zm-34.808-139.23h34.808v139.23h-34.808z" fill="#fff"/>
-          </svg>
-        </a>
-      </div>
-      <div class="burger-outer">
-        <span
-          @click="toggleNavbarMenu()"
-          ref="burger"
-          class="burger">
-          <span></span>
-          <span></span>
-          <span></span>
-        </span>
-      </div>
-    </header>
-    <div class="navbar" ref="navbar">
-      <nav>
-        <ul>
-          <li :key="index" v-for="(item, index) in $themeConfig.header.nav">
-            <saber-link
-            :to="item.path"
-            v-text="item.name">
-            </saber-link>
-          </li>
-          <li><SchemeSwitcher /></li>
-        </ul>
-      </nav>
-    </div>
-  </aside>
-</template>
-
 <script>
+import { clearBodyLocks, lock, unlock } from 'tua-body-scroll-lock'
 import SchemeSwitcher from './SchemeSwitcher'
-import { lock, unlock, clearBodyLocks } from 'tua-body-scroll-lock'
 
 export default {
   components: {
-    SchemeSwitcher
+    SchemeSwitcher,
+  },
+  beforeUnmount() {
+    clearBodyLocks()
   },
   methods: {
-    toggleNavbarMenu () {
+    toggleNavbarMenu() {
       this.$refs.burger.classList.toggle('is-active')
       const $navbar = this.$refs.navbar
       $navbar.classList.toggle('is-active')
@@ -55,13 +19,49 @@ export default {
       } else {
         unlock($navbar)
       }
-    }
+    },
   },
-  beforeDestroy () {
-    clearBodyLocks()
-  }
 }
 </script>
+
+<template>
+  <aside class="sidebar">
+    <header>
+      <div class="logo-outer flex">
+        <a class="inline-block" :href="$themeConfig.header.logo_url" :title="$siteConfig.title">
+          <svg class="logo block" fill="none" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+            <path d="M0 0h512v512H0z" fill="#000" />
+            <path d="M39 39h104.423v34.808H39zM431.712 262.154h34.808V471h-34.808zM348.173 349.173h83.538v34.808h-83.538zM313.365 262.154h34.808V471h-34.808z" fill="#fff" />
+            <path d="m247.23 296.96h34.808v34.808h-34.808zm-87.019-34.808h87.019v34.808h-87.019zm87.019 139.23h34.808v34.808h-34.808zm-87.019 34.807h87.019v34.808h-87.019zm-34.808-139.23h34.808v139.23h-34.808z" fill="#fff" />
+          </svg>
+        </a>
+      </div>
+      <div class="burger-outer">
+        <span
+          ref="burger"
+          class="burger"
+          @click="toggleNavbarMenu()"
+        >
+          <span />
+          <span />
+          <span />
+        </span>
+      </div>
+    </header>
+    <div ref="navbar" class="navbar">
+      <nav>
+        <ul>
+          <li v-for="(item, index) in $themeConfig.header.nav" :key="index">
+            <saber-link :to="item.path">
+              {{ item.name }}
+            </saber-link>
+          </li>
+          <li><SchemeSwitcher /></li>
+        </ul>
+      </nav>
+    </div>
+  </aside>
+</template>
 
 <style scoped>
 .burger {
