@@ -1,5 +1,5 @@
-const url = require('url')
-const path = require('path')
+const path = require('node:path')
+const url = require('node:url')
 const ejs = require('./lib/ejs')
 
 const ID = 'generate-sitemap'
@@ -10,7 +10,7 @@ exports.apply = (api, options = {}) => {
   // Plugin options
   options = Object.assign({
     path: 'sitemap.xml',
-    template: path.join(__dirname, 'sitemap.xml')
+    template: path.join(__dirname, 'sitemap.xml'),
   }, options)
 
   const { siteConfig } = api.config
@@ -33,7 +33,7 @@ exports.apply = (api, options = {}) => {
           date: page.createdAt,
           updated: page.updatedAt,
           // Also expose original page attributes
-          attributes: page
+          attributes: page,
         })
       }
     }
@@ -48,20 +48,20 @@ exports.apply = (api, options = {}) => {
       const { fs } = api.utils
       log.info(`Generating sitemap.xml`)
       const xml = ejs.compile(fs.readFileSync(options.template, 'utf8'))({
-        posts: posts
+        posts,
       })
       await fs.outputFile(
         path.resolve(api.resolveOutDir(), options.path),
         xml,
-        'utf8'
+        'utf8',
       )
     }
   })
 
-  api.hooks.defineVariables.tap(ID, variables => {
+  api.hooks.defineVariables.tap(ID, (variables) => {
     return Object.assign(variables, {
       sitemap: true,
-      sitemapLink: sitemapLink
+      sitemapLink,
     })
   })
 }
