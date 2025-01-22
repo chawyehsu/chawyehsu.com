@@ -1,37 +1,40 @@
-export default vm => {
+export default (vm) => {
   const lang = vm.page.lang || vm.$siteConfig.lang
   const title = (vm.page.title && vm.page.title !== vm.$siteConfig.title)
-    ? `${vm.page.title} - ${vm.$siteConfig.title}` : vm.$siteConfig.title
+    ? `${vm.page.title} - ${vm.$siteConfig.title}`
+    : vm.$siteConfig.title
   const description = vm.page.description || vm.$siteConfig.description
   let keywords = vm.$siteConfig.keywords
-  if (vm.page.tags) keywords += `,${vm.page.tags.map(tag => tag.name).join(',')}`
+  if (vm.page.tags) {
+    keywords += `,${vm.page.tags.map(tag => tag.name).join(',')}`
+  }
 
   const meta = [
     {
       name: 'description',
       content: description,
-      hid: 'description'
+      hid: 'description',
     },
     {
       name: 'keywords',
-      content: keywords
+      content: keywords,
     },
     {
       property: 'og:title',
-      content: title
+      content: title,
     },
     {
       property: 'og:description',
-      content: description
+      content: description,
     },
     {
       name: 'twitter:title',
-      content: title
+      content: title,
     },
     {
       name: 'twitter:description',
-      content: description
-    }
+      content: description,
+    },
   ]
 
   if (vm.page.assets.cover || vm.page.assets.og) {
@@ -45,26 +48,26 @@ export default vm => {
 
     meta.push({
       property: 'og:image',
-      content: image
+      content: image,
     }, {
       property: 'twitter:image:src',
-      content: image
+      content: image,
     })
   }
 
   const canonical = `${vm.$siteConfig.url}${vm.page.permalink}`.replace(/\/+$/, '')
 
   return {
-    title: title,
-    meta: meta,
+    title,
+    meta,
     htmlAttrs: {
-      lang: lang
+      lang,
     },
     link: [
       {
         rel: 'canonical',
-        href: canonical
-      }
-    ]
+        href: canonical,
+      },
+    ],
   }
 }
