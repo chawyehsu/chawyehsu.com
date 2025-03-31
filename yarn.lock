@@ -1282,6 +1282,11 @@ cli-cursor@^2.1.0:
   dependencies:
     restore-cursor "^2.0.0"
 
+client-only@^0.0.1:
+  version "0.0.1"
+  resolved "https://registry.yarnpkg.com/client-only/-/client-only-0.0.1.tgz#38bba5d403c41ab150bff64a95c85013cf73bca1"
+  integrity sha512-IV3Ou0jSMzZrd3pZ48nLkT9DA7Ag1pnPzaiQhpW7c3RbcqqzvzzVu+L8gfqMp/8IM2MQtSiqaCxrrcfu8I8rMA==
+
 cliui@^8.0.1:
   version "8.0.1"
   resolved "https://registry.yarnpkg.com/cliui/-/cliui-8.0.1.tgz#0c04b075db02cbfe60dc8e6cf2f5486b1a3608aa"
@@ -1488,10 +1493,13 @@ devlop@^1.0.0, devlop@^1.1.0:
   dependencies:
     dequal "^2.0.0"
 
-disqusjs@1.3.0:
-  version "1.3.0"
-  resolved "https://registry.yarnpkg.com/disqusjs/-/disqusjs-1.3.0.tgz#6ae8040e3a999e04ef977095573e0bf3c82b1542"
-  integrity sha512-m9eu1FjydynqxcbdH6C74be6JB961wseQWhs3JrkZg7frvpsV7zyC43yR7f2oK6ooxhjuvk6ek9Z84BTkn0/ww==
+disqusjs@3.1.0:
+  version "3.1.0"
+  resolved "https://registry.yarnpkg.com/disqusjs/-/disqusjs-3.1.0.tgz#9bc647656967e2f126c2df91fb85bd320692dd8b"
+  integrity sha512-sT1V/CxMdhkgG0Fep+jNCxlqgb8tqthP1JUzYUDGjN7XduG5c7OdUpdgiEW9lFEPQubZDm342duvqU1S1jGgsA==
+  dependencies:
+    foxact "^0.2.45"
+    foxts "^3.0.1"
 
 doctrine@^3.0.0:
   version "3.0.0"
@@ -2130,6 +2138,19 @@ flatted@^3.2.9:
   version "3.3.2"
   resolved "https://registry.yarnpkg.com/flatted/-/flatted-3.3.2.tgz#adba1448a9841bec72b42c532ea23dbbedef1a27"
   integrity sha512-AiwGJM8YcNOaobumgtng+6NHuOqC3A7MixFeDafM3X9cIUM+xUXoS5Vfgf+OihAYe20fxqNM9yPBXJzRtZ/4eA==
+
+foxact@^0.2.45:
+  version "0.2.45"
+  resolved "https://registry.yarnpkg.com/foxact/-/foxact-0.2.45.tgz#97bfe3cca81c2d6ae0a21721102455ad6743a7a1"
+  integrity sha512-pizJ+4hlSxs+mZKjJxhcwzY1uR4/7paZGgU/NQLrzY6Q0wa8RBZvhOxzg/HzXRAcglTt2y6DlIqPn85cTNdmcg==
+  dependencies:
+    client-only "^0.0.1"
+    server-only "^0.0.1"
+
+foxts@^3.0.1:
+  version "3.0.1"
+  resolved "https://registry.yarnpkg.com/foxts/-/foxts-3.0.1.tgz#48224551cffcab4f28d14b587e2fb61d6df1e875"
+  integrity sha512-c8t5vWw0VrUZ3QnBarcj542zLqEmbnXswMv5NzmKDy1MXPr8wMS+9BJT3iDZKfrmF3ZF3P30Mi8iDsdHCiEWuA==
 
 fresh@0.5.2:
   version "0.5.2"
@@ -3682,6 +3703,21 @@ run-parallel@^1.1.9:
   dependencies:
     queue-microtask "^1.2.2"
 
+saber-plugin-adobe-font@0.3.0:
+  version "0.3.0"
+  resolved "https://registry.yarnpkg.com/saber-plugin-adobe-font/-/saber-plugin-adobe-font-0.3.0.tgz#8257df2c694ffcdebf0ccd65b81064fcf54839da"
+  integrity sha512-g2qy08Y0TTGsO8H/KwHY3Qj21XK4EeOgk34QyXriTu/5BXwheR9/cbR3neq1aTWs7j7U2ior7xRQSjPSWQ7ADw==
+
+saber-plugin-ga-lite@0.4.0:
+  version "0.4.0"
+  resolved "https://registry.yarnpkg.com/saber-plugin-ga-lite/-/saber-plugin-ga-lite-0.4.0.tgz#8a241cff1007bd05362a52e509c0d446b415d408"
+  integrity sha512-v1qIZpCY+K+vLlnkqSoDC/08Dt0IQQHCpUk3Zu1OZVsR0LnWadD1cksrxXLOAcm0Ytm429WXhquEHuWGECjPcA==
+
+saber-plugin-jsdelivr-cdn@0.1.0:
+  version "0.1.0"
+  resolved "https://registry.yarnpkg.com/saber-plugin-jsdelivr-cdn/-/saber-plugin-jsdelivr-cdn-0.1.0.tgz#cbd3bd8723e6bacfb77cff0f8830533249d000a3"
+  integrity sha512-SrJIEDuOTm90r8+cX6LR+dImMZSMqVPhiGSKwe0aOGJuMM9UiBltfimfJCmB1vVo1ZsxratuHK99u+DqDHwB3Q==
+
 safe-buffer@^5.1.0:
   version "5.2.1"
   resolved "https://registry.yarnpkg.com/safe-buffer/-/safe-buffer-5.2.1.tgz#1eaf9fa9bdb1fdd4ec75f58f9cdb4e6b7827eec6"
@@ -3765,6 +3801,11 @@ serve-static@1.16.2:
     escape-html "~1.0.3"
     parseurl "~1.3.3"
     send "0.19.0"
+
+server-only@^0.0.1:
+  version "0.0.1"
+  resolved "https://registry.yarnpkg.com/server-only/-/server-only-0.0.1.tgz#0f366bb6afb618c37c9255a314535dc412cd1c9e"
+  integrity sha512-qepMx2JxAa5jjfzxG79yPPq+8BuFToHd1hm7kI+Z4zAq1ftQiP7HcxMhDDItrbtwVeLg/cY2JnKnrcFkmiswNA==
 
 setprototypeof@1.2.0:
   version "1.2.0"
