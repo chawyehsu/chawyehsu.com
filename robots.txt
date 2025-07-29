@@ -1,7 +1,9 @@
 Sitemap: https://chawyehsu.com/sitemap.xml
 
 User-agent: *
+Disallow: /api
 Disallow: /drafts
+Disallow: /_saber
 Disallow: /*?utm=*
 
 User-agent: Googlebot-Image
