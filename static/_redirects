@@ -1,6 +1,2 @@
 # https://developers.cloudflare.com/pages/configuration/redirects/
 /blog/:year/:month/:slug /blog/:slug 301
-/blog/ /blog 301
-/guestbook/ /guestbook 301
-/links/ /links 301
-/about/ /about 301
