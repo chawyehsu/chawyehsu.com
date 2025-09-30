@@ -14,6 +14,7 @@ module.exports = {
     disqusjs: {
       shortname: 'h404bi',
       siteName: 'Chawye Hsu',
+      api: 'https://disqus.com/api/',
       apikey: 'Hg3FyAX4IodvgGm8OAIpuplfZW5APk2DYcuVk9DEEDSBijKPdPdooKBX7683fo6u',
       admin: 'chawyehsu',
       adminLabel: 'Mod',
