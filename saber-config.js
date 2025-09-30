@@ -14,7 +14,6 @@ module.exports = {
     disqusjs: {
       shortname: 'h404bi',
       siteName: 'Chawye Hsu',
-      api: 'https://chawyehsu.com/api/disqus/',
       apikey: 'Hg3FyAX4IodvgGm8OAIpuplfZW5APk2DYcuVk9DEEDSBijKPdPdooKBX7683fo6u',
       admin: 'chawyehsu',
       adminLabel: 'Mod',
@@ -106,13 +105,13 @@ module.exports = {
         trackId: '25da54bb9d300c118148dcad780da73b',
       },
     },
-    {
-      resolve: './packages/saber-plugin-ga4',
-      options: {
-        gtagUrl: 'https://chawyehsu.com/api/event',
-        trackId: 'G-3MTYZQ2JGB',
-      },
-    },
+    // {
+    //   resolve: './packages/saber-plugin-ga4',
+    //   options: {
+    //     gtagUrl: 'https://chawyehsu.com/api/event',
+    //     trackId: 'G-3MTYZQ2JGB',
+    //   },
+    // },
     {
       resolve: 'saber-plugin-google-adsense',
       options: {
