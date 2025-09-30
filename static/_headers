@@ -1,0 +1,6 @@
+# https://developers.cloudflare.com/pages/configuration/headers/
+/_saber/images/*
+  Cache-Control: public, max-age=31536000
+
+/feed/atom.xml
+  Cache-Control: public, max-age=21600
